@@ -1,0 +1,261 @@
+*author: ADAMCZYK
+*reference: PRL 114,252302 : 2015
+*reference: ARXIV:1504.02175 : 2015
+*doi: 10.1103/PhysRevLett.114.252302
+*status: Encoded 30 MAR 2016 by Nickolas Luttrell (Rice University)
+*title: Observation of charge asymmetry dependence of pion elliptic flow and the possible chiral magnetic wave in heavy-ion collisions
+*comment: BNL-RHIC.  We present measurements of $\pi^-$ and $\pi^+$ elliptic flow, $v_2$, at midrapidity in Au+Au collisions at $\sqrt{s_{_{\rm NN}}} =$ 200, 62.4, 39, 27, 19.6, 11.5 and 7.7 GeV, as a function of event-by-event charge asymmetry, $A_{ch}$, based on data from the STAR experiment at RHIC. We find that $\pi^-$ ($\pi^+$) elliptic flow linearly increases (decreases) with charge asymmetry for most centrality bins at $\sqrt{s_{_{\rm NN}}} = \text{27 GeV}$ and higher. At $\sqrt{s_{_{\rm NN}}} = \text{200 GeV}$, the slope of the difference of $v_2$ between $\pi^-$ and $\pi^+$ as a function of $A_{ch}$ exhibits a centrality dependence, which is qualitatively similar to calculations that incorporate a chiral magnetic wave effect. Similar centrality dependence is also observed at lower energies
+*durhamId: 6546
+*inspireId: 1358666
+*cdsId: 
+*detector: STAR
+*experiment: BNL-RHIC-STAR
+*dataset:
+*location: Figure 1a
+*dscomment:  The distribution of observed charge asymmetry from STAR data
+*obskey:
+*reackey: AU AU --> (PI+ + PI-)
+*qual: SQRT(S): 200 GeV
+*qual: Centrality: 30-40%
+*xheader: Charge Asymmetry $A_{ch}$
+*yheader: Counts
+*data: x : y
+-0.503; 7.0
+-0.489; 2.0
+-0.475; 4.0
+-0.461; 13.0
+-0.447; 5.0
+-0.433; 10.0
+-0.419; 3.0
+-0.405; 13.0
+-0.391; 13.0
+-0.377; 5.0
+-0.363; 19.0
+-0.349; 12.0
+-0.335; 27.0
+-0.321; 18.0
+-0.307; 31.0
+-0.293; 43.0
+-0.279; 53.0
+-0.265; 78.0
+-0.251; 83.0
+-0.237; 88.0
+-0.223; 158.0
+-0.209; 296.0
+-0.195; 562.0
+-0.181; 1140.0
+-0.167; 2520.0
+-0.153; 4910.0
+-0.139; 9960.0
+-0.125; 18500.0
+-0.111; 34100.0
+-0.097; 58700.0
+-0.083; 95700.0
+-0.069; 143000.0
+-0.055; 207000.0
+-0.041; 271000.0
+-0.027; 340000.0
+-0.013; 376000.0
+0.001; 426000.0
+0.015; 429000.0
+0.029; 392000.0
+0.043; 339000.0
+0.057; 278000.0
+0.071; 208000.0
+0.085; 148000.0
+0.099; 96200.0
+0.113; 59900.0
+0.127; 34000.0
+0.141; 19100.0
+0.155; 9790.0
+0.169; 4930.0
+0.183; 2280.0
+0.197; 1060.0
+0.211; 449.0
+0.225; 230.0
+0.239; 86.0
+0.253; 39.0
+0.267; 29.0
+0.281; 14.0
+0.295; 8.0
+0.309; 7.0
+0.323; 2.0
+0.337; 10.0
+0.351; 1.0
+0.365; 3.0
+0.379; 1.0
+0.393; 0.0
+0.407; 2.0
+0.421; 0.0
+0.435; 1.0
+0.449; 1.0
+0.463; 2.0
+0.477; 0.0
+0.491; 0.0
+0.505; 3.0
+*dataend:
+*dataset:
+*location: Figure 2a
+*dscomment:   Pion $v_2${2} as a function of observed charge asymmetry
+*obskey:V2
+*reackey: AU AU --> (PI+ + PI-)
+*qual: SQRT(S): 200 GeV
+*qual: Centrality: 30-40%
+*qual: Particle Type: $\pi^+$: $\pi^-$
+*xheader: Observed $A_{ch}$
+*yheader: 
+*data: x : y : y
+-0.068; 3.24 +- 0.0103; 3.18 +- 0.00954
+-0.021; 3.19 +- 0.00962; 3.19 +- 0.00933
+0.007; 3.18 +- 0.00935; 3.22 +- 0.0093
+0.035; 3.17 +- 0.00936; 3.23 +- 0.00956
+0.082; 3.14 +- 0.0092; 3.29 +- 0.0098
+*dataend:
+*dataset:
+*location: Figure 2b
+*dscomment:   $v_2$ difference between $\pi^-$ and $\pi^+$ as a function of charge asymmetry with the tracking efficiency correction, for 30-40% central Au+Au collisions at 200 GeV. The errors are statistical only.
+*obskey: V2
+*reackey: AU AU --> (PI+ + PI-)
+*qual: SQRT(S): 200 GeV
+*qual: Centrality: 30-40%
+*xheader: $A_{ch}$
+*yheader: $\Delta v_2$
+*data: x : y : y
+-0.028; -0.0564 +- 0.014
+-0.00841; -0.00115 +- 0.0134
+0.00325; 0.039 +- 0.0132
+0.0149; 0.065 +- 0.0134
+0.0345; 0.146 +- 0.0134
+*dataend:
+*dataset:
+*location: Figure 4
+*dscomment: The slope parameter r as a function of centrality for all the collision energies under study. For comparison, we also show the calculations with CMW [34] with different duration times. The grey bands carry the same meaning as those in Fig. 3.
+*obskey:
+*reackey: AU AU --> (PI+ + PI-)
+*qual: SQRT(S): 200GeV
+*xheader: Centrality %
+*yheader: Slope Parameter r
+*data: x : y
+2.5; -3.3529 +- 1.0554 (DSYS=-1.8807, 2.9704)
+7.5; 0.1979 +- 0.701 (DSYS=-0.9084, 0.8924)
+15.0; 1.5917 +- 0.3874 (DSYS=-0.1464, 0.5688)
+25.0; 2.8232 +- 0.3091 (DSYS=-0.2651, 0.0)
+35.0; 3.1986 +- 0.2903 (DSYS=-0.3628, 0.2414)
+45.0; 2.6516 +- 0.2921 (DSYS=-0.3903, 0.5652)
+55.0; 2.8016 +- 0.3657 (DSYS=-1.2208, 0.1424)
+65.0; 1.2459 +- 0.5119 (DSYS=-0.3254, 0.9283)
+75.0; -2.195 +- 0.9593 (DSYS=-0.1007, 4.8378)
+*dataend:
+*dataset:
+*location: Figure 4
+*dscomment: The slope parameter r as a function of centrality for all the collision energies under study. For comparison, we also show the calculations with CMW [34] with different duration times. The grey bands carry the same meaning as those in Fig. 3.
+*obskey:
+*reackey: AU AU --> (PI+ + PI-)
+*qual: SQRT(S): 62.4GeV
+*xheader: Centrality %
+*yheader: Slope Parameter r
+*data: x : y
+2.5; -2.1195 +- 1.4353 (DSYS=-0.3026, 0.7689)
+7.5; 1.0851 +- 0.9976 (DSYS=-0.0739, 0.5799)
+15.0; 2.3433 +- 0.5234 (DSYS=-0.4619, 0.186)
+25.0; 2.5624 +- 0.4545 (DSYS=-0.1945, 0.2534)
+35.0; 2.0022 +- 0.4615 (DSYS=-0.3158, 0.2194)
+45.0; 3.4644 +- 0.5916 (DSYS=-0.9931, 0.2663)
+55.0; 1.3145 +- 0.788 (DSYS=-0.1746, 0.2168)
+65.0; 3.4688 +- 1.4462 (DSYS=-2.4203, 0.3004)
+75.0; 2.0487 +- 2.0354 (DSYS=-4.7899, 0.613)
+*dataend:
+*dataset:
+*location: Figure 4
+*dscomment: The slope parameter r as a function of centrality for all the collision energies under study. For comparison, we also show the calculations with CMW [34] with different duration times. The grey bands carry the same meaning as those in Fig. 3.
+*obskey:
+*reackey: AU AU --> (PI+ + PI-)
+*qual: SQRT(S): 39GeV
+*xheader: Centrality %
+*yheader: Slope Parameter r
+*data: x : y
+2.5; 1.05 +- 0.9656 (DSYS=-0.1022, 0.4815)
+7.5; -0.5643 +- 0.6672 (DSYS=-0.0357, 2.2672)
+15.0; 1.261 +- 0.3707 (DSYS=-0.5095, 0.6159)
+25.0; 2.071 +- 0.3288 (DSYS=-0.3138, 0.4311)
+35.0; 2.409 +- 0.3579 (DSYS=-0.463, 0.1866)
+45.0; 1.202 +- 0.4241 (DSYS=-0.1264, 0.4605)
+55.0; 1.646 +- 0.5824 (DSYS=-0.124, 0.1546)
+65.0; 0.5472 +- 0.8984 (DSYS=-0.9864, 0.0429)
+75.0; -3.041 +- 1.376 (DSYS=-0.246, 1.9806)
+*dataend:
+*dataset:
+*location: Figure 4
+*dscomment: The slope parameter r as a function of centrality for all the collision energies under study. For comparison, we also show the calculations with CMW [34] with different duration times. The grey bands carry the same meaning as those in Fig. 3.
+*obskey:
+*reackey: AU AU --> (PI+ + PI-)
+*qual: SQRT(S): 27GeV
+*xheader: Centrality %
+*yheader: Slope Parameter r
+*data: x : y
+2.5; -0.4343 +- 1.979 (DSYS=-0.4674, 0.8974)
+7.5; -0.2952 +- 1.321 (DSYS=-0.7203, 1.2315)
+15.0; 2.472 +- 0.7572 (DSYS=-0.4986, 0.1878)
+25.0; 2.615 +- 0.6918 (DSYS=-0.1722, 0.382)
+35.0; 3.1707 +- 0.7087 (DSYS=-0.2574, 0.3542)
+45.0; 3.82 +- 0.8478 (DSYS=-0.2681, 0.3728)
+55.0; 2.5013 +- 1.1768 (DSYS=-0.1843, 0.5202)
+65.0; 0.79 +- 1.6568 (DSYS=-0.072, 4.6127)
+75.0; -4.8833 +- 2.4086 (DSYS=-0.5737, 7.3355)
+*dataend:
+*dataset:
+*location: Figure 4
+*dscomment: The slope parameter r as a function of centrality for all the collision energies under study. For comparison, we also show the calculations with CMW [34] with different duration times. The grey bands carry the same meaning as those in Fig. 3.
+*obskey:
+*reackey: AU AU --> (PI+ + PI-)
+*qual: SQRT(S): 19.6GeV
+*xheader: Centrality %
+*yheader: Slope Parameter r
+*data: x : y
+2.5; -2.419 +- 3.063 (DSYS=-2.3662, 0.094)
+7.5; 2.061 +- 2.193 (DSYS=-0.6729, 0.128)
+15.0; 1.218 +- 1.174 (DSYS=-0.4671, 1.1992)
+25.0; 1.999 +- 1.077 (DSYS=-2.0615, 0.5517)
+35.0; 2.512 +- 1.138 (DSYS=-1.2843, 0.7185)
+45.0; 2.121 +- 1.392 (DSYS=-0.2839, 0.2694)
+55.0; 4.374 +- 1.916 (DSYS=-2.3164, 0.6932)
+65.0; 0.4312 +- 2.845 (DSYS=-1.5959, 0.0)
+75.0; 0.3596 +- 4.432 (DSYS=-0.0196, 6.4482)
+*dataend:
+*dataset:
+*location: Figure 4
+*dscomment: The slope parameter r as a function of centrality for all the collision energies under study. For comparison, we also show the calculations with CMW [34] with different duration times. The grey bands carry the same meaning as those in Fig. 3.
+*obskey:
+*reackey: AU AU --> (PI+ + PI-)
+*qual: SQRT(S): 11.5GeV
+*xheader: Centrality %
+*yheader: Slope Parameter r
+*data: x : y
+2.5; 5.769 +- 3.182 (DSYS=-5.5642, 0.5099)
+7.5; 2.975 +- 2.182 (DSYS=-2.7554, 0.23)
+15.0; 1.203 +- 1.124 (DSYS=-1.5111, 0.5213)
+25.0; -1.558 +- 1.027 (DSYS=-0.172, 0.3721)
+35.0; 1.561 +- 1.116 (DSYS=-1.1423, 0.2167)
+45.0; 0.914 +- 1.357 (DSYS=-1.1996, 0.6032)
+55.0; 1.662 +- 1.87 (DSYS=-2.754, 0.6176)
+65.0; -3.345 +- 2.586 (DSYS=-4.4428, 0.8574)
+75.0; 11.729 +- 5.707 (DSYS=-9.5518, 0.552)
+*dataend:
+*dataset:
+*location: Figure 4
+*dscomment: The slope parameter r as a function of centrality for all the collision energies under study. For comparison, we also show the calculations with CMW [34] with different duration times. The grey bands carry the same meaning as those in Fig. 3.
+*obskey:
+*reackey: AU AU --> (PI+ + PI-)
+*qual: SQRT(S): 7.7GeV
+*xheader: Centrality %
+*yheader: Slope Parameter r
+*data: x : y
+2.5; 13.909 +- 8.454 (DSYS=-1.4526, 0.7782)
+7.5; 1.671 +- 4.177 (DSYS=-3.1647, 0.4164)
+15.0; 3.9 +- 2.273 (DSYS=-2.1588, 0.175)
+25.0; 3.446 +- 2.02 (DSYS=-1.5044, 2.0211)
+35.0; 1.569 +- 2.042 (DSYS=-2.2651, 0.112)
+45.0; 0.05 +- 2.765 (DSYS=-2.4846, 0.005)
+55.0; -0.6943 +- 3.976 (DSYS=-0.0497, 3.1697)
+65.0; -0.1657 +- 5.592 (DSYS=-0.0113, 6.7261)
+*E:
