@@ -3,23 +3,27 @@
 *reference: ARXIV:1502.07652 : 2015
 *doi: 10.1016/j.physletb.2015.05.075
 *status: Encoded 30 MAR 2016 by Nickolas Luttrell (Rice University)
+*status: Edited 06 APR 2016 by Graeme Watt
 *title: Long-range pseudorapidity dihadron correlations in $d$+Au collisions at $\sqrt{s_{\rm NN}}=200$ GeV
 *comment: BNL-RHIC.  Dihadron angular correlations in $d$+Au collisions at $\sqrt{s_{\rm NN}}=200$ GeV are reported as a function of the measured zero-degree calorimeter neutral energy and the forward charged hadron multiplicity in the Au-beam direction. A finite correlated yield is observed at large relative pseudorapidity ($\Delta\eta$) on the near side (i.e. relative azimuth $\Delta\phi\sim0$). This correlated yield as a function of $\Delta\eta$ appears to scale with the dominant, primarily jet-related, away-side ($\Delta\phi\sim\pi$) yield. The Fourier coefficients of the $\Delta\phi$ correlation, $V_{n}=\langle\cos n\Delta\phi\rangle$, have a strong $\Delta\eta$ dependence. In addition, it is found that $V_{1}$ is approximately inversely proportional to the mid-rapidity event multiplicity, while $V_{2}$ is independent of it with similar magnitude in the forward ($d$-going) and backward (Au-going) directions
-*durhamId:
+*durhamId: 6548
 *inspireId: 1346551
-*cdsId: 
+*cdsId: 1995160
 *detector: STAR
 *experiment: BNL-RHIC-STAR
 *dataset:
 *location: Figure 1a
-*dscomment:  Correlated dihadron yield, per radian per unit of pseudorapidity, as a function of $\Delta\phi$ in three ranges of $\Delta\eta$ in d+Au collisions. Shown are both low and high ZDC-Au activity data. Both the trigger and associated particles have 1 < $p_T$ < 3 GeV/c. The arrows indicate ZYAM normalization positions. The error bars are statistical and histograms indicate the systematic uncertainties.
-*obskey:
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : TPC-TPC
-*qual: : 40-100%
+*dscomment: Correlated dihadron yield, per radian per unit of pseudorapidity, as a function of $\Delta\phi$ for 1.2 < $|\Delta\eta|$ < 1.8 in d+Au collisions, for low ZDC-Au activity data. Both the trigger and associated particles have 1 < $p_T$ < 3 GeV/c.
+*obskey: D2N/DETARAP/DPHI
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: $p_T$ IN GeV/c : 1 TO 3
+*qual: $|\Delta\eta|$ : 1.2 TO 1.8
+*qual: Correlation : TPC-TPC
+*qual: CENTRALITY IN PCT : 40 TO 100
 *xheader: $\Delta\phi$
-*yheader: Yield
+*yheader: (1/Ntrig)*d2N/d$\Delta\eta$d$\Delta\phi$
 *data: x : y
 0.13; 0.0022 +- 0.0009 (DSYS=+0.0015, -0.0007)
 0.39; 0.0 +- 0.0009 (DSYS=+0.0015, -0.0007)
@@ -36,14 +40,17 @@
 *dataend:
 *dataset:
 *location: Figure 1a
-*dscomment:  Correlated dihadron yield, per radian per unit of pseudorapidity, as a function of $\Delta\phi$ in three ranges of $\Delta\eta$ in d+Au collisions. Shown are both low and high ZDC-Au activity data. Both the trigger and associated particles have 1 < $p_T$ < 3 GeV/c. The arrows indicate ZYAM normalization positions. The error bars are statistical and histograms indicate the systematic uncertainties.
-*obskey:
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : TPC-TPC
-*qual: : 0-20%
+*dscomment:  Correlated dihadron yield, per radian per unit of pseudorapidity, as a function of $\Delta\phi$ for 1.2 < $|\Delta\eta|$ < 1.8 in d+Au collisions, for high ZDC-Au activity data. Both the trigger and associated particles have 1 < $p_T$ < 3 GeV/c.
+*obskey: D2N/DETARAP/DPHI
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: $p_T$ IN GeV/c : 1 TO 3
+*qual: $|\Delta\eta|$ : 1.2 TO 1.8
+*qual: Correlation : TPC-TPC
+*qual: CENTRALITY IN PCT : 0 TO 20
 *xheader: $\Delta\phi$
-*yheader: Yield
+*yheader: (1/Ntrig)*d2N/d$\Delta\eta$d$\Delta\phi$
 *data: x : y
 0.13; 0.0073 +- 0.0014 (DSYS=+0.003, -0.0019)
 0.39; 0.0073 +- 0.0014 (DSYS=+0.003, -0.0019)
@@ -60,14 +67,17 @@
 *dataend:
 *dataset:
 *location: Figure 1b
-*dscomment:  Correlated dihadron yield, per radian per unit of pseudorapidity, as a function of $\Delta\phi$ in three ranges of $\Delta\eta$ in d+Au collisions. Shown are both low and high ZDC-Au activity data. Both the trigger and associated particles have 1 < $p_T$ < 3 GeV/c. The arrows indicate ZYAM normalization positions. The error bars are statistical and histograms indicate the systematic uncertainties.
-*obskey:
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : TPC-FTPC-Au
-*qual: : 40-100%
+*dscomment: Correlated dihadron yield, per radian per unit of pseudorapidity, as a function of $\Delta\phi$ for -4.5 < $\Delta\eta$ < -2 in d+Au collisions, for low ZDC-Au activity data. Both the trigger and associated particles have 1 < $p_T$ < 3 GeV/c.
+*obskey: D2N/DETARAP/DPHI
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: $p_T$ IN GeV/c : 1 TO 3
+*qual: $\Delta\eta$ : -4.5 TO -2
+*qual: Correlation : TPC-FTPC-Au
+*qual: CENTRALITY IN PCT : 40 TO 100
 *xheader: $\Delta\phi$
-*yheader: Yield
+*yheader: (1/Ntrig)*d2N/d$\Delta\eta$d$\Delta\phi$
 *data: x : y
 0.13; -0.0001 +- 0.0002 (DSYS=+0.0003, -0.0002)
 0.39; 0.0006 +- 0.0002 (DSYS=+0.0003, -0.0002)
@@ -84,14 +94,17 @@
 *dataend:
 *dataset:
 *location: Figure 1b
-*dscomment:  Correlated dihadron yield, per radian per unit of pseudorapidity, as a function of $\Delta\phi$ in three ranges of $\Delta\eta$ in d+Au collisions. Shown are both low and high ZDC-Au activity data. Both the trigger and associated particles have 1 < $p_T$ < 3 GeV/c. The arrows indicate ZYAM normalization positions. The error bars are statistical and histograms indicate the systematic uncertainties.
-*obskey:
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : TPC-FTPC-Au
-*qual: : 0-20%
+*dscomment:  Correlated dihadron yield, per radian per unit of pseudorapidity, as a function of $\Delta\phi$ for -4.5 < $\Delta\eta$ < -2 in d+Au collisions, for high ZDC-Au activity data. Both the trigger and associated particles have 1 < $p_T$ < 3 GeV/c.
+*obskey: D2N/DETARAP/DPHI
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: $p_T$ IN GeV/c : 1 TO 3
+*qual: $\Delta\eta$ : -4.5 TO -2
+*qual: Correlation : TPC-FTPC-Au
+*qual: CENTRALITY IN PCT : 0 TO 20
 *xheader: $\Delta\phi$
-*yheader: Yield
+*yheader: (1/Ntrig)*d2N/d$\Delta\eta$d$\Delta\phi$
 *data: x : y
 0.13; 0.0019 +- 0.0004 (DSYS=+0.0004, -0.0004)
 0.39; 0.0014 +- 0.0004 (DSYS=+0.0004, -0.0004)
@@ -108,14 +121,17 @@
 *dataend:
 *dataset:
 *location: Figure 1c
-*dscomment:  Correlated dihadron yield, per radian per unit of pseudorapidity, as a function of $\Delta\phi$ in three ranges of $\Delta\eta$ in d+Au collisions. Shown are both low and high ZDC-Au activity data. Both the trigger and associated particles have 1 < $p_T$ < 3 GeV/c. The arrows indicate ZYAM normalization positions. The error bars are statistical and histograms indicate the systematic uncertainties.
-*obskey:
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : TPC-FTPC-d
-*qual: : 40-100%
+*dscomment:  Correlated dihadron yield, per radian per unit of pseudorapidity, as a function of $\Delta\phi$ for 2 < $\Delta\eta$ < 4.5 in d+Au collisions, for low ZDC-Au activity data. Both the trigger and associated particles have 1 < $p_T$ < 3 GeV/c.
+*obskey: D2N/DETARAP/DPHI
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: $p_T$ IN GeV/c : 1 TO 3
+*qual: $\Delta\eta$ : 2 TO 4.5
+*qual: Correlation : TPC-FTPC-d
+*qual: CENTRALITY IN PCT : 40 TO 100
 *xheader: $\Delta\phi$
-*yheader: Yield
+*yheader: (1/Ntrig)*d2N/d$\Delta\eta$d$\Delta\phi$
 *data: x : y
 0.13; -0.00016 +- 0.00015 (DSYS=+0.0002, -0.00013)
 0.39; 0.00028 +- 0.00015 (DSYS=+0.0002, -0.00013)
@@ -132,14 +148,17 @@
 *dataend:
 *dataset:
 *location: Figure 1c
-*dscomment:  Correlated dihadron yield, per radian per unit of pseudorapidity, as a function of $\Delta\phi$ in three ranges of $\Delta\eta$ in d+Au collisions. Shown are both low and high ZDC-Au activity data. Both the trigger and associated particles have 1 < $p_T$ < 3 GeV/c. The arrows indicate ZYAM normalization positions. The error bars are statistical and histograms indicate the systematic uncertainties.
-*obskey:
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : TPC-FTPC-d
-*qual: : 0-20%
+*dscomment:  Correlated dihadron yield, per radian per unit of pseudorapidity, as a function of $\Delta\phi$ for 2 < $\Delta\eta$ < 4.5 in d+Au collisions, for high ZDC-Au activity data. Both the trigger and associated particles have 1 < $p_T$ < 3 GeV/c.
+*obskey: D2N/DETARAP/DPHI
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: $p_T$ IN GeV/c : 1 TO 3
+*qual: $\Delta\eta$ : 2 TO 4.5
+*qual: Correlation : TPC-FTPC-d
+*qual: CENTRALITY IN PCT : 0 TO 20
 *xheader: $\Delta\phi$
-*yheader: Yield
+*yheader: (1/Ntrig)*d2N/d$\Delta\eta$d$\Delta\phi$
 *data: x : y
 0.13; 0.0005 +- 0.0002 (DSYS=+0.0002, -0.0002)
 0.39; -0.0001 +- 0.0002 (DSYS=+0.0002, -0.0002)
@@ -155,147 +174,163 @@
 3.01; 0.0037 +- 0.0002 (DSYS=+0.0003, -0.0003)
 *dataend:
 *dataset:
-*location: Figure 2
-*dscomment:  The $\Delta\eta$ dependence of (a) the near- (|$\Delta\phi$| < $\pi/3$) and away-side (|$\Delta\phi - \pi$| < $\pi/3$) correlated yields, and (b) the ratio of the near- to away-side correlated yields in d+Au collisions. Positive(negative) $\eta$ corresponds to d(Au)-going direction. Only high ZDC-Au activity data are shown. The error bars are statistical and histograms indicate the systematic uncertainties (for $\Delta\eta$ > 2 in (b) the lower bound falls outside the plot). The dashed curve in (b) is a linear fit to the $\Delta\eta$ < -1 data points.
-*obskey:
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : Near-side
-*xheader: $\Delta\phi$
-*yheader: Yield
+*location: Figure 2a
+*dscomment: The $\Delta\eta$ dependence of the near-side (|$\Delta\phi$| < $\pi/3$) correlated yield. Positive(negative) $\eta$ corresponds to d(Au)-going direction. Only high ZDC-Au activity data are shown.
+*obskey: D2N/DETARAP/DPHI
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: $p_T$ IN GeV/c : 1 TO 3
+*qual: . : Near-side
+*qual: CENTRALITY IN PCT : 0 TO 20
+*xheader: $\Delta\eta$
+*yheader: (1/Ntrig)*d2N/d$\Delta\eta$d$\Delta\phi$
 *data: x : y
--4.0; 0.0012 +- 0.0006 (DSYS=+0.0004, --0.0002)
--3.25; 0.0015 +- 0.0007 (DSYS=+0.0005, --0.0005)
--2.5; 0.00084 +- 0.0007 (DSYS=+0.0002, --0.00011)
--1.6; 0.006 +- 0.002 (DSYS=+0.003, --0.003)
--1.2; 0.006 +- 0.0016 (DSYS=+0.003, --0.0012)
--0.85; 0.0102 +- 0.0014 (DSYS=+0.0016, --0.0011)
--0.55; 0.0284 +- 0.0013 (DSYS=+0.003, --0.002)
--0.2; 0.0553 +- 0.001 (DSYS=+0.003, --0.003)
-0.2; 0.0555 +- 0.001 (DSYS=+0.003, --0.003)
-0.55; 0.0275 +- 0.0013 (DSYS=+0.003, --0.003)
-0.85; 0.0111 +- 0.0014 (DSYS=+0.0011, --0.0018)
-1.2; 0.0051 +- 0.0016 (DSYS=+0.003, --0.001)
-1.6; 0.0052 +- 0.002 (DSYS=+0.0019, --0.002)
-2.5; 0.00039 +- 0.0004 (DSYS=+0.0002, --0.00014)
-3.25; 0.00031 +- 0.0003 (DSYS=+0.0004, --0.00017)
-4.0; 0.00028 +- 0.0003 (DSYS=+0.0003, --9e-05)
+-4.0; 0.0012 +- 0.0006 (DSYS=+0.0004, -0.0002)
+-3.25; 0.0015 +- 0.0007 (DSYS=+0.0005, -0.0005)
+-2.5; 0.00084 +- 0.0007 (DSYS=+0.0002, -0.00011)
+-1.6; 0.006 +- 0.002 (DSYS=+0.003, -0.003)
+-1.2; 0.006 +- 0.0016 (DSYS=+0.003, -0.0012)
+-0.85; 0.0102 +- 0.0014 (DSYS=+0.0016, -0.0011)
+-0.55; 0.0284 +- 0.0013 (DSYS=+0.003, -0.002)
+-0.2; 0.0553 +- 0.001 (DSYS=+0.003, -0.003)
+0.2; 0.0555 +- 0.001 (DSYS=+0.003, -0.003)
+0.55; 0.0275 +- 0.0013 (DSYS=+0.003, -0.003)
+0.85; 0.0111 +- 0.0014 (DSYS=+0.0011, -0.0018)
+1.2; 0.0051 +- 0.0016 (DSYS=+0.003, -0.001)
+1.6; 0.0052 +- 0.002 (DSYS=+0.0019, -0.002)
+2.5; 0.00039 +- 0.0004 (DSYS=+0.0002, -0.00014)
+3.25; 0.00031 +- 0.0003 (DSYS=+0.0004, -0.00017)
+4.0; 0.00028 +- 0.0003 (DSYS=+0.0003, -9e-05)
 *dataend:
 *dataset:
-*location: Figure 2
-*dscomment:  The $\Delta\eta$ dependence of (a) the near- (|$\Delta\phi$| < $\pi/3$) and away-side (|$\Delta\phi - \pi$| < $\pi/3$) correlated yields, and (b) the ratio of the near- to away-side correlated yields in d+Au collisions. Positive(negative) $\eta$ corresponds to d(Au)-going direction. Only high ZDC-Au activity data are shown. The error bars are statistical and histograms indicate the systematic uncertainties (for $\Delta\eta$ > 2 in (b) the lower bound falls outside the plot). The dashed curve in (b) is a linear fit to the $\Delta\eta$ < -1 data points.
-*obskey:
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : Away-side
-*xheader: $\Delta\phi$
-*yheader: Yield
+*location: Figure 2a
+*dscomment:  The $\Delta\eta$ dependence of the away-side (|$\Delta\phi - \pi$| < $\pi/3$) correlated yield. Positive(negative) $\eta$ corresponds to d(Au)-going direction. Only high ZDC-Au activity data are shown.
+*obskey: D2N/DETARAP/DPHI
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: $p_T$ IN GeV/c : 1 TO 3
+*qual: . : Away-side
+*qual: CENTRALITY IN PCT : 0 TO 20
+*xheader: $\Delta\eta$
+*yheader: (1/Ntrig)*d2N/d$\Delta\eta$d$\Delta\phi$
 *data: x : y
--4.0; 0.0058 +- 0.0006 (DSYS=+0.0005, --0.0004)
--3.25; 0.0073 +- 0.0007 (DSYS=+0.0006, --0.0006)
--2.5; 0.0084 +- 0.0007 (DSYS=+0.0005, --0.0004)
--1.6; 0.048 +- 0.003 (DSYS=+0.004, --0.004)
--1.2; 0.042 +- 0.0016 (DSYS=+0.003, --0.002)
--0.85; 0.0398 +- 0.0015 (DSYS=+0.002, --0.002)
--0.55; 0.042 +- 0.0013 (DSYS=+0.004, --0.003)
--0.2; 0.0373 +- 0.001 (DSYS=+0.002, --0.002)
-0.2; 0.0377 +- 0.001 (DSYS=+0.0019, --0.002)
-0.55; 0.0411 +- 0.0013 (DSYS=+0.003, --0.003)
-0.85; 0.0407 +- 0.0015 (DSYS=+0.002, --0.003)
-1.2; 0.0407 +- 0.0016 (DSYS=+0.003, --0.002)
-1.6; 0.048 +- 0.003 (DSYS=+0.003, --0.003)
-2.5; 0.0043 +- 0.0004 (DSYS=+0.0003, --0.0002)
-3.25; 0.003 +- 0.0003 (DSYS=+0.0004, --0.0002)
-4.0; 0.00234 +- 0.0003 (DSYS=+0.0004, --0.00015)
+-4.0; 0.0058 +- 0.0006 (DSYS=+0.0005, -0.0004)
+-3.25; 0.0073 +- 0.0007 (DSYS=+0.0006, -0.0006)
+-2.5; 0.0084 +- 0.0007 (DSYS=+0.0005, -0.0004)
+-1.6; 0.048 +- 0.003 (DSYS=+0.004, -0.004)
+-1.2; 0.042 +- 0.0016 (DSYS=+0.003, -0.002)
+-0.85; 0.0398 +- 0.0015 (DSYS=+0.002, -0.002)
+-0.55; 0.042 +- 0.0013 (DSYS=+0.004, -0.003)
+-0.2; 0.0373 +- 0.001 (DSYS=+0.002, -0.002)
+0.2; 0.0377 +- 0.001 (DSYS=+0.0019, -0.002)
+0.55; 0.0411 +- 0.0013 (DSYS=+0.003, -0.003)
+0.85; 0.0407 +- 0.0015 (DSYS=+0.002, -0.003)
+1.2; 0.0407 +- 0.0016 (DSYS=+0.003, -0.002)
+1.6; 0.048 +- 0.003 (DSYS=+0.003, -0.003)
+2.5; 0.0043 +- 0.0004 (DSYS=+0.0003, -0.0002)
+3.25; 0.003 +- 0.0003 (DSYS=+0.0004, -0.0002)
+4.0; 0.00234 +- 0.0003 (DSYS=+0.0004, -0.00015)
 *dataend:
 *dataset:
-*location: Figure 2
-*dscomment:  The $\Delta\eta$ dependence of (a) the near- (|$\Delta\phi$| < $\pi/3$) and away-side (|$\Delta\phi - \pi$| < $\pi/3$) correlated yields, and (b) the ratio of the near- to away-side correlated yields in d+Au collisions. Positive(negative) $\eta$ corresponds to d(Au)-going direction. Only high ZDC-Au activity data are shown. The error bars are statistical and histograms indicate the systematic uncertainties (for $\Delta\eta$ > 2 in (b) the lower bound falls outside the plot). The dashed curve in (b) is a linear fit to the $\Delta\eta$ < -1 data points.
-*obskey:
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : Near-side/Away-side
-*xheader: $\Delta\phi$
+*location: Figure 2b
+*dscomment: The $\Delta\eta$ dependence of the ratio of the near- to away-side correlated yields in d+Au collisions. Positive(negative) $\eta$ corresponds to d(Au)-going direction. Only high ZDC-Au activity data are shown.
+*obskey: N/N
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: $p_T$ IN GeV/c : 1 TO 3
+*qual: . : Near-side/Away-side
+*qual: CENTRALITY IN PCT : 0 TO 20
+*xheader: $\Delta\eta$
 *yheader: Ratio
 *data: x : y
--4.0; 0.21 +- 0.06 (DSYS=+0.08, --0.09)
--3.25; 0.21 +- 0.05 (DSYS=+0.07, --0.07)
--2.5; 0.1 +- 0.04 (DSYS=+0.06, --0.07)
--1.6; 0.14 +- 0.03 (DSYS=+0.06, --0.07)
--1.2; 0.14 +- 0.02 (DSYS=+0.06, --0.04)
--0.85; 0.26 +- 0.02 (DSYS=+0.04, --0.03)
--0.55; 0.676 +- 0.02 (DSYS=+0.02, --0.019)
--0.2; 1.485 +- 0.03 (DSYS=+0.017, --0.014)
-0.2; 1.472 +- 0.03 (DSYS=+0.016, --0.011)
-0.55; 0.67 +- 0.02 (DSYS=+0.02, --0.02)
-0.85; 0.27 +- 0.02 (DSYS=+0.03, --0.04)
-1.2; 0.12 +- 0.02 (DSYS=+0.06, --0.04)
-1.6; 0.11 +- 0.03 (DSYS=+0.05, --0.06)
-2.5; 0.07 +- 0.04 (DSYS=+0.08, --0.08)
-3.25; 0.1 +- 0.06 (DSYS=+0.13, --0.11)
-4.0; 0.12 +- 0.07 (DSYS=+0.14, --0.12)
+-4.0; 0.21 +- 0.06 (DSYS=+0.08, -0.09)
+-3.25; 0.21 +- 0.05 (DSYS=+0.07, -0.07)
+-2.5; 0.1 +- 0.04 (DSYS=+0.06, -0.07)
+-1.6; 0.14 +- 0.03 (DSYS=+0.06, -0.07)
+-1.2; 0.14 +- 0.02 (DSYS=+0.06, -0.04)
+-0.85; 0.26 +- 0.02 (DSYS=+0.04, -0.03)
+-0.55; 0.676 +- 0.02 (DSYS=+0.02, -0.019)
+-0.2; 1.485 +- 0.03 (DSYS=+0.017, -0.014)
+0.2; 1.472 +- 0.03 (DSYS=+0.016, -0.011)
+0.55; 0.67 +- 0.02 (DSYS=+0.02, -0.02)
+0.85; 0.27 +- 0.02 (DSYS=+0.03, -0.04)
+1.2; 0.12 +- 0.02 (DSYS=+0.06, -0.04)
+1.6; 0.11 +- 0.03 (DSYS=+0.05, -0.06)
+2.5; 0.07 +- 0.04 (DSYS=+0.08, -0.08)
+3.25; 0.1 +- 0.06 (DSYS=+0.13, -0.11)
+4.0; 0.12 +- 0.07 (DSYS=+0.14, -0.12)
 *dataend:
 *dataset:
 *location: Figure 3
-*dscomment:  The $\Delta\eta$ dependence of the second harmonic Fourier coefficient, V2, in low and high ZDC-Au activity d+Au collisions. The error bars are statistical. Systematic uncertainties are 10% and are shown by the histograms, for clarity, only for the high-activity data.
-*obskey:
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : 40-100%
-*xheader: $\Delta\phi$
+*dscomment: The $\Delta\eta$ dependence of the second harmonic Fourier coefficient, V2, in low ZDC-Au activity d+Au collisions.
+*obskey: V2
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: $p_T$ IN GeV/c : 1 TO 3
+*qual: CENTRALITY IN PCT : 40 TO 100
+*xheader: $\Delta\eta$
 *yheader: V2
 *data: x : y
--4.0; 0.0035 +- 0.0008 (DSYS=+0.0003, --0.0003)
--3.25; 0.0064 +- 0.0009 (DSYS=+0.0006, --0.0006)
--2.5; 0.0081 +- 0.0009 (DSYS=+0.0008, --0.0008)
--1.6; 0.0184 +- 0.0018 (DSYS=+0.0018, --0.0018)
--1.2; 0.022 +- 0.001 (DSYS=+0.002, --0.002)
--0.85; 0.0273 +- 0.001 (DSYS=+0.003, --0.003)
--0.55; 0.0429 +- 0.0008 (DSYS=+0.004, --0.004)
--0.2; 0.0697 +- 0.0006 (DSYS=+0.007, --0.007)
-0.2; 0.07 +- 0.0006 (DSYS=+0.007, --0.007)
-0.55; 0.0422 +- 0.0008 (DSYS=+0.004, --0.004)
-0.85; 0.0271 +- 0.001 (DSYS=+0.003, --0.003)
-1.2; 0.0219 +- 0.001 (DSYS=+0.002, --0.002)
-1.6; 0.0186 +- 0.0018 (DSYS=+0.0018, --0.0018)
-2.5; 0.0068 +- 0.0015 (DSYS=+0.0007, --0.0007)
-3.25; 0.0066 +- 0.0014 (DSYS=+0.0006, --0.0006)
-4.0; 0.0054 +- 0.0013 (DSYS=+0.0005, --0.0005)
+-4.0; 0.0035 +- 0.0008 (DSYS=+0.0003, -0.0003)
+-3.25; 0.0064 +- 0.0009 (DSYS=+0.0006, -0.0006)
+-2.5; 0.0081 +- 0.0009 (DSYS=+0.0008, -0.0008)
+-1.6; 0.0184 +- 0.0018 (DSYS=+0.0018, -0.0018)
+-1.2; 0.022 +- 0.001 (DSYS=+0.002, -0.002)
+-0.85; 0.0273 +- 0.001 (DSYS=+0.003, -0.003)
+-0.55; 0.0429 +- 0.0008 (DSYS=+0.004, -0.004)
+-0.2; 0.0697 +- 0.0006 (DSYS=+0.007, -0.007)
+0.2; 0.07 +- 0.0006 (DSYS=+0.007, -0.007)
+0.55; 0.0422 +- 0.0008 (DSYS=+0.004, -0.004)
+0.85; 0.0271 +- 0.001 (DSYS=+0.003, -0.003)
+1.2; 0.0219 +- 0.001 (DSYS=+0.002, -0.002)
+1.6; 0.0186 +- 0.0018 (DSYS=+0.0018, -0.0018)
+2.5; 0.0068 +- 0.0015 (DSYS=+0.0007, -0.0007)
+3.25; 0.0066 +- 0.0014 (DSYS=+0.0006, -0.0006)
+4.0; 0.0054 +- 0.0013 (DSYS=+0.0005, -0.0005)
 *dataend:
 *dataset:
 *location: Figure 3
-*dscomment:  The $\Delta\eta$ dependence of the second harmonic Fourier coefficient, V2, in low and high ZDC-Au activity d+Au collisions. The error bars are statistical. Systematic uncertainties are 10% and are shown by the histograms, for clarity, only for the high-activity data.
-*obskey:
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : 0-20%
+*dscomment: The $\Delta\eta$ dependence of the second harmonic Fourier coefficient, V2, in high ZDC-Au activity d+Au collisions.
+*obskey: V2
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: $p_T$ IN GeV/c : 1 TO 3
+*qual: CENTRALITY IN PCT : 0 TO 20
 *xheader: $\Delta\phi$
 *yheader: V2
 *data: x : y
--4.0; 0.0046 +- 0.0008 (DSYS=+0.0004, --0.0004)
--3.25; 0.0064 +- 0.0008 (DSYS=+0.0006, --0.0006)
--2.5; 0.0067 +- 0.0008 (DSYS=+0.0007, --0.0007)
--1.6; 0.0184 +- 0.0017 (DSYS=+0.0018, --0.0018)
--1.2; 0.0201 +- 0.001 (DSYS=+0.002, --0.002)
--0.85; 0.0234 +- 0.001 (DSYS=+0.002, --0.002)
--0.55; 0.0358 +- 0.0008 (DSYS=+0.004, --0.004)
--0.2; 0.0558 +- 0.0006 (DSYS=+0.006, --0.006)
-0.2; 0.0559 +- 0.0006 (DSYS=+0.006, --0.006)
-0.55; 0.0353 +- 0.0008 (DSYS=+0.004, --0.004)
-0.85; 0.0231 +- 0.001 (DSYS=+0.002, --0.002)
-1.2; 0.0192 +- 0.001 (DSYS=+0.0019, --0.0019)
-1.6; 0.018 +- 0.0017 (DSYS=+0.0018, --0.0018)
-2.5; 0.009 +- 0.0017 (DSYS=+0.0009, --0.0009)
-3.25; 0.0036 +- 0.0017 (DSYS=+0.0004, --0.0004)
-4.0; 0.0067 +- 0.0015 (DSYS=+0.0007, --0.0007)
+-4.0; 0.0046 +- 0.0008 (DSYS=+0.0004, -0.0004)
+-3.25; 0.0064 +- 0.0008 (DSYS=+0.0006, -0.0006)
+-2.5; 0.0067 +- 0.0008 (DSYS=+0.0007, -0.0007)
+-1.6; 0.0184 +- 0.0017 (DSYS=+0.0018, -0.0018)
+-1.2; 0.0201 +- 0.001 (DSYS=+0.002, -0.002)
+-0.85; 0.0234 +- 0.001 (DSYS=+0.002, -0.002)
+-0.55; 0.0358 +- 0.0008 (DSYS=+0.004, -0.004)
+-0.2; 0.0558 +- 0.0006 (DSYS=+0.006, -0.006)
+0.2; 0.0559 +- 0.0006 (DSYS=+0.006, -0.006)
+0.55; 0.0353 +- 0.0008 (DSYS=+0.004, -0.004)
+0.85; 0.0231 +- 0.001 (DSYS=+0.002, -0.002)
+1.2; 0.0192 +- 0.001 (DSYS=+0.0019, -0.0019)
+1.6; 0.018 +- 0.0017 (DSYS=+0.0018, -0.0018)
+2.5; 0.009 +- 0.0017 (DSYS=+0.0009, -0.0009)
+3.25; 0.0036 +- 0.0017 (DSYS=+0.0004, -0.0004)
+4.0; 0.0067 +- 0.0015 (DSYS=+0.0007, -0.0007)
 *dataend:
 *dataset:
-*location: Figure 4
-*dscomment: Fourier coefficients (a) V1, (b) V2, and (c) V3 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selections by both ZDC-Au and FTPC-Au are shown. Trigger particles are from TPC, and associated particles from TPC (triangles), FTPC-Au (circles), and FTPC-d (squares), respectively. Systematic uncertainties are estimated to be 10% on V1 and V2, and smaller than statistical errors for V3. Errors shown are the quadratic sum of statistical and systematic errors.*obskey: V1
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : TPC(1.2<|Delta eta|<1.8)
-*xheader: $\Delta\phi$
+*location: Figure 4a
+*dscomment: Fourier coefficient V1 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selection is by FTPC-Au. Trigger particles are from TPC, and associated particles from TPC. Systematic uncertainties are estimated to be 10% on V1. Errors shown are the quadratic sum of statistical and systematic errors.
+*obskey: V1
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: Associated particles : TPC(1.2<|Delta eta|<1.8)
+*qual: Selection : FTPC event activity
+*xheader: Uncorrected mid-rapidity $dN_{\rm ch}/d\eta$
 *yheader: V1
 *data: x : y
 6.2; -0.069 +- 0.007
@@ -303,12 +338,15 @@
 17.6; -0.032 +- 0.003
 *dataend:
 *dataset:
-*location: Figure 4
-*dscomment: Fourier coefficients (a) V1, (b) V2, and (c) V3 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selections by both ZDC-Au and FTPC-Au are shown. Trigger particles are from TPC, and associated particles from TPC (triangles), FTPC-Au (circles), and FTPC-d (squares), respectively. Systematic uncertainties are estimated to be 10% on V1 and V2, and smaller than statistical errors for V3. Errors shown are the quadratic sum of statistical and systematic errors.*obskey: V1
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : FTPC-Au(-4.5<|Delta eta|<-2)
-*xheader: $\Delta\phi$
+*location: Figure 4a
+*dscomment: Fourier coefficient V1 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selection is by ZDC. Trigger particles are from TPC, and associated particles from FTPC-Au. Systematic uncertainties are estimated to be 10% on V1. Errors shown are the quadratic sum of statistical and systematic errors.
+*obskey: V1
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: Associated particles : FTPC-Au(-4.5<|Delta eta|<-2)
+*qual: Selection : ZDC event activity
+*xheader: Uncorrected mid-rapidity $dN_{\rm ch}/d\eta$
 *yheader: V1
 *data: x : y
 7.14; -0.0161 +- 0.0017
@@ -316,12 +354,15 @@
 14.21; -0.0101 +- 0.0011
 *dataend:
 *dataset:
-*location: Figure 4
-*dscomment: Fourier coefficients (a) V1, (b) V2, and (c) V3 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selections by both ZDC-Au and FTPC-Au are shown. Trigger particles are from TPC, and associated particles from TPC (triangles), FTPC-Au (circles), and FTPC-d (squares), respectively. Systematic uncertainties are estimated to be 10% on V1 and V2, and smaller than statistical errors for V3. Errors shown are the quadratic sum of statistical and systematic errors.*obskey: V1
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : FTPC-d(2<|Delta eta|<4.5)
-*xheader: $\Delta\phi$
+*location: Figure 4a
+*dscomment: Fourier coefficient V1 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selection is by ZDC. Trigger particles are from TPC, and associated particles from FTPC-d. Systematic uncertainties are estimated to be 10% on V1. Errors shown are the quadratic sum of statistical and systematic errors.
+*obskey: V1
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: Associated particles : FTPC-d(2<|Delta eta|<4.5)
+*qual: Selection : ZDC event activity
+*xheader: Uncorrected mid-rapidity $dN_{\rm ch}/d\eta$
 *yheader: V1
 *data: x : y
 7.14; -0.029 +- 0.003
@@ -329,12 +370,15 @@
 14.21; -0.02 +- 0.002
 *dataend:
 *dataset:
-*location: Figure 4
-*dscomment: Fourier coefficients (a) V1, (b) V2, and (c) V3 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selections by both ZDC-Au and FTPC-Au are shown. Trigger particles are from TPC, and associated particles from TPC (triangles), FTPC-Au (circles), and FTPC-d (squares), respectively. Systematic uncertainties are estimated to be 10% on V1 and V2, and smaller than statistical errors for V3. Errors shown are the quadratic sum of statistical and systematic errors.*obskey: V1
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : TPC(1.2<|Delta eta|<1.8)
-*xheader: $\Delta\phi$
+*location: Figure 4a
+*dscomment: Fourier coefficient V1 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selection is by ZDC-Au. Trigger particles are from TPC, and associated particles from TPC. Systematic uncertainties are estimated to be 10% on V1. Errors shown are the quadratic sum of statistical and systematic errors.
+*obskey: V1
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: Associated particles : TPC(1.2<|Delta eta|<1.8)
+*qual: Selection : ZDC event activity
+*xheader: Uncorrected mid-rapidity $dN_{\rm ch}/d\eta$
 *yheader: V1
 *data: x : y
 7.14; -0.04 +- 0.005
@@ -342,12 +386,15 @@
 14.21; -0.037 +- 0.004
 *dataend:
 *dataset:
-*location: Figure 4
-*dscomment: Fourier coefficients (a) V1, (b) V2, and (c) V3 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selections by both ZDC-Au and FTPC-Au are shown. Trigger particles are from TPC, and associated particles from TPC (triangles), FTPC-Au (circles), and FTPC-d (squares), respectively. Systematic uncertainties are estimated to be 10% on V1 and V2, and smaller than statistical errors for V3. Errors shown are the quadratic sum of statistical and systematic errors.*obskey: V2
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : TPC(1.2<|Delta eta|<1.8)
-*xheader: $\Delta\phi$
+*location: Figure 4b
+*dscomment: Fourier coefficient V2 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selection is by FTPC-Au. Trigger particles are from TPC, and associated particles from TPC. Systematic uncertainties are estimated to be 10% on V2. Errors shown are the quadratic sum of statistical and systematic errors.
+*obskey: V2
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: Associated particles : TPC(1.2<|Delta eta|<1.8)
+*qual: Selection : FTPC event activity
+*xheader: Uncorrected mid-rapidity $dN_{\rm ch}/d\eta$
 *yheader: V2
 *data: x : y
 6.2; 0.022 +- 0.002
@@ -355,12 +402,15 @@
 17.6; 0.018 +- 0.002
 *dataend:
 *dataset:
-*location: Figure 4
-*dscomment: Fourier coefficients (a) V1, (b) V2, and (c) V3 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selections by both ZDC-Au and FTPC-Au are shown. Trigger particles are from TPC, and associated particles from TPC (triangles), FTPC-Au (circles), and FTPC-d (squares), respectively. Systematic uncertainties are estimated to be 10% on V1 and V2, and smaller than statistical errors for V3. Errors shown are the quadratic sum of statistical and systematic errors.*obskey: V2
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : FTPC-Au(-4.5<|Delta eta|<-2)
-*xheader: $\Delta\phi$
+*location: Figure 4b
+*dscomment: Fourier coefficient V2 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selection is by ZDC-Au. Trigger particles are from TPC, and associated particles from FTPC-Au. Systematic uncertainties are estimated to be 10% on V2. Errors shown are the quadratic sum of statistical and systematic errors.
+*obskey: V2
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: Associated particles : FTPC-Au(-4.5<|Delta eta|<-2)
+*qual: Selection : ZDC event activity
+*xheader: Uncorrected mid-rapidity $dN_{\rm ch}/d\eta$
 *yheader: V2
 *data: x : y
 7.14; 0.006 +- 0.0008
@@ -368,12 +418,15 @@
 14.21; 0.0058 +- 0.0008
 *dataend:
 *dataset:
-*location: Figure 4
-*dscomment: Fourier coefficients (a) V1, (b) V2, and (c) V3 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selections by both ZDC-Au and FTPC-Au are shown. Trigger particles are from TPC, and associated particles from TPC (triangles), FTPC-Au (circles), and FTPC-d (squares), respectively. Systematic uncertainties are estimated to be 10% on V1 and V2, and smaller than statistical errors for V3. Errors shown are the quadratic sum of statistical and systematic errors.*obskey: V2
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : FTPC-d(2<|Delta eta|<4.5)
-*xheader: $\Delta\phi$
+*location: Figure 4b
+*dscomment: Fourier coefficient V2 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selection is by ZDC-Au. Trigger particles are from TPC, and associated particles from FTPC-d. Systematic uncertainties are estimated to be 10% on V2. Errors shown are the quadratic sum of statistical and systematic errors.
+*obskey: V2
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: Associated particles : FTPC-d(2<|Delta eta|<4.5)
+*qual: Selection : ZDC event activity
+*xheader: Uncorrected mid-rapidity $dN_{\rm ch}/d\eta$
 *yheader: V2
 *data: x : y
 7.14; 0.0062 +- 0.001
@@ -381,12 +434,15 @@
 14.21; 0.007 +- 0.0012
 *dataend:
 *dataset:
-*location: Figure 4
-*dscomment: Fourier coefficients (a) V1, (b) V2, and (c) V3 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selections by both ZDC-Au and FTPC-Au are shown. Trigger particles are from TPC, and associated particles from TPC (triangles), FTPC-Au (circles), and FTPC-d (squares), respectively. Systematic uncertainties are estimated to be 10% on V1 and V2, and smaller than statistical errors for V3. Errors shown are the quadratic sum of statistical and systematic errors.*obskey: V2
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : TPC(1.2<|Delta eta|<1.8)
-*xheader: $\Delta\phi$
+*location: Figure 4b
+*dscomment: Fourier coefficient V2 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selection is by ZDC-Au. Trigger particles are from TPC, and associated particles from TPC. Systematic uncertainties are estimated to be 10% on V2. Errors shown are the quadratic sum of statistical and systematic errors.
+*obskey: V2
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: Associated particles : TPC(1.2<|Delta eta|<1.8)
+*qual: Selection : ZDC event activity
+*xheader: Uncorrected mid-rapidity $dN_{\rm ch}/d\eta$
 *yheader: V2
 *data: x : y
 7.14; 0.019 +- 0.002
@@ -394,12 +450,15 @@
 14.21; 0.019 +- 0.002
 *dataend:
 *dataset:
-*location: Figure 4
-*dscomment: Fourier coefficients (a) V1, (b) V2, and (c) V3 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selections by both ZDC-Au and FTPC-Au are shown. Trigger particles are from TPC, and associated particles from TPC (triangles), FTPC-Au (circles), and FTPC-d (squares), respectively. Systematic uncertainties are estimated to be 10% on V1 and V2, and smaller than statistical errors for V3. Errors shown are the quadratic sum of statistical and systematic errors.*obskey: V3
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : TPC(1.2<|Delta eta|<1.8)
-*xheader: $\Delta\phi$
+*location: Figure 4c
+*dscomment: Fourier coefficient V3 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selections is by FTPC-Au. Trigger particles are from TPC, and associated particles from TPC. Systematic uncertainties are estimated to be smaller than statistical errors for V3. Errors shown are the quadratic sum of statistical and systematic errors.
+*obskey: V3
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: Associated particles : TPC(1.2<|Delta eta|<1.8)
+*qual: Selection : FTPC event activity
+*xheader: Uncorrected mid-rapidity $dN_{\rm ch}/d\eta$
 *yheader: V3
 *data: x : y
 6.2; -0.0058 +- 0.0014
@@ -407,12 +466,15 @@
 17.6; -0.0005 +- 0.0008
 *dataend:
 *dataset:
-*location: Figure 4
-*dscomment: Fourier coefficients (a) V1, (b) V2, and (c) V3 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selections by both ZDC-Au and FTPC-Au are shown. Trigger particles are from TPC, and associated particles from TPC (triangles), FTPC-Au (circles), and FTPC-d (squares), respectively. Systematic uncertainties are estimated to be 10% on V1 and V2, and smaller than statistical errors for V3. Errors shown are the quadratic sum of statistical and systematic errors.*obskey: V3
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : FTPC-Au(-4.5<|Delta eta|<-2)
-*xheader: $\Delta\phi$
+*location: Figure 4c
+*dscomment: Fourier coefficient V3 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selection is by ZDC-Au. Trigger particles are from TPC, and associated particles from FTPC-Au. Systematic uncertainties are estimated to be smaller than statistical errors for V3. Errors shown are the quadratic sum of statistical and systematic errors.
+*obskey: V3
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: Associated particles : FTPC-Au(-4.5<|Delta eta|<-2)
+*qual: Selection : ZDC event activity
+*xheader: Uncorrected mid-rapidity $dN_{\rm ch}/d\eta$
 *yheader: V3
 *data: x : y
 7.14; -0.0005 +- 0.0006
@@ -420,12 +482,15 @@
 14.21; 0.0006 +- 0.0005
 *dataend:
 *dataset:
-*location: Figure 4
-*dscomment: Fourier coefficients (a) V1, (b) V2, and (c) V3 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selections by both ZDC-Au and FTPC-Au are shown. Trigger particles are from TPC, and associated particles from TPC (triangles), FTPC-Au (circles), and FTPC-d (squares), respectively. Systematic uncertainties are estimated to be 10% on V1 and V2, and smaller than statistical errors for V3. Errors shown are the quadratic sum of statistical and systematic errors.*obskey: V3
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : FTPC-d(2<|Delta eta|<4.5)
-*xheader: $\Delta\phi$
+*location: Figure 4c
+*dscomment: Fourier coefficient V3 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selection is by ZDC-Au. Trigger particles are from TPC, and associated particles from FTPC-d. Systematic uncertainties are estimated to be smaller than statistical errors for V3. Errors shown are the quadratic sum of statistical and systematic errors.
+*obskey: V3
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: Associated particles : FTPC-d(2<|Delta eta|<4.5)
+*qual: Selection : ZDC event activity
+*xheader: Uncorrected mid-rapidity $dN_{\rm ch}/d\eta$
 *yheader: V3
 *data: x : y
 7.14; -0.0008 +- 0.0009
@@ -433,15 +498,19 @@
 14.21; 0.0 +- 0.001
 *dataend:
 *dataset:
-*location: Figure 4
-*dscomment: Fourier coefficients (a) V1, (b) V2, and (c) V3 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selections by both ZDC-Au and FTPC-Au are shown. Trigger particles are from TPC, and associated particles from TPC (triangles), FTPC-Au (circles), and FTPC-d (squares), respectively. Systematic uncertainties are estimated to be 10% on V1 and V2, and smaller than statistical errors for V3. Errors shown are the quadratic sum of statistical and systematic errors.*obskey: V3
-*reackey: d AU --> DIHADRON
-*qual: SQRT(S): 200 GeV
-*qual: : TPC(1.2<|Delta eta|<1.8)
-*xheader: $\Delta\phi$
+*location: Figure 4c
+*dscomment: Fourier coefficient V3 versus the measured mid-rapidity charged particle $dN_{ch}/d\eta$. Event activity selection is by ZDC-Au. Trigger particles are from TPC, and associated particles from TPC. Systematic uncertainties are estimated to be smaller than statistical errors for V3. Errors shown are the quadratic sum of statistical and systematic errors.
+*obskey: V3
+*reackey: DEUT AU --> CHGD-HADRONS X
+*qual: RE : DEUT AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: Associated particles : TPC(1.2<|Delta eta|<1.8)
+*qual: Selection : ZDC event activity
+*xheader: Uncorrected mid-rapidity $dN_{\rm ch}/d\eta$
 *yheader: V3
 *data: x : y
 7.14; -0.0033 +- 0.0011
 12.68; -0.0021 +- 0.0011
 14.21; 0.0002 +- 0.0009
-*E:
+*dataend:
+*E

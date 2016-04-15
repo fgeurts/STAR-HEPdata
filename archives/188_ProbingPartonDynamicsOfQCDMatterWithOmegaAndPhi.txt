@@ -2,24 +2,25 @@
 *reference: PR C93,021903 : 2016
 *reference: ARXIV:1506.07605 : 2015
 *doi: 10.1103/PhysRevC.93.021903
-*status: Encoded 30 MAR 2016 by Nickolas Luttrell
+*status: Encoded 30 MAR 2016 by Nickolas Luttrell (Rice University)
+*status: Edited 06 APR 2016 by Graeme Watt
 *title: Probing Parton Dynamics of QCD Matter with $\Omega$ and $\phi$ Production
 *comment: BNL-RHIC.  We present measurements of $\Omega$ and $\phi$ production at mid-rapidity from Au+Au collisions at nucleon-nucleon center-of-mass energies $\sqrt{s_{NN}}$ = 7.7, 11.5, 19.6, 27 and 39 GeV by the STAR experiment at the Relativistic Heavy Ion Collider (RHIC). Motivated by the coalescence formation mechanism for these strange hadrons, we study the ratios of $N(\Omega^{-}+\Omega^{+})/(2N(\phi))$. These ratios as a function of transverse momentum ($p_T$) fall on a consistent trend at high collision energies, but start to show deviations in peripheral collisions at $\sqrt{s_{NN}}$ = 19.6, 27 and 39 GeV, and in central collisions at 11.5 GeV in the intermediate $p_T$ region of 2.4-3.6 GeV/c. We further evaluate empirically the strange quark $p_T$ distributions at hadronization by studying the $\Omega/\phi$ ratios scaled by the number of constituent quarks. The NCQ-scaled $\Omega/\phi$ ratios show a suppression of strange quark production in central collisions at 11.5 GeV compared to $\sqrt{s_{NN}} >= 19.6$ GeV. The shapes of the presumably thermal strange quark distributions in 0-60% most central collisions at 7.7 GeV show significant deviations from those in 0-10% most central collisions at higher energies. These features suggest that there is likely a change of the underlying strange quark dynamics in the transition from quark-matter to hadronic matter at collision energies below 19.6 GeV
-*durhamId:
+*durhamId: 6545
 *inspireId: 1378002
-*cdsId: 
+*cdsId: 2028822
 *detector: STAR
 *experiment: BNL-RHIC-STAR
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 0-10% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 10
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4461 + 0.5 - 0.4; 0.39996 +- 0.099778 (DSYS=0.084089); 0.13049
 0.5496 + 0.6 - 0.5; 0.34359 +- 0.048885 (DSYS=0.066112); 0.082223
@@ -32,13 +33,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 10-20% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 20
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4449 + 0.5 - 0.4; 0.24592 +- 0.053447 (DSYS=0.050735); 0.073692
 0.5494 + 0.6 - 0.5; 0.18356 +- 0.032705 (DSYS=0.035633); 0.048367
@@ -51,13 +52,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 20-30% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 30
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.443 + 0.5 - 0.4; 0.15302 +- 0.037239 (DSYS=0.032777); 0.049609
 0.5493 + 0.6 - 0.5; 0.16665 +- 0.026801 (DSYS=0.033221); 0.042684
@@ -70,13 +71,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 30-40% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 40
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4437 + 0.5 - 0.4; 0.104 +- 0.02601 (DSYS=0.018551); 0.031948
 0.5493 + 0.6 - 0.5; 0.096139 +- 0.014045 (DSYS=0.017023); 0.022069
@@ -89,13 +90,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 40-60% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 60
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4498 + 0.5 - 0.4; 0.049816 +- 0.009849 (DSYS=0.0082377); 0.01284
 0.5562 + 0.6 - 0.5; 0.041266 +- 0.005105 (DSYS=0.0071194); 0.0087605
@@ -108,13 +109,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 60-80% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 80
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4541 + 0.5 - 0.4; 0.01436 +- 0.0029906 (DSYS=0.0024998); 0.0038978
 0.551 + 0.6 - 0.5; 0.012761 +- 0.0017897 (DSYS=0.0022312); 0.0028603
@@ -127,13 +128,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 0-10% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 10
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4457 + 0.5 - 0.4; 0.50566 +- 0.079524 (DSYS=0.081737); 0.11404
 0.5494 + 0.6 - 0.5; 0.44448 +- 0.037205 (DSYS=0.069429); 0.078769
@@ -149,13 +150,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 10-20% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 20
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4459 + 0.5 - 0.4; 0.32918 +- 0.050742 (DSYS=0.05708); 0.076373
 0.5494 + 0.6 - 0.5; 0.30733 +- 0.024793 (DSYS=0.051404); 0.05707
@@ -171,13 +172,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 20-30% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 30
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4441 + 0.5 - 0.4; 0.28238 +- 0.033366 (DSYS=0.050445); 0.060481
 0.5494 + 0.6 - 0.5; 0.25147 +- 0.022135 (DSYS=0.042363); 0.047797
@@ -193,13 +194,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 30-40% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 40
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4437 + 0.5 - 0.4; 0.17556 +- 0.028452 (DSYS=0.03317); 0.043701
 0.5494 + 0.6 - 0.5; 0.1413 +- 0.010749 (DSYS=0.025355); 0.02754
@@ -215,13 +216,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 40-60% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 60
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.45 + 0.5 - 0.4; 0.085695 +- 0.010321 (DSYS=0.015084); 0.018276
 0.5551 + 0.6 - 0.5; 0.070883 +- 0.0052761 (DSYS=0.011706); 0.01284
@@ -237,13 +238,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 60-80% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 80
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.45 + 0.5 - 0.4; 0.023247 +- 0.0034758 (DSYS=0.004028); 0.0053203
 0.5566 + 0.6 - 0.5; 0.01614 +- 0.0014076 (DSYS=0.0026672); 0.0030158
@@ -259,13 +260,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 0-10% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 10
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4457 + 0.5 - 0.4; 0.72938 +- 0.082399 (DSYS=0.11227); 0.13926
 0.5494 + 0.6 - 0.5; 0.64723 +- 0.037547 (DSYS=0.09471); 0.10188
@@ -282,13 +283,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 10-20% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 20
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4463 + 0.5 - 0.4; 0.46505 +- 0.047313 (DSYS=0.06838); 0.083152
 0.5494 + 0.6 - 0.5; 0.44127 +- 0.025736 (DSYS=0.063082); 0.068129
@@ -305,13 +306,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 20-30% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 30
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4453 + 0.5 - 0.4; 0.3978 +- 0.038559 (DSYS=0.060726); 0.071933
 0.5494 + 0.6 - 0.5; 0.31096 +- 0.017521 (DSYS=0.045691); 0.048936
@@ -328,13 +329,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 30-40% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 40
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4455 + 0.5 - 0.4; 0.27621 +- 0.025534 (DSYS=0.042471); 0.049556
 0.5494 + 0.6 - 0.5; 0.19974 +- 0.011627 (DSYS=0.029208); 0.031437
@@ -351,13 +352,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 40-60% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 60
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4434 + 0.5 - 0.4; 0.10988 +- 0.0090065 (DSYS=0.016087); 0.018437
 0.5495 + 0.6 - 0.5; 0.097786 +- 0.0048108 (DSYS=0.014105); 0.014903
@@ -374,13 +375,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 60-80% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 80
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.45 + 0.5 - 0.4; 0.028098 +- 0.0025125 (DSYS=0.0034926); 0.0043024
 0.5547 + 0.6 - 0.5; 0.024096 +- 0.0013001 (DSYS=0.0029849); 0.0032557
@@ -397,13 +398,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 0-10% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 10
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4465 + 0.5 - 0.4; 0.9 +- 0.091166 (DSYS=0.14511); 0.17137
 0.5496 + 0.6 - 0.5; 0.75018 +- 0.037478 (DSYS=0.11808); 0.12388
@@ -421,13 +422,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 10-20% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 20
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4465 + 0.5 - 0.4; 0.66478 +- 0.054848 (DSYS=0.10021); 0.11424
 0.5496 + 0.6 - 0.5; 0.50218 +- 0.024091 (DSYS=0.075166); 0.078933
@@ -445,13 +446,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 20-30% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 30
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4461 + 0.5 - 0.4; 0.43465 +- 0.041035 (DSYS=0.068846); 0.080147
 0.5496 + 0.6 - 0.5; 0.35203 +- 0.018247 (DSYS=0.055573); 0.058493
@@ -469,13 +470,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 30-40% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 40
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4457 + 0.5 - 0.4; 0.26503 +- 0.020892 (DSYS=0.038852); 0.044113
 0.5495 + 0.6 - 0.5; 0.23915 +- 0.010874 (DSYS=0.034838); 0.036495
@@ -493,13 +494,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 40-60% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 60
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.443 + 0.5 - 0.4; 0.1587 +- 0.011443 (DSYS=0.023336); 0.025991
 0.5493 + 0.6 - 0.5; 0.12434 +- 0.0053826 (DSYS=0.018274); 0.01905
@@ -517,13 +518,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 60-80% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 80
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4497 + 0.5 - 0.4; 0.032413 +- 0.0022459 (DSYS=0.0038028); 0.0044165
 0.5555 + 0.6 - 0.5; 0.025916 +- 0.0010943 (DSYS=0.0030833); 0.0032718
@@ -541,13 +542,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 0-10% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 10
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4467 + 0.5 - 0.4; 0.84938 +- 0.060449 (DSYS=0.12802); 0.14157
 0.5497 + 0.6 - 0.5; 0.80693 +- 0.036207 (DSYS=0.11791); 0.12334
@@ -565,13 +566,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 10-20% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 20
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4469 + 0.5 - 0.4; 0.55941 +- 0.038399 (DSYS=0.074185); 0.083534
 0.5497 + 0.6 - 0.5; 0.48565 +- 0.01926 (DSYS=0.062706); 0.065597
@@ -589,13 +590,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 20-30% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 30
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4469 + 0.5 - 0.4; 0.37803 +- 0.024802 (DSYS=0.050118); 0.055919
 0.5497 + 0.6 - 0.5; 0.35975 +- 0.014208 (DSYS=0.046295); 0.048427
@@ -613,13 +614,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 30-40% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 40
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4469 + 0.5 - 0.4; 0.26126 +- 0.015984 (DSYS=0.034533); 0.038053
 0.5497 + 0.6 - 0.5; 0.23826 +- 0.00919 (DSYS=0.030831); 0.032171
@@ -637,13 +638,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 40-60% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 60
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4449 + 0.5 - 0.4; 0.14995 +- 0.0090567 (DSYS=0.018982); 0.021032
 0.5494 + 0.6 - 0.5; 0.12024 +- 0.0042786 (DSYS=0.014969); 0.015568
@@ -661,13 +662,13 @@
 *dataset:
 *location: Figure 1
 *dscomment: Phi Meson Spectra
-*obskey: PHI
+*obskey: D2N/DYRAP/DPT
 *reackey: AU AU --> PHI X
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 60-80% most central
-*qual: : : Total Error
-*xheader: $P_T$ GeV/c
-*yheader: Invariant Yield
+*qual: RE : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 80
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y: y
 0.4426 + 0.5 - 0.4; 0.037253 +- 0.0022566 (DSYS=0.0040899); 0.0046711
 0.5493 + 0.6 - 0.5; 0.032104 +- 0.00119 (DSYS=0.0035749); 0.0037678
@@ -685,13 +686,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGA-
-*qual: $\sqrt{s}$: 7.7
-*qual: Centrality: 0-60% most central
-*qual: Particle: OMEGA-
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGA- X
+*qual: RE : AU AU --> OMEGA- X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 60
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.01427; 0.00261527 +- 0.000944016 (DSYS=0.000312062)
 1.44464; 0.000978677 +- 0.000270339 (DSYS=0.000167983)
@@ -702,13 +703,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGABAR+
-*qual: $\sqrt{s}$: 7.7
-*qual: Centrality: 0-60% most central
-*qual: Particle: OMEGABAR+
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGABAR+ X
+*qual: RE : AU AU --> OMEGABAR+ X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 60
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.0088; 0.000855682 +- 0.000204696 (DSYS=4.29255e-05)
 1.4436; 0.000234903 +- 7.45194e-05 (DSYS=2.53923e-05)
@@ -719,13 +720,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGA-
-*qual: $\sqrt{s}$: 11.5
-*qual: Centrality: 0-10% most central
-*qual: Particle: OMEGA-
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGA- X
+*qual: RE : AU AU --> OMEGA- X
+*qual: SQRT(S)/NUCLEON IN GEV : 11.5
+*qual: CENTRALITY IN PCT : 0 TO 10
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.01313; 0.00860754 +- 0.00370844 (DSYS=0.00117651)
 1.39583; 0.00314635 +- 0.000764603 (DSYS=0.000220714)
@@ -737,13 +738,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGA-
-*qual: $\sqrt{s}$: 11.5
-*qual: Centrality: 10-60% most central
-*qual: Particle: OMEGA-
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGA- X
+*qual: RE : AU AU --> OMEGA- X
+*qual: SQRT(S)/NUCLEON IN GEV : 11.5
+*qual: CENTRALITY IN PCT : 0 TO 60
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.00563; 0.00384646 +- 0.000644017 (DSYS=0.000233395)
 1.39186; 0.00120076 +- 0.000129369 (DSYS=7.19625e-05)
@@ -755,13 +756,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGABAR+
-*qual: $\sqrt{s}$: 11.5
-*qual: Centrality: 0-10% most central
-*qual: Particle: OMEGABAR+
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGABAR+ X
+*qual: RE : AU AU --> OMEGABAR+ X
+*qual: SQRT(S)/NUCLEON IN GEV : 11.5
+*qual: CENTRALITY IN PCT : 0 TO 10
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.01367; 0.00388311 +- 0.00157528 (DSYS=0.000639754)
 1.3961; 0.00148649 +- 0.000337804 (DSYS=0.000167895)
@@ -773,13 +774,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGABAR+
-*qual: $\sqrt{s}$: 11.5
-*qual: Centrality: 10-60% most central
-*qual: Particle: OMEGABAR+
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGABAR+ X
+*qual: RE : AU AU --> OMEGABAR+ X
+*qual: SQRT(S)/NUCLEON IN GEV : 11.5
+*qual: CENTRALITY IN PCT : 0 TO 60
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.0113; 0.000970335 +- 0.000211822 (DSYS=9.95379e-05)
 1.39489; 0.000395753 +- 5.50952e-05 (DSYS=1.51357e-05)
@@ -791,13 +792,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGA-
-*qual: $\sqrt{s}$: 19.6
-*qual: Centrality: 0-10% most central
-*qual: Particle: OMEGA-
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGA- X
+*qual: RE : AU AU --> OMEGA- X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 0 TO 10
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.01203; 0.0170832 +- 0.00296004 (DSYS=0.00251965)
 1.39542; 0.00707997 +- 0.000674653 (DSYS=0.000563584)
@@ -809,13 +810,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGA-
-*qual: $\sqrt{s}$: 19.6
-*qual: Centrality: 10-20% most central
-*qual: Particle: OMEGA-
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGA- X
+*qual: RE : AU AU --> OMEGA- X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 0 TO 20
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.0126; 0.0102127 +- 0.0015584 (DSYS=0.00148067)
 1.39557; 0.00417735 +- 0.000424869 (DSYS=0.00044988)
@@ -827,13 +828,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGA-
-*qual: $\sqrt{s}$: 19.6
-*qual: Centrality: 20-40% most central
-*qual: Particle: OMEGA-
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGA- X
+*qual: RE : AU AU --> OMEGA- X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 0 TO 40
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.00867; 0.00419571 +- 0.000591435 (DSYS=0.000641952)
 1.39357; 0.00225078 +- 0.000205111 (DSYS=0.000181032)
@@ -845,13 +846,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGA-
-*qual: $\sqrt{s}$: 19.6
-*qual: Centrality: 40-60% most central
-*qual: Particle: OMEGA-
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGA- X
+*qual: RE : AU AU --> OMEGA- X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 0 TO 60
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.00552; 0.00110674 +- 0.000245822 (DSYS=0.000205001)
 1.39191; 0.000389916 +- 6.47817e-05 (DSYS=3.35968e-05)
@@ -863,13 +864,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGABAR+
-*qual: $\sqrt{s}$: 19.6
-*qual: Centrality: 0-10% most central
-*qual: Particle: OMEGABAR+
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGABAR+ X
+*qual: RE : AU AU --> OMEGABAR+ X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 0 TO 10
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.01483; 0.00780381 +- 0.00125578 (DSYS=0.00054454)
 1.39664; 0.00367763 +- 0.000399356 (DSYS=0.000270005)
@@ -881,13 +882,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGABAR+
-*qual: $\sqrt{s}$: 19.6
-*qual: Centrality: 10-20% most central
-*qual: Particle: OMEGABAR+
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGABAR+ X
+*qual: RE : AU AU --> OMEGABAR+ X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 0 TO 20
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.01418; 0.0063183 +- 0.00105186 (DSYS=0.000800465)
 1.39634; 0.00257344 +- 0.000281131 (DSYS=0.000167403)
@@ -899,13 +900,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGABAR+
-*qual: $\sqrt{s}$: 19.6
-*qual: Centrality: 20-40% most central
-*qual: Particle: OMEGABAR+
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGABAR+ X
+*qual: RE : AU AU --> OMEGABAR+ X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 0 TO 40
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.01491; 0.0024452 +- 0.000367367 (DSYS=0.000207725)
 1.39667; 0.00102401 +- 0.000104086 (DSYS=5.99532e-05)
@@ -917,13 +918,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGABAR+
-*qual: $\sqrt{s}$: 19.6
-*qual: Centrality: 40-60% most central
-*qual: Particle: OMEGABAR+
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGABAR+ X
+*qual: RE : AU AU --> OMEGABAR+ X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 0 TO 60
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.00869; 0.000617707 +- 0.000164295 (DSYS=4.7414e-05)
 1.39337; 0.000310459 +- 5.04858e-05 (DSYS=2.44599e-05)
@@ -934,13 +935,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGA-
-*qual: $\sqrt{s}$: 27
-*qual: Centrality: 0-10% most central
-*qual: Particle: OMEGA-
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGA- X
+*qual: RE : AU AU --> OMEGA- X
+*qual: SQRT(S)/NUCLEON IN GEV : 27
+*qual: CENTRALITY IN PCT : 0 TO 10
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.01754; 0.0124927 +- 0.00204919 (DSYS=0.00139717)
 1.39777; 0.00865718 +- 0.000767841 (DSYS=0.000667535)
@@ -952,13 +953,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGA-
-*qual: $\sqrt{s}$: 27
-*qual: Centrality: 10-20% most central
-*qual: Particle: OMEGA-
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGA- X
+*qual: RE : AU AU --> OMEGA- X
+*qual: SQRT(S)/NUCLEON IN GEV : 27
+*qual: CENTRALITY IN PCT : 0 TO 20
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.01456; 0.0100671 +- 0.00162976 (DSYS=0.00130854)
 1.39651; 0.00518716 +- 0.000480465 (DSYS=0.0003642)
@@ -970,13 +971,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGA-
-*qual: $\sqrt{s}$: 27
-*qual: Centrality: 20-40% most central
-*qual: Particle: OMEGA-
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGA- X
+*qual: RE : AU AU --> OMEGA- X
+*qual: SQRT(S)/NUCLEON IN GEV : 27
+*qual: CENTRALITY IN PCT : 0 TO 40
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.01729; 0.00418737 +- 0.000483233 (DSYS=0.00048164)
 1.39767; 0.00234685 +- 0.000183764 (DSYS=0.000157054)
@@ -988,13 +989,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGA-
-*qual: $\sqrt{s}$: 27
-*qual: Centrality: 40-60% most central
-*qual: Particle: OMEGA-
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGA- X
+*qual: RE : AU AU --> OMEGA- X
+*qual: SQRT(S)/NUCLEON IN GEV : 27
+*qual: CENTRALITY IN PCT : 0 TO 60
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.01142; 0.00124037 +- 0.000256704 (DSYS=0.000144039)
 1.39495; 0.000715879 +- 9.43549e-05 (DSYS=4.83292e-05)
@@ -1006,13 +1007,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGABAR+
-*qual: $\sqrt{s}$: 27
-*qual: Centrality: 0-10% most central
-*qual: Particle: OMEGABAR+
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGABAR+ X
+*qual: RE : AU AU --> OMEGABAR+ X
+*qual: SQRT(S)/NUCLEON IN GEV : 27
+*qual: CENTRALITY IN PCT : 0 TO 10
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.02033; 0.00848074 +- 0.00134475 (DSYS=0.00125046)
 1.39879; 0.00517073 +- 0.000470267 (DSYS=0.000413838)
@@ -1024,13 +1025,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGABAR+
-*qual: $\sqrt{s}$: 27
-*qual: Centrality: 10-20% most central
-*qual: Particle: OMEGABAR+
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGABAR+ X
+*qual: RE : AU AU --> OMEGABAR+ X
+*qual: SQRT(S)/NUCLEON IN GEV : 27
+*qual: CENTRALITY IN PCT : 0 TO 20
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.01778; 0.00546324 +- 0.000818779 (DSYS=0.00075296)
 1.39787; 0.00313816 +- 0.000297686 (DSYS=0.000247821)
@@ -1042,13 +1043,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGABAR+
-*qual: $\sqrt{s}$: 27
-*qual: Centrality: 20-40% most central
-*qual: Particle: OMEGABAR+
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGABAR+ X
+*qual: RE : AU AU --> OMEGABAR+ X
+*qual: SQRT(S)/NUCLEON IN GEV : 27
+*qual: CENTRALITY IN PCT : 0 TO 40
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.01628; 0.00332534 +- 0.000433737 (DSYS=0.000484053)
 1.39726; 0.00167727 +- 0.000131418 (DSYS=0.000133861)
@@ -1060,13 +1061,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGABAR+
-*qual: $\sqrt{s}$: 27
-*qual: Centrality: 40-60% most central
-*qual: Particle: OMEGABAR+
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGABAR+ X
+*qual: RE : AU AU --> OMEGABAR+ X
+*qual: SQRT(S)/NUCLEON IN GEV : 27
+*qual: CENTRALITY IN PCT : 0 TO 60
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 1.00999; 0.00092586 +- 0.000187503 (DSYS=0.000121921)
 1.39415; 0.000493195 +- 6.73542e-05 (DSYS=3.88722e-05)
@@ -1078,13 +1079,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGA-
-*qual: $\sqrt{s}$: 39
-*qual: Centrality: 0-10% most central
-*qual: Particle: OMEGA-
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGA- X
+*qual: RE : AU AU --> OMEGA- X
+*qual: SQRT(S)/NUCLEON IN GEV : 39
+*qual: CENTRALITY IN PCT : 0 TO 10
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 0.964822; 0.0228471 +- 0.00261536 (DSYS=0.0018894)
 1.25144; 0.0116259 +- 0.000696369 (DSYS=0.00057679)
@@ -1100,13 +1101,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGA-
-*qual: $\sqrt{s}$: 39
-*qual: Centrality: 10-20% most central
-*qual: Particle: OMEGA-
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGA- X
+*qual: RE : AU AU --> OMEGA- X
+*qual: SQRT(S)/NUCLEON IN GEV : 39
+*qual: CENTRALITY IN PCT : 0 TO 20
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 0.964951; 0.0139117 +- 0.00130655 (DSYS=0.000972202)
 1.25147; 0.00685703 +- 0.000373611 (DSYS=0.000351166)
@@ -1122,13 +1123,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGA-
-*qual: $\sqrt{s}$: 39
-*qual: Centrality: 20-40% most central
-*qual: Particle: OMEGA-
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGA- X
+*qual: RE : AU AU --> OMEGA- X
+*qual: SQRT(S)/NUCLEON IN GEV : 39
+*qual: CENTRALITY IN PCT : 0 TO 40
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 0.964529; 0.00613365 +- 0.000464408 (DSYS=0.000482266)
 1.25135; 0.0036376 +- 0.000152306 (DSYS=0.00018011)
@@ -1144,13 +1145,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGA-
-*qual: $\sqrt{s}$: 39
-*qual: Centrality: 40-60% most central
-*qual: Particle: OMEGA-
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGA- X
+*qual: RE : AU AU --> OMEGA- X
+*qual: SQRT(S)/NUCLEON IN GEV : 39
+*qual: CENTRALITY IN PCT : 0 TO 60
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 0.962424; 0.00150255 +- 0.000168779 (DSYS=0.00011467)
 1.25067; 0.000873941 +- 5.65913e-05 (DSYS=4.42422e-05)
@@ -1164,13 +1165,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGA-
-*qual: $\sqrt{s}$: 39
-*qual: Centrality: 60-80% most central
-*qual: Particle: OMEGA-
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGA- X
+*qual: RE : AU AU --> OMEGA- X
+*qual: SQRT(S)/NUCLEON IN GEV : 39
+*qual: CENTRALITY IN PCT : 0 TO 80
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 0.955978; 0.000395057 +- 7.6762e-05 (DSYS=2.85425e-05)
 1.24767; 0.000137647 +- 1.8828e-05 (DSYS=6.79811e-06)
@@ -1182,13 +1183,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGABAR+
-*qual: $\sqrt{s}$: 39
-*qual: Centrality: 0-10% most central
-*qual: Particle: OMEGABAR+
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGABAR+ X
+*qual: RE : AU AU --> OMEGABAR+ X
+*qual: SQRT(S)/NUCLEON IN GEV : 39
+*qual: CENTRALITY IN PCT : 0 TO 10
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 0.96528; 0.0149123 +- 0.00177317 (DSYS=0.00105424)
 1.25157; 0.00845682 +- 0.00050982 (DSYS=0.000375638)
@@ -1204,13 +1205,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGABAR+
-*qual: $\sqrt{s}$: 39
-*qual: Centrality: 10-20% most central
-*qual: Particle: OMEGABAR+
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGABAR+ X
+*qual: RE : AU AU --> OMEGABAR+ X
+*qual: SQRT(S)/NUCLEON IN GEV : 39
+*qual: CENTRALITY IN PCT : 0 TO 20
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 0.965262; 0.011051 +- 0.00102827 (DSYS=0.000870082)
 1.25157; 0.00610198 +- 0.000338657 (DSYS=0.000222224)
@@ -1226,13 +1227,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGABAR+
-*qual: $\sqrt{s}$: 39
-*qual: Centrality: 20-40% most central
-*qual: Particle: OMEGABAR+
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGABAR+ X
+*qual: RE : AU AU --> OMEGABAR+ X
+*qual: SQRT(S)/NUCLEON IN GEV : 39
+*qual: CENTRALITY IN PCT : 0 TO 40
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 0.96387; 0.00471022 +- 0.000369886 (DSYS=0.000326242)
 1.25114; 0.0028673 +- 0.000124328 (DSYS=0.000100199)
@@ -1248,13 +1249,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGABAR+
-*qual: $\sqrt{s}$: 39
-*qual: Centrality: 40-60% most central
-*qual: Particle: OMEGABAR+
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGABAR+ X
+*qual: RE : AU AU --> OMEGABAR+ X
+*qual: SQRT(S)/NUCLEON IN GEV : 39
+*qual: CENTRALITY IN PCT : 0 TO 60
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 0.962204; 0.00119804 +- 0.000144036 (DSYS=8.18628e-05)
 1.2506; 0.000615025 +- 4.45353e-05 (DSYS=2.48339e-05)
@@ -1268,13 +1269,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: 
-*obskey: #cen
-*reackey: AU AU --> OMEGABAR+
-*qual: $\sqrt{s}$: 39
-*qual: Centrality: 60-80% most central
-*qual: Particle: OMEGABAR+
-*xheader: $P_T$
-*yheader: Invariant Yield
+*obskey: D2N/DYRAP/DPT
+*reackey: AU AU --> OMEGABAR+ X
+*qual: RE : AU AU --> OMEGABAR+ X
+*qual: SQRT(S)/NUCLEON IN GEV : 39
+*qual: CENTRALITY IN PCT : 0 TO 80
+*xheader: $P_T$ IN GeV/c
+*yheader: Invariant Yield IN c$^2$/GeV$^2$ : Total Error
 *data: x : y
 0.95607; 0.000235876 +- 5.39199e-05 (DSYS=1.78122e-05)
 1.24772; 0.000110506 +- 1.52906e-05 (DSYS=5.97741e-06)
@@ -1286,15 +1287,19 @@
 *dataset:
 *location: Figure 3
 *dscomment: 
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 200.0
-*qual: Centrality: #0-12%
-*xheader: $P_T$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 200.0
+*qual: CENTRALITY IN PCT : 0 TO 12
+*xheader: $P_T$ IN GeV/c
 *yheader: N(Omega+Anti-Omega)/2N(phi)
 *data: x : y
 1.0 - 1.4; 0.06879 +- 0.009929 (DSYS=0.008956)
-1.4 - 1.8; 0.08916 +- 0.008198 (DSYS=0.0.006828)
+1.4 - 1.8; 0.08916 +- 0.008198 (DSYS=0.006828)
 1.8 - 2.2; 0.1402 +- 0.01106 (DSYS=0.01304)
 2.2 - 2.6; 0.1483 +- 0.006242 (DSYS=0.0088)
 2.6 - 3.4; 0.1888 +- 0.01559 (DSYS=0.03124)
@@ -1303,13 +1308,17 @@
 5.0 - 5.8; 0.1146 +- 0.08706 (DSYS=0.08836)
 *dataend:
 *dataset:
-*location: Figure 4
+*location: Figure 3
 *dscomment: 
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 7.7
-*qual: Centrality: #0-60%
-*xheader: $P_T$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 60
+*xheader: $P_T$ IN GeV/c
 *yheader: N(Omega+Anti-Omega)/2N(phi)
 *data: x : y
 1.0; 0.034 +- 0.0095 (DSYS=0.0046)
@@ -1320,11 +1329,15 @@
 *dataset:
 *location: Figure 4
 *dscomment: 
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 11.5
-*qual: Centrality: #0-10%
-*xheader: $P_T$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 11.5
+*qual: CENTRALITY IN PCT : 0 TO 10
+*xheader: $P_T$ IN GeV/c
 *yheader: N(Omega+Anti-Omega)/2N(phi)
 *data: x : y
 1.0; 0.033 +- 0.011 (DSYS=0.007)
@@ -1337,11 +1350,15 @@
 *dataset:
 *location: Figure 4
 *dscomment: 
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 11.5
-*qual: Centrality: #10-60%
-*xheader: $P_T$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 11.5
+*qual: CENTRALITY IN PCT : 0 TO 60
+*xheader: $P_T$ IN GeV/c
 *yheader: N(Omega+Anti-Omega)/2N(phi)
 *data: x : y
 1.0; 0.04 +- 0.0057 (DSYS=0.0061)
@@ -1353,11 +1370,15 @@
 *dataset:
 *location: Figure 4
 *dscomment: 
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 19.6
-*qual: Centrality: #0-10%
-*xheader: $P_T$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 0 TO 10
+*xheader: $P_T$ IN GeV/c
 *yheader: N(Omega+Anti-Omega)/2N(phi)
 *data: x : y
 1.0; 0.043 +- 0.0056 (DSYS=0.0073)
@@ -1370,11 +1391,15 @@
 *dataset:
 *location: Figure 4
 *dscomment: 
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 19.6
-*qual: Centrality: #10-20%
-*xheader: $P_T$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 0 TO 20
+*xheader: $P_T$ IN GeV/c
 *yheader: N(Omega+Anti-Omega)/2N(phi)
 *data: x : y
 1.0; 0.045 +- 0.0052 (DSYS=0.0068)
@@ -1387,11 +1412,15 @@
 *dataset:
 *location: Figure 4
 *dscomment: 
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 19.6
-*qual: Centrality: #20-40%
-*xheader: $P_T$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 0 TO 40
+*xheader: $P_T$ IN GeV/c
 *yheader: N(Omega+Anti-Omega)/2N(phi)
 *data: x : y
 1.0; 0.033 +- 0.0034 (DSYS=0.0055)
@@ -1404,11 +1433,15 @@
 *dataset:
 *location: Figure 4
 *dscomment: 
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 19.6
-*qual: Centrality: #40-60%
-*xheader: $P_T$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 0 TO 60
+*xheader: $P_T$ IN GeV/c
 *yheader: N(Omega+Anti-Omega)/2N(phi)
 *data: x : y
 1.0; 0.026 +- 0.0045 (DSYS=0.0039)
@@ -1420,11 +1453,15 @@
 *dataset:
 *location: Figure 4
 *dscomment: 
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 27.0
-*qual: Centrality: #0-10%
-*xheader: $P_T$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 27.0
+*qual: CENTRALITY IN PCT : 0 TO 10
+*xheader: $P_T$ IN GeV/c
 *yheader: N(Omega+Anti-Omega)/2N(phi)
 *data: x : y
 1.0; 0.033 +- 0.0039 (DSYS=0.0057)
@@ -1437,11 +1474,15 @@
 *dataset:
 *location: Figure 4
 *dscomment: 
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 27.0
-*qual: Centrality: #10-20%
-*xheader: $P_T$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 27.0
+*qual: CENTRALITY IN PCT : 0 TO 20
+*xheader: $P_T$ IN GeV/c
 *yheader: N(Omega+Anti-Omega)/2N(phi)
 *data: x : y
 1.0; 0.035 +- 0.0041 (DSYS=0.0059)
@@ -1454,11 +1495,15 @@
 *dataset:
 *location: Figure 4
 *dscomment: 
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 27.0
-*qual: Centrality: #20-40%
-*xheader: $P_T$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 27.0
+*qual: CENTRALITY IN PCT : 0 TO 40
+*xheader: $P_T$ IN GeV/c
 *yheader: N(Omega+Anti-Omega)/2N(phi)
 *data: x : y
 1.0; 0.031 +- 0.0027 (DSYS=0.0048)
@@ -1471,11 +1516,15 @@
 *dataset:
 *location: Figure 4
 *dscomment: 
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 27.0
-*qual: Centrality: #40-60%
-*xheader: $P_T$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 27.0
+*qual: CENTRALITY IN PCT : 0 TO 60
+*xheader: $P_T$ IN GeV/c
 *yheader: N(Omega+Anti-Omega)/2N(phi)
 *data: x : y
 1.0; 0.026 +- 0.0038 (DSYS=0.0032)
@@ -1488,11 +1537,15 @@
 *dataset:
 *location: Figure 4
 *dscomment: 
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 39.0
-*qual: Centrality: #0-10%
-*xheader: $P_T$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 39.0
+*qual: CENTRALITY IN PCT : 0 TO 10
+*xheader: $P_T$ IN GeV/c
 *yheader: N(Omega+Anti-Omega)/2N(phi)
 *data: x : y
 0.95; 0.046 +- 0.0039 (DSYS=0.0061)
@@ -1509,11 +1562,15 @@
 *dataset:
 *location: Figure 4
 *dscomment: 
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 39.0
-*qual: Centrality: #10-20%
-*xheader: $P_T$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 39.0
+*qual: CENTRALITY IN PCT : 0 TO 20
+*xheader: $P_T$ IN GeV/c
 *yheader: N(Omega+Anti-Omega)/2N(phi)
 *data: x : y
 0.95; 0.045 +- 0.0031 (DSYS=0.0052)
@@ -1530,11 +1587,15 @@
 *dataset:
 *location: Figure 4
 *dscomment: 
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 39.0
-*qual: Centrality: #20-40%
-*xheader: $P_T$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 39.0
+*qual: CENTRALITY IN PCT : 0 TO 40
+*xheader: $P_T$ IN GeV/c
 *yheader: N(Omega+Anti-Omega)/2N(phi)
 *data: x : y
 0.95; 0.036 +- 0.002 (DSYS=0.0041)
@@ -1551,11 +1612,15 @@
 *dataset:
 *location: Figure 4
 *dscomment: 
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 39.0
-*qual: Centrality: #40-60%
-*xheader: $P_T$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 39.0
+*qual: CENTRALITY IN PCT : 0 TO 60
+*xheader: $P_T$ IN GeV/c
 *yheader: N(Omega+Anti-Omega)/2N(phi)
 *data: x : y
 0.95; 0.026 +- 0.0021 (DSYS=0.0029)
@@ -1570,11 +1635,15 @@
 *dataset:
 *location: Figure 4
 *dscomment: 
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 39.0
-*qual: Centrality: #60-80%
-*xheader: $P_T$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 39.0
+*qual: CENTRALITY IN PCT : 0 TO 80
+*xheader: $P_T$ IN GeV/c
 *yheader: N(Omega+Anti-Omega)/2N(phi)
 *data: x : y
 0.95; 0.0273 +- 0.0041 (DSYS=0.0031)
@@ -1587,11 +1656,15 @@
 *dataset:
 *location: Figure 5
 *dscomment: ks(pTs) = N(Omega+Anti-Omega)_(pT=3pTs)/2N(phi)_(pT=2pTs)  N is the invariant yield.
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 7.7 GeV
-*qual: Centrality: 0-60%
-*xheader: $P_T^s$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 60
+*xheader: $P_T^s$ IN GeV/c
 *yheader: $k_s(P_T^s)$
 *data: x : y
 0.334; 0.0156 +- 0.0044 (DSYS=0.0026)
@@ -1603,11 +1676,15 @@
 *dataset:
 *location: Figure 5
 *dscomment: ks(pTs) = N(Omega+Anti-Omega)_(pT=3pTs)/2N(phi)_(pT=2pTs)  N is the invariant yield.
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 11.5 GeV
-*qual: Centrality: 0-10%
-*xheader: $P_T^s$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 11.5
+*qual: CENTRALITY IN PCT : 0 TO 10
+*xheader: $P_T^s$ IN GeV/c
 *yheader: $k_s(P_T^s)$
 *data: x : y
 0.333; 0.0171 +- 0.0056 (DSYS=0.0027)
@@ -1620,11 +1697,15 @@
 *dataset:
 *location: Figure 5
 *dscomment: ks(pTs) = N(Omega+Anti-Omega)_(pT=3pTs)/2N(phi)_(pT=2pTs)  N is the invariant yield.
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 19.6 GeV
-*qual: Centrality: 0-10%
-*xheader: $P_T^s$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 0 TO 10
+*xheader: $P_T^s$ IN GeV/c
 *yheader: $k_s(P_T^s)$
 *data: x : y
 0.333; 0.0224 +- 0.003 (DSYS=0.0033)
@@ -1637,11 +1718,15 @@
 *dataset:
 *location: Figure 5
 *dscomment: ks(pTs) = N(Omega+Anti-Omega)_(pT=3pTs)/2N(phi)_(pT=2pTs)  N is the invariant yield.
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 27 GeV
-*qual: Centrality: 0-10%
-*xheader: $P_T^s$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 27
+*qual: CENTRALITY IN PCT : 0 TO 10
+*xheader: $P_T^s$ IN GeV/c
 *yheader: $k_s(P_T^s)$
 *data: x : y
 0.333; 0.0163 +- 0.0019 (DSYS=0.0023)
@@ -1654,11 +1739,15 @@
 *dataset:
 *location: Figure 5
 *dscomment: ks(pTs) = N(Omega+Anti-Omega)_(pT=3pTs)/2N(phi)_(pT=2pTs)  N is the invariant yield.
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 39 GeV
-*qual: Centrality: 0-10%
-*xheader: $P_T^s$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 39
+*qual: CENTRALITY IN PCT : 0 TO 10
+*xheader: $P_T^s$ IN GeV/c
 *yheader: $k_s(P_T^s)$
 *data: x : y
 0.317; 0.0256 +- 0.0022 (DSYS=0.003)
@@ -1675,11 +1764,15 @@
 *dataset:
 *location: Figure 5
 *dscomment: ks(pTs) = N(Omega+Anti-Omega)_(pT=3pTs)/2N(phi)_(pT=2pTs)  N is the invariant yield.
-*obskey: N(OMEGA- + OMEGABAR+)/2N(PHI)
-*reackey: AU AU --> (OMEGA- + OMEGABAR+)
-*qual: $\sqrt{s}$: 200 GeV
-*qual: Centrality: 0-5%
-*xheader: $P_T^s$
+*obskey: N/N
+*reackey: AU AU --> OMEGA- X
+*reackey: AU AU --> OMEGABAR+ X
+*reackey: AU AU --> PHI X
+*qual: RE(Omega+Anti-Omega) : AU AU --> (OMEGA- + OMEGABAR+) X
+*qual: RE(phi) : AU AU --> PHI X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: CENTRALITY IN PCT : 0 TO 5
+*xheader: $P_T^s$ IN GeV/c
 *yheader: $k_s(P_T^s)$
 *data: x : y
 0.4375;   0.0153603 +- 0.00283216
@@ -1687,4 +1780,5 @@
 0.854167; 0.0116372 +- 0.00183651
 1.0625;   0.00798084 +- 0.0014118
 1.33333;  0.00283299 +- 0.000773213
-*E:
+*dataend:
+*E

@@ -2,20 +2,22 @@
 *reference: PRL 116,112302 : 2016
 *reference: ARXIV:1601.01999 : 2016
 *doi: 10.1103/PhysRevLett.116.112302
-*status: Encoded 28 MAR 2016 by Nickolas Luttrell
+*status: Encoded 28 MAR 2016 by Nickolas Luttrell (Rice University)
+*status: Edited 04 APR 2016 by Graeme Watt
 *title: Beam Energy Dependence of the Third Harmonic of Azimuthal Correlations in Au+Au Collisions at RHIC
 *comment: BNL-RHIC.  We present results from a harmonic decomposition of two-particle azimuthal correlations measured with the STAR detector in Au+Au collisions for energies ranging from $\sqrt{s_{NN}}=7.7$ GeV to 200 GeV. The third harmonic $v_3^2\{2\}=\langle \cos3(\phi_1-\phi_2)\rangle$, where $\phi_1-\phi_2$ is the angular difference in azimuth, is studied as a function of the pseudorapidity difference between particle pairs $\Delta\eta = \eta_1-\eta_2$. Non-zero {\vthree} is directly related to the previously observed large-$\Delta\eta$ narrow-$\Delta\phi$ ridge correlations and has been shown in models to be sensitive to the existence of a low viscosity Quark Gluon Plasma (QGP) phase. For sufficiently central collisions, $v_3^2\{2\}$ persist down to an energy of 7.7 GeV suggesting that QGP may be created even in these low energy collisions. In peripheral collisions at these low energies however, $v_3^2\{2\}$ is consistent with zero. When scaled by pseudorapidity density of charged particle multiplicity per participating nucleon pair, $v_3^2\{2\}$ for central collisions shows a minimum near $\sqrt{s_{NN}}=20$ GeV
-*durhamId:
+*durhamId: 6544
 *inspireId: 1414638
-*cdsId: 
+*cdsId: 2120094
 *detector: STAR
 *experiment: BNL-RHIC-STAR
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 7.7 GeV 0-5% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 0 TO 5
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -62,9 +64,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 7.7 GeV 5-10% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 5 TO 10
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -111,9 +114,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 7.7 GeV 10-20% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 10 TO 20
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -160,9 +164,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 7.7 GeV 20-30% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 20 TO 30
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -209,9 +214,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 7.7 GeV 30-40% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 30 TO 40
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -258,9 +264,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 7.7 GeV 40-50% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 40 TO 50
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -307,9 +314,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 7.7 GeV 50-60% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 50 TO 60
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -356,9 +364,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 7.7 GeV 60-70% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 60 TO 70
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -405,9 +414,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 7.7 GeV 70-80% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
+*qual: CENTRALITY IN PCT : 70 TO 80
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -454,9 +464,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 11.5 GeV 0-5% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 11.5
+*qual: CENTRALITY IN PCT : 0 TO 5
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -503,9 +514,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 11.5 GeV 5-10% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 11.5
+*qual: CENTRALITY IN PCT : 5 TO 10
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -552,9 +564,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 11.5 GeV 10-20% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 11.5
+*qual: CENTRALITY IN PCT : 10 TO 20
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -601,9 +614,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 11.5 GeV 20-30% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 11.5
+*qual: CENTRALITY IN PCT : 20 TO 30
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -650,9 +664,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 11.5 GeV 30-40% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 11.5
+*qual: CENTRALITY IN PCT : 30 TO 40
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -699,9 +714,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 11.5 GeV 40-50% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 11.5
+*qual: CENTRALITY IN PCT : 40 TO 50
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -748,9 +764,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 11.5 GeV 50-60% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 11.5
+*qual: CENTRALITY IN PCT : 50 TO 60
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -797,9 +814,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 11.5 GeV 60-70% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 11.5
+*qual: CENTRALITY IN PCT : 60 TO 70
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -846,9 +864,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 11.5 GeV 70-80% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 11.5
+*qual: CENTRALITY IN PCT : 70 TO 80
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -895,9 +914,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 14.5 GeV 0-5% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 14.5
+*qual: CENTRALITY IN PCT : 0 TO 5
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -944,9 +964,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 14.5 GeV 5-10% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 14.5
+*qual: CENTRALITY IN PCT : 5 TO 10
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -993,9 +1014,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 14.5 GeV 10-20% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 14.5
+*qual: CENTRALITY IN PCT : 10 TO 20
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -1042,9 +1064,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 14.5 GeV 20-30% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 14.5
+*qual: CENTRALITY IN PCT : 20 TO 30
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -1091,9 +1114,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 14.5 GeV 30-40% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 14.5
+*qual: CENTRALITY IN PCT : 30 TO 40
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -1140,9 +1164,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 14.5 GeV 40-50% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 14.5
+*qual: CENTRALITY IN PCT : 40 TO 50
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -1189,9 +1214,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 14.5 GeV 50-60% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 14.5
+*qual: CENTRALITY IN PCT : 50 TO 60
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -1238,9 +1264,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 14.5 GeV 60-70% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 14.5
+*qual: CENTRALITY IN PCT : 60 TO 70
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -1287,9 +1314,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 14.5 GeV 70-80% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 14.5
+*qual: CENTRALITY IN PCT : 70 TO 80
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -1336,9 +1364,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 19.6 GeV 0-5% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 0 TO 5
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -1385,9 +1414,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 19.6 GeV 5-10% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 5 TO 10
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -1434,9 +1464,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 19.6 GeV 10-20% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 10 TO 20
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -1483,9 +1514,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 19.6 GeV 20-30% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 20 TO 30
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -1532,9 +1564,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 19.6 GeV 30-40% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 30 TO 40
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -1581,9 +1614,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 19.6 GeV 40-50% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 40 TO 50
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -1630,9 +1664,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 19.6 GeV 50-60% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 50 TO 60
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -1679,9 +1714,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 19.6 GeV 60-70% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 60 TO 70
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -1728,9 +1764,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 19.6 GeV 70-80% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
+*qual: CENTRALITY IN PCT : 70 TO 80
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -1777,9 +1814,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 27 GeV 0-5% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 27
+*qual: CENTRALITY IN PCT : 0 TO 5
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -1826,9 +1864,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 27 GeV 5-10% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 27
+*qual: CENTRALITY IN PCT : 5 TO 10
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -1875,9 +1914,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 27 GeV 10-20% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 27
+*qual: CENTRALITY IN PCT : 10 TO 20
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -1924,9 +1964,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 27 GeV 20-30% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 27
+*qual: CENTRALITY IN PCT : 20 TO 30
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -1973,9 +2014,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 27 GeV 30-40% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 27
+*qual: CENTRALITY IN PCT : 30 TO 40
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -2022,9 +2064,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 27 GeV 40-50% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 27
+*qual: CENTRALITY IN PCT : 40 TO 50
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -2071,9 +2114,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 27 GeV 50-60% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 27
+*qual: CENTRALITY IN PCT : 50 TO 60
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -2120,9 +2164,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 27 GeV 60-70% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 27
+*qual: CENTRALITY IN PCT : 60 TO 70
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -2169,9 +2214,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 27 GeV 70-80% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 27
+*qual: CENTRALITY IN PCT : 70 TO 80
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -2218,9 +2264,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 39 GeV 0-5% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 39
+*qual: CENTRALITY IN PCT : 0 TO 5
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -2267,9 +2314,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 39 GeV 5-10% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 39
+*qual: CENTRALITY IN PCT : 5 TO 10
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -2316,9 +2364,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 39 GeV 10-20% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 39
+*qual: CENTRALITY IN PCT : 10 TO 20
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -2365,9 +2414,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 39 GeV 20-30% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 39
+*qual: CENTRALITY IN PCT : 20 TO 30
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -2414,9 +2464,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 39 GeV 30-40% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 39
+*qual: CENTRALITY IN PCT : 30 TO 40
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -2463,9 +2514,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 39 GeV 40-50% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 39
+*qual: CENTRALITY IN PCT : 40 TO 50
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -2512,9 +2564,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 39 GeV 50-60% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 39
+*qual: CENTRALITY IN PCT : 50 TO 60
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -2561,9 +2614,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 39 GeV 60-70% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 39
+*qual: CENTRALITY IN PCT : 60 TO 70
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -2610,9 +2664,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 39 GeV 70-80% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 39
+*qual: CENTRALITY IN PCT : 70 TO 80
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -2659,9 +2714,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 62.4 GeV 0-5% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 62.4
+*qual: CENTRALITY IN PCT : 0 TO 5
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -2708,9 +2764,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 62.4 GeV 5-10% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 62.4
+*qual: CENTRALITY IN PCT : 5 TO 10
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -2757,9 +2814,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 62.4 GeV 10-20% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 62.4
+*qual: CENTRALITY IN PCT : 10 TO 20
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -2806,9 +2864,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 62.4 GeV 20-30% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 62.4
+*qual: CENTRALITY IN PCT : 20 TO 30
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -2855,9 +2914,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 62.4 GeV 30-40% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 62.4
+*qual: CENTRALITY IN PCT : 30 TO 40
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -2904,9 +2964,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 62.4 GeV 40-50% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 62.4
+*qual: CENTRALITY IN PCT : 40 TO 50
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -2953,9 +3014,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 62.4 GeV 50-60% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 62.4
+*qual: CENTRALITY IN PCT : 50 TO 60
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -3002,9 +3064,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 62.4 GeV 60-70% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 62.4
+*qual: CENTRALITY IN PCT : 60 TO 70
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -3051,9 +3114,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 62.4 GeV 70-80% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 62.4
+*qual: CENTRALITY IN PCT : 70 TO 80
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -3100,9 +3164,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 200 GeV 0-5% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: CENTRALITY IN PCT : 0 TO 5
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -3149,9 +3214,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 200 GeV 5-10% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: CENTRALITY IN PCT : 5 TO 10
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -3198,9 +3264,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 200 GeV 10-20% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: CENTRALITY IN PCT : 10 TO 20
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -3247,9 +3314,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 200 GeV 20-30% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: CENTRALITY IN PCT : 20 TO 30
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -3296,9 +3364,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 200 GeV 30-40% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: CENTRALITY IN PCT : 30 TO 40
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -3345,9 +3414,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 200 GeV 40-50% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: CENTRALITY IN PCT : 40 TO 50
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -3394,9 +3464,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 200 GeV 50-60% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: CENTRALITY IN PCT : 50 TO 60
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -3443,9 +3514,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 200 GeV 60-70% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: CENTRALITY IN PCT : 60 TO 70
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -3492,9 +3564,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: Representative results on $v_3^2\{2\}$ from Au+Au collisions as a function of $\Delta\eta$ for charged hadrons with pT > 0.2 GeV/c and |$\eta$| < 1.
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy and Centrality: 200 GeV 70-80% Central
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200
+*qual: CENTRALITY IN PCT : 70 TO 80
 *xheader: $\Delta\eta$
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -3541,9 +3614,9 @@
 *dataset:
 *location: Figure 2
 *dscomment: Npart values are for the corresponding centrality at 200 GeV
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy: sqrt(s)=200.0 GEV
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 200.0
 *xheader: Npart
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -3560,9 +3633,9 @@
 *dataset:
 *location: Figure 2
 *dscomment: Npart values are for the corresponding centrality at 200 GeV
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy: sqrt(s)=62.4 GEV
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 62.4
 *xheader: Npart
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -3579,9 +3652,9 @@
 *dataset:
 *location: Figure 2
 *dscomment: Npart values are for the corresponding centrality at 200 GeV
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy: sqrt(s)=39.0 GEV
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 39.0
 *xheader: Npart
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -3598,9 +3671,9 @@
 *dataset:
 *location: Figure 2
 *dscomment: Npart values are for the corresponding centrality at 200 GeV
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy: sqrt(s)=27.0 GEV
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 27.0
 *xheader: Npart
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -3617,9 +3690,9 @@
 *dataset:
 *location: Figure 2
 *dscomment: Npart values are for the corresponding centrality at 200 GeV
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy: sqrt(s)=19.6 GEV
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 19.6
 *xheader: Npart
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -3636,9 +3709,9 @@
 *dataset:
 *location: Figure 2
 *dscomment: Npart values are for the corresponding centrality at 200 GeV
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy: sqrt(s)=14.5 GEV
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 14.5
 *xheader: Npart
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -3655,9 +3728,9 @@
 *dataset:
 *location: Figure 2
 *dscomment: Npart values are for the corresponding centrality at 200 GeV
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy: sqrt(s)=11.5 GEV
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 11.5
 *xheader: Npart
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -3674,9 +3747,9 @@
 *dataset:
 *location: Figure 2
 *dscomment: Npart values are for the corresponding centrality at 200 GeV
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy: sqrt(s)=7.7 GEV
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7
 *xheader: Npart
 *yheader: $v_3^2\{2\}$
 *data: x : y
@@ -3693,13 +3766,13 @@
 *dataset:
 *location: Figures 3 and 4
 *dscomment:
-*obskey: 
-*reackey: Au+Au
-*qual: Beam Energy:
+*obskey: V3
+*reackey: AU AU --> CHGD-HADRONS X
+*qual: SQRT(S)/NUCLEON IN GEV : 7.7 TO 200
 *xheader: Figure #
 *yheader: Description
 *data: x : y
 Figure 3; Data Replotted from Figure 2
-Figure 4: Data Replotted from Figure 2 and scaled by equation 3
+Figure 4; Data Replotted from Figure 2 and scaled by equation 3
 *dataend:
-*E:
+*E
