@@ -1,0 +1,25 @@
+*author: ADAMCZYK
+*reference: PR CXX,YYYYYY : 2016
+*reference: ARXIV:1602.02212 : 2016
+*doi: 10.1103/PhysRevC.XX.YYYYYY
+*status: Encoded 11 MAY 2016 by Frank Geurts (Rice Univ)
+*status: Edited 
+*title: J/$\psi$ Production at low transverse momentum in $p+p$ and $d$+Au collisions at $\sqrt{s_{NN}}=$200 GeV
+*comment: BNL-RHIC.  We report on the measurement of J/$\psi$ production in the dielectron channel at mid-rapidity (|y|<1) in p+p and d+Au collisions at $\sqrt{S_{NN}$=200 GeV from the STAR experiment at the Relativistic Heavy Ion Collider. The transverse momentum $p_T$ spectra in p+p for $p_T \lt 4$ GeV/$c$ and d+Au collisions for $p_T \lt 3$ GeV/$c$ are presented. These measurements extend the STAR coverage for J/$\psi$ production in p+p collisions to low $p_T$. The $\langle p^2_T\rangle$ from the measured J/$\psi$ invariant cross section in p+p and d+Au collisions are evaluated and compared to similar measurements at other collision energies. The nuclear modification factor for J/$\psi$ is extracted as a function of $p_T$ and collision centrality in d+Au and compared to model calculations using the modified nuclear Parton Distribution Function and a final-state J/$\psi$ nuclear absorption cross section.
+*durhamId: 
+*inspireId: 
+*cdsId: 
+*detector: STAR
+*experiment: BNL-RHIC-STAR
+*dataset:
+*location: Figure 9
+*dscomment: The invariant cross section versus transverse momentum for J/$\psi$ with $|y|\lt 1$ in $p+p$ collisions.
+*obskey: CORR
+*reackey: AU AU --> J/PSI X
+*qual: RE : AU AU --> (J/PSI + X) 
+*qual: TRANSVERSE MOMENTUM IN GEV/C : 0 TO 3
+*xheader: TRANSVERSE MOMENTUM IN GEV/C IN GEV
+*yheader: B_{ee} d^2\sigma(2\pip_T dydp_T
+*data: x : y : y : y
+*dataend:
+*E
