@@ -1,0 +1,143 @@
+*author: ADAMCZYK
+*reference: PRL 116,132301 : 2016
+*reference: ARXIV:1511.06003 : 2015
+*doi: 10.1103/PhysRevLett.116.132301
+*status: Encoded 12 MAY 2016 by Nickolas Luttrell (Rice University)
+*title: Measurement of the transverse single-spin asymmetry in $p^\uparrow+p \to W^{\pm}/Z^0$ at RHIC
+*comment: BNL-RHIC.  We present the measurement of the transverse single-spin asymmetry of weak boson production in transversely polarized proton-proton collisions at $\sqrt{s} = 500~\text{GeV}$ by the STAR experiment at RHIC. The measured observable is sensitive to the Sivers function, one of the transverse momentum dependent parton distribution functions, which is predicted to have the opposite sign in proton-proton collisions from that observed in deep inelastic lepton-proton scattering. These data provide the first experimental investigation of the non-universality of the Sivers function, fundamental to our understanding of QCD
+*durhamId:
+*inspireId: 1405433
+*cdsId: 2104117
+*detector: STAR
+*experiment: BNL-RHIC-STAR
+*dataset:
+*location: Figure 1
+*dscomment: $P_{T}$ Recoil distribution of events simulated with PYTHIA 6.4 and reconstructed before and after the boson's PT correction has been applied.
+*obskey: PT
+*reackey: P P --> W+- X
+*qual: SQRT(S)/NUCLEON IN GEV : 500
+*qual: Pythia Data: Not Corrected: Corrected
+*xheader: $P_{T}$ Recoil IN GEV/C
+*yheader: Number of events
+*data: x : y : y				
+0.5 TO 1.0;	4505;	2185;			
+1.0 TO 1.5;	5804;	3482;			
+1.5 TO 2.0;	6374;	4123;			
+2.0 TO 2.5;	5934;	4417;			
+2.5 TO 3.0;	5683;	4404;			
+3.0 TO 3.5;	5022;	4422;			
+3.5 TO 4.0;	4440;	4222;			
+4.0 TO 4.5;	3738;	3857;			
+4.5 TO 5.0;	3187;	3495;			
+5.0 TO 5.5;	2737;	3106;			
+5.5 TO 6.0;	2337;	2742;			
+6.0 TO 6.5;	1933;	2454;			
+6.5 TO 7.0;	1613;	2153;			
+7.0 TO 7.5;	1365;	1946;			
+7.5 TO 8.0;	1279;	1646;			
+8.0 TO 8.5;	1047;	1529;			
+8.5 TO 9.0;	884;	1330;			
+9.0 TO 9.5;	782;	1165;			
+9.5 TO 10.0;	766;	1100;
+*dataend:			
+*dataset:
+*location: Figure 2 (Upper)
+*dscomment: Estimated background contributions for the $W^+ -> ev$ data yields.
+*obskey: PT
+*reackey: P P --> W+- X
+*qual: SQRT(S)/NUCLEON IN GEV : 500
+*qual:.: STAR: PYTHIA MC+Bg: PYTHIA $W^+ -> t v$: PYTHIA $Z^0$ -> e e: Data driven QCD
+*xheader: $P_{T}$ electron IN GEV/C
+*yheader: Number of events
+*data: x : y : y: y: y: y										
+15 TO 18;	142 +- 11.9;	158;	6.78;	1.48;	133.75;
+18 TO 21;	159 +- 12.6;	117.1;	13.31;	1.96;	52.94;
+21 TO 24;	142 +- 11.9;	118.2;	15.18;	1.84;	18.53;
+24 TO 27;	153 +- 12.4;	131.9;	10.9;	1.8;	10.84;
+27 TO 30;	166 +- 12.8;	150;	8.2;	1.84;	4.99;
+30 TO 33;	222 +- 14.9;	176.8;	5.53;	1.83;	2.7;
+33 TO 36;	207 +- 14.4;	209.1;	2.7;	1.35;	2.07;
+36 TO 39;	214 +- 14.6;	224.9;	1.06;	1.3;	0.98;
+39 TO 42;	157 +- 12.5;	147.8;	0.36;	1.14;	0.69;
+42 TO 45;	93 +- 9.6;	46.6;	0.09;	0.9;	0.86;
+45 TO 48;	27 +- 5.2;	16.1;	0.03;	0.57;	0.34;
+48 TO 51;	13 +- 3.6;	6.6;	0.01;	0.17;	0.12;
+51 TO 54;	8 +- 2.8;	3.2;	0;	0.1;	0.23;
+54 TO 57;	1 +- 1.0;	1.4;	0.01;	0;	0;
+57 TO 60;	3 +- 1.7;	0.9;	0;	0.01;	0.06;
+60 TO 63;	0 +- 0.0;	0.5;	0;	0.01;	0;
+63 TO 66;	0 +- 0.0;	0.2;	0;	0;	0;
+66 TO 69;	2 +- 1.4;	0.2;	0;	0.01;	0;
+*dataend: 					
+*dataset:
+*location: Figure 2 (lower)
+*dscomment: Estimated background contributions for the $W^- -> ev$ data yields.
+*obskey: PT
+*reackey: P P --> W+- X
+*qual: SQRT(S)/NUCLEON IN GEV : 500
+*qual:.: STAR: PYTHIA MC+Bg: PYTHIA W+ -> t v: PYTHIA Z0 -> e e: Data driven QCD
+*xheader: $P_{T}$ electron IN GEV/C
+*yheader: Number of events
+*data: x : y : y: y: y: y
+15 TO 18;	88 +- 9.4;	89.5;	1.82;	1.62;	84.56;
+18 TO 21;	70 +- 8.4;	40.7;	3.22;	2.2;	29.59;
+21 TO 24;	47 +- 6.9;	28.2;	3.52;	2.16;	12.74;
+24 TO 27;	47 +- 6.9;	25.5;	2.47;	2.14;	5.2;
+27 TO 30;	38 +- 6.2;	30.4;	2.49;	1.8;	3.17;
+30 TO 33;	37 +- 6.1;	38.4;	1.28;	1.61;	2.08;
+33 TO 36;	55 +- 7.4;	49.8;	0.74;	1.3;	1.14;
+36 TO 39;	66 +- 8.1;	62.7;	0.19;	1.1;	0.83;
+39 TO 42;	62 +- 7.9;	42.6;	0.07;	1.1;	0.36;
+42 TO 45;	25 +- 5.0;	14.4;	0.06;	0.86;	0.26
+45 TO 48;	15 +- 3.9;	4.6;	0;	0.36;	0.1;
+48 TO 51;	3 +- 1.7;	1.9;	0;	0.09;	0.05;
+51 TO 54;	1 +- 1.0;	0.9;	0.02;	0.04;	0;
+54 TO 57;	1 +- 1.0;	0.5;	0;	0.01;	0.1;
+57 TO 60;	1 +- 1.0;	0.2;	0;	0;	0.05;
+60 TO 63;	0 +- 0.0;	0.04;	0;	0;	0;
+63 TO 66;	0 +- 0.0;	0.13;	0;	0;	0;
+66 TO 69;	0 +- 0.0;	0;	0;	0;	0;
+*dataend:					
+*dataset:
+*location: Figure 3
+*dscomment: The amplitude of the transverse single-spin asymmetry for $W^{+-}$ boson production as a function of $P_T^W$, in the |$y^W$| < 1 region, measured by STAR in proton+proton collisions at $\sqrt{s}=500$ GeV with a recorded luminosity of 25 $pb^{-1}$. The average boson's rapidity value for each $P_T^W$ bin is $y^W=0.0$
+*obskey: PT
+*reackey: P P --> W+- X
+*qual: SQRT(S)/NUCLEON IN GEV : 500
+*qual: $P_T^W$: <$P_T^W$> (GeV/c): $A_{N}(W^+ -> e^+\nu_{e})$: $A_{N}(W^- -> e^-\nu_{e}$)
+*xheader: $P_T^W$ IN GEV/C
+*yheader: Values
+*data: x : y : y: y					
+1.0 TO 2.5;	1.8;	0.07 +- 0.14  (DSYS=0.004);	0.54 +- 0.24 (DSYS=0.033);	
+2.5 TO 4.0;	3.3;	0.01 +- 0.13 (DSYS=0.001);	0.37 +- 0.23 (DSYS=0.054);	
+4.0 TO 5.5;	4.7;	0.03 +- 0.15 (DSYS=0.002);	0.01 +- 0.25 (DSYS=0.001);		
+5.5 TO 7.0;	6.2;	0.45 +- 0.19 (DSYS=0.020);	0.50 +- 0.39 (DSYS=0.022);	
+7.0 TO 10.0;	8.3;	0.42 +- 0.19 (DSYS=0.039);	0.33 +- 0.41 (DSYS=0.03);	
+*dataend:									
+*dataset:
+*location: Table V
+*dscomment: The amplitude of the transverse single-spin asymmetry for $W^{+-}$ boson production as a function of $y^W$, in the 0.5 GeV/c < $P_T^W$ < 10 GeV/c region, measured by STAR in proton+proton collisions at $\sqrt{s}=500$ GeV with a recorded luminosity of 25 $pb^{-1}$. The average boson's transverse-momentum value for each $y^W$-bin is $P_T^W=5.3$ GeV/c.
+*obskey: 
+*reackey: P P --> W+- X
+*qual: SQRT(S)/NUCLEON IN GEV : 500
+*qual:.: <$y^W$>: $A_{N}(W^+ -> e^+\nu_{e}$): $A_{N}(W^- -> e^-\nu_{e}$)
+*xheader: $y^W$
+*yheader: Values
+*data: x : y : y: y								
+-0.6 TO -0.2;	-0.38;	0.15 +- 0.15 (DSYS=0.053);	0.12 +- 0.29 (DSYS=0.042);	
+-0.2 TO 0.2;	0.00;	0.27 +- 0.11 (DSYS=0.004);	0.23 +- 0.21 (DSYS=0.003);	
+0.2 TO 0.6;	0.38;	0.014 +- 0.13 (DSYS=0.002);	0.40 +- 0.24 (DSYS=0.051);		
+*dataend:
+*dataset:
+*location: Table VI
+*dscomment: The amplitude of the transverse single-spin asymmetry for $Z^0$ boson production, measured by STAR in proton+proton collisions at $\sqrt{s}=500$ GeV with a recorded luminosity of 25 $pb^{-1}$
+*obskey: 
+*reackey: P P --> W+- X
+*qual: SQRT(S)/NUCLEON IN GEV : 500
+*xheader: -
+*yheader: $A_{N}(Z^0 -> e^+e^-$)
+*data: x : y : y				
+0.5 GeV/c < $P_T^Z$ < 10 GeV/c;	0.60 +- 0.33 (stat.);			
+$-0.8< y^Z <0.8$;					
+*dataend:
+*E:
