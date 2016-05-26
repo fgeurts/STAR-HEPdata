@@ -61,7 +61,8 @@
 *dataend: 
 *dataset:
 *location: Table 4
-*dscomment: $<M_{inv}>$ asymmetries, $\eta$ > 0, maximum opening angle 0.2
+*dscomment: $<M_{inv}>$ asymmetries, $\eta$ > 0, maximum opening angle 0.2
+
 *obskey: 
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
@@ -93,7 +94,8 @@
 *dataend: 
 *dataset:
 *location: Table 6
-*dscomment: $<M_{inv}>$ asymmetries, $\eta$ < 0, maximum opening angle 0.3
+*dscomment: $<M_{inv}>$ asymmetries, $\eta$ < 0, maximum opening angle 0.3
+
 *obskey: 
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
@@ -125,7 +127,8 @@
 *dataend: 
 *dataset:
 *location: Table 8
-*dscomment: $<M_{inv}>$ asymmetries, $\eta$ > 0, maximum opening angle 0.3
+*dscomment: $<M_{inv}>$ asymmetries, $\eta$ > 0, maximum opening angle 0.3
+
 *obskey: 
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
@@ -205,7 +208,8 @@
 *dataend: 
 *dataset:
 *location: Table 13
-*dscomment: $\eta$ asymmetries, maximum opening angle 0.2
+*dscomment: $\eta$ asymmetries, maximum opening angle 0.2
+
 *obskey: 
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
