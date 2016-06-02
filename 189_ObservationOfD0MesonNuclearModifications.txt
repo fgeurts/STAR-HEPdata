@@ -1,0 +1,70 @@
+*author: ADAMCZYK
+*reference: PRL 113,142301 : 2014
+*reference: ARXIV:1404.6185 : 2014
+*doi: 10.1103/PhysRevLett.113.142301
+*status: Encoded 02 JUN 2016 by Nickolas Luttrell (Rice University)
+*title: Observation of $D^0$ meson nuclear modifications in Au+Au collisions at $\sqrt{s_{_{\mathrm{NN}}}}$ = 200 GeV
+*comment: BNL-RHIC.  We report the first measurement of charmed-hadron ($D^0$) production via the hadronic decay channel ($D^0\rightarrow K^- + \pi^+$) in Au+Au collisions at $\sqrt{s_{_{\mathrm{NN}}}}$ = 200\,GeV with the STAR experiment. The charm production cross-section per nucleon-nucleon collision at mid-rapidity scales with the number of binary collisions, $N_{bin}$, from $p$+$p$ to central Au+Au collisions. The $D^0$ meson yields in central Au+Au collisions are strongly suppressed compared to those in $p$+$p$ scaled by $N_{bin}$, for transverse momenta $p_{T}>3$ GeV/$c$, demonstrating significant energy loss of charm quarks in the hot and dense medium. An enhancement at intermediate $p_{T}$ is also observed. Model calculations including strong charm-medium interactions and coalescence hadronization describe our measurements
+*durhamId:
+*inspireId: 1292132
+*cdsId: 1699274
+*detector: STAR
+*experiment: BNL-RHIC-STAR
+
+*dataset:
+*location: Figure 2
+*dscomment: Centrality dependence of the $D^0$ $p_T$ differential invariant yield in Au+Au collisions
+*obskey: PT
+*reackey: AU AU --> D0 X
+*reackey: D0 --> K- PI+ X
+*qual: SQRT(S) IN GEV:  200
+*xheader: $p_T$ in GeV/c
+*yheader: Centrality in PCT
+*qual: .: 0-80%: 0-10%: 10-40%: 40-80%
+*data: x: y: y: y: y
+0.315; 0.0913 +- 0.0161 (DSYS=+0.0125, -0.0125); 0.21 +- 0.0609 (DSYS=+0.0265, -0.0265); 0.122 +- 0.0265 (DSYS=+0.0134, -0.0134); 0.0163 +- 0.00351 (DSYS=+0.00208, -0.00208); 
+0.968; 0.073 +- 0.0127 (DSYS=+0.00861, -0.00861); 0.217 +- 0.0418 (DSYS=+0.0219, -0.0219); 0.109 +- 0.0207 (DSYS=+0.011, -0.011); 0.0129 +- 0.00269 (DSYS=+0.00156, -0.00156); 
+1.35; 0.047 +- 0.00644 (DSYS=+0.00498, -0.00498); 0.151 +- 0.0239 (DSYS=+0.0155, -0.0155); 0.0482 +- 0.00834 (DSYS=+0.00493, -0.00493); 0.00809 +- 0.00118 (DSYS=+0.000823, -0.000823); 
+1.89; 0.0161 +- 0.00252 (DSYS=+0.00175, -0.00175); 0.0431 +- 0.00689 (DSYS=+0.00436, -0.00436); 0.0203 +- 0.0034 (DSYS=+0.00237, -0.00237); 0.00154 +- 0.000491 (DSYS=+0.000159, -0.000159); 
+2.56; 0.00302 +- 0.000636 (DSYS=+0.000305, -0.000305); 0.00566 +- 0.00165 (DSYS=+0.000669, -0.000669); 0.00416 +- 0.000911 (DSYS=+0.000432, -0.000432); 0.000657 +- 0.000171 (DSYS=+7.21e-05, -7.21e-05); 
+3.75; 0.000307 +- 5.55e-05 (DSYS=+3.49e-05, -3.49e-05); 0.000638 +- 0.00016 (DSYS=+7.04e-05, -7.04e-05); 0.00033 +- 8.69e-05 (DSYS=+4.27e-05, -4.27e-05); 7.23e-05 +- 1.51e-05 (DSYS=+7.46e-06, -7.46e-06); 
+5.88; 8.03e-06 +- 1.83e-06 (DSYS=+1.24e-06, -1.24e-06); 1.85e-05 +- 4.9e-06 (DSYS=+2.16e-06, -2.16e-06); 1.4e-05 +- 0.0 (DSYS=+0.0, -0.0); 2.39e-06 +- 6.84e-07 (DSYS=+3.2e-07, -3.2e-07); 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: $D^0\,R_{AA}$ for different centralities.
+*obskey: PT
+*reackey: AU AU --> D0 X
+*reackey: D0 --> K- PI+ X
+*qual: SQRT(S) IN GEV:  200
+*xheader: $p_T$ in GeV/c
+*yheader: Centrality in PCT
+*qual: .: 0-10%: 10-40%: 40-80%
+*data: x: y: y: y
+0.315; 0.572 +- 0.166 (DSYS=+0.217, -0.217); 0.802 +- 0.174 (DSYS=+0.299, -0.299); 0.739 +- 0.159 (DSYS=+0.28, -0.28); 
+0.968; 1.19 +- 0.231 (DSYS=+0.237, -0.237); 1.44 +- 0.274 (DSYS=+0.286, -0.286); 1.18 +- 0.247 (DSYS=+0.247, -0.247); 
+1.35; 1.57 +- 0.248 (DSYS=+0.23, -0.23); 1.2 +- 0.208 (DSYS=+0.176, -0.176); 1.4 +- 0.205 (DSYS=+0.204, -0.204); 
+1.89; 1.19 +- 0.191 (DSYS=+0.151, -0.151); 1.36 +- 0.227 (DSYS=+0.189, -0.189); 0.707 +- 0.226 (DSYS=+0.0909, -0.0909); 
+2.56; 0.563 +- 0.164 (DSYS=+0.0854, -0.0854); 0.994 +- 0.218 (DSYS=+0.14, -0.14); 1.09 +- 0.283 (DSYS=+0.158, -0.158); 
+3.75; 0.504 +- 0.126 (DSYS=+0.0598, -0.0598); 0.627 +- 0.165 (DSYS=+0.0856, -0.0856); 0.949 +- 0.199 (DSYS=+0.106, -0.106); 
+5.88; 0.292 +- 0.0776 (DSYS=+0.0867, -0.0867); 0.688 +- 0.0 (DSYS=+0.0, -0.0); 0.63 +- 0.18 (DSYS=+0.191, -0.191); 
+*dataend: 
+
+*dataset:
+*location: Figure 4
+*dscomment: Integrated $D^0$ $R_{AA}$ as a function of $N_{part}$ in different $p_T$ regions.
+*obskey: PT
+*reackey: AU AU --> D0 X
+*reackey: D0 --> K- PI+ X
+*qual: SQRT(S) IN GEV:  200
+*xheader: CENTRALITY IN PCT
+*yheader: Integrated $D^0$ $R_{AA}$
+*qual: .: $0<p_T<8$ GeV/c: $3<p_T<8$ GeV/c: $0.7<p_T<2.2$ GeV/c
+*data: x: y: y: y: y
+0 TO 80.0; 126.7 +- 7.7; 1.11 +- 0.0838 (DSYS=+0.136, -0.136); 0.768 +- 0.131 (DSYS=+0.104, -0.104); 1.44 +- 0.131 (DSYS=+0.145, -0.145); 
+0 TO 10.0; 325.5 +- 3.6; 0.955 +- 0.0894 (DSYS=+0.096, -0.096); 0.499 +- 0.117 (DSYS=+0.0579, -0.0579); 1.34 +- 0.138 (DSYS=+0.132, -0.132); 
+10 TO 40.0; 174.1 +- 9.9; 1.05 +- 0.094 (DSYS=+0.135, -0.135); 0.581 +- 0.153 (DSYS=+0.109, -0.109); 1.34 +- 0.144 (DSYS=+0.139, -0.139); 
+40 TO 80.0; 41.8 +- 7.8; 0.944 +- 0.0887 (DSYS=+0.248, -0.248); 0.947 +- 0.185 (DSYS=+0.249, -0.249); 1.15 +- 0.135 (DSYS=+0.126, -0.126); 
+*dataend:
+*E:
