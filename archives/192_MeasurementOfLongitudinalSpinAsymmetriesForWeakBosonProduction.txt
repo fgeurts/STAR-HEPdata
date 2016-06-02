@@ -1,0 +1,419 @@
+*author: ADAMCZYK
+*reference: PRL 113,072301 : 2014
+*reference: ARXIV:1404.6880 : 2014
+*doi: 10.1103/PhysRevLett.113.072301
+*status: Encoded 02 JUN 2016 by Nickolas Luttrell (Rice University)
+*title: Measurement of longitudinal spin asymmetries for weak boson production in polarized proton-proton collisions at RHIC
+*comment: BNL-RHIC.  We report measurements of single- and double- spin asymmetries for $W^{\pm}$ and $Z/\gamma^*$ boson production in longitudinally polarized $p+p$ collisions at $\sqrt{s} = 510$ GeV by the STAR experiment at RHIC. The asymmetries for $W^{\pm}$ were measured as a function of the decay lepton pseudorapidity, which provides a theoretically clean probe of the proton's polarized quark distributions at the scale of the $W$ mass. The results are compared to theoretical predictions, constrained by recent polarized deep inelastic scattering measurements, and show a preference for a sizable, positive up antiquark polarization in the range $0.05<x<0.2$
+*durhamId:
+*inspireId: 1292792
+*cdsId: 1698947
+*detector: STAR
+*experiment: BNL-RHIC-STAR
+
+*dataset:
+*location: Figure 1
+*dscomment: $E_T^e$ distribution of $W^{\pm}$ candidate events, background contributions, and sum of backgrounds and W -> ev MC signal. This plot is for Electron |eta|<0.5
+*obskey: 
+*reackey: P P --> W+ W- X
+*qual: SQRT(S) IN GEV:  200
+*qual: Electron |eta|<0.5
+*xheader: $E_T^e$
+*yheader: Values
+*qual: .: Z/$\gamma$->ee: W->tau->e: second EEMC: Data-driven QCD: W->enu MC: Data
+*data: x: y: y: y: y: y: y
+15.0; 1.73; 2.64; 36.0; 53.08; 1.06; 99.0 +- 9.95; 
+17.0; 0.85; 3.58; 24.0; 29.3; 1.76; 55.0 +- 7.42; 
+19.0; 1.41; 3.58; 13.0; 17.72; 2.51; 35.0 +- 5.92; 
+21.0; 1.43; 3.07; 10.0; 9.75; 3.78; 36.0 +- 6.0; 
+23.0; 1.55; 2.83; 6.0; 5.13; 5.98; 25.0 +- 5.0; 
+25.0; 1.26; 2.27; 4.0; 4.04; 9.28; 21.0 +- 4.58; 
+27.0; 0.96; 2.17; 3.0; 2.19; 10.06; 20.0 +- 4.47; 
+29.0; 1.65; 1.95; 4.0; 1.98; 16.47; 24.0 +- 4.9; 
+31.0; 0.44; 0.99; 0.0; 1.39; 24.95; 24.0 +- 4.9; 
+33.0; 1.06; 1.26; 2.0; 0.82; 31.36; 42.0 +- 6.48; 
+35.0; 1.57; 0.14; 1.0; 0.31; 44.05; 53.0 +- 7.28; 
+37.0; 1.43; 0.42; 3.0; 0.57; 58.39; 65.0 +- 8.06; 
+39.0; 0.3; 0.49; 1.0; 0.38; 59.02; 61.0 +- 7.81; 
+41.0; 1.36; 0.07; 1.0; 0.34; 35.38; 29.0 +- 5.39; 
+43.0; 0.74; 0.07; 0.0; 0.08; 16.47; 22.0 +- 4.69; 
+45.0; 0.76; 0.0; 0.0; 0.05; 7.77; 8.0 +- 2.83; 
+47.0; 0.31; 0.0; 0.0; 0.16; 4.01; 7.0 +- 2.65; 
+49.0; 0.3; 0.0; 0.0; 0.0; 1.74; 2.0 +- 1.41; 
+51.0; 0.15; 0.0; 0.0; 0.15; 1.27; 4.0 +- 2.0; 
+53.0; 0.0; 0.0; 0.0; 0.13; 0.78; 3.0 +- 1.73; 
+55.0; 0.07; 0.0; 0.0; 0.08; 0.5; 3.0 +- 1.73; 
+57.0; 0.0; 0.0; 0.0; 0.06; 0.69; 0.0 +- 0.0; 
+59.0; 0.08; 0.0; 0.0; 0.0; 0.07; 1.0 +- 1.0; 
+61.0; 0.0; 0.0; 0.0; 0.0; 0.22; 2.0 +- 1.41; 
+63.0; 0.0; 0.0; 0.0; 0.0; 0.21; 0.0 +- 0.0; 
+65.0; 0.0; 0.0; 0.0; 0.06; 0.0; 0.0 +- 0.0; 
+*dataend: 
+
+*dataset:
+*location: Figure 1
+*dscomment: $E_T^e$ distribution of $W^{\pm}$ candidate events, background contributions, and sum of backgrounds and W -> ev MC signal. This plot is for Electron 0.5<|eta|<1.1
+*obskey: 
+*reackey: P P --> W+ W- X
+*qual: SQRT(S) IN GEV:  200
+*xheader: $E_T^e$
+*yheader: Values
+*qual: .: Z/$\gamma$->ee: W->tau->e: second EEMC: Data-driven QCD: W->enu MC: Data
+*qual: Electron 0.5<|eta|<1.1
+*data: x: y: y: y: y: y: y
+15.0; 1.64; 2.82; 118.0; 68.19; 2.52; 180.0 +- 13.42; 
+17.0; 1.64; 2.63; 50.0; 36.22; 4.35; 108.0 +- 10.39; 
+19.0; 1.99; 2.75; 24.0; 19.98; 7.04; 83.0 +- 9.11; 
+21.0; 1.06; 3.3; 19.0; 9.79; 8.92; 48.0 +- 6.93; 
+23.0; 1.42; 2.54; 10.0; 6.26; 11.57; 42.0 +- 6.48; 
+25.0; 1.07; 2.6; 9.0; 3.41; 14.99; 48.0 +- 6.93; 
+27.0; 0.74; 2.18; 3.0; 3.54; 20.75; 39.0 +- 6.24; 
+29.0; 0.61; 1.27; 5.0; 1.24; 24.99; 35.0 +- 5.92; 
+31.0; 1.04; 1.41; 2.0; 1.16; 27.36; 44.0 +- 6.63; 
+33.0; 0.29; 0.64; 4.0; 0.8; 34.93; 52.0 +- 7.21; 
+35.0; 0.6; 0.7; 1.0; 0.44; 42.09; 45.0 +- 6.71; 
+37.0; 0.46; 0.35; 0.0; 0.37; 44.31; 48.0 +- 6.93; 
+39.0; 0.81; 0.21; 3.0; 0.68; 42.94; 38.0 +- 6.16; 
+41.0; 0.74; 0.0; 2.0; 0.55; 27.15; 37.0 +- 6.08; 
+43.0; 0.47; 0.0; 2.0; 0.56; 12.18; 22.0 +- 4.69; 
+45.0; 0.37; 0.0; 0.0; 0.19; 5.48; 13.0 +- 3.61; 
+47.0; 0.67; 0.0; 0.0; 0.07; 2.4; 2.0 +- 1.41; 
+49.0; 0.37; 0.0; 0.0; 0.0; 1.53; 7.0 +- 2.65; 
+51.0; 0.07; 0.0; 0.0; 0.0; 0.77; 2.0 +- 1.41; 
+53.0; 0.0; 0.0; 0.0; 0.01; 0.72; 0.0 +- 0.0; 
+55.0; 0.0; 0.0; 0.0; 0.08; 0.14; 1.0 +- 1.0; 
+57.0; 0.0; 0.0; 0.0; 0.0; 0.21; 1.0 +- 1.0; 
+59.0; 0.07; 0.0; 0.0; 0.13; 0.0; 0.0 +- 0.0; 
+61.0; 0.0; 0.0; 0.0; 0.0; 0.15; 0.0 +- 0.0; 
+63.0; 0.0; 0.0; 0.0; 0.0; 0.07; 0.0 +- 0.0; 
+65.0; 0.0; 0.0; 0.0; 0.0; 0.0; 0.0 +- 0.0; 
+*dataend: 
+
+*dataset:
+*location: Figure 1
+*dscomment: $E_T^e$ distribution of $W^{\pm}$ candidate events, background contributions, and sum of backgrounds and W -> ev MC signal. This plot is for Positron |eta|<0.5
+*obskey: 
+*reackey: P P --> W+ W- X
+*qual: SQRT(S) IN GEV:  200
+*xheader: $E_T^e$
+*yheader: Values
+*qual: .: Z/$\gamma$->ee: W->tau->e: second EEMC: Data-driven QCD: W->enu MC: Data
+*qual: Positron |eta|<0.5
+*data: x: y: y: y: y: y: y
+15.0; 1.45; 13.8; 44.0; 105.73; 14.83; 180.0 +- 13.42; 
+17.0; 1.14; 17.54; 25.0; 58.95; 22.57; 125.0 +- 11.18; 
+19.0; 0.52; 14.19; 20.0; 35.4; 35.63; 98.0 +- 9.9; 
+21.0; 1.06; 12.82; 5.0; 19.36; 54.11; 108.0 +- 10.39; 
+23.0; 1.13; 14.43; 9.0; 10.32; 71.59; 103.0 +- 10.15; 
+25.0; 0.89; 12.9; 5.0; 7.82; 94.12; 136.0 +- 11.66; 
+27.0; 1.14; 9.82; 4.0; 4.34; 119.84; 149.0 +- 12.21; 
+29.0; 0.88; 7.32; 3.0; 3.87; 143.7; 164.0 +- 12.81; 
+31.0; 0.97; 4.59; 2.0; 2.79; 167.51; 174.0 +- 13.19; 
+33.0; 0.3; 3.62; 2.0; 1.6; 197.24; 184.0 +- 13.56; 
+35.0; 1.23; 1.56; 4.0; 0.63; 218.45; 210.0 +- 14.49; 
+37.0; 1.04; 2.0; 1.0; 1.13; 234.27; 232.0 +- 15.23; 
+39.0; 2.01; 0.7; 1.0; 0.77; 209.74; 167.0 +- 12.92; 
+41.0; 0.6; 0.29; 3.0; 0.63; 125.71; 129.0 +- 11.36; 
+43.0; 1.2; 0.07; 0.0; 0.16; 60.31; 75.0 +- 8.66; 
+45.0; 0.97; 0.07; 0.0; 0.09; 28.24; 39.0 +- 6.24; 
+47.0; 0.22; 0.0; 0.0; 0.33; 15.33; 17.0 +- 4.12; 
+49.0; 0.23; 0.0; 0.0; 0.0; 8.96; 7.0 +- 2.65; 
+51.0; 0.07; 0.0; 1.0; 0.28; 5.62; 12.0 +- 3.46; 
+53.0; 0.3; 0.0; 1.0; 0.28; 2.75; 3.0 +- 1.73; 
+55.0; 0.16; 0.0; 0.0; 0.18; 2.48; 1.0 +- 1.0; 
+57.0; 0.0; 0.0; 0.0; 0.14; 1.63; 1.0 +- 1.0; 
+59.0; 0.15; 0.0; 0.0; 0.0; 1.28; 0.0 +- 0.0; 
+61.0; 0.0; 0.0; 0.0; 0.0; 0.84; 0.0 +- 0.0; 
+63.0; 0.0; 0.0; 0.0; 0.0; 0.49; 1.0 +- 1.0; 
+65.0; 0.0; 0.0; 0.0; 0.14; 0.49; 0.0 +- 0.0; 
+*dataend: 
+
+*dataset:
+*location: Figure 1
+*dscomment: $E_T^e$ distribution of $W^{\pm}$ candidate events, background contributions, and sum of backgrounds and W -> ev MC signal. This plot is for Positron 0.5<|eta|<1.1
+*obskey: 
+*reackey: P P --> W+ W- X
+*qual: SQRT(S) IN GEV:  200
+*xheader: $E_T^e$
+*yheader: Values
+*qual: .: Z/$\gamma$->ee: W->tau->e: second EEMC: Data-driven QCD: W->enu MC: Data
+*qual: Positron 0.5<|eta|<1.1
+*data: x: y: y: y: y: y: y
+15.0; 2.13; 9.92; 134.0; 105.01; 26.87; 290.0 +- 17.03; 
+17.0; 1.64; 10.94; 66.0; 52.59; 37.89; 157.0 +- 12.53; 
+19.0; 0.74; 11.8; 31.0; 29.19; 47.35; 134.0 +- 11.58; 
+21.0; 1.44; 9.71; 31.0; 15.04; 58.53; 132.0 +- 11.49; 
+23.0; 0.67; 8.26; 19.0; 9.02; 64.47; 96.0 +- 9.8; 
+25.0; 0.46; 6.4; 8.0; 5.77; 65.8; 114.0 +- 10.68; 
+27.0; 0.89; 6.31; 8.0; 4.75; 76.72; 97.0 +- 9.85; 
+29.0; 1.11; 5.09; 5.0; 1.6; 80.08; 93.0 +- 9.64; 
+31.0; 0.74; 3.56; 5.0; 1.3; 86.88; 122.0 +- 11.05; 
+33.0; 0.9; 3.39; 3.0; 1.31; 97.46; 140.0 +- 11.83; 
+35.0; 0.96; 1.62; 2.0; 0.79; 121.51; 138.0 +- 11.75; 
+37.0; 0.52; 0.64; 1.0; 0.23; 143.92; 143.0 +- 11.96; 
+39.0; 0.74; 0.5; 2.0; 0.42; 137.31; 125.0 +- 11.18; 
+41.0; 0.61; 0.07; 2.0; 0.58; 80.73; 71.0 +- 8.43; 
+43.0; 1.06; 0.15; 1.0; 0.39; 35.09; 51.0 +- 7.14; 
+45.0; 1.05; 0.07; 2.0; 0.25; 16.89; 29.0 +- 5.39; 
+47.0; 0.37; 0.07; 0.0; 0.08; 9.3; 12.0 +- 3.46; 
+49.0; 0.15; 0.0; 0.0; 0.0; 5.58; 10.0 +- 3.16; 
+51.0; 0.22; 0.0; 1.0; 0.0; 3.4; 3.0 +- 1.73; 
+53.0; 0.0; 0.0; 0.0; 0.06; 2.13; 1.0 +- 1.0; 
+55.0; 0.07; 0.0; 0.0; 0.09; 1.92; 2.0 +- 1.41; 
+57.0; 0.0; 0.0; 0.0; 0.0; 0.64; 3.0 +- 1.73; 
+59.0; 0.0; 0.0; 0.0; 0.01; 0.71; 1.0 +- 1.0; 
+61.0; 0.0; 0.0; 0.0; 0.0; 0.21; 1.0 +- 1.0; 
+63.0; 0.0; 0.0; 0.0; 0.0; 0.14; 1.0 +- 1.0; 
+65.0; 0.0; 0.0; 0.0; 0.0; 0.29; 0.0 +- 0.0; 
+*dataend: 
+
+*dataset:
+*location: Figure 2a
+*dscomment: Signed $P_T$-balance distribution for e+/e- candidates reconstructed in the EEMC
+*obskey: 
+*reackey: P P --> W+ W- X
+*qual: SQRT(S) IN GEV:  200
+*xheader: Signed $p_T$-balance
+*yheader: Values
+*qual: .: Data: Stat.: Z->ee: W->tau->e: QCD: W->enu: MC
+*data: x: y: y: y: y: y
+-30.0; 0.0 +- 0.0; 0.0; 0.0; 0.0; 0.0; 
+-26.0; 0.0 +- 0.0; 0.0; 0.0; 1.41; 1.41; 
+-22.0; 0.0 +- 0.0; 0.29; 0.0; 1.71; 1.71; 
+-18.0; 0.0 +- 0.0; 0.22; 0.0; 0.22; 0.22; 
+-14.0; 4.0 +- 2.0; 0.68; 0.0; 4.92; 4.92; 
+-10.0; 4.0 +- 2.0; 0.98; 0.0; 2.39; 2.39; 
+-6.0; 6.0 +- 2.45; 1.94; 0.0; 1.94; 1.94; 
+-2.0; 6.0 +- 2.45; 1.91; 0.0; 10.39; 10.46; 
+2.0; 11.0 +- 3.32; 2.0; 0.0; 13.3; 13.45; 
+6.0; 7.0 +- 2.65; 1.19; 0.07; 4.08; 4.22; 
+10.0; 7.0 +- 2.65; 0.91; 0.15; 5.3; 5.58; 
+14.0; 8.0 +- 2.83; 0.0; 0.07; 4.31; 4.67; 
+18.0; 8.0 +- 2.83; 0.07; 0.0; 5.73; 6.22; 
+22.0; 10.0 +- 3.16; 0.0; 0.21; 3.04; 5.74; 
+26.0; 27.0 +- 5.2; 0.83; 1.14; 1.96; 20.02; 
+30.0; 35.0 +- 5.92; 0.44; 0.71; 1.15; 21.8; 
+34.0; 35.0 +- 5.92; 0.0; 0.56; 0.56; 23.28; 
+38.0; 20.0 +- 4.47; 0.07; 0.07; 0.14; 23.59; 
+42.0; 6.0 +- 2.45; 0.0; 0.0; 0.0; 15.58; 
+46.0; 1.0 +- 1.0; 0.16; 0.0; 0.16; 2.81; 
+50.0; 0.0 +- 0.0; 0.07; 0.0; 0.07; 0.58; 
+54.0; 0.0 +- 0.0; 0.0; 0.0; 0.0; 0.14; 
+58.0; 0.0 +- 0.0; 0.0; 0.0; 0.0; 0.07; 
+*dataend: 
+
+*dataset:
+*location: Figure 2b
+*dscomment: Distribution of the product of the TPC reconstructed charge sign and $E_T/p_T$.
+*obskey: 
+*reackey: P P --> W+ W- X
+*qual: SQRT(S) IN GEV:  200
+*xheader: Q*$E_T/p_T$
+*yheader: Values
+*qual: .: Data: e-: e+
+*data: x: y: y: y
+-2.9; 0.0 +- 0.0; 1.09; 0.01; 
+-2.7; 1.0 +- 1.0; 1.34; 0.01; 
+-2.5; 1.0 +- 1.0; 1.6; 0.02; 
+-2.3; 2.0 +- 1.41; 1.9; 0.03; 
+-2.1; 0.0 +- 0.0; 2.29; 0.06; 
+-1.9; 4.0 +- 2.0; 2.96; 0.09; 
+-1.7; 4.0 +- 2.0; 4.24; 0.14; 
+-1.5; 9.0 +- 3.0; 6.39; 0.21; 
+-1.3; 10.0 +- 3.16; 9.12; 0.31; 
+-1.1; 9.0 +- 3.0; 11.34; 0.44; 
+-0.9; 14.0 +- 3.74; 11.81; 0.6; 
+-0.7; 11.0 +- 3.32; 10.19; 0.79; 
+-0.5; 9.0 +- 3.0; 7.42; 1.01; 
+-0.3; 5.0 +- 2.24; 4.78; 1.3; 
+-0.1; 7.0 +- 2.65; 2.99; 1.73; 
+0.1; 9.0 +- 3.0; 2.01; 2.57; 
+0.3; 5.0 +- 2.24; 1.49; 4.24; 
+0.5; 8.0 +- 2.83; 1.18; 6.97; 
+0.7; 9.0 +- 3.0; 0.93; 10.16; 
+0.9; 16.0 +- 4.0; 0.73; 12.32; 
+1.1; 13.0 +- 3.61; 0.56; 12.11; 
+1.3; 9.0 +- 3.0; 0.42; 9.64; 
+1.5; 10.0 +- 3.16; 0.3; 6.39; 
+1.7; 3.0 +- 1.73; 0.21; 3.76; 
+1.9; 2.0 +- 1.41; 0.15; 2.21; 
+2.1; 1.0 +- 1.0; 0.1; 1.44; 
+2.3; 0.0 +- 0.0; 0.07; 1.05; 
+2.5; 1.0 +- 1.0; 0.04; 0.79; 
+2.7; 1.0 +- 1.0; 0.03; 0.6; 
+2.9; 0.0 +- 0.0; 0.02; 0.44; 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: Distribution of the invariant mass of Z/$\gamma^*$ -> e+ e- candidate events, with MC for comparison.
+*obskey: 
+*reackey: P P --> W+ W- X
+*qual: SQRT(S) IN GEV:  200
+*xheader: Mass(GeV)
+*yheader: Values
+*qual: .: Data: MC
+*data: x: y: y
+25.0; 0.0 +- 0.0; 0.0; 
+27.0; 0.0 +- 0.0; 0.0; 
+29.0; 2.0 +- 1.41; 0.48; 
+31.0; 1.0 +- 1.0; 1.47; 
+33.0; 2.0 +- 1.41; 2.12; 
+35.0; 1.0 +- 1.0; 2.34; 
+37.0; 3.0 +- 1.73; 2.03; 
+39.0; 1.0 +- 1.0; 1.72; 
+41.0; 0.0 +- 0.0; 2.17; 
+43.0; 4.0 +- 2.0; 1.53; 
+45.0; 0.0 +- 0.0; 1.3; 
+47.0; 3.0 +- 1.73; 1.14; 
+49.0; 1.0 +- 1.0; 1.78; 
+51.0; 0.0 +- 0.0; 0.64; 
+53.0; 0.0 +- 0.0; 0.8; 
+55.0; 0.0 +- 0.0; 0.32; 
+57.0; 2.0 +- 1.41; 1.07; 
+59.0; 1.0 +- 1.0; 0.57; 
+61.0; 1.0 +- 1.0; 1.39; 
+63.0; 4.0 +- 2.0; 0.57; 
+65.0; 1.0 +- 1.0; 0.64; 
+67.0; 1.0 +- 1.0; 0.72; 
+69.0; 1.0 +- 1.0; 1.12; 
+71.0; 1.0 +- 1.0; 0.72; 
+73.0; 1.0 +- 1.0; 1.14; 
+75.0; 3.0 +- 1.73; 1.79; 
+77.0; 1.0 +- 1.0; 1.31; 
+79.0; 4.0 +- 2.0; 1.88; 
+81.0; 4.0 +- 2.0; 2.59; 
+83.0; 6.0 +- 2.45; 4.14; 
+85.0; 15.0 +- 3.87; 8.6; 
+87.0; 9.0 +- 3.0; 12.19; 
+89.0; 11.0 +- 3.32; 20.92; 
+91.0; 14.0 +- 3.74; 17.92; 
+93.0; 4.0 +- 2.0; 9.65; 
+95.0; 7.0 +- 2.65; 2.24; 
+97.0; 3.0 +- 1.73; 1.14; 
+99.0; 2.0 +- 1.41; 0.31; 
+101.0; 1.0 +- 1.0; 0.32; 
+103.0; 1.0 +- 1.0; 0.33; 
+105.0; 0.0 +- 0.0; 0.23; 
+107.0; 0.0 +- 0.0; 0.16; 
+109.0; 1.0 +- 1.0; 0.49; 
+111.0; 0.0 +- 0.0; 0.0; 
+113.0; 0.0 +- 0.0; 0.08; 
+115.0; 0.0 +- 0.0; 0.08; 
+117.0; 0.0 +- 0.0; 0.0; 
+119.0; 0.0 +- 0.0; 0.0; 
+*dataend: 
+
+*dataset:
+*location: Figure 4:
+*dscomment: Longitudinal single-spin asymmetry $A_L$ for W+ production as a function of lepton pseudorapidity.
+*obskey: 
+*reackey: P P --> W+ W- X
+*qual: SQRT(S) IN GEV:  200
+*qual: Relative luminosity uncertainty: 0.007
+*qual: Beam polarizatoin scale uncertainty: 3.4% 
+*qual: STAR W+ $A_L$
+*xheader: -
+*yheader: -
+*qual: Eta avr: Eta rms: asym avr value: Asym up limit: Asym low limit
+*data: x: y: y: y: y
+-1.18; 0.17; 0.009 +- 0.241; 0.249; -0.223; 
+-0.72; 0.15; -0.239 +- 0.057; -0.181; -0.296; 
+-0.25; 0.14; -0.343 +- 0.045; -0.298; -0.389; 
+0.25; 0.14; -0.429 +- 0.045; -0.384; -0.475; 
+0.72; 0.15; -0.472 +- 0.056; -0.416; -0.528; 
+1.18; 0.17; -0.649 +- 0.218; -0.426; -0.863; 
+*dataend: 
+
+*dataset:
+*location: Figure 4:
+*dscomment: Longitudinal single-spin asymmetry $A_L$ for W- production as a function of lepton pseudorapidity.
+*obskey: 
+*reackey: P P --> W+ W- X
+*qual: SQRT(S) IN GEV:  200
+*qual: Relative luminosity uncertainty: 0.007
+*qual: Beam polarizatoin scale uncertainty: 3.4% 
+*qual: STAR W- $A_L$
+*xheader: -
+*yheader: -
+*qual: Eta avr: Eta rms: asym avr value: Asym up limit: Asym low limit
+*data: x: y: y: y: y
+-1.22; 0.16; 0.195 +- 0.238; 0.431; -0.045; 
+-0.76; 0.15; 0.247 +- 0.1; 0.347; 0.148; 
+-0.26; 0.15; 0.28 +- 0.104; 0.383; 0.176; 
+0.26; 0.15; 0.202 +- 0.104; 0.305; 0.097; 
+0.76; 0.15; 0.391 +- 0.099; 0.49; 0.292; 
+1.22; 0.16; 0.182 +- 0.247; 0.425; -0.069; 
+*dataend: 
+
+*dataset:
+*location: Figure 4
+*dscomment: Longitudinal single-spin asymmetry $A_L$ for W+ production as a function of lepton pseudorapidity.
+*obskey: 
+*reackey: P P --> W+ W- X
+*qual: SQRT(S) IN GEV:  200
+*qual: Theory $W^{+/-}\,A_L$
+*xheader: Eta Average
+*yheader: -
+*qual: Eta avr: W+ DSSV08 RHICBOS: W+ DSSV08 CHE NLO: W+ LSS10 CHE NLO: W- DSSV08 RHICBOS: W- DSSV08 CHE NLO: W- LSS10 CHE NLO
+*data: x: y: y: y: y: y: y
+-1.75; -0.186; -0.173; -0.145; 0.003; 0.013; 0.07; 
+-1.25; -0.236; -0.225; -0.195; -0.011; 0.0; 0.082; 
+-0.75; -0.28; -0.267; -0.239; -0.011; -0.003; 0.096; 
+-0.25; -0.327; -0.316; -0.286; 0.04; 0.043; 0.132; 
+0.25; -0.378; -0.369; -0.353; 0.161; 0.159; 0.225; 
+0.75; -0.418; -0.419; -0.412; 0.286; 0.281; 0.35; 
+1.25; -0.447; -0.467; -0.477; 0.379; 0.382; 0.468; 
+1.75; -0.507; -0.522; -0.558; 0.447; 0.45; 0.583; 
+*dataend: 
+
+*dataset:
+*location: Figure 5
+*dscomment: Longitudinal double-spin asymmetry $A_{LL}$ for W+ production as a function of lepton pseudorapidity.
+*obskey: 
+*reackey: P P --> W+ W- X
+*qual: SQRT(S) IN GEV:  200
+*qual: Beam polarizatoin scale uncertainty: 6.5% 
+*qual: STAR $W^+\,A_{LL}$
+*xheader: 
+*yheader: 
+*qual: Eta avr: Eta rms: asym avr value: Asym up limit: Asym low limit
+*data: x: y: y: y: y
+0.25; 0.14; -0.053 +- 0.084; 0.031; -0.137; 
+0.72; 0.15; 0.134 +- 0.104; 0.238; 0.029; 
+1.18; 0.17; 0.088 +- 0.428; 0.514; -0.341; 
+*dataend: 
+
+*dataset:
+*location: Figure 5
+*dscomment: Longitudinal double-spin asymmetry $A_{LL}$ for W- production as a function of lepton pseudorapidity.
+*obskey: 
+*reackey: P P --> W+ W- X
+*qual: SQRT(S) IN GEV:  200
+*qual: Beam polarizatoin scale uncertainty: 6.5% 
+*qual: STAR $W^-\,A_{LL}$
+*xheader: 
+*yheader: 
+*qual: Eta avr: Eta rms: asym avr value: Asym up limit: Asym low limit
+*data: x: y: y: y: y
+0.26; 0.15; -0.207 +- 0.188; -0.018; -0.394; 
+0.76; 0.15; 0.168 +- 0.181; 0.348; -0.015; 
+1.22; 0.16; -0.169 +- 0.421; 0.253; -0.588; 
+*dataend: 
+
+*dataset:
+*location: Figure 5
+*dscomment: Longitudinal double-spin asymmetry $A_{LL}$ for theory $W^{+/-}$ production as a function of lepton pseudorapidity.
+*obskey: 
+*reackey: P P --> W+ W- X
+*qual: SQRT(S) IN GEV:  200
+*qual: Theory: $W^{+/-}\,A_{LL}$
+*xheader: 
+*yheader: 
+*qual: Eta avr: W+ DSSV08 CHE NLO: W- DSSV08 CHE NLO
+*data: x: y: y
+0.25; 0.077; -0.018; 
+0.75; 0.073; -0.011; 
+1.25; 0.069; -0.002; 
+*dataend:
+*E:
