@@ -1,0 +1,319 @@
+*author: ADAMCZYK
+*reference: PRL 113,052302 : 2014
+*reference: ARXIV:1404.1433 : 2014
+*doi: 10.1103/PhysRevLett.113.052302
+*status: Encoded 02 JUN 2016 by Nickolas Luttrell (Rice University)
+*title: Beam-energy dependence of charge separation along the magnetic field in Au+Au collisions at RHIC
+*comment: BNL-RHIC.  Local parity-odd domains are theorized to form inside a Quark-Gluon-Plasma (QGP) which has been produced in high-energy heavy-ion collisions. The local parity-odd domains manifest themselves as charge separation along the magnetic field axis via the chiral magnetic effect (CME). The experimental observation of charge separation has previously been reported for heavy-ion collisions at the top RHIC energies. In this paper, we present the results of the beam-energy dependence of the charge correlations in Au+Au collisions at midrapidity for center-of-mass energies of 7.7, 11.5, 19.6, 27, 39 and 62.4 GeV from the STAR experiment. After background subtraction, the signal gradually reduces with decreased beam energy, and tends to vanish by 7.7 GeV. The implications of these results for the CME will be discussed
+*durhamId:
+*inspireId: 1288917
+*cdsId: 1694006
+*detector: STAR
+*experiment: BNL-RHIC-STAR
+
+*dataset:
+*location: Figure 2
+*dscomment:  The three-point correlator, $\gamma$, as a function of centrality for Au+Au collisions at 62.4 GeV.
+*obskey: 
+*reackey: AU AU --> SIG
+*qual: SQRT(S) IN GEV: 62.4
+*xheader: Centrality in PCT
+*yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
+*qual: .: Opposite Sign: Opposite w/o HBT & Coulomb: Same Sign: Same w/o HBT & Coulomb
+*data: x: y: y: y: y
+75.0; 0.000830933 +- 0.000219269; 0.000252813; -0.000361871 +- 0.00022233; -0.000728012; 
+65.0; 0.000242293 +- 8.01e-05; -9.48e-05; -0.000406996 +- 8.07e-05; -0.000584; 
+55.0; 0.000101189 +- 3.46e-05; -4.52e-07; -0.000501261 +- 3.47e-05; -0.00048213; 
+45.0; 4.16e-06 +- 1.79e-05; -2.99e-05; -0.000298714 +- 1.8e-05; -0.000352212; 
+35.0; -1.16e-06 +- 1.04e-05; -2.8e-05; -0.000219714 +- 1.04e-05; -0.000212241; 
+25.0; -6.18e-06 +- 6.89e-06; -1.25e-05; -0.000128275 +- 6.9e-06; -0.000131617; 
+15.0; 3.9e-06 +- 5.11e-06; -5.78e-06; -6.55e-05 +- 5.11e-06; -6.24e-05; 
+7.5; -1.73e-05 +- 6.47e-06; -2.42e-05; -5.06e-05 +- 6.47e-06; -5.55e-05; 
+2.5; -4.09e-06 +- 6.75e-06; 5.32e-06; -2.32e-05 +- 6.75e-06; -1.53e-05; 
+*dataend: 
+
+*dataset:
+*location: Figure 2
+*dscomment: The three-point correlator, $\gamma$, as a function of centrality for Au+Au collisions at 39 GeV.
+*obskey: 
+*reackey: AU AU --> SIG
+*qual: SQRT(S) IN GEV: 39
+*xheader: Centrality in PCT
+*yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
+*qual: .: Opposite Sign: Opposite w/o HBT & Coulomb: Same Sign: Same w/o HBT & Coulomb
+*data: x: y: y: y: y
+75.0; 0.00111841 +- 0.00010505; 0.00103127; 0.000241671 +- 0.000106929; -0.000224985; 
+65.0; 0.000420537 +- 3.65e-05; 0.000259809; -0.000345848 +- 3.68e-05; -0.000487112; 
+55.0; 0.000127486 +- 2.81e-05; 3.84e-05; -0.000378246 +- 2.82e-05; -0.000503016; 
+45.0; 7.44e-05 +- 1.33e-05; 3.76e-05; -0.000242894 +- 1.33e-05; -0.000305599; 
+35.0; 2.74e-05 +- 7.24e-06; 1.15e-05; -0.000206559 +- 7.25e-06; -0.000219903; 
+25.0; 3.84e-06 +- 4.58e-06; -3.98e-06; -0.000125882 +- 4.58e-06; -0.000118115; 
+15.0; -4.21e-06 +- 3.41e-06; -1.56e-07; -7.65e-05 +- 3.41e-06; -6.57e-05; 
+7.5; -1.93e-05 +- 4.62e-06; -1.66e-05; -3.77e-05 +- 4.62e-06; -7.46e-06; 
+2.5; -1.89e-05 +- 5.44e-06; -1.22e-05; -2.65e-05 +- 5.44e-06; -2.9e-05; 
+*dataend: 
+
+*dataset:
+*location: Figure 2
+*dscomment: The three-point correlator, $\gamma$, as a function of centrality for Au+Au collisions at 27 GeV.
+*obskey: 
+*reackey: AU AU --> SIG
+*qual: SQRT(S) IN GEV: 27
+*xheader: Centrality in PCT
+*yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
+*qual: .: Opposite Sign: Opposite w/o HBT & Coulomb: Same Sign: Same w/o HBT & Coulomb
+*data: x: y: y: y: y
+75.0; 0.00131019 +- 0.000179469; 0.00155726; 0.00172615 +- 0.000183369; 0.000943974; 
+65.0; 0.00056117 +- 6.06e-05; 0.000463826; -7.5e-05 +- 6.12e-05; -0.000203876; 
+55.0; 0.000175629 +- 2.5e-05; 8.77e-05; -0.000258703 +- 2.51e-05; -0.000359833; 
+45.0; 0.000116525 +- 1.14e-05; 5.76e-05; -0.000204691 +- 1.14e-05; -0.000252151; 
+35.0; 5.72e-05 +- 6.25e-06; 2.33e-05; -0.000144025 +- 6.26e-06; -0.00016287; 
+25.0; 2.15e-05 +- 3.98e-06; 6.92e-06; -0.000101467 +- 3.98e-06; -0.000108766; 
+15.0; 1.08e-05 +- 2.95e-06; 9.01e-06; -5.37e-05 +- 2.95e-06; -5.03e-05; 
+7.5; 4.24e-06 +- 4.23e-06; 5.83e-06; -2.7e-05 +- 4.23e-06; -2.51e-05; 
+2.5; -2.1e-06 +- 4.77e-06; -1.17e-05; -6.61e-06 +- 4.76e-06; -7.98e-06; 
+*dataend: 
+
+*dataset:
+*location: Figure 2
+*dscomment: The three-point correlator, $\gamma$, as a function of centrality for Au+Au collisions at 19.6 GeV.
+*obskey: 
+*reackey: AU AU --> SIG
+*qual: SQRT(S) IN GEV: 19.6
+*xheader: Centrality in PCT
+*yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
+*qual: .: Opposite Sign: Opposite w/o HBT & Coulomb: Same Sign: Same w/o HBT & Coulomb
+*data: x: y: y: y: y
+75.0; 0.00267798 +- 0.000331007; 0.00295361; 0.00182232 +- 0.000338175; 0.00142973; 
+65.0; 0.000928944 +- 0.000115122; 0.000781082; 0.000189198 +- 0.000116291; -5.09e-05; 
+55.0; 0.000274484 +- 4.66e-05; 0.000142724; -0.000255908 +- 4.68e-05; -0.00033232; 
+45.0; 8.71e-05 +- 2.08e-05; -6.5e-06; -0.000255983 +- 2.08e-05; -0.000270276; 
+35.0; 2.76e-05 +- 1.12e-05; -7.35e-06; -0.000221679 +- 1.12e-05; -0.000242082; 
+25.0; 1.71e-05 +- 6.92e-06; -1.25e-05; -0.00013346 +- 6.9e-06; -0.000139234; 
+15.0; -7.17e-07 +- 5.09e-06; -2.53e-06; -8.01e-05 +- 5.07e-06; -8.64e-05; 
+7.5; -7.13e-06 +- 6.99e-06; -1.14e-05; -4.31e-05 +- 6.97e-06; -3.37e-05; 
+2.5; -2.1e-05 +- 8.18e-06; -2.37e-05; -2.89e-05 +- 8.15e-06; -1.74e-05; 
+*dataend: 
+
+*dataset:
+*location: Figure 2
+*dscomment: The three-point correlator, $\gamma$, as a function of centrality for Au+Au collisions at 11.5 GeV.
+*obskey: 
+*reackey: AU AU --> SIG
+*qual: SQRT(S) IN GEV: 11.5
+*xheader: Centrality in PCT
+*yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
+*qual: .: Opposite Sign: Opposite w/o HBT & Coulomb: Same Sign: Same w/o HBT & Coulomb
+*data: x: y: y: y: y
+75.0; 0.0042185 +- 0.000773439; 0.00348632; 0.00467191 +- 0.000789411; 0.00613556; 
+65.0; 0.00172033 +- 0.000240259; 0.00215191; 0.00145372 +- 0.000242407; 0.00162273; 
+55.0; 0.000363238 +- 8.99e-05; 0.000373698; -3.27e-05 +- 9e-05; -7.58e-05; 
+45.0; 0.000188373 +- 4.01e-05; 0.000111982; -9.62e-05 +- 4e-05; -0.000157739; 
+35.0; 0.000101847 +- 2.14e-05; 4.03e-05; -0.000132721 +- 2.12e-05; -0.000193518; 
+25.0; 2.55e-05 +- 1.33e-05; -3.47e-06; -9.36e-05 +- 1.32e-05; -0.000109512; 
+15.0; -1.51e-06 +- 9.82e-06; -1.29e-05; -7.43e-05 +- 9.71e-06; -8.27e-05; 
+7.5; 4.82e-06 +- 1.4e-05; 1.55e-05; -2.33e-05 +- 1.38e-05; -1.65e-05; 
+2.5; -1.76e-05 +- 1.86e-05; 1.31e-05; 2.06e-05 +- 1.84e-05; 3.76e-05; 
+*dataend: 
+
+*dataset:
+*location: Figure 2
+*dscomment: 7.7
+*obskey: 
+*reackey: AU AU --> SIG
+*qual: SQRT(S) IN GEV: 7.7
+*xheader: Centrality in PCT
+*yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
+*qual: .: Opposite Sign: Opposite w/o HBT & Coulomb: Same Sign: Same w/o HBT & Coulomb
+*data: x: y: y: y: y
+75.0; 0.00746345 +- 0.00239158; 0.00651766; 0.00899278 +- 0.00242801; 0.00847728; 
+65.0; 0.00220418 +- 0.000572895; 0.0020576; 0.00266672 +- 0.000574402; 0.00350347; 
+55.0; 0.00074105 +- 0.000221425; 0.000677657; 0.000847033 +- 0.000219543; 0.00111552; 
+45.0; 0.000412902 +- 9.46e-05; 0.000256549; 0.000106211 +- 9.32e-05; 7.21e-05; 
+35.0; 9.2e-05 +- 4.75e-05; 0.000101958; 5.81e-06 +- 4.66e-05; 7.56e-05; 
+25.0; 6.47e-05 +- 3.01e-05; 5.97e-05; -2.91e-05 +- 2.94e-05; -8.31e-05; 
+15.0; 6.3e-05 +- 2.24e-05; 6.27e-05; -1.09e-05 +- 2.18e-05; 3.29e-05; 
+7.5; 5.16e-05 +- 3.46e-05; 3.1e-05; 1.73e-05 +- 3.37e-05; 8.72e-05; 
+2.5; 9.36e-05 +- 6.57e-05; 0.000198449; 0.000201595 +- 6.38e-05; 0.000296361; 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: The two-particle correlation as a function of centrality for Au+Au collisions at 62.4 GeV.
+*obskey: 
+*reackey: AU AU --> SIG
+*qual: SQRT(S) IN GEV: 62.4
+*xheader: Centrality in PCT
+*yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
+*qual: .: Opposite Sign: Opposite w/o HBT & Coulomb: Same Sign: Same w/o HBT & Coulomb
+*data: x: y: y: y: y
+75.0; -0.000189781 +- 4.94e-05; -0.000822004; -0.00260586 +- 5.01e-05; -0.00437908; 
+65.0; 0.00104316 +- 2.48e-05; 0.000653729; -0.00165804 +- 2.5e-05; -0.00262477; 
+55.0; 0.00114656 +- 1.39e-05; 0.000882679; -0.00114017 +- 1.4e-05; -0.00172296; 
+45.0; 0.000939429 +- 8.72e-06; 0.00076502; -0.00090347 +- 8.74e-06; -0.00127064; 
+35.0; 0.000761038 +- 5.47e-06; 0.000635241; -0.000677836 +- 5.48e-06; -0.000918309; 
+25.0; 0.000585123 +- 3.71e-06; 0.000495211; -0.000540646 +- 3.72e-06; -0.000690983; 
+15.0; 0.000442331 +- 2.58e-06; 0.000378544; -0.000445919 +- 2.58e-06; -0.000542541; 
+7.5; 0.000349893 +- 2.84e-06; 0.000306451; -0.000390869 +- 2.84e-06; -0.00045627; 
+2.5; 0.000288939 +- 2.26e-06; 0.000253296; -0.000343753 +- 2.26e-06; -0.000389688; 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: The two-particle correlation as a function of centrality for Au+Au collisions at 39 GeV.
+*obskey: 
+*reackey: AU AU --> SIG
+*qual: SQRT(S) IN GEV: 39
+*xheader: Centrality in PCT
+*yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
+*qual: .: Opposite Sign: Opposite w/o HBT & Coulomb: Same Sign: Same w/o HBT & Coulomb
+*data: x: y: y: y: y
+75.0; -0.0034907 +- 1.77e-05; -0.00362724; -0.00237966 +- 1.81e-05; -0.00487477; 
+65.0; -0.000495934 +- 8.4e-06; -0.000694718; -0.00170021 +- 8.48e-06; -0.00325348; 
+55.0; 0.000434099 +- 8.8e-06; 0.000262991; -0.00135914 +- 8.84e-06; -0.0022765; 
+45.0; 0.00060442 +- 5.25e-06; 0.00047069; -0.00106548 +- 5.26e-06; -0.0016301; 
+35.0; 0.000549253 +- 3.27e-06; 0.000452434; -0.00085957 +- 3.27e-06; -0.00121245; 
+25.0; 0.0004333 +- 2.12e-06; 0.000366707; -0.000710119 +- 2.12e-06; -0.000924742; 
+15.0; 0.000331712 +- 1.46e-06; 0.000289017; -0.000591238 +- 1.46e-06; -0.000715535; 
+7.5; 0.000265032 +- 1.59e-06; 0.000239486; -0.000499565 +- 1.59e-06; -0.000578247; 
+2.5; 0.000230098 +- 1.31e-06; 0.000218613; -0.000428721 +- 1.31e-06; -0.000477839; 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: The two-particle correlation as a function of centrality for Au+Au collisions at 27 GeV.
+*obskey: 
+*reackey: AU AU --> SIG
+*qual: SQRT(S) IN GEV: 27
+*xheader: Centrality in PCT
+*yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
+*qual: .: Opposite Sign: Opposite w/o HBT & Coulomb: Same Sign: Same w/o HBT & Coulomb
+*data: x: y: y: y: y
+75.0; -0.00606981 +- 2.09e-05; -0.00620092; -0.00182137 +- 2.13e-05; -0.00518651; 
+65.0; -0.00124505 +- 1.01e-05; -0.00146666; -0.00140082 +- 1.02e-05; -0.00336414; 
+55.0; 0.000122002 +- 5.79e-06; -8.41e-05; -0.00112305 +- 5.83e-06; -0.00231034; 
+45.0; 0.00045367 +- 3.36e-06; 0.000292534; -0.000951512 +- 3.37e-06; -0.00169202; 
+35.0; 0.000479295 +- 2.17e-06; 0.000356877; -0.000807711 +- 2.17e-06; -0.00128273; 
+25.0; 0.000403211 +- 1.43e-06; 0.000313052; -0.000683843 +- 1.43e-06; -0.000992745; 
+15.0; 0.000314826 +- 9.87e-07; 0.000253078; -0.000586122 +- 9.88e-07; -0.000782036; 
+7.5; 0.00025471 +- 1.13e-06; 0.000213294; -0.00051757 +- 1.13e-06; -0.000653887; 
+2.5; 0.000209905 +- 8.79e-07; 0.000183142; -0.000471166 +- 8.79e-07; -0.000571627; 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: The two-particle correlation as a function of centrality for Au+Au collisions at 19.6 GeV.
+*obskey: 
+*reackey: AU AU --> SIG
+*qual: SQRT(S) IN GEV: 19.6
+*xheader: Centrality in PCT
+*yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
+*qual: .: Opposite Sign: Opposite w/o HBT & Coulomb: Same Sign: Same w/o HBT & Coulomb
+*data: x: y: y: y: y
+75.0; -0.00774203 +- 4.97e-05; -0.00816095; -0.00633384 +- 5.08e-05; -0.00907393; 
+65.0; -0.00241817 +- 2.5e-05; -0.00275749; -0.0039452 +- 2.52e-05; -0.00558963; 
+55.0; -0.000621054 +- 1.41e-05; -0.000877184; -0.00273418 +- 1.42e-05; -0.00371641; 
+45.0; 2.45e-05 +- 8.19e-06; -0.000150861; -0.00198412 +- 8.2e-06; -0.00258694; 
+35.0; 0.00019617 +- 5.15e-06; 6.73e-05; -0.0014939 +- 5.15e-06; -0.00187775; 
+25.0; 0.000217487 +- 3.36e-06; 0.000130266; -0.00116476 +- 3.36e-06; -0.00139713; 
+15.0; 0.000193878 +- 2.29e-06; 0.000137209; -0.000918035 +- 2.29e-06; -0.00106028; 
+7.5; 0.000163298 +- 2.53e-06; 0.000124447; -0.00078156 +- 2.53e-06; -0.000872264; 
+2.5; 0.000139594 +- 1.99e-06; 0.000113011; -0.000685578 +- 1.98e-06; -0.000747175; 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: The two-particle correlation as a function of centrality for Au+Au collisions at 11.5 GeV.
+*obskey: 
+*reackey: AU AU --> SIG
+*qual: SQRT(S) IN GEV: 11.5
+*xheader: Centrality in PCT
+*yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
+*qual: .: Opposite Sign: Opposite w/o HBT & Coulomb: Same Sign: Same w/o HBT & Coulomb
+*data: x: y: y: y: y
+75.0; -0.00909901 +- 0.000101885; -0.0097038; -0.00845805 +- 0.000104141; -0.0112538; 
+65.0; -0.00403427 +- 4.3e-05; -0.00452479; -0.00592263 +- 4.35e-05; -0.00773627; 
+55.0; -0.00144969 +- 2.27e-05; -0.00177419; -0.00387569 +- 2.28e-05; -0.00494165; 
+45.0; -0.000481192 +- 1.34e-05; -0.000698206; -0.00282681 +- 1.34e-05; -0.00348187; 
+35.0; -0.000140686 +- 8.63e-06; -0.000293315; -0.00212714 +- 8.58e-06; -0.00252524; 
+25.0; 3.88e-06 +- 5.74e-06; -0.000101866; -0.00164744 +- 5.69e-06; -0.00190761; 
+15.0; 5.19e-05 +- 3.92e-06; -1.44e-05; -0.00127844 +- 3.89e-06; -0.00143505; 
+7.5; 7.06e-05 +- 4.28e-06; 1.81e-05; -0.00108366 +- 4.24e-06; -0.001192; 
+2.5; 5.38e-05 +- 3.49e-06; 1.4e-05; -0.000942489 +- 3.45e-06; -0.0010163; 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: The two-particle correlation as a function of centrality for Au+Au collisions at 7.7 GeV.
+*obskey: 
+*reackey: AU AU --> SIG
+*qual: SQRT(S) IN GEV: 7.7
+*xheader: Centrality in PCT
+*yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
+*qual: .: Opposite Sign: Opposite w/o HBT & Coulomb: Same Sign: Same w/o HBT & Coulomb
+*data: x: y: y: y: y
+75.0; -0.00931896 +- 0.000396876; -0.0112413; -0.0108094 +- 0.000403335; -0.0158569; 
+65.0; -0.00451827 +- 0.000102267; -0.00625893; -0.00689873 +- 0.000102606; -0.010561; 
+55.0; -0.00182908 +- 5.67e-05; -0.00291893; -0.00502808 +- 5.62e-05; -0.00697828; 
+45.0; -0.000798249 +- 3.34e-05; -0.00149689; -0.00368448 +- 3.29e-05; -0.00474692; 
+35.0; -0.000316488 +- 2.08e-05; -0.000775306; -0.00281922 +- 2.04e-05; -0.00333237; 
+25.0; -5.08e-05 +- 1.43e-05; -0.00034626; -0.002122 +- 1.39e-05; -0.00239666; 
+15.0; 9.12e-06 +- 9.84e-06; -0.000185083; -0.00166917 +- 9.58e-06; -0.0017263; 
+7.5; 2.7e-07 +- 8.69e-06; -6.16e-05; -0.00145022 +- 8.47e-06; -0.00156028; 
+2.5; 2.76e-05 +- 6.97e-06; -2.23e-05; -0.00123854 +- 6.8e-06; -0.00131971; 
+*dataend: 
+
+*dataset:
+*location: Figure 4
+*dscomment: $H_{SS}-H{OS}$, as a function of beam energy for 60-80% centrality in Au+Au collisions.
+*obskey: 
+*reackey: AU AU --> SIG
+*xheader: $\sqrt{S_{NN}}$ in GeV
+*yheader: $H_{SS}-H{OS}$
+*qual: .: H difference (kappa=1): w/o HBT & Coulomb: kappa=1.5: kappa=2
+*data: x: y: y: y: y
+7.7; -0.00057537 +- 0.000753745; -0.00156612; -0.00060525; -0.00063411; 
+11.5; 0.0001345 +- 0.000310075; 0.00012611; 9.93e-05; 6.55e-05; 
+19.6; 0.000671286 +- 0.00014637; 0.000758702; 0.000631658; 0.000593635; 
+27.0; 0.000522172 +- 7.71e-05; 0.000576482; 0.000517436; 0.000512856; 
+39.0; 0.000702707 +- 4.62e-05; 0.000660669; 0.000666904; 0.0006326; 
+62.4; 0.000530308 +- 9.94e-05; 0.000338375; 0.000446011; 0.000366043; 
+200.0; 0.000546308 +- 4.11e-05; 0.000435722; 0.000495047; 0.000446197; 
+*dataend: 
+
+*dataset:
+*location: Figure 4
+*dscomment: $H_{SS}-H{OS}$, as a function of beam energy for 30-60% centrality in Au+Au collisions.
+*obskey: 
+*reackey: AU AU --> SIG
+*xheader: $\sqrt{S_{NN}}$ in GeV
+*yheader: $H_{SS}-H{OS}$
+*qual: .: H difference (kappa=1): w/o HBT & Coulomb: kappa=1.5: kappa=2
+*data: x: y: y: y: y
+7.7; 3.47e-06 +- 5.55e-05; -8.23e-05; -5.48e-05; -0.000109032; 
+11.5; 0.000133409 +- 2.47e-05; 0.000125789; 9.03e-05; 4.12e-05; 
+19.6; 0.00018003 +- 1.29e-05; 0.000135891; 0.000132947; 8.81e-05; 
+27.0; 0.000169057 +- 7.14e-06; 0.000137396; 0.000136681; 0.000105692; 
+39.0; 0.000177858 +- 8.34e-06; 0.000167143; 0.000137317; 9.87e-05; 
+62.4; 0.000154448 +- 1.15e-05; 0.000120332; 0.000104979; 5.82e-05; 
+200.0; 0.000136713 +- 3.72e-06; 0.000112514; 0.000102877; 7.07e-05; 
+*dataend: 
+
+*dataset:
+*location: Figure 4
+*dscomment: $H_{SS}-H{OS}$, as a function of beam energy for 10-30% centrality in Au+Au collisions.
+*obskey: 
+*reackey: AU AU --> SIG
+*xheader: $\sqrt{S_{NN}}$ in GeV
+*yheader: $H_{SS}-H{OS}$
+*qual: .: H difference (kappa=1): w/o HBT & Coulomb: kappa=1.5: kappa=2
+*data: x: y: y: y: y
+7.7; 1.44e-05 +- 2.41e-05; 7.05e-06; -1.72e-05; -4.78e-05; 
+11.5; 3.16e-05 +- 1.07e-05; 2.09e-05; 4.36e-06; -2.19e-05; 
+19.6; 5.3e-05 +- 5.54e-06; 4.34e-05; 2.88e-05; 5.4e-06; 
+27.0; 4.84e-05 +- 3.23e-06; 3.35e-05; 3.08e-05; 1.39e-05; 
+39.0; 6.59e-05 +- 3.72e-06; 3.35e-05; 3e-05; 1.05e-05; 
+62.4; 3.97e-05 +- 5.51e-06; 2.89e-05; 1.71e-05; -4.54e-06; 
+200.0; 3.98e-05 +- 1.47e-06; 2.92e-05; 2.43e-05; 9.46e-06;
+*dataend:
+*E:
