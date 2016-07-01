@@ -13,12 +13,13 @@
 *dataset:
 *location: Figure 1(a)
 *dscomment: The dihadron correlated yield normalized per radian per unit of pseudorapidity as function of $\Delta\eta$ in d+Au collisions on the near (|$\Delta\phi$| < $\pi$/3).Shown is the low FTPC-Au activity data. Trigger and associated particles have 1 < $p_T$ < 3 GeV/c and |$\eta$| < 1
-*obskey: 
+*obskey: D2N/DDELTAETA/DDELTAPHI
 *reackey: d AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
 *qual: CENTRALITY IN PCT:  40 TO 100
+*qual: Near-side Yield
 *xheader: $\Delta\eta$
-*yheader: Near-side Yield
+*yheader: $d^2N/(d\Delta{\eta}d\Delta\phi)$
 *data: x : y
 -1.9; 0.007877 +- 0.00944562 (DSYS=+0.0113446, -0.00396142);
 -1.7; 0.000761047 +- 0.00262037 (DSYS=+0.00213484, -0.000381213);
@@ -52,12 +53,13 @@
 *dataset:
 *location: Figure 1(a)
 *dscomment: The dihadron correlated yield normalized per radian per unit of pseudorapidity as function of $\Delta\eta$ in d+Au collisions on the away side (|$\Delta\phi$ - $\pi$| < $\pi$/3. Shown is the  high FTPC-Au activity data. Trigger and associated particles have 1 < $p_T$ < 3 GeV/c and |$\eta$| < 1
-*obskey: 
+*obskey: D2N/DDELTAETA/DDELTAPHI
 *reackey: d AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
 *qual: CENTRALITY IN PCT:  40 TO 100
+*qual: Away-side Yield
 *xheader: $\Delta\eta$
-*yheader: Away-side Yield
+*yheader: $d^2N/(d\Delta{\eta}d\Delta\phi)$
 *data: x : y
 -1.9; 0.0441147 +- 0.00968294 (DSYS=+0.0115503, -0.00451697);
 -1.7; 0.0349992 +- 0.00272192 (DSYS=+0.00276015, -0.0017906);
@@ -91,12 +93,13 @@
 *dataset:
 *location: Figure 1(b)
 *dscomment: The dihadron correlated yield normalized per radian per unit of pseudorapidity as function of $\Delta\eta$ in d+Au collisions on the near (|$\Delta\phi$| < $\pi$/3) side. Shown is the high-activity data after subtracting the unscaled. Trigger and associated particles have 1 < $p_T$ < 3 GeV/c and |$\eta$| < 1
-*obskey: 
+*obskey: D2N/DDELTAETA/DDELTAPHI
 *reackey: d AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
 *qual: CENTRALITY IN PCT:  0 TO 20
+*qual: Near-side Yield
 *xheader: $\Delta\eta$
-*yheader: Near-side Yield
+*yheader: $d^2N/(d\Delta{\eta}d\Delta\phi)$
 *data: x : y
 -1.9; 0.0248232 +- 0.0122181 (DSYS=+0.00903246, -0.0141327);
 -1.7; 0.00384805 +- 0.00378831 (DSYS=+0.00282464, -0.000947633);
@@ -130,12 +133,13 @@
 *dataset:
 *location: Figure 1(b)
 *dscomment: The dihadron correlated yield normalized per radian per unit of pseudorapidity as function of $\Delta\eta$ in d+Au collisions on the away side (|$\Delta\phi$ - $\pi$| < $\pi$/3). Shown is the high FTPC-Au activity data. Trigger and associated particles have 1 < $p_T$ < 3 GeV/c and |$\eta$| < 1
-*obskey: 
+*obskey: D2N/DDELTAETA/DDELTAPHI
 *reackey: d AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
 *qual: CENTRALITY IN PCT:  0 TO 20
+*qual: Away-side Yield
 *xheader: $\Delta\eta$
-*yheader: Away-side Yield
+*yheader: $d^2N/(d\Delta{\eta}d\Delta\phi)$
 *data: x : y
 -1.9; 0.0709891 +- 0.0126092 (DSYS=+0.00962515, -0.0145187);
 -1.7; 0.0437446 +- 0.0038587 (DSYS=+0.00356729, -0.00237591);
@@ -179,12 +183,13 @@
 *dataset:
 *location: Figure 1(c)
 *dscomment: The dihadron correlated yield normalized per radian per unit of pseudorapidity as function of $\Delta\eta$ in d+Au collisions on the away side (|$\Delta\phi$ - $\pi$| < $\pi$/3). Shown is the high-activity data after subtracting the unscaled low-activity data. Trigger and associated particles have 1 < $p_T$ < 3 GeV/c and |$\eta$| < 1
-*obskey: 
+*obskey: D2N/DDELTAETA/DDELTAPHI
 *reackey: d Au --> DIHADRON X
 *qual: SQRT(S)/NUCLEON IN GEV:  200
-*qual: CENTRALITY IN PCT:  Delta
+*qual: CENTRALITY IN PCT:  (0 TO 20)-(40 TO 100)
+*qual: Away-side Yield
 *xheader: $\Delta\eta$
-*yheader: Away-side Yield
+*yheader: $d^2N/(d\Delta{\eta}d\Delta\phi)$
 *data: x : y
 -1.6; 0.00871408 +- 0.00287253 (DSYS=+0.000611941, -0.000611941);
 -1.2; 0.00911453 +- 0.00174727 (DSYS=+0.00181571, -0.000474752);
@@ -200,12 +205,13 @@
 *dataset:
 *location: Figure 1(c)
 *dscomment: The dihadron correlated yield normalized per radian per unit of pseudorapidity as function of $\Delta\eta$ in d+Au collisions on the away side (|$\Delta\phi$ - $\pi$| < $\pi$/3). Shown is the high-activity data after subtracting the unscaled low-activity data. Trigger and associated particles have 1 < $p_T$ < 3 GeV/c and |$\eta$| < 1
-*obskey: 
+*obskey: D2N/DDELTAETA/DDELTAPHI
 *reackey: d AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
 *qual: CENTRALITY IN PCT:  (0 TO 20)-(40 TO 100)
+*qual: Away-side Yield
 *xheader: $\Delta\eta$
-*yheader: Away-side Yield
+*yheader: $d^2N/(d\Delta{\eta}d\Delta\phi)$
 *data: x : y
 -1.6; 0.00871408 +- 0.00287253 (DSYS=+0.000611941, -0.000611941);
 -1.2; 0.00911453 +- 0.00174727 (DSYS=+0.00181571, -0.000474752);
@@ -221,12 +227,13 @@
 *dataset:
 *location: Figure 1(d)
 *dscomment: The dihadron correlated yield normalized per radian per unit of pseudorapidity as function of $\Delta\eta$ in d+Au collisions on the near (|$\Delta\phi$| < $\pi$/3) side. Shown is the high-activity data after subtracting the unscaled low-activity data. Trigger and associated particles have 1 < $p_T$ < 3 GeV/c and |$\eta$| < 1
-*obskey: 
+*obskey: D2N/DDELTAETA/DDELTAPHI
 *reackey: d AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
 *qual: CENTRALITY IN PCT:  (0 TO 20)-1.29*(40 TO 100)
+*qual: Near-side Yield
 *xheader: $\Delta\eta$
-*yheader: Near-side Yield
+*yheader: $d^2N/(d\Delta{\eta}d\Delta\phi)$
 *data: x : y
 -1.6; 0.00306985 +- 0.003085 (DSYS=+0.000653018, -0.000653018);
 -1.2; 0.00558509 +- 0.00187896 (DSYS=+0.00150682, -0.00150682);
@@ -242,12 +249,13 @@
 *dataset:
 *location: Figure 1(d)
 *dscomment: The dihadron correlated yield normalized per radian per unit of pseudorapidity as function of $\Delta\eta$ in d+Au collisions on the near (|$\Delta\phi$| < $\pi$/3, solid circles) and away side (|$\Delta\phi$ - $\pi$| < $\pi$/3, open circles). Shown are the (a) low and (b) high FTPC-Au activity data, and the high-activity data after subtracting the (c) unscaled. Trigger and associated particles have 1 < $p_T$ < 3 GeV/c and |$\eta$| < 1
-*obskey: 
+*obskey: D2N/DDELTAETA/DDELTAPHI
 *reackey: d AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
 *qual: CENTRALITY IN PCT:  (0 TO 20)-1.29*(40 TO 100)
+*qual: Away-side Yield
 *xheader: $\Delta\eta$
-*yheader: Away-side Yield
+*yheader: $d^2N/(d\Delta{\eta}d\Delta\phi)$
 *data: x : y
 -1.6; -0.0015584 +- 0.00317101 (DSYS=+0.000639487, -0.000639487);
 -1.2; -0.000432525 +- 0.00192612 (DSYS=+0.00148087, -0.00148087);
@@ -268,7 +276,7 @@
 *qual: SQRT(S) IN GEV:  200
 *qual: . : FTPC event activity
 *xheader: dN/d$\eta$
-*yheader: Y
+*yheader: Yield
 *data: x : y
 4.5; 0.04216 +- 0.001244 (DSYS=+0.001, -0.001)
 8.58; 0.049688 +- 0.001754 (DSYS=+0.001, -0.001)
@@ -295,7 +303,7 @@
 *dataset:
 *location: Figure 2(b)
 *dscomment: $p_T^{(a)}$ dependence. The ratio of the correlated yields in high over low FTPC-Au multiplicity events as a function of $p_T^{(a)}$ $p_T^{(t)}$ where $p_T^{(a)}$ $p_T^{(t)}$ is fixed.
-*obskey: 
+*obskey: PT
 *reackey: d AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
 *qual: . : pT^(a) dependence
@@ -311,7 +319,7 @@
 *dataset:
 *location: Figure 2(b)
 *dscomment: $p_T^{(a)}$ dependence. The ratio of the correlated yields in high over low FTPC-Au multiplicity events as a function of $p_T^{(a)}$ $p_T^{(t)}$ where $p_T^{(a)}$ $p_T^{(t)}$ is fixed.
-*obskey: 
+*obskey: PT
 *reackey: d AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
 *qual: : pT^(t) dependence
@@ -327,12 +335,12 @@
 *dataset:
 *location: Figure 3(a)
 *dscomment: (a) The dihadron correlated yield normalized per radian per unit of pseudorapidity as a function of $\Delta\phi$ in d+Au collisions at high (0-20%) FTPC-Au multiplicities. Trigger and associated particles are 1 < $p_T$ < 3 GeV/c within 0.5 < |$\Delta\eta$| < 0.7. ZYAM positions are indicated with arrows.
-*obskey: 
+*obskey: D2N/DDELTAETA/DDELTAPHI
 *reackey: d AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
 *qual: CENTRALITY IN PCT:  0 TO 20
 *xheader: $\Delta\phi$
-*yheader: Yield
+*yheader: $d^2N/(d\Delta{\eta}d\Delta\phi)$
 *data: x : y
 -1.4399; 0.000904129 +- 0.00150201 (DSYS=+0.00303726, -0.00153429);
 -1.1781; 0.000480057 +- 0.00150079 (DSYS=+0.00303701, -0.00153381);
@@ -367,7 +375,7 @@
 *qual: SQRT(S) IN GEV:  200
 *qual: CENTRALITY IN PCT:  40 TO 100
 *xheader: $\Delta\phi$
-*yheader: Yield
+*yheader: $d^2N/(d\Delta{\eta}d\Delta\phi)$
 *data: x : y
 -1.4399; 0.000889933 +- 0.00107275 (DSYS=+0.000687875, -0.000697165);
 -1.1781; 0.00016218 +- 0.00107075 (DSYS=+0.000686483, -0.000695791);
@@ -397,13 +405,13 @@
 *dataset:
 *location: Figure 3(b)
 *dscomment: The raw associated yield at high FTPC-Au multiplicity minus the unscaled ZYAM-subtracted correlated yields at low FTPC-Au multiplicity versus $\Delta\phi$.
-*obskey: 
+*obskey: D2N/DDELTAETA/DDELTAPHI
 *reackey: d AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
 *qual: CENTRALITY IN PCT:  40 TO 100
 *qual: : Unscaled Low-mult. Jet Subtracted
 *xheader: $\Delta\phi$
-*yheader: Yield
+*yheader: $d^2N/(d\Delta{\eta}d\Delta\phi)$
 *data: x : y
 -1.4399; 0.351419 +- 0.00184576 (DSYS=+0.000697701, -0.00068448);
 -1.1781; 0.351723 +- 0.0018436 (DSYS=+0.000697715, -0.000684466);
@@ -433,13 +441,13 @@
 *dataset:
 *location: Figure 3(b)
 *dscomment: The raw associated yield at high FTPC-Au multiplicity minus the scaled ZYAM-subtracted correlated yields at low FTPC-Au multiplicity versus $\Delta\phi$.
-*obskey: 
+*obskey: D2N/DDELTAETA/DDELTAPHI
 *reackey: d AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
 *qual: CENTRALITY IN PCT:  40 TO 100
 *qual: : Scaled Low-mult. Jet Subtracted
 *xheader: $\Delta\phi$
-*yheader: Yield
+*yheader: $d^2N/(d\Delta{\eta}d\Delta\phi)$
 *data: x : y
 -1.1781; 0.351675 +- 0.00204258 (DSYS=+0.000874974, -0.000929723);
 -0.916298; 0.356437 +- 0.0020678 (DSYS=+0.00100346, -0.00105833);
