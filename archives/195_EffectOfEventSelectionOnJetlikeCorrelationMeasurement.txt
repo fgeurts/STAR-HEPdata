@@ -187,7 +187,7 @@
 *reackey: d Au --> DIHADRON X
 *qual: SQRT(S)/NUCLEON IN GEV:  200
 *qual: CENTRALITY IN PCT:  (0 TO 20)-(40 TO 100)
-*qual: Away-side Yield
+*qual: Near-side Yield
 *xheader: $\Delta\eta$
 *yheader: $d^2N/(d\Delta{\eta}d\Delta\phi)$
 *data: x : y
