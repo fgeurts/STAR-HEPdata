@@ -10,10 +10,11 @@
 *cdsId: 1955322
 *detector: STAR
 *experiment: BNL-RHIC-STAR
+
 *dataset:
 *location: Figure 1 - dAuInclusiveRebin
-*dscomment:  Two-dimensional $\Delta\phi$ vs. $\Delta\eta$ correlation functions for charged hadron triggers from minimum-bias d+Au data at 200 GeV. All trigger and associated charged hadrons are selected in the respective pT ranges 4 < $p_T^{trig}$ < 5 GeV/c and 1.5 < $p_T^{assoc}$ < 4 GeV/c.
-*obskey: 
+*dscomment:  Two-dimensional $\Delta\phi$ vs. $\Delta\eta$ correlation functions for charged hadron triggers from minimum-bias d+Au data at 200 GeV. All trigger and associated charged hadrons are selected in the respective pT ranges 4 < $p_T^{trig}$ < 5 GeV/c and 1.5 < $p_T^{assoc}$ < 4 GeV/c.
+*obskey: D2N/DDELTAPHI/DDELTAETA
 *reackey: AU AU --> DIHADRON X
 *reackey: D AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
@@ -1025,7 +1026,7 @@
 *dataset:
 *location: Figure 1 -  AuAuInclusiveRebin
 *dscomment: Two-dimensional $\Delta\phi$ vs. $\Delta\eta$ correlation functions for charged hadron triggers from 0-10% most-central Au+Au data at 200 GeV. All trigger and associated charged hadrons are selected in the respective pT ranges 4 < $p_T^{trig}$ < 5 GeV/c and 1.5 < $p_T^{assoc}$ < 4 GeV/c.
-*obskey: 
+*obskey: D2N/DDELTAPHI/DDELTAETA
 *reackey: AU AU --> DIHADRON X
 *reackey: D AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
@@ -2037,7 +2038,7 @@
 *dataset:
 *location: Figure 1 -  dAuNonPionsRebin
 *dscomment: Two-dimensional $\Delta\phi$ vs. $\Delta\eta$ correlation functions for non-pion triggers from minimum-bias d+Au data at 200 GeV. All trigger and associated charged hadrons are selected in the respective pT ranges 4 < $p_T^{trig}$ < 5 GeV/c and 1.5 < $p_T^{assoc}$ < 4 GeV/c.
-*obskey: 
+*obskey: D2N/DDELTAPHI/DDELTAETA
 *reackey: AU AU --> DIHADRON X
 *reackey: D AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
@@ -3049,7 +3050,7 @@
 *dataset:
 *location: Figure 1 -  AuAuNonPionsRebin
 *dscomment: Two-dimensional $\Delta\phi$ vs. $\Delta\eta$ correlation functions for non-pion  triggers from 0-10% most-central Au+Au data at 200 GeV. All trigger and associated charged hadrons are selected in the respective pT ranges 4 < $p_T^{trig}$ < 5 GeV/c and 1.5 < $p_T^{assoc}$ < 4 GeV/c.
-*obskey: 
+*obskey: D2N/DDELTAPHI/DDELTAETA
 *reackey: AU AU --> DIHADRON X
 *reackey: D AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
@@ -4061,7 +4062,7 @@
 *dataset:
 *location: Figure 1 -  dAuPionsRebin
 *dscomment: Two-dimensional $\Delta\phi$ vs. $\Delta\eta$ correlation functions for pion triggers from minimum-bias d+Au data at 200 GeV. All trigger and associated charged hadrons are selected in the respective pT ranges 4 < $p_T^{trig}$ < 5 GeV/c and 1.5 < $p_T^{assoc}$ < 4 GeV/c.
-*obskey: 
+*obskey: D2N/DDELTAPHI/DDELTAETA
 *reackey: AU AU --> DIHADRON X
 *reackey: D AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
@@ -5071,9 +5072,9 @@
 4.63385; 1.92; 0.0 +- 0.0; 
 *dataend:
 *dataset:
-*location: AuAuPionsRebin
-*dscomment:  Two-dimensional $\Delta\phi$ vs. $\Delta\eta$ correlation functions for pion triggers from 0-10% most-central Au+Au data at 200 GeV. All trigger and associated charged hadrons are selected in the respective pT ranges 4 < $p_T^{trig}$ < 5 GeV/c and 1.5 < $p_T^{assoc}$ < 4 GeV/c.
-*obskey: 
+*location: Figure 1
+*dscomment:  Two-dimensional $\Delta\phi$ vs. $\Delta\eta$ correlation functions for pion triggers from 0-10% most-central Au+Au data at 200 GeV. All trigger and associated charged hadrons are selected in the respective pT ranges 4 < $p_T^{trig}$ < 5 GeV/c and 1.5 < $p_T^{assoc}$ < 4 GeV/c.
+*obskey: D2N/DDELTAPHI/DDELTAETA
 *reackey: AU AU --> DIHADRON X
 *reackey: D AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
@@ -6145,7 +6146,7 @@
 *dataset:
 *location: Figure 2
 *dscomment: The $\Delta\phi$ projections of the pure-cone correlations for |$\Delta\phi$| < $\pi$/4 non-pion triggers. 
-*obskey: 
+*obskey: DN/DDELTAPHI
 *reackey: AU AU --> DIHADRON X
 *reackey: D AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
@@ -6174,7 +6175,7 @@
 *dataset:
 *location: Figure 2
 *dscomment: The $\Delta\eta$ projections of the pure-cone correlations for |$\Delta\eta$| < 0.78 non-pion triggers.
-*obskey: 
+*obskey: DN/DDELTAETA
 *reackey: AU AU --> DIHADRON X
 *reackey: D AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
