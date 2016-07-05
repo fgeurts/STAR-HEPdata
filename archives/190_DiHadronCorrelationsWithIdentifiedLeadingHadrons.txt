@@ -6085,7 +6085,7 @@
 *dataset:
 *location: Figure 2
 *dscomment:  The $\Delta\phi$ projections of the pure-cone correlations for |$\Delta\phi$| < $\pi$/4 for pion triggers.
-*obskey: 
+*obskey: DN/DDELTAPHI
 *reackey: AU AU --> DIHADRON X
 *reackey: D AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
@@ -6114,7 +6114,7 @@
 *dataset:
 *location: Figure 2
 *dscomment: The $\Delta\eta$ projections of the pure-cone correlations for |$\Delta\eta$| < 0.78 for pion triggers.
-*obskey: 
+*obskey: DN/DDELTAETA
 *reackey: AU AU --> DIHADRON X
 *reackey: D AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
@@ -6207,7 +6207,7 @@
 *dataset:
 *location: Figure 3a
 *dscomment: $\Delta\phi$ projections over |$\Delta\eta$| < 1.5 in 0-10% Au+Au and minimum-bias d+Au data at 200 GeV after subtracting the jet-like fit components.
-*obskey: 
+*obskey: D2N/DDELTAPHI/DDELTAETA
 *reackey: AU AU --> DIHADRON X
 *reackey: D AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
@@ -6260,7 +6260,7 @@
 *dataset:
 *location: Figure 3b
 *dscomment:  Extracted Fourier coefficients from fitting in $\pi$ 2 < $\Delta\phi$ < 3$\pi/2$ ) x (|$\Delta\eta$| < 1.5) (1.52 for d+Au), for pion, non-pion, and charged hadron triggers in the flow-based model.
-*obskey: 
+*obskey: VN
 *reackey: AU AU --> DIHADRON X
 *reackey: D AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
@@ -6278,7 +6278,7 @@ $V_5$; 0.00025 +- 0.00013 (DSYS=+6e-05, -6e-05); 0.00034 +- 0.00015 (DSYS=+6e-05
 *dataset:
 *location: 3b
 *dscomment: Extracted Fourier coefficients from fitting in $\pi$ 2 < $\Delta\phi$ < 3$\pi/2$ ) x (|$\Delta\eta$| < 1.5) (1.52 for d+Au), for pion, non-pion, and charged hadron triggers in the flow-based model.
-*obskey: 
+*obskey: VN
 *reackey: AU AU --> DIHADRON X
 *reackey: D AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
@@ -6296,7 +6296,7 @@ $V_5$; -0.00926 +- 0.02929 (DSYS=+-0.00355, --0.00355); -0.01464 +- 0.0286 (DSYS
 *dataset:
 *location: 3c
 *dscomment: V3/V2 ratio for pion and non-pion triggers in Au+Au, and the extrapolated value for "pure protons"
-*obskey: 
+*obskey: V3/V2
 *reackey: AU AU --> DIHADRON X
 *reackey: D AU --> DIHADRON X
 *qual: SQRT(S) IN GEV:  200
