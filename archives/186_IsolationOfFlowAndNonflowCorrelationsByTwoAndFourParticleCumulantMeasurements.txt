@@ -14,7 +14,7 @@
 *dataset:
 *location: Figure 1a
 *dscomment: The second harmonic two-particle cumulants for ($\eta_{\alpha}$, $\eta_{\beta}$ pairs for 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. 
-*obskey: 
+*obskey: V22
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: $V_2${2} (x$10^{-4}$)
@@ -426,7 +426,7 @@
 *dataset:
 *location: Figure 1b
 *dscomment: The third harmonic two-particle cumulants for ($\eta_{\alpha}$, $\eta_{\beta}$ pairs for 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. 
-*obskey: 
+*obskey: V32
 *reackey: AU AU --> X
 *qual: $V_3${2} (x$10^{-4}$)
 *xheader: $\eta$
@@ -837,7 +837,7 @@
 *dataset:
 *location: Figure 1c
 *dscomment: The second harmonic four-particle cumulant for ($\eta_{\alpha}$, $\eta_{\alpha}$, $\eta_{\beta}$, $\eta_{\beta}$) quadruplets for 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. 
-*obskey: 
+*obskey: V22
 *reackey: AU AU --> X
 *qual: $V_2^{1/2}${4} (x$10^{-4}$)
 *xheader: $\eta$
@@ -946,9 +946,180 @@
 0.9; 0.9; 27.0 +- 3.0; 
 *dataend: 
 *dataset:
+*location: Figure 2a
+*dscomment: The $V_2${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+*obskey: DELTAV22
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV:  200
+*qual: $\Delta\,V_2${2} (x$10^{-4}$)
+*xheader: $\Delta\eta_2$ - $\Delta\eta_1$
+*yheader: $\Delta\V_2${2}
+*qual: $\Delta\eta_1$=0.1
+*data: x: y
+1.7; 7.1 +- 0.2 (DSYS=+0.3, -0.3); 
+1.5; 6.76 +- 0.2 (DSYS=+0.12, -0.12); 
+1.3; 6.37 +- 0.2 (DSYS=+0.17, -0.17); 
+1.1; 5.88 +- 0.2 (DSYS=+0.07, -0.07); 
+0.9; 5.53 +- 0.2 (DSYS=+0.15, -0.15); 
+0.7; 4.77 +- 0.2 (DSYS=+0.08, -0.08); 
+0.5; 4.14 +- 0.2 (DSYS=+0.13, -0.13); 
+0.3; 3.83 +- 0.2 (DSYS=+0.07, -0.07); 
+0.1; 2.21 +- 0.2 (DSYS=+0.11, -0.11); 
+*dataend: 
+*dataset:
+*location: Figure 2a
+*dscomment: The $V_2${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+*obskey: DELTAV22
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV:  200
+*qual: $\Delta\,V_2${2} (x$10^{-4}$)
+*xheader: $\Delta\eta_2$ - $\Delta\eta_1$
+*yheader: $\Delta\,V_2${2}
+*qual: $\Delta\eta_1$=0.2
+*data: x: y
+1.5; 4.85557 +- 0.2 (DSYS=+0.08, -0.08); 
+1.3; 4.65059 +- 0.2 (DSYS=+0.07, -0.07); 
+1.1; 4.39 +- 0.2 (DSYS=+0.14, -0.14); 
+0.9; 3.81 +- 0.2 (DSYS=+0.11, -0.11); 
+0.7; 3.18 +- 0.2 (DSYS=+0.12, -0.12); 
+0.5; 2.199 +- 0.2 (DSYS=+0.019, -0.019); 
+0.3; 1.93 +- 0.2 (DSYS=+0.08, -0.08); 
+0.1; 1.23 +- 0.2 (DSYS=+0.03, -0.03); 
+*dataend: 
+*dataset:
+*location: Figure 2a
+*dscomment: The $V_2${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+*obskey: DELTAV22
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV:  200
+*qual: $\Delta\,V_2${2} (x$10^{-4}$)
+*xheader: $\Delta\eta_2$ - $\Delta\eta_1$
+*yheader: $\Delta\,V_2${2}
+*qual: $\Delta\eta_1$=0.3
+*data: x: y
+1.3; 4.14 +- 0.2 (DSYS=+0.14, -0.14); 
+1.1; 3.28 +- 0.2 (DSYS=+0.12, -0.12); 
+0.9; 2.98 +- 0.2 (DSYS=+0.06, -0.06); 
+0.7; 2.41 +- 0.2 (DSYS=+0.1, -0.1); 
+0.5; 1.57 +- 0.2 (DSYS=+0.06, -0.06); 
+0.3; 1.09 +- 0.2 (DSYS=+0.04, -0.04); 
+0.1; 0.58 +- 0.2 (DSYS=+0.07, -0.07); 
+*dataend: 
+*dataset:
+*location: Figure 2a
+*dscomment: The $V_2${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+*obskey: DELTAV22
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV:  200
+*qual: $\Delta\,V_2${2} (x$10^{-4}$)
+*xheader: $\Delta\eta_2$ - $\Delta\eta_1$
+*yheader: $\Delta\,V_2${2}
+*qual: $\Delta\eta_1$=0.4
+*data: x: y
+1.1; 3.26 +- 0.2 (DSYS=+0.09, -0.09); 
+0.9; 2.85 +- 0.2 (DSYS=+0.06, -0.06); 
+0.7; 2.21 +- 0.2 (DSYS=+0.1, -0.1); 
+0.5; 1.48 +- 0.2 (DSYS=+0.13, -0.13); 
+0.3; 1.44 +- 0.2 (DSYS=+0.13, -0.13); 
+0.1; 0.29 +- 0.2 (DSYS=+0.08, -0.08); 
+*dataend: 
+*dataset:
+*location: Figure 2b
+*dscomment: The $V_3${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+*obskey: DELTAV32
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV:  200
+*qual: $\Delta\,V_3${2} (x$10^{-4}$)
+*xheader: $\Delta\eta_2$ - $\Delta\eta_1$
+*yheader: $\Delta\,V_3${2}
+*qual: $Delta\eta_1$=0.1
+*data: x: y
+1.7; 3.9 +- 0.2 (DSYS=+0.3, -0.3); 
+1.5; 4.29 +- 0.2 (DSYS=+0.05, -0.05); 
+1.3; 4.24 +- 0.19 (DSYS=+0.08, -0.08); 
+1.1; 4.23 +- 0.19 (DSYS=+0.14, -0.14); 
+0.9; 3.73 +- 0.19 (DSYS=+0.08, -0.08); 
+0.7; 3.98 +- 0.19 (DSYS=+0.13, -0.13); 
+0.5; 3.82 +- 0.19 (DSYS=+0.02, -0.02); 
+0.3; 3.77 +- 0.19 (DSYS=+0.14, -0.14); 
+0.1; 1.98 +- 0.19 (DSYS=+0.1, -0.1); 
+*dataend: 
+*dataset:
+*location: Figure 2b
+*dscomment: The $V_3${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+*obskey: DELTAV32
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV:  200
+*qual: $\Delta\,V_3${2} (x$10^{-4}$)
+*xheader: $\Delta\eta_2$ - $\Delta\eta_1$
+*yheader: $\Delta\,V_3${2}
+*qual: $Delta\eta_1$=0.2
+*data: x: y
+1.5; 2.3 +- 0.2 (DSYS=+0.2, -0.2); 
+1.3; 1.94 +- 0.2 (DSYS=+0.08, -0.08); 
+1.1; 1.71 +- 0.19 (DSYS=+0.08, -0.08); 
+0.9; 1.45 +- 0.19 (DSYS=+0.19, -0.19); 
+0.7; 1.77 +- 0.19 (DSYS=+0.06, -0.06); 
+0.5; 1.71 +- 0.19 (DSYS=+0.18, -0.18); 
+0.3; 1.47 +- 0.19 (DSYS=+0.07, -0.07); 
+0.1; 1.17 +- 0.19 (DSYS=+0.05, -0.05); 
+*dataend: 
+*dataset:
+*location: Figure 2b
+*dscomment: The $V_3${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+*obskey: DELTAV32
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV:  200
+*qual: $\Delta\,V_3${2} (x$10^{-4}$)
+*xheader: $\Delta\eta_2$ - $\Delta\eta_1$
+*yheader: $\Delta\,V_3${2}
+*qual: $Delta\eta_1$=0.3
+*data: x: y
+1.3; 1.52 +- 0.2 (DSYS=+0.08, -0.08); 
+1.1; 0.98 +- 0.2 (DSYS=+0.04, -0.04); 
+0.9; 1.0 +- 0.19 (DSYS=+0.02, -0.02); 
+0.7; 0.53 +- 0.19 (DSYS=+0.1, -0.1); 
+0.5; 0.51 +- 0.19 (DSYS=+0.15, -0.15); 
+0.3; 0.41 +- 0.19 (DSYS=+0.11, -0.11); 
+0.1; 0.07 +- 0.19 (DSYS=+0.08, -0.08); 
+*dataend: 
+*dataset:
+*location: Figure 2b
+*dscomment: The $V_3${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+*obskey: DELTAV32
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV:  200
+*qual: $\Delta\,V_3${2} (x$10^{-4}$)
+*xheader: $\Delta\eta_2$ - $\Delta\eta_1$
+*yheader: $\Delta\,V_3${2}
+*qual: $Delta\eta_1$=0.4
+*data: x: y
+1.1; 0.55 +- 0.2 (DSYS=+0.12, -0.12); 
+0.9; 0.34 +- 0.2 (DSYS=+0.14, -0.14); 
+0.7; 0.55 +- 0.19 (DSYS=+0.09, -0.09); 
+0.5; 0.71 +- 0.19 (DSYS=+0.08, -0.08); 
+0.3; 0.18 +- 0.19 (DSYS=+0.03, -0.03); 
+0.1; -0.04 +- 0.19 (DSYS=+0.03, -0.03); 
+*dataend: 
+*dataset:
+*location: Figure 2c
+*dscomment:  The $V_2^{1/2}$ difference between quadruplets at ($\eta_{\alpha}$, $\eta_{\alpha}$, $\eta_{\beta}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, $\eta_{\alpha}$, -$\eta_{\beta}$, -$\eta_{\beta}$)
+*obskey: DELTAV24
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV:  200
+*xheader: $\Delta\eta_2$ - $\Delta\eta_1$
+*yheader: $\Delta\,V_2^{1/2}${4}
+*data: x: y
+0.2; -0.2 +- 0.6 (DSYS=+0.4, -0.4); 
+0.6; 0.8 +- 1.0 (DSYS=+1.4, -1.4); 
+1.0; 1.0 +- 1.0 (DSYS=+2.0, -2.0); 
+1.4; 2.8 +- 2.0 (DSYS=+0.8, -0.8); 
+*dataend: 
+
+*dataset:
 *location: Figure 3a
 *dscomment: The two-particle cumulants, V2{2} as a function of $\eta$ for one particle while averaged over $\eta$ of the partner particle.
-*obskey: 
+*obskey: V22
 *reackey: AU AU --> X
 *qual: <$V_2^{2}$> (x$10^{-4}$)
 *xheader: $\eta$
@@ -1359,7 +1530,7 @@
 *dataset:
 *location: Figure 3b
 *dscomment: V3{2} as a function of $\eta$. 
-*obskey: 
+*obskey: V32
 *reackey: AU AU --> X
 *qual: <$V_3^{2}$> (x$10^{-4}$)
 *xheader: $\eta$
@@ -1767,180 +1938,10 @@
 0.95; 0.85; 2.6 +- 0.2; 
 0.95; 0.95; -5.8 +- 0.4; 
 *dataend: 
-*dataset:
-*location: Figure 2a
-*dscomment: The $V_2${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
-*obskey: 
-*reackey: AU AU --> X
-*qual: SQRT(S) IN GEV:  200
-*qual: $\Delta\,V_2${2} (x$10^{-4}$)
-*xheader: $\Delta\eta_2$ - $\Delta\eta_1$
-*yheader: $\Delta\V_2${2}
-*qual: $\Delta\eta_1$=0.1
-*data: x: y
-1.7; 7.1 +- 0.2 (DSYS=+0.3, -0.3); 
-1.5; 6.76 +- 0.2 (DSYS=+0.12, -0.12); 
-1.3; 6.37 +- 0.2 (DSYS=+0.17, -0.17); 
-1.1; 5.88 +- 0.2 (DSYS=+0.07, -0.07); 
-0.9; 5.53 +- 0.2 (DSYS=+0.15, -0.15); 
-0.7; 4.77 +- 0.2 (DSYS=+0.08, -0.08); 
-0.5; 4.14 +- 0.2 (DSYS=+0.13, -0.13); 
-0.3; 3.83 +- 0.2 (DSYS=+0.07, -0.07); 
-0.1; 2.21 +- 0.2 (DSYS=+0.11, -0.11); 
-*dataend: 
-*dataset:
-*location: Figure 2a
-*dscomment: The $V_2${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
-*obskey: 
-*reackey: AU AU --> X
-*qual: SQRT(S) IN GEV:  200
-*qual: $\Delta\,V_2${2} (x$10^{-4}$)
-*xheader: $\Delta\eta_2$ - $\Delta\eta_1$
-*yheader: $\Delta\,V_2${2}
-*qual: $\Delta\eta_1$=0.2
-*data: x: y
-1.5; 4.85557 +- 0.2 (DSYS=+0.08, -0.08); 
-1.3; 4.65059 +- 0.2 (DSYS=+0.07, -0.07); 
-1.1; 4.39 +- 0.2 (DSYS=+0.14, -0.14); 
-0.9; 3.81 +- 0.2 (DSYS=+0.11, -0.11); 
-0.7; 3.18 +- 0.2 (DSYS=+0.12, -0.12); 
-0.5; 2.199 +- 0.2 (DSYS=+0.019, -0.019); 
-0.3; 1.93 +- 0.2 (DSYS=+0.08, -0.08); 
-0.1; 1.23 +- 0.2 (DSYS=+0.03, -0.03); 
-*dataend: 
-*dataset:
-*location: Figure 2a
-*dscomment: The $V_2${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
-*obskey: 
-*reackey: AU AU --> X
-*qual: SQRT(S) IN GEV:  200
-*qual: $\Delta\,V_2${2} (x$10^{-4}$)
-*xheader: $\Delta\eta_2$ - $\Delta\eta_1$
-*yheader: $\Delta\,V_2${2}
-*qual: $\Delta\eta_1$=0.3
-*data: x: y
-1.3; 4.14 +- 0.2 (DSYS=+0.14, -0.14); 
-1.1; 3.28 +- 0.2 (DSYS=+0.12, -0.12); 
-0.9; 2.98 +- 0.2 (DSYS=+0.06, -0.06); 
-0.7; 2.41 +- 0.2 (DSYS=+0.1, -0.1); 
-0.5; 1.57 +- 0.2 (DSYS=+0.06, -0.06); 
-0.3; 1.09 +- 0.2 (DSYS=+0.04, -0.04); 
-0.1; 0.58 +- 0.2 (DSYS=+0.07, -0.07); 
-*dataend: 
-*dataset:
-*location: Figure 2a
-*dscomment: The $V_2${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
-*obskey: 
-*reackey: AU AU --> X
-*qual: SQRT(S) IN GEV:  200
-*qual: $\Delta\,V_2${2} (x$10^{-4}$)
-*xheader: $\Delta\eta_2$ - $\Delta\eta_1$
-*yheader: $\Delta\,V_2${2}
-*qual: $\Delta\eta_1$=0.4
-*data: x: y
-1.1; 3.26 +- 0.2 (DSYS=+0.09, -0.09); 
-0.9; 2.85 +- 0.2 (DSYS=+0.06, -0.06); 
-0.7; 2.21 +- 0.2 (DSYS=+0.1, -0.1); 
-0.5; 1.48 +- 0.2 (DSYS=+0.13, -0.13); 
-0.3; 1.44 +- 0.2 (DSYS=+0.13, -0.13); 
-0.1; 0.29 +- 0.2 (DSYS=+0.08, -0.08); 
-*dataend: 
-*dataset:
-*location: Figure 2b
-*dscomment: The $V_3${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
-*obskey: 
-*reackey: AU AU --> X
-*qual: SQRT(S) IN GEV:  200
-*qual: $\Delta\,V_3${2} (x$10^{-4}$)
-*xheader: $\Delta\eta_2$ - $\Delta\eta_1$
-*yheader: $\Delta\,V_3${2}
-*qual: (b): ?: V3{2}: (: x10^{-4})
-*data: x: y
-1.7; 3.9 +- 0.2 (DSYS=+0.3, -0.3); 
-1.5; 4.29 +- 0.2 (DSYS=+0.05, -0.05); 
-1.3; 4.24 +- 0.19 (DSYS=+0.08, -0.08); 
-1.1; 4.23 +- 0.19 (DSYS=+0.14, -0.14); 
-0.9; 3.73 +- 0.19 (DSYS=+0.08, -0.08); 
-0.7; 3.98 +- 0.19 (DSYS=+0.13, -0.13); 
-0.5; 3.82 +- 0.19 (DSYS=+0.02, -0.02); 
-0.3; 3.77 +- 0.19 (DSYS=+0.14, -0.14); 
-0.1; 1.98 +- 0.19 (DSYS=+0.1, -0.1); 
-*dataend: 
-*dataset:
-*location: Figure 2b
-*dscomment: The $V_3${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
-*obskey: 
-*reackey: AU AU --> X
-*qual: SQRT(S) IN GEV:  200
-*qual: $\Delta\,V_3${2} (x$10^{-4}$)
-*xheader: $\Delta\eta_2$ - $\Delta\eta_1$
-*yheader: $\Delta\,V_3${2}
-*qual: ??1=0.2
-*data: x: y
-1.5; 2.3 +- 0.2 (DSYS=+0.2, -0.2); 
-1.3; 1.94 +- 0.2 (DSYS=+0.08, -0.08); 
-1.1; 1.71 +- 0.19 (DSYS=+0.08, -0.08); 
-0.9; 1.45 +- 0.19 (DSYS=+0.19, -0.19); 
-0.7; 1.77 +- 0.19 (DSYS=+0.06, -0.06); 
-0.5; 1.71 +- 0.19 (DSYS=+0.18, -0.18); 
-0.3; 1.47 +- 0.19 (DSYS=+0.07, -0.07); 
-0.1; 1.17 +- 0.19 (DSYS=+0.05, -0.05); 
-*dataend: 
-*dataset:
-*location: Figure 2b
-*dscomment: The $V_3${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
-*obskey: 
-*reackey: AU AU --> X
-*qual: SQRT(S) IN GEV:  200
-*qual: $\Delta\,V_3${2} (x$10^{-4}$)
-*xheader: $\Delta\eta_2$ - $\Delta\eta_1$
-*yheader: $\Delta\,V_3${2}
-*qual: ??1=0.3
-*data: x: y
-1.3; 1.52 +- 0.2 (DSYS=+0.08, -0.08); 
-1.1; 0.98 +- 0.2 (DSYS=+0.04, -0.04); 
-0.9; 1.0 +- 0.19 (DSYS=+0.02, -0.02); 
-0.7; 0.53 +- 0.19 (DSYS=+0.1, -0.1); 
-0.5; 0.51 +- 0.19 (DSYS=+0.15, -0.15); 
-0.3; 0.41 +- 0.19 (DSYS=+0.11, -0.11); 
-0.1; 0.07 +- 0.19 (DSYS=+0.08, -0.08); 
-*dataend: 
-*dataset:
-*location: Figure 2b
-*dscomment: The $V_3${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
-*obskey: 
-*reackey: AU AU --> X
-*qual: SQRT(S) IN GEV:  200
-*qual: $\Delta\,V_3${2} (x$10^{-4}$)
-*xheader: $\Delta\eta_2$ - $\Delta\eta_1$
-*yheader: $\Delta\,V_3${2}
-*qual: ??1=0.4
-*data: x: y
-1.1; 0.55 +- 0.2 (DSYS=+0.12, -0.12); 
-0.9; 0.34 +- 0.2 (DSYS=+0.14, -0.14); 
-0.7; 0.55 +- 0.19 (DSYS=+0.09, -0.09); 
-0.5; 0.71 +- 0.19 (DSYS=+0.08, -0.08); 
-0.3; 0.18 +- 0.19 (DSYS=+0.03, -0.03); 
-0.1; -0.04 +- 0.19 (DSYS=+0.03, -0.03); 
-*dataend: 
-*dataset:
-*location: Figure 2c
-*dscomment:  The $V_2^{1/2}$ difference between quadruplets at ($\eta_{\alpha}$, $\eta_{\alpha}$, $\eta_{\beta}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, $\eta_{\alpha}$, -$\eta_{\beta}$, -$\eta_{\beta}$)
-*obskey: 
-*reackey: AU AU --> X
-*qual: SQRT(S) IN GEV:  200
-*xheader: $\Delta\eta_2$ - $\Delta\eta_1$
-*yheader: $\Delta\,V_2^{1/2}${4}
-*data: x: y
-0.2; -0.2 +- 0.6 (DSYS=+0.4, -0.4); 
-0.6; 0.8 +- 1.0 (DSYS=+1.4, -1.4); 
-1.0; 1.0 +- 1.0 (DSYS=+2.0, -2.0); 
-1.4; 2.8 +- 2.0 (DSYS=+0.8, -0.8); 
-*dataend: 
-*dataset:
+
 *location: Figure 3c
 *dscomment: The two-particle cumulants, V2{2} as a function of $\eta$.
-*obskey: 
+*obskey: V22
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: $V_2${2} (x$10^{-4}$)
@@ -1971,7 +1972,7 @@
 *dataset:
 *location: Figure 3c
 *dscomment: The two-particle cumulants, V2{2} as a function of $\eta$ for one particle while averaged over $\eta$ of the partner particle.
-*obskey: 
+*obskey: V22
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: <$V_2^2$> (x$10^{-4}$)
@@ -2002,7 +2003,7 @@
 *dataset:
 *location: Figure 3c
 *dscomment: The difference in two-particle cumulants, V2{2} as a function of $\eta$ for one particle while averaged over $\eta$ of the partner particle.
-*obskey: 
+*obskey: DELTAV24
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: $\Delta\,V_2^{1/2}${4} (x$10^{-4}$)
@@ -2023,7 +2024,7 @@
 *dataset:
 *location: Figure 3c
 *dscomment: 
-*obskey: 
+*obskey: V32
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: $\sigma$' (x$10^{-4}$)
@@ -2044,7 +2045,7 @@
 *dataset:
 *location: Figure 3(d)
 *dscomment: V3{2} as a function of $\eta$
-*obskey: 
+*obskey: V32
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: $V_3${2} (x$10^{-4}$)
@@ -2107,7 +2108,7 @@
 *location: Figure 4(a)
 *dscomment:  The $\Delta\eta$-dependent component of the two-particle cumulant with $\Delta\eta$-gap, $D^-$
 in Eq. (11), of the second harmonic is shown as a function of ??-gap |$\Delta\eta$| > x.
-*obskey: 
+*obskey: DBAR2
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: $\bar{D}_2$ (x$10^{-4}$)
@@ -2139,7 +2140,7 @@ in Eq. (11), of the second harmonic is shown as a function of ??-gap |$\Delta\et
 *location: Figure 4(b)
 *dscomment: The $\Delta\eta$-dependent component of the two-particle cumulant with $\Delta\eta$-gap, $D^-$
 in Eq. (11), of the third harmonic is shown as a function of ??-gap |$\Delta\eta$| > x.
-*obskey: 
+*obskey: DBAR3
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: $\sigma$' (x$10^{-4}$) = k x(2-|$\Delta\eta$|)/2
@@ -2171,7 +2172,7 @@ in Eq. (11), of the third harmonic is shown as a function of ??-gap |$\Delta\eta
 *dataset:
 *location: Figure 5(a)
 *dscomment: The nonflow, $\sqrt{\bar{D}_2}$, $\sqrt{\delta_2}$, $\sqrt{\bar{D}_3}$ and flow, $\sqrt{v_2^2/2}$, $\sqrt{<v_2^2>}$ results are shown as a function of centrality percentile for the second harmonic.
-*obskey: 
+*obskey: V2
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: v2
@@ -2187,7 +2188,7 @@ in Eq. (11), of the third harmonic is shown as a function of ??-gap |$\Delta\eta
 *dataset:
 *location: Figure 5(a)
 *dscomment: The nonflow, $\sqrt{\bar{D}_2}$, $\sqrt{\delta_2}$, $\sqrt{\bar{D}_3}$ and flow, $\sqrt{v_2^2/2}$, $\sqrt{<v_2^2>}$ results are shown as a function of centrality percentile for the second harmonic.
-*obskey: 
+*obskey: DBAR2
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: v2
@@ -2203,7 +2204,7 @@ in Eq. (11), of the third harmonic is shown as a function of ??-gap |$\Delta\eta
 *dataset:
 *location: Figure 5(a)
 *dscomment: The nonflow, $\sqrt{\bar{D}_2}$, $\sqrt{\delta_2}$, $sqrt{\bar{D}_3}$ and flow, $\sqrt{v_2^2/2}$, $\sqrt{<v_2^2>}$ results are shown as a function of centrality percentile for the second harmonic.
-*obskey: 
+*obskey: DELTA2
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: v2
@@ -2218,7 +2219,7 @@ in Eq. (11), of the third harmonic is shown as a function of ??-gap |$\Delta\eta
 *dataset:
 *location: Figure 5b
 *dscomment: The nonflow, $\sqrt{\bar{D}_2}$, $\sqrt{\delta_2}$, $sqrt{\bar{D}_3}$ and flow, $\sqrt{v_2^2/2}$, $\sqrt{<v_2^2>}$ results are shown as a function of centrality percentile for the third harmonic.
-*obskey: 
+*obskey: V32
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: v3
@@ -2234,7 +2235,7 @@ in Eq. (11), of the third harmonic is shown as a function of ??-gap |$\Delta\eta
 *dataset:
 *location: Figure 5b
 *dscomment: The nonflow, $\sqrt{\bar{D}_2}$, $sqrt{\delta_2}$, $\sqrt{\bar{D}_3}$ and flow, $\sqrt{v_2^2/2}$, $\sqrt{<v_2^2>}$ results are shown as a function of centrality percentile for the third harmonic.
-*obskey: 
+*obskey: DBAR3
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: v3
@@ -2250,7 +2251,7 @@ in Eq. (11), of the third harmonic is shown as a function of ??-gap |$\Delta\eta
 *dataset:
 *location: Figure 6
 *dscomment: The relative elliptic flow fluctuation $\sigma_2/<v_2>$ centrality dependence in $\sqrt{s_{NN}}$ = 200 GeV Au+Au collisions.
-*obskey: 
+*obskey: SIGMA2/V2
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *xheader: CENTRALITY IN PCT
