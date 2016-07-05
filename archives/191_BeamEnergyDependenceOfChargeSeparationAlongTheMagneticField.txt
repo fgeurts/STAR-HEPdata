@@ -15,7 +15,7 @@
 *location: Figure 2
 *dscomment:  The three-point correlator, $\gamma$, as a function of centrality for Au+Au collisions at 62.4 GeV.
 *obskey: 
-*reackey: AU AU --> SIG
+*reackey: AU AU --> X
 *qual: SQRT(S) IN GEV: 62.4
 *xheader: Centrality in PCT
 *yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
@@ -36,7 +36,7 @@
 *location: Figure 2
 *dscomment: The three-point correlator, $\gamma$, as a function of centrality for Au+Au collisions at 39 GeV.
 *obskey: 
-*reackey: AU AU --> SIG
+*reackey: AU AU --> X
 *qual: SQRT(S) IN GEV: 39
 *xheader: Centrality in PCT
 *yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
@@ -57,7 +57,7 @@
 *location: Figure 2
 *dscomment: The three-point correlator, $\gamma$, as a function of centrality for Au+Au collisions at 27 GeV.
 *obskey: 
-*reackey: AU AU --> SIG
+*reackey: AU AU --> X
 *qual: SQRT(S) IN GEV: 27
 *xheader: Centrality in PCT
 *yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
@@ -78,7 +78,7 @@
 *location: Figure 2
 *dscomment: The three-point correlator, $\gamma$, as a function of centrality for Au+Au collisions at 19.6 GeV.
 *obskey: 
-*reackey: AU AU --> SIG
+*reackey: AU AU --> X
 *qual: SQRT(S) IN GEV: 19.6
 *xheader: Centrality in PCT
 *yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
@@ -99,7 +99,7 @@
 *location: Figure 2
 *dscomment: The three-point correlator, $\gamma$, as a function of centrality for Au+Au collisions at 11.5 GeV.
 *obskey: 
-*reackey: AU AU --> SIG
+*reackey: AU AU --> X
 *qual: SQRT(S) IN GEV: 11.5
 *xheader: Centrality in PCT
 *yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
@@ -118,9 +118,9 @@
 
 *dataset:
 *location: Figure 2
-*dscomment: 7.7
+*dscomment: The three-point correlator, $\gamma$, as a function of centrality for Au+Au collisions at 7.7
 *obskey: 
-*reackey: AU AU --> SIG
+*reackey: AU AU --> X
 *qual: SQRT(S) IN GEV: 7.7
 *xheader: Centrality in PCT
 *yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
@@ -141,7 +141,7 @@
 *location: Figure 3
 *dscomment: The two-particle correlation as a function of centrality for Au+Au collisions at 62.4 GeV.
 *obskey: 
-*reackey: AU AU --> SIG
+*reackey: AU AU --> X
 *qual: SQRT(S) IN GEV: 62.4
 *xheader: Centrality in PCT
 *yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
@@ -162,7 +162,7 @@
 *location: Figure 3
 *dscomment: The two-particle correlation as a function of centrality for Au+Au collisions at 39 GeV.
 *obskey: 
-*reackey: AU AU --> SIG
+*reackey: AU AU --> X
 *qual: SQRT(S) IN GEV: 39
 *xheader: Centrality in PCT
 *yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
@@ -183,7 +183,7 @@
 *location: Figure 3
 *dscomment: The two-particle correlation as a function of centrality for Au+Au collisions at 27 GeV.
 *obskey: 
-*reackey: AU AU --> SIG
+*reackey: AU AU --> X
 *qual: SQRT(S) IN GEV: 27
 *xheader: Centrality in PCT
 *yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
@@ -204,7 +204,7 @@
 *location: Figure 3
 *dscomment: The two-particle correlation as a function of centrality for Au+Au collisions at 19.6 GeV.
 *obskey: 
-*reackey: AU AU --> SIG
+*reackey: AU AU --> X
 *qual: SQRT(S) IN GEV: 19.6
 *xheader: Centrality in PCT
 *yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
@@ -225,7 +225,7 @@
 *location: Figure 3
 *dscomment: The two-particle correlation as a function of centrality for Au+Au collisions at 11.5 GeV.
 *obskey: 
-*reackey: AU AU --> SIG
+*reackey: AU AU --> X
 *qual: SQRT(S) IN GEV: 11.5
 *xheader: Centrality in PCT
 *yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
@@ -246,7 +246,7 @@
 *location: Figure 3
 *dscomment: The two-particle correlation as a function of centrality for Au+Au collisions at 7.7 GeV.
 *obskey: 
-*reackey: AU AU --> SIG
+*reackey: AU AU --> X
 *qual: SQRT(S) IN GEV: 7.7
 *xheader: Centrality in PCT
 *yheader: $\gamma=<cos(\phi_1+\phi_2-2\psi_{RP})>$
@@ -267,7 +267,7 @@
 *location: Figure 4
 *dscomment: $H_{SS}-H{OS}$, as a function of beam energy for 60-80% centrality in Au+Au collisions.
 *obskey: 
-*reackey: AU AU --> SIG
+*reackey: AU AU --> X
 *xheader: $\sqrt{S_{NN}}$ in GeV
 *yheader: $H_{SS}-H{OS}$
 *qual: .: H difference (kappa=1): w/o HBT & Coulomb: kappa=1.5: kappa=2
@@ -285,7 +285,7 @@
 *location: Figure 4
 *dscomment: $H_{SS}-H{OS}$, as a function of beam energy for 30-60% centrality in Au+Au collisions.
 *obskey: 
-*reackey: AU AU --> SIG
+*reackey: AU AU --> X
 *xheader: $\sqrt{S_{NN}}$ in GeV
 *yheader: $H_{SS}-H{OS}$
 *qual: .: H difference (kappa=1): w/o HBT & Coulomb: kappa=1.5: kappa=2
@@ -303,7 +303,7 @@
 *location: Figure 4
 *dscomment: $H_{SS}-H{OS}$, as a function of beam energy for 10-30% centrality in Au+Au collisions.
 *obskey: 
-*reackey: AU AU --> SIG
+*reackey: AU AU --> X
 *xheader: $\sqrt{S_{NN}}$ in GeV
 *yheader: $H_{SS}-H{OS}$
 *qual: .: H difference (kappa=1): w/o HBT & Coulomb: kappa=1.5: kappa=2
