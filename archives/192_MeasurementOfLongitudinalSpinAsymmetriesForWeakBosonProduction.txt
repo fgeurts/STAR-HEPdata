@@ -14,12 +14,12 @@
 *dataset:
 *location: Figure 1
 *dscomment: $E_T^e$ distribution of $W^{\pm}$ candidate events, background contributions, and sum of backgrounds and W -> ev MC signal. This plot is for Electron |eta|<0.5
-*obskey: 
+*obskey: ET
 *reackey: P P --> W+ W- X
 *qual: SQRT(S) IN GEV:  200
 *qual: Electron |eta|<0.5
 *xheader: $E_T^e$
-*yheader: Values
+*yheader: Events / 2 GeV
 *qual: .: Z/$\gamma$->ee: W->tau->e: second EEMC: Data-driven QCD: W->enu MC: Data
 *data: x: y: y: y: y: y: y
 15.0; 1.73; 2.64; 36.0; 53.08; 1.06; 99.0 +- 9.95; 
@@ -53,11 +53,11 @@
 *dataset:
 *location: Figure 1
 *dscomment: $E_T^e$ distribution of $W^{\pm}$ candidate events, background contributions, and sum of backgrounds and W -> ev MC signal. This plot is for Electron 0.5<|eta|<1.1
-*obskey: 
+*obskey: ET
 *reackey: P P --> W+ W- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $E_T^e$
-*yheader: Values
+*yheader: Events / 2 GeV
 *qual: .: Z/$\gamma$->ee: W->tau->e: second EEMC: Data-driven QCD: W->enu MC: Data
 *qual: Electron 0.5<|eta|<1.1
 *data: x: y: y: y: y: y: y
@@ -92,11 +92,11 @@
 *dataset:
 *location: Figure 1
 *dscomment: $E_T^e$ distribution of $W^{\pm}$ candidate events, background contributions, and sum of backgrounds and W -> ev MC signal. This plot is for Positron |eta|<0.5
-*obskey: 
+*obskey: ET
 *reackey: P P --> W+ W- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $E_T^e$
-*yheader: Values
+*yheader: Events / 2 GeV
 *qual: .: Z/$\gamma$->ee: W->tau->e: second EEMC: Data-driven QCD: W->enu MC: Data
 *qual: Positron |eta|<0.5
 *data: x: y: y: y: y: y: y
@@ -131,11 +131,11 @@
 *dataset:
 *location: Figure 1
 *dscomment: $E_T^e$ distribution of $W^{\pm}$ candidate events, background contributions, and sum of backgrounds and W -> ev MC signal. This plot is for Positron 0.5<|eta|<1.1
-*obskey: 
+*obskey: ET
 *reackey: P P --> W+ W- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $E_T^e$
-*yheader: Values
+*yheader: Events / 2 GeV
 *qual: .: Z/$\gamma$->ee: W->tau->e: second EEMC: Data-driven QCD: W->enu MC: Data
 *qual: Positron 0.5<|eta|<1.1
 *data: x: y: y: y: y: y: y
@@ -170,11 +170,11 @@
 *dataset:
 *location: Figure 2a
 *dscomment: Signed $P_T$-balance distribution for e+/e- candidates reconstructed in the EEMC
-*obskey: 
+*obskey: PT
 *reackey: P P --> W+ W- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Signed $p_T$-balance
-*yheader: Values
+*yheader: Events / 4 (GeV/c)
 *qual: .: Data: Stat.: Z->ee: W->tau->e: QCD: W->enu: MC
 *data: x: y: y: y: y: y
 -30.0; 0.0 +- 0.0; 0.0; 0.0; 0.0; 0.0; 
@@ -205,11 +205,11 @@
 *dataset:
 *location: Figure 2b
 *dscomment: Distribution of the product of the TPC reconstructed charge sign and $E_T/p_T$.
-*obskey: 
+*obskey: ET/PT
 *reackey: P P --> W+ W- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Q*$E_T/p_T$
-*yheader: Values
+*yheader: Events
 *qual: .: Data: e-: e+
 *data: x: y: y: y
 -2.9; 0.0 +- 0.0; 1.09; 0.01; 
@@ -247,11 +247,11 @@
 *dataset:
 *location: Figure 3
 *dscomment: Distribution of the invariant mass of Z/$\gamma^*$ -> e+ e- candidate events, with MC for comparison.
-*obskey: 
+*obskey: MASS
 *reackey: P P --> W+ W- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Mass(GeV)
-*yheader: Values
+*yheader: Events / 2 (GeV/c^2)
 *qual: .: Data: MC
 *data: x: y: y
 25.0; 0.0 +- 0.0; 0.0; 
@@ -305,16 +305,16 @@
 *dataend: 
 
 *dataset:
-*location: Figure 4:
+*location: Figure 4
 *dscomment: Longitudinal single-spin asymmetry $A_L$ for W+ production as a function of lepton pseudorapidity.
-*obskey: 
+*obskey: AL
 *reackey: P P --> W+ W- X
 *qual: SQRT(S) IN GEV:  200
 *qual: Relative luminosity uncertainty: 0.007
 *qual: Beam polarizatoin scale uncertainty: 3.4% 
 *qual: STAR W+ $A_L$
 *xheader: -
-*yheader: -
+*yheader: $A_L$
 *qual: Eta avr: Eta rms: asym avr value: Asym up limit: Asym low limit
 *data: x: y: y: y: y
 -1.18; 0.17; 0.009 +- 0.241; 0.249; -0.223; 
@@ -328,14 +328,14 @@
 *dataset:
 *location: Figure 4:
 *dscomment: Longitudinal single-spin asymmetry $A_L$ for W- production as a function of lepton pseudorapidity.
-*obskey: 
+*obskey: AL
 *reackey: P P --> W+ W- X
 *qual: SQRT(S) IN GEV:  200
 *qual: Relative luminosity uncertainty: 0.007
 *qual: Beam polarizatoin scale uncertainty: 3.4% 
 *qual: STAR W- $A_L$
 *xheader: -
-*yheader: -
+*yheader: $A_L$
 *qual: Eta avr: Eta rms: asym avr value: Asym up limit: Asym low limit
 *data: x: y: y: y: y
 -1.22; 0.16; 0.195 +- 0.238; 0.431; -0.045; 
@@ -349,12 +349,12 @@
 *dataset:
 *location: Figure 4
 *dscomment: Longitudinal single-spin asymmetry $A_L$ for W+ production as a function of lepton pseudorapidity.
-*obskey: 
+*obskey: AL
 *reackey: P P --> W+ W- X
 *qual: SQRT(S) IN GEV:  200
 *qual: Theory $W^{+/-}\,A_L$
-*xheader: Eta Average
-*yheader: -
+*xheader: -
+*yheader: $A_L$
 *qual: Eta avr: W+ DSSV08 RHICBOS: W+ DSSV08 CHE NLO: W+ LSS10 CHE NLO: W- DSSV08 RHICBOS: W- DSSV08 CHE NLO: W- LSS10 CHE NLO
 *data: x: y: y: y: y: y: y
 -1.75; -0.186; -0.173; -0.145; 0.003; 0.013; 0.07; 
@@ -370,13 +370,13 @@
 *dataset:
 *location: Figure 5
 *dscomment: Longitudinal double-spin asymmetry $A_{LL}$ for W+ production as a function of lepton pseudorapidity.
-*obskey: 
+*obskey: ALL
 *reackey: P P --> W+ W- X
 *qual: SQRT(S) IN GEV:  200
 *qual: Beam polarizatoin scale uncertainty: 6.5% 
 *qual: STAR $W^+\,A_{LL}$
-*xheader: 
-*yheader: 
+*xheader: Lepton $|\eta|$
+*yheader: $A_{LL}$
 *qual: Eta avr: Eta rms: asym avr value: Asym up limit: Asym low limit
 *data: x: y: y: y: y
 0.25; 0.14; -0.053 +- 0.084; 0.031; -0.137; 
@@ -387,13 +387,13 @@
 *dataset:
 *location: Figure 5
 *dscomment: Longitudinal double-spin asymmetry $A_{LL}$ for W- production as a function of lepton pseudorapidity.
-*obskey: 
+*obskey: ALL
 *reackey: P P --> W+ W- X
 *qual: SQRT(S) IN GEV:  200
 *qual: Beam polarizatoin scale uncertainty: 6.5% 
 *qual: STAR $W^-\,A_{LL}$
-*xheader: 
-*yheader: 
+*xheader: Lepton $|\eta|$
+*yheader: $A_{LL}$
 *qual: Eta avr: Eta rms: asym avr value: Asym up limit: Asym low limit
 *data: x: y: y: y: y
 0.26; 0.15; -0.207 +- 0.188; -0.018; -0.394; 
@@ -404,12 +404,12 @@
 *dataset:
 *location: Figure 5
 *dscomment: Longitudinal double-spin asymmetry $A_{LL}$ for theory $W^{+/-}$ production as a function of lepton pseudorapidity.
-*obskey: 
+*obskey: ALL
 *reackey: P P --> W+ W- X
 *qual: SQRT(S) IN GEV:  200
 *qual: Theory: $W^{+/-}\,A_{LL}$
-*xheader: 
-*yheader: 
+*xheader: Lepton $|\eta|$
+*yheader: $A_{LL}$
 *qual: Eta avr: W+ DSSV08 CHE NLO: W- DSSV08 CHE NLO
 *data: x: y: y
 0.25; 0.077; -0.018; 
