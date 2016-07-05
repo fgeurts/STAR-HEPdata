@@ -14,7 +14,14 @@
 *dataset:
 *location: Table 1
 *dscomment: $p_T$ asymmetries, $\eta$ < 0, maximum opening angle of 0.2
-*obskey: 
+*obskey: PT
+*obskey: SIG
+*obskey: SINTHETA
+*obskey: AMP
+*obskey: MASS
+*obskey: ETA
+*obskey: X
+*obskey: Z
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
@@ -30,7 +37,14 @@
 *dataset:
 *location: Table 2
 *dscomment: $<M_{inv}>$ asymmetries, $\eta$ < 0, maximum opening angle of 0.2
-*obskey: 
+*obskey: PT
+*obskey: SIG
+*obskey: SINTHETA
+*obskey: AMP
+*obskey: MASS
+*obskey: ETA
+*obskey: X
+*obskey: Z
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
@@ -46,7 +60,14 @@
 *dataset:
 *location: Table 3
 *dscomment: $p_T$ asymmetries, $\eta$ > 0, maximum opening angle 0.2
-*obskey: 
+*obskey: PT
+*obskey: SIG
+*obskey: SINTHETA
+*obskey: AMP
+*obskey: MASS
+*obskey: ETA
+*obskey: X
+*obskey: Z
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
@@ -62,8 +83,14 @@
 *dataset:
 *location: Table 4
 *dscomment: $<M_{inv}>$ asymmetries, $\eta$ > 0, maximum opening angle 0.2
-
-*obskey: 
+*obskey: PT
+*obskey: SIG
+*obskey: SINTHETA
+*obskey: AMP
+*obskey: MASS
+*obskey: ETA
+*obskey: X
+*obskey: Z
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
@@ -79,7 +106,14 @@
 *dataset:
 *location: Table 5
 *dscomment: $p_T$ asymmetries, $\eta$ < 0, maximum opening angle 0.3
-*obskey: 
+*obskey: PT
+*obskey: SIG
+*obskey: SINTHETA
+*obskey: AMP
+*obskey: MASS
+*obskey: ETA
+*obskey: X
+*obskey: Z
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
@@ -95,8 +129,14 @@
 *dataset:
 *location: Table 6
 *dscomment: $<M_{inv}>$ asymmetries, $\eta$ < 0, maximum opening angle 0.3
-
-*obskey: 
+*obskey: PT
+*obskey: SIG
+*obskey: SINTHETA
+*obskey: AMP
+*obskey: MASS
+*obskey: ETA
+*obskey: X
+*obskey: Z
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
@@ -112,7 +152,14 @@
 *dataset:
 *location: Table 7
 *dscomment:  $p_T$ asymmetries, $\eta$ > 0,maximum opening angle 0.3
-*obskey: 
+*obskey: PT
+*obskey: SIG
+*obskey: SINTHETA
+*obskey: AMP
+*obskey: MASS
+*obskey: ETA
+*obskey: X
+*obskey: Z
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
@@ -129,7 +176,14 @@
 *location: Table 8
 *dscomment: $<M_{inv}>$ asymmetries, $\eta$ > 0, maximum opening angle 0.3
 
-*obskey: 
+*obskey: PT
+*obskey: SIG
+*obskey: SINTHETA
+*obskey: AMP
+*obskey: MASS
+*obskey: ETA
+*obskey: X
+*obskey: Z
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
@@ -145,7 +199,14 @@
 *dataset:
 *location: Table 9
 *dscomment: $p_T$ asymmetries, $\eta$ < 0, maximum opening angle 0.4
-*obskey: 
+*obskey: PT
+*obskey: SIG
+*obskey: SINTHETA
+*obskey: AMP
+*obskey: MASS
+*obskey: ETA
+*obskey: X
+*obskey: Z
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
@@ -161,7 +222,14 @@
 *dataset:
 *location: Table 10
 *dscomment: $<M_{inv}>$ asymmetries, $\eta$ < 0, maximum opening angle 0.4
-*obskey: 
+*obskey: PT
+*obskey: SIG
+*obskey: SINTHETA
+*obskey: AMP
+*obskey: MASS
+*obskey: ETA
+*obskey: X
+*obskey: Z
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
@@ -177,7 +245,14 @@
 *dataset:
 *location: Table 11
 *dscomment: $p_T$ asymmetries, $\eta$ > 0, maximum opening angle 0.4
-*obskey: 
+*obskey: PT
+*obskey: SIG
+*obskey: SINTHETA
+*obskey: AMP
+*obskey: MASS
+*obskey: ETA
+*obskey: X
+*obskey: Z
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
@@ -193,7 +268,14 @@
 *dataset:
 *location: Table 12
 *dscomment: $<M_{inv}>$ asymmetries, $\eta$ > 0, maximum opening angle 0.4
-*obskey: 
+*obskey: PT
+*obskey: SIG
+*obskey: SINTHETA
+*obskey: AMP
+*obskey: MASS
+*obskey: ETA
+*obskey: X
+*obskey: Z
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
@@ -209,8 +291,14 @@
 *dataset:
 *location: Table 13
 *dscomment: $\eta$ asymmetries, maximum opening angle 0.2
-
-*obskey: 
+*obskey: PT
+*obskey: SIG
+*obskey: SINTHETA
+*obskey: AMP
+*obskey: MASS
+*obskey: ETA
+*obskey: X
+*obskey: Z
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
@@ -225,7 +313,14 @@
 *dataset:
 *location: Table 14
 *dscomment: $\eta$ asymmetries, maximum opening angle 0.3
-*obskey: 
+*obskey: PT
+*obskey: SIG
+*obskey: SINTHETA
+*obskey: AMP
+*obskey: MASS
+*obskey: ETA
+*obskey: X
+*obskey: Z
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
@@ -240,7 +335,14 @@
 *dataset:
 *location: Table 15
 *dscomment: $\eta$ asymmetries, maximum opening angle 0.4
-*obskey: 
+*obskey: PT
+*obskey: SIG
+*obskey: SINTHETA
+*obskey: AMP
+*obskey: MASS
+*obskey: ETA
+*obskey: X
+*obskey: Z
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
