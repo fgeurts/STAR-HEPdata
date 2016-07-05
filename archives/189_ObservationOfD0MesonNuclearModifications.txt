@@ -14,13 +14,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: Centrality dependence of the $D^0$ $p_T$ differential invariant yield in Au+Au collisions
-*obskey: PT
+*obskey: D2N/DPT/DY
 *reackey: AU AU --> D0 X
 *reackey: D0 --> K- PI+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ in GeV/c
-*yheader: Centrality in PCT
-*qual: .: 0-80%: 0-10%: 10-40%: 40-80%
+*yheader: d2N/(Nev2πpTdpTdy) (GeV/c)-2  $d^2N/(N_{ev}2\pi p_Tdp_Tdy)$
+*qual: CENTRALITIES IN PCT: 0-80: 0-10: 10-40: 40-80
 *data: x: y: y: y: y
 0.315; 0.0913 +- 0.0161 (DSYS=+0.0125, -0.0125); 0.21 +- 0.0609 (DSYS=+0.0265, -0.0265); 0.122 +- 0.0265 (DSYS=+0.0134, -0.0134); 0.0163 +- 0.00351 (DSYS=+0.00208, -0.00208); 
 0.968; 0.073 +- 0.0127 (DSYS=+0.00861, -0.00861); 0.217 +- 0.0418 (DSYS=+0.0219, -0.0219); 0.109 +- 0.0207 (DSYS=+0.011, -0.011); 0.0129 +- 0.00269 (DSYS=+0.00156, -0.00156); 
@@ -34,13 +34,13 @@
 *dataset:
 *location: Figure 3
 *dscomment: $D^0\,R_{AA}$ for different centralities.
-*obskey: PT
+*obskey: RAA
 *reackey: AU AU --> D0 X
 *reackey: D0 --> K- PI+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ in GeV/c
-*yheader: Centrality in PCT
-*qual: .: 0-10%: 10-40%: 40-80%
+*yheader: Nuclear Modification Factor ($R_{AA}$)
+*qual: CENTRALITIES IN PCT: 0-80: 0-10: 10-40: 40-80
 *data: x: y: y: y
 0.315; 0.572 +- 0.166 (DSYS=+0.217, -0.217); 0.802 +- 0.174 (DSYS=+0.299, -0.299); 0.739 +- 0.159 (DSYS=+0.28, -0.28); 
 0.968; 1.19 +- 0.231 (DSYS=+0.237, -0.237); 1.44 +- 0.274 (DSYS=+0.286, -0.286); 1.18 +- 0.247 (DSYS=+0.247, -0.247); 
@@ -54,7 +54,7 @@
 *dataset:
 *location: Figure 4
 *dscomment: Integrated $D^0$ $R_{AA}$ as a function of $N_{part}$ in different $p_T$ regions.
-*obskey: PT
+*obskey: D0RAA
 *reackey: AU AU --> D0 X
 *reackey: D0 --> K- PI+ X
 *qual: SQRT(S) IN GEV:  200
