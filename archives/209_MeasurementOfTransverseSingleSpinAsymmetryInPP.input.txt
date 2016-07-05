@@ -115,9 +115,9 @@
 7.0 TO 10.0;	8.3;	0.42 +- 0.19 (DSYS=0.039);	0.33 +- 0.41 (DSYS=0.03);	
 *dataend:									
 *dataset:
-*location: Table V
+*location: Figure 3
 *dscomment: The amplitude of the transverse single-spin asymmetry for $W^{+-}$ boson production as a function of $y^W$, in the 0.5 GeV/c < $P_T^W$ < 10 GeV/c region, measured by STAR in proton+proton collisions at $\sqrt{s}=500$ GeV with a recorded luminosity of 25 $pb^{-1}$. The average boson's transverse-momentum value for each $y^W$-bin is $P_T^W=5.3$ GeV/c.
-*obskey: 
+*obskey: YW
 *reackey: P P --> W+- X
 *qual: SQRT(S)/NUCLEON IN GEV : 500
 *qual:.: <$y^W$>: $A_{N}(W^+ -> e^+\nu_{e}$): $A_{N}(W^- -> e^-\nu_{e}$)
@@ -129,7 +129,7 @@
 0.2 TO 0.6;	0.38;	0.014 +- 0.13 (DSYS=0.002);	0.40 +- 0.24 (DSYS=0.051);		
 *dataend:
 *dataset:
-*location: Table VI
+*location: Figure 3
 *dscomment: The amplitude of the transverse single-spin asymmetry for $Z^0$ boson production, measured by STAR in proton+proton collisions at $\sqrt{s}=500$ GeV with a recorded luminosity of 25 $pb^{-1}$
 *obskey: 
 *reackey: P P --> W+- X
