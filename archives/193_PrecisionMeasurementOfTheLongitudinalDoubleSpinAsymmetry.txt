@@ -14,12 +14,12 @@
 *dataset:
 *location: Figure 1
 *dscomment: Jet neutral energy fraction (NEF) comparing data with simulations, where both are calculated with pT subtraction. This plot shows 8.4 < $p_T$ < 9.9 GeV/c.
-*obskey: 
+*obskey: NEF
 *reackey: P P --> JET X
 *qual: SQRT(S) IN GEV:  200
 *qual: 8.4 < $p_T$ < 9.9 GeV/c
-*xheader: NEF
-*yheader: Value
+*xheader: Neutral Energy Fraction
+*yheader: Counts
 *qual: .: JP1: JP2: JP1+JP2: Simulation
 *data: x: y: y: y: y
 0.01; 1269.0; 1131.0; 2400.0; 3064.0 +- 664.0; 
@@ -74,12 +74,12 @@
 *dataset:
 *location: Figure 1
 *dscomment: Jet neutral energy fraction (NEF) comparing data with simulations, where both are calculated with pT subtraction. This plot shows 26.8 < $p_T$ < 31.6 GeV/c.
-*obskey: PT
+*obskey: NEF
 *reackey: P P --> JET X
 *qual: SQRT(S) IN GEV:  200
 *qual: 26.8 < $p_T$ < 31.6 GeV/c
-*xheader: NEF
-*yheader: Value
+*xheader: Neutral Energy Fraction
+*yheader: Counts
 *qual: .: $p_T$ subtracted: Simulation: MIP subtracted
 *data: x: y: y: y
 0.01; 21.0; 27.0 +- 5.0; 0.0; 
@@ -135,6 +135,7 @@
 *location: Figure 2
 *dscomment: Inclusive jet $A_{LL}$ vs. parton jet $p_T$ for |eta|<0.5.
 *obskey: PT
+*obskey: ALL
 *reackey: P P --> JET X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Bin
@@ -158,6 +159,7 @@
 *location: Figure 2
 *dscomment: Inclusive jet $A_{LL}$ vs. parton jet $p_T$ for 0.5<|eta|<1.0.
 *obskey: PT
+*obskey: ALL
 *reackey: P P --> JET X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Bin
@@ -214,6 +216,7 @@
 *location: Figure 2
 *dscomment: $A_{LL}$ model predictions for |eta|<0.5
 *obskey: PT
+*obskey: ALL
 *reackey: P P --> JET X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$
@@ -257,6 +260,7 @@
 *location: Figure 2
 *dscomment: $A_{LL}$ model predictions for 0.5<|eta|<1.0
 *obskey: PT
+*obskey: ALL
 *reackey: P P --> JET X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$
