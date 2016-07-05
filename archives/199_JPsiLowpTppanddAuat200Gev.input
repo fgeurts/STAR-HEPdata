@@ -68,7 +68,7 @@ d+Au; 3.70	+- 0.33	(DSYS=0.44);
 *dataend:
 
 *dataset:
-*location: Figure 9
+*location: Figure 9a
 *dscomment: The invariant cross section versus transverse momentum for J/$\psi$ with $|y|\lt 1$ in $p+p$ collisions.
 *obskey: CORR
 *reackey: AU AU --> J/PSI X
@@ -82,14 +82,14 @@ d+Au; 3.70	+- 0.33	(DSYS=0.44);
 *dataend:
 
 *dataset:
-*location: Figure 9
-*dscomment: The invariant cross section versus transverse momentum for J/$\psi$ with $|y|\lt 1$ in $p+p$ collisions.
+*location: Figure 9b
+*dscomment: The invariant yield versus transverse momentum for $J/\Psi$ with |y| < 1 in 0 − 100% central d+Au collisions.
 *obskey: CORR
 *reackey: AU AU --> J/PSI X
 *qual: RE : AU AU --> (J/PSI + X) 
 *qual: TRANSVERSE MOMENTUM IN GEV/C : 0 TO 3
 *xheader: TRANSVERSE MOMENTUM IN GEV/C
-*yheader: B_{ee} d^2\sigma(2\pip_T dydp_T
+*yheader: $Bd^2N/(2\pi*p_T*dydp_T) IN [nb/(GeV/c)^-2]
 *data: x: y: y
 0.63;	7.87 +-	1.80	(DSYS=+2.17,-2.64);	10^-7;
 1.45;	4.69	+- 0.96	(DSYS=+1.29,-1.43);	10^-7;
