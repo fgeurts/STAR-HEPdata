@@ -14,7 +14,7 @@
 *dataset:
 *location: Figure 1
 *dscomment: The invariant mass distribution for $\Lambda$ and $\bar{\Lambda}$ produced in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV, for 0-80% centrality. The $\Lambda$ and $\bar{\Lambda}$ candidates lying in the mass range 1.112 to 1.120 GeV/c^2 were selected for the correlation measurement.
-*obskey: 
+*obskey: MASS
 *reackey: AU AU --> LAMBDA ALAMBDA X
 *qual: SQRT(S) IN GEV:  200
 *xheader: MASS IN GEV/C^2
@@ -193,7 +193,7 @@
 *dataset:
 *location: Figure 2
 *dscomment: The $\Lambda\Lambda$ and $\bar{\Lambda}\bar{\Lambda}$ correlation function in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV, for 0-80% centrality.
-*obskey: 
+*obskey: CORR
 *reackey: *reackey: AU AU --> LAMBDA ALAMBDA X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Q IN GEV/C
@@ -255,7 +255,7 @@
 *dataset:
 *location: Figure 3
 *dscomment: The combined $\Lambda\Lambda$ and $\bar{\Lambda}\bar{\Lambda}$ correlation function for 0-80% centrality Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.
-*obskey: 
+*obskey: CORR
 *reackey: *reackey: AU AU --> LAMBDA ALAMBDA X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Q IN GEV/C
@@ -292,11 +292,11 @@
 *dataset:
 *location: Figure 4
 *dscomment: The $\Lambda\Lambda$ interaction parameters from this experiment.
-*obskey: 
+*obskey: REFF
 *reackey: *reackey: AU AU --> LAMBDA ALAMBDA X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Particle State
-*yheader: Value
+*yheader: Values
 *qual: .: l/a0 (fm^-1): l/|a0| (fm^-1): $r_{eff}$
 *qual: Secondary SysErr on STAR: 0.56: 0.56: 2.09
 *data: x: y: y: y
