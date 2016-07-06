@@ -106,7 +106,8 @@
 *location: Figure 3
 *dscomment: The amplitude of the transverse single-spin asymmetry for $W^{+-}$ boson production as a function of $P_T^W$, in the |$y^W$| < 1 region, measured by STAR in proton+proton collisions at $\sqrt{s}=500$ GeV with a recorded luminosity of 25 $pb^{-1}$. The average boson's rapidity value for each $P_T^W$ bin is $y^W=0.0$
 *obskey: ASYM
-*reackey: P P --> W+- X
+*reackey: P P --> W+ X
+*reackey: P P --> W- X
 *qual: SQRT(S) IN GEV : 500
 *qual: .: $A_{N}(W^+ -> e^+\nu_{e})$: $A_{N}(W^- -> e^-\nu_{e}$)
 *xheader: $P_T^W$ IN GEV/C
@@ -122,7 +123,8 @@
 *location: Figure 3
 *dscomment: The amplitude of the transverse single-spin asymmetry for $W^{+-}$ boson production as a function of $y^W$, in the 0.5 GeV/c < $P_T^W$ < 10 GeV/c region, measured by STAR in proton+proton collisions at $\sqrt{s}=500$ GeV with a recorded luminosity of 25 $pb^{-1}$. The average boson's transverse-momentum value for each $y^W$-bin is $P_T^W=5.3$ GeV/c.
 *obskey: ASYM
-*reackey: P P --> W+- X
+*reackey: P P --> W+ X
+*reackey: P P --> W- X
 *qual: SQRT(S) IN GEV : 500
 *qual:.: <$y^W$>: $A_{N}(W^+ -> e^+\nu_{e}$): $A_{N}(W^- -> e^-\nu_{e}$)
 *xheader: $y^W$
