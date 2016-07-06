@@ -14,19 +14,11 @@
 *dataset:
 *location: Table 1
 *dscomment: $p_T$ asymmetries, $\eta$ < 0, maximum opening angle of 0.2
-*obskey: PT
-*obskey: SIG
-*obskey: SINTHETA
-*obskey: AMP
-*obskey: MASS
-*obskey: ETA
-*obskey: X
-*obskey: Z
+*obskey: ASYM
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
-*yheader: Values
-*qual: .: $<sin(\theta)>$: $<M_{inv}>$ (GeV/c^2): $<A_{UT}^{sin(\phi)}>$: $\sigma_{A_{UT}^{sin(\phi)}}$: $<z>$: $<\sigma_z>$: $<x_1>$: $\sigma_{<x_1>}$: $<x_2>$: $\sigma_{<x_2>}$: $<\eta>$
+*yheader: $<sin(\theta)>$ : $<M_{inv}>$ IN GeV/c^2 : $<A_{UT}^{sin(\phi)}>$ : $\sigma_{A_{UT}^{sin(\phi)}}$ : $<z>$ : $<\sigma_z>$ : $<x_1>$ : $\sigma_{<x_1>}$ : $<x_2>$ : $\sigma_{<x_2>}$ : $<\eta>$
 *data: x: y: y: y: y: y: y: y: y: y: y: y
 3.62; 0.99; 0.38; -0.031; 0.014; 0.29; 0.1; 0.15; 0.1; 0.2; 0.11; -0.5; 
 4.49; 0.96; 0.41; -0.01; 0.012; 0.35; 0.12; 0.15; 0.1; 0.2; 0.11; -0.51; 
@@ -34,22 +26,15 @@
 7.18; 0.91; 0.55; 0.016; 0.014; 0.48; 0.15; 0.16; 0.11; 0.23; 0.11; -0.51; 
 10.45; 0.88; 0.68; 0.0085; 0.013; 0.57; 0.17; 0.2; 0.12; 0.27; 0.12; -0.51; 
 *dataend: 
+
 *dataset:
 *location: Table 2
 *dscomment: $<M_{inv}>$ asymmetries, $\eta$ < 0, maximum opening angle of 0.2
-*obskey: PT
-*obskey: SIG
-*obskey: SINTHETA
-*obskey: AMP
-*obskey: MASS
-*obskey: ETA
-*obskey: X
-*obskey: Z
+*obskey: ASYM
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
-*yheader: Values
-*qual: .: $<sin(\theta)>$: $<M_{inv}>$ (GeV/c^2): $<A_{UT}^{sin(\phi)}>$: $\sigma_{A_{UT}^{sin(\phi)}}$: $<z>$: $<\sigma_z>$: $<x_1>$: $\sigma_{<x_1>}$: $<x_2>$: $\sigma_{<x_2>}$: $<\eta>$
+*yheader: $<sin(\theta)>$ : $<M_{inv}>$ IN GeV/c^2 : $<A_{UT}^{sin(\phi)}>$ : $\sigma_{A_{UT}^{sin(\phi)}}$ : $<z>$ : $<\sigma_z>$ : $<x_1>$ : $\sigma_{<x_1>}$ : $<x_2>$ : $\sigma_{<x_2>}$ : $<\eta>$
 *data: x: y: y: y: y: y: y: y: y: y: y: y
 0.36; 0.95; 4.73; -0.013; 0.01; 0.38; 0.15; 0.16; 0.11; 0.22; 0.12; -0.51; 
 0.48; 0.94; 5.93; 0.015; 0.008; 0.43; 0.17; 0.16; 0.11; 0.22; 0.11; -0.51; 
@@ -57,22 +42,15 @@
 0.88; 0.9; 11.13; 0.022; 0.027; 0.59; 0.17; 0.21; 0.12; 0.28; 0.13; -0.51; 
 1.15; 0.9; 14.57; 0.0042; 0.062; 0.63; 0.15; 0.23; 0.13; 0.34; 0.13; -0.48; 
 *dataend: 
+
 *dataset:
 *location: Table 3
 *dscomment: $p_T$ asymmetries, $\eta$ > 0, maximum opening angle 0.2
-*obskey: PT
-*obskey: SIG
-*obskey: SINTHETA
-*obskey: AMP
-*obskey: MASS
-*obskey: ETA
-*obskey: X
-*obskey: Z
+*obskey: ASYM
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
-*yheader: Values
-*qual: .: $<sin(\theta)>$: $<M_{inv}>$ (GeV/c^2): $<A_{UT}^{sin(\phi)}>$: $\sigma_{A_{UT}^{sin(\phi)}}$: $<z>$: $<\sigma_z>$: $<x_1>$: $\sigma_{<x_1>}$: $<x_2>$: $\sigma_{<x_2>}$: $<\eta>$
+*yheader: $<sin(\theta)>$ : $<M_{inv}>$ IN GeV/c^2 : $<A_{UT}^{sin(\phi)}>$ : $\sigma_{A_{UT}^{sin(\phi)}}$ : $<z>$ : $<\sigma_z>$ : $<x_1>$ : $\sigma_{<x_1>}$ : $<x_2>$ : $\sigma_{<x_2>}$ : $<\eta>$
 *data: x: y: y: y: y: y: y: y: y: y: y: y
 3.62; 0.99; 0.38; 0.009; 0.014; 0.28; 0.1; 0.21; 0.11; 0.15; 0.11; 0.5; 
 4.49; 0.96; 0.41; 0.0095; 0.012; 0.34; 0.12; 0.21; 0.11; 0.15; 0.11; 0.51; 
@@ -80,22 +58,15 @@
 7.18; 0.91; 0.55; 0.005; 0.014; 0.5; 0.19; 0.23; 0.12; 0.16; 0.1; 0.51; 
 10.45; 0.88; 0.68; 0.057; 0.012; 0.58; 0.17; 0.27; 0.13; 0.2; 0.12; 0.51; 
 *dataend: 
+
 *dataset:
 *location: Table 4
 *dscomment: $<M_{inv}>$ asymmetries, $\eta$ > 0, maximum opening angle 0.2
-*obskey: PT
-*obskey: SIG
-*obskey: SINTHETA
-*obskey: AMP
-*obskey: MASS
-*obskey: ETA
-*obskey: X
-*obskey: Z
+*obskey: ASYM
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
-*yheader: Values
-*qual: .: $<sin(\theta)>$: $<M_{inv}>$ (GeV/c^2): $<A_{UT}^{sin(\phi)}>$: $\sigma_{A_{UT}^{sin(\phi)}}$: $<z>$: $<\sigma_z>$: $<x_1>$: $\sigma_{<x_1>}$: $<x_2>$: $\sigma_{<x_2>}$: $<\eta>$
+*yheader: $<sin(\theta)>$ : $<M_{inv}>$ IN GeV/c^2 : $<A_{UT}^{sin(\phi)}>$ : $\sigma_{A_{UT}^{sin(\phi)}}$ : $<z>$ : $<\sigma_z>$ : $<x_1>$ : $\sigma_{<x_1>}$ : $<x_2>$ : $\sigma_{<x_2>}$ : $<\eta>$
 *data: x: y: y: y: y: y: y: y: y: y: y: y
 0.36; 0.95; 4.73; 0.0054; 0.01; 0.38; 0.16; 0.23; 0.12; 0.16; 0.11; 0.51; 
 0.48; 0.94; 5.93; 0.019; 0.0081; 0.42; 0.16; 0.22; 0.12; 0.16; 0.11; 0.51; 
@@ -103,22 +74,15 @@
 0.88; 0.9; 11.13; 0.11; 0.027; 0.6; 0.17; 0.27; 0.13; 0.2; 0.12; 0.51; 
 1.15; 0.9; 14.57; 0.13; 0.06; 0.65; 0.17; 0.31; 0.13; 0.24; 0.13; 0.48; 
 *dataend: 
+
 *dataset:
 *location: Table 5
 *dscomment: $p_T$ asymmetries, $\eta$ < 0, maximum opening angle 0.3
-*obskey: PT
-*obskey: SIG
-*obskey: SINTHETA
-*obskey: AMP
-*obskey: MASS
-*obskey: ETA
-*obskey: X
-*obskey: Z
+*obskey: ASYM
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
-*yheader: Values
-*qual: .: $<sin(\theta)>$: $<M_{inv}>$ (GeV/c^2): $<A_{UT}^{sin(\phi)}>$: $\sigma_{A_{UT}^{sin(\phi)}}$: $<z>$: $<\sigma_z>$: $<x_1>$: $\sigma_{<x_1>}$: $<x_2>$: $\sigma_{<x_2>}$: $<\eta>$
+*yheader: $<sin(\theta)>$ : $<M_{inv}>$ IN GeV/c^2 : $<A_{UT}^{sin(\phi)}>$ : $\sigma_{A_{UT}^{sin(\phi)}}$ : $<z>$ : $<\sigma_z>$ : $<x_1>$ : $\sigma_{<x_1>}$ : $<x_2>$ : $\sigma_{<x_2>}$ : $<\eta>$
 *data: x: y: y: y: y: y: y: y: y: y: y: y
 3.61; 0.99; 0.45; -0.022; 0.01; 0.3; 0.13; 0.15; 0.1; 0.2; 0.11; -0.49; 
 4.49; 0.97; 0.51; -0.007; 0.0087; 0.36; 0.13; 0.15; 0.11; 0.2; 0.11; -0.5; 
@@ -126,22 +90,15 @@
 7.17; 0.92; 0.67; 0.021; 0.011; 0.48; 0.15; 0.16; 0.11; 0.23; 0.11; -0.51; 
 10.32; 0.88; 0.81; 0.0088; 0.011; 0.57; 0.17; 0.19; 0.12; 0.27; 0.12; -0.51; 
 *dataend: 
+
 *dataset:
 *location: Table 6
 *dscomment: $<M_{inv}>$ asymmetries, $\eta$ < 0, maximum opening angle 0.3
-*obskey: PT
-*obskey: SIG
-*obskey: SINTHETA
-*obskey: AMP
-*obskey: MASS
-*obskey: ETA
-*obskey: X
-*obskey: Z
+*obskey: ASYM
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
-*yheader: Values
-*qual: .: $<sin(\theta)>$: $<M_{inv}>$ (GeV/c^2): $<A_{UT}^{sin(\phi)}>$: $\sigma_{A_{UT}^{sin(\phi)}}$: $<z>$: $<\sigma_z>$: $<x_1>$: $\sigma_{<x_1>}$: $<x_2>$: $\sigma_{<x_2>}$: $<\eta>$
+*yheader: $<sin(\theta)>$ : $<M_{inv}>$ IN GeV/c^2 : $<A_{UT}^{sin(\phi)}>$ : $\sigma_{A_{UT}^{sin(\phi)}}$ : $<z>$ : $<\sigma_z>$ : $<x_1>$ : $\sigma_{<x_1>}$ : $<x_2>$ : $\sigma_{<x_2>}$ : $<\eta>$
 *data: x: y: y: y: y: y: y: y: y: y: y: y
 0.36; 0.95; 4.73; -0.013; 0.01; 0.38; 0.15; 0.16; 0.11; 0.22; 0.12; -0.51; 
 0.5; 0.95; 5.35; 0.0063; 0.0068; 0.41; 0.17; 0.16; 0.11; 0.21; 0.11; -0.5; 
@@ -149,22 +106,15 @@
 0.88; 0.92; 7.98; 0.025; 0.013; 0.5; 0.17; 0.17; 0.11; 0.25; 0.12; -0.51; 
 1.19; 0.9; 10.63; 0.017; 0.02; 0.56; 0.17; 0.19; 0.12; 0.27; 0.13; -0.5; 
 *dataend: 
+
 *dataset:
 *location: Table 7
 *dscomment:  $p_T$ asymmetries, $\eta$ > 0,maximum opening angle 0.3
-*obskey: PT
-*obskey: SIG
-*obskey: SINTHETA
-*obskey: AMP
-*obskey: MASS
-*obskey: ETA
-*obskey: X
-*obskey: Z
+*obskey: ASYM
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
-*yheader: Values
-*qual: .: $<sin(\theta)>$: $<M_{inv}>$ (GeV/c^2): $<A_{UT}^{sin(\phi)}>$: $\sigma_{A_{UT}^{sin(\phi)}}$: $<z>$: $<\sigma_z>$: $<x_1>$: $\sigma_{<x_1>}$: $<x_2>$: $\sigma_{<x_2>}$: $<\eta>$
+*yheader: $<sin(\theta)>$ : $<M_{inv}>$ IN GeV/c^2 : $<A_{UT}^{sin(\phi)}>$ : $\sigma_{A_{UT}^{sin(\phi)}}$ : $<z>$ : $<\sigma_z>$ : $<x_1>$ : $\sigma_{<x_1>}$ : $<x_2>$ : $\sigma_{<x_2>}$ : $<\eta>$
 *data: x: y: y: y: y: y: y: y: y: y: y: y
 3.61; 0.99; 0.45; 0.0092; 0.01; 0.29; 0.1; 0.2; 0.11; 0.14; 0.1; 0.49; 
 4.49; 0.97; 0.51; 0.011; 0.0086; 0.35; 0.12; 0.21; 0.11; 0.15; 0.11; 0.5; 
@@ -172,23 +122,15 @@
 7.17; 0.92; 0.67; 0.0071; 0.011; 0.5; 0.18; 0.23; 0.12; 0.16; 1.0; 0.51; 
 10.32; 0.88; 0.81; 0.053; 0.011; 0.58; 0.18; 0.27; 0.13; 0.19; 0.12; 0.51; 
 *dataend: 
+
 *dataset:
 *location: Table 8
-*dscomment: $<M_{inv}>$ asymmetries, $\eta$ > 0, maximum opening angle 0.3
-
-*obskey: PT
-*obskey: SIG
-*obskey: SINTHETA
-*obskey: AMP
-*obskey: MASS
-*obskey: ETA
-*obskey: X
-*obskey: Z
+*dscomment: $<M_{inv}>$ asymmetries, $\eta$ > 0, maximum opening angle 0.3.
+*obskey: ASYM
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
-*yheader: Values
-*qual: .: $<sin(\theta)>$: $<M_{inv}>$ (GeV/c^2): $<A_{UT}^{sin(\phi)}>$: $\sigma_{A_{UT}^{sin(\phi)}}$: $<z>$: $<\sigma_z>$: $<x_1>$: $\sigma_{<x_1>}$: $<x_2>$: $\sigma_{<x_2>}$: $<\eta>$
+*yheader: $<sin(\theta)>$ : $<M_{inv}>$ IN GeV/c^2 : $<A_{UT}^{sin(\phi)}>$ : $\sigma_{A_{UT}^{sin(\phi)}}$ : $<z>$ : $<\sigma_z>$ : $<x_1>$ : $\sigma_{<x_1>}$ : $<x_2>$ : $\sigma_{<x_2>}$ : $<\eta>$
 *data: x: y: y: y: y: y: y: y: y: y: y: y
 0.36; 0.95; 4.73; 0.0054; 0.01; 0.38; 0.16; 0.23; 0.12; 0.16; 0.11; 0.51; 
 0.5; 0.95; 5.35; 0.018; 0.0068; 0.4; 0.16; 0.22; 0.12; 0.16; 0.11; 0.5; 
@@ -196,22 +138,15 @@
 0.88; 0.92; 7.98; 0.07; 0.013; 0.51; 0.17; 0.24; 0.12; 0.17; 0.11; 0.51; 
 1.19; 0.9; 10.63; 0.039; 0.02; 0.59; 0.19; 0.27; 0.12; 0.19; 0.12; 0.5; 
 *dataend: 
+
 *dataset:
 *location: Table 9
 *dscomment: $p_T$ asymmetries, $\eta$ < 0, maximum opening angle 0.4
-*obskey: PT
-*obskey: SIG
-*obskey: SINTHETA
-*obskey: AMP
-*obskey: MASS
-*obskey: ETA
-*obskey: X
-*obskey: Z
+*obskey: ASYM
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
-*yheader: Values
-*qual: .: $<sin(\theta)>$: $<M_{inv}>$ (GeV/c^2): $<A_{UT}^{sin(\phi)}>$: $\sigma_{A_{UT}^{sin(\phi)}}$: $<z>$: $<\sigma_z>$: $<x_1>$: $\sigma_{<x_1>}$: $<x_2>$: $\sigma_{<x_2>}$: $<\eta>$
+*yheader: $<sin(\theta)>$ : $<M_{inv}>$ IN GeV/c^2 : $<A_{UT}^{sin(\phi)}>$ : $\sigma_{A_{UT}^{sin(\phi)}}$ : $<z>$ : $<\sigma_z>$ : $<x_1>$ : $\sigma_{<x_1>}$ : $<x_2>$ : $\sigma_{<x_2>}$ : $<\eta>$
 *data: x: y: y: y: y: y: y: y: y: y: y: y
 3.6; 0.99; 0.53; -0.016; 0.0084; 0.3; 0.12; 0.14; 0.1; 0.2; 0.11; -0.49; 
 4.48; 0.97; 0.6; -0.0081; 0.0073; 0.36; 0.13; 0.15; 0.11; 0.2; 0.11; -0.5; 
@@ -222,19 +157,11 @@
 *dataset:
 *location: Table 10
 *dscomment: $<M_{inv}>$ asymmetries, $\eta$ < 0, maximum opening angle 0.4
-*obskey: PT
-*obskey: SIG
-*obskey: SINTHETA
-*obskey: AMP
-*obskey: MASS
-*obskey: ETA
-*obskey: X
-*obskey: Z
+*obskey: ASYM
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
-*yheader: Values
-*qual: .: $<sin(\theta)>$: $<M_{inv}>$ (GeV/c^2): $<A_{UT}^{sin(\phi)}>$: $\sigma_{A_{UT}^{sin(\phi)}}$: $<z>$: $<\sigma_z>$: $<x_1>$: $\sigma_{<x_1>}$: $<x_2>$: $\sigma_{<x_2>}$: $<\eta>$
+*yheader: $<sin(\theta)>$ : $<M_{inv}>$ IN GeV/c^2 : $<A_{UT}^{sin(\phi)}>$ : $\sigma_{A_{UT}^{sin(\phi)}}$ : $<z>$ : $<\sigma_z>$ : $<x_1>$ : $\sigma_{<x_1>}$ : $<x_2>$ : $\sigma_{<x_2>}$ : $<\eta>$
 *data: x: y: y: y: y: y: y: y: y: y: y: y
 0.36; 0.95; 4.73; -0.013; 0.01; 0.38; 0.15; 0.16; 0.11; 0.22; 0.12; -0.51; 
 0.5; 0.95; 5.31; 0.0054; 0.0067; 0.41; 0.17; 0.16; 0.11; 0.21; 0.11; -0.5; 
@@ -242,22 +169,15 @@
 0.88; 0.94; 6.45; 0.01; 0.0094; 0.44; 0.16; 0.16; 0.11; 0.23; 0.12; -0.5; 
 1.22; 0.91; 8.55; 0.011; 0.012; 0.52; 0.18; 0.17; 0.11; 0.24; 0.12; -0.49; 
 *dataend: 
+
 *dataset:
 *location: Table 11
 *dscomment: $p_T$ asymmetries, $\eta$ > 0, maximum opening angle 0.4
-*obskey: PT
-*obskey: SIG
-*obskey: SINTHETA
-*obskey: AMP
-*obskey: MASS
-*obskey: ETA
-*obskey: X
-*obskey: Z
+*obskey: ASYM
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
-*yheader: Values
-*qual: .: $<sin(\theta)>$: $<M_{inv}>$ (GeV/c^2): $<A_{UT}^{sin(\phi)}>$: $\sigma_{A_{UT}^{sin(\phi)}}$: $<z>$: $<\sigma_z>$: $<x_1>$: $\sigma_{<x_1>}$: $<x_2>$: $\sigma_{<x_2>}$: $<\eta>$
+*yheader: $<sin(\theta)>$ : $<M_{inv}>$ IN GeV/c^2 : $<A_{UT}^{sin(\phi)}>$ : $\sigma_{A_{UT}^{sin(\phi)}}$ : $<z>$ : $<\sigma_z>$ : $<x_1>$ : $\sigma_{<x_1>}$ : $<x_2>$ : $\sigma_{<x_2>}$ : $<\eta>$
 *data: x: y: y: y: y: y: y: y: y: y: y: y
 3.6; 0.99; 0.53; 0.013; 0.0084; 0.29; 0.1; 0.2; 0.11; 0.14; 0.1; 0.49; 
 4.48; 0.97; 0.6; 0.006; 0.0073; 0.35; 0.12; 0.21; 0.11; 0.15; 0.11; 0.5; 
@@ -265,22 +185,15 @@
 7.17; 0.92; 0.76; 0.0096; 0.01; 0.5; 0.18; 0.23; 0.12; 0.16; 0.1; 0.51; 
 10.28; 0.88; 0.89; 0.053; 0.0099; 0.58; 0.18; 0.27; 0.13; 0.19; 0.12; 0.51; 
 *dataend: 
+
 *dataset:
 *location: Table 12
 *dscomment: $<M_{inv}>$ asymmetries, $\eta$ > 0, maximum opening angle 0.4
-*obskey: PT
-*obskey: SIG
-*obskey: SINTHETA
-*obskey: AMP
-*obskey: MASS
-*obskey: ETA
-*obskey: X
-*obskey: Z
+*obskey: ASYM
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
-*yheader: Values
-*qual: .: $<sin(\theta)>$: $<M_{inv}>$ (GeV/c^2): $<A_{UT}^{sin(\phi)}>$: $\sigma_{A_{UT}^{sin(\phi)}}$: $<z>$: $<\sigma_z>$: $<x_1>$: $\sigma_{<x_1>}$: $<x_2>$: $\sigma_{<x_2>}$: $<\eta>$
+*yheader: $<sin(\theta)>$ : $<M_{inv}>$ IN GeV/c^2 : $<A_{UT}^{sin(\phi)}>$ : $\sigma_{A_{UT}^{sin(\phi)}}$ : $<z>$ : $<\sigma_z>$ : $<x_1>$ : $\sigma_{<x_1>}$ : $<x_2>$ : $\sigma_{<x_2>}$ : $<\eta>$
 *data: x: y: y: y: y: y: y: y: y: y: y: y
 0.36; 0.95; 4.73; 0.0054; 0.01; 0.38; 0.16; 0.23; 0.12; 0.16; 0.11; 0.51; 
 0.5; 0.95; 5.31; 0.018; 0.0067; 0.39; 0.16; 0.22; 0.12; 0.16; 0.11; 0.5; 
@@ -288,66 +201,45 @@
 0.88; 0.94; 6.45; 0.031; 0.0095; 0.44; 0.16; 0.22; 0.12; 0.16; 0.1; 0.5; 
 1.22; 0.91; 8.55; 0.033; 0.012; 0.53; 0.18; 0.24; 0.12; 0.17; 0.11; 0.49; 
 *dataend: 
+
 *dataset:
 *location: Table 13
 *dscomment: $\eta$ asymmetries, maximum opening angle 0.2
-*obskey: PT
-*obskey: SIG
-*obskey: SINTHETA
-*obskey: AMP
-*obskey: MASS
-*obskey: ETA
-*obskey: X
-*obskey: Z
+*obskey: ASYM
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
-*yheader: Values
-*qual: .: $<sin(\theta)>$: $<M_{inv}>$ (GeV/c^2): $<A_{UT}^{sin(\phi)}>$: $\sigma_{A_{UT}^{sin(\phi)}}$: $<z>$: $<\sigma_z>$: $<x_1>$: $\sigma_{<x_1>}$: $<x_2>$: $\sigma_{<x_2>}$: $<\eta>$
+*yheader: $<sin(\theta)>$ : $<M_{inv}>$ IN GeV/c^2 : $<A_{UT}^{sin(\phi)}>$ : $\sigma_{A_{UT}^{sin(\phi)}}$ : $<z>$ : $<\sigma_z>$ : $<x_1>$ : $\sigma_{<x_1>}$ : $<x_2>$ : $\sigma_{<x_2>}$ : $<\eta>$
 *data: x: y: y: y: y: y: y: y: y: y: y: y
 6.3; 0.93; 0.5; 0.001; 0.0079; 0.46; 0.18; 0.15; 0.11; 0.25; 0.12; -0.75; 
 6.27; 0.94; 0.5; 0.0054; 0.008; 0.41; 0.16; 0.18; 0.11; 0.2; 0.11; -0.26; 
 6.27; 0.94; 0.5; 0.015; 0.008; 0.43; 0.18; 0.21; 0.12; 0.17; 0.11; 0.26; 
 6.3; 0.93; 0.5; 0.028; 0.0079; 0.45; 0.19; 0.26; 0.12; 0.15; 0.11; 0.75; 
 *dataend: 
+
 *dataset:
 *location: Table 14
 *dscomment: $\eta$ asymmetries, maximum opening angle 0.3
-*obskey: PT
-*obskey: SIG
-*obskey: SINTHETA
-*obskey: AMP
-*obskey: MASS
-*obskey: ETA
-*obskey: X
-*obskey: Z
+*obskey: ASYM
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
-*yheader: Values
-*qual: .: $<sin(\theta)>$: $<M_{inv}>$ (GeV/c^2): $<A_{UT}^{sin(\phi)}>$: $\sigma_{A_{UT}^{sin(\phi)}}$: $<z>$: $<\sigma_z>$: $<x_1>$: $\sigma_{<x_1>}$: $<x_2>$: $\sigma_{<x_2>}$: $<\eta>$
+*yheader: $<sin(\theta)>$ : $<M_{inv}>$ IN GeV/c^2 : $<A_{UT}^{sin(\phi)}>$ : $\sigma_{A_{UT}^{sin(\phi)}}$ : $<z>$ : $<\sigma_z>$ : $<x_1>$ : $\sigma_{<x_1>}$ : $<x_2>$ : $\sigma_{<x_2>}$ : $<\eta>$
 *data: x: y: y: y: y: y: y: y: y: y: y: y
 6.04; 0.94; 0.59; -0.0002; 0.006; 0.45; 0.18; 0.15; 0.11; 0.24; 0.12; -0.75; 
 5.99; 0.94; 0.6; 0.0075; 0.0061; 0.4; 0.16; 0.18; 0.11; 0.2; 0.11; -0.26; 
 5.99; 0.94; 0.6; 0.013; 0.0061; 0.42; 0.17; 0.2; 0.11; 0.17; 0.11; 0.26; 
 6.04; 0.94; 0.59; 0.031; 0.006; 0.44; 0.18; 0.25; 0.12; 0.15; 0.1; 0.75; 
 *dataend: 
+
 *dataset:
 *location: Table 15
 *dscomment: $\eta$ asymmetries, maximum opening angle 0.4
-*obskey: PT
-*obskey: SIG
-*obskey: SINTHETA
-*obskey: AMP
-*obskey: MASS
-*obskey: ETA
-*obskey: X
-*obskey: Z
+*obskey: ASYM
 *reackey: P P --> PI+ PI- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ IN GEV/C
-*yheader: Values
-*qual: .: $<sin(\theta)>$: $<M_{inv}>$ (GeV/c^2): $<A_{UT}^{sin(\phi)}>$: $\sigma_{A_{UT}^{sin(\phi)}}$: $<z>$: $<\sigma_z>$: $<x_1>$: $\sigma_{<x_1>}$: $<x_2>$: $\sigma_{<x_2>}$: $<\eta>$
+*yheader: $<sin(\theta)>$ : $<M_{inv}>$ IN GeV/c^2 : $<A_{UT}^{sin(\phi)}>$ : $\sigma_{A_{UT}^{sin(\phi)}}$ : $<z>$ : $<\sigma_z>$ : $<x_1>$ : $\sigma_{<x_1>}$ : $<x_2>$ : $\sigma_{<x_2>}$ : $<\eta>$
 *data: x: y: y: y: y: y: y: y: y: y: y: y
 5.84; 0.95; 0.67; -0.0027; 0.0053; 0.44; 0.18; 0.14; 0.11; 0.24; 0.12; -0.75; 
 5.78; 0.95; 0.67; 0.0074; 0.0053; 0.4; 0.16; 0.17; 0.11; 0.2; 0.11; -0.26; 
