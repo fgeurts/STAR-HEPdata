@@ -5,7 +5,7 @@
 *status: Encoded 12 MAY 2016 by Nickolas Luttrell (Rice University)
 *title: Measurement of the transverse single-spin asymmetry in $p^\uparrow+p \to W^{\pm}/Z^0$ at RHIC
 *comment: BNL-RHIC.  We present the measurement of the transverse single-spin asymmetry of weak boson production in transversely polarized proton-proton collisions at $\sqrt{s} = 500~\text{GeV}$ by the STAR experiment at RHIC. The measured observable is sensitive to the Sivers function, one of the transverse momentum dependent parton distribution functions, which is predicted to have the opposite sign in proton-proton collisions from that observed in deep inelastic lepton-proton scattering. These data provide the first experimental investigation of the non-universality of the Sivers function, fundamental to our understanding of QCD
-*durhamId:
+*durhamId: 6610
 *inspireId: 1405433
 *cdsId: 2104117
 *detector: STAR

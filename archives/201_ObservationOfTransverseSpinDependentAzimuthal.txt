@@ -5,7 +5,7 @@
 *status: Encoded 26 MAY 2016 by Nickolas Luttrell (Rice University)
 *title: Observation of Transverse Spin-Dependent Azimuthal Correlations of Charged Pion Pairs in $p^\uparrow+p$ at $\sqrt{s}=200$ GeV
 *comment: BNL-RHIC.  We report the observation of transverse polarization-dependent azimuthal correlations in charged pion pair production with the STAR experiment in $p^\uparrow+p$ collisions at RHIC. These correlations directly probe quark transversity distributions. We measure signals in excess of five standard deviations at high transverse momenta, at high pseudorapidities eta>0.5, and for pair masses around the mass of the rho-meson. This is the first direct transversity measurement in p+p collisions. Comparing the results to data from lepton-nucleon scattering will test the universality of these spin-dependent quantities
-*durhamId:
+*durhamId: 6611
 *inspireId: 1357596
 *cdsId: 2006644
 *detector: STAR
