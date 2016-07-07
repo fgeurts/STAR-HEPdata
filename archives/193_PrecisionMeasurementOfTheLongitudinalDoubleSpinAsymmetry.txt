@@ -18,7 +18,7 @@
 *reackey: P P --> JET X
 *qual: RE: P P --> JET X
 *qual: SQRT(S) IN GEV:  200
-*qual: 8.4 < $p_T$ < 9.9 GeV/c
+*qual: PT BIN IN GeV/c: 8.4 < $p_T$ < 9.9
 *xheader: Neutral Energy Fraction
 *yheader: Counts
 *qual: .: JP1: JP2: JP1+JP2: Simulation
@@ -79,7 +79,7 @@
 *reackey: P P --> JET X
 *qual: RE: P P --> JET X
 *qual: SQRT(S) IN GEV:  200
-*qual: 26.8 < $p_T$ < 31.6 GeV/c
+*qual: PT BIN IN GeV/c: 26.8 < $p_T$ < 31.6
 *xheader: Neutral Energy Fraction
 *yheader: Counts
 *qual: .: $p_T$ subtracted: Simulation: MIP subtracted
@@ -142,7 +142,7 @@
 *qual: RE: P P --> JET X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Bin
-*yheader: Parton Jet $p_T$: $A_{LL}$
+*yheader: Parton Jet $p_T$ IN GeV/c: $A_{LL}$
 *data: x: y: y
 1.0; 5.5 +- 0 (DSYS=+0.79, -0.79); 0.002 +- 0.0015 (DSYS=+0.0003, -0.0003); 
 2.0; 6.49 +- 0 (DSYS=+0.8, -0.8); 0.0056 +- 0.0016 (DSYS=+0.0004, -0.0004); 
@@ -166,7 +166,7 @@
 *qual: RE: P P --> JET X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Bin
-*yheader: Parton Jet $p_T$: $A_{LL}$
+*yheader: Parton Jet $p_T$ IN GeV/c: $A_{LL}$
 *data: x: y: y
 12.0; 5.61 +- 0 (DSYS=+0.81, -0.81); 0.0018 +- 0.0016 (DSYS=+0.0004, -0.0004); 
 13.0; 6.62 +- 0 (DSYS=+0.81, -0.81); 0.004 +- 0.0018 (DSYS=+0.0004, -0.0004); 
@@ -222,7 +222,7 @@
 *reackey: P P --> JET X
 *qual: RE: P P --> JET X
 *qual: SQRT(S) IN GEV:  200
-*xheader: $p_T$
+*xheader: $p_T$ IN GeV/c
 *yheader: $A_{LL}$
 *qual: .: BB10: DSSV: LSS10p: LSS10: NNPDF
 *data: x: y: y: y: y: y
@@ -266,7 +266,7 @@
 *reackey: P P --> JET X
 *qual: RE: P P --> JET X
 *qual: SQRT(S) IN GEV:  200
-*xheader: $p_T$
+*xheader: $p_T$ IN GeV/c
 *yheader: $A_{LL}$
 *qual: .: BB10: DSSV: LSS10p: LSS10: NNPDF
 *data: x: y: y: y: y: y
