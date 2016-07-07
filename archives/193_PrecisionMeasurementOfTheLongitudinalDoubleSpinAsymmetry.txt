@@ -14,8 +14,9 @@
 *dataset:
 *location: Figure 1
 *dscomment: Jet neutral energy fraction (NEF) comparing data with simulations, where both are calculated with pT subtraction. This plot shows 8.4 < $p_T$ < 9.9 GeV/c.
-*obskey: NEF
+*obskey: N
 *reackey: P P --> JET X
+*qual: RE: P P --> JET X
 *qual: SQRT(S) IN GEV:  200
 *qual: 8.4 < $p_T$ < 9.9 GeV/c
 *xheader: Neutral Energy Fraction
@@ -74,8 +75,9 @@
 *dataset:
 *location: Figure 1
 *dscomment: Jet neutral energy fraction (NEF) comparing data with simulations, where both are calculated with pT subtraction. This plot shows 26.8 < $p_T$ < 31.6 GeV/c.
-*obskey: NEF
+*obskey: N
 *reackey: P P --> JET X
+*qual: RE: P P --> JET X
 *qual: SQRT(S) IN GEV:  200
 *qual: 26.8 < $p_T$ < 31.6 GeV/c
 *xheader: Neutral Energy Fraction
@@ -135,12 +137,12 @@
 *location: Figure 2
 *dscomment: Inclusive jet $A_{LL}$ vs. parton jet $p_T$ for |eta|<0.5.
 *obskey: PT
-*obskey: ALL
+*obskey: ASYM
 *reackey: P P --> JET X
+*qual: RE: P P --> JET X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Bin
-*yheader: Value
-*qual: .: Parton Jet $p_T$: $A_{LL}$
+*yheader: Parton Jet $p_T$: $A_{LL}$
 *data: x: y: y
 1.0; 5.5 +- 0 (DSYS=+0.79, -0.79); 0.002 +- 0.0015 (DSYS=+0.0003, -0.0003); 
 2.0; 6.49 +- 0 (DSYS=+0.8, -0.8); 0.0056 +- 0.0016 (DSYS=+0.0004, -0.0004); 
@@ -158,13 +160,13 @@
 *dataset:
 *location: Figure 2
 *dscomment: Inclusive jet $A_{LL}$ vs. parton jet $p_T$ for 0.5<|eta|<1.0.
+*obskey: ASYM
 *obskey: PT
-*obskey: ALL
 *reackey: P P --> JET X
+*qual: RE: P P --> JET X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Bin
-*yheader: Value
-*qual: .: Parton Jet $p_T$: $A_{LL}$
+*yheader: Parton Jet $p_T$: $A_{LL}$
 *data: x: y: y
 12.0; 5.61 +- 0 (DSYS=+0.81, -0.81); 0.0018 +- 0.0016 (DSYS=+0.0004, -0.0004); 
 13.0; 6.62 +- 0 (DSYS=+0.81, -0.81); 0.004 +- 0.0018 (DSYS=+0.0004, -0.0004); 
@@ -184,6 +186,7 @@
 *dscomment: The uncertainties on the parton jet pT values are strongly correlated across the bins. The point-to-point statistical and systematic uncertainties on the measured A_LL values given above are only weakly correlated among the bins.  The correlation matrix for the quadrature sum of the point-to-point statistical and systematic uncertainties is given below.  In that matrix, the order of the rows and columns matches the bin numbering above. In addition to the point-to-point statistical and systematic uncertainties, there are two systematic uncertainties that are common to all the measured A_LL values (and not included in the systematic uncertainty numbers quoted above): (a)  +/-0.0005 vertical shift uncertainty from relative luminosity and (b)  +/-6.5% vertical scale uncertainty from polarization.
 *obskey: 
 *reackey: P P --> JET X
+*qual: RE: P P --> JET X
 *qual: SQRT(S) IN GEV:  200
 *xheader: See description
 *yheader: See description
@@ -215,12 +218,12 @@
 *dataset:
 *location: Figure 2
 *dscomment: $A_{LL}$ model predictions for |eta|<0.5
-*obskey: PT
-*obskey: ALL
+*obskey: ASYM
 *reackey: P P --> JET X
+*qual: RE: P P --> JET X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$
-*yheader: Model
+*yheader: $A_{LL}$
 *qual: .: BB10: DSSV: LSS10p: LSS10: NNPDF
 *data: x: y: y: y: y: y
 5.0; 0.00134; -0.00017; 0.0006; -0.00015; 0.00059; 
@@ -259,12 +262,12 @@
 *dataset:
 *location: Figure 2
 *dscomment: $A_{LL}$ model predictions for 0.5<|eta|<1.0
-*obskey: PT
-*obskey: ALL
+*obskey: ASYM
 *reackey: P P --> JET X
+*qual: RE: P P --> JET X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$
-*yheader: Model
+*yheader: $A_{LL}$
 *qual: .: BB10: DSSV: LSS10p: LSS10: NNPDF
 *data: x: y: y: y: y: y
 5.0; 0.00133; -0.00016; 0.00061; -0.00026; 0.00049; 
