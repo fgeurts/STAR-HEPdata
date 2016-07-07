@@ -1,21 +1,21 @@
 *author: ADAMCZYK
-*reference: PR CXX,YYYYYY : 2016
+*reference: PR C93,064904 : 2016
 *reference: ARXIV:1602.02212 : 2016
-*doi: 10.1103/PhysRevC.XX.YYYYYY
+*doi: 10.1103/PhysRevC.93.064904
 *status: Encoded 11 MAY 2016 by Frank Geurts (Rice Univ)
 *status: Edited 
-*title: J/$\psi$ Production at low transverse momentum in $p+p$ and $d$+Au collisions at $\sqrt{s_{NN}}=$200 GeV
-*comment: BNL-RHIC.  We report on the measurement of J/$\psi$ production in the dielectron channel at mid-rapidity (|y|<1) in p+p and d+Au collisions at $\sqrt{S_{NN}$=200 GeV from the STAR experiment at the Relativistic Heavy Ion Collider. The transverse momentum $p_T$ spectra in p+p for $p_T \lt 4$ GeV/$c$ and d+Au collisions for $p_T \lt 3$ GeV/$c$ are presented. These measurements extend the STAR coverage for J/$\psi$ production in p+p collisions to low $p_T$. The $\langle p^2_T\rangle$ from the measured J/$\psi$ invariant cross section in p+p and d+Au collisions are evaluated and compared to similar measurements at other collision energies. The nuclear modification factor for J/$\psi$ is extracted as a function of $p_T$ and collision centrality in d+Au and compared to model calculations using the modified nuclear Parton Distribution Function and a final-state J/$\psi$ nuclear absorption cross section.
-*durhamId: 
-*inspireId: 
-*cdsId: 
+*title: $\rm{J}/\psi$ production at low transverse momentum in p+p and d+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+*comment: BNL-RHIC.  We report on the measurement of $\rm{J}/\psi$ production in the dielectron channel at mid-rapidity (|y|<1) in p+p and d+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV from the STAR experiment at the Relativistic Heavy Ion Collider. The transverse momentum $p_{T}$ spectra in p+p for $p_{T}$ < 4 GeV/c and d+Au collisions for $p_{T}$ < 3 GeV/c are presented. These measurements extend the STAR coverage for $\rm{J}/\psi$ production in p+p collisions to low $p_{T}$. The $<p_{T}^{2}>$ from the measured $\rm{J}/\psi$ invariant cross section in p+p and d+Au collisions are evaluated and compared to similar measurements at other collision energies. The nuclear modification factor for $\rm{J}/\psi$ is extracted as a function of $p_{T}$ and collision centrality in d+Au and compared to model calculations using the modified nuclear Parton Distribution Function and a final-state $\rm{J}/\psi$ nuclear absorption cross section
+*durhamId:
+*inspireId: 1420183
+*cdsId: 2130554
 *detector: STAR
 *experiment: BNL-RHIC-STAR
 
 *dataset:
 *location: Figure 
 *dscomment: The mean square of $p_T$.
-*obskey: PT
+*obskey: PT**2
 *reackey: AU AU --> J/PSI X
 *qual: RE : AU AU --> (J/PSI + X) 
 *xheader: Reaction
@@ -40,12 +40,11 @@ d+Au; 3.70	+- 0.33	(DSYS=0.44);
 *dataset:
 *location: Figure 
 *dscomment: Nuclear modicifation factor vs. $p_T$.
-*obskey: PT
+*obskey: RAA
 *reackey: AU AU --> J/PSI X
 *qual: RE : AU AU --> (J/PSI + X) 
-*xheader: $p_T$
-*yheader: R_dAu
-*qual: .: R_dau: p+p stat: p+p syst: N_coll
+*xheader: $p_T$ IN GeV/c
+*yheader: R_dAu: p+p stat: p+p syst: N_coll
 *data: x: y: y: y: y
 0.63;	1.10 +-	0.26	(DSYS=+0.37,-0.31);	0.04;	0.13;	0.17;
 1.45;	1.27 +-	0.26	(DSYS=+0.39,-0.35);	0.04;	0.13;	0.17;
@@ -59,9 +58,8 @@ d+Au; 3.70	+- 0.33	(DSYS=0.44);
 *reackey: AU AU --> J/PSI X
 *qual: RE : AU AU --> (J/PSI + X)
 *qual: $p_T$ IN GEV/C : 0 TO 3
-*xheader: N_part
-*yheader: 
-*qual: <N_part>:	<N_coll>:	b [fm]:	p_{T} [GeV/c]: R_dAu [1]: (p+p stat.): (p+p syst.):	(N_coll)
+*xheader: <N_part>
+*yheader:	<N_coll>:	b [fm]:	p_{T} IN [GeV/c]: R_dAu [1]: (p+p stat.): (p+p syst.):	(N_coll)
 *data: x: y: y: y: y: y: y
 5.7	+- 0.7;	4.8	+- 0.6;	6.7	+- 0.8;	1.06	+- 0.27	(DSYS=+0.39,-0.30);	0.04;	0.14;	0.12;
 13.3	+- 2.3;	12.7	+- 2.3;	4.1	+- 0.8;	1.15	+- 0.21	(DSYS=+0.41,-0.33);	0.04;	0.14;	0.12;
@@ -73,7 +71,7 @@ d+Au; 3.70	+- 0.33	(DSYS=0.44);
 *obskey: CORR
 *reackey: AU AU --> J/PSI X
 *qual: RE : AU AU --> (J/PSI + X) 
-*qual: TRANSVERSE MOMENTUM IN GEV/C : 0 TO 3
+*qual: PT IN GEV/C : 0 TO 3
 *xheader: $p_T$ IN GEV/C
 *yheader: $Bd^2\sigma/(2\pi*p_T*dydp_T) IN [nb/(GeV/c)^-2]
 *data: x: y
@@ -83,13 +81,13 @@ d+Au; 3.70	+- 0.33	(DSYS=0.44);
 
 *dataset:
 *location: Figure 9b
-*dscomment: The invariant yield versus transverse momentum for $J/\Psi$ with |y| < 1 in 0 − 100% central d+Au collisions.
+*dscomment: The invariant yield versus transverse momentum for $J/\Psi$ with |y| < 1 in 0 - 100 percent central d+Au collisions.
 *obskey: CORR
 *reackey: AU AU --> J/PSI X
 *qual: RE : AU AU --> (J/PSI + X) 
-*qual: TRANSVERSE MOMENTUM IN GEV/C : 0 TO 3
-*xheader: TRANSVERSE MOMENTUM IN GEV/C
-*yheader: $Bd^2N/(2\pi*p_T*dydp_T) IN [nb/(GeV/c)^-2]
+*qual: PT IN GEV/C : 0 TO 3
+*xheader: $p_T$ IN GEV/C
+*yheader: $Bd^2N/(2\pi*p_T*dydp_T) IN [nb/(GeV/c)^-2]: Scaling Factor
 *data: x: y: y
 0.63;	7.87 +-	1.80	(DSYS=+2.17,-2.64);	10^-7;
 1.45;	4.69	+- 0.96	(DSYS=+1.29,-1.43);	10^-7;
