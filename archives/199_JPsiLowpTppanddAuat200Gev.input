@@ -40,7 +40,7 @@ d+Au; 3.70	+- 0.33	(DSYS=0.44);
 *dataset:
 *location: Figure 
 *dscomment: Nuclear modicifation factor vs. $p_T$.
-*obskey: RAA
+*obskey: RPA
 *reackey: AU AU --> J/PSI X
 *qual: RE : AU AU --> (J/PSI + X) 
 *xheader: $p_T$ IN GeV/c
