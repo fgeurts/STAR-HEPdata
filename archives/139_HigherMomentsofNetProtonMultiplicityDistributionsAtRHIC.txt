@@ -1,0 +1,780 @@
+
+*dataset:
+*location: Figure 1
+*dscomment: $\Delta N_p$ multiplicity distribution in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV for 0-5 percent central collisions at midrapidity (| y |< 0.5).
+*obskey: N
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV: 200
+*qual: CENTRALITY IN PCT: 0 TO 5
+*xheader: Net Proton ($\Delta N_p$)
+*yheader: Number of Events
+*data: x: y
+-12.5; 2.0 +- 1.41421; 
+-11.5; 4.0 +- 2.0; 
+-10.5; 9.0 +- 3.0; 
+-9.5; 31.0 +- 5.56776; 
+-8.5; 117.0 +- 10.8167; 
+-7.5; 379.0 +- 19.4679; 
+-6.5; 908.0 +- 30.133; 
+-5.5; 2437.0 +- 49.366; 
+-4.5; 5085.0 +- 71.3092; 
+-3.5; 10147.0 +- 100.732; 
+-2.5; 18671.0 +- 136.642; 
+-1.5; 30181.0 +- 173.727; 
+-0.5; 43750.0 +- 209.165; 
+0.5; 56022.0 +- 236.69; 
+1.5; 63743.0 +- 252.474; 
+2.5; 64777.0 +- 254.513; 
+3.5; 58596.0 +- 242.066; 
+4.5; 47167.0 +- 217.18; 
+5.5; 34533.0 +- 185.831; 
+6.5; 22701.0 +- 150.669; 
+7.5; 13622.0 +- 116.713; 
+8.5; 7464.0 +- 86.3944; 
+9.5; 3736.0 +- 61.1228; 
+10.5; 1780.0 +- 42.19; 
+11.5; 741.0 +- 27.2213; 
+12.5; 271.0 +- 16.4621; 
+13.5; 114.0 +- 10.6771; 
+14.5; 47.0 +- 6.85565; 
+15.5; 20.0 +- 4.47214; 
+16.5; 4.0 +- 2.0; 
+17.5; 1.0 +- 1.0; 
+19.5; 1.0 +- 1.0; 
+*dataend: 
+
+*dataset:
+*location: Figure 1
+*dscomment: $\Delta N_p$ multiplicity distribution in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV for 30-40 percent central collisions at midrapidity (| y |< 0.5).
+*obskey: N
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV: 200
+*qual: CENTRALITY IN PCT: 30 TO 40
+*xheader: Net Proton ($\Delta N_p$)
+*yheader: Number of Events
+*data: x: y
+-8.5; 2.0 +- 1.41421; 
+-7.5; 19.0 +- 4.3589; 
+-6.5; 95.0 +- 9.74679; 
+-5.5; 497.0 +- 22.2935; 
+-4.5; 2383.0 +- 48.816; 
+-3.5; 9277.0 +- 96.3172; 
+-2.5; 29810.0 +- 172.656; 
+-1.5; 76766.0 +- 277.067; 
+-0.5; 150368.0 +- 387.773; 
+0.5; 214537.0 +- 463.181; 
+1.5; 213965.0 +- 462.564; 
+2.5; 154726.0 +- 393.352; 
+3.5; 86040.0 +- 293.326; 
+4.5; 37718.0 +- 194.211; 
+5.5; 13932.0 +- 118.034; 
+6.5; 4468.0 +- 66.8431; 
+7.5; 1252.0 +- 35.3836; 
+8.5; 290.0 +- 17.0294; 
+9.5; 56.0 +- 7.48331; 
+10.5; 13.0 +- 3.60555; 
+11.5; 3.0 +- 1.73205; 
+*dataend: 
+
+*dataset:
+*location: Figure 1
+*dscomment: $\Delta N_p$ multiplicity distribution in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV for 70-80 percent central collisions at midrapidity (| y |< 0.5).
+*obskey: N
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV: 200
+*qual: CENTRALITY IN PCT: 70 TO 80
+*xheader: Net Proton ($\Delta N_p$)
+*yheader: Number of Events
+*data: x: y
+-4.5; 2.0 +- 1.41421; 
+-3.5; 49.0 +- 7.0; 
+-2.5; 994.0 +- 31.5278; 
+-1.5; 14290.0 +- 119.541; 
+-0.5; 137036.0 +- 370.184; 
+0.5; 626299.0 +- 791.391; 
+1.5; 186375.0 +- 431.712; 
+2.5; 26921.0 +- 164.076; 
+3.5; 2564.0 +- 50.636; 
+4.5; 162.0 +- 12.7279; 
+5.5; 7.0 +- 2.64575; 
+*dataend: 
+
+*dataset:
+*location: Figure 2
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 19.6 GeV
+*obskey: 
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV: 19.6
+*xheader: Npart
+*yheader: Mean
+*data: x: y
+312.1; 6.56551 +- 0.0393149 (DSYS=+1.09087, -1.09087); 
+188.2; 3.99049 +- 0.0246445 (DSYS=+0.650909, -0.650909); 
+85.3; 1.80846 +- 0.0139898 (DSYS=+0.257811, -0.257811); 
+32.1; 0.634185 +- 0.0082474 (DSYS=+0.0862622, -0.0862622); 
+8.7; 0.226938 +- 0.00816811 (DSYS=+0.0247104, -0.0247104); 
+*dataend: 
+
+*dataset:
+*location: Figure 2
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 19.6 GeV
+*obskey: 
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV: 19.6
+*xheader: Npart
+*yheader: Standard Deviation
+*data: x: y
+312.1; 2.89815 +- 0.0415098 (DSYS=+0.215997, -0.215997); 
+188.2; 2.35718 +- 0.0276864 (DSYS=+0.221282, -0.221282); 
+85.3; 1.5629 +- 0.016985 (DSYS=+0.115515, -0.115515); 
+32.1; 0.961379 +- 0.0123387 (DSYS=+0.0685986, -0.0685986); 
+8.7; 0.562337 +- 0.016534 (DSYS=+0.0314408, -0.0314408); 
+*dataend: 
+
+*dataset:
+*location: Figure 2
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 19.6 GeV
+*obskey: 
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV: 19.6
+*xheader: Npart
+*yheader: Skewness
+*data: x: y
+312.1; 0.240298 +- 0.063188 (DSYS=+0.0317775, -0.0317775); 
+188.2; 0.491777 +- 0.0561887 (DSYS=+0.0541871, -0.0541871); 
+85.3; 0.572904 +- 0.0548731 (DSYS=+0.0377559, -0.0377559); 
+32.1; 0.888496 +- 0.0735821 (DSYS=+0.0411759, -0.0411759); 
+8.7; 1.21217 +- 0.193673 (DSYS=+0.0950914, -0.0950914); 
+*dataend: 
+
+*dataset:
+*location: Figure 2
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 19.6 GeV
+*obskey: 
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV: 19.6
+*xheader: Npart
+*yheader: Kurtosis
+*data: x: y
+312.1; 0.0358484 +- 0.180364 (DSYS=+0.0880876, -0.0880876); 
+188.2; 0.359179 +- 0.220462 (DSYS=+0.155781, -0.155781); 
+85.3; 0.556976 +- 0.210887 (DSYS=+0.101169, -0.101169); 
+32.1; 1.40358 +- 0.363573 (DSYS=+0.157009, -0.157009); 
+8.7; 2.98707 +- 0.976118 (DSYS=+0.256208, -0.256208); 
+*dataend: 
+
+*dataset:
+*location: Figure 2
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 62.4 GeV
+*obskey: 
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV: 62.4
+*xheader: Npart
+*yheader: Mean
+*data: x: y
+347.26; 3.47339 +- 0.00525101 (DSYS=+0.382072, -0.382072); 
+293.26; 2.89705 +- 0.00488789 (DSYS=+0.318676, -0.318676); 
+228.99; 2.25322 +- 0.00308339 (DSYS=+0.247854, -0.247854); 
+162.15; 1.59977 +- 0.00264072 (DSYS=+0.175975, -0.175975); 
+112.03; 1.09636 +- 0.00221669 (DSYS=+0.120599, -0.120599); 
+74.15; 0.716577 +- 0.00187162 (DSYS=+0.0788234, -0.0788234); 
+45.79; 0.440768 +- 0.00148661 (DSYS=+0.0484845, -0.0484845); 
+25.91; 0.241972 +- 0.00113413 (DSYS=+0.0266169, -0.0266169); 
+13.01; 0.114118 +- 0.00079715 (DSYS=+0.0125529, -0.0125529); 
+*dataend: 
+
+*dataset:
+*location: Figure 2
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 62.4 GeV
+*obskey: 
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV: 62.4
+*xheader: Npart
+*yheader: Standard Deviation
+*data: x: y
+347.26; 2.85718 +- 0.00556291 (DSYS=+0.200003, -0.200003); 
+293.26; 2.63626 +- 0.00521474 (DSYS=+0.184538, -0.184538); 
+228.99; 2.3597 +- 0.00335518 (DSYS=+0.165179, -0.165179); 
+162.15; 2.01665 +- 0.00294523 (DSYS=+0.141166, -0.141166); 
+112.03; 1.70323 +- 0.00256521 (DSYS=+0.119226, -0.119226); 
+74.15; 1.40786 +- 0.00228008 (DSYS=+0.0985501, -0.0985501); 
+45.79; 1.12933 +- 0.00196481 (DSYS=+0.0790531, -0.0790531); 
+25.91; 0.858848 +- 0.00170871 (DSYS=+0.0601194, -0.0601194); 
+13.01; 0.608684 +- 0.00149195 (DSYS=+0.0426079, -0.0426079); 
+*dataend: 
+
+*dataset:
+*location: Figure 2
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 62.4 GeV
+*obskey: 
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV: 62.4
+*xheader: Npart
+*yheader: Skewness
+*data: x: y
+347.26; 0.147006 +- 0.00888389 (DSYS=+0.0352815, -0.0352815); 
+293.26; 0.143007 +- 0.00906932 (DSYS=+0.0343218, -0.0343218); 
+228.99; 0.183016 +- 0.00668659 (DSYS=+0.0439238, -0.0439238); 
+162.15; 0.198055 +- 0.00705854 (DSYS=+0.0475331, -0.0475331); 
+112.03; 0.231532 +- 0.00753521 (DSYS=+0.0555676, -0.0555676); 
+74.15; 0.241014 +- 0.00849293 (DSYS=+0.0578434, -0.0578434); 
+45.79; 0.298532 +- 0.00983265 (DSYS=+0.0716477, -0.0716477); 
+25.91; 0.363636 +- 0.0121788 (DSYS=+0.0872726, -0.0872726); 
+13.01; 0.478103 +- 0.0172715 (DSYS=+0.114745, -0.114745); 
+*dataend: 
+
+*dataset:
+*location: Figure 2
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 62.4 GeV
+*obskey: 
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV: 62.4
+*xheader: Npart
+*yheader: Kurtosis
+*data: x: y
+347.26; 0.119988 +- 0.0236884 (DSYS=+0.0323967, -0.0323967); 
+293.26; 0.125048 +- 0.0240959 (DSYS=+0.0337629, -0.0337629); 
+228.99; 0.1839 +- 0.0188031 (DSYS=+0.0496529, -0.0496529); 
+162.15; 0.241599 +- 0.021017 (DSYS=+0.0652317, -0.0652317); 
+112.03; 0.339745 +- 0.0230318 (DSYS=+0.0917312, -0.0917312); 
+74.15; 0.471526 +- 0.0272802 (DSYS=+0.127312, -0.127312); 
+45.79; 0.754029 +- 0.0352508 (DSYS=+0.203588, -0.203588); 
+25.91; 1.24215 +- 0.0448156 (DSYS=+0.33538, -0.33538); 
+13.01; 2.45751 +- 0.0720149 (DSYS=+0.663529, -0.663529); 
+*dataend: 
+
+*dataset:
+*location: Figure 2
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV
+*obskey: 
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV: 200
+*xheader: Npart
+*yheader: Mean
+*data: x: y
+352.4; 1.71513 +- 0.00433202 (DSYS=+0.188664, -0.188664); 
+299.3; 1.46766 +- 0.0039544 (DSYS=+0.161443, -0.161443); 
+234.6; 1.16116 +- 0.00252259 (DSYS=+0.127727, -0.127727); 
+166.7; 0.841183 +- 0.00214204 (DSYS=+0.0925301, -0.0925301); 
+115.5; 0.596715 +- 0.00186188 (DSYS=+0.0656387, -0.0656387); 
+76.6; 0.402381 +- 0.00156811 (DSYS=+0.0442619, -0.0442619); 
+47.8; 0.256947 +- 0.00128118 (DSYS=+0.0282642, -0.0282642); 
+27.4; 0.151421 +- 0.00101754 (DSYS=+0.0166564, -0.0166564); 
+14.1; 0.0802132 +- 0.000736109 (DSYS=+0.00882345, -0.00882345); 
+*dataend: 
+
+*dataset:
+*location: Figure 2
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV
+*obskey: 
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV: 200
+*xheader: Npart
+*yheader: Standard Deviation
+*data: x: y
+352.4; 3.0175 +- 0.0045628 (DSYS=+0.211225, -0.211225); 
+299.3; 2.79673 +- 0.0041961 (DSYS=+0.195771, -0.195771); 
+234.6; 2.51161 +- 0.00272001 (DSYS=+0.175813, -0.175813); 
+166.7; 2.1689 +- 0.0023602 (DSYS=+0.151823, -0.151823); 
+115.5; 1.84982 +- 0.0021143 (DSYS=+0.129488, -0.129488); 
+76.6; 1.54961 +- 0.00185902 (DSYS=+0.108473, -0.108473); 
+47.8; 1.26105 +- 0.00162198 (DSYS=+0.0882735, -0.0882735); 
+27.4; 0.986237 +- 0.00143061 (DSYS=+0.0690366, -0.0690366); 
+14.1; 0.721274 +- 0.00123301 (DSYS=+0.0504892, -0.0504892); 
+*dataend: 
+
+*dataset:
+*location: Figure 2
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV
+*obskey: 
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV: 200
+*xheader: Npart
+*yheader: Skewness
+*data: x: y
+352.4; 0.0603514 +- 0.00688395 (DSYS=+0.0144843, -0.0144843); 
+299.3; 0.0614623 +- 0.00687775 (DSYS=+0.014751, -0.014751); 
+234.6; 0.0794329 +- 0.00507491 (DSYS=+0.0190639, -0.0190639); 
+166.7; 0.0833079 +- 0.00523017 (DSYS=+0.0199939, -0.0199939); 
+115.5; 0.0959312 +- 0.00565738 (DSYS=+0.0230235, -0.0230235); 
+76.6; 0.104874 +- 0.00618755 (DSYS=+0.0251698, -0.0251698); 
+47.8; 0.118944 +- 0.00703311 (DSYS=+0.0285466, -0.0285466); 
+27.4; 0.150615 +- 0.00859141 (DSYS=+0.0361477, -0.0361477); 
+14.1; 0.202535 +- 0.0114016 (DSYS=+0.0486085, -0.0486085); 
+*dataend: 
+
+*dataset:
+*location: Figure 2
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV
+*obskey: 
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV: 200
+*xheader: Npart
+*yheader: Kurtosis
+*data: x: y
+352.4; 0.109359 +- 0.0176474 (DSYS=+0.0295271, -0.0295271); 
+299.3; 0.115535 +- 0.0179046 (DSYS=+0.0311943, -0.0311943); 
+234.6; 0.164356 +- 0.013465 (DSYS=+0.044376, -0.044376); 
+166.7; 0.217294 +- 0.0142558 (DSYS=+0.0586694, -0.0586694); 
+115.5; 0.284728 +- 0.0159071 (DSYS=+0.0768765, -0.0768765); 
+76.6; 0.394606 +- 0.0181916 (DSYS=+0.106544, -0.106544); 
+47.8; 0.584726 +- 0.0222026 (DSYS=+0.157876, -0.157876); 
+27.4; 0.960784 +- 0.0293266 (DSYS=+0.259412, -0.259412); 
+14.1; 1.77824 +- 0.0425526 (DSYS=+0.480125, -0.480125); 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: Centrality dependence of $S\sigma$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 19.6 GeV
+*obskey: 
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV: 19.6
+*xheader: <Npart>
+*yheader: SkewnessSigma
+*data: x: y
+312.1; 0.696418 +- 0.186847 (DSYS=+0.0848569, -0.0848569); 
+188.2; 1.1592 +- 0.138615 (DSYS=+0.0822758, -0.0822758); 
+85.3; 0.895393 +- 0.090397 (DSYS=+0.0232277, -0.0232277); 
+32.1; 0.854181 +- 0.0757018 (DSYS=+0.0289897, -0.0289897); 
+8.7; 0.681647 +- 0.115689 (DSYS=+0.0157184, -0.0157184); 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 19.6 GeV
+*obskey: 
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV: 19.6
+*xheader: <Npart>
+*yheader: KurtosisSigma^2
+*data: x: y
+312.1; 0.3011 +- 1.51624 (DSYS=+0.739477, -0.739477); 
+188.2; 1.9957 +- 1.23698 (DSYS=+0.775608, -0.775608); 
+85.3; 1.36051 +- 0.52535 (DSYS=+0.173403, -0.173403); 
+32.1; 1.29726 +- 0.349643 (DSYS=+0.134296, -0.134296); 
+8.7; 0.94458 +- 0.33315 (DSYS=+0.0360325, -0.0360325); 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: Centrality dependence of $S\sigma$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 62.4 GeV
+*obskey: 
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV: 62.4
+*xheader: <Npart>
+*yheader: SkewnessSigma
+*data: x: y
+347.26; 0.420024 +- 0.0255386 (DSYS=+0.0420024, -0.0420024); 
+293.26; 0.377004 +- 0.0240504 (DSYS=+0.0377004, -0.0377004); 
+228.99; 0.431862 +- 0.0159072 (DSYS=+0.0431862, -0.0431862); 
+162.15; 0.399408 +- 0.0143598 (DSYS=+0.0399408, -0.0399408); 
+112.03; 0.394353 +- 0.0129639 (DSYS=+0.0394353, -0.0394353); 
+74.15; 0.339314 +- 0.0120732 (DSYS=+0.0339314, -0.0339314); 
+45.79; 0.337141 +- 0.0112238 (DSYS=+0.0337141, -0.0337141); 
+25.91; 0.312308 +- 0.0105733 (DSYS=+0.0312308, -0.0312308); 
+13.01; 0.291014 +- 0.0106172 (DSYS=+0.0291014, -0.0291014); 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 62.4 GeV
+*obskey: 
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV: 62.4
+*xheader: <Npart>
+*yheader: KurtosisSigma^2
+*data: x: y
+347.26; 0.97952 +- 0.193898 (DSYS=+0.137133, -0.137133); 
+293.26; 0.869064 +- 0.16796 (DSYS=+0.121669, -0.121669); 
+228.99; 1.02398 +- 0.105218 (DSYS=+0.143358, -0.143358); 
+162.15; 0.982556 +- 0.0860643 (DSYS=+0.137558, -0.137558); 
+112.03; 0.985603 +- 0.0675465 (DSYS=+0.137984, -0.137984); 
+74.15; 0.934595 +- 0.054931 (DSYS=+0.130843, -0.130843); 
+45.79; 0.961678 +- 0.0460357 (DSYS=+0.134635, -0.134635); 
+25.91; 0.916234 +- 0.0343858 (DSYS=+0.128273, -0.128273); 
+13.01; 0.9105 +- 0.0283351 (DSYS=+0.12747, -0.12747); 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: Centrality dependence of $S\sigma$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV
+*obskey: 
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV: 200
+*xheader: <Npart>
+*yheader: SkewnessSigma
+*data: x: y
+352.4; 0.182111 +- 0.0207944 (DSYS=+0.0182111, -0.0182111); 
+299.3; 0.171893 +- 0.019257 (DSYS=+0.0171893, -0.0171893); 
+234.6; 0.199504 +- 0.0127662 (DSYS=+0.0199504, -0.0199504); 
+166.7; 0.180687 +- 0.0113622 (DSYS=+0.0180687, -0.0180687); 
+115.5; 0.177456 +- 0.0104855 (DSYS=+0.0177456, -0.0177456); 
+76.6; 0.162514 +- 0.00960729 (DSYS=+0.0162514, -0.0162514); 
+47.8; 0.149995 +- 0.00888729 (DSYS=+0.0149995, -0.0149995); 
+27.4; 0.148542 +- 0.00849242 (DSYS=+0.0148542, -0.0148542); 
+14.1; 0.146083 +- 0.00824288 (DSYS=+0.0146083, -0.0146083); 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV
+*obskey: 
+*reackey: AU AU --> X
+*qual: SQRT(S) IN GEV: 200
+*xheader: <Npart>
+*yheader: KurtosisSigma^2
+*data: x: y
+352.4; 0.995754 +- 0.161029 (DSYS=+0.139406, -0.139406); 
+299.3; 0.903675 +- 0.140384 (DSYS=+0.126515, -0.126515); 
+234.6; 1.03678 +- 0.0852845 (DSYS=+0.14515, -0.14515); 
+166.7; 1.02218 +- 0.0674703 (DSYS=+0.143105, -0.143105); 
+115.5; 0.974296 +- 0.0549185 (DSYS=+0.136401, -0.136401); 
+76.6; 0.947569 +- 0.044269 (DSYS=+0.13266, -0.13266); 
+47.8; 0.92986 +- 0.0360215 (DSYS=+0.13018, -0.13018); 
+27.4; 0.934519 +- 0.0294372 (DSYS=+0.130833, -0.130833); 
+14.1; 0.925105 +- 0.0232938 (DSYS=+0.129515, -0.129515); 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: Centrality dependence of $S\sigma$ for $\Delta N_p$ in Au+Au collisions from Lattice QCD Calculations
+*obskey: 
+*reackey: AU AU --> X
+*qual: Lattice QCD Calculation
+*xheader: $sqrt{s{NN}}$ IN GeV
+*yheader: Npart: SkewnessSigma
+*data: x: y: y
+19.6; 400.0; 1.5 +- 0.6; 
+62.4; 400.0; 0.32 +- 0.04; 
+200.0; 400.0; 0.09 +- 0.01; 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: Centrality dependence of $S\sigma$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 19.6 GeV from Transport Model Calculations
+*obskey: 
+*reackey: AU AU --> X
+*qual: Transport Model Calculation
+*qual: UrQMD net-proton
+*qual: SQRT(S) IN GEV: 19.6
+*xheader: Npart
+*yheader: SkewnessSigma
+*data: x: y
+361.34; 1.00139 +- 0.0770523; 
+313.768; 0.945305 +- 0.0718695; 
+250.579; 1.02464 +- 0.0457984; 
+181.673; 1.07629 +- 0.0416792; 
+128.797; 0.951931 +- 0.0364372; 
+87.042; 1.00532 +- 0.0331779; 
+56.514; 0.915057 +- 0.0318081; 
+35.285; 0.881171 +- 0.0313721; 
+19.45; 0.843831 +- 0.032122; 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: Centrality dependence of $S\sigma$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 62.4 GeV from Transport Model Calculations
+*obskey: 
+*reackey: AU AU --> X
+*qual: Transport Model Calculation
+*qual: UrQMD net-proton
+*qual: SQRT(S) IN GEV: 62.4
+*xheader: Npart
+*yheader: SkewnessSigma
+*data: x: y
+361.34; 0.658173 +- 0.0716848; 
+313.768; 0.644932 +- 0.0670201; 
+250.579; 0.654408 +- 0.0423957; 
+181.673; 0.638371 +- 0.0384066; 
+128.797; 0.57961 +- 0.0348726; 
+87.042; 0.569402 +- 0.0320034; 
+56.514; 0.463039 +- 0.0314256; 
+35.285; 0.455034 +- 0.0310813; 
+19.45; 0.401757 +- 0.033272; 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: Centrality dependence of $S\sigma$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV from Transport Model Calculations
+*obskey: 
+*reackey: AU AU --> X
+*qual: Transport Model Calculation
+*qual: UrQMD net-proton
+*qual: SQRT(S) IN GEV: 200
+*xheader: Npart
+*yheader: SkewnessSigma
+*data: x: y
+361.34; 0.298332 +- 0.0671317; 
+313.768; 0.27045 +- 0.0632627; 
+250.579; 0.28321 +- 0.0411251; 
+181.673; 0.262543 +- 0.036859; 
+128.797; 0.237908 +- 0.0343306; 
+87.042; 0.21406 +- 0.0306577; 
+56.514; 0.174838 +- 0.0324753; 
+35.285; 0.156877 +- 0.0300118; 
+19.45; 0.155744 +- 0.0310082; 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV from Transport Model Calculations
+*obskey: 
+*reackey: AU AU --> X
+*qual: Transport Model Calculation
+*qual: UrQMD net-proton
+*qual: SQRT(S) IN GEV: 200
+*xheader: Npart
+*yheader: $\Kappa\sigma^2$
+*data: x: y
+361.34; 1.27184 +- 0.52481; 
+313.768; 0.927365 +- 0.449994; 
+250.579; 1.26189 +- 0.282054; 
+181.673; 1.13718 +- 0.212249; 
+128.797; 1.20392 +- 0.179189; 
+87.042; 1.24166 +- 0.139207; 
+56.514; 1.29062 +- 0.135814; 
+35.285; 1.23661 +- 0.101862; 
+19.45; 1.2808 +- 0.0918904; 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV from Transport Model Calculations for net-baryon
+*obskey: 
+*reackey: AU AU --> X
+*qual: Transport Model Calculation
+*qual: UrQMD net-baryon
+*qual: SQRT(S) IN GEV: 200
+*xheader: Npart
+*yheader: $\Kappa\sigma^2$
+*data: x: y
+361.34; 0.969164 +- 0.510991; 
+313.768; 0.905069 +- 0.462007; 
+250.579; 1.23149 +- 0.274646; 
+181.673; 1.4511 +- 0.240107; 
+128.797; 1.27423 +- 0.187895; 
+87.042; 1.29741 +- 0.142087; 
+56.514; 1.31609 +- 0.136748; 
+35.285; 1.19621 +- 0.0960926; 
+19.45; 1.24986 +- 0.0895199; 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV from Transport Model Calculations for net-proton (No Decay)
+*obskey: 
+*reackey: AU AU --> X
+*qual: Transport Model Calculation
+*qual: UrQMD net-proton (No Decay)
+*qual: SQRT(S) IN GEV: 200
+*xheader: Npart
+*yheader: $\Kappa\sigma^2$
+*data: x: y
+361.34; 0.82428 +- 0.425665; 
+313.768; 1.1098 +- 0.397707; 
+250.579; 1.10532 +- 0.259158; 
+181.673; 1.1434 +- 0.211777; 
+128.797; 1.12418 +- 0.172618; 
+87.042; 1.1538 +- 0.141537; 
+56.514; 1.2821 +- 0.147814; 
+35.285; 1.23798 +- 0.119013; 
+19.45; 1.2604 +- 0.105421; 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV from Transport Model Calculations
+*obskey: 
+*reackey: AU AU --> X
+*qual: Transport Model Calculation
+*qual: AMPT default net-proton
+*qual: SQRT(S) IN GEV: 200
+*xheader: Npart
+*yheader: $\Kappa\sigma^2$
+*data: x: y
+361.34; 1.12577 +- 0.610107; 
+313.768; 1.37062 +- 0.570827; 
+250.579; 1.10729 +- 0.315574; 
+181.673; 1.34533 +- 0.25626; 
+128.797; 1.22585 +- 0.196472; 
+87.0419; 1.33982 +- 0.154935; 
+56.5143; 1.36641 +- 0.136489; 
+35.2851; 1.44527 +- 0.116455; 
+15.8935; 1.55221 +- 0.0875661; 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV from Transport Model Calculations
+*obskey: 
+*reackey: AU AU --> X
+*qual: Transport Model Calculation
+*qual: AMPT String Melting net-proton
+*qual: SQRT(S) IN GEV: 200
+*xheader: Npart
+*yheader: $\Kappa\sigma^2$
+*data: x: y
+361.374; 1.35858 +- 0.691533; 
+313.666; 1.2795 +- 0.57346; 
+250.648; 1.56418 +- 0.331769; 
+181.689; 1.46799 +- 0.25806; 
+128.874; 1.32144 +- 0.198422; 
+87.0032; 1.37483 +- 0.14803; 
+56.5274; 1.23533 +- 0.11941; 
+35.241; 1.28946 +- 0.101144; 
+15.9072; 1.45715 +- 0.0858709; 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV from Transport Model Calculations
+*obskey: 
+*reackey: AU AU --> X
+*qual: Transport Model Calculation
+*qual: Therminator net-proton
+*qual: SQRT(S) IN GEV: 200
+*xheader: Npart
+*yheader: $\Kappa\sigma^2$
+*data: x: y
+369.994; 0.947155 +- 0.49651; 
+316.404; 0.840123 +- 0.409692; 
+250.974; 0.972293 +- 0.324887; 
+182.049; 1.0731 +- 0.26185; 
+129.748; 1.09557 +- 0.201039; 
+89.6158; 0.816559 +- 0.133243; 
+59.4011; 1.02421 +- 0.107321; 
+37.3316; 0.989461 +- 0.0816468; 
+22.0385; 1.0206 +- 0.0783986; 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV from Transport Model Calculations
+*obskey: 
+*reackey: AU AU --> X
+*qual: Transport Model Calculation
+*qual: Hijing net-proton
+*qual: SQRT(S) IN GEV: 200
+*xheader: Npart
+*yheader: $\Kappa\sigma^2$
+*data: x: y
+356.062; 1.07111 +- 0.698471; 
+306.812; 1.8615 +- 0.618178; 
+243.388; 2.2504 +- 0.351577; 
+175.067; 1.64995 +- 0.24366; 
+123.175; 1.92499 +- 0.196061; 
+82.4429; 1.71034 +- 0.137786; 
+53.0044; 1.69835 +- 0.120381; 
+32.7414; 1.66723 +- 0.101656; 
+18.0008; 1.58611 +- 0.0764958; 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV from Transport Model Calculations
+*obskey: 
+*reackey: AU AU --> X
+*qual: Transport Model Calculation
+*qual: Hijing + Geant-Hijing Band, net-proton
+*qual: SQRT(S) IN GEV: 200
+*xheader: $S\sigma$
+*yheader: -
+*data: x
+0.113 +- 0.03; 
+*dataend: 
+
+*dataset:
+*location: Figure 3
+*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV from Transport Model Calculations
+*obskey: 
+*reackey: AU AU --> X
+*qual: Transport Model Calculation
+*qual: Hijing + Geant-Hijing Band, net-proton
+*qual: SQRT(S) IN GEV: 200
+*xheader: $\Kappa\sigma^2$
+*yheader: -
+0.359 +- 0.137; 
+*dataend: 
+
+*dataset:
+*location: Figure 4
+*dscomment: $sqrt{s{NN}}$ dependence of $\Kappa\sigma^2$ for net proton distributions measured at RHIC. The results are STAR data.
+*obskey: 
+*reackey: AU AU --> X
+*qual: STAR data
+*xheader: $sqrt{s{NN}}$ IN GeV
+*yheader: $\Kappa\sigma^2$
+*data: x: y
+19.6; 1.179 +- 0.4165 (DSYS=+0.219, -0.219); 
+62.4; 0.9515 +- 0.03442 (DSYS=+0.04445, -0.04445); 
+200.0; 0.9633 +- 0.02836 (DSYS=+0.045, -0.045); 
+*dataend: 
+
+*dataset:
+*location: Figure 4
+*dscomment: $sqrt{s{NN}}$ dependence of $\Kappa\sigma^2$ for net proton distributions measured at RHIC. The results are from UrQMD net-proton.
+*obskey: 
+*reackey: AU AU --> X
+*qual: UrQMD net-proton
+*xheader: $sqrt{s{NN}}$ IN GeV (shifted)
+*yheader: $\Kappa\sigma^2$
+*data: x: y
+17.6; 1.43892 +- 0.137739; 
+57.4; 1.34356 +- 0.11636; 
+185.0; 1.20577 +- 0.0918512; 
+*dataend: 
+
+*dataset:
+*location: Figure 4
+*dscomment: $sqrt{s{NN}}$ dependence of $\Kappa\sigma^2$ for net proton distributions measured at RHIC. The results are from AMPT default net-proton.
+*obskey: 
+*reackey: AU AU --> X
+*qual: AMPT default net-proton
+*xheader: $sqrt{s{NN}}$ IN GeV (shifted)
+*yheader: $\Kappa\sigma^2$
+*data: x: y
+21.6; 1.42336 +- 0.150954; 
+67.4; 1.22544 +- 0.18106; 
+215.0; 1.30318 +- 0.108849; 
+*dataend: 
+
+*dataset:
+*location: Figure 4
+*dscomment: $sqrt{s{NN}}$ dependence of $\Kappa\sigma^2$ for net proton distributions measured at RHIC. The results are from AMPT String Melting net-proton.
+*obskey: 
+*reackey: AU AU --> X
+*qual: AMPT String Melting net-proton
+*xheader: $sqrt{s{NN}}$ IN GeV (shifted)
+*yheader: $\Kappa\sigma^2$
+*data: x: y
+23.6; 1.22405 +- 0.164789; 
+72.4; 1.20373 +- 0.143339; 
+220.0; 1.35716 +- 0.114928; 
+*dataend: 
+
+*dataset:
+*location: Figure 4
+*dscomment: $sqrt{s{NN}}$ dependence of $\Kappa\sigma^2$ for net proton distributions measured at RHIC. The results are from Therminator net-proton.
+*obskey: 
+*reackey: AU AU --> X
+*qual: Therminator net-proton
+*xheader: $sqrt{s{NN}}$ IN GeV (shifted)
+*yheader: $\Kappa\sigma^2$
+*data: x: y
+225.0; 0.975453 +- 0.0910154; 
+*dataend: 
+
+*dataset:
+*location: Figure 4
+*dscomment: $sqrt{s{NN}}$ dependence of $\Kappa\sigma^2$ for net proton distributions measured at RHIC. The results are from Hijing net-proton.
+*obskey: 
+*reackey: AU AU --> X
+*qual: Hijing net-proton
+*xheader: $sqrt{s{NN}}$ IN GeV (shifted)
+*yheader: $\Kappa\sigma^2$
+*data: x: y
+15.6; 1.38545 +- 0.128683; 
+52.4; 1.33965 +- 0.127959; 
+180.0; 1.71333 +- 0.11842; 
+*dataend:
+*E:
