@@ -4,7 +4,7 @@
 *doi: 10.1103/PhysRevLett.112.032302
 *status: Encoded 11 JUL 2016 by Nickolas Luttrell (Rice University)
 *title: Energy Dependence of Moments of Net-proton Multiplicity Distributions at RHIC
-*comment: BNL-RHIC.  We report the beam energy (\sqrt s_{NN} = 7.7 - 200 GeV) and collision centrality dependence of the mean (M), standard deviation (\sigma), skewness (S), and kurtosis (\kappa) of the net-proton multiplicity distributions in Au+Au collisions. The measurements are carried out by the STAR experiment at midrapidity (|y| < 0.5) and within the transverse momentum range 0.4 < pT < 0.8 GeV/c in the first phase of the Beam Energy Scan program at the Relativistic Heavy Ion Collider. These measurements are important for understanding the Quantum Chromodynamic (QCD) phase diagram. The products of the moments, S\sigma and \kappa\sigma^{2}, are sensitive to the correlation length of the hot and dense medium created in the collisions and are related to the ratios of baryon number susceptibilities of corresponding orders. The products of moments are found to have values significantly below the Skellam expectation and close to expectations based on independent proton and anti-proton production. The measurements are compared to a transport model calculation to understand the effect of acceptance and baryon number conservation, and also to a hadron resonance gas model
+*comment: BNL-RHIC.  We report the beam energy (\sqrt s_{NN} = 7.7 - 200 GeV) and collision centrality dependence of the mean (M), standard deviation ($\sigma$), skewness (S), and kurtosis ($\kappa$) of the net-proton multiplicity distributions in Au+Au collisions. The measurements are carried out by the STAR experiment at midrapidity (|y| < 0.5) and within the transverse momentum range 0.4 < pT < 0.8 GeV/c in the first phase of the Beam Energy Scan program at the Relativistic Heavy Ion Collider. These measurements are important for understanding the Quantum Chromodynamic (QCD) phase diagram. The products of the moments, $S\sigma$ and $\kappa\sigma^{2}$, are sensitive to the correlation length of the hot and dense medium created in the collisions and are related to the ratios of baryon number susceptibilities of corresponding orders. The products of moments are found to have values significantly below the Skellam expectation and close to expectations based on independent proton and anti-proton production. The measurements are compared to a transport model calculation to understand the effect of acceptance and baryon number conservation, and also to a hadron resonance gas model.
 *durhamId:
 *inspireId: 1255072
 *cdsId: 1602722
@@ -508,7 +508,8 @@
 *dataset:
 *location: Figure 3
 *dscomment: Centrality dependence of $S\sigma$/Skellam and $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{S_{NN}}=7.7$ GeV.
-*obskey: 
+*obskey: MULT2*MULT3/SKELLAM
+*obskey: MULT4*MULT2**2
 *reackey: AU AU --> X
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -531,7 +532,8 @@
 *dataset:
 *location: Figure 3
 *dscomment: Centrality dependence of $S\sigma$/Skellam and $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{S_{NN}}=11.5$ GeV.
-*obskey: 
+*obskey: MULT2*MULT3/SKELLAM
+*obskey: MULT4*MULT2**2
 *reackey: AU AU --> X
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -554,7 +556,8 @@
 *dataset:
 *location: Figure 3
 *dscomment: Centrality dependence of $S\sigma$/Skellam and $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{S_{NN}}=19.6$ GeV.
-*obskey: 
+*obskey: MULT2*MULT3/SKELLAM
+*obskey: MULT4*MULT2**2
 *reackey: AU AU --> X
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -577,7 +580,8 @@
 *dataset:
 *location: Figure 3
 *dscomment: Centrality dependence of $S\sigma$/Skellam and $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{S_{NN}}=27$ GeV.
-*obskey: 
+*obskey: MULT2*MULT3/SKELLAM
+*obskey: MULT4*MULT2**2
 *reackey: AU AU --> X
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -600,7 +604,8 @@
 *dataset:
 *location: Figure 3
 *dscomment: Centrality dependence of $S\sigma$/Skellam and $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{S_{NN}}=39$ GeV.
-*obskey: 
+*obskey: MULT2*MULT3/SKELLAM
+*obskey: MULT4*MULT2**2
 *reackey: AU AU --> X
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -623,7 +628,8 @@
 *dataset:
 *location: Figure 3
 *dscomment: Centrality dependence of $S\sigma$/Skellam and $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{S_{NN}}=62.4$ GeV.
-*obskey: 
+*obskey: MULT2*MULT3/SKELLAM
+*obskey: MULT4*MULT2**2
 *reackey: AU AU --> X
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -646,7 +652,8 @@
 *dataset:
 *location: Figure 3
 *dscomment: Centrality dependence of $S\sigma$/Skellam and $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{S_{NN}}=200$ GeV.
-*obskey: 
+*obskey: MULT2*MULT3/SKELLAM
+*obskey: MULT4*MULT2**2
 *reackey: AU AU --> X
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -669,7 +676,8 @@
 *dataset:
 *location: Figure 4
 *dscomment:  Collision energy and centrality dependence of the net-proton $S\sigma$ and $\kappa\sigma^2$ from Au+Au and p+p collisions at RHIC. 
-*obskey: SSig
+*obskey: MULT2*MULT3
+*obskey: SKELLAM
 *obskey: KSIG**2
 *obskey: SKELLAM
 *reackey: AU AU --> X 
@@ -691,8 +699,7 @@
 *dataset:
 *location: Figure 4
 *dscomment: Collision energy and centrality dependence of the net-proton $S\sigma$ and $\kappa\sigma^2$ from Au+Au and p+p collisions at RHIC. 
-*obskey: SSig
-*obskey: KSIG**2
+*obskey: MULT4*MULT2**2
 *reackey: AU AU --> X
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -713,8 +720,7 @@
 *dataset:
 *location: Figure 4
 *dscomment: Collision energy and centrality dependence of the net-proton $S\sigma$ and $\kappa\sigma^2$ from Au+Au and p+p collisions at RHIC. 
-*obskey: SSig
-*obskey: KSIG**2
+*obskey: MULT4*MULT2**2
 *reackey: AU AU --> X
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -734,8 +740,9 @@
 *dataset:
 *location: Figure 4
 *dscomment: Collision energy and centrality dependence of the net-proton $S\sigma$ and $\kappa\sigma^2$ from Au+Au and p+p collisions at RHIC. 
-*obskey: SSig
-*obskey: KSIG**2
+*obskey: MULT2*MULT3
+*obskey: MULT2*MULT3/SKELLAM
+*obskey: MULT4*MULT2**2
 *reackey: P P --> X
 *qual: P+P Collisions 
 *xheader: $\sqrt{S_{NN}}$ IN GeV
