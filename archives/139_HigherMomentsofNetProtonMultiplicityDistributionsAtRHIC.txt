@@ -1,10 +1,23 @@
+*author: AGGARWAL
+*reference: PRL 105,022302 : 2010
+*reference: ARXIV:1004.4959 : 2010
+*doi: 10.1103/PhysRevLett.105.022302
+*status: Encoded 11 JUL 2016 by Nickolas Luttrell (Rice University)
+*title: Higher Moments of Net-proton Multiplicity Distributions at RHIC
+*comment: BNL-RHIC.  We report the first measurements of the kurtosis ($\kappa$), skewness (S) and variance ($\sigma^2$) of net-proton multiplicity ($N_p - N_{pbar}$) distributions at midrapidity for Au+Au collisions at$\sqrt{s_{NN}}$  = 19.6, 62.4, and 200 GeV corresponding to baryon chemical potentials ($\mu_B$) between 200 - 20 MeV. Our measurements of the products $\kappa \sigma^2$ and $S \sigma$, which can be related to theoretical calculations sensitive to baryon number susceptibilities and long range correlations, are constant as functions of collision centrality. We compare these products with results from lattice QCD and various models without a critical point and study the $\sqrt{s_{NN}}$ dependence of $\kappa \sigma^2$. From the measurements at the three beam energies, we find no evidence for a critical point in the QCD phase diagram for $\mu_B$ below 200 MeV
+*durhamId:
+*spiresId: 8633517
+*inspireId: 853304
+*cdsId: 1262459
+*detector: STAR
+*experiment: BNL-RHIC-STAR
 
 *dataset:
 *location: Figure 1
-*dscomment: $\Delta N_p$ multiplicity distribution in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV for 0-5 percent central collisions at midrapidity (| y |< 0.5).
+*dscomment: $\Delta N_p$ multiplicity distribution in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV for 0-5 percent central collisions at midrapidity (| y |< 0.5).
 *obskey: N
 *reackey: AU AU --> X
-*qual: SQRT(S) IN GEV: 200
+*qual: SQRT(S)/NUCLEON IN GEV: 200
 *qual: CENTRALITY IN PCT: 0 TO 5
 *xheader: Net Proton ($\Delta N_p$)
 *yheader: Number of Events
@@ -45,10 +58,10 @@
 
 *dataset:
 *location: Figure 1
-*dscomment: $\Delta N_p$ multiplicity distribution in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV for 30-40 percent central collisions at midrapidity (| y |< 0.5).
+*dscomment: $\Delta N_p$ multiplicity distribution in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV for 30-40 percent central collisions at midrapidity (| y |< 0.5).
 *obskey: N
 *reackey: AU AU --> X
-*qual: SQRT(S) IN GEV: 200
+*qual: SQRT(S)/NUCLEON IN GEV: 200
 *qual: CENTRALITY IN PCT: 30 TO 40
 *xheader: Net Proton ($\Delta N_p$)
 *yheader: Number of Events
@@ -78,10 +91,10 @@
 
 *dataset:
 *location: Figure 1
-*dscomment: $\Delta N_p$ multiplicity distribution in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV for 70-80 percent central collisions at midrapidity (| y |< 0.5).
+*dscomment: $\Delta N_p$ multiplicity distribution in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV for 70-80 percent central collisions at midrapidity (| y |< 0.5).
 *obskey: N
 *reackey: AU AU --> X
-*qual: SQRT(S) IN GEV: 200
+*qual: SQRT(S)/NUCLEON IN GEV: 200
 *qual: CENTRALITY IN PCT: 70 TO 80
 *xheader: Net Proton ($\Delta N_p$)
 *yheader: Number of Events
@@ -101,10 +114,10 @@
 
 *dataset:
 *location: Figure 2
-*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 19.6 GeV
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $\sqrt{s_{NN}}$ = 19.6 GeV
 *obskey: 
 *reackey: AU AU --> X
-*qual: SQRT(S) IN GEV: 19.6
+*qual: SQRT(S)/NUCLEON IN GEV: 19.6
 *xheader: Npart
 *yheader: Mean
 *data: x: y
@@ -117,10 +130,10 @@
 
 *dataset:
 *location: Figure 2
-*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 19.6 GeV
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $\sqrt{s_{NN}}$ = 19.6 GeV
 *obskey: 
 *reackey: AU AU --> X
-*qual: SQRT(S) IN GEV: 19.6
+*qual: SQRT(S)/NUCLEON IN GEV: 19.6
 *xheader: Npart
 *yheader: Standard Deviation
 *data: x: y
@@ -133,10 +146,10 @@
 
 *dataset:
 *location: Figure 2
-*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 19.6 GeV
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $\sqrt{s_{NN}}$ = 19.6 GeV
 *obskey: 
 *reackey: AU AU --> X
-*qual: SQRT(S) IN GEV: 19.6
+*qual: SQRT(S)/NUCLEON IN GEV: 19.6
 *xheader: Npart
 *yheader: Skewness
 *data: x: y
@@ -149,10 +162,10 @@
 
 *dataset:
 *location: Figure 2
-*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 19.6 GeV
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $\sqrt{s_{NN}}$ = 19.6 GeV
 *obskey: 
 *reackey: AU AU --> X
-*qual: SQRT(S) IN GEV: 19.6
+*qual: SQRT(S)/NUCLEON IN GEV: 19.6
 *xheader: Npart
 *yheader: Kurtosis
 *data: x: y
@@ -165,10 +178,10 @@
 
 *dataset:
 *location: Figure 2
-*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 62.4 GeV
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $\sqrt{s_{NN}}$ = 62.4 GeV
 *obskey: 
 *reackey: AU AU --> X
-*qual: SQRT(S) IN GEV: 62.4
+*qual: SQRT(S)/NUCLEON IN GEV: 62.4
 *xheader: Npart
 *yheader: Mean
 *data: x: y
@@ -185,10 +198,10 @@
 
 *dataset:
 *location: Figure 2
-*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 62.4 GeV
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $\sqrt{s_{NN}}$ = 62.4 GeV
 *obskey: 
 *reackey: AU AU --> X
-*qual: SQRT(S) IN GEV: 62.4
+*qual: SQRT(S)/NUCLEON IN GEV: 62.4
 *xheader: Npart
 *yheader: Standard Deviation
 *data: x: y
@@ -205,10 +218,10 @@
 
 *dataset:
 *location: Figure 2
-*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 62.4 GeV
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $\sqrt{s_{NN}}$ = 62.4 GeV
 *obskey: 
 *reackey: AU AU --> X
-*qual: SQRT(S) IN GEV: 62.4
+*qual: SQRT(S)/NUCLEON IN GEV: 62.4
 *xheader: Npart
 *yheader: Skewness
 *data: x: y
@@ -225,10 +238,10 @@
 
 *dataset:
 *location: Figure 2
-*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 62.4 GeV
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $\sqrt{s_{NN}}$ = 62.4 GeV
 *obskey: 
 *reackey: AU AU --> X
-*qual: SQRT(S) IN GEV: 62.4
+*qual: SQRT(S)/NUCLEON IN GEV: 62.4
 *xheader: Npart
 *yheader: Kurtosis
 *data: x: y
@@ -245,10 +258,10 @@
 
 *dataset:
 *location: Figure 2
-*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
 *obskey: 
 *reackey: AU AU --> X
-*qual: SQRT(S) IN GEV: 200
+*qual: SQRT(S)/NUCLEON IN GEV: 200
 *xheader: Npart
 *yheader: Mean
 *data: x: y
@@ -265,10 +278,10 @@
 
 *dataset:
 *location: Figure 2
-*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
 *obskey: 
 *reackey: AU AU --> X
-*qual: SQRT(S) IN GEV: 200
+*qual: SQRT(S)/NUCLEON IN GEV: 200
 *xheader: Npart
 *yheader: Standard Deviation
 *data: x: y
@@ -285,10 +298,10 @@
 
 *dataset:
 *location: Figure 2
-*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
 *obskey: 
 *reackey: AU AU --> X
-*qual: SQRT(S) IN GEV: 200
+*qual: SQRT(S)/NUCLEON IN GEV: 200
 *xheader: Npart
 *yheader: Skewness
 *data: x: y
@@ -305,10 +318,10 @@
 
 *dataset:
 *location: Figure 2
-*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV
+*dscomment: Centrality dependence of moments of $\Delta N_p$ distributions for Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
 *obskey: 
 *reackey: AU AU --> X
-*qual: SQRT(S) IN GEV: 200
+*qual: SQRT(S)/NUCLEON IN GEV: 200
 *xheader: Npart
 *yheader: Kurtosis
 *data: x: y
@@ -325,12 +338,12 @@
 
 *dataset:
 *location: Figure 3
-*dscomment: Centrality dependence of $S\sigma$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 19.6 GeV
+*dscomment: Centrality dependence of $S\sigma$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 19.6 GeV
 *obskey: 
 *reackey: AU AU --> X
-*qual: SQRT(S) IN GEV: 19.6
+*qual: SQRT(S)/NUCLEON IN GEV: 19.6
 *xheader: <Npart>
-*yheader: SkewnessSigma
+*yheader: $S\sigma$
 *data: x: y
 312.1; 0.696418 +- 0.186847 (DSYS=+0.0848569, -0.0848569); 
 188.2; 1.1592 +- 0.138615 (DSYS=+0.0822758, -0.0822758); 
@@ -341,10 +354,10 @@
 
 *dataset:
 *location: Figure 3
-*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 19.6 GeV
+*dscomment: Centrality dependence of $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 19.6 GeV
 *obskey: 
 *reackey: AU AU --> X
-*qual: SQRT(S) IN GEV: 19.6
+*qual: SQRT(S)/NUCLEON IN GEV: 19.6
 *xheader: <Npart>
 *yheader: KurtosisSigma^2
 *data: x: y
@@ -357,12 +370,12 @@
 
 *dataset:
 *location: Figure 3
-*dscomment: Centrality dependence of $S\sigma$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 62.4 GeV
+*dscomment: Centrality dependence of $S\sigma$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 62.4 GeV
 *obskey: 
 *reackey: AU AU --> X
-*qual: SQRT(S) IN GEV: 62.4
+*qual: SQRT(S)/NUCLEON IN GEV: 62.4
 *xheader: <Npart>
-*yheader: SkewnessSigma
+*yheader: $S\sigma$
 *data: x: y
 347.26; 0.420024 +- 0.0255386 (DSYS=+0.0420024, -0.0420024); 
 293.26; 0.377004 +- 0.0240504 (DSYS=+0.0377004, -0.0377004); 
@@ -377,10 +390,10 @@
 
 *dataset:
 *location: Figure 3
-*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 62.4 GeV
+*dscomment: Centrality dependence of $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 62.4 GeV
 *obskey: 
 *reackey: AU AU --> X
-*qual: SQRT(S) IN GEV: 62.4
+*qual: SQRT(S)/NUCLEON IN GEV: 62.4
 *xheader: <Npart>
 *yheader: KurtosisSigma^2
 *data: x: y
@@ -397,12 +410,12 @@
 
 *dataset:
 *location: Figure 3
-*dscomment: Centrality dependence of $S\sigma$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV
+*dscomment: Centrality dependence of $S\sigma$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
 *obskey: 
 *reackey: AU AU --> X
-*qual: SQRT(S) IN GEV: 200
+*qual: SQRT(S)/NUCLEON IN GEV: 200
 *xheader: <Npart>
-*yheader: SkewnessSigma
+*yheader: $S\sigma$
 *data: x: y
 352.4; 0.182111 +- 0.0207944 (DSYS=+0.0182111, -0.0182111); 
 299.3; 0.171893 +- 0.019257 (DSYS=+0.0171893, -0.0171893); 
@@ -417,10 +430,10 @@
 
 *dataset:
 *location: Figure 3
-*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV
+*dscomment: Centrality dependence of $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
 *obskey: 
 *reackey: AU AU --> X
-*qual: SQRT(S) IN GEV: 200
+*qual: SQRT(S)/NUCLEON IN GEV: 200
 *xheader: <Npart>
 *yheader: KurtosisSigma^2
 *data: x: y
@@ -441,8 +454,8 @@
 *obskey: 
 *reackey: AU AU --> X
 *qual: Lattice QCD Calculation
-*xheader: $sqrt{s{NN}}$ IN GeV
-*yheader: Npart: SkewnessSigma
+*xheader: $\sqrt{s_{NN}}$ IN GeV
+*yheader: Npart: $S\sigma$
 *data: x: y: y
 19.6; 400.0; 1.5 +- 0.6; 
 62.4; 400.0; 0.32 +- 0.04; 
@@ -451,14 +464,14 @@
 
 *dataset:
 *location: Figure 3
-*dscomment: Centrality dependence of $S\sigma$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 19.6 GeV from Transport Model Calculations
+*dscomment: Centrality dependence of $S\sigma$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 19.6 GeV from Transport Model Calculations
 *obskey: 
 *reackey: AU AU --> X
 *qual: Transport Model Calculation
 *qual: UrQMD net-proton
-*qual: SQRT(S) IN GEV: 19.6
+*qual: SQRT(S)/NUCLEON IN GEV: 19.6
 *xheader: Npart
-*yheader: SkewnessSigma
+*yheader: $S\sigma$
 *data: x: y
 361.34; 1.00139 +- 0.0770523; 
 313.768; 0.945305 +- 0.0718695; 
@@ -473,14 +486,14 @@
 
 *dataset:
 *location: Figure 3
-*dscomment: Centrality dependence of $S\sigma$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 62.4 GeV from Transport Model Calculations
+*dscomment: Centrality dependence of $S\sigma$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 62.4 GeV from Transport Model Calculations
 *obskey: 
 *reackey: AU AU --> X
 *qual: Transport Model Calculation
 *qual: UrQMD net-proton
-*qual: SQRT(S) IN GEV: 62.4
+*qual: SQRT(S)/NUCLEON IN GEV: 62.4
 *xheader: Npart
-*yheader: SkewnessSigma
+*yheader: $S\sigma$
 *data: x: y
 361.34; 0.658173 +- 0.0716848; 
 313.768; 0.644932 +- 0.0670201; 
@@ -495,14 +508,14 @@
 
 *dataset:
 *location: Figure 3
-*dscomment: Centrality dependence of $S\sigma$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV from Transport Model Calculations
+*dscomment: Centrality dependence of $S\sigma$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV from Transport Model Calculations
 *obskey: 
 *reackey: AU AU --> X
 *qual: Transport Model Calculation
 *qual: UrQMD net-proton
-*qual: SQRT(S) IN GEV: 200
+*qual: SQRT(S)/NUCLEON IN GEV: 200
 *xheader: Npart
-*yheader: SkewnessSigma
+*yheader: $S\sigma$
 *data: x: y
 361.34; 0.298332 +- 0.0671317; 
 313.768; 0.27045 +- 0.0632627; 
@@ -517,14 +530,14 @@
 
 *dataset:
 *location: Figure 3
-*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV from Transport Model Calculations
+*dscomment: Centrality dependence of $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV from Transport Model Calculations
 *obskey: 
 *reackey: AU AU --> X
 *qual: Transport Model Calculation
 *qual: UrQMD net-proton
-*qual: SQRT(S) IN GEV: 200
+*qual: SQRT(S)/NUCLEON IN GEV: 200
 *xheader: Npart
-*yheader: $\Kappa\sigma^2$
+*yheader: $\kappa\sigma^2$
 *data: x: y
 361.34; 1.27184 +- 0.52481; 
 313.768; 0.927365 +- 0.449994; 
@@ -539,14 +552,14 @@
 
 *dataset:
 *location: Figure 3
-*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV from Transport Model Calculations for net-baryon
+*dscomment: Centrality dependence of $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV from Transport Model Calculations for net-baryon
 *obskey: 
 *reackey: AU AU --> X
 *qual: Transport Model Calculation
 *qual: UrQMD net-baryon
-*qual: SQRT(S) IN GEV: 200
+*qual: SQRT(S)/NUCLEON IN GEV: 200
 *xheader: Npart
-*yheader: $\Kappa\sigma^2$
+*yheader: $\kappa\sigma^2$
 *data: x: y
 361.34; 0.969164 +- 0.510991; 
 313.768; 0.905069 +- 0.462007; 
@@ -561,14 +574,14 @@
 
 *dataset:
 *location: Figure 3
-*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV from Transport Model Calculations for net-proton (No Decay)
+*dscomment: Centrality dependence of $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV from Transport Model Calculations for net-proton (No Decay)
 *obskey: 
 *reackey: AU AU --> X
 *qual: Transport Model Calculation
 *qual: UrQMD net-proton (No Decay)
-*qual: SQRT(S) IN GEV: 200
+*qual: SQRT(S)/NUCLEON IN GEV: 200
 *xheader: Npart
-*yheader: $\Kappa\sigma^2$
+*yheader: $\kappa\sigma^2$
 *data: x: y
 361.34; 0.82428 +- 0.425665; 
 313.768; 1.1098 +- 0.397707; 
@@ -583,14 +596,14 @@
 
 *dataset:
 *location: Figure 3
-*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV from Transport Model Calculations
+*dscomment: Centrality dependence of $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV from Transport Model Calculations
 *obskey: 
 *reackey: AU AU --> X
 *qual: Transport Model Calculation
 *qual: AMPT default net-proton
-*qual: SQRT(S) IN GEV: 200
+*qual: SQRT(S)/NUCLEON IN GEV: 200
 *xheader: Npart
-*yheader: $\Kappa\sigma^2$
+*yheader: $\kappa\sigma^2$
 *data: x: y
 361.34; 1.12577 +- 0.610107; 
 313.768; 1.37062 +- 0.570827; 
@@ -605,14 +618,14 @@
 
 *dataset:
 *location: Figure 3
-*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV from Transport Model Calculations
+*dscomment: Centrality dependence of $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV from Transport Model Calculations
 *obskey: 
 *reackey: AU AU --> X
 *qual: Transport Model Calculation
 *qual: AMPT String Melting net-proton
-*qual: SQRT(S) IN GEV: 200
+*qual: SQRT(S)/NUCLEON IN GEV: 200
 *xheader: Npart
-*yheader: $\Kappa\sigma^2$
+*yheader: $\kappa\sigma^2$
 *data: x: y
 361.374; 1.35858 +- 0.691533; 
 313.666; 1.2795 +- 0.57346; 
@@ -627,14 +640,14 @@
 
 *dataset:
 *location: Figure 3
-*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV from Transport Model Calculations
+*dscomment: Centrality dependence of $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV from Transport Model Calculations
 *obskey: 
 *reackey: AU AU --> X
 *qual: Transport Model Calculation
 *qual: Therminator net-proton
-*qual: SQRT(S) IN GEV: 200
+*qual: SQRT(S)/NUCLEON IN GEV: 200
 *xheader: Npart
-*yheader: $\Kappa\sigma^2$
+*yheader: $\kappa\sigma^2$
 *data: x: y
 369.994; 0.947155 +- 0.49651; 
 316.404; 0.840123 +- 0.409692; 
@@ -649,14 +662,14 @@
 
 *dataset:
 *location: Figure 3
-*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV from Transport Model Calculations
+*dscomment: Centrality dependence of $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV from Transport Model Calculations
 *obskey: 
 *reackey: AU AU --> X
 *qual: Transport Model Calculation
 *qual: Hijing net-proton
-*qual: SQRT(S) IN GEV: 200
+*qual: SQRT(S)/NUCLEON IN GEV: 200
 *xheader: Npart
-*yheader: $\Kappa\sigma^2$
+*yheader: $\kappa\sigma^2$
 *data: x: y
 356.062; 1.07111 +- 0.698471; 
 306.812; 1.8615 +- 0.618178; 
@@ -671,12 +684,12 @@
 
 *dataset:
 *location: Figure 3
-*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV from Transport Model Calculations
+*dscomment: Centrality dependence of $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV from Transport Model Calculations
 *obskey: 
 *reackey: AU AU --> X
 *qual: Transport Model Calculation
 *qual: Hijing + Geant-Hijing Band, net-proton
-*qual: SQRT(S) IN GEV: 200
+*qual: SQRT(S)/NUCLEON IN GEV: 200
 *xheader: $S\sigma$
 *yheader: -
 *data: x
@@ -685,25 +698,26 @@
 
 *dataset:
 *location: Figure 3
-*dscomment: Centrality dependence of $\Kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $sqrt{s{NN}}$ = 200 GeV from Transport Model Calculations
+*dscomment: Centrality dependence of $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV from Transport Model Calculations
 *obskey: 
 *reackey: AU AU --> X
 *qual: Transport Model Calculation
 *qual: Hijing + Geant-Hijing Band, net-proton
-*qual: SQRT(S) IN GEV: 200
-*xheader: $\Kappa\sigma^2$
+*qual: SQRT(S)/NUCLEON IN GEV: 200
+*xheader: $\kappa\sigma^2$
 *yheader: -
+*data: x: y
 0.359 +- 0.137; 
 *dataend: 
 
 *dataset:
 *location: Figure 4
-*dscomment: $sqrt{s{NN}}$ dependence of $\Kappa\sigma^2$ for net proton distributions measured at RHIC. The results are STAR data.
+*dscomment: $\sqrt{s_{NN}}$ dependence of $\kappa\sigma^2$ for net proton distributions measured at RHIC. The results are STAR data.
 *obskey: 
 *reackey: AU AU --> X
 *qual: STAR data
-*xheader: $sqrt{s{NN}}$ IN GeV
-*yheader: $\Kappa\sigma^2$
+*xheader: $\sqrt{s_{NN}}$ IN GeV
+*yheader: $\kappa\sigma^2$
 *data: x: y
 19.6; 1.179 +- 0.4165 (DSYS=+0.219, -0.219); 
 62.4; 0.9515 +- 0.03442 (DSYS=+0.04445, -0.04445); 
@@ -712,12 +726,12 @@
 
 *dataset:
 *location: Figure 4
-*dscomment: $sqrt{s{NN}}$ dependence of $\Kappa\sigma^2$ for net proton distributions measured at RHIC. The results are from UrQMD net-proton.
+*dscomment: $\sqrt{s_{NN}}$ dependence of $\kappa\sigma^2$ for net proton distributions measured at RHIC. The results are from UrQMD net-proton.
 *obskey: 
 *reackey: AU AU --> X
 *qual: UrQMD net-proton
-*xheader: $sqrt{s{NN}}$ IN GeV (shifted)
-*yheader: $\Kappa\sigma^2$
+*xheader: $\sqrt{s_{NN}}$ IN GeV (shifted)
+*yheader: $\kappa\sigma^2$
 *data: x: y
 17.6; 1.43892 +- 0.137739; 
 57.4; 1.34356 +- 0.11636; 
@@ -726,12 +740,12 @@
 
 *dataset:
 *location: Figure 4
-*dscomment: $sqrt{s{NN}}$ dependence of $\Kappa\sigma^2$ for net proton distributions measured at RHIC. The results are from AMPT default net-proton.
+*dscomment: $\sqrt{s_{NN}}$ dependence of $\kappa\sigma^2$ for net proton distributions measured at RHIC. The results are from AMPT default net-proton.
 *obskey: 
 *reackey: AU AU --> X
 *qual: AMPT default net-proton
-*xheader: $sqrt{s{NN}}$ IN GeV (shifted)
-*yheader: $\Kappa\sigma^2$
+*xheader: $\sqrt{s_{NN}}$ IN GeV (shifted)
+*yheader: $\kappa\sigma^2$
 *data: x: y
 21.6; 1.42336 +- 0.150954; 
 67.4; 1.22544 +- 0.18106; 
@@ -740,12 +754,12 @@
 
 *dataset:
 *location: Figure 4
-*dscomment: $sqrt{s{NN}}$ dependence of $\Kappa\sigma^2$ for net proton distributions measured at RHIC. The results are from AMPT String Melting net-proton.
+*dscomment: $\sqrt{s_{NN}}$ dependence of $\kappa\sigma^2$ for net proton distributions measured at RHIC. The results are from AMPT String Melting net-proton.
 *obskey: 
 *reackey: AU AU --> X
 *qual: AMPT String Melting net-proton
-*xheader: $sqrt{s{NN}}$ IN GeV (shifted)
-*yheader: $\Kappa\sigma^2$
+*xheader: $\sqrt{s_{NN}}$ IN GeV (shifted)
+*yheader: $\kappa\sigma^2$
 *data: x: y
 23.6; 1.22405 +- 0.164789; 
 72.4; 1.20373 +- 0.143339; 
@@ -754,24 +768,24 @@
 
 *dataset:
 *location: Figure 4
-*dscomment: $sqrt{s{NN}}$ dependence of $\Kappa\sigma^2$ for net proton distributions measured at RHIC. The results are from Therminator net-proton.
+*dscomment: $\sqrt{s_{NN}}$ dependence of $\kappa\sigma^2$ for net proton distributions measured at RHIC. The results are from Therminator net-proton.
 *obskey: 
 *reackey: AU AU --> X
 *qual: Therminator net-proton
-*xheader: $sqrt{s{NN}}$ IN GeV (shifted)
-*yheader: $\Kappa\sigma^2$
+*xheader: $\sqrt{s_{NN}}$ IN GeV (shifted)
+*yheader: $\kappa\sigma^2$
 *data: x: y
 225.0; 0.975453 +- 0.0910154; 
 *dataend: 
 
 *dataset:
 *location: Figure 4
-*dscomment: $sqrt{s{NN}}$ dependence of $\Kappa\sigma^2$ for net proton distributions measured at RHIC. The results are from Hijing net-proton.
+*dscomment: $\sqrt{s_{NN}}$ dependence of $\kappa\sigma^2$ for net proton distributions measured at RHIC. The results are from Hijing net-proton.
 *obskey: 
 *reackey: AU AU --> X
 *qual: Hijing net-proton
-*xheader: $sqrt{s{NN}}$ IN GeV (shifted)
-*yheader: $\Kappa\sigma^2$
+*xheader: $\sqrt{s_{NN}}$ IN GeV (shifted)
+*yheader: $\kappa\sigma^2$
 *data: x: y
 15.6; 1.38545 +- 0.128683; 
 52.4; 1.33965 +- 0.127959; 
