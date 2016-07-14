@@ -6,7 +6,7 @@
 *status: Edited 
 *title: $\rm{J}/\psi$ production at low transverse momentum in p+p and d+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
 *comment: BNL-RHIC.  We report on the measurement of $\rm{J}/\psi$ production in the dielectron channel at mid-rapidity (|y|<1) in p+p and d+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV from the STAR experiment at the Relativistic Heavy Ion Collider. The transverse momentum $p_{T}$ spectra in p+p for $p_{T}$ < 4 GeV/c and d+Au collisions for $p_{T}$ < 3 GeV/c are presented. These measurements extend the STAR coverage for $\rm{J}/\psi$ production in p+p collisions to low $p_{T}$. The $<p_{T}^{2}>$ from the measured $\rm{J}/\psi$ invariant cross section in p+p and d+Au collisions are evaluated and compared to similar measurements at other collision energies. The nuclear modification factor for $\rm{J}/\psi$ is extracted as a function of $p_{T}$ and collision centrality in d+Au and compared to model calculations using the modified nuclear Parton Distribution Function and a final-state $\rm{J}/\psi$ nuclear absorption cross section
-*durhamId:
+*durhamId: 6623
 *inspireId: 1420183
 *cdsId: 2130554
 *detector: STAR
