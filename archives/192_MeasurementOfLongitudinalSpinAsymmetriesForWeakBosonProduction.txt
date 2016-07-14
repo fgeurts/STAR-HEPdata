@@ -14,8 +14,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: $E_T^e$ distribution of $W^{\pm}$ candidate events, background contributions, and sum of backgrounds and W -> ev MC signal. This plot is for Electron |eta|<0.5
-*obskey: ET
-*reackey: P P --> W+ W- X
+*obskey: N
+*reackey: P P --> W+ X
+*reackey: P P --> W- X
+*qual: RE: P P --> (W+ W- X)
 *qual: SQRT(S) IN GEV:  200
 *qual: Electron |eta|<0.5
 *xheader: $E_T^e$
@@ -53,8 +55,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: $E_T^e$ distribution of $W^{\pm}$ candidate events, background contributions, and sum of backgrounds and W -> ev MC signal. This plot is for Electron 0.5<|eta|<1.1
-*obskey: ET
-*reackey: P P --> W+ W- X
+*obskey: N
+*reackey: P P --> W+ X
+*reackey: P P --> W- X
+*qual: RE: P P --> (W+ W- X)
 *qual: SQRT(S) IN GEV:  200
 *xheader: $E_T^e$
 *yheader: Events / 2 GeV
@@ -92,8 +96,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: $E_T^e$ distribution of $W^{\pm}$ candidate events, background contributions, and sum of backgrounds and W -> ev MC signal. This plot is for Positron |eta|<0.5
-*obskey: ET
-*reackey: P P --> W+ W- X
+*obskey: N
+*reackey: P P --> W+ X
+*reackey: P P --> W- X
+*qual: RE: P P --> (W+ W- X)
 *qual: SQRT(S) IN GEV:  200
 *xheader: $E_T^e$
 *yheader: Events / 2 GeV
@@ -131,8 +137,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: $E_T^e$ distribution of $W^{\pm}$ candidate events, background contributions, and sum of backgrounds and W -> ev MC signal. This plot is for Positron 0.5<|eta|<1.1
-*obskey: ET
-*reackey: P P --> W+ W- X
+*obskey: N
+*reackey: P P --> W+ X
+*reackey: P P --> W- X
+*qual: RE: P P --> (W+ W- X)
 *qual: SQRT(S) IN GEV:  200
 *xheader: $E_T^e$
 *yheader: Events / 2 GeV
@@ -170,8 +178,11 @@
 *dataset:
 *location: Figure 2a
 *dscomment: Signed $P_T$-balance distribution for e+/e- candidates reconstructed in the EEMC
-*obskey: PT
-*reackey: P P --> W+ W- X
+*obskey: N
+*reackey: P P --> Z X
+*reackey: P P --> W+ X
+*reackey: P P --> W- X
+*qual: RE: P P --> (Z X), (W+ W- X)
 *qual: SQRT(S) IN GEV:  200
 *xheader: Signed $p_T$-balance
 *yheader: Events / 4 (GeV/c)
@@ -205,8 +216,9 @@
 *dataset:
 *location: Figure 2b
 *dscomment: Distribution of the product of the TPC reconstructed charge sign and $E_T/p_T$.
-*obskey: ET/PT
-*reackey: P P --> W+ W- X
+*obskey: N
+*reackey: P P --> E+ E- X
+*qual: RE: P P --> E+ E- X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Q*$E_T/p_T$
 *yheader: Events
@@ -247,8 +259,9 @@
 *dataset:
 *location: Figure 3
 *dscomment: Distribution of the invariant mass of Z/$\gamma^*$ -> e+ e- candidate events, with MC for comparison.
-*obskey: MASS
-*reackey: P P --> W+ W- X
+*obskey: N
+*reackey: P P --> Z X
+*qual: RE: P P --> Z X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Mass(GeV)
 *yheader: Events / 2 (GeV/c^2)
@@ -308,7 +321,8 @@
 *location: Figure 4
 *dscomment: Longitudinal single-spin asymmetry $A_L$ for W+ production as a function of lepton pseudorapidity.
 *obskey: AL
-*reackey: P P --> W+ W- X
+*reackey: P P --> W+ X
+*qual: RE: P P --> W+ X
 *qual: SQRT(S) IN GEV:  200
 *qual: Relative luminosity uncertainty: 0.007
 *qual: Beam polarizatoin scale uncertainty: 3.4% 
@@ -329,7 +343,8 @@
 *location: Figure 4:
 *dscomment: Longitudinal single-spin asymmetry $A_L$ for W- production as a function of lepton pseudorapidity.
 *obskey: AL
-*reackey: P P --> W+ W- X
+*reackey: P P --> W- X
+*qual: RE: P P --> W- X
 *qual: SQRT(S) IN GEV:  200
 *qual: Relative luminosity uncertainty: 0.007
 *qual: Beam polarizatoin scale uncertainty: 3.4% 
@@ -350,7 +365,8 @@
 *location: Figure 4
 *dscomment: Longitudinal single-spin asymmetry $A_L$ for W+ production as a function of lepton pseudorapidity.
 *obskey: AL
-*reackey: P P --> W+ W- X
+*reackey: P P --> W+ X
+*qual: RE: P P --> W+ X
 *qual: SQRT(S) IN GEV:  200
 *qual: Theory $W^{+/-}\,A_L$
 *xheader: -
@@ -371,9 +387,10 @@
 *location: Figure 5
 *dscomment: Longitudinal double-spin asymmetry $A_{LL}$ for W+ production as a function of lepton pseudorapidity.
 *obskey: ALL
-*reackey: P P --> W+ W- X
+*reackey: P P --> W+ X
+*qual: RE: P P --> W+ X
 *qual: SQRT(S) IN GEV:  200
-*qual: Beam polarizatoin scale uncertainty: 6.5% 
+*qual: Beam polarization scale uncertainty: 6.5% 
 *qual: STAR $W^+\,A_{LL}$
 *xheader: Lepton $|\eta|$
 *yheader: $A_{LL}$
@@ -388,9 +405,10 @@
 *location: Figure 5
 *dscomment: Longitudinal double-spin asymmetry $A_{LL}$ for W- production as a function of lepton pseudorapidity.
 *obskey: ALL
-*reackey: P P --> W+ W- X
+*reackey: P P --> W- X
+*qual: RE: P P --> W- X
 *qual: SQRT(S) IN GEV:  200
-*qual: Beam polarizatoin scale uncertainty: 6.5% 
+*qual: Beam polarization scale uncertainty: 6.5% 
 *qual: STAR $W^-\,A_{LL}$
 *xheader: Lepton $|\eta|$
 *yheader: $A_{LL}$
@@ -405,7 +423,9 @@
 *location: Figure 5
 *dscomment: Longitudinal double-spin asymmetry $A_{LL}$ for theory $W^{+/-}$ production as a function of lepton pseudorapidity.
 *obskey: ALL
-*reackey: P P --> W+ W- X
+*reackey: P P --> W+ X
+*reackey: P P --> W- X
+*qual: RE: P P --> W+ W- X
 *qual: SQRT(S) IN GEV:  200
 *qual: Theory: $W^{+/-}\,A_{LL}$
 *xheader: Lepton $|\eta|$
