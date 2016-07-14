@@ -320,7 +320,7 @@
 *dataset:
 *location: Figure 4
 *dscomment: Longitudinal single-spin asymmetry $A_L$ for W+ production as a function of lepton pseudorapidity.
-*obskey: AL
+*obskey: ASYM
 *reackey: P P --> W+ X
 *qual: RE: P P --> W+ X
 *qual: SQRT(S) IN GEV:  200
@@ -342,7 +342,7 @@
 *dataset:
 *location: Figure 4:
 *dscomment: Longitudinal single-spin asymmetry $A_L$ for W- production as a function of lepton pseudorapidity.
-*obskey: AL
+*obskey: ASYM
 *reackey: P P --> W- X
 *qual: RE: P P --> W- X
 *qual: SQRT(S) IN GEV:  200
@@ -364,7 +364,7 @@
 *dataset:
 *location: Figure 4
 *dscomment: Longitudinal single-spin asymmetry $A_L$ for W+ production as a function of lepton pseudorapidity.
-*obskey: AL
+*obskey: ASYM
 *reackey: P P --> W+ X
 *qual: RE: P P --> W+ X
 *qual: SQRT(S) IN GEV:  200
@@ -386,7 +386,7 @@
 *dataset:
 *location: Figure 5
 *dscomment: Longitudinal double-spin asymmetry $A_{LL}$ for W+ production as a function of lepton pseudorapidity.
-*obskey: ALL
+*obskey: ASYM
 *reackey: P P --> W+ X
 *qual: RE: P P --> W+ X
 *qual: SQRT(S) IN GEV:  200
@@ -404,7 +404,7 @@
 *dataset:
 *location: Figure 5
 *dscomment: Longitudinal double-spin asymmetry $A_{LL}$ for W- production as a function of lepton pseudorapidity.
-*obskey: ALL
+*obskey: ASYM
 *reackey: P P --> W- X
 *qual: RE: P P --> W- X
 *qual: SQRT(S) IN GEV:  200
@@ -422,7 +422,7 @@
 *dataset:
 *location: Figure 5
 *dscomment: Longitudinal double-spin asymmetry $A_{LL}$ for theory $W^{+/-}$ production as a function of lepton pseudorapidity.
-*obskey: ALL
+*obskey: ASYM
 *reackey: P P --> W+ X
 *reackey: P P --> W- X
 *qual: RE: P P --> W+ W- X
