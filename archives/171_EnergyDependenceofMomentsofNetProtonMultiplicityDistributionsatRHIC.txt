@@ -5,7 +5,7 @@
 *status: Encoded 11 JUL 2016 by Nickolas Luttrell (Rice University)
 *title: Energy Dependence of Moments of Net-proton Multiplicity Distributions at RHIC
 *comment: BNL-RHIC.  We report the beam energy ($\sqrt{s_{NN}}$ = 7.7 - 200 GeV) and collision centrality dependence of the mean (M), standard deviation ($\sigma$), skewness (S), and kurtosis ($\kappa$) of the net-proton multiplicity distributions in Au+Au collisions. The measurements are carried out by the STAR experiment at midrapidity (|y| < 0.5) and within the transverse momentum range 0.4 < pT < 0.8 GeV/c in the first phase of the Beam Energy Scan program at the Relativistic Heavy Ion Collider. These measurements are important for understanding the Quantum Chromodynamic (QCD) phase diagram. The products of the moments, $S\sigma$ and $\kappa\sigma^{2}$, are sensitive to the correlation length of the hot and dense medium created in the collisions and are related to the ratios of baryon number susceptibilities of corresponding orders. The products of moments are found to have values significantly below the Skellam expectation and close to expectations based on independent proton and anti-proton production. The measurements are compared to a transport model calculation to understand the effect of acceptance and baryon number conservation, and also to a hadron resonance gas model.
-*durhamId:
+*durhamId: 6621
 *inspireId: 1255072
 *cdsId: 1602722
 *detector: STAR
