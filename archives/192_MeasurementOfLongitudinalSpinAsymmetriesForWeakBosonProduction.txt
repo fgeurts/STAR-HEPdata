@@ -327,7 +327,7 @@
 *qual: Relative luminosity uncertainty: 0.007
 *qual: Beam polarizatoin scale uncertainty: 3.4% 
 *qual: STAR W+ $A_L$
-*xheader: -
+*xheader: Eta Average
 *yheader: $A_L$
 *qual: Eta avr: Eta rms: asym avr value: Asym up limit: Asym low limit
 *data: x: y: y: y: y
@@ -349,7 +349,7 @@
 *qual: Relative luminosity uncertainty: 0.007
 *qual: Beam polarizatoin scale uncertainty: 3.4% 
 *qual: STAR W- $A_L$
-*xheader: -
+*xheader: Eta Average
 *yheader: $A_L$
 *qual: Eta avr: Eta rms: asym avr value: Asym up limit: Asym low limit
 *data: x: y: y: y: y
@@ -369,7 +369,7 @@
 *qual: RE: P P --> W+ X
 *qual: SQRT(S) IN GEV:  200
 *qual: Theory $W^{+/-}\,A_L$
-*xheader: -
+*xheader: Eta Average
 *yheader: $A_L$
 *qual: Eta avr: W+ DSSV08 RHICBOS: W+ DSSV08 CHE NLO: W+ LSS10 CHE NLO: W- DSSV08 RHICBOS: W- DSSV08 CHE NLO: W- LSS10 CHE NLO
 *data: x: y: y: y: y: y: y
