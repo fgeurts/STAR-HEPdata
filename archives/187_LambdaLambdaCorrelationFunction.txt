@@ -5,7 +5,7 @@
 *status: Encoded 01 JUN 2016 by Nickolas Luttrell (Rice University)
 *title: The $\Lambda\Lambda$ Correlation Function in Au+Au collisions at $\sqrt{s_{NN}}=$ 200 GeV
 *comment: BNL-RHIC.  We present $\Lambda\Lambda$ correlation measurements in heavy-ion collisions for Au+Au collisions at $\sqrt{s_{NN}}= 200$ GeV using the STAR experiment at the Relativistic Heavy-Ion Collider (RHIC). The Lednick$\acute{y}$-Lyuboshitz analytical model has been used to fit the data to obtain a source size, a scattering length and an effective range. Implications of the measurement of the $\Lambda\Lambda$ correlation function and interaction parameters for di-hyperon searches are discussed
-*durhamId:
+*durhamId: 6629
 *inspireId: 1311513
 *cdsId: 1750864
 *detector: STAR
@@ -297,7 +297,7 @@
 *qual: SQRT(S) IN GEV:  200
 *xheader: Particle State
 *yheader: Values
-*qual: .: l/a0 (fm^-1): l/|a0| (fm^-1): $r_{eff}$
+*qual: .: $l/a_0$ (fm$^{-1}$): $l/|a_0|$ (fm$^{-1}$): $r_{eff}$
 *qual: Secondary SysErr on STAR: 0.56: 0.56: 2.09
 *data: x: y: y: y
 Lm-Lm(STAR); 0.91 +- 0.31 (DSYS=0.07); 0.91 +- 0.31 (DSYS=0.07); 8.52 +- 2.56 (DSYS=0.74);

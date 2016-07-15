@@ -5,7 +5,7 @@
 *status: Encoded 02 JUN 2016 by Nickolas Luttrell (Rice University)
 *title: Observation of $D^0$ meson nuclear modifications in Au+Au collisions at $\sqrt{s_{_{\mathrm{NN}}}}$ = 200 GeV
 *comment: BNL-RHIC.  We report the first measurement of charmed-hadron ($D^0$) production via the hadronic decay channel ($D^0\rightarrow K^- + \pi^+$) in Au+Au collisions at $\sqrt{s_{_{\mathrm{NN}}}}$ = 200\,GeV with the STAR experiment. The charm production cross-section per nucleon-nucleon collision at mid-rapidity scales with the number of binary collisions, $N_{bin}$, from $p$+$p$ to central Au+Au collisions. The $D^0$ meson yields in central Au+Au collisions are strongly suppressed compared to those in $p$+$p$ scaled by $N_{bin}$, for transverse momenta $p_{T}>3$ GeV/$c$, demonstrating significant energy loss of charm quarks in the hot and dense medium. An enhancement at intermediate $p_{T}$ is also observed. Model calculations including strong charm-medium interactions and coalescence hadronization describe our measurements
-*durhamId:
+*durhamId: 6628
 *inspireId: 1292132
 *cdsId: 1699274
 *detector: STAR
@@ -19,7 +19,7 @@
 *reackey: D0 --> K- PI+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T$ in GeV/c
-*yheader: d2N/(Nev2πpTdpTdy) (GeV/c)-2  $d^2N/(N_{ev}2\pi p_Tdp_Tdy)$
+*yheader:  $d^2N/(N_{ev}2\pi p_Tdp_Tdy)$ in (GeV/c)$^{-2}$
 *qual: CENTRALITIES IN PCT: 0-80: 0-10: 10-40: 40-80
 *data: x: y: y: y: y
 0.315; 0.0913 +- 0.0161 (DSYS=+0.0125, -0.0125); 0.21 +- 0.0609 (DSYS=+0.0265, -0.0265); 0.122 +- 0.0265 (DSYS=+0.0134, -0.0134); 0.0163 +- 0.00351 (DSYS=+0.00208, -0.00208); 
