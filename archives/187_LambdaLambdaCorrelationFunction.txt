@@ -14,8 +14,10 @@
 *dataset:
 *location: Figure 1
 *dscomment: The invariant mass distribution for $\Lambda$ and $\bar{\Lambda}$ produced in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV, for 0-80% centrality. The $\Lambda$ and $\bar{\Lambda}$ candidates lying in the mass range 1.112 to 1.120 GeV/c^2 were selected for the correlation measurement.
-*obskey: MASS
-*reackey: AU AU --> LAMBDA ALAMBDA X
+*obskey: N
+*reackey: AU AU --> ALAMBDA X
+*reackey: AU AU --> LAMBDA X
+*qual: AU AU --> LAMBDA ALAMBDA X
 *qual: SQRT(S) IN GEV:  200
 *xheader: MASS IN GEV/C^2
 *yheader: Counts
@@ -194,7 +196,9 @@
 *location: Figure 2
 *dscomment: The $\Lambda\Lambda$ and $\bar{\Lambda}\bar{\Lambda}$ correlation function in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV, for 0-80% centrality.
 *obskey: CORR
-*reackey: *reackey: AU AU --> LAMBDA ALAMBDA X
+*reackey: AU AU --> ALAMBDA X
+*reackey: AU AU --> LAMBDA X
+*qual: AU AU --> LAMBDA ALAMBDA X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Q IN GEV/C
 *yheader: C(Q)
@@ -256,11 +260,12 @@
 *location: Figure 3
 *dscomment: The combined $\Lambda\Lambda$ and $\bar{\Lambda}\bar{\Lambda}$ correlation function for 0-80% centrality Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.
 *obskey: CORR
-*reackey: *reackey: AU AU --> LAMBDA ALAMBDA X
+*reackey: AU AU --> ALAMBDA X
+*reackey: AU AU --> LAMBDA X
+*qual: AU AU --> LAMBDA ALAMBDA X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Q IN GEV/C
-*yheader: -
-*qual: .: C(Q): $\Lambda\Lambda$ No residual: $\Lambda\Lambda$ with residual
+*yheader: C(Q): $\Lambda\Lambda$ No residual: $\Lambda\Lambda$ with residual
 *data: x: y: y: y
 0.01; 0.8228 +- 0.0767992 (DSYS=+0.118214, -0.118214); 0.909636; 0.835034; 
 0.03; 0.8775 +- 0.0297943 (DSYS=+0.116843, -0.116843); 0.910942; 0.8524685; 
@@ -293,11 +298,12 @@
 *location: Figure 4
 *dscomment: The $\Lambda\Lambda$ interaction parameters from this experiment.
 *obskey: REFF
-*reackey: *reackey: AU AU --> LAMBDA ALAMBDA X
+*reackey: AU AU --> ALAMBDA X
+*reackey: AU AU --> LAMBDA X
+*qual: AU AU --> LAMBDA ALAMBDA X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Particle State
-*yheader: Values
-*qual: .: $l/a_0$ (fm$^{-1}$): $l/|a_0|$ (fm$^{-1}$): $r_{eff}$
+*yheader: $l/a_0$ (fm$^{-1}$): $l/|a_0|$ (fm$^{-1}$): $r_{eff}$
 *qual: Secondary SysErr on STAR: 0.56: 0.56: 2.09
 *data: x: y: y: y
 Lm-Lm(STAR); 0.91 +- 0.31 (DSYS=0.07); 0.91 +- 0.31 (DSYS=0.07); 8.52 +- 2.56 (DSYS=0.74);
