@@ -14,7 +14,9 @@
 *location: Figure 7
 *dscomment: Estimated electron purity vs. momentum in 200 GeV Au + Au collisions
 *obskey: RATIO
-*reackey: AU AU --> E- E+ X
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *qual: .: mb: c
 *xheader: P
@@ -71,7 +73,9 @@
 *dscomment: Acceptance correction factor for unlike-sign and like-sign pair difference from 200 GeV Au+Au minimum-bias collisions.
 *obskey: DMASS
 *obskey: RATIO
-*reackey: AU AU --> E- E+ X
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: M_ee IN GeV/c^2
 *yheader: dM_ee: unLikeS(mix)/LikeS(mix)
@@ -116,12 +120,14 @@
 *dataset:
 *location: Figure 18
 *dscomment: Ratio of the same-event like-sign to the mixed event unlike-sign distributions.
-*obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: DMASS
+*obskey: RATIO
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*qual: .: .: LikeS/unLikeS(mix)
 *xheader: M_ee
-*yheader: dM_ee
+*yheader: dM_ee: LikeS/unLikeS(mix)
 *data: x: y: y
 0.0125; 0.025; 0.977 +- 0.0046; 
 0.0375; 0.025; 1.01 +- 0.0026; 
@@ -163,12 +169,14 @@
 *dataset:
 *location: Figure 20a
 *dscomment: $e^+$ $e^-$ invariant mass pair distributions of signal pairs compared to the inclusive unlike sign and reconstructed background pairs in 200 GeV Au+Au minimum-bias collisions.
-*obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: DMASS
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*qual: .: .: dN/dM_ee(raw): dN/dM_ee(background): dN/dM_ee(signal)
 *xheader: M_ee
-*yheader: dM_ee
+*yheader: dM_ee: dN/dM_ee(raw): dN/dM_ee(background): dN/dM_ee(signal)
 *data: x: y: y: y: y
 0.005; 0.01; 0.584 +- 0.000483; 0.0023 +- 2.89e-05; 0.587 +- 0.000482; 
 0.015; 0.01; 0.188 +- 0.000284; 0.00786 +- 5.32e-05; 0.196 +- 0.000279; 
@@ -228,12 +236,14 @@
 *dataset:
 *location: Figure 20b
 *dscomment: Signal-to-background ratios in minimum bias p+p and Au+Au collisions. 
-*obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: DMASS
+*obskey: RATIO
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*qual: .: .: signal/background
 *xheader: M_ee
-*yheader: dM_ee
+*yheader: dM_ee: signal/background
 *qual: Au + Au MinBias
 *data: x: y: y
 0.005; 0.01; 254.0 +- 3.21; 
@@ -294,12 +304,14 @@
 *dataset:
 *location: Figure 20b
 *dscomment: Signal-to-background ratios in central p+p and Au+Au collisions.
-*obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: DMASS
+*obskey: RATIO
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*qual: .: .: signal/background
 *xheader: M_ee
-*yheader: dM_ee
+*yheader: dM_ee: signal/background
 *qual: Au + Au Central
 *data: x: y: y;
 0.005; 0.01; 126.0 +- 1.23; 
@@ -353,11 +365,14 @@
 *dataset:
 *location: Figure 28a
 *dscomment: Invariant mass spectrum in the STAR acceptance ($p_T^e$ > 0.2 GeV/c, |$\eta^e$| < 1, and |$y_{ee}$|) from SQRT($s_{NN}$) = 200 GeV Au+Au minimum-bias collisions.
-*obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: DMASS
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: M_ee
-*yheader: dM_ee
+*yheader: dM_ee: dN/dM_ee: Cocktail
 *data: x: y: y: y
 0.005; 0.01; 8.54 +- 0.0042 (DSYS=+1.19, -1.19); 9.35 +- 0 (DSYS=+0.965, -0.965); 
 0.015; 0.01; 2.34 +- 0.00208 (DSYS=+0.326, -0.326); 2.57 +- 0 (DSYS=+0.267, -0.267); 
@@ -418,12 +433,15 @@
 *dataset:
 *location: Figure 28b
 *dscomment: Invariant mass spectrum in the STAR acceptance ($p_T^e$ > 0.2 GeV/c, |$\eta^e$| < 1, and |$y_{ee}$|) from SQRT($s_{NN}$) = 200 GeV Au+Au minimum-bias collisions.
-*obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: DMASS
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *qual: rho
 *xheader: M_ee
-*yheader: dM_ee
+*yheader: dM_ee: dN/dM_ee: Cocktail
 *data: x: y: y: y
 0.005; 0.01; 8.54 +- 0.0042 (DSYS=+1.19, -1.19); 9.35 +- 0 (DSYS=+0.965, -0.965); 
 0.015; 0.01; 2.34 +- 0.00208 (DSYS=+0.326, -0.326); 2.57 +- 0 (DSYS=+0.267, -0.267); 
@@ -484,12 +502,15 @@
 *dataset:
 *location: Figure 30
 *dscomment:  Invariant mass spectra from SQRT($s_{NN}$ = 200 GeV Au+Au minimum-bias collisions in pT range 0 - 5 GeV/c. The ratio of dielectron yield over cocktail for different pT bins, and the comparison with model calculations.
-*obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: DMASS
+*obskey: DN/DMASS
+*obskey: RATIO
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: M_ee
-*yheader: dM_ee
-*qual: .: .: dN/dM_ee: Cocktail: Ratio: Ratio(Rapp.): Ratio(PHSD)
+*yheader: dM_ee: dN/dM_ee: Cocktail: Ratio: Ratio(Rapp.): Ratio(PHSD)
 *qual: pT IN GEV/C: 0.0 TO 5
 *data: x: y: y: y: y: y: y
 0.005; 0.01; 0.907 +- 0.00139 (DSYS=+0.127, -0.127); 1.05; 0.865; 1.01; 1.0; 
@@ -541,12 +562,15 @@
 *dataset:
 *location: Figure 30
 *dscomment: Invariant mass spectra from SQRT($s_{NN}$ = 200 GeV Au+Au minimum-bias collisions in pT range 5 - 10 GeV/c. The ratio of dielectron yield over cocktail for different pT bins, and the comparison with model calculations.
-*obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: DMASS
+*obskey: DN/DMASS
+*obskey: RATIO
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: M_ee
-*yheader: dM_ee
-*qual: .: .: dN/dM_ee: Cocktail: Ratio: Ratio(Rapp.): Ratio(PHSD)
+*yheader: dM_ee: dN/dM_ee: Cocktail: Ratio: Ratio(Rapp.): Ratio(PHSD)
 *qual: pT IN GEV/C: 0.5 TO 1.0
 *data: x: y: y: y: y: y: y;
 0.005; 0.01; 5.63 +- 0.00304 (DSYS=+0.789, -0.789); 6.38; 0.882; 1.01; 1.0; 
@@ -598,12 +622,15 @@
 *dataset:
 *location: Figure 30
 *dscomment: Invariant mass spectra from SQRT($s_{NN}$ = 200 GeV Au+Au minimum-bias collisions in pT range 1 - 1.5 GeV/c. The ratio of dielectron yield over cocktail for different pT bins, and the comparison with model calculations.
-*obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: DMASS
+*obskey: DN/DMASS
+*obskey: RATIO
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: M_ee
-*yheader: dM_ee
-*qual: .: .: dN/dM_ee: Cocktail: Ratio: Ratio(Rapp.): Ratio(PHSD)
+*yheader: dM_ee: dN/dM_ee: Cocktail: Ratio: Ratio(Rapp.): Ratio(PHSD)
 *qual: pT IN GEV/C: 1.0 TO 1.5
 *data: x: y: y: y: y: y: y;
 0.005; 0.01; 1.48 +- 0.00158 (DSYS=+0.207, -0.207); 1.5; 0.987; 1.02; 1.0; 
@@ -658,8 +685,12 @@
 *dataset:
 *location: Figure 30
 *dscomment: Invariant mass spectra from SQRT($s_{NN}$ = 200 GeV Au+Au minimum-bias collisions in pT range 1.5 - 2 GeV/c. The ratio of dielectron yield over cocktail for different pT bins, and the comparison with model calculations.
-*obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: DMASS
+*obskey: DN/DMASS
+*obskey: RATIO
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: M_ee
 *yheader: dM_ee
@@ -710,12 +741,15 @@
 *dataset:
 *location: Figure 30
 *dscomment: Invariant mass spectra from SQRT($s_{NN}$ = 200 GeV Au+Au minimum-bias collisions integrated. The ratio of dielectron yield over cocktail for different pT bins, and the comparison with model calculations.
-*obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: DMASS
+*obskey: DN/DMASS
+*obskey: RATIO
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: M_ee
-*yheader: dM_ee
-*qual: .: .: dN/dM_ee: Cocktail: Ratio: Ratio(Rapp.): Ratio(PHSD)
+*yheader: dM_ee: dN/dM_ee: Cocktail: Ratio: Ratio(Rapp.): Ratio(PHSD)
 *qual: pT IN GEV/C: integrated
 *data: x: y: y: y: y: y: y;
 0.005; 0.01; 8.54 +- 0.0042 (DSYS=+1.19, -1.19); 9.35; 0.914; 1.01; 1.0; 
@@ -776,12 +810,13 @@
 *dataset:
 *location: Figure 31
 *dscomment: The integrated dielectron yield as a function of pair pT in invariant mass range 0 - 0.15 GeV/c^2 compared with cocktail. The ratio of dielectron yield over cocktail for different mass ranges as a function of pair pT.
-*obskey: DN/DM
-*reackey: AU AU --> E- E+ X
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T^{ee}$
-*yheader: dN/dM_ee
-*qual: .: .: Cocktail: Cocktail_un(100%)
+*yheader: dN/dM_ee: Cocktail: Cocktail_un(100%)
 *qual: M_ee IN GEV/C^2: 0.0 TO 0.15
 *data: x: y: y: y
 0.25; 0.104 +- 0.000173 (DSYS=+0.0145, -0.0145); 0.121; 0.107; 
@@ -792,12 +827,13 @@
 *dataset:
 *location: Figure 31
 *dscomment: The integrated dielectron yield as a function of pair pT in invariant mass range 0.15 - 0.3 GeV/c^2 compared with cocktail. The ratio of dielectron yield over cocktail for different mass ranges as a function of pair pT.
-*obskey: DN/DM
-*reackey: AU AU --> E- E+ X
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T^{ee}$
-*yheader: dN/dM_ee
-*qual: .: .: Cocktail: Cocktail_un(100%)
+*yheader: dN/dM_ee: Cocktail: Cocktail_un(100%)
 *qual: M_ee IN GEV/C^2: 0.15 TO 0.30
 *data: x: y: y: y;
 0.25; 0.00182 +- 0.000205 (DSYS=+0.000345, -0.000345); 0.00156; 0.312; 
@@ -808,12 +844,13 @@
 *dataset:
 *location: Figure 31
 *dscomment: The integrated dielectron yield as a function of pair pT in invariant mass range 0.3 - 0.76 GeV/c^2 compared with cocktail. The ratio of dielectron yield over cocktail for different mass ranges as a function of pair pT.
-*obskey: DN/DM
-*reackey: AU AU --> E- E+ X
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T^{ee}$
-*yheader: dN/dM_ee
-*qual: .: .: Cocktail: Cocktail_un(100%)
+*yheader: dN/dM_ee: Cocktail: Cocktail_un(100%)
 *qual: M_ee IN GEV/C^2: 0.30 TO 0.76
 *data: x: y: y: y;
 0.25; 0.0025 +- 0.000186 (DSYS=+0.000399, -0.000399); 0.00146; 0.288; 
@@ -824,12 +861,13 @@
 *dataset:
 *location: Figure 31
 *dscomment: The integrated dielectron yield as a function of pair pT in invariant mass range 0.76 - 1.05 GeV/c^2 compared with cocktail. The ratio of dielectron yield over cocktail for different mass ranges as a function of pair pT.
-*obskey: DN/DM
-*reackey: AU AU --> E- E+ X
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T^{ee}$
-*yheader: dN/dM_ee
-*qual: .: .: Cocktail: Cocktail_un(100%)
+*yheader: dN/dM_ee: Cocktail: Cocktail_un(100%)
 *qual: M_ee IN GEV/C^2: 0.76 TO 1.05
 *data: x: y: y: y;
 0.25; 0.00208 +- 0.000139 (DSYS=+0.00032, -0.00032); 0.00195; 0.196; 
@@ -840,12 +878,13 @@
 *dataset:
 *location: Figure 31
 *dscomment: The integrated dielectron yield as a function of pair pT in invariant mass range 1.05 - 1.8 GeV/c^2 compared with cocktail. The ratio of dielectron yield over cocktail for different mass ranges as a function of pair pT.
-*obskey: DN/DM
-*reackey: AU AU --> E- E+ X
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T^{ee}$
-*yheader: dN/dM_ee
-*qual: .: .: Cocktail: Cocktail_un(100%)
+*yheader: dN/dM_ee: Cocktail: Cocktail_un(100%)
 *qual: M_ee IN GEV/C^2: 1.05 TO 1.8
 *data: x: y: y: y;
 0.25; 0.000173 +- 2.66e-05 (DSYS=+3.45e-05, -3.45e-05); 0.000221; 0.157; 
@@ -856,12 +895,13 @@
 *dataset:
 *location: Figure 31
 *dscomment: The integrated dielectron yield as a function of pair pT in invariant mass range 1.8 - 2.8 GeV/c^2 compared with cocktail. The ratio of dielectron yield over cocktail for different mass ranges as a function of pair pT.
-*obskey: DN/DM
-*reackey: AU AU --> E- E+ X
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T^{ee}$
-*yheader: dN/dM_ee
-*qual: .: .: Cocktail: Cocktail_un(100%)
+*yheader: dN/dM_ee: Cocktail: Cocktail_un(100%)
 *qual: M_ee IN GEV/C^2: 1.8 TO 2.8
 *data: x: y: y: y;
 0.25; 2.44e-05 +- 5.65e-06 (DSYS=+4.8e-06, -4.8e-06); 2.4e-05; 0.181; 
@@ -872,12 +912,13 @@
 *dataset:
 *location: Figure 31
 *dscomment: The integrated dielectron yield as a function of pair pT in invariant mass range 2.8 to 3.5 GeV/c^2 compared with cocktail. The ratio of dielectron yield over cocktail for different mass ranges as a function of pair pT.
-*obskey: DN/DM
-*reackey: AU AU --> E- E+ X
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T^{ee}$
-*yheader: dN/dM_ee
-*qual: .: .: Cocktail: Cocktail_un(100%)
+*yheader: dN/dM_ee: Cocktail: Cocktail_un(100%)
 *qual: M_ee IN GEV/C^2: 2.8 TO 3.5
 *data: x: y: y: y;
 0.25; 2.22e-05 +- 1.69e-06 (DSYS=+3.25e-06, -3.25e-06); 1.62e-05; 0.162; 
@@ -888,12 +929,15 @@
 *dataset:
 *location: Figure 32
 *dscomment: Invariant mass spectra from SQRT($s_{NN}$) = 200 GeV Au+Au collisions in different centralities. The ratio of dielectron yield over cocktail for a centrality of 0-10%.
-*obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: DMASS
+*obskey: DN/DMASS
+*obskey: RATIO
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*qual: .: .: dN/dM_ee: cock.: ratio: ratio(Rapp): ratio(PHSD)
 *xheader: M_ee
-*yheader: dM_ee
+*yheader: dM_ee: dN/dM_ee: cock.: ratio: ratio(Rapp): ratio(PHSD)
 *qual: CENTRALITY IN PCT: 0 TO 10
 *data: x: y: y: y: y: y: y
 0.005; 0.01; 19.9 +- 0.0184 (DSYS=+2.59, -2.59); 28.6; 0.696; 1.01; 1.0; 
@@ -948,12 +992,15 @@
 *dataset:
 *location: Figure 32
 *dscomment: Invariant mass spectra from SQRT($s_{NN}$) = 200 GeV Au+Au collisions in different centralities. The ratio of dielectron yield over cocktail for a centrality of 10-40%.
-*obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: DMASS
+*obskey: DN/DMASS
+*obskey: RATIO
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*qual: .: .: dN/dM_ee: cock.: ratio: ratio(Rapp): ratio(PHSD)
 *xheader: M_ee
-*yheader: dM_ee
+*yheader: dM_ee: dN/dM_ee: cock.: ratio: ratio(Rapp): ratio(PHSD)
 *qual: CENTRALITY IN PCT: 10 TO 40
 *data: x: y: y: y: y: y: y;
 0.005; 0.01; 11.6 +- 0.00734 (DSYS=+1.61, -1.61); 13.3; 0.872; 1.01; 1.0; 
@@ -1012,12 +1059,15 @@
 *dataset:
 *location: Figure 32
 *dscomment: Invariant mass spectra from SQRT($s_{NN}$) = 200 GeV Au+Au collisions in different centralities. The ratio of dielectron yield over cocktail for a centrality of 40-80%.
-*obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: DMASS
+*obskey: DN/DMASS
+*obskey: RATIO
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*qual: .: .: dN/dM_ee: cock.: ratio: ratio(Rapp): ratio(PHSD)
 *xheader: M_ee
-*yheader: dM_ee
+*yheader: dM_ee: dN/dM_ee: cock.: ratio: ratio(Rapp): ratio(PHSD)
 *qual: CENTRALITY IN PCT: 40 TO 80
 *data: x: y: y: y: y: y: y;
 0.005; 0.01; 2.14 +- 0.00226 (DSYS=+0.298, -0.298); 2.72; 0.787; 1.01; 1.0; 
@@ -1075,12 +1125,15 @@
 *dataset:
 *location: Figure 32
 *dscomment: Invariant mass spectra from SQRT($s_{NN}$) = 200 GeV Au+Au collisions in different centralities. The ratio of dielectron yield over cocktail for minimum bias.
-*obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: DMASS
+*obskey: DN/DMASS
+*obskey: RATIO
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*qual: .: .: dN/dM_ee: cock.: ratio: ratio(Rapp): ratio(PHSD)
 *xheader: M_ee
-*yheader: dM_ee
+*yheader: dM_ee: dN/dM_ee: cock.: ratio: ratio(Rapp): ratio(PHSD)
 *qual: MinBias
 *data: x: y: y: y: y: y: y;
 0.005; 0.01; 8.54 +- 0.0042 (DSYS=+1.19, -1.19); 9.35; 0.913; 1.01; 1.0; 
@@ -1142,12 +1195,13 @@
 *dataset:
 *location: Figure 33
 *dscomment: The integrated dielectron yield and ratio of dielectron yield over cocktail in different centralities for mass window 0 - 0.15 GeV/c^2, and the comparison with model calculations.
-*obskey: DN/DM
-*reackey: AU AU --> E- E+ X
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*qual: .: .: cock.: cock_un(100%)
 *xheader: Npart
-*yheader: dN/dM_ee
+*yheader: dN/dM_ee: cock.: cock_un(100%)
 *qual: M_ee IN GEV/C^2: 0.0 TO 0.15
 *data: x: y: y: y
 326.0; 2.32 +- 0.00246 (DSYS=+0.301, -0.301); 3.36; 0.107; 
@@ -1157,11 +1211,13 @@
 *dataset:
 *location: Figure 33
 *dscomment: The integrated dielectron yield and ratio of dielectron yield over cocktail in different centralities for mass window 0.15 - 0.3 GeV/c^2, and the comparison with model calculations.
-*obskey: DN/DM
-*reackey: AU AU --> E- E+ X
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Npart
-*yheader: dN/dM_ee
+*yheader: dN/dM_ee: cock.: cock_un(100%)
 *qual: M_ee IN GEV/C^2: 0.15 TO 0.30
 *data: x: y: y: y;
 326.0; 0.0397 +- 0.00321 (DSYS=+0.0054, -0.0054); 0.0399; 0.312; 
@@ -1171,11 +1227,13 @@
 *dataset:
 *location: Figure 33
 *dscomment: The integrated dielectron yield and ratio of dielectron yield over cocktail in different centralities for mass window 0.3 - 0.76 GeV/c^2, and the comparison with model calculations.
-*obskey: DN/DM
-*reackey: AU AU --> E- E+ X
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Npart
-*yheader: dN/dM_ee
+*yheader: dN/dM_ee: cock.: cock_un(100%)
 *qual: M_ee IN GEV/C^2: 0.3 TO 0.76
 *data: x: y: y: y;
 326.0; 0.0296 +- 0.0022 (DSYS=+0.00449, -0.00449); 0.0146; 0.287; 
@@ -1185,11 +1243,13 @@
 *dataset:
 *location: Figure 33
 *dscomment: The integrated dielectron yield and ratio of dielectron yield over cocktail in different centralities for mass window 0.76 - 1.05 GeV/c^2, and the comparison with model calculations.
-*obskey: DN/DM
-*reackey: AU AU --> E- E+ X
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Npart
-*yheader: dN/dM_ee
+*yheader: dN/dM_ee: cock.: cock_un(100%)
 *qual: M_ee IN GEV/C^2: 0.76 TO 1.05
 *data: x: y: y: y;
 326.0; 0.0172 +- 0.00182 (DSYS=+0.00243, -0.00243); 0.0188; 0.196; 
@@ -1199,11 +1259,13 @@
 *dataset:
 *location: Figure 33
 *dscomment: The integrated dielectron yield and ratio of dielectron yield over cocktail in different centralities for mass window 1.05 - 1.8 GeV/c^2, and the comparison with model calculations.
-*obskey: DN/DM
-*reackey: AU AU --> E- E+ X
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Npart
-*yheader: dN/dM_ee
+*yheader: dN/dM_ee: cock.: cock_un(100%)
 *qual: M_ee IN GEV/C^2: 1.05 TO 1.8
 *data: x: y: y: y;
 326.0; 0.00249 +- 0.000372 (DSYS=+0.000624, -0.000624); 0.00255; 0.158; 
@@ -1213,11 +1275,13 @@
 *dataset:
 *location: Figure 33
 *dscomment: The integrated dielectron yield and ratio of dielectron yield over cocktail in different centralities for mass window 1.8 - 2.8 GeV/c^2, and the comparison with model calculations.
-*obskey: DN/DM
-*reackey: AU AU --> E- E+ X
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Npart
-*yheader: dN/dM_ee
+*yheader: dN/dM_ee: cock.: cock_un(100%)
 *qual: M_ee IN GEV/C^2: 1.8 TO 2.8
 *data: x: y: y: y;
 326.0; 0.000305 +- 9.81e-05 (DSYS=+6.77e-05, -6.77e-05); 0.000443; 0.182; 
@@ -1227,11 +1291,13 @@
 *dataset:
 *location: Figure 33
 *dscomment: The integrated dielectron yield and ratio of dielectron yield over cocktail in different centralities for mass window 2.8 - 3.5 GeV/c^2, and the comparison with model calculations.
-*obskey: DN/DM
-*reackey: AU AU --> E- E+ X
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Npart
-*yheader: dN/dM_ee
+*yheader: dN/dM_ee: cock.: cock_un(100%)
 *qual: M_ee IN GEV/C^2: 2.8 TO 3.5
 *data: x: y: y: y;
 326.0; 0.000558 +- 4.04e-05 (DSYS=+7.31e-05, -7.31e-05); 0.000608; 0.162; 
@@ -1241,12 +1307,14 @@
 *dataset:
 *location: Figure 34
 *dscomment: Dielectron invariant mass spectra from minimum-bias.
-*obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: DMASS
+*obskey: D2N/DM/DN
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*qual: M_ee: dM_ee: dN/dM_ee/Npart
 *xheader: M_ee
-*yheader: dM_ee
+*yheader: dM_ee: dN/dM_ee/Npart
 *qual: MinBias
 *data: x: y: y
 0.005; 0.0; 0.0677 +- 3.33e-05 (DSYS=+1.19, -1.19); 
@@ -1308,12 +1376,14 @@
 *dataset:
 *location: Figure 34
 *dscomment: Dielectron invariant mass spectra from the most central (0-10%) collisions that we are able to achieve most statistics at present.
-*obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: DMASS
+*obskey: D2N/DM/DN
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: M_ee
-*yheader: dM_ee
-*qual: M_ee: dM_ee: dN/dM_ee/Npart
+*yheader: dM_ee: dN/dM_ee/Npart
 *qual: Central
 *data: x: y: y;
 0.005; 0.0; 0.0611 +- 5.65e-05 (DSYS=+2.59, -2.59); 
@@ -1368,12 +1438,14 @@
 *dataset:
 *location: Figure 34
 *dscomment: The ratio of the Npart-scaled dielectron yield between minimum-bias and the most central collisions.
-*obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: DMASS
+*obskey: D2N/DM/DN
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: M_ee
-*yheader: dM_ee
-*qual: M_ee: dM_ee: dN/dM_ee/Npart
+*yheader: dM_ee: dN/dM_ee/Npart
 *data: x: y: y;
 0.05; 0.1; 0.898 +- 0.000868 (DSYS=+0.00536, -0.00536); 
 0.175; 0.15; 0.836 +- 0.0447 (DSYS=+0.0206, -0.0206); 
@@ -1388,12 +1460,14 @@
 *dataset:
 *location: Figure 35
 *dscomment: Mass spectrum of the excess (data - cocktail) in the low-mass region in Au+Au minimum-bias collisions compared to model calculations. 
-*obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: DMASS
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: M_ee
-*yheader: dM_ee
-*qual: .: .: dN/dM_ee(data-cocktail)
+*yheader: dM_ee: dN/dM_ee(data-cocktail)
 *data: x: y: y: y
 0.255; 0.11; 0.00187 +- 0.000492 (DSYS=+0.00195, -0.00195); 0.00406; 
 0.355; 0.09; 0.0031 +- 0.000615 (DSYS=+0.00171, -0.00171); 0.00273; 
@@ -1411,12 +1485,13 @@
 *dataset:
 *location: Figure 36
 *dscomment: The yields scaled by Npart for the $\rho$-like region with the cocktail subtracted.
-*obskey: SIG
-*reackey: AU AU --> E- E+ X
+*obskey: N
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Npart
-*yheader: Yield/Npart
-*qual: .: .: data_syst + cocktail_syst (0.3-0.76)
+*yheader: Yield/Npart: data_syst + cocktail_syst (0.3-0.76)
 *qual: Cocktail Subtracted
 *data: x: y: y
 326.0; 2.12e-05 +- 3.11e-06 (DSYS=+0.00206, -0.00206); 8e-06; 
@@ -1426,12 +1501,13 @@
 *dataset:
 *location: Figure 36
 *dscomment: The Omega-like region without cocktail subtraction as a function of Npart.
-*obskey: SIG
-*reackey: AU AU --> E- E+ X
+*obskey: N
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Npart
-*yheader: Yield/Npart
-*qual: .: .: data_syst + cocktail_syst (0.76-0.80)
+*yheader: Yield/Npart: data_syst + cocktail_syst (0.76-0.80)
 *data: x: y: y;
 326.0; 4.69e-06 +- 8.85e-07 (DSYS=+0.000236, -0.000236); 1.7e-06; 
 173.0; 5.84e-06 +- 4.37e-07 (DSYS=+0.000154, -0.000154); 1.78e-06; 
@@ -1440,12 +1516,13 @@
 *dataset:
 *location: Figure 36
 *dscomment: The Phi-like region without cocktail subtraction as a function of Npart.
-*obskey: SIG
-*reackey: AU AU --> E- E+ X
+*obskey: N
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Npart
-*yheader: Yield/Npart
-*qual: .: .: data_syst + cocktail_syst (0.98-1.05)
+*yheader: Yield/Npart: data_syst + cocktail_syst (0.98-1.05)
 *data: x: y: y;
 326.0; 5.11e-06 +- 6.24e-07 (DSYS=+0.000244, -0.000244); 9.81e-07; 
 173.0; 5.25e-06 +- 2.82e-07 (DSYS=+0.000131, -0.000131); 9.87e-07; 
@@ -1454,12 +1531,13 @@
 *dataset:
 *location: Figure 37
 *dscomment: Correlated charm contributions to the dielectron mass spectra for different assumptions of the correlation strength.
-*obskey: DN/DM
-*reackey: AU AU --> E- E+ X
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: M_ee
-*yheader: dN/dM IN GEV/C^2
-*qual: .: PYTHIA: PYTHIA w/ decorrelated $\Delta\phi$: Random ee (PYTHIA e $p_T$ w/ NPE $R_{AA}$): Cocktail sum (w/ PYTHIA)
+*yheader: dN/dM IN GEV/C^2: PYTHIA: PYTHIA w/ decorrelated $\Delta\phi$: Random ee (PYTHIA e $p_T$ w/ NPE $R_{AA}$): Cocktail sum (w/ PYTHIA)
 *data: x: y: y: y: y
 0.025; 0.000454; 0.000497; 0.000558; 0.000575; 
 0.075; 0.00131; 0.00144; 0.00161; 0.00166; 
@@ -1556,11 +1634,12 @@
 *location: Figure 38
 *dscomment: Slope parameters Teff versus invariant mass for dielectrons from charm hadron decays.
 *obskey: 
-*reackey: AU AU --> E- E+ X
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: M_ee
-*yheader: T_eff
-*qual: .: PYTHIA: PYTHIA w/ decorrelated $\Delta\phi$: Random ee (PYTHIA e $p_T$ w/ NPE $R_{AA}$): Cocktail sum (w/ PYTHIA)
+*yheader: T_eff: PYTHIA: PYTHIA w/ decorrelated $\Delta\phi$: Random ee (PYTHIA e $p_T$ w/ NPE $R_{AA}$): Cocktail sum (w/ PYTHIA)
 *data: x: y: y: y: y
 1.05; 0.197; 0.188; 0.185; 0.201; 
 1.1; 0.196; 0.187; 0.184; 0.2; 
@@ -1601,8 +1680,10 @@
 *dataset:
 *location: Figure 39a
 *dscomment: Omega meson invariant mass distribution from SQRT($s_{NN}$) = 200 GeV Au+Au minimum-bias collisions after subtraction of the combinatorial background using the mixed-event method.
-*obskey: DN/DM
-*reackey: AU AU --> E- E+ X
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: M_ee
 *yheader: dN/dM
@@ -1626,8 +1707,10 @@
 *dataset:
 *location: Figure 39b
 *dscomment: Phi meson invariant mass distribution from SQRT($s_{NN}$) = 200 GeV Au+Au minimum-bias collisions after subtraction of the combinatorial background using the mixed-event method.
-*obskey: DN/DM
-*reackey: AU AU --> E- E+ X
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: M_ee
 *yheader: dN/dM
@@ -1652,11 +1735,13 @@
 *location: Figure 41_1
 *dscomment: The widths and mass positions of the omega signal from data compared to the values from the PDG and the full Geant simulation.
 *obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: WIDTH
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: pT
-*yheader: Mass
-*qual: .: .: Simu: Simu_un: Width: Simu: Simu_un
+*yheader: Mass: Simu: Simu_un: Width: Simu: Simu_un
 *data: x: y: y: y: y: y: y
 0.4; 0.78 +- 0.00263 (DSYS=+0.00122, -0.00122); 0.781; 0.000147; 0.0212 +- 0.0132 (DSYS=+0.00987, -0.00987); 0.0157; 7.41E-04;
 1.0; 0.784 +- 0.00173 (DSYS=+0.000841, -0.000841); 0.781; 0.000176; 0.0162 +- 0.00534 (DSYS=+0.00556, -0.00556); 0.0159; 9.75E-04;
@@ -1668,11 +1753,13 @@
 *location: Figure 41_2
 *dscomment: The widths and mass positions of the phi signal from data compared to the values from the PDG and the full Geant simulation.
 *obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: WIDTH
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: pT
-*yheader: Mass
-*qual: .: .: Simu: Simu_un: Width: Simu: Simu_un
+*yheader: Mass: Simu: Simu_un: Width: Simu: Simu_un
 *data: x: y: y: y: y: y: y
 0.25; 1.02 +- 0.00186 (DSYS=+0.000599, -0.000599); 1.02; 0.000835; 0.0183 +- 0.00527 (DSYS=+0.00316, -0.00316); 0.0145; 1.25E-03;
 0.75; 1.02 +- 0.000802 (DSYS=+0.000622, -0.000622); 1.02; 0.00087; 0.0157 +- 0.00195 (DSYS=+0.00158, -0.00158); 0.0148; 1.42E-03;
@@ -1684,11 +1771,12 @@
 *location: Figure 42
 *dscomment: The efficiency and acceptance correction factor as function of pT for mid-rapidity omega and phi mesons.
 *obskey: EFF
-*reackey: AU AU --> E- E+ X
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: pT
-*yheader: eff.acc.
-*qual: .: omega: phi
+*yheader: eff.acc.: omega: phi
 *data: x: y: y
 0.05; 0.0432; 0.047; 
 0.15; 0.0429; 0.0464; 
@@ -1724,11 +1812,13 @@
 *dataset:
 *location: Figure 43
 *dscomment: The pT distributions of the omega meson invariant yields from SQRT($s_{NN}$) = 200 GeV Au+Au minimum-bias collisions.
-*obskey: 
-*reackey: AU AU --> E- E+ X
+*obskey: D2N/DPT/DY
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: pT
-*yheader: d^2N/(2pipTdpTdy)
+*yheader: $d^2N/(2\pi p_Tdp_Tdy)$
 *qual: omega
 *data: x: y
 0.4; 2.9 +- 0.479 (DSYS=+0.784, -0.784); 
@@ -1740,11 +1830,13 @@
 *dataset:
 *location: Figure 43
 *dscomment: The pT distributions of the phi meson invariant yields from SQRT($s_{NN}$) = 200 GeV Au+Au minimum-bias collisions.
-*obskey: 
-*reackey: AU AU --> E- E+ X
+*obskey: D2N/DPT/DY
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: pT
-*yheader: d^2N/(2pipTdpTdy)
+*yheader: $d^2N/(2\pi p_Tdp_Tdy)$
 *qual: phi
 *data: x: y;
 0.25; 0.658 +- 0.0695 (DSYS=+0.152, -0.152); 
@@ -1756,11 +1848,13 @@
 *dataset:
 *location: Figure 46
 *dscomment: Unlike-sign/like-sign pair acceptance difference correction factor with the PHENIX phi acceptance compared with the full acceptance.
-*obskey: ACC
-*reackey: AU AU --> E- E+ X
+*obskey: RATIO
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: M_ee
-*yheader: Accuracy
+*yheader: unLikeSign(mix)/LikeS(mix)
 *qual: .: STAR: STARwPHENIX
 *data: x: y: y
 0.0125; 0.934; 0.178; 
@@ -1806,12 +1900,14 @@
 *dataset:
 *location: Figure 47a
 *dscomment: Efficiency corrected invariant mass spectra calculated using the STAR data filtered with the PHENIX azimuthal angle acceptance. The data points are compared to cocktail simulations.
-*obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: DMASS
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: M_ee
-*yheader: dM_ee
-*qual: .: .: dN/dM_ee: cock.
+*yheader: dM_ee: dN/dM_ee: cock.
 *data: x: y: y: y
 0.005; 0.01; 0.452 +- 0.00151 (DSYS=+0.0588, -0.0588); 0.557 +- 0 (DSYS=+0.0587, -0.0587); 
 0.015; 0.01; 0.125 +- 0.000749 (DSYS=+0.0162, -0.0162); 0.151 +- 0 (DSYS=+0.0161, -0.0161); 
@@ -1870,12 +1966,14 @@
 *dataset:
 *location: Figure 47b
 *dscomment: The same data points compared to theoretical model calculations of medium vector meson and QGP contributions.
-*obskey: MASS
-*reackey: AU AU --> E- E+ X
+*obskey: DMASS
+*obskey: DN/DMASS
+*reackey: AU AU --> E- X
+*reackey: AU AU --> E+ X
+*qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: M_ee
-*yheader: dM_ee
-*qual: .: .: dN/dM_ee: sum(rapp)
+*yheader: dM_ee: dN/dM_ee: sum(rapp)
 *data: x: y: y: y
 0.005; 0.01; 0.452 +- 0.00151 (DSYS=+0.0588, -0.0588); 0.559 +- 0 (DSYS=+0.0587, -0.0587); 
 0.015; 0.01; 0.125 +- 0.000749 (DSYS=+0.0162, -0.0162); 0.153 +- 0 (DSYS=+0.0161, -0.0161); 
