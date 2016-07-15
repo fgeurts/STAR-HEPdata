@@ -5,7 +5,7 @@
 *status: Encoded 24 MAY 2016 by Nickolas Luttrell (Rice University)
 *title: Measurements of Dielectron Production in Au$+$Au Collisions at $\sqrt{s_{\rm NN}}$ = 200 GeV from the STAR Experiment
 *comment: BNL-RHIC.  We report on measurements of dielectron ($e^+e^-$) production in Au$+$Au collisions at a center-of-mass energy of 200 GeV per nucleon-nucleon pair using the STAR detector at RHIC. Systematic measurements of the dielectron yield as a function of transverse momentum ($p_{\rm T}$) and collision centrality show an enhancement compared to a cocktail simulation of hadronic sources in the low invariant-mass region ($M_{ee}<$ 1 GeV/$c^2$). This enhancement cannot be reproduced by the $\rho$-meson vacuum spectral function. In minimum-bias collisions, in the invariant-mass range of 0.30 $-$ 0.76 GeV/$c^2$, integrated over the full $p_{\rm T}$ acceptance, the enhancement factor is 1.76 $\pm$ 0.06 (stat.) $\pm$ 0.26 (sys.) $\pm$ 0.29 (cocktail). The enhancement factor exhibits weak centrality and $p_{\rm T}$ dependence in STAR's accessible kinematic regions, while the excess yield in this invariant-mass region as a function of the number of participating nucleons follows a power-law shape with a power of 1.44 $\pm$ 0.10. Models that assume an in-medium broadening of the $\rho$ meson spectral function consistently describe the observed excess in these measurements. Additionally, we report on measurements of $\omega$ and $\phi$-meson production through their $e^+e^-$ decay channel. These measurements show good agreement with Tsallis Blast-Wave model predictions as well as, in the case of the $\phi$-meson, results through its $K^+K^-$ decay channel. In the intermediate invariant-mass region (1.1$<M_{ee}<$ 3 GeV/$c^2$), we investigate the spectral shapes from different collision centralities. Physics implications for possible in-medium modification of charmed hadron production and other physics sources are discussed.
-*durhamId:
+*durhamId: 6631
 *inspireId: 1357992
 *cdsId: 2007003
 *detector: STAR
@@ -18,8 +18,8 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*qual: .: mb: c
-*xheader: P
+*qual: .: minbias: central
+*xheader: $p$ IN GeV/$c$
 *yheader: Purity
 *data: x: y: y
 0.22; 0.978 +0.0 -0.0; 0.955 +0.0 -0.0; 
@@ -77,9 +77,9 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee IN GeV/c^2
-*yheader: dM_ee: unLikeS(mix)/LikeS(mix)
-*data: x: y: y
+*xheader: $M_{ee}$ IN GeV/$c^2$ : $dM_{ee}$ IN GeV/$c^2$
+*yheader: unLikeS(mix)/LikeS(mix)
+*data: x: x: y
 0.0125; 0.025; 0.934 +- 0.000625; 
 0.0375; 0.025; 0.935 +- 0.000348; 
 0.0625; 0.025; 0.944 +- 0.000271; 
@@ -126,9 +126,9 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dM_ee: LikeS/unLikeS(mix)
-*data: x: y: y
+*xheader: $M_{ee}$ IN GeV/$c^2$ : $dM_{ee}$ IN GeV/$c^2$
+*yheader: LikeS/unLikeS(mix)
+*data: x: x: y
 0.0125; 0.025; 0.977 +- 0.0046; 
 0.0375; 0.025; 1.01 +- 0.0026; 
 0.0625; 0.025; 1.04 +- 0.00205; 
@@ -175,8 +175,8 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dM_ee: dN/dM_ee(raw): dN/dM_ee(background): dN/dM_ee(signal)
+*xheader: $M_{ee}$ IN GeV/$c^2$ : $dM_{ee}$ IN GeV/$c^2$
+*yheader: $dN/dM_{ee}$(raw): $dN/dM_{ee}$(background): $dN/dM_{ee}(signal)
 *data: x: y: y: y: y
 0.005; 0.01; 0.584 +- 0.000483; 0.0023 +- 2.89e-05; 0.587 +- 0.000482; 
 0.015; 0.01; 0.188 +- 0.000284; 0.00786 +- 5.32e-05; 0.196 +- 0.000279; 
@@ -242,10 +242,10 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dM_ee: signal/background
+*xheader: $M_{ee}$ IN GeV/$c^2$ : $dM_{ee}$ IN GeV/$c^2$
+*yheader: signal/background
 *qual: Au + Au MinBias
-*data: x: y: y
+*data: x: x: y
 0.005; 0.01; 254.0 +- 3.21; 
 0.015; 0.01; 24.0 +- 0.166; 
 0.025; 0.01; 7.75 +- 0.0424; 
@@ -310,10 +310,10 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dM_ee: signal/background
+*xheader: $M_{ee}$ IN GeV/$c^2$ : $dM_{ee}$ IN GeV/$c^2$
+*yheader:  signal/background
 *qual: Au + Au Central
-*data: x: y: y;
+*data: x: x: y;
 0.005; 0.01; 126.0 +- 1.23; 
 0.015; 0.01; 11.5 +- 0.0626; 
 0.025; 0.01; 3.66 +- 0.017; 
@@ -371,9 +371,9 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dM_ee: dN/dM_ee: Cocktail
-*data: x: y: y: y
+*xheader: $M_{ee}$ IN GeV/$c^2$ : $dM_{ee}$ IN GeV/$c^2$
+*yheader:  $dN/dM_{ee}$: Cocktail
+*data: x: x: y: y
 0.005; 0.01; 8.54 +- 0.0042 (DSYS=+1.19, -1.19); 9.35 +- 0 (DSYS=+0.965, -0.965); 
 0.015; 0.01; 2.34 +- 0.00208 (DSYS=+0.326, -0.326); 2.57 +- 0 (DSYS=+0.267, -0.267); 
 0.025; 0.01; 1.25 +- 0.00155 (DSYS=+0.174, -0.174); 1.43 +- 0 (DSYS=+0.15, -0.15); 
@@ -440,9 +440,9 @@
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *qual: rho
-*xheader: M_ee
-*yheader: dM_ee: dN/dM_ee: Cocktail
-*data: x: y: y: y
+*xheader: $M_{ee}$ IN GeV/$c^2$ : $dM_{ee}$ IN GeV/$c^2$
+*yheader: $dN/dM_{ee}$: Cocktail
+*data: x: x: y: y
 0.005; 0.01; 8.54 +- 0.0042 (DSYS=+1.19, -1.19); 9.35 +- 0 (DSYS=+0.965, -0.965); 
 0.015; 0.01; 2.34 +- 0.00208 (DSYS=+0.326, -0.326); 2.57 +- 0 (DSYS=+0.267, -0.267); 
 0.025; 0.01; 1.25 +- 0.00155 (DSYS=+0.174, -0.174); 1.43 +- 0 (DSYS=+0.15, -0.15); 
@@ -509,10 +509,10 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dM_ee: dN/dM_ee: Cocktail: Ratio: Ratio(Rapp.): Ratio(PHSD)
+*xheader: $M_{ee}$ IN GeV/$c^2$ : $dM_{ee}$ IN GeV/$c^2$
+*yheader: $dN/dM_{ee}$: Cocktail: Ratio: Ratio(Rapp.): Ratio(PHSD)
 *qual: pT IN GEV/C: 0.0 TO 5
-*data: x: y: y: y: y: y: y
+*data: x: x: y: y: y: y: y
 0.005; 0.01; 0.907 +- 0.00139 (DSYS=+0.127, -0.127); 1.05; 0.865; 1.01; 1.0; 
 0.015; 0.01; 0.236 +- 0.000688 (DSYS=+0.033, -0.033); 0.279; 0.846; 1.01; 1.0; 
 0.025; 0.01; 0.128 +- 0.000541 (DSYS=+0.018, -0.018); 0.154; 0.831; 1.01; 1.0; 
@@ -569,10 +569,10 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dM_ee: dN/dM_ee: Cocktail: Ratio: Ratio(Rapp.): Ratio(PHSD)
+*xheader: $M_{ee}$ IN GeV/$c^2$ : $dM_{ee}$ IN GeV/$c^2$
+*yheader: $dN/dM_{ee}$: Cocktail: Ratio: Ratio(Rapp.): Ratio(PHSD)
 *qual: pT IN GEV/C: 0.5 TO 1.0
-*data: x: y: y: y: y: y: y;
+*data: x: x: y: y: y: y: y;
 0.005; 0.01; 5.63 +- 0.00304 (DSYS=+0.789, -0.789); 6.38; 0.882; 1.01; 1.0; 
 0.015; 0.01; 1.52 +- 0.0015 (DSYS=+0.213, -0.213); 1.75; 0.871; 1.01; 1.0; 
 0.025; 0.01; 0.812 +- 0.00111 (DSYS=+0.114, -0.114); 0.972; 0.835; 1.01; 1.0; 
@@ -629,10 +629,10 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dM_ee: dN/dM_ee: Cocktail: Ratio: Ratio(Rapp.): Ratio(PHSD)
+*xheader: $M_{ee}$ IN GeV/$c^2$ : $dM_{ee}$ IN GeV/$c^2$
+*yheader: $dN/dM_{ee}$: Cocktail: Ratio: Ratio(Rapp.): Ratio(PHSD)
 *qual: pT IN GEV/C: 1.0 TO 1.5
-*data: x: y: y: y: y: y: y;
+*data: x: x: y: y: y: y: y;
 0.005; 0.01; 1.48 +- 0.00158 (DSYS=+0.207, -0.207); 1.5; 0.987; 1.02; 1.0; 
 0.015; 0.01; 0.422 +- 0.000786 (DSYS=+0.059, -0.059); 0.416; 1.02; 1.01; 1.01; 
 0.025; 0.01; 0.223 +- 0.000563 (DSYS=+0.0312, -0.0312); 0.234; 0.955; 1.02; 1.0; 
@@ -692,11 +692,10 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dM_ee
-*qual: .: .: dN/dM_ee: Cocktail: Ratio: Ratio(Rapp.): Ratio(PHSD)
+*xheader: $M_{ee}$ IN GeV/$c^2$ : $dM_{ee}$ IN GeV/$c^2$
+*yheader: $dN/dM_{ee}$: Cocktail: Ratio: Ratio(Rapp.): Ratio(PHSD)
 *qual: pT IN GEV/C: 1.5 TO 2.0
-*data: x: y: y: y: y: y: y;
+*data: x: x: y: y: y: y: y;
 0.005; 0.01; 0.337 +- 0.000789 (DSYS=+0.047, -0.047); 0.311; 1.08; 1.02; 1.0; 
 0.015; 0.01; 0.102 +- 0.000404 (DSYS=+0.0142, -0.0142); 0.0902; 1.13; 1.01; 1.01; 
 0.025; 0.01; 0.0536 +- 0.000286 (DSYS=+0.00748, -0.00748); 0.0496; 1.08; 1.02; 1.0; 
@@ -748,10 +747,10 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dM_ee: dN/dM_ee: Cocktail: Ratio: Ratio(Rapp.): Ratio(PHSD)
+*xheader: $M_{ee}$ IN GeV/$c^2$ : $dM_{ee}$ IN GeV/$c^2$
+*yheader: $dN/dM_{ee}$: Cocktail: Ratio: Ratio(Rapp.): Ratio(PHSD)
 *qual: pT IN GEV/C: integrated
-*data: x: y: y: y: y: y: y;
+*data: x: x: y: y: y: y: y;
 0.005; 0.01; 8.54 +- 0.0042 (DSYS=+1.19, -1.19); 9.35; 0.914; 1.01; 1.0; 
 0.015; 0.01; 2.34 +- 0.00208 (DSYS=+0.326, -0.326); 2.57; 0.911; 1.01; 1.0; 
 0.025; 0.01; 1.25 +- 0.00155 (DSYS=+0.174, -0.174); 1.43; 0.873; 1.01; 1.0; 
@@ -816,7 +815,7 @@
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T^{ee}$
-*yheader: dN/dM_ee: Cocktail: Cocktail_un(100%)
+*yheader: $dN/dM_{ee}$: Cocktail: Cocktail_un(100%)
 *qual: M_ee IN GEV/C^2: 0.0 TO 0.15
 *data: x: y: y: y
 0.25; 0.104 +- 0.000173 (DSYS=+0.0145, -0.0145); 0.121; 0.107; 
@@ -833,7 +832,7 @@
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T^{ee}$
-*yheader: dN/dM_ee: Cocktail: Cocktail_un(100%)
+*yheader: $dN/dM_{ee}$: Cocktail: Cocktail_un(100%)
 *qual: M_ee IN GEV/C^2: 0.15 TO 0.30
 *data: x: y: y: y;
 0.25; 0.00182 +- 0.000205 (DSYS=+0.000345, -0.000345); 0.00156; 0.312; 
@@ -850,7 +849,7 @@
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T^{ee}$
-*yheader: dN/dM_ee: Cocktail: Cocktail_un(100%)
+*yheader: $dN/dM_{ee}$: Cocktail: Cocktail_un(100%)
 *qual: M_ee IN GEV/C^2: 0.30 TO 0.76
 *data: x: y: y: y;
 0.25; 0.0025 +- 0.000186 (DSYS=+0.000399, -0.000399); 0.00146; 0.288; 
@@ -867,7 +866,7 @@
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T^{ee}$
-*yheader: dN/dM_ee: Cocktail: Cocktail_un(100%)
+*yheader: $dN/dM_{ee}$: Cocktail: Cocktail_un(100%)
 *qual: M_ee IN GEV/C^2: 0.76 TO 1.05
 *data: x: y: y: y;
 0.25; 0.00208 +- 0.000139 (DSYS=+0.00032, -0.00032); 0.00195; 0.196; 
@@ -884,7 +883,7 @@
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T^{ee}$
-*yheader: dN/dM_ee: Cocktail: Cocktail_un(100%)
+*yheader: $dN/dM_{ee}$: Cocktail: Cocktail_un(100%)
 *qual: M_ee IN GEV/C^2: 1.05 TO 1.8
 *data: x: y: y: y;
 0.25; 0.000173 +- 2.66e-05 (DSYS=+3.45e-05, -3.45e-05); 0.000221; 0.157; 
@@ -901,7 +900,7 @@
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T^{ee}$
-*yheader: dN/dM_ee: Cocktail: Cocktail_un(100%)
+*yheader: $dN/dM_{ee}$: Cocktail: Cocktail_un(100%)
 *qual: M_ee IN GEV/C^2: 1.8 TO 2.8
 *data: x: y: y: y;
 0.25; 2.44e-05 +- 5.65e-06 (DSYS=+4.8e-06, -4.8e-06); 2.4e-05; 0.181; 
@@ -918,7 +917,7 @@
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $p_T^{ee}$
-*yheader: dN/dM_ee: Cocktail: Cocktail_un(100%)
+*yheader: $dN/dM_{ee}$: Cocktail: Cocktail_un(100%)
 *qual: M_ee IN GEV/C^2: 2.8 TO 3.5
 *data: x: y: y: y;
 0.25; 2.22e-05 +- 1.69e-06 (DSYS=+3.25e-06, -3.25e-06); 1.62e-05; 0.162; 
@@ -936,10 +935,10 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dM_ee: dN/dM_ee: cock.: ratio: ratio(Rapp): ratio(PHSD)
+*xheader: $M_{ee}$ IN GeV/$c^2$ : $dM_{ee}$ IN GeV/$c^2$
+*yheader:  $dN/dM_{ee}$: cock.: ratio: ratio(Rapp): ratio(PHSD)
 *qual: CENTRALITY IN PCT: 0 TO 10
-*data: x: y: y: y: y: y: y
+*data: x: x: y: y: y: y: y
 0.005; 0.01; 19.9 +- 0.0184 (DSYS=+2.59, -2.59); 28.6; 0.696; 1.01; 1.0; 
 0.015; 0.01; 5.44 +- 0.00952 (DSYS=+0.707, -0.707); 7.86; 0.692; 1.01; 1.0; 
 0.025; 0.01; 2.85 +- 0.0076 (DSYS=+0.371, -0.371); 4.37; 0.652; 1.02; 1.0; 
@@ -999,10 +998,10 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dM_ee: dN/dM_ee: cock.: ratio: ratio(Rapp): ratio(PHSD)
+*xheader: $M_{ee}$ IN GeV/$c^2$ : $dM_{ee}$ IN GeV/$c^2$
+*yheader: $dN/dM_{ee}$: cock.: ratio: ratio(Rapp): ratio(PHSD)
 *qual: CENTRALITY IN PCT: 10 TO 40
-*data: x: y: y: y: y: y: y;
+*data: x: x: y: y: y: y: y;
 0.005; 0.01; 11.6 +- 0.00734 (DSYS=+1.61, -1.61); 13.3; 0.872; 1.01; 1.0; 
 0.015; 0.01; 3.17 +- 0.00364 (DSYS=+0.442, -0.442); 3.64; 0.871; 1.01; 1.0; 
 0.025; 0.01; 1.67 +- 0.00268 (DSYS=+0.233, -0.233); 2.02; 0.825; 1.01; 1.0; 
@@ -1066,10 +1065,10 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dM_ee: dN/dM_ee: cock.: ratio: ratio(Rapp): ratio(PHSD)
+*xheader: $M_{ee}$ IN GeV/$c^2$ : $dM_{ee}$ IN GeV/$c^2$
+*yheader: $dN/dM_{ee}$: cock.: ratio: ratio(Rapp): ratio(PHSD)
 *qual: CENTRALITY IN PCT: 40 TO 80
-*data: x: y: y: y: y: y: y;
+*data: x: x: y: y: y: y: y;
 0.005; 0.01; 2.14 +- 0.00226 (DSYS=+0.298, -0.298); 2.72; 0.787; 1.01; 1.0; 
 0.015; 0.01; 0.578 +- 0.00109 (DSYS=+0.0806, -0.0806); 0.748; 0.772; 1.0; 1.0; 
 0.025; 0.01; 0.307 +- 0.000771 (DSYS=+0.0428, -0.0428); 0.416; 0.737; 1.01; 1.0; 
@@ -1132,10 +1131,10 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dM_ee: dN/dM_ee: cock.: ratio: ratio(Rapp): ratio(PHSD)
+*xheader: $M_{ee}$ IN GeV/$c^2$ : $dM_{ee}$ IN GeV/$c^2$
+*yheader: $dN/dM_{ee}$: cock.: ratio: ratio(Rapp): ratio(PHSD)
 *qual: MinBias
-*data: x: y: y: y: y: y: y;
+*data: x: x: y: y: y: y: y;
 0.005; 0.01; 8.54 +- 0.0042 (DSYS=+1.19, -1.19); 9.35; 0.913; 1.01; 1.0; 
 0.015; 0.01; 2.34 +- 0.00208 (DSYS=+0.326, -0.326); 2.57; 0.911; 1.01; 1.0; 
 0.025; 0.01; 1.25 +- 0.00155 (DSYS=+0.174, -0.174); 1.43; 0.873; 1.01; 1.0; 
@@ -1201,7 +1200,7 @@
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Npart
-*yheader: dN/dM_ee: cock.: cock_un(100%)
+*yheader: $dN/dM_{ee}$: cock.: cock_un(100%)
 *qual: M_ee IN GEV/C^2: 0.0 TO 0.15
 *data: x: y: y: y
 326.0; 2.32 +- 0.00246 (DSYS=+0.301, -0.301); 3.36; 0.107; 
@@ -1217,7 +1216,7 @@
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Npart
-*yheader: dN/dM_ee: cock.: cock_un(100%)
+*yheader: $dN/dM_{ee}$: cock.: cock_un(100%)
 *qual: M_ee IN GEV/C^2: 0.15 TO 0.30
 *data: x: y: y: y;
 326.0; 0.0397 +- 0.00321 (DSYS=+0.0054, -0.0054); 0.0399; 0.312; 
@@ -1233,7 +1232,7 @@
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Npart
-*yheader: dN/dM_ee: cock.: cock_un(100%)
+*yheader: $dN/dM_{ee}$: cock.: cock_un(100%)
 *qual: M_ee IN GEV/C^2: 0.3 TO 0.76
 *data: x: y: y: y;
 326.0; 0.0296 +- 0.0022 (DSYS=+0.00449, -0.00449); 0.0146; 0.287; 
@@ -1249,7 +1248,7 @@
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Npart
-*yheader: dN/dM_ee: cock.: cock_un(100%)
+*yheader: $dN/dM_{ee}$: cock.: cock_un(100%)
 *qual: M_ee IN GEV/C^2: 0.76 TO 1.05
 *data: x: y: y: y;
 326.0; 0.0172 +- 0.00182 (DSYS=+0.00243, -0.00243); 0.0188; 0.196; 
@@ -1265,7 +1264,7 @@
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Npart
-*yheader: dN/dM_ee: cock.: cock_un(100%)
+*yheader: $dN/dM_{ee}$: cock.: cock_un(100%)
 *qual: M_ee IN GEV/C^2: 1.05 TO 1.8
 *data: x: y: y: y;
 326.0; 0.00249 +- 0.000372 (DSYS=+0.000624, -0.000624); 0.00255; 0.158; 
@@ -1281,7 +1280,7 @@
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Npart
-*yheader: dN/dM_ee: cock.: cock_un(100%)
+*yheader: $dN/dM_{ee}$: cock.: cock_un(100%)
 *qual: M_ee IN GEV/C^2: 1.8 TO 2.8
 *data: x: y: y: y;
 326.0; 0.000305 +- 9.81e-05 (DSYS=+6.77e-05, -6.77e-05); 0.000443; 0.182; 
@@ -1297,7 +1296,7 @@
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
 *xheader: Npart
-*yheader: dN/dM_ee: cock.: cock_un(100%)
+*yheader: $dN/dM_{ee}$: cock.: cock_un(100%)
 *qual: M_ee IN GEV/C^2: 2.8 TO 3.5
 *data: x: y: y: y;
 326.0; 0.000558 +- 4.04e-05 (DSYS=+7.31e-05, -7.31e-05); 0.000608; 0.162; 
@@ -1313,10 +1312,10 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dM_ee: dN/dM_ee/Npart
+*xheader: $M_{ee}$ : $dM_{ee}$
+*yheader: $dN/dM_{ee}/N_{part}$
 *qual: MinBias
-*data: x: y: y
+*data: x: x: y
 0.005; 0.0; 0.0677 +- 3.33e-05 (DSYS=+1.19, -1.19); 
 0.015; 0.0; 0.0185 +- 1.65e-05 (DSYS=+0.326, -0.326); 
 0.025; 0.0; 0.00987 +- 1.23e-05 (DSYS=+0.174, -0.174); 
@@ -1382,10 +1381,10 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dM_ee: dN/dM_ee/Npart
+*xheader: $M_{ee}$ : $dM_{ee}$
+*yheader: $dN/dM_{ee}/N_{part}$
 *qual: Central
-*data: x: y: y;
+*data: x: x: y;
 0.005; 0.0; 0.0611 +- 5.65e-05 (DSYS=+2.59, -2.59); 
 0.015; 0.0; 0.0167 +- 2.92e-05 (DSYS=+0.707, -0.707); 
 0.025; 0.0; 0.00875 +- 2.33e-05 (DSYS=+0.371, -0.371); 
@@ -1444,9 +1443,9 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dM_ee: dN/dM_ee/Npart
-*data: x: y: y;
+*xheader: $M_{ee}$ : $dM_{ee}$
+*yheader: $dN/dM_{ee}/N_{part}$
+*data: x: x: y;
 0.05; 0.1; 0.898 +- 0.000868 (DSYS=+0.00536, -0.00536); 
 0.175; 0.15; 0.836 +- 0.0447 (DSYS=+0.0206, -0.0206); 
 0.35; 0.2; 1.2 +- 0.131 (DSYS=+0.14, -0.14); 
@@ -1466,9 +1465,9 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dM_ee: dN/dM_ee(data-cocktail)
-*data: x: y: y: y
+*xheader: $M_{ee}$ : $dM_{ee}$
+*yheader: $dN/dM_{ee}$(data-cocktail)
+*data: x: x: y: y
 0.255; 0.11; 0.00187 +- 0.000492 (DSYS=+0.00195, -0.00195); 0.00406; 
 0.355; 0.09; 0.0031 +- 0.000615 (DSYS=+0.00171, -0.00171); 0.00273; 
 0.455; 0.11; 0.00429 +- 0.000632 (DSYS=+0.00135, -0.00135); 0.0019; 
@@ -1536,8 +1535,8 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dN/dM IN GEV/C^2: PYTHIA: PYTHIA w/ decorrelated $\Delta\phi$: Random ee (PYTHIA e $p_T$ w/ NPE $R_{AA}$): Cocktail sum (w/ PYTHIA)
+*xheader: $M_{ee}$
+*yheader: $dN/dM$ IN GEV/C^2: PYTHIA: PYTHIA w/ decorrelated $\Delta\phi$: Random ee (PYTHIA e $p_T$ w/ NPE $R_{AA}$): Cocktail sum (w/ PYTHIA)
 *data: x: y: y: y: y
 0.025; 0.000454; 0.000497; 0.000558; 0.000575; 
 0.075; 0.00131; 0.00144; 0.00161; 0.00166; 
@@ -1638,8 +1637,8 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: T_eff: PYTHIA: PYTHIA w/ decorrelated $\Delta\phi$: Random ee (PYTHIA e $p_T$ w/ NPE $R_{AA}$): Cocktail sum (w/ PYTHIA)
+*xheader: $M_{ee}$
+*yheader: $T_{eff}: PYTHIA: PYTHIA w/ decorrelated $\Delta\phi$: Random ee (PYTHIA e $p_T$ w/ NPE $R_{AA}$): Cocktail sum (w/ PYTHIA)
 *data: x: y: y: y: y
 1.05; 0.197; 0.188; 0.185; 0.201; 
 1.1; 0.196; 0.187; 0.184; 0.2; 
@@ -1685,8 +1684,8 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dN/dM
+*xheader: $M_{ee}$
+*yheader: $dN/dM$
 *data: x: y
 0.665; 0.00136 +- 0.000156; 
 0.695; 0.00114 +- 0.000151; 
@@ -1712,8 +1711,8 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dN/dM
+*xheader: $M_{ee}$
+*yheader: $dN/dM$
 *data: x: y
 0.895; 0.000476 +- 0.000112; 
 0.925; 0.000506 +- 0.000106; 
@@ -1740,7 +1739,7 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: pT
+*xheader: $p_T$
 *yheader: Mass: Simu: Simu_un: Width: Simu: Simu_un
 *data: x: y: y: y: y: y: y
 0.4; 0.78 +- 0.00263 (DSYS=+0.00122, -0.00122); 0.781; 0.000147; 0.0212 +- 0.0132 (DSYS=+0.00987, -0.00987); 0.0157; 7.41E-04;
@@ -1758,7 +1757,7 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: pT
+*xheader: $p_T$
 *yheader: Mass: Simu: Simu_un: Width: Simu: Simu_un
 *data: x: y: y: y: y: y: y
 0.25; 1.02 +- 0.00186 (DSYS=+0.000599, -0.000599); 1.02; 0.000835; 0.0183 +- 0.00527 (DSYS=+0.00316, -0.00316); 0.0145; 1.25E-03;
@@ -1775,7 +1774,7 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: pT
+*xheader: $p_T$
 *yheader: eff.acc.: omega: phi
 *data: x: y: y
 0.05; 0.0432; 0.047; 
@@ -1817,7 +1816,7 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: pT
+*xheader: $p_T$
 *yheader: $d^2N/(2\pi p_Tdp_Tdy)$
 *qual: omega
 *data: x: y
@@ -1835,7 +1834,7 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: pT
+*xheader: $p_T$
 *yheader: $d^2N/(2\pi p_Tdp_Tdy)$
 *qual: phi
 *data: x: y;
@@ -1853,7 +1852,7 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
+*xheader: $M_{ee}$
 *yheader: unLikeSign(mix)/LikeS(mix)
 *qual: .: STAR: STARwPHENIX
 *data: x: y: y
@@ -1906,9 +1905,9 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dM_ee: dN/dM_ee: cock.
-*data: x: y: y: y
+*xheader: $M_{ee}$ : $dM_{ee}$
+*yheader:  $dN/dM_{ee}$: cock.
+*data: x: x: y: y
 0.005; 0.01; 0.452 +- 0.00151 (DSYS=+0.0588, -0.0588); 0.557 +- 0 (DSYS=+0.0587, -0.0587); 
 0.015; 0.01; 0.125 +- 0.000749 (DSYS=+0.0162, -0.0162); 0.151 +- 0 (DSYS=+0.0161, -0.0161); 
 0.025; 0.01; 0.0667 +- 0.000549 (DSYS=+0.00867, -0.00867); 0.0846 +- 0 (DSYS=+0.00911, -0.00911); 
@@ -1972,9 +1971,9 @@
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
 *qual: SQRT(S) IN GEV:  200
-*xheader: M_ee
-*yheader: dM_ee: dN/dM_ee: sum(rapp)
-*data: x: y: y: y
+*xheader: $M_{ee}$ : $dM_{ee}$
+*yheader:  $dN/dM_{ee}$: sum(rapp)
+*data: x: x: y: y
 0.005; 0.01; 0.452 +- 0.00151 (DSYS=+0.0588, -0.0588); 0.559 +- 0 (DSYS=+0.0587, -0.0587); 
 0.015; 0.01; 0.125 +- 0.000749 (DSYS=+0.0162, -0.0162); 0.153 +- 0 (DSYS=+0.0161, -0.0161); 
 0.025; 0.01; 0.0667 +- 0.000549 (DSYS=+0.00867, -0.00867); 0.0866 +- 0 (DSYS=+0.00912, -0.00912); 
