@@ -5,7 +5,7 @@
 *status: Encoded 02 JUN 2016 by Nickolas Luttrell (Rice University)
 *title: Measurement of longitudinal spin asymmetries for weak boson production in polarized proton-proton collisions at RHIC
 *comment: BNL-RHIC.  We report measurements of single- and double- spin asymmetries for $W^{\pm}$ and $Z/\gamma^*$ boson production in longitudinally polarized $p+p$ collisions at $\sqrt{s} = 510$ GeV by the STAR experiment at RHIC. The asymmetries for $W^{\pm}$ were measured as a function of the decay lepton pseudorapidity, which provides a theoretically clean probe of the proton's polarized quark distributions at the scale of the $W$ mass. The results are compared to theoretical predictions, constrained by recent polarized deep inelastic scattering measurements, and show a preference for a sizable, positive up antiquark polarization in the range $0.05<x<0.2$
-*durhamId:
+*durhamId: 6625
 *inspireId: 1292792
 *cdsId: 1698947
 *detector: STAR
