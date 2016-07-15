@@ -1633,7 +1633,7 @@
 *dataset:
 *location: Figure 38
 *dscomment: Slope parameters Teff versus invariant mass for dielectrons from charm hadron decays.
-*obskey: 
+*obskey: SLOPE
 *reackey: AU AU --> E- X
 *reackey: AU AU --> E+ X
 *qual: AU AU --> E-  E+ X
