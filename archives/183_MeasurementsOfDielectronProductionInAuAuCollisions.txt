@@ -13,7 +13,7 @@
 *dataset:
 *location: Figure 7
 *dscomment: Estimated electron purity vs. momentum in 200 GeV Au + Au collisions
-*obskey: 
+*obskey: RATIO
 *reackey: AU AU --> E- E+ X
 *qual: SQRT(S) IN GEV:  200
 *qual: .: mb: c
@@ -69,12 +69,12 @@
 *dataset:
 *location: Figure 17
 *dscomment: Acceptance correction factor for unlike-sign and like-sign pair difference from 200 GeV Au+Au minimum-bias collisions.
-*obskey: MASS
+*obskey: DMASS
+*obskey: RATIO
 *reackey: AU AU --> E- E+ X
 *qual: SQRT(S) IN GEV:  200
-*qual: .: .: unLikeS(mix)/LikeS(mix)
-*xheader: M_ee
-*yheader: dM_ee
+*xheader: M_ee IN GeV/c^2
+*yheader: dM_ee: unLikeS(mix)/LikeS(mix)
 *data: x: y: y
 0.0125; 0.025; 0.934 +- 0.000625; 
 0.0375; 0.025; 0.935 +- 0.000348; 
