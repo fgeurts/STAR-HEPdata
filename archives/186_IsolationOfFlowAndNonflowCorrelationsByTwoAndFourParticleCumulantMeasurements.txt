@@ -948,7 +948,7 @@
 *dataset:
 *location: Figure 2a
 *dscomment: The $V_2${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
-*obskey: DELTAV22
+*obskey: DV22
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: $\Delta\,V_2${2} (x$10^{-4}$)
@@ -969,7 +969,7 @@
 *dataset:
 *location: Figure 2a
 *dscomment: The $V_2${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
-*obskey: DELTAV22
+*obskey: V22
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: $\Delta\,V_2${2} (x$10^{-4}$)
@@ -989,7 +989,7 @@
 *dataset:
 *location: Figure 2a
 *dscomment: The $V_2${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
-*obskey: DELTAV22
+*obskey: DV22
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: $\Delta\,V_2${2} (x$10^{-4}$)
@@ -1008,7 +1008,7 @@
 *dataset:
 *location: Figure 2a
 *dscomment: The $V_2${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
-*obskey: DELTAV22
+*obskey: DV22
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: $\Delta\,V_2${2} (x$10^{-4}$)
@@ -1026,7 +1026,7 @@
 *dataset:
 *location: Figure 2b
 *dscomment: The $V_3${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
-*obskey: DELTAV32
+*obskey: DV32
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: $\Delta\,V_3${2} (x$10^{-4}$)
@@ -1047,7 +1047,7 @@
 *dataset:
 *location: Figure 2b
 *dscomment: The $V_3${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
-*obskey: DELTAV32
+*obskey: DV32
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: $\Delta\,V_3${2} (x$10^{-4}$)
@@ -1067,7 +1067,7 @@
 *dataset:
 *location: Figure 2b
 *dscomment: The $V_3${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
-*obskey: DELTAV32
+*obskey: DV32
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: $\Delta\,V_3${2} (x$10^{-4}$)
@@ -1086,7 +1086,7 @@
 *dataset:
 *location: Figure 2b
 *dscomment: The $V_3${2} and difference between the pairs at ($\eta_{\alpha}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, -$\eta_{\beta}$). The data are from 20-30% central Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
-*obskey: DELTAV32
+*obskey: DV32
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: $\Delta\,V_3${2} (x$10^{-4}$)
@@ -1104,7 +1104,7 @@
 *dataset:
 *location: Figure 2c
 *dscomment:  The $V_2^{1/2}$ difference between quadruplets at ($\eta_{\alpha}$, $\eta_{\alpha}$, $\eta_{\beta}$, $\eta_{\beta}$) and ($\eta_{\alpha}$, $\eta_{\alpha}$, -$\eta_{\beta}$, -$\eta_{\beta}$)
-*obskey: DELTAV24
+*obskey: DV24
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $\Delta\eta_2$ - $\Delta\eta_1$
@@ -2003,7 +2003,7 @@
 *dataset:
 *location: Figure 3c
 *dscomment: The difference in two-particle cumulants, V2{2} as a function of $\eta$ for one particle while averaged over $\eta$ of the partner particle.
-*obskey: DELTAV24
+*obskey: DV24
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: $\Delta\,V_2^{1/2}${4} (x$10^{-4}$)
@@ -2172,7 +2172,7 @@ in Eq. (11), of the third harmonic is shown as a function of ??-gap |$\Delta\eta
 *dataset:
 *location: Figure 5(a)
 *dscomment: The nonflow, $\sqrt{\bar{D}_2}$, $\sqrt{\delta_2}$, $\sqrt{\bar{D}_3}$ and flow, $\sqrt{v_2^2/2}$, $\sqrt{<v_2^2>}$ results are shown as a function of centrality percentile for the second harmonic.
-*obskey: V2
+*obskey: V2**2
 *reackey: AU AU --> X
 *qual: SQRT(S) IN GEV:  200
 *qual: v2
