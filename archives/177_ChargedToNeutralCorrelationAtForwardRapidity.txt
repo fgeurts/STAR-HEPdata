@@ -116,7 +116,7 @@
 *dataset:
 *location: Figure 2a
 *dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{<N_{ch}><N_{\gamma}}$ for real events. $\omega_{ch}^{real}$ is plotted.
-*obskey: 
+*obskey: DN
 *reackey: AU AU --> PI+ X
 *reackey: AU AU --> PI- X
 *reackey: AU AU --> PI0 X
@@ -135,7 +135,7 @@
 *dataset:
 *location: Figure 2a
 *dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{<N_{ch}><N_{\gamma}}$ for mixed events. $\omega_{ch}^{mixed}$ is plotted.
-*obskey: 
+*obskey: DN
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
@@ -189,7 +189,7 @@
 *dataset:
 *location: Figure 2c
 *dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{<N_{ch}><N_{\gamma}}$ for mixed events. $\omega_{\gamma}^{real}$ is plotted.
-*obskey: 
+*obskey: DN
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
@@ -207,7 +207,7 @@
 *dataset:
 *location: Figure 2c
 *dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{<N_{ch}><N_{\gamma}}$ for mixed events. $\omega_{\gamma}^{mixed}$ is plotted.
-*obskey: 
+*obskey: DN
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
@@ -358,7 +358,7 @@
 *reackey: AU AU --> GAMMA GAMMA X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $\sqrt{<N_{ch}><N_{\gamma}}$
-*yheader: $r_{m,1}^{real}$
+*yheader: $r_{1,1}^{real}$
 *data: x: y
 50 +- 0.046 (DSYS=+4, -4); 0.9965 +- 0.0003 (DSYS=+0.0010, -0.0010); 
 42 +- 0.037 (DSYS=+3, -3); 0.9967 +- 0.0002 (DSYS=+0.0013, -0.0013); 
