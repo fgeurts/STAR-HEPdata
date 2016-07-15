@@ -5,7 +5,7 @@
 *status: Encoded 31 MAY 2016 by Nickolas Luttrell
 *title: Isolation of Flow and Nonflow Correlations by Two- and Four-Particle Cumulant Measurements of Azimuthal Harmonics in $\sqrt{s_{_{\rm NN}}} =$ 200 GeV Au+Au Collisions
 *comment: BNL-RHIC.  A data-driven method was applied to measurements of Au+Au collisions at $\sqrt{s_{_{\rm NN}}} =$ 200 GeV made with the STAR detector at RHIC to isolate pseudorapidity distance $\Delta\eta$-dependent and $\Delta\eta$-independent correlations by using two- and four-particle azimuthal cumulant measurements. We identified a component of the correlation that is $\Delta\eta$-independent, which is likely dominated by anisotropic flow and flow fluctuations. It was also found to be independent of $\eta$ within the measured range of pseudorapidity $|\eta|<1$. The relative flow fluctuation was found to be $34\% \pm 2\% (stat.) \pm 3\% (sys.)$ for particles of transverse momentum $p_{T}$ less than $2$ GeV/$c$. The $\Delta\eta$-dependent part may be attributed to nonflow correlations, and is found to be $5\% \pm 2\% (sys.)$ relative to the flow of the measured second harmonic cumulant at $|\Delta\eta| > 0.7$
-*durhamId:
+*durhamId: 6630
 *inspireId: 1315466
 *cdsId: 1754754
 *detector: STAR
