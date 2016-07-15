@@ -14,14 +14,15 @@
 *dataset:
 *location: Figure 1
 *dscomment: Multiplicity distributions of raw charged particles and photons.
-*obskey: 
-*reackey: AU AU --> PI+ PI- X
-*reackey: AU AU --> PI0 PI0 X
-*reackey: AU AU --> GAMMA GAMMA X
+*obskey: N
+*reackey: AU AU --> PI+ X
+*reackey: AU AU --> PI- X
+*reackey: AU AU --> PI0 X
+*reackey: AU AU --> GAMMA X
+*qual: RE: Au+Au --> (Pi+ Pi- X), (Pi0 Pi0 X), (Gamma Gamma X)
 *qual: SQRT(S) IN GEV:  200
 *xheader: $N_{ch}^{real}$
-*yheader: -
-*qual: .: P($N_{ch}^{real}$):$N_{ch}^{mixed}$: P($N_{ch}^{mixed}$): $N_{\gamma}^{real}$: P($N_{\gamma}^{real}$): $N_{\gamma}^{mixed}$: P($N_{\gamma}^{mixed}$)
+*yheader: P($N_{ch}^{real}$):$N_{ch}^{mixed}$: P($N_{ch}^{mixed}$): $N_{\gamma}^{real}$: P($N_{\gamma}^{real}$): $N_{\gamma}^{mixed}$: P($N_{\gamma}^{mixed}$)
 *data: x: y: y: y: y: y: y: y
 5; 1; 18; 1; 8; 2; 15; 1; 
 9; 1; 20; 1; 10; 1; 17; 2; 
@@ -116,9 +117,10 @@
 *location: Figure 2a
 *dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{<N_{ch}><N_{\gamma}}$ for real events. $\omega_{ch}^{real}$ is plotted.
 *obskey: 
-*reackey: AU AU --> PI+ PI- X
-*reackey: AU AU --> PI0 PI0 X
-*reackey: AU AU --> GAMMA GAMMA X
+*reackey: AU AU --> PI+ X
+*reackey: AU AU --> PI- X
+*reackey: AU AU --> PI0 X
+*reackey: AU AU --> GAMMA X
 *qual: SQRT(S) IN GEV:  200
 *xheader: $\sqrt{<N_{ch}><N_{\gamma}}$
 *yheader: $\omega_{ch}^{real}$
@@ -151,7 +153,7 @@
 *dataset:
 *location: Figure 2b
 *dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{<N_{ch}><N_{\gamma}}$ for mixed events. $Corr_{\gamma\,-ch}^{real}$ is plotted.
-*obskey: 
+*obskey: CORR
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
@@ -169,7 +171,7 @@
 *dataset:
 *location: Figure 2b
 *dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{<N_{ch}><N_{\gamma}}$ for mixed events. $Corr_{\gamma\,-ch}^{mixed}$ is plotted.
-*obskey: 
+*obskey: CORR
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
