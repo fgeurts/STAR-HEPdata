@@ -5,7 +5,7 @@
 *status: Encoded 01 JUN 2016 by Nickolas Luttrell (Rice University)
 *title: Charged-to-neutral correlation at forward rapidity in Au+Au collisions at $\sqrt{s_{NN}}$=200 GeV
 *comment: BNL-RHIC.  Event-by-event fluctuations of the ratio of inclusive charged to photon multiplicities at forward rapidity in Au+Au collision at $\sqrt{s_{NN}}$=200 GeV have been studied. Dominant contribution to such fluctuations is expected to come from correlated production of charged and neutral pions. We search for evidences of dynamical fluctuations of different physical origins. Observables constructed out of moments of multiplicities are used as measures of fluctuations. Mixed events and model calculations are used as baselines. Results are compared to the dynamical net-charge fluctuations measured in the same acceptance. A non-zero statistically significant signal of dynamical fluctuations is observed in excess to the model prediction when charged particles and photons are measured in the same acceptance. We find that, unlike dynamical net-charge fluctuation, charge-neutral fluctuation is not dominated by correlation due to particle decay. Results are compared to the expectations based on the generic production mechanism of pions due to isospin symmetry, for which no significant (<1%) deviation is observed
-*durhamId:
+*durhamId: 6632
 *inspireId: 1311834
 *cdsId: 1751205
 *detector: STAR
