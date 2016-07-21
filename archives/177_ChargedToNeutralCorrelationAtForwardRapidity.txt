@@ -4,7 +4,7 @@
 *doi: 10.1103/PhysRevC.91.034905
 *status: Encoded 01 JUN 2016 by Nickolas Luttrell (Rice University)
 *title: Charged-to-neutral correlation at forward rapidity in Au+Au collisions at $\sqrt{s_{NN}}$=200 GeV
-*comment: BNL-RHIC.  Event-by-event fluctuations of the ratio of inclusive charged to photon multiplicities at forward rapidity in Au+Au collision at $\sqrt{s_{NN}}$=200 GeV have been studied. Dominant contribution to such fluctuations is expected to come from correlated production of charged and neutral pions. We search for evidences of dynamical fluctuations of different physical origins. Observables constructed out of moments of multiplicities are used as measures of fluctuations. Mixed events and model calculations are used as baselines. Results are compared to the dynamical net-charge fluctuations measured in the same acceptance. A non-zero statistically significant signal of dynamical fluctuations is observed in excess to the model prediction when charged particles and photons are measured in the same acceptance. We find that, unlike dynamical net-charge fluctuation, charge-neutral fluctuation is not dominated by correlation due to particle decay. Results are compared to the expectations based on the generic production mechanism of pions due to isospin symmetry, for which no significant (<1%) deviation is observed
+*comment: BNL-RHIC.  Event-by-event fluctuations of the ratio of inclusive charged to photon multiplicities at forward rapidity in Au+Au collision at $\sqrt{s_{NN}}$=200 GeV have been studied. Dominant contribution to such fluctuations is expected to come from correlated production of charged and neutral pions. We search for evidences of dynamical fluctuations of different physical origins. Observables constructed out of moments of multiplicities are used as measures of fluctuations. Mixed events and model calculations are used as baselines. Results are compared to the dynamical net-charge fluctuations measured in the same acceptance. A non-zero statistically significant signal of dynamical fluctuations is observed in excess to the model prediction when charged particles and photons are measured in the same acceptance. We find that, unlike dynamical net-charge fluctuation, charge-neutral fluctuation is not dominated by correlation due to particle decay. Results are compared to the expectations based on the generic production mechanism of pions due to isospin symmetry, for which no significant (\langle 1%) deviation is observed
 *durhamId: 6632
 *inspireId: 1311834
 *cdsId: 1751205
@@ -20,7 +20,7 @@
 *reackey: AU AU --> PI0 X
 *reackey: AU AU --> GAMMA X
 *qual: RE: Au+Au --> (Pi+ Pi- X), (Pi0 Pi0 X), (Gamma Gamma X)
-*qual: SQRT(S) IN GEV:  200
+*qual: SQRT(S)/NUCLEON IN GEV:  200
 *xheader: $N_{ch}^{real}$
 *yheader: P($N_{ch}^{real}$):$N_{ch}^{mixed}$: P($N_{ch}^{mixed}$): $N_{\gamma}^{real}$: P($N_{\gamma}^{real}$): $N_{\gamma}^{mixed}$: P($N_{\gamma}^{mixed}$)
 *data: x: y: y: y: y: y: y: y
@@ -113,151 +113,157 @@
 101; 1; -; -; -; -; -; -; 
 109; 1; -; -; -; -; -; -; 
 *dataend: 
+
 *dataset:
 *location: Figure 2a
-*dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{<N_{ch}><N_{\gamma}}$ for real events. $\omega_{ch}^{real}$ is plotted.
+*dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$ for real events. $\omega_{ch}^{real}$ is plotted.
 *obskey: DN
 *reackey: AU AU --> PI+ X
 *reackey: AU AU --> PI- X
 *reackey: AU AU --> PI0 X
 *reackey: AU AU --> GAMMA X
-*qual: SQRT(S) IN GEV:  200
-*xheader: $\sqrt{<N_{ch}><N_{\gamma}}$
-*yheader: $\omega_{ch}^{real}$
-*data: x: y
-50 +- 0.046 (DSYS=+4, -4); 1.0057 +- 0.0003 (DSYS=+0.0009, -0.0009); 
-42 +- 0.037 (DSYS=+3, -3); 1.0079 +- 0.0003 (DSYS=+0.0010, -0.0010); 
-32 +- 0.027 (DSYS=+2, -2); 1.0108 +- 0.0004 (DSYS=+0.0008, -0.0008); 
-23 +- 0.037 (DSYS=+2, -2); 1.0154 +- 0.0009 (DSYS=+0.0005, -0.0005); 
-16 +- 0.027 (DSYS=+1, -1); 1.0234 +- 0.0022 (DSYS=+0.0003, -0.0003); 
-10.7 +- 0.023 (DSYS=+0.8, -0.8); 1.0371 +- 0.0061 (DSYS=+0.0034, -0.0034); 
+*qual: SQRT(S)/NUCLEON IN GEV:  200
+*xheader: Integer Bin Number
+*yheader: $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$: $\omega_{ch}^{real}$
+*data: x: y: y
+1; 50 +- 0.046 (DSYS=+4, -4); 1.0057 +- 0.0003 (DSYS=+0.0009, -0.0009); 
+2; 42 +- 0.037 (DSYS=+3, -3); 1.0079 +- 0.0003 (DSYS=+0.0010, -0.0010); 
+3; 32 +- 0.027 (DSYS=+2, -2); 1.0108 +- 0.0004 (DSYS=+0.0008, -0.0008); 
+4; 23 +- 0.037 (DSYS=+2, -2); 1.0154 +- 0.0009 (DSYS=+0.0005, -0.0005); 
+5; 16 +- 0.027 (DSYS=+1, -1); 1.0234 +- 0.0022 (DSYS=+0.0003, -0.0003); 
+6; 10.7 +- 0.023 (DSYS=+0.8, -0.8); 1.0371 +- 0.0061 (DSYS=+0.0034, -0.0034); 
 *dataend: 
+
 *dataset:
 *location: Figure 2a
-*dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{<N_{ch}><N_{\gamma}}$ for mixed events. $\omega_{ch}^{mixed}$ is plotted.
+*dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$ for mixed events. $\omega_{ch}^{mixed}$ is plotted.
 *obskey: DN
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
-*qual: SQRT(S) IN GEV:  200
-*xheader: $\sqrt{<N_{ch}><N_{\gamma}}$
-*yheader: $\omega_{ch}^{mixed}$
-*data: x: y
-50 +- 0.008 (DSYS=+3, -3); 1.0041 +- 0.0001 (DSYS=+0.0003, -0.0003); 
-41 +- 0.008 (DSYS=+3, -3); 1.0063 +- 0.0001 (DSYS=+0.0004, -0.0004); 
-31 +- 0.006 (DSYS=+2, -2); 1.0093 +- 0.0001 (DSYS=+0.0005, -0.0005); 
-23 +- 0.010 (DSYS=+2, -2); 1.0148 +- 0.0002 (DSYS=+0.0002, -0.0002); 
-16 +- 0.007 (DSYS=+1, -1); 1.0242 +- 0.0003 (DSYS=+0.001, -0.001); 
-10.5 +- 0.007 (DSYS=+0.8, -0.8); 1.038 +- 0.001 (DSYS=+0.004, -0.004); 
+*qual: SQRT(S)/NUCLEON IN GEV:  200
+*xheader: Integer Bin Number
+*yheader: $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$: $\omega_{ch}^{mixed}$
+*data: x: y: y
+1; 50 +- 0.008 (DSYS=+3, -3); 1.0041 +- 0.0001 (DSYS=+0.0003, -0.0003); 
+2; 41 +- 0.008 (DSYS=+3, -3); 1.0063 +- 0.0001 (DSYS=+0.0004, -0.0004); 
+3; 31 +- 0.006 (DSYS=+2, -2); 1.0093 +- 0.0001 (DSYS=+0.0005, -0.0005); 
+4; 23 +- 0.010 (DSYS=+2, -2); 1.0148 +- 0.0002 (DSYS=+0.0002, -0.0002); 
+5; 16 +- 0.007 (DSYS=+1, -1); 1.0242 +- 0.0003 (DSYS=+0.001, -0.001); 
+6; 10.5 +- 0.007 (DSYS=+0.8, -0.8); 1.038 +- 0.001 (DSYS=+0.004, -0.004); 
 *dataend: 
+
 *dataset:
 *location: Figure 2b
-*dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{<N_{ch}><N_{\gamma}}$ for mixed events. $Corr_{\gamma\,-ch}^{real}$ is plotted.
+*dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$ for mixed events. $Corr_{\gamma\,-ch}^{real}$ is plotted.
 *obskey: CORR
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
-*qual: SQRT(S) IN GEV:  200
-*xheader: $\sqrt{<N_{ch}><N_{\gamma}}$
-*yheader: $Corr_{\gamma\,-ch}^{real}$
-*data: x: y
-50 +- 0.046 (DSYS=+4, -4); 1.0022 +- 0.0001 (DSYS=+0.0002, -0.0002); 
-42 +- 0.037 (DSYS=+3, -3); 1.0046 +- 0.0002 (DSYS=+0.0004, -0.0004); 
-32 +- 0.027 (DSYS=+2, -2); 1.0096 +- 0.0003 (DSYS=+0.0004, -0.0004); 
-23 +- 0.037 (DSYS=+2, -2); 1.0167 +- 0.0004 (DSYS=+0.0006, -0.0006); 
-16 +- 0.027 (DSYS=+1, -1); 1.0278 +- 0.0009 (DSYS=+0.0012, -0.0012); 
-10.7 +- 0.023 (DSYS=+0.8, -0.8); 1.0494 +- 0.0022 (DSYS=+0.0049, -0.0049); 
+*qual: SQRT(S)/NUCLEON IN GEV:  200
+*xheader: Integer Bin Number
+*yheader: $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$: $Corr_{\gamma\,-ch}^{real}$
+*data: x: y: y
+1; 50 +- 0.046 (DSYS=+4, -4); 1.0022 +- 0.0001 (DSYS=+0.0002, -0.0002); 
+2; 42 +- 0.037 (DSYS=+3, -3); 1.0046 +- 0.0002 (DSYS=+0.0004, -0.0004); 
+3; 32 +- 0.027 (DSYS=+2, -2); 1.0096 +- 0.0003 (DSYS=+0.0004, -0.0004); 
+4; 23 +- 0.037 (DSYS=+2, -2); 1.0167 +- 0.0004 (DSYS=+0.0006, -0.0006); 
+5; 16 +- 0.027 (DSYS=+1, -1); 1.0278 +- 0.0009 (DSYS=+0.0012, -0.0012); 
+6; 10.7 +- 0.023 (DSYS=+0.8, -0.8); 1.0494 +- 0.0022 (DSYS=+0.0049, -0.0049); 
 *dataend: 
+
 *dataset:
 *location: Figure 2b
-*dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{<N_{ch}><N_{\gamma}}$ for mixed events. $Corr_{\gamma\,-ch}^{mixed}$ is plotted.
+*dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$ for mixed events. $Corr_{\gamma\,-ch}^{mixed}$ is plotted.
 *obskey: CORR
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
-*qual: SQRT(S) IN GEV:  200
-*xheader: $\sqrt{<N_{ch}><N_{\gamma}}$
-*yheader: $Corr_{\gamma\,-ch}^{mixed}$
-*data: x: y
-50 +- 0.008 (DSYS=+3, -3); 1.0041 +- 0.0001 (DSYS=+0.0002, -0.0002); 
-41 +- 0.008 (DSYS=+3, -3); 1.0062 +- 0.0001 (DSYS=+0.0001, -0.0001); 
-31 +- 0.006 (DSYS=+2, -2); 1.0092 +- 0.0001 (DSYS=+0.0003, -0.0003); 
-23 +- 0.010 (DSYS=+2, -2); 1.0144 +- 0.0001 (DSYS=+0.0003, -0.0003); 
-16 +- 0.007 (DSYS=+1, -1); 1.0242 +- 0.0001 (DSYS=+0.0006, -0.0006); 
-10.5 +- 0.007 (DSYS=+0.8, -0.8); 1.0402 +- 0.0007 (DSYS=+0.004, -0.004); 
+*qual: SQRT(S)/NUCLEON IN GEV:  200
+*xheader: Integer Bin Number
+*yheader: $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$: $Corr_{\gamma\,-ch}^{mixed}$
+*data: x: y: y
+1; 50 +- 0.008 (DSYS=+3, -3); 1.0041 +- 0.0001 (DSYS=+0.0002, -0.0002); 
+2; 41 +- 0.008 (DSYS=+3, -3); 1.0062 +- 0.0001 (DSYS=+0.0001, -0.0001); 
+3; 31 +- 0.006 (DSYS=+2, -2); 1.0092 +- 0.0001 (DSYS=+0.0003, -0.0003); 
+4; 23 +- 0.010 (DSYS=+2, -2); 1.0144 +- 0.0001 (DSYS=+0.0003, -0.0003); 
+5; 16 +- 0.007 (DSYS=+1, -1); 1.0242 +- 0.0001 (DSYS=+0.0006, -0.0006); 
+6; 10.5 +- 0.007 (DSYS=+0.8, -0.8); 1.0402 +- 0.0007 (DSYS=+0.004, -0.004); 
 *dataend: 
 *dataset:
 *location: Figure 2c
-*dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{<N_{ch}><N_{\gamma}}$ for mixed events. $\omega_{\gamma}^{real}$ is plotted.
+*dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$ for mixed events. $\omega_{\gamma}^{real}$ is plotted.
 *obskey: DN
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
-*qual: SQRT(S) IN GEV:  200
-*xheader: $\sqrt{<N_{ch}><N_{\gamma}}$
-*yheader: $\omega_{\gamma}^{real}$
-*data: x: y
-50 +- 0.046 (DSYS=+4, -4); 1.0106 +- 0.0003 (DSYS=+0.0009, -0.0009); 
-42 +- 0.037 (DSYS=+3, -3); 1.0160 +- 0.0002 (DSYS=+0.0010, -0.0010); 
-32 +- 0.027 (DSYS=+2, -2); 1.0245 +- 0.0004 (DSYS=+0.0009, -0.0009); 
-23 +- 0.037 (DSYS=+2, -2); 1.0378 +- 0.0004 (DSYS=+0.0012, -0.0012); 
-16 +- 0.027 (DSYS=+1, -1); 1.0615 +- 0.0006 (DSYS=+0.0037, -0.0037); 
-10.7 +- 0.023 (DSYS=+0.8, -0.8); 1.1070 +- 0.0014 (DSYS=+0.0111, -0.0111); 
+*qual: SQRT(S)/NUCLEON IN GEV:  200
+*xheader: Integer Bin Number
+*yheader: $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$: $\omega_{\gamma}^{real}$
+*data: x: y: y
+1; 50 +- 0.046 (DSYS=+4, -4); 1.0106 +- 0.0003 (DSYS=+0.0009, -0.0009); 
+2; 42 +- 0.037 (DSYS=+3, -3); 1.0160 +- 0.0002 (DSYS=+0.0010, -0.0010); 
+3; 32 +- 0.027 (DSYS=+2, -2); 1.0245 +- 0.0004 (DSYS=+0.0009, -0.0009); 
+4; 23 +- 0.037 (DSYS=+2, -2); 1.0378 +- 0.0004 (DSYS=+0.0012, -0.0012); 
+5; 16 +- 0.027 (DSYS=+1, -1); 1.0615 +- 0.0006 (DSYS=+0.0037, -0.0037); 
+6; 10.7 +- 0.023 (DSYS=+0.8, -0.8); 1.1070 +- 0.0014 (DSYS=+0.0111, -0.0111); 
 *dataend: 
 *dataset:
 *location: Figure 2c
-*dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{<N_{ch}><N_{\gamma}}$ for mixed events. $\omega_{\gamma}^{mixed}$ is plotted.
+*dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$ for mixed events. $\omega_{\gamma}^{mixed}$ is plotted.
 *obskey: DN
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
-*qual: SQRT(S) IN GEV:  200
-*xheader: $\sqrt{<N_{ch}><N_{\gamma}}$
-*yheader: $\omega_{\gamma}^{mixed}$
-*data: x: y
-50 +- 0.008 (DSYS=+3, -3); 1.0044 +- 0.0001 (DSYS=+0.0003, -0.0003); 
-41 +- 0.008 (DSYS=+3, -3); 1.0064 +- 0.0001 (DSYS=+0.0002, -0.0002); 
-31 +- 0.006 (DSYS=+2, -2); 1.0096 +- 0.0001 (DSYS=+0.0004, -0.0004); 
-23 +- 0.010 (DSYS=+2, -2); 1.0147 +- 0.0001 (DSYS=+0.0005, -0.0005); 
-16 +- 0.007 (DSYS=+1, -1); 1.0243 +- 0.0003 (DSYS=+0.0006, -0.0006); 
-10.5 +- 0.007 (DSYS=+0.8, -0.8); 1.042 +- 0.001 (DSYS=+0.004, -0.004); 
+*qual: SQRT(S)/NUCLEON IN GEV:  200
+*xheader: Integer Bin Number
+*yheader: $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$: $\omega_{\gamma}^{mixed}$
+*data: x: y: y
+1; 50 +- 0.008 (DSYS=+3, -3); 1.0044 +- 0.0001 (DSYS=+0.0003, -0.0003); 
+2; 41 +- 0.008 (DSYS=+3, -3); 1.0064 +- 0.0001 (DSYS=+0.0002, -0.0002); 
+3; 31 +- 0.006 (DSYS=+2, -2); 1.0096 +- 0.0001 (DSYS=+0.0004, -0.0004); 
+4; 23 +- 0.010 (DSYS=+2, -2); 1.0147 +- 0.0001 (DSYS=+0.0005, -0.0005); 
+5; 16 +- 0.007 (DSYS=+1, -1); 1.0243 +- 0.0003 (DSYS=+0.0006, -0.0006); 
+6; 10.5 +- 0.007 (DSYS=+0.8, -0.8); 1.042 +- 0.001 (DSYS=+0.004, -0.004); 
 *dataend: 
 *dataset:
 *location: Figure 2d
-*dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{<N_{ch}><N_{\gamma}}$ for mixed events. $v_{dyn}^{real}$ is plotted.
+*dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$ for mixed events. $v_{dyn}^{real}$ is plotted.
 *obskey: 
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
-*qual: SQRT(S) IN GEV:  200
-*xheader: $\sqrt{<N_{ch}><N_{\gamma}}$
-*yheader: $v_{dyn}^{real}$
-*data: x: y
-50 +- 0.046 (DSYS=+4, -4); 0.012 +- 0.0004 (DSYS=+0.002, -0.002); 
-42 +- 0.037 (DSYS=+3, -3); 0.015 +- 0.0005 (DSYS=+0.002, -0.002); 
-32 +- 0.027 (DSYS=+2, -2); 0.016 +- 0.0006 (DSYS=+0.002, -0.002); 
-23 +- 0.037 (DSYS=+2, -2); 0.019 +- 0.0009 (DSYS=+0.001, -0.001); 
-16 +- 0.027 (DSYS=+1, -1); 0.029 +- 0.0018 (DSYS=+0.003, -0.003); 
-10.7 +- 0.023 (DSYS=+0.8, -0.8); 0.045 +- 0.0046 (DSYS=+0.008, -0.008); 
+*qual: SQRT(S)/NUCLEON IN GEV:  200
+*xheader: Integer Bin Number
+*yheader: $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$: $v_{dyn}^{real}$
+*data: x: y: y
+1; 50 +- 0.046 (DSYS=+4, -4); 0.012 +- 0.0004 (DSYS=+0.002, -0.002); 
+2; 42 +- 0.037 (DSYS=+3, -3); 0.015 +- 0.0005 (DSYS=+0.002, -0.002); 
+3; 32 +- 0.027 (DSYS=+2, -2); 0.016 +- 0.0006 (DSYS=+0.002, -0.002); 
+4; 23 +- 0.037 (DSYS=+2, -2); 0.019 +- 0.0009 (DSYS=+0.001, -0.001); 
+5; 16 +- 0.027 (DSYS=+1, -1); 0.029 +- 0.0018 (DSYS=+0.003, -0.003); 
+6; 10.7 +- 0.023 (DSYS=+0.8, -0.8); 0.045 +- 0.0046 (DSYS=+0.008, -0.008); 
 *dataend: 
+
 *dataset:
 *location: Figure 2d
-*dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{<N_{ch}><N_{\gamma}}$ for mixed events. $v_{dyn}^{mixed}$ is plotted.
+*dscomment: The $v_{dyn}$ and the three terms of $v_{dyn}$ vs $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$ for mixed events. $v_{dyn}^{mixed}$ is plotted.
 *obskey: 
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
-*qual: SQRT(S) IN GEV:  200
-*xheader: $\sqrt{<N_{ch}><N_{\gamma}}$
-*yheader: $v_{dyn}^{mixed}$
-*data: x: y
-50 +- 0.008 (DSYS=+3, -3); 0.0003 +- 0.0001 (DSYS=+0.0002, -0.0002); 
-41 +- 0.008 (DSYS=+3, -3); 0.0004 +- 0.0001 (DSYS=+0.0003, -0.0003); 
-31 +- 0.006 (DSYS=+2, -2); 0.0004 +- 0.0002 (DSYS=+0.0003, -0.0003); 
-23 +- 0.010 (DSYS=+2, -2); 0.0006 +- 0.0002 (DSYS=+0.0003, -0.0003); 
-16 +- 0.007 (DSYS=+1, -1); -0.0001 +- 0.0003 (DSYS=+0.0006, -0.0006); 
-10.5 +- 0.007 (DSYS=+0.8, -0.8); -0.001 +- 0.0007 (DSYS=+0.001, -0.001); 
+*qual: SQRT(S)/NUCLEON IN GEV:  200
+*xheader: Integer Bin Number
+*yheader: $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$: $v_{dyn}^{mixed}$
+*data: x: y: y
+1; 50 +- 0.008 (DSYS=+3, -3); 0.0003 +- 0.0001 (DSYS=+0.0002, -0.0002); 
+2; 41 +- 0.008 (DSYS=+3, -3); 0.0004 +- 0.0001 (DSYS=+0.0003, -0.0003); 
+3; 31 +- 0.006 (DSYS=+2, -2); 0.0004 +- 0.0002 (DSYS=+0.0003, -0.0003); 
+4; 23 +- 0.010 (DSYS=+2, -2); 0.0006 +- 0.0002 (DSYS=+0.0003, -0.0003); 
+5; 16 +- 0.007 (DSYS=+1, -1); -0.0001 +- 0.0003 (DSYS=+0.0006, -0.0006); 
+6; 10.5 +- 0.007 (DSYS=+0.8, -0.8); -0.001 +- 0.0007 (DSYS=+0.001, -0.001); 
 *dataend: 
+
 *dataset:
 *location: Figure 3a
 *dscomment: The values of the observable $v_{dyn}^{ch-\gamma}$ for the same side.
@@ -265,17 +271,18 @@
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
-*qual: SQRT(S) IN GEV:  200
-*xheader: $\sqrt{<N_{ch}><N_{\gamma}}$
-*yheader: $v_{dyn}^{real}$
-*data: x: y
-50 +- 0.046 (DSYS=+4, -4); 0.012 +- 0.0004 (DSYS=+0.002, -0.002); 
-42 +- 0.037 (DSYS=+3, -3); 0.015 +- 0.0005 (DSYS=+0.002, -0.002); 
-32 +- 0.027 (DSYS=+2, -2); 0.016 +- 0.0006 (DSYS=+0.002, -0.002); 
-23 +- 0.037 (DSYS=+2, -2); 0.019 +- 0.0009 (DSYS=+0.001, -0.001); 
-16 +- 0.027 (DSYS=+1, -1); 0.029 +- 0.0018 (DSYS=+0.003, -0.003); 
-10.7 +- 0.023 (DSYS=+0.8, -0.8); 0.045 +- 0.0046 (DSYS=+0.008, -0.008); 
+*qual: SQRT(S)/NUCLEON IN GEV:  200
+*xheader: Integer Bin Number
+*yheader: $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$: $v_{dyn}^{real}$
+*data: x: y: y
+1; 50 +- 0.046 (DSYS=+4, -4); 0.012 +- 0.0004 (DSYS=+0.002, -0.002); 
+2; 42 +- 0.037 (DSYS=+3, -3); 0.015 +- 0.0005 (DSYS=+0.002, -0.002); 
+3; 32 +- 0.027 (DSYS=+2, -2); 0.016 +- 0.0006 (DSYS=+0.002, -0.002); 
+4; 23 +- 0.037 (DSYS=+2, -2); 0.019 +- 0.0009 (DSYS=+0.001, -0.001); 
+5; 16 +- 0.027 (DSYS=+1, -1); 0.029 +- 0.0018 (DSYS=+0.003, -0.003); 
+6; 10.7 +- 0.023 (DSYS=+0.8, -0.8); 0.045 +- 0.0046 (DSYS=+0.008, -0.008); 
 *dataend: 
+
 *dataset:
 *location: Figure 3a
 *dscomment: The values of the observable $v_{dyn}^{ch-\gamma}$ for the same side.
@@ -283,17 +290,18 @@
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
-*qual: SQRT(S) IN GEV:  200
-*xheader: $\sqrt{<N_{ch}><N_{\gamma}}$
-*yheader: $v_{dyn}^{mixed}$
-*data: x: y
-50 +- 0.008; 0.0003 +- 0.0001; 
-41 +- 0.008; 0.0004 +- 0.0001; 
-31 +- 0.006; 0.0004 +- 0.0002; 
-23 +- 0.010; 0.0006 +- 0.0002; 
-16 +- 0.007; -0.0001 +- 0.0003; 
-10.5 +- 0.007; -0.001 +- 0.0007; 
+*qual: SQRT(S)/NUCLEON IN GEV:  200
+*xheader: Integer Bin Number
+*yheader: $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$: $v_{dyn}^{mixed}$
+*data: x: y: y
+1; 50 +- 0.008; 0.0003 +- 0.0001; 
+2; 41 +- 0.008; 0.0004 +- 0.0001; 
+3; 31 +- 0.006; 0.0004 +- 0.0002; 
+4; 23 +- 0.010; 0.0006 +- 0.0002; 
+5; 16 +- 0.007; -0.0001 +- 0.0003; 
+6; 10.5 +- 0.007; -0.001 +- 0.0007; 
 *dataend: 
+
 *dataset:
 *location: Figure 3b
 *dscomment: The values of the observable $v_{dyn}^{ch-\gamma}$ for the away-side.
@@ -301,17 +309,18 @@
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
-*qual: SQRT(S) IN GEV:  200
-*xheader: $\sqrt{<N_{ch}><N_{\gamma}}$
-*yheader: $v_{dyn}^{real}$
-*data: x: y
-38 +- 0.034 (DSYS=+3, -3); 0.017 +- 0.0006 (DSYS=+0.002, -0.002); 
-32 +- 0.022 (DSYS=+2, -2); 0.025 +- 0.0007 (DSYS=+0.003, -0.003); 
-25 +- 0.025 (DSYS=+2, -2); 0.034 +- 0.0008 (DSYS=+0.003, -0.003); 
-18 +- 0.026 (DSYS=+1, -1); 0.048 +- 0.0014 (DSYS=+0.003, -0.003); 
-13 +- 0.019 (DSYS=+1, -1); 0.072 +- 0.0016 (DSYS=+0.007, -0.007); 
-9 +- 0.020 (DSYS=+1, -1); 0.127 +- 0.0052 (DSYS=+0.021, -0.021); 
+*qual: SQRT(S)/NUCLEON IN GEV:  200
+*xheader: Integer Bin Number
+*yheader: $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$: $v_{dyn}^{real}$
+*data: x: y: y
+1; 38 +- 0.034 (DSYS=+3, -3); 0.017 +- 0.0006 (DSYS=+0.002, -0.002); 
+2; 32 +- 0.022 (DSYS=+2, -2); 0.025 +- 0.0007 (DSYS=+0.003, -0.003); 
+3; 25 +- 0.025 (DSYS=+2, -2); 0.034 +- 0.0008 (DSYS=+0.003, -0.003); 
+4; 18 +- 0.026 (DSYS=+1, -1); 0.048 +- 0.0014 (DSYS=+0.003, -0.003); 
+5; 13 +- 0.019 (DSYS=+1, -1); 0.072 +- 0.0016 (DSYS=+0.007, -0.007); 
+6; 9 +- 0.020 (DSYS=+1, -1); 0.127 +- 0.0052 (DSYS=+0.021, -0.021); 
 *dataend: 
+
 *dataset:
 *location: Figure 3b
 *dscomment: The values of the observable $v_{dyn}^{ch-\gamma}$ for the away-side.
@@ -319,17 +328,18 @@
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
-*qual: SQRT(S) IN GEV:  200
-*xheader: $\sqrt{<N_{ch}><N_{\gamma}}$
-*yheader: $v_{dyn}^{mixed}$
-*data: x: y
-36 +- 0.016; 0.0014 +- 0.0003; 
-31 +- 0.018; 0.0007 +- 0.0004; 
-24 +- 0.018; 0.0021 +- 0.0004; 
-18 +- 0.012; 0.0026 +- 0.0007; 
-13 +- 0.016; 0.0018 +- 0.0011; 
-8 +- 0.017; 0.0036 +- 0.0013; 
+*qual: SQRT(S)/NUCLEON IN GEV:  200
+*xheader: Integer Bin Number
+*yheader: $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$: $v_{dyn}^{mixed}$
+*data: x: y: y
+1; 36 +- 0.016; 0.0014 +- 0.0003; 
+2; 31 +- 0.018; 0.0007 +- 0.0004; 
+3; 24 +- 0.018; 0.0021 +- 0.0004; 
+4; 18 +- 0.012; 0.0026 +- 0.0007; 
+5; 13 +- 0.016; 0.0018 +- 0.0011; 
+6; 8 +- 0.017; 0.0036 +- 0.0013; 
 *dataend: 
+
 *dataset:
 *location: Figure 4
 *dscomment: The correlation between positive and negative charged particles measured by the FTPC and photons measured by the PMD using $v_{dyn}$ for real events.
@@ -337,18 +347,18 @@
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
-*qual: SQRT(S) IN GEV:  200
-*xheader: $\sqrt{<N_{ch}><N_{\gamma}}$
-*yheader: $v_{dyn}$
-*qual: .: $v_{dyn}^{ch^{+}-\gamma}$: $v_{dyn}^{ch^{-}-\gamma}$: $v_{dyn}^{ch^{+}-ch^{-}}$
-*data: x: y: y: y
-50 +- 0.046 (DSYS=+4, -4); 0.0115 +- 0.0007; 0.0103 +- 0.0006; -0.0037 +- 0.0006 (DSYS=+0.002, -0.002); 
-42 +- 0.037 (DSYS=+3, -3); 0.0137 +- 0.0007; 0.0133 +- 0.0007; -0.0048 +- 0.0008 (DSYS=+0.002, -0.002); 
-32 +- 0.027 (DSYS=+2, -2); 0.0137 +- 0.0011; 0.0152 +- 0.0009; -0.0059 +- 0.0010 (DSYS=+0.002, -0.002); 
-23 +- 0.037 (DSYS=+2, -2); 0.0174 +- 0.0014; 0.0177 +- 0.0010; -0.0081 +- 0.0014 (DSYS=+0.001, -0.001); 
-16 +- 0.027 (DSYS=+1, -1); 0.0266 +- 0.0019; 0.0272 +- 0.0020; -0.0096 +- 0.0020 (DSYS=+0.003, -0.003); 
-10.7 +- 0.023 (DSYS=+0.8, -0.8); 0.0361 +- 0.0056; 0.0401 +- 0.0065; -0.0285 +- 0.0034 (DSYS=+0.008, -0.008); 
+*qual: SQRT(S)/NUCLEON IN GEV:  200
+*xheader: Integer Bin Number
+*yheader: $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$: $v_{dyn}$: $v_{dyn}^{ch^{+}-\gamma}$: $v_{dyn}^{ch^{-}-\gamma}$: $v_{dyn}^{ch^{+}-ch^{-}}$
+*data: x: y: y: y: y
+1; 50 +- 0.046 (DSYS=+4, -4); 0.0115 +- 0.0007; 0.0103 +- 0.0006; -0.0037 +- 0.0006 (DSYS=+0.002, -0.002); 
+2; 42 +- 0.037 (DSYS=+3, -3); 0.0137 +- 0.0007; 0.0133 +- 0.0007; -0.0048 +- 0.0008 (DSYS=+0.002, -0.002); 
+3; 32 +- 0.027 (DSYS=+2, -2); 0.0137 +- 0.0011; 0.0152 +- 0.0009; -0.0059 +- 0.0010 (DSYS=+0.002, -0.002); 
+4; 23 +- 0.037 (DSYS=+2, -2); 0.0174 +- 0.0014; 0.0177 +- 0.0010; -0.0081 +- 0.0014 (DSYS=+0.001, -0.001); 
+5; 16 +- 0.027 (DSYS=+1, -1); 0.0266 +- 0.0019; 0.0272 +- 0.0020; -0.0096 +- 0.0020 (DSYS=+0.003, -0.003); 
+6; 10.7 +- 0.023 (DSYS=+0.8, -0.8); 0.0361 +- 0.0056; 0.0401 +- 0.0065; -0.0285 +- 0.0034 (DSYS=+0.008, -0.008); 
 *dataend: 
+
 *dataset:
 *location: Figure 5a
 *dscomment: $r_{m,1}$ vs multiplicity for first order of m.
@@ -356,17 +366,18 @@
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
-*qual: SQRT(S) IN GEV:  200
-*xheader: $\sqrt{<N_{ch}><N_{\gamma}}$
-*yheader: $r_{1,1}^{real}$
-*data: x: y
-50 +- 0.046 (DSYS=+4, -4); 0.9965 +- 0.0003 (DSYS=+0.0010, -0.0010); 
-42 +- 0.037 (DSYS=+3, -3); 0.9967 +- 0.0002 (DSYS=+0.0013, -0.0013); 
-32 +- 0.027 (DSYS=+2, -2); 0.9988 +- 0.0003 (DSYS=+0.0011, -0.0011); 
-23 +- 0.037 (DSYS=+2, -2); 1.0014 +- 0.0003 (DSYS=+0.0009, -0.0009); 
-16 +- 0.027 (DSYS=+1, -1); 1.0043 +- 0.0007 (DSYS=+0.0010, -0.0010); 
-10.7 +- 0.023 (DSYS=+0.8, -0.8); 1.0119 +- 0.0018 (DSYS=+0.0016, -0.0016); 
+*qual: SQRT(S)/NUCLEON IN GEV:  200
+*xheader: Integer Bin Number
+*yheader: $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$: $r_{1,1}^{real}$
+*data: x: y: y
+1; 50 +- 0.046 (DSYS=+4, -4); 0.9965 +- 0.0003 (DSYS=+0.0010, -0.0010); 
+2; 42 +- 0.037 (DSYS=+3, -3); 0.9967 +- 0.0002 (DSYS=+0.0013, -0.0013); 
+3; 32 +- 0.027 (DSYS=+2, -2); 0.9988 +- 0.0003 (DSYS=+0.0011, -0.0011); 
+4; 23 +- 0.037 (DSYS=+2, -2); 1.0014 +- 0.0003 (DSYS=+0.0009, -0.0009); 
+5; 16 +- 0.027 (DSYS=+1, -1); 1.0043 +- 0.0007 (DSYS=+0.0010, -0.0010); 
+6; 10.7 +- 0.023 (DSYS=+0.8, -0.8); 1.0119 +- 0.0018 (DSYS=+0.0016, -0.0016); 
 *dataend: 
+
 *dataset:
 *location: Figure 5a
 *dscomment: $r_{m,1}$ vs multiplicity for first order of m.
@@ -374,16 +385,35 @@
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
-*qual: SQRT(S) IN GEV:  200
-*xheader: $\sqrt{<N_{ch}><N_{\gamma}}$
-*yheader: $r_{1,1}^{mixed}$
-*data: x: y
-50 +- 0.008 (DSYS=+3, -3); 0.9999 +- 0.0001 (DSYS=+0.0001, -0.0001); 
-41 +- 0.008 (DSYS=+3, -3); 0.9999 +- 0.0001 (DSYS=+0.0002, -0.0002); 
-31 +- 0.006 (DSYS=+2, -2); 0.9998 +- 0.0001 (DSYS=+0.0003, -0.0003); 
-23 +- 0.010 (DSYS=+2, -2); 0.9996 +- 0.0002 (DSYS=+0.0004, -0.0004); 
-16 +- 0.007 (DSYS=+1, -1); 1.0000 +- 0.0002 (DSYS=+0.0003, -0.0003); 
-10.5 +- 0.007 (DSYS=+0.8, -0.8); 1.0025 +- 0.0004 (DSYS=+0.0005, -0.0005); 
+*qual: SQRT(S)/NUCLEON IN GEV:  200
+*xheader: Integer Bin Number
+*yheader: $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$: $r_{1,1}^{mixed}$
+*data: x: y: y
+1; 50 +- 0.008 (DSYS=+3, -3); 0.9999 +- 0.0001 (DSYS=+0.0001, -0.0001); 
+2; 41 +- 0.008 (DSYS=+3, -3); 0.9999 +- 0.0001 (DSYS=+0.0002, -0.0002); 
+3; 31 +- 0.006 (DSYS=+2, -2); 0.9998 +- 0.0001 (DSYS=+0.0003, -0.0003); 
+4; 23 +- 0.010 (DSYS=+2, -2); 0.9996 +- 0.0002 (DSYS=+0.0004, -0.0004); 
+5; 16 +- 0.007 (DSYS=+1, -1); 1.0000 +- 0.0002 (DSYS=+0.0003, -0.0003); 
+6; 10.5 +- 0.007 (DSYS=+0.8, -0.8); 1.0025 +- 0.0004 (DSYS=+0.0005, -0.0005); 
+*dataend: 
+
+*dataset:
+*location: Figure 5b
+*dscomment: $r_{m,1}$ vs multiplicity for second order of m.
+*obskey: 
+*reackey: AU AU --> PI+ PI- X
+*reackey: AU AU --> PI0 PI0 X
+*reackey: AU AU --> GAMMA GAMMA X
+*qual: SQRT(S)/NUCLEON IN GEV:  200
+*xheader: Integer Bin Number
+*yheader: $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$: $r_{2,1}^{real}$
+*data: x: y: y
+1; 50 +- 0.046 (DSYS=+4, -4); 0.9942 +- 0.0005 (DSYS=+0.0020, -0.0020); 
+2; 42 +- 0.037 (DSYS=+3, -3); 0.9950 +- 0.0004 (DSYS=+0.0021, -0.0021); 
+3; 32 +- 0.027 (DSYS=+2, -2); 0.9993 +- 0.0006 (DSYS=+0.0019, -0.0019); 
+4; 23 +- 0.037 (DSYS=+2, -2); 1.0040 +- 0.0007 (DSYS=+0.0013, -0.0013); 
+5; 16 +- 0.027 (DSYS=+1, -1); 1.0100 +- 0.0018 (DSYS=+0.0010, -0.0010); 
+6; 10.7 +- 0.023 (DSYS=+0.8, -0.8); 1.0264 +- 0.0055 (DSYS=+0.0049, -0.0049); 
 *dataend: 
 *dataset:
 *location: Figure 5b
@@ -392,35 +422,18 @@
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
-*qual: SQRT(S) IN GEV:  200
-*xheader: $\sqrt{<N_{ch}><N_{\gamma}}$
-*yheader: $r_{2,1}^{real}$
-*data: x: y
-50 +- 0.046 (DSYS=+4, -4); 0.9942 +- 0.0005 (DSYS=+0.0020, -0.0020); 
-42 +- 0.037 (DSYS=+3, -3); 0.9950 +- 0.0004 (DSYS=+0.0021, -0.0021); 
-32 +- 0.027 (DSYS=+2, -2); 0.9993 +- 0.0006 (DSYS=+0.0019, -0.0019); 
-23 +- 0.037 (DSYS=+2, -2); 1.0040 +- 0.0007 (DSYS=+0.0013, -0.0013); 
-16 +- 0.027 (DSYS=+1, -1); 1.0100 +- 0.0018 (DSYS=+0.0010, -0.0010); 
-10.7 +- 0.023 (DSYS=+0.8, -0.8); 1.0264 +- 0.0055 (DSYS=+0.0049, -0.0049); 
+*qual: SQRT(S)/NUCLEON IN GEV:  200
+*xheader: Integer Bin Number
+*yheader: $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$: $r_{2,1}^{mixed}$
+*data: x: y: y
+1; 50 +- 0.008 (DSYS=+3, -3); 0.9999 +- 0.0001 (DSYS=+0.0001, -0.0001); 
+2; 41 +- 0.008 (DSYS=+3, -3); 0.9998 +- 0.0001 (DSYS=+0.0004, -0.0004); 
+3; 31 +- 0.006 (DSYS=+2, -2); 0.9998 +- 0.0002 (DSYS=+0.0007, -0.0007); 
+4; 23 +- 0.010 (DSYS=+2, -2); 0.9992 +- 0.0003 (DSYS=+0.0008, -0.0008); 
+5; 16 +- 0.007 (DSYS=+1, -1); 0.9998 +- 0.0006 (DSYS=+0.0009, -0.0009); 
+6; 10.5 +- 0.007 (DSYS=+0.8, -0.8); 1.004 +- 0.0008 (DSYS=+0.0010, -0.0010); 
 *dataend: 
-*dataset:
-*location: Figure 5b
-*dscomment: $r_{m,1}$ vs multiplicity for second order of m.
-*obskey: 
-*reackey: AU AU --> PI+ PI- X
-*reackey: AU AU --> PI0 PI0 X
-*reackey: AU AU --> GAMMA GAMMA X
-*qual: SQRT(S) IN GEV:  200
-*xheader: $\sqrt{<N_{ch}><N_{\gamma}}$
-*yheader: $r_{2,1}^{mixed}$
-*data: x: y
-50 +- 0.008 (DSYS=+3, -3); 0.9999 +- 0.0001 (DSYS=+0.0001, -0.0001); 
-41 +- 0.008 (DSYS=+3, -3); 0.9998 +- 0.0001 (DSYS=+0.0004, -0.0004); 
-31 +- 0.006 (DSYS=+2, -2); 0.9998 +- 0.0002 (DSYS=+0.0007, -0.0007); 
-23 +- 0.010 (DSYS=+2, -2); 0.9992 +- 0.0003 (DSYS=+0.0008, -0.0008); 
-16 +- 0.007 (DSYS=+1, -1); 0.9998 +- 0.0006 (DSYS=+0.0009, -0.0009); 
-10.5 +- 0.007 (DSYS=+0.8, -0.8); 1.004 +- 0.0008 (DSYS=+0.0010, -0.0010); 
-*dataend: 
+
 *dataset:
 *location: Figure 5c
 *dscomment: $r_{m,1}$ vs multiplicity for third order of m.
@@ -428,17 +441,18 @@
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
-*qual: SQRT(S) IN GEV:  200
-*xheader: $\sqrt{<N_{ch}><N_{\gamma}}$
-*yheader: $r_{3,1}^{real}$
-*data: x: y
-50 +- 0.046 (DSYS=+4, -4); 0.9927 +- 0.0008 (DSYS=+0.0028, -0.0028); 
-42 +- 0.037 (DSYS=+3, -3); 0.9943 +- 0.0006 (DSYS=+0.0028, -0.0028); 
-32 +- 0.027 (DSYS=+2, -2); 1.0006 +- 0.0008 (DSYS=+0.0026, -0.0026); 
-23 +- 0.037 (DSYS=+2, -2); 1.0076 +- 0.0011 (DSYS=+0.0016, -0.0016); 
-16 +- 0.027 (DSYS=+1, -1); 1.0182 +- 0.0038 (DSYS=+0.0023, -0.0023); 
-10.7 +- 0.023 (DSYS=+0.8, -0.8); 1.0450 +- 0.0122 (DSYS=+0.0111, -0.0111); 
+*qual: SQRT(S)/NUCLEON IN GEV:  200
+*xheader: Integer Bin Number
+*yheader: $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$: $r_{3,1}^{real}$
+*data: x: y: y
+1; 50 +- 0.046 (DSYS=+4, -4); 0.9927 +- 0.0008 (DSYS=+0.0028, -0.0028); 
+2; 42 +- 0.037 (DSYS=+3, -3); 0.9943 +- 0.0006 (DSYS=+0.0028, -0.0028); 
+3; 32 +- 0.027 (DSYS=+2, -2); 1.0006 +- 0.0008 (DSYS=+0.0026, -0.0026); 
+4; 23 +- 0.037 (DSYS=+2, -2); 1.0076 +- 0.0011 (DSYS=+0.0016, -0.0016); 
+5; 16 +- 0.027 (DSYS=+1, -1); 1.0182 +- 0.0038 (DSYS=+0.0023, -0.0023); 
+6; 10.7 +- 0.023 (DSYS=+0.8, -0.8); 1.0450 +- 0.0122 (DSYS=+0.0111, -0.0111); 
 *dataend: 
+
 *dataset:
 *location: Figure 5c
 *dscomment: $r_{m,1}$ vs multiplicity for third order of m.
@@ -446,29 +460,29 @@
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
-*qual: SQRT(S) IN GEV:  200
-*xheader: $\sqrt{<N_{ch}><N_{\gamma}}$
-*yheader: $r_{3,1}^{mixed}$
-*data: x: y
-50 +- 0.008 (DSYS=+3, -3); 0.9999 +- 0.0002 (DSYS=+0.0002, -0.0002); 
-41 +- 0.008 (DSYS=+3, -3); 0.9997 +- 0.0002 (DSYS=+0.0006, -0.0006); 
-31 +- 0.006 (DSYS=+2, -2); 0.9998 +- 0.0003 (DSYS=+0.0012, -0.0012); 
-23 +- 0.010 (DSYS=+2, -2); 0.9987 +- 0.0005 (DSYS=+0.0013, -0.0013); 
-16 +- 0.007 (DSYS=+1, -1); 0.9992 +- 0.0012 (DSYS=+0.0022, -0.0022); 
-10.5 +- 0.007 (DSYS=+0.8, -0.8); 1.005 +- 0.0016 (DSYS=+0.0023, -0.0023); 
+*qual: SQRT(S)/NUCLEON IN GEV:  200
+*xheader: Integer Bin Number
+*yheader: $\sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }$: $r_{3,1}^{mixed}$
+*data: x: y: y
+1; 50 +- 0.008 (DSYS=+3, -3); 0.9999 +- 0.0002 (DSYS=+0.0002, -0.0002); 
+2; 41 +- 0.008 (DSYS=+3, -3); 0.9997 +- 0.0002 (DSYS=+0.0006, -0.0006); 
+3; 31 +- 0.006 (DSYS=+2, -2); 0.9998 +- 0.0003 (DSYS=+0.0012, -0.0012); 
+4; 23 +- 0.010 (DSYS=+2, -2); 0.9987 +- 0.0005 (DSYS=+0.0013, -0.0013); 
+5; 16 +- 0.007 (DSYS=+1, -1); 0.9992 +- 0.0012 (DSYS=+0.0022, -0.0022); 
+6; 10.5 +- 0.007 (DSYS=+0.8, -0.8); 1.005 +- 0.0016 (DSYS=+0.0023, -0.0023); 
 *dataend: 
+
 *dataset:
 *location: Figure 6
-*dscomment: The moments $r_{m,1}$(m=1-3) for real and mixed events as a function of order m in a fixed multiplicity bin of 47$<\sqrt{<N_{ch}><N_{\gamma}}<54$
+*dscomment: The moments $r_{m,1}$(m=1-3) for real and mixed events as a function of order m in a fixed multiplicity bin of 47$\langle \sqrt{\langle N_{ch}\rangle \langle N_{\gamma}\rangle }\langle 54$
 *obskey: 
 *reackey: AU AU --> PI+ PI- X
 *reackey: AU AU --> PI0 PI0 X
 *reackey: AU AU --> GAMMA GAMMA X
-*qual: SQRT(S) IN GEV:  200
+*qual: SQRT(S)/NUCLEON IN GEV:  200
 *xheader: order m
-*yheader: $r_{m,1}$
-*qual: .: $r_{m,1}^{real}$: $r_{m,1}^{mixed}$
-*data: x: y
+*yheader: $r_{m,1}^{real}$: $r_{m,1}^{mixed}$
+*data: x: y: y
 1; 0.9965 +- 0.0003 (DSYS=+0.0010, -0.0010); 0.9999 +- 0.0001 (DSYS=+0.0.0001, -0.0001);
 2; 0.9942 +- 0.0005 (DSYS=+0.0020, -0.0020); 0.9999 +- 0.0001 (DSYS=+0.0.0001, -0.0001);
 3; 0.9927 +- 0.0008 (DSYS=+0.0028, -0.0028); 0.9999 +- 0.0002 (DSYS=+0.0002, -0.0002);
