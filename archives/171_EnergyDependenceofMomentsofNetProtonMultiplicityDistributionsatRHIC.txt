@@ -15,7 +15,9 @@
 *location: Figure 1
 *dscomment: $\Delta N_p$ multiplicity distributions in Au+Au collisions at $\sqrt{S_{NN}}=7.7$ GeV for 0-5 percent, 30-40 percent and 70-80 percent collision centralities at midrapidity.
 *obskey: N
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 7.7
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -67,7 +69,9 @@
 *location: Figure 1
 *dscomment: $\Delta N_p$ multiplicity distributions in Au+Au collisions at $\sqrt{S_{NN}}=11.5$ GeV for 0-5 percent, 30-40 percent and 70-80 percent collision centralities at midrapidity.
 *obskey: N
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 11.5
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -115,7 +119,9 @@
 *location: Figure 1
 *dscomment: $\Delta N_p$ multiplicity distributions in Au+Au collisions at $\sqrt{S_{NN}}=19.6$ GeV for 0-5 percent, 30-40 percent and 70-80 percent collision centralities at midrapidity.
 *obskey: N
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 19.6
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -161,7 +167,9 @@
 *location: Figure 1
 *dscomment: $\Delta N_p$ multiplicity distributions in Au+Au collisions at $\sqrt{S_{NN}}=27$ GeV for 0-5 percent, 30-40 percent and 70-80 percent collision centralities at midrapidity.
 *obskey: N
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 27
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -206,7 +214,9 @@
 *location: Figure 1
 *dscomment: $\Delta N_p$ multiplicity distributions in Au+Au collisions at $\sqrt{S_{NN}}=39$ GeV for 0-5 percent, 30-40 percent and 70-80 percent collision centralities at midrapidity.
 *obskey: N
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 39
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -253,7 +263,9 @@
 *location: Figure 1
 *dscomment: $\Delta N_p$ multiplicity distributions in Au+Au collisions at $\sqrt{S_{NN}}=62.4$ GeV for 0-5 percent, 30-40 percent and 70-80 percent collision centralities at midrapidity.
 *obskey: N
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 62.4
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -297,7 +309,9 @@
 *location: Figure 1
 *dscomment: $\Delta N_p$ multiplicity distributions in Au+Au collisions at $\sqrt{S_{NN}}=200$ GeV for 0-5 percent, 30-40 percent and 70-80 percent collision centralities at midrapidity.
 *obskey: N
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 200
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -345,7 +359,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV:  7.7
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -370,7 +386,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV:  11.5
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -395,7 +413,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV:  19.6
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -420,7 +440,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 27
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -445,7 +467,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 39
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -470,7 +494,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 62.4
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -495,7 +521,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 200
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
@@ -518,7 +546,9 @@
 *dscomment: Centrality dependence of $S\sigma$/Skellam and $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{S_{NN}}=7.7$ GeV.
 *obskey: MULT2*MULT3/SKELLAM
 *obskey: MULT4*MULT2**2
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
 *qual: SQRT(S)/NUCLEON IN GEV: 7.7
@@ -542,7 +572,9 @@
 *dscomment: Centrality dependence of $S\sigma$/Skellam and $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{S_{NN}}=11.5$ GeV.
 *obskey: MULT2*MULT3/SKELLAM
 *obskey: MULT4*MULT2**2
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
 *qual: SQRT(S)/NUCLEON IN GEV: 11.5
@@ -566,7 +598,9 @@
 *dscomment: Centrality dependence of $S\sigma$/Skellam and $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{S_{NN}}=19.6$ GeV.
 *obskey: MULT2*MULT3/SKELLAM
 *obskey: MULT4*MULT2**2
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
 *qual: SQRT(S)/NUCLEON IN GEV: 19.6
@@ -590,7 +624,9 @@
 *dscomment: Centrality dependence of $S\sigma$/Skellam and $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{S_{NN}}=27$ GeV.
 *obskey: MULT2*MULT3/SKELLAM
 *obskey: MULT4*MULT2**2
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
 *qual: SQRT(S)/NUCLEON IN GEV: 27
@@ -614,7 +650,9 @@
 *dscomment: Centrality dependence of $S\sigma$/Skellam and $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{S_{NN}}=39$ GeV.
 *obskey: MULT2*MULT3/SKELLAM
 *obskey: MULT4*MULT2**2
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
 *qual: SQRT(S)/NUCLEON IN GEV: 39
@@ -638,7 +676,9 @@
 *dscomment: Centrality dependence of $S\sigma$/Skellam and $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{S_{NN}}=62.4$ GeV.
 *obskey: MULT2*MULT3/SKELLAM
 *obskey: MULT4*MULT2**2
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
 *qual: SQRT(S)/NUCLEON IN GEV: 62.4
@@ -662,7 +702,9 @@
 *dscomment: Centrality dependence of $S\sigma$/Skellam and $\kappa\sigma^2$ for $\Delta N_p$ in Au+Au collisions at $\sqrt{S_{NN}}=200$ GeV.
 *obskey: MULT2*MULT3/SKELLAM
 *obskey: MULT4*MULT2**2
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
 *qual: SQRT(S)/NUCLEON IN GEV: 200
@@ -688,7 +730,9 @@
 *obskey: SKELLAM
 *obskey: KSIG**2
 *obskey: SKELLAM
-*reackey: AU AU --> X 
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
 *qual: Centrality IN PCT: 0 TO 5: 70 TO 80
@@ -708,7 +752,9 @@
 *location: Figure 4
 *dscomment: Collision energy and centrality dependence of the net-proton $S\sigma$ and $\kappa\sigma^2$ from Au+Au and p+p collisions at RHIC. 
 *obskey: MULT4*MULT2**2
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
 *qual: Centrality IN PCT: 0 TO 5: 0 TO 5: 0 TO 5: 70 TO 80
@@ -729,7 +775,9 @@
 *location: Figure 4
 *dscomment: Collision energy and centrality dependence of the net-proton $S\sigma$ and $\kappa\sigma^2$ from Au+Au and p+p collisions at RHIC. 
 *obskey: MULT4*MULT2**2
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: PT IN GeV/c: 0.4 TO 0.8
 *qual: Rapidity: |y|<0.5
 *qual: Centrality IN PCT: 0 TO 5: 0 TO 5: 0 TO 5: 70 TO 80
@@ -751,7 +799,9 @@
 *obskey: MULT2*MULT3
 *obskey: MULT2*MULT3/SKELLAM
 *obskey: MULT4*MULT2**2
-*reackey: P P --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: P+P Collisions 
 *xheader: $\sqrt{S_{NN}}$ IN GeV
 *yheader: $S\sigma$: $\kappa\sigma^2$: $S\sigma$/Skellam
@@ -767,7 +817,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 7.7
 *xheader: CENTRALITY IN PCT
 *yheader: Npart: C1: C2: C3: C4
@@ -790,7 +842,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 11.5
 *xheader: CENTRALITY IN PCT
 *yheader: Npart: C1: C2: C3: C4
@@ -813,7 +867,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 19.6
 *xheader: CENTRALITY IN PCT
 *yheader: Npart: C1: C2: C3: C4
@@ -836,7 +892,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 27
 *xheader: CENTRALITY IN PCT
 *yheader: Npart: C1: C2: C3: C4
@@ -859,7 +917,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 39
 *xheader: CENTRALITY IN PCT
 *yheader: Npart: C1: C2: C3: C4
@@ -882,7 +942,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 62.4
 *xheader: CENTRALITY IN PCT
 *yheader: Npart: C1: C2: C3: C4
@@ -905,7 +967,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 200
 *xheader: CENTRALITY IN PCT
 *yheader: Npart: C1: C2: C3: C4
@@ -928,7 +992,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 7.7
 *xheader: CENTRALITY IN PCT
 *yheader: Npart: C1: C2: C3: C4
@@ -951,7 +1017,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 11.5
 *xheader: CENTRALITY IN PCT
 *yheader: Npart: C1: C2: C3: C4
@@ -974,7 +1042,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 19.6
 *xheader: CENTRALITY IN PCT
 *yheader: Npart: C1: C2: C3: C4
@@ -997,7 +1067,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 27
 *xheader: CENTRALITY IN PCT
 *yheader: Npart: C1: C2: C3: C4
@@ -1020,7 +1092,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 39
 *xheader: CENTRALITY IN PCT
 *yheader: Npart: C1: C2: C3: C4
@@ -1043,7 +1117,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 62.4
 *xheader: CENTRALITY IN PCT
 *yheader: Npart: C1: C2: C3: C4
@@ -1066,7 +1142,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 200
 *xheader: CENTRALITY IN PCT
 *yheader: Npart: C1: C2: C3: C4
@@ -1089,7 +1167,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 7.7
 *xheader: CENTRALITY IN PCT
 *yheader: Npart: C1: C2: C3: C4
@@ -1112,7 +1192,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 11.5
 *xheader: CENTRALITY IN PCT
 *yheader: Npart: C1: C2: C3: C4
@@ -1135,7 +1217,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 19.6
 *xheader: CENTRALITY IN PCT
 *yheader: Npart: C1: C2: C3: C4
@@ -1158,7 +1242,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 27
 *xheader: CENTRALITY IN PCT
 *yheader: Npart: C1: C2: C3: C4
@@ -1181,7 +1267,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 39
 *xheader: CENTRALITY IN PCT
 *yheader: Npart: C1: C2: C3: C4
@@ -1204,7 +1292,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 62.4
 *xheader: CENTRALITY IN PCT
 *yheader: Npart: C1: C2: C3: C4
@@ -1227,7 +1317,9 @@
 *obskey: C2
 *obskey: C3
 *obskey: C4
-*reackey: AU AU --> X
+*reackey: AU AU --> P X
+*reackey: AU AU --> PBAR X
+*qual: RE: Au+Au --> (P PBAR X)
 *qual: SQRT(S)/NUCLEON IN GEV: 200
 *xheader: CENTRALITY IN PCT
 *yheader: Npart: C1: C2: C3: C4
