@@ -120,6 +120,15 @@ def writeData(current_line, numcol, data_format, output):
                     order += "-"
             elif 'na' in item:
                 order += " +- 0"
+            elif 'bin' in item:
+                col_index = re.search(r"\d+(\.\d+)?", item)
+                col_index = col_index.group(0)
+                try:
+                    lowEdge = float(current_line[int(item[3])].strip(',')) - float(current_line[int(item[4])].strip(','))
+                    hiEdge = float(current_line[int(item[3])].strip(',')) + float(current_line[int(item[4])].strip(','))
+                    order += " (%r TO %r)" % ( lowEdge, hiEdge )
+                except IndexError:
+                    continue
             elif '+' in item:
                 col_index = re.search(r"\d+(\.\d+)?", item)
                 col_index = col_index.group(0)
