@@ -1,0 +1,224 @@
+independent_variables:
+- header: {name: '$M{ee} (GeV/c^2)$'}
+  values:
+  - {low: 0, high: 0.01}
+  - {low: 0.01, high: 0.02}
+  - {low: 0.02, high: 0.03}
+  - {low: 0.03, high: 0.04}
+  - {low: 0.04, high: 0.05}
+  - {low: 0.05, high: 0.06}
+  - {low: 0.06, high: 0.07}
+  - {low: 0.07, high: 0.08}
+  - {low: 0.08, high: 0.09}
+  - {low: 0.09, high: 0.1}
+  - {low: 0.1, high: 0.11}
+  - {low: 0.11, high: 0.125}
+  - {low: 0.125, high: 0.175}
+  - {low: 0.175, high: 0.2}
+  - {low: 0.2, high: 0.31}
+  - {low: 0.31, high: 0.4}
+  - {low: 0.4, high: 0.51}
+  - {low: 0.51, high: 0.63}
+  - {low: 0.63, high: 0.75}
+  - {low: 0.75, high: 0.78}
+  - {low: 0.78, high: 0.785}
+  - {low: 0.785, high: 0.79}
+  - {low: 0.79, high: 0.8}
+  - {low: 0.8, high: 0.89}
+  - {low: 0.89, high: 0.965}
+  - {low: 0.965, high: 1}
+  - {low: 1., high: 1.01}
+  - {low: 1.01, high: 1.015}
+  - {low: 1.015, high: 1.02}
+  - {low: 1.02, high: 1.035}
+  - {low: 1.035, high: 1.13}
+  - {low: 1.13, high: 1.25}
+  - {low: 1.25, high: 1.45}
+  - {low: 1.45, high: 1.65}
+  - {low: 1.65, high: 1.875}
+  - {low: 1.875, high: 2.075}
+  - {low: 2.075, high: 2.25}
+  - {low: 2.25, high: 2.475}
+  - {low: 2.475, high: 2.665}
+  - {low: 2.665, high: 2.85}
+  - {low: 2.85, high: 2.99}
+  - {low: 2.99, high: 3.02}
+  - {low: 3.02, high: 3.035}
+  - {low: 3.035, high: 3.055}
+  - {low: 3.055, high: 3.07}
+  - {low: 3.07, high: 3.075}
+  - {low: 3.075, high: 3.09}
+  - {low: 3.09, high: 3.095}
+  - {low: 3.095, high: 3.1}
+  - {low: 3.1, high: 3.115}
+  - {low: 3.115, high: 3.13}
+  - {low: 3.13, high: 3.225}
+  - {low: 3.225, high: 3.4}
+  - {low: 3.4, high: 3.85}
+dependent_variables:
+- header: {name: '$S/B$'}
+  qualifiers:
+  - {name: '$M{ee} (GeV/c^2)$', value: 'Signal/Background (Au+Au 200 MinBias)'}
+  values:
+  - value: 254.214
+    errors:
+    - {symerror: 3.21197, label: 'stat.'}
+  - value: 23.9775
+    errors:
+    - {symerror: 0.166284, label: 'stat.'}
+  - value: 7.7535
+    errors:
+    - {symerror: 0.0424149, label: 'stat.'}
+  - value: 3.68016
+    errors:
+    - {symerror: 0.0185639, label: 'stat.'}
+  - value: 2.04897
+    errors:
+    - {symerror: 0.0106832, label: 'stat.'}
+  - value: 1.24016
+    errors:
+    - {symerror: 0.00732967, label: 'stat.'}
+  - value: 0.786829
+    errors:
+    - {symerror: 0.00568323, label: 'stat.'}
+  - value: 0.510807
+    errors:
+    - {symerror: 0.00479221, label: 'stat.'}
+  - value: 0.320939
+    errors:
+    - {symerror: 0.00422502, label: 'stat.'}
+  - value: 0.195335
+    errors:
+    - {symerror: 0.00384414, label: 'stat.'}
+  - value: 0.111842
+    errors:
+    - {symerror: 0.00359019, label: 'stat.'}
+  - value: 0.0595404
+    errors:
+    - {symerror: 0.00277135, label: 'stat.'}
+  - value: 0.0323031
+    errors:
+    - {symerror: 0.00138051, label: 'stat.'}
+  - value: 0.0209635
+    errors:
+    - {symerror: 0.00178349, label: 'stat.'}
+  - value: 0.0113408
+    errors:
+    - {symerror: 0.000763227, label: 'stat.'}
+  - value: 0.00755521
+    errors:
+    - {symerror: 0.00075507, label: 'stat.'}
+  - value: 0.00487227
+    errors:
+    - {symerror: 0.000609607, label: 'stat.'}
+  - value: 0.00425389
+    errors:
+    - {symerror: 0.000575067, label: 'stat.'}
+  - value: 0.00423214
+    errors:
+    - {symerror: 0.000642001, label: 'stat.'}
+  - value: 0.00731011
+    errors:
+    - {symerror: 0.00142587, label: 'stat.'}
+  - value: 0.021455
+    errors:
+    - {symerror: 0.00359905, label: 'stat.'}
+  - value: 0.0150589
+    errors:
+    - {symerror: 0.00362384, label: 'stat.'}
+  - value: 0.0136551
+    errors:
+    - {symerror: 0.00259729, label: 'stat.'}
+  - value: 0.00333561
+    errors:
+    - {symerror: 0.000932904, label: 'stat.'}
+  - value: 0.00348737
+    errors:
+    - {symerror: 0.00117574, label: 'stat.'}
+  - value: 0.00558372
+    errors:
+    - {symerror: 0.00189754, label: 'stat.'}
+  - value: 0.018902
+    errors:
+    - {symerror: 0.00264844, label: 'stat.'}
+  - value: 0.0317271
+    errors:
+    - {symerror: 0.00381996, label: 'stat.'}
+  - value: 0.0403279
+    errors:
+    - {symerror: 0.00386928, label: 'stat.'}
+  - value: 0.0243451
+    errors:
+    - {symerror: 0.00225677, label: 'stat.'}
+  - value: 0.00504906
+    errors:
+    - {symerror: 0.000977287, label: 'stat.'}
+  - value: 0.00529725
+    errors:
+    - {symerror: 0.00105088, label: 'stat.'}
+  - value: 0.00575332
+    errors:
+    - {symerror: 0.00106715, label: 'stat.'}
+  - value: 0.00710738
+    errors:
+    - {symerror: 0.00148654, label: 'stat.'}
+  - value: 0.009553
+    errors:
+    - {symerror: 0.00194672, label: 'stat.'}
+  - value: 0.00935468
+    errors:
+    - {symerror: 0.00281589, label: 'stat.'}
+  - value: 0.0113514
+    errors:
+    - {symerror: 0.00390088, label: 'stat.'}
+  - value: 0.0133501
+    errors:
+    - {symerror: 0.00444924, label: 'stat.'}
+  - value: 0.0230591
+    errors:
+    - {symerror: 0.00629417, label: 'stat.'}
+  - value: 0.0258128
+    errors:
+    - {symerror: 0.00797207, label: 'stat.'}
+  - value: 0.0517788
+    errors:
+    - {symerror: 0.0111702, label: 'stat.'}
+  - value: 0.103453
+    errors:
+    - {symerror: 0.0271826, label: 'stat.'}
+  - value: 0.187774
+    errors:
+    - {symerror: 0.0408469, label: 'stat.'}
+  - value: 0.278063
+    errors:
+    - {symerror: 0.0375896, label: 'stat.'}
+  - value: 0.483332
+    errors:
+    - {symerror: 0.0475771, label: 'stat.'}
+  - value: 0.651959
+    errors:
+    - {symerror: 0.0885283, label: 'stat.'}
+  - value: 0.646392
+    errors:
+    - {symerror: 0.05148, label: 'stat.'}
+  - value: 0.783558
+    errors:
+    - {symerror: 0.0941114, label: 'stat.'}
+  - value: 0.9601
+    errors:
+    - {symerror: 0.0983008, label: 'stat.'}
+  - value: 0.800512
+    errors:
+    - {symerror: 0.0552, label: 'stat.'}
+  - value: 0.591079
+    errors:
+    - {symerror: 0.0527254, label: 'stat.'}
+  - value: 0.114598
+    errors:
+    - {symerror: 0.0184837, label: 'stat.'}
+  - value: 0.0299388
+    errors:
+    - {symerror: 0.0150415, label: 'stat.'}
+  - value: 0.0419511
+    errors:
+    - {symerror: 0.0127415, label: 'stat.'}

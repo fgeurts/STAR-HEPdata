@@ -1,0 +1,130 @@
+comment: | # preserve newlines
+  BNL-RHIC. Dielectron Mass Spectra from Au + Au Collisions at $\sqrt{s_{{NN}}}$ = 200 GeV
+
+  - DOI: 10.1103/PhysRevLett.113.022301
+---
+# Start a new YAML document to indicate a new data table.
+# This is Table 1.
+name: "Table 1A"
+location: Data from Figure 1A
+description: Uncorrected Distributions of e+ e- invariant mass, the reconstructed background, and the signal pairs in 200 GeV Au+Au minimum bias collisions.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Invariant Mass]}
+data_file: fig1A.yaml
+---
+# This is Table 1B Minimum Bias.
+name: "Table 1B (Minimum Bias)"
+location: Minimum Bias Data from Figure 1B
+description: The ratio of signal to background in Au + Au collisions at $\sqrt{s_{{NN}}}$ = 200 GeV (Minimum Bias).
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$\frac{S}{B}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Invariant Mass]}
+data_file: fig1B_MinBias.yaml
+---
+# This is Table 1B Central.
+name: "Table 1B (Central)"
+location: Central Data from Figure 1B
+description: The ratio of signal to background in Au + Au collisions at $\sqrt{s_{{NN}}}$ = 200 GeV (Central).
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$\frac{S}{B}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Invariant Mass]}
+data_file: fig1B_Central.yaml
+---
+# This is Table 2AB
+name: "Table 2AB"
+location: Data from Figure 2A and Figure 2B
+description: e+ e− invariant mass spectrum from $\sqrt{s_{{NN}}}$ = 200 GeV Au + Au minimum bias (0%–80%) collisions compared to a hadronic cocktail simulation.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Invariant Mass]}
+data_file: fig2AB.yaml
+---
+# This is Table 2C
+name: "Table 2C"
+location: Data from Figure 2C
+description: Mass spectrum of the excess (data minus cocktail) in the low mass region compared to model calculations. Green brackets depict the total systematic uncertainties including those from cocktails. Systematic errors are highly correlated across all data points.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Invariant Mass]}
+data_file: fig2C.yaml
+---
+# This is Table 3A
+name: "Table 3A"
+location: Data from Figure 3A
+description: Integrated dielectron yields in the mass regions of 0.30-0.76 (rho-like), 0.76-0.80 (omega-like), and 0.98-1.05 (phi-like) GeV/c^2 compared to hadronic cocktails within the STAR acceptance as a function of centrality.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Invariant Mass]}
+data_file: fig3A.yaml
+---
+# This is Table 3B
+name: "Table 3B"
+location: Data from Figure 3B
+description: Integrated dielectron yields in the mass regions of 0.30-0.76 (rho-like), 0.76-0.80 (omega-like), and 0.98-1.05 (phi-like) GeV/c^2 compared to hadronic cocktails within the STAR acceptance as a function of dielectron $p_T$.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Invariant Mass]}
+data_file: fig3B.yaml
+---
+# This is Table 3C
+name: "Table 3C"
+location: Data from Figure 3C
+description: Yields scaled by Npart for the rho-like region with cocktail subtracted, the omega-like and phi-like regions without subtraction as a function of Npart.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Invariant Mass]}
+data_file: fig3C.yaml
+---
+# This is Table 4A MinBias
+name: "Table 4A (Minimum Bias)"
+location: Minimum Bias Data from Figure 4A
+description: Dielectron mass spectra scaled with Npart from minimum bias (0%–80%) collisions.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Invariant Mass]}
+data_file: fig4A_MinBias.yaml
+---
+# This is Table 4A Central
+name: "Table 4A (Central)"
+location: Central Data from Figure 4A
+description: Dielectron mass spectra scaled with Npart from central (0%–10%) collisions.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Invariant Mass]}
+data_file: fig4A_Central.yaml
+---
+# This is Table 4B
+name: "Table 4B"
+location: Data from Figure 4B
+description: The ratio of Npart scaled dielectron yields between the central and minimum bias collisions.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Invariant Mass]}
+data_file: fig4B.yaml
+#additional_resources:
+#- {description: Image file, location: figFigure10B.png}
+#- {description: Thumbnail image file, location: thumb_figFigure10B.png}
+# End of YAML file.

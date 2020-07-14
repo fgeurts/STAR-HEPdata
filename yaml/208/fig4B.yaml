@@ -1,0 +1,53 @@
+independent_variables:
+- header: {name: '$M{ee} (GeV/c^2)$'}
+  values:
+  - {value: 0.05}
+  - {value: 0.175}
+  - {value: 0.35}
+  - {value: 0.605}
+  - {value: 0.83}
+  - {value: 1}
+  - {value: 1.45}
+  - {value: 2.3}
+  - {value: 3.15}
+dependent_variables:
+- header: {name: 'Ratio'}
+  qualifiers:
+  - {name: '$M{ee} (GeV/c^2)$', value: '(MinBias/Npart)/(Central/Npart)'}
+  values:
+  - value: 0.919596
+    errors:
+    - {symerror: 0.00102734, label: 'stat.'}
+    - {symerror: 4.12E-05, label: 'syst.'}
+  - value: 0.864862
+    errors:
+    - {symerror: 0.0513437, label: 'stat.'}
+    - {symerror: 0.0185577, label: 'syst.'}
+  - value: 1.09916
+    errors:
+    - {symerror: 0.137049, label: 'stat.'}
+    - {symerror: 0.122824, label: 'syst.'}
+  - value: 1.38958
+    errors:
+    - {symerror: 0.176993, label: 'stat.'}
+    - {symerror: 0.144006, label: 'syst.'}
+  - value: 1.09278
+    errors:
+    - {symerror: 0.214611, label: 'stat.'}
+    - {symerror: 0.0980536, label: 'syst.'}
+  - value: 1.02155
+    errors:
+    - {symerror: 0.161309, label: 'stat.'}
+    - {symerror: 0.0941999, label: 'syst.'}
+  - value: 0.997948
+    errors:
+    - {symerror: 0.191029, label: 'stat.'}
+    - {symerror: 0.256025, label: 'syst.'}
+  - value: 0.710998
+    errors:
+    - {symerror: 0.25469, label: 'stat.'}
+    - {symerror: 0.14173, label: 'syst.'}
+  - value: 0.971131
+    errors:
+    - {symerror: 0.0846964, label: 'stat.'}
+    - {symerror: 0.0176856, label: 'syst.'}

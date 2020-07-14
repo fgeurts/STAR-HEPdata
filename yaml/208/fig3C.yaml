@@ -1,0 +1,64 @@
+independent_variables:
+- header: {name: '$N_{part} (GeV/c)$'}
+  values:
+  - {value: 325.9}
+  - {value: 172.57}
+  - {value: 41.53}
+dependent_variables:
+- header: {name: '$Yield/N_{part} * 10^3$ (0.30 - 0.76 GeV/c^2)'}
+  qualifiers:
+  - {name: '$N_{part} (GeV/c)$', value: '0.30 - 0.76 GeV/c^2 ($\rho$-like)'}
+  values:
+  - value: 2.00E-05
+    errors:
+    - {symerror: 3.11E-06, label: 'stat. (data)'}
+    - {symerror: 0.00206551, label: 'syst. (data)'}
+    - {symerror: 8.66E-06, label: 'syst. (data + cocktail)'}
+  - value: 1.01E-05
+    errors:
+    - {symerror: 2.64E-06, label: 'stat. (data)'}
+    - {symerror: 0.000667904, label: 'syst. (data)'}
+    - {symerror: 7.06E-06, label: 'syst. (data + cocktail)'}
+  - value: 6.69E-06
+    errors:
+    - {symerror: 1.69E-06, label: 'stat. (data)'}
+    - {symerror: 0.00012131, label: 'syst. (data)'}
+    - {symerror: 6.59E-06, label: 'syst. (data + cocktail)'}
+- header: {name: '$Yield/N_{part} * 10^3$ (0.76 - 0.80 GeV/c^2)'}
+  qualifiers:
+  - {name: '$N_{part} (GeV/c)$', value: '0.76 - 0.80 GeV/c^2 ($\omega$-like)'}
+  values:
+  - value: 4.66E-06
+    errors:
+    - {symerror: 8.83E-07, label: 'stat. (data)'}
+    - {symerror: 0.000234321, label: 'syst. (data)'}
+    - {symerror: 1.75E-06, label: 'syst. (data + cocktail)'}
+  - value: 5.24E-06
+    errors:
+    - {symerror: 8.65E-07, label: 'stat. (data)'}
+    - {symerror: 0.000128188, label: 'syst. (data)'}
+    - {symerror: 1.76E-06, label: 'syst. (data + cocktail)'}
+  - value: 4.68E-06
+    errors:
+    - {symerror: 5.61E-07, label: 'stat. (data)'}
+    - {symerror: 2.72E-05, label: 'syst. (data)'}
+    - {symerror: 1.72E-06, label: 'syst. (data + cocktail)'}
+- header: {name: '$Yield/N_{part} * 10^3$ (0.98 - 1.05 GeV/c^2)'}
+  qualifiers:
+  - {name: '$N_{part} (GeV/c)$', value: '0.98 - 1.05 GeV/c^2 ($\phi$-like)'}
+  values:
+  - value: 5.10E-06
+    errors:
+    - {symerror: 6.23E-07, label: 'stat. (data)'}
+    - {symerror: 0.000244442, label: 'syst. (data)'}
+    - {symerror: 9.81E-07, label: 'syst. (data + cocktail)'}
+  - value: 4.63E-06
+    errors:
+    - {symerror: 5.03E-07, label: 'stat. (data)'}
+    - {symerror: 0.000108642, label: 'syst. (data)'}
+    - {symerror: 8.92E-07, label: 'syst. (data + cocktail)'}
+  - value: 4.01E-06
+    errors:
+    - {symerror: 3.45E-07, label: 'stat. (data)'}
+    - {symerror: 2.31E-05, label: 'syst. (data)'}
+    - {symerror: 8.42E-07, label: 'syst. (data + cocktail)'}

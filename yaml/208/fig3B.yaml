@@ -1,0 +1,80 @@
+independent_variables:
+- header: {name: '$p_T (GeV/c)$'}
+  values:
+  - {value: 0.25}
+  - {value: 0.75}
+  - {value: 1.25}
+  - {value: 1.75}
+dependent_variables:
+- header: {name: 'Data/Cocktail (0.30 - 0.76 GeV/c^2)'}
+  qualifiers:
+  - {name: '$p_T (GeV/c)$', value: '0.30 - 0.76 GeV/c^2 ($\rho$-like)'}
+  values:
+  - value: 2.10985
+    errors:
+    - {symerror: 0.272497, label: 'stat. (data)'}
+    - {symerror: 0.304454, label: 'syst. (data)'}
+    - {symerror: 0.446774, label: 'syst. (data + cocktail)'}
+  - value: 1.50803
+    errors:
+    - {symerror: 0.141693, label: 'stat. (data)'}
+    - {symerror: 0.209463, label: 'syst. (data)'}
+    - {symerror: 0.388317, label: 'syst. (data + cocktail)'}
+  - value: 1.78806
+    errors:
+    - {symerror: 0.176826, label: 'stat. (data)'}
+    - {symerror: 0.241153, label: 'syst. (data)'}
+    - {symerror: 0.406288, label: 'syst. (data + cocktail)'}
+  - value: 1.95942
+    errors:
+    - {symerror: 0.287188, label: 'stat. (data)'}
+    - {symerror: 0.275991, label: 'syst. (data)'}
+    - {symerror: 0.427886, label: 'syst. (data + cocktail)'}
+- header: {name: 'Data/Cocktail (0.76 - 0.80 GeV/c^2)'}
+  qualifiers:
+  - {name: '$p_T (GeV/c)$', value: '0.76 - 0.80 GeV/c^2 ($\omega$-like)'}
+  values:
+  - value: 0.945072
+    errors:
+    - {symerror: 0.224132, label: 'stat. (data)'}
+    - {symerror: 0.137746, label: 'syst. (data)'}
+    - {symerror: 0.344123, label: 'syst. (data + cocktail)'}
+  - value: 0.851779
+    errors:
+    - {symerror: 0.179315, label: 'stat. (data)'}
+    - {symerror: 0.118517, label: 'syst. (data)'}
+    - {symerror: 0.336887, label: 'syst. (data + cocktail)'}
+  - value: 0.940506
+    errors:
+    - {symerror: 0.242862, label: 'stat. (data)'}
+    - {symerror: 0.136989, label: 'syst. (data)'}
+    - {symerror: 0.343821, label: 'syst. (data + cocktail)'}
+  - value: 1.16693
+    errors:
+    - {symerror: 0.234093, label: 'stat. (data)'}
+    - {symerror: 0.156744, label: 'syst. (data)'}
+    - {symerror: 0.352159, label: 'syst. (data + cocktail)'}
+- header: {name: 'Data/Cocktail (0.98 - 1.05 GeV/c^2)'}
+  qualifiers:
+  - {name: '$p_T (GeV/c)$', value: '0.98 - 1.05 GeV/c^2 ($\phi$-like)'}
+  values:
+  - value: 0.864094
+    errors:
+    - {symerror: 0.169811, label: 'stat. (data)'}
+    - {symerror: 0.159039, label: 'syst. (data)'}
+    - {symerror: 0.194031, label: 'syst. (data + cocktail)'}
+  - value: 1.02905
+    errors:
+    - {symerror: 0.119899, label: 'stat. (data)'}
+    - {symerror: 0.146415, label: 'syst. (data)'}
+    - {symerror: 0.183825, label: 'syst. (data + cocktail)'}
+  - value: 1.10236
+    errors:
+    - {symerror: 0.124604, label: 'stat. (data)'}
+    - {symerror: 0.145765, label: 'syst. (data)'}
+    - {symerror: 0.183308, label: 'syst. (data + cocktail)'}
+  - value: 1.04582
+    errors:
+    - {symerror: 0.132476, label: 'stat. (data)'}
+    - {symerror: 0.139837, label: 'syst. (data)'}
+    - {symerror: 0.17863, label: 'syst. (data + cocktail)'}

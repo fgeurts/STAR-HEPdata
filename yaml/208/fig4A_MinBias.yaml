@@ -1,0 +1,283 @@
+independent_variables:
+- header: {name: '$M{ee} (GeV/c^2)$'}
+  values:
+  - {low: 0, high: 0.01}
+  - {low: 0.01, high: 0.02}
+  - {low: 0.02, high: 0.03}
+  - {low: 0.03, high: 0.04}
+  - {low: 0.04, high: 0.05}
+  - {low: 0.05, high: 0.06}
+  - {low: 0.06, high: 0.07}
+  - {low: 0.07, high: 0.08}
+  - {low: 0.08, high: 0.09}
+  - {low: 0.09, high: 0.1}
+  - {low: 0.1, high: 0.11}
+  - {low: 0.11, high: 0.125}
+  - {low: 0.125, high: 0.175}
+  - {low: 0.175, high: 0.2}
+  - {low: 0.2, high: 0.31}
+  - {low: 0.31, high: 0.4}
+  - {low: 0.4, high: 0.51}
+  - {low: 0.51, high: 0.63}
+  - {low: 0.63, high: 0.75}
+  - {low: 0.75, high: 0.78}
+  - {low: 0.78, high: 0.785}
+  - {low: 0.785, high: 0.79}
+  - {low: 0.79, high: 0.8}
+  - {low: 0.8, high: 0.89}
+  - {low: 0.89, high: 0.965}
+  - {low: 0.965, high: 1}
+  - {low: 1., high: 1.01}
+  - {low: 1.01, high: 1.015}
+  - {low: 1.015, high: 1.02}
+  - {low: 1.02, high: 1.035}
+  - {low: 1.035, high: 1.13}
+  - {low: 1.13, high: 1.25}
+  - {low: 1.25, high: 1.45}
+  - {low: 1.45, high: 1.65}
+  - {low: 1.65, high: 1.875}
+  - {low: 1.875, high: 2.075}
+  - {low: 2.075, high: 2.25}
+  - {low: 2.25, high: 2.475}
+  - {low: 2.475, high: 2.665}
+  - {low: 2.665, high: 2.85}
+  - {low: 2.85, high: 2.99}
+  - {low: 2.99, high: 3.02}
+  - {low: 3.02, high: 3.035}
+  - {low: 3.035, high: 3.055}
+  - {low: 3.055, high: 3.07}
+  - {low: 3.07, high: 3.075}
+  - {low: 3.075, high: 3.09}
+  - {low: 3.09, high: 3.095}
+  - {low: 3.095, high: 3.1}
+  - {low: 3.1, high: 3.115}
+  - {low: 3.115, high: 3.13}
+  - {low: 3.13, high: 3.225}
+  - {low: 3.225, high: 3.4}
+  - {low: 3.4, high: 3.85}
+  - {low: 3.85, high: 4.4}
+dependent_variables:
+- header: {name: '$dN/dM_{ee}/N_{part}$'}
+  qualifiers:
+  - {name: '$M{ee} (GeV/c^2)$', value: 'Signal/Npart'}
+  values:
+  - value: 0.0660591
+    errors:
+    - {symerror: 5.49E-05, label: 'stat.'}
+    - {symerror: 0.00858768, label: 'syst.'}
+  - value: 0.0180906
+    errors:
+    - {symerror: 2.75E-05, label: 'stat.'}
+    - {symerror: 0.00235178, label: 'syst.'}
+  - value: 0.00964291
+    errors:
+    - {symerror: 2.08E-05, label: 'stat.'}
+    - {symerror: 0.00125358, label: 'syst.'}
+  - value: 0.00637354
+    errors:
+    - {symerror: 1.83E-05, label: 'stat.'}
+    - {symerror: 0.00082856, label: 'syst.'}
+  - value: 0.00450054
+    errors:
+    - {symerror: 1.71E-05, label: 'stat.'}
+    - {symerror: 0.00058507, label: 'syst.'}
+  - value: 0.00331931
+    errors:
+    - {symerror: 1.68E-05, label: 'stat.'}
+    - {symerror: 0.000431511, label: 'syst.'}
+  - value: 0.00247736
+    errors:
+    - {symerror: 1.68E-05, label: 'stat.'}
+    - {symerror: 0.000322058, label: 'syst.'}
+  - value: 0.00185768
+    errors:
+    - {symerror: 1.75E-05, label: 'stat.'}
+    - {symerror: 0.000241501, label: 'syst.'}
+  - value: 0.00128636
+    errors:
+    - {symerror: 1.74E-05, label: 'stat.'}
+    - {symerror: 0.00016723, label: 'syst.'}
+  - value: 0.000867914
+    errors:
+    - {symerror: 1.78E-05, label: 'stat.'}
+    - {symerror: 0.000112836, label: 'syst.'}
+  - value: 0.000540275
+    errors:
+    - {symerror: 1.84E-05, label: 'stat.'}
+    - {symerror: 7.02E-05, label: 'syst.'}
+  - value: 0.000310905
+    errors:
+    - {symerror: 1.54E-05, label: 'stat.'}
+    - {symerror: 4.04E-05, label: 'syst.'}
+  - value: 0.00020025
+    errors:
+    - {symerror: 9.24E-06, label: 'stat.'}
+    - {symerror: 2.61E-05, label: 'syst.'}
+  - value: 0.000158235
+    errors:
+    - {symerror: 1.42E-05, label: 'stat.'}
+    - {symerror: 2.07E-05, label: 'syst.'}
+  - value: 0.000108821
+    errors:
+    - {symerror: 7.72E-06, label: 'stat.'}
+    - {symerror: 1.45E-05, label: 'syst.'}
+  - value: 9.20E-05
+    errors:
+    - {symerror: 9.79E-06, label: 'stat.'}
+    - {symerror: 1.26E-05, label: 'syst.'}
+  - value: 8.02E-05
+    errors:
+    - {symerror: 1.01E-05, label: 'stat.'}
+    - {symerror: 1.17E-05, label: 'syst.'}
+  - value: 6.79E-05
+    errors:
+    - {symerror: 9.35E-06, label: 'stat.'}
+    - {symerror: 1.03E-05, label: 'syst.'}
+  - value: 5.33E-05
+    errors:
+    - {symerror: 8.04E-06, label: 'stat.'}
+    - {symerror: 8.10E-06, label: 'syst.'}
+  - value: 7.46E-05
+    errors:
+    - {symerror: 1.44E-05, label: 'stat.'}
+    - {symerror: 1.03E-05, label: 'syst.'}
+  - value: 0.000206709
+    errors:
+    - {symerror: 3.44E-05, label: 'stat.'}
+    - {symerror: 2.71E-05, label: 'syst.'}
+  - value: 0.000144574
+    errors:
+    - {symerror: 3.42E-05, label: 'stat.'}
+    - {symerror: 1.91E-05, label: 'syst.'}
+  - value: 0.000126381
+    errors:
+    - {symerror: 2.37E-05, label: 'stat.'}
+    - {symerror: 1.67E-05, label: 'syst.'}
+  - value: 2.60E-05
+    errors:
+    - {symerror: 7.31E-06, label: 'stat.'}
+    - {symerror: 4.35E-06, label: 'syst.'}
+  - value: 2.12E-05
+    errors:
+    - {symerror: 6.99E-06, label: 'stat.'}
+    - {symerror: 3.54E-06, label: 'syst.'}
+  - value: 2.85E-05
+    errors:
+    - {symerror: 9.34E-06, label: 'stat.'}
+    - {symerror: 4.17E-06, label: 'syst.'}
+  - value: 8.54E-05
+    errors:
+    - {symerror: 1.20E-05, label: 'stat.'}
+    - {symerror: 1.14E-05, label: 'syst.'}
+  - value: 0.000144466
+    errors:
+    - {symerror: 1.69E-05, label: 'stat.'}
+    - {symerror: 1.90E-05, label: 'syst.'}
+  - value: 0.000180251
+    errors:
+    - {symerror: 1.69E-05, label: 'stat.'}
+    - {symerror: 2.38E-05, label: 'syst.'}
+  - value: 0.000103583
+    errors:
+    - {symerror: 9.55E-06, label: 'stat.'}
+    - {symerror: 1.41E-05, label: 'syst.'}
+  - value: 1.73E-05
+    errors:
+    - {symerror: 3.42E-06, label: 'stat.'}
+    - {symerror: 4.16E-06, label: 'syst.'}
+  - value: 1.24E-05
+    errors:
+    - {symerror: 2.56E-06, label: 'stat.'}
+    - {symerror: 3.01E-06, label: 'syst.'}
+  - value: 7.90E-06
+    errors:
+    - {symerror: 1.54E-06, label: 'stat.'}
+    - {symerror: 1.92E-06, label: 'syst.'}
+  - value: 5.07E-06
+    errors:
+    - {symerror: 1.14E-06, label: 'stat.'}
+    - {symerror: 1.15E-06, label: 'syst.'}
+  - value: 3.60E-06
+    errors:
+    - {symerror: 7.85E-07, label: 'stat.'}
+    - {symerror: 7.36E-07, label: 'syst.'}
+  - value: 1.84E-06
+    errors:
+    - {symerror: 6.15E-07, label: 'stat.'}
+    - {symerror: 4.15E-07, label: 'syst.'}
+  - value: 1.37E-06
+    errors:
+    - {symerror: 5.09E-07, label: 'stat.'}
+    - {symerror: 2.94E-07, label: 'syst.'}
+  - value: 9.01E-07
+    errors:
+    - {symerror: 3.47E-07, label: 'stat.'}
+    - {symerror: 1.88E-07, label: 'syst.'}
+  - value: 9.68E-07
+    errors:
+    - {symerror: 2.92E-07, label: 'stat.'}
+    - {symerror: 1.63E-07, label: 'syst.'}
+  - value: 6.87E-07
+    errors:
+    - {symerror: 2.36E-07, label: 'stat.'}
+    - {symerror: 1.16E-07, label: 'syst.'}
+  - value: 9.72E-07
+    errors:
+    - {symerror: 2.27E-07, label: 'stat.'}
+    - {symerror: 1.40E-07, label: 'syst.'}
+  - value: 1.75E-06
+    errors:
+    - {symerror: 4.57E-07, label: 'stat.'}
+    - {symerror: 2.29E-07, label: 'syst.'}
+  - value: 3.03E-06
+    errors:
+    - {symerror: 6.53E-07, label: 'stat.'}
+    - {symerror: 3.94E-07, label: 'syst.'}
+  - value: 4.27E-06
+    errors:
+    - {symerror: 5.75E-07, label: 'stat.'}
+    - {symerror: 5.56E-07, label: 'syst.'}
+  - value: 7.21E-06
+    errors:
+    - {symerror: 7.07E-07, label: 'stat.'}
+    - {symerror: 9.38E-07, label: 'syst.'}
+  - value: 9.41E-06
+    errors:
+    - {symerror: 1.27E-06, label: 'stat.'}
+    - {symerror: 1.22E-06, label: 'syst.'}
+  - value: 9.14E-06
+    errors:
+    - {symerror: 7.24E-07, label: 'stat.'}
+    - {symerror: 1.19E-06, label: 'syst.'}
+  - value: 1.08E-05
+    errors:
+    - {symerror: 1.29E-06, label: 'stat.'}
+    - {symerror: 1.41E-06, label: 'syst.'}
+  - value: 1.32E-05
+    errors:
+    - {symerror: 1.35E-06, label: 'stat.'}
+    - {symerror: 1.72E-06, label: 'syst.'}
+  - value: 1.08E-05
+    errors:
+    - {symerror: 7.41E-07, label: 'stat.'}
+    - {symerror: 1.41E-06, label: 'syst.'}
+  - value: 7.73E-06
+    errors:
+    - {symerror: 6.83E-07, label: 'stat.'}
+    - {symerror: 1.00E-06, label: 'syst.'}
+  - value: 1.31E-06
+    errors:
+    - {symerror: 2.13E-07, label: 'stat.'}
+    - {symerror: 1.71E-07, label: 'syst.'}
+  - value: 2.59E-07
+    errors:
+    - {symerror: 1.30E-07, label: 'stat.'}
+    - {symerror: 3.49E-08, label: 'syst.'}
+  - value: 1.96E-07
+    errors:
+    - {symerror: 6.00E-08, label: 'stat.'}
+    - {symerror: 2.58E-08, label: 'syst.'}
+  - value: 9.51E-08
+    errors:
+    - {symerror: 3.38E-08, label: 'stat.'}
+    - {symerror: 1.24E-08, label: 'syst.'}
