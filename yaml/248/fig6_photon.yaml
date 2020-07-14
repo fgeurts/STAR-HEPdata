@@ -1,0 +1,41 @@
+independent_variables:
+- header: {name: zT}
+  values:
+  - {value: 0.178}
+  - {value: 0.33}
+  - {value: 0.44}
+  - {value: 0.56}
+  - {value: 0.66}
+  - {value: 0.75}
+  - {value: 0.87}
+dependent_variables:
+- header: {name: Ratio}
+  values:
+  - value: 1.11384
+    errors:
+    - {symerror: 0.0625461, label: stat}
+    - {symerror: 0.0388192, label: sys}
+  - value: 1.60683
+    errors:
+    - {symerror: 0.335579, label: stat}
+    - {symerror: 0.319749, label: sys}
+  - value: 0.919718
+    errors:
+    - {symerror: 0.077193, label: stat}
+    - {symerror: 0.01959, label: sys}
+  - value: 1.00163
+    errors:
+    - {symerror: 0.089143, label: stat}
+    - {symerror: 0.155461, label: sys}
+  - value: 1.01538
+    errors:
+    - {symerror: 0.0880416, label: stat}
+    - {symerror: 0, label: sys}
+  - value: 0.65
+    errors:
+    - {symerror: 0.885905, label: stat}
+    - {symerror: 0, label: sys}
+  - value: 1.14286
+    errors:
+    - {symerror: 0.310321, label: stat}
+    - {symerror: 0, label: sys}

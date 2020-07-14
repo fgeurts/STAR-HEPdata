@@ -1,0 +1,24 @@
+independent_variables:
+- header: {name: pT^trig(GeV/c)}
+  values:
+  - {value: 9.31}
+  - {value: 13.91}
+  - {value: 16.72}
+dependent_variables:
+- header: {name: I_AA}
+  values:
+  - value: 0.472322
+    errors:
+    - {symerror: 0.0719293, label: stat}
+    - asymerror: {minus: 0.12, plus: 0.059}
+      label: sys
+  - value: 0.479863
+    errors:
+    - {symerror: 0.0432842, label: stat}
+    - asymerror: {minus: 0.12, plus: 0.059}
+      label: sys
+  - value: 0.43619
+    errors:
+    - {symerror: 0.049736, label: stat}
+    - asymerror: {minus: 0.12, plus: 0.086}
+      label: sys

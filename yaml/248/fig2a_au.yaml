@@ -1,0 +1,54 @@
+independent_variables:
+- header: {name: zT}
+  values:
+  - {value: 0.126}
+  - {value: 0.23}
+  - {value: 0.33}
+  - {value: 0.44}
+  - {value: 0.54}
+  - {value: 0.65}
+  - {value: 0.75}
+  - {value: 0.85}
+dependent_variables:
+- header: {name: D(zT)}
+  values:
+  - value: 11.3938
+    errors:
+    - {symerror: 0.347078, label: stat}
+    - asymerror: {minus: -4.03322, plus: 1.92686}
+      label: sys
+  - value: 1.59347
+    errors:
+    - {symerror: 0.124898, label: stat}
+    - asymerror: {minus: -0.403972, plus: 0.254503}
+      label: sys
+  - value: 0.584395
+    errors:
+    - {symerror: 0.0745, label: stat}
+    - asymerror: {minus: -0.101198, plus: 0.125063}
+      label: sys
+  - value: 0.23032
+    errors:
+    - {symerror: 0.0492572, label: stat}
+    - asymerror: {minus: -0.0648702, plus: 0.112874}
+      label: sys
+  - value: 0.210411
+    errors:
+    - {symerror: 0.0418516, label: stat}
+    - asymerror: {minus: -0.0686474, plus: 0.0233455}
+      label: sys
+  - value: 0.135337
+    errors:
+    - {symerror: 0.0318992, label: stat}
+    - asymerror: {minus: -0.0311276, plus: 0.0009522}
+      label: sys
+  - value: 0.0526309
+    errors:
+    - {symerror: 0.0198926, label: stat}
+    - asymerror: {minus: -0.0182, plus: 0.0106159}
+      label: sys
+  - value: 0.0300748
+    errors:
+    - {symerror: 0.0150374, label: stat}
+    - asymerror: {minus: -0, plus: 0.0122652}
+      label: sys

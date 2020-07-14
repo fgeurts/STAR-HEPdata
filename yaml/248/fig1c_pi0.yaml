@@ -1,0 +1,126 @@
+independent_variables:
+- header: {name: Delta_phi(rad)}
+  values:
+  - {value: -1.3}
+  - {value: -1.1}
+  - {value: -0.9}
+  - {value: -0.7}
+  - {value: -0.5}
+  - {value: -0.3}
+  - {value: -0.1}
+  - {value: 0.1}
+  - {value: 0.3}
+  - {value: 0.5}
+  - {value: 0.7}
+  - {value: 0.9}
+  - {value: 1.1}
+  - {value: 1.3}
+  - {value: 1.5}
+  - {value: 1.7}
+  - {value: 1.9}
+  - {value: 2.1}
+  - {value: 2.3}
+  - {value: 2.5}
+  - {value: 2.7}
+  - {value: 2.9}
+  - {value: 3.1}
+  - {value: 3.3}
+  - {value: 3.5}
+  - {value: 3.7}
+  - {value: 3.9}
+  - {value: 4.1}
+  - {value: 4.3}
+  - {value: 4.5}
+dependent_variables:
+- header: {name: per trigger Yields (rad^-1)}
+  values:
+  - value: 0.0776725
+    errors:
+    - {symerror: 0.0101121, label : stat}
+  - value: 0.0908373
+    errors:
+    - {symerror: 0.0109355, label : stat}
+  - value: 0.104002
+    errors:
+    - {symerror: 0.0117012, label : stat}
+  - value: 0.125066
+    errors:
+    - {symerror: 0.0128315, label : stat}
+  - value: 0.172459
+    errors:
+    - {symerror: 0.0150678, label : stat}
+  - value: 0.364666
+    errors:
+    - {symerror: 0.0219106, label : stat}
+  - value: 1.00184
+    errors:
+    - {symerror: 0.0363168, label : stat}
+  - value: 0.925487
+    errors:
+    - {symerror: 0.0349054, label : stat}
+  - value: 0.40416
+    errors:
+    - {symerror: 0.0230666, label : stat}
+  - value: 0.180358
+    errors:
+    - {symerror: 0.015409, label : stat}
+  - value: 0.125066
+    errors:
+    - {symerror: 0.0128315, label : stat}
+  - value: 0.130332
+    errors:
+    - {symerror: 0.0130988, label : stat}
+  - value: 0.0974197
+    errors:
+    - {symerror: 0.0113248, label : stat}
+  - value: 0.0934702
+    errors:
+    - {symerror: 0.0110929, label : stat}
+  - value: 0.0961032
+    errors:
+    - {symerror: 0.011248, label : stat}
+  - value: 0.11585
+    errors:
+    - {symerror: 0.0123497, label : stat}
+  - value: 0.107952
+    errors:
+    - {symerror: 0.0119213, label : stat}
+  - value: 0.14218
+    errors:
+    - {symerror: 0.0136813, label : stat}
+  - value: 0.215903
+    errors:
+    - {symerror: 0.0168592, label : stat}
+  - value: 0.272512
+    errors:
+    - {symerror: 0.0189409, label : stat}
+  - value: 0.601632
+    errors:
+    - {symerror: 0.0281432, label : stat}
+  - value: 1.06635
+    errors:
+    - {symerror: 0.0374677, label : stat}
+  - value: 1.67457
+    errors:
+    - {symerror: 0.0469525, label : stat}
+  - value: 1.22828
+    errors:
+    - {symerror: 0.040212, label : stat}
+  - value: 0.683254
+    errors:
+    - {symerror: 0.0299915, label : stat}
+  - value: 0.402844
+    errors:
+    - {symerror: 0.023029, label : stat}
+  - value: 0.272512
+    errors:
+    - {symerror: 0.0189409, label : stat}
+  - value: 0.173776
+    errors:
+    - {symerror: 0.0151252, label : stat}
+  - value: 0.154028
+    errors:
+    - {symerror: 0.0142399, label : stat}
+  - value: 0.100053
+    errors:
+    - {symerror: 0.0114768, label : stat}
