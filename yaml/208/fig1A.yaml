@@ -224,7 +224,7 @@ dependent_variables:
     - {symerror: 7.00E-07, label: 'stat.'}
 - header: {name: '$dN/dM_{ee}(background)$'}
   qualifiers:
-  - {name: '$M{ee} (GeV/c^2)$', value: 'Signal'}
+  - {name: '$M{ee} (GeV/c^2)$', value: 'Background'}
   values:
   - value: 0.584446
     errors:
@@ -390,7 +390,7 @@ dependent_variables:
     - {symerror: 7.03E-07, label: 'stat.'}
 - header: {name: '$dN/dM_{ee}(signal)$'}
   qualifiers:
-  - {name: '$M{ee} (GeV/c^2)$', value: 'Background'}
+  - {name: '$M{ee} (GeV/c^2)$', value: 'Signal'}
   values:
   - value: 0.00230081
     errors:
