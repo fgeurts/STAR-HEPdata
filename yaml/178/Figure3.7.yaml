@@ -1,0 +1,38 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 5.00, high: 6.00}
+  - {low: 6.00, high: 7.00}
+  - {low: 7.00, high: 8.00}
+  - {low: 8.00, high: 10.00}
+  - {low: 10.00, high: 12.00}
+  - {low: 12.00, high: 15.00}
+dependent_variables:
+- header: {name: 'Ratio'}
+  qualifiers:
+  - {name: '$p_T$', value: '$R_{AA} \rho^0 /R_{AA} \pi^{\pm}$ in Au+Au $0-12\%$ collisions at 200 GeV'}
+  values:
+  - value: 1.348
+    errors:
+    - {symerror: 0.298, label: 'Stat error'}
+    - {symerror: 0.448, label: 'Sys error'}
+  - value: 1.361
+    errors:
+    - {symerror: 0.223, label: 'Stat error'}
+    - {symerror: 0.452, label: 'Sys error'}
+  - value: 1.213
+    errors:
+    - {symerror: 0.211, label: 'Stat error'}
+    - {symerror: 0.431, label: 'Sys error'}
+  - value: 1.038
+    errors:
+    - {symerror: 0.161, label: 'Stat error'}
+    - {symerror: 0.279, label: 'Sys error'}
+  - value: 1.150
+    errors:
+    - {symerror: 0.294, label: 'Stat error'}
+    - {symerror: 0.363, label: 'Sys error'}
+  - value: 1.192
+    errors:
+    - {symerror: 0.356, label: 'Stat error'}
+    - {symerror: 0.628, label: 'Sys error'}

@@ -1,0 +1,68 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 3.50, high: 3.75}
+  - {low: 3.75, high: 4.00}
+  - {low: 4.00, high: 4.50}
+  - {low: 4.50, high: 5.00}
+  - {low: 5.00, high: 5.50}
+  - {low: 5.50, high: 6.00}
+  - {low: 6.00, high: 6.50}
+  - {low: 6.50, high: 7.00}
+  - {low: 7.00, high: 8.00}
+  - {low: 8.00, high: 10.00}
+  - {low: 10.00, high: 12.00}
+  - {low: 12.00, high: 15.00}
+dependent_variables:
+- header: {name: 'Yield Ratio'}
+  qualifiers:
+  - {name: '$p_T$', value: '$K^0_S/\pi^{\pm}$ Ratio in p+p collisions at 200 GeV'}
+  values:
+  - value: 0.428
+    errors:
+    - {symerror: 0.040, label: 'Stat error'}
+    - {symerror: 0.074, label: 'Sys error'}
+  - value: 0.485
+    errors:
+    - {symerror: 0.038, label: 'Stat error'}
+    - {symerror: 0.102, label: 'Sys error'}
+  - value: 0.396
+    errors:
+    - {symerror: 0.021, label: 'Stat error'}
+    - {symerror: 0.121, label: 'Sys error'}
+  - value: 0.389
+    errors:
+    - {symerror: 0.019, label: 'Stat error'}
+    - {symerror: 0.078, label: 'Sys error'}
+  - value: 0.435
+    errors:
+    - {symerror: 0.022, label: 'Stat error'}
+    - {symerror: 0.072, label: 'Sys error'}
+  - value: 0.413
+    errors:
+    - {symerror: 0.022, label: 'Stat error'}
+    - {symerror: 0.071, label: 'Sys error'}
+  - value: 0.442
+    errors:
+    - {symerror: 0.026, label: 'Stat error'}
+    - {symerror: 0.070, label: 'Sys error'}
+  - value: 0.380
+    errors:
+    - {symerror: 0.026, label: 'Stat error'}
+    - {symerror: 0.118, label: 'Sys error'}
+  - value: 0.354
+    errors:
+    - {symerror: 0.021, label: 'Stat error'}
+    - {symerror: 0.075, label: 'Sys error'}
+  - value: 0.325
+    errors:
+    - {symerror: 0.019, label: 'Stat error'}
+    - {symerror: 0.082, label: 'Sys error'}
+  - value: 0.243
+    errors:
+    - {symerror: 0.026, label: 'Stat error'}
+    - {symerror: 0.065, label: 'Sys error'}
+  - value: 0.155
+    errors:
+    - {symerror: 0.027, label: 'Stat error'}
+    - {symerror: 0.0442, label: 'Sys error'}

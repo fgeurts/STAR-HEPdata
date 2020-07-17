@@ -1,0 +1,78 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 3.00, high: 3.25}
+  - {low: 3.25, high: 3.50}
+  - {low: 3.50, high: 3.75}
+  - {low: 3.75, high: 4.00}
+  - {low: 4.00, high: 4.50}
+  - {low: 4.50, high: 5.00}
+  - {low: 5.00, high: 5.50}
+  - {low: 5.50, high: 6.00}
+  - {low: 6.00, high: 6.50}
+  - {low: 6.50, high: 7.00}
+  - {low: 7.00, high: 8.00}
+  - {low: 8.00, high: 10.00}
+  - {low: 10.00, high: 12.00}
+  - {low: 12.00, high: 15.00}
+dependent_variables:
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$K^{\pm}+p(\bar{p})$ in Au+Au $0-12\%$ collisions at 200 GeV'}
+  values:
+  - value: 0.806
+    errors:
+    - {symerror: 0.010, label: 'Stat error'}
+    - {symerror: 0.313, label: 'Sys error'}
+  - value: 0.749
+    errors:
+    - {symerror: 0.010, label: 'Stat error'}
+    - {symerror: 0.261, label: 'Sys error'}
+  - value: 0.700
+    errors:
+    - {symerror: 0.011, label: 'Stat error'}
+    - {symerror: 0.219, label: 'Sys error'}
+  - value: 0.630
+    errors:
+    - {symerror: 0.011, label: 'Stat error'}
+    - {symerror: 0.179, label: 'Sys error'}
+  - value: 0.572
+    errors:
+    - {symerror: 0.009, label: 'Stat error'}
+    - {symerror: 0.142, label: 'Sys error'}
+  - value: 0.475
+    errors:
+    - {symerror: 0.008, label: 'Stat error'}
+    - {symerror: 0.101, label: 'Sys error'}
+  - value: 0.402
+    errors:
+    - {symerror: 0.009, label: 'Stat error'}
+    - {symerror: 0.077, label: 'Sys error'}
+  - value: 0.343
+    errors:
+    - {symerror: 0.009, label: 'Stat error'}
+    - {symerror: 0.062, label: 'Sys error'}
+  - value: 0.326
+    errors:
+    - {symerror: 0.011, label: 'Stat error'}
+    - {symerror: 0.057, label: 'Sys error'}
+  - value: 0.315
+    errors:
+    - {symerror: 0.013, label: 'Stat error'}
+    - {symerror: 0.056, label: 'Sys error'}
+  - value: 0.311
+    errors:
+    - {symerror: 0.014, label: 'Stat error'}
+    - {symerror: 0.058, label: 'Sys error'}
+  - value: 0.336
+    errors:
+    - {symerror: 0.019, label: 'Stat error'}
+    - {symerror: 0.070, label: 'Sys error'}
+  - value: 0.258
+    errors:
+    - {symerror: 0.034, label: 'Stat error'}
+    - {symerror: 0.065, label: 'Sys error'}
+  - value: 0.289
+    errors:
+    - {symerror: 0.051, label: 'Stat error'}
+    - {symerror: 0.083, label: 'Sys error'}

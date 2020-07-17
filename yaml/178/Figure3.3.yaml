@@ -1,0 +1,53 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 3.50, high: 3.75}
+  - {low: 3.75, high: 4.00}
+  - {low: 4.00, high: 4.50}
+  - {low: 4.50, high: 5.00}
+  - {low: 5.00, high: 5.50}
+  - {low: 5.50, high: 6.00}
+  - {low: 6.00, high: 7.00}
+  - {low: 7.00, high: 8.00}
+  - {low: 8.00, high: 10.00}
+dependent_variables:
+- header: {name: '$R_{AA}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$K^0_S$ in Au+Au $0-12\%$ collisions at 200 GeV'}
+  values:
+  - value: 0.473
+    errors:
+    - {symerror: 0.045, label: 'Stat error'}
+    - {symerror: 0.060, label: 'Sys error'}
+  - value: 0.424
+    errors:
+    - {symerror: 0.034, label: 'Stat error'}
+    - {symerror: 0.060, label: 'Sys error'}
+  - value: 0.476
+    errors:
+    - {symerror: 0.025, label: 'Stat error'}
+    - {symerror: 0.148, label: 'Sys error'}
+  - value: 0.395
+    errors:
+    - {symerror: 0.020, label: 'Stat error'}
+    - {symerror: 0.076, label: 'Sys error'}
+  - value: 0.326
+    errors:
+    - {symerror: 0.017, label: 'Stat error'}
+    - {symerror: 0.049, label: 'Sys error'}
+  - value: 0.312
+    errors:
+    - {symerror: 0.019, label: 'Stat error'}
+    - {symerror: 0.049, label: 'Sys error'}
+  - value: 0.300
+    errors:
+    - {symerror: 0.021, label: 'Stat error'}
+    - {symerror: 0.058, label: 'Sys error'}
+  - value: 0.270
+    errors:
+    - {symerror: 0.023, label: 'Stat error'}
+    - {symerror: 0.053, label: 'Sys error'}
+  - value: 0.260
+    errors:
+    - {symerror: 0.034, label: 'Stat error'}
+    - {symerror: 0.054, label: 'Sys error'}
