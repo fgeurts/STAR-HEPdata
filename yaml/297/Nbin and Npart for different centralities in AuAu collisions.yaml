@@ -1,0 +1,61 @@
+independent_variables:
+- header: {name: 'Centrality'}
+  values:
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 80}
+  - {low: 10, high: 40}
+  - {low: 40, high: 80}
+dependent_variables:
+- header: {name: 'Nbin'}
+  qualifiers:
+  - {name: 'Centrality', value: 'Nbin for different centralities in Au+Au collisions (for R_AA, R_CP and X_sec)'}
+  values:
+  - value: 938.80
+    errors:
+    - {symerror: 26.28, label: 'Uncern.'}
+  - value: 579.89
+    errors:
+    - {symerror: 28.86, label: 'Uncern.'}
+  - value: 288.35
+    errors:
+    - {symerror: 30.39, label: 'Uncern.'}
+  - value: 91.37
+    errors:
+    - {symerror: 21.05, label: 'Uncern.'}
+  - value: 21.37
+    errors:
+    - {symerror: 8.93, label: 'Uncern.'}
+  - value: 386.08
+    errors:
+    - {symerror: 29.86, label: 'Uncern.'}
+  - value: 56.99
+    errors:
+    - {symerror: 14.85, label: 'Uncern.'}
+- header: {name: 'Npart'}
+  qualifiers:
+  - {name: 'Centrality', value: 'Npart for different centralities in Au+Au collisions (for R_AA, R_CP and X_sec)'}
+  values:
+  - value: 319.4
+    errors:
+    - {symerror: 3.38, label: 'Uncern.'}
+  - value: 227.6
+    errors:
+    - {symerror: 7.96, label: 'Uncern.'}
+  - value: 137.6
+    errors:
+    - {symerror: 10.41, label: 'Uncern.'}
+  - value: 60.5
+    errors:
+    - {symerror: 10.11, label: 'Uncern.'}
+  - value: 20.4
+    errors:
+    - {symerror: 6.61, label: 'Uncern.'}
+  - value: 167.82
+    errors:
+    - {symerror: 9.56, label: 'Uncern.'}
+  - value: 40.83
+    errors:
+    - {symerror: 8.21, label: 'Uncern.'}

@@ -1,0 +1,42 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {value: 2.42e-01}
+  - {value: 7.28e-01}
+  - {value: 1.22e+00}
+  - {value: 1.71e+00}
+  - {value: 2.21e+00}
+  - {value: 2.71e+00}
+  - {value: 3.36e+00}
+  - {value: 4.36e+00}
+  - {value: 5.37e+00}
+  - {value: 6.59e+00}
+dependent_variables:
+- header: {name: 'Vertex resolution uncertainties'}
+  qualifiers:
+  - {name: '$p_T$', value: '$40-60\%$ centralities in AuAu collisions (for $R_{CP}$ plot)'}
+  values:
+  - value: 9.22e-02
+  - value: 7.15e-02
+  - value: 5.61e-02
+  - value: 5.95e-02
+  - value: 5.53e-02
+  - value: 6.19e-02
+  - value: 5.39e-02
+  - value: 5.54e-02
+  - value: 6.54e-02
+  - value: 7.75e-02
+- header: {name: 'Vertex resolution uncertainties'}
+  qualifiers:
+  - {name: '$p_T$', value: '$60-80\%$ centralities in AuAu collisions (for $R_{CP}$ plot)'}
+  values:
+  - value: 1.68e-01
+  - value: 1.28e-01
+  - value: 1.72e-01
+  - value: 1.16e-01
+  - value: 1.29e-01
+  - value: 1.46e-01
+  - value: 1.28e-01
+  - value: 1.24e-01
+  - value: 1.05e-01
+  - value: 1.52e-01

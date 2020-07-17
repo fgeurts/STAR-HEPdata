@@ -1,0 +1,12 @@
+independent_variables:
+- header: {name: 'Mass'}
+  values:
+  - {value: 1.02e+00}
+dependent_variables:
+- header: {name: 'Teff'}
+  qualifiers:
+  - {name: 'Mass', value: '$\phi$'}
+  values:
+  - value: 3.58e-01
+    errors:
+    - {symerror: 6.09e-03, label: 'Teff Err.'}

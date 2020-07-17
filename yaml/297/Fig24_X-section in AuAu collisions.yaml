@@ -1,0 +1,57 @@
+independent_variables:
+- header: {name: 'Centrality'}
+  values:
+  - {low: 0, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 40}
+  - {low: 40, high: 60}
+  - {low: 60, high: 80}
+dependent_variables:
+- header: {name: 'X-section'}
+  qualifiers:
+  - {name: 'Centrality', value: 'Xsec ($p_T > 0.0$ GeV/c) in AuAu'}
+  values:
+  - value: 3.90e+01
+    errors:
+    - {symerror: 1.22e+00, label: 'Stat error'}
+    - {symerror: 5.94e+00, label: 'Sys error'}
+  - value: 3.99e+01
+    errors:
+    - {symerror: 9.80e-01, label: 'Stat error'}
+    - {symerror: 4.76e+00, label: 'Sys error'}
+  - value: 4.12e+01
+    errors:
+    - {symerror: 7.25e-01, label: 'Stat error'}
+    - {symerror: 4.76e+00, label: 'Sys error'}
+  - value: 3.80e+01
+    errors:
+    - {symerror: 8.20e-01, label: 'Stat error'}
+    - {symerror: 3.94e+00, label: 'Sys error'}
+  - value: 4.02e+01
+    errors:
+    - {symerror: 1.46e+00, label: 'Stat error'}
+    - {symerror: 7.79e+00, label: 'Sys error'}
+- header: {name: 'X-section'}
+  qualifiers:
+  - {name: 'Centrality', value: 'Xsec ($p_T > 4.0$ GeV/c) in AuAu'}
+  values:
+  - value: 2.75e-01
+    errors:
+    - {symerror: 8.46e-03, label: 'Stat error'}
+    - {symerror: 4.18e-02, label: 'Sys error'}
+  - value: 3.32e-01
+    errors:
+    - {symerror: 9.11e-03, label: 'Stat error'}
+    - {symerror: 4.81e-02, label: 'Sys error'}
+  - value: 3.99e-01
+    errors:
+    - {symerror: 8.71e-03, label: 'Stat error'}
+    - {symerror: 5.50e-02, label: 'Sys error'}
+  - value: 4.99e-01
+    errors:
+    - {symerror: 1.55e-02, label: 'Stat error'}
+    - {symerror: 7.91e-02, label: 'Sys error'}
+  - value: 4.89e-01
+    errors:
+    - {symerror: 3.08e-02, label: 'Stat error'}
+    - {symerror: 1.12e-01, label: 'Sys error'}
