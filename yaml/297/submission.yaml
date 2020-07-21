@@ -1,8 +1,11 @@
----
 comment: BNL-RHIC. We report a new measurement of $D^0$-meson production at mid-rapidity ($|y|<1$) in Au+Au collisions at $\sqrt{s_{NN}} = 200$ GeV utilizing the Heavy Flavor Tracker, a high resolution silicon detector at the STAR experiment. Invariant yields of $D^0$-mesons with transverse momentum $p_T < 9$ GeV/c are reported in various centrality bins ($0-10\%$, $10-20\%$, $20-40\%$, $40-60\%$ and $60-80\%$). Blast-Wave thermal models are used to fit the $D^0$-meson $p_T$ spectra to study $D^0$ hadron kinetic freeze-out properties. The average radial flow velocity extracted from the fit is considerably smaller than that of light hadrons ($\pi$, $K$ and $p$), but comparable to that of hadrons containing multiple strange quarks ($\phi$, $\Xi^-$), indicating that $D^0$ mesons kinetically decouple from the system earlier than light hadrons. The calculated $D^0$ nuclear modification factors re-affirm that charm quarks suffer large amount of energy loss in the medium, similar to those of light quarks for $p_T >4$ GeV/c in central $0-10\%$ Au+Au collisions. At low $p_T$ , the nuclear modification factors show a characteristic structure qualitatively consistent with the expectation from model predictions that charm quarks gain sizable collective motion during the medium evolution. The improved measurements are expected to offer new constraints to model calculations and help gain further insights into the hot and dense medium created in these collisions.
 additional_resources:
-  - {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/data.html", description: "web page with data points"}
+  - {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/data.html", description: Web page with data points}
+  - {location: "https://drupal.star.bnl.gov/STAR/publications/centrality-and-transverse-momentum-dependence-d0-meson-production-mid-rapidity-auau-col", description: Webpage with all figures}
+  - {location: "https://arxiv.org/abs/1812.10224", description: arXiv}
 ---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig22.png", description: Image file}
 name: "$D^0$ spectra in AuAu collisions"
 description: '$D^0$ spectra in AuAu collisions'
 keywords:
@@ -17,6 +20,8 @@ keywords:
   - {name: cmenergies, values: [200.0]}
 data_file: spectra pp.yaml
 ---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig24.png", description: Image file}
 name: "X-section in AuAu collisions"
 description: 'X-section in AuAu collisions'
 keywords:
@@ -24,6 +29,8 @@ keywords:
   - {name: cmenergies, values: [200.0]}
 data_file: Fig24_X-section in AuAu collisions.yaml
 ---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig24.png", description: Image file}
 name: "X-section in pp collisions"
 description: 'X-section in pp collisions'
 keywords:
@@ -31,6 +38,8 @@ keywords:
   - {name: cmenergies, values: [200.0]}
 data_file: Fig24_X-section in pp collisions.yaml
 ---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig31.png", description: Image file}
 name: "$R_{AA}$"
 description: '$R_{AA}$ $D^0$ in AuAu collisions'
 keywords:
@@ -38,28 +47,36 @@ keywords:
   - {name: cmenergies, values: [200.0]}
 data_file: Fig31_raa.yaml
 ---
-name: "$D^0$ and $\bar{D}^0$ spectra"
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig33.png", description: Image file}
+name: "$D^0$ and $D^0bar$ spectra"
 description: '$D^0$ and $\bar{D}^0$ spectra in AuAu collisions'
 keywords:
   - {name: reactions, values: [AU AU --> NEUTRAL X]}
   - {name: cmenergies, values: [200.0]}
 data_file: Fig33_D0 and D0bar spectra.yaml
 ---
-name: "$\bar{D}^0$/$D^0$ Ratio"
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig34.png", description: Image file}
+name: "$D^0bar$/$D^0$ Ratio"
 description: '$\bar{D}^0$/$D^0$ Ratio in AuAu collisions'
 keywords:
   - {name: reactions, values: [AU AU --> NEUTRAL X]}
   - {name: cmenergies, values: [200.0]}
 data_file: Fig34_D0barD0 Ratio.yaml
 ---
-name: "$R_{CP}$"
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig35.png", description: Image file}
+name: "$R_{CP}$ (60-80%)"
 description: '$R_{CP}$ $D^0$ in AuAu collisions (with 60-80% as reference)'
 keywords:
   - {name: reactions, values: [AU AU --> NEUTRAL X]}
   - {name: cmenergies, values: [200.0]}
 data_file: Fig35_rcp6080.yaml
 ---
-name: "$R_{CP}$"
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig36.png", description: Image file}
+name: "$R_{CP}$ (40-60%)"
 description: '$R_{CP}$ $D^0$ in AuAu collisions (with 40-60% as reference)'
 keywords:
   - {name: reactions, values: [AU AU --> NEUTRAL X]}
@@ -73,6 +90,8 @@ keywords:
   - {name: cmenergies, values: [200.0]}
 data_file: BW fit parameters for D0.yaml
 ---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig25.png", description: Image file}
 name: "$D^0$ spectra $m_T - m_0$ AuAu"
 description: '$D^0$ spectra in AuAu collisions'
 keywords:
