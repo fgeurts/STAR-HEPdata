@@ -1,0 +1,307 @@
+independent_variables:
+- header: {name: '$Momentum (GeV/c)$'}
+  values:
+  - {value: 2.20000E-01}
+  - {value: 2.60000E-01}
+  - {value: 3.00000E-01}
+  - {value: 3.40000E-01}
+  - {value: 3.80000E-01}
+  - {value: 4.20000E-01}
+  - {value: 4.60000E-01}
+  - {value: 5.00000E-01}
+  - {value: 5.40000E-01}
+  - {value: 5.80000E-01}
+  - {value: 6.20000E-01}
+  - {value: 6.60000E-01}
+  - {value: 7.00000E-01}
+  - {value: 7.40000E-01}
+  - {value: 7.80000E-01}
+  - {value: 8.20000E-01}
+  - {value: 8.60000E-01}
+  - {value: 9.00000E-01}
+  - {value: 9.40000E-01}
+  - {value: 9.80000E-01}
+  - {value: 1.02000E+00}
+  - {value: 1.06000E+00}
+  - {value: 1.10000E+00}
+  - {value: 1.14000E+00}
+  - {value: 1.18000E+00}
+  - {value: 1.22000E+00}
+  - {value: 1.26000E+00}
+  - {value: 1.30000E+00}
+  - {value: 1.34000E+00}
+  - {value: 1.38000E+00}
+  - {value: 1.42000E+00}
+  - {value: 1.46000E+00}
+  - {value: 1.50000E+00}
+  - {value: 1.54000E+00}
+  - {value: 1.58000E+00}
+  - {value: 1.62000E+00}
+  - {value: 1.66000E+00}
+  - {value: 1.70000E+00}
+  - {value: 1.74000E+00}
+  - {value: 1.78000E+00}
+  - {value: 1.82000E+00}
+  - {value: 1.86000E+00}
+  - {value: 1.90000E+00}
+  - {value: 1.94000E+00}
+  - {value: 1.98000E+00}
+dependent_variables:
+- header: {name: '$purity_{mb}$'}
+  qualifiers:
+  - {name: '$Momentum (GeV/c)$', value: 'Electron Purity (Minimum Bias)'}
+  values:
+  - value: 9.77700E-01
+
+  - value: 9.93100E-01
+
+  - value: 9.97400E-01
+
+  - value: 9.98700E-01
+
+  - value: 9.98800E-01
+
+  - value: 9.94800E-01
+
+  - value: 9.69600E-01
+
+  - value: 9.24700E-01
+
+  - value: 8.19000E-01
+    errors:
+    - {symerror: 3.00600E-01, label: 'errL.'}
+    - {symerror: 1.81000E-01, label: 'errH.'}
+  - value: 8.25400E-01
+
+  - value: 8.53000E-01
+
+  - value: 8.86400E-01
+
+  - value: 9.17100E-01
+
+  - value: 9.39100E-01
+
+  - value: 9.46900E-01
+
+  - value: 9.37400E-01
+
+  - value: 9.08800E-01
+
+  - value: 8.69600E-01
+
+  - value: 8.13700E-01
+    errors:
+    - {symerror: 6.67900E-02, label: 'errL.'}
+    - {symerror: 6.67900E-02, label: 'errH.'}
+  - value: 7.86300E-01
+    errors:
+    - {symerror: 1.32500E-01, label: 'errL.'}
+    - {symerror: 1.32500E-01, label: 'errH.'}
+  - value: 7.57600E-01
+    errors:
+    - {symerror: 3.72700E-01, label: 'errL.'}
+    - {symerror: 2.42400E-01, label: 'errH.'}
+  - value: 7.62500E-01
+    errors:
+    - {symerror: 2.97600E-01, label: 'errL.'}
+    - {symerror: 2.37500E-01, label: 'errH.'}
+  - value: 8.04700E-01
+    errors:
+    - {symerror: 1.18000E-01, label: 'errL.'}
+    - {symerror: 1.18000E-01, label: 'errH.'}
+  - value: 7.56800E-01
+    errors:
+    - {symerror: 2.19800E-01, label: 'errL.'}
+    - {symerror: 2.19800E-01, label: 'errH.'}
+  - value: 7.86800E-01
+    errors:
+    - {symerror: 1.89800E-01, label: 'errL.'}
+    - {symerror: 1.89800E-01, label: 'errH.'}
+  - value: 7.51500E-01
+
+  - value: 7.97500E-01
+
+  - value: 8.33900E-01
+
+  - value: 8.56800E-01
+
+  - value: 8.77200E-01
+
+  - value: 8.95000E-01
+
+  - value: 9.05800E-01
+
+  - value: 9.11000E-01
+
+  - value: 9.19500E-01
+
+  - value: 9.23700E-01
+
+  - value: 9.19800E-01
+
+  - value: 9.16700E-01
+    errors:
+    - {symerror: 3.02900E-03, label: 'errL.'}
+    - {symerror: 3.02900E-03, label: 'errH.'}
+  - value: 9.13000E-01
+    errors:
+    - {symerror: 1.82400E-02, label: 'errL.'}
+    - {symerror: 1.82400E-02, label: 'errH.'}
+  - value: 9.12700E-01
+    errors:
+    - {symerror: 1.45400E-02, label: 'errL.'}
+    - {symerror: 1.45400E-02, label: 'errH.'}
+  - value: 9.07900E-01
+    errors:
+    - {symerror: 7.28100E-03, label: 'errL.'}
+    - {symerror: 7.28100E-03, label: 'errH.'}
+  - value: 9.07100E-01
+    errors:
+    - {symerror: 6.66500E-03, label: 'errL.'}
+    - {symerror: 6.66500E-03, label: 'errH.'}
+  - value: 9.03000E-01
+    errors:
+    - {symerror: 2.41400E-03, label: 'errL.'}
+    - {symerror: 2.41400E-03, label: 'errH.'}
+  - value: 8.97200E-01
+    errors:
+    - {symerror: 7.82500E-04, label: 'errL.'}
+    - {symerror: 7.82500E-04, label: 'errH.'}
+  - value: 8.90400E-01
+    errors:
+    - {symerror: 3.24000E-03, label: 'errL.'}
+    - {symerror: 3.24000E-03, label: 'errH.'}
+  - value: 8.91700E-01
+    errors:
+    - {symerror: 7.48500E-03, label: 'errL.'}
+    - {symerror: 7.48500E-03, label: 'errH.'}
+- header: {name: '$purity_{c}$'}
+  qualifiers:
+  - {name: '$Momentum (GeV/c)$', value: 'Electron Purity (Central)'}
+  values:
+  - value: 9.54800E-01
+
+  - value: 9.84200E-01
+
+  - value: 9.93900E-01
+
+  - value: 9.97000E-01
+
+  - value: 9.97600E-01
+
+  - value: 9.89700E-01
+
+  - value: 9.47000E-01
+
+  - value: 8.84500E-01
+
+  - value: 7.70700E-01
+    errors:
+    - {symerror: 3.05500E-01, label: 'errL.'}
+    - {symerror: 2.29300E-01, label: 'errH.'}
+  - value: 7.86600E-01
+
+  - value: 8.18100E-01
+
+  - value: 8.58300E-01
+
+  - value: 8.97600E-01
+
+  - value: 9.25000E-01
+
+  - value: 9.30700E-01
+
+  - value: 9.10300E-01
+
+  - value: 8.63200E-01
+
+  - value: 8.22100E-01
+
+  - value: 7.31500E-01
+    errors:
+    - {symerror: 1.12200E-01, label: 'errL.'}
+    - {symerror: 1.12200E-01, label: 'errH.'}
+  - value: 6.93700E-01
+    errors:
+    - {symerror: 1.64700E-01, label: 'errL.'}
+    - {symerror: 1.64700E-01, label: 'errH.'}
+  - value: 6.72200E-01
+    errors:
+    - {symerror: 3.31300E-01, label: 'errL.'}
+    - {symerror: 3.27800E-01, label: 'errH.'}
+  - value: 6.83100E-01
+    errors:
+    - {symerror: 2.64600E-01, label: 'errL.'}
+    - {symerror: 2.64600E-01, label: 'errH.'}
+  - value: 7.38100E-01
+    errors:
+    - {symerror: 1.12400E-01, label: 'errL.'}
+    - {symerror: 1.12400E-01, label: 'errH.'}
+  - value: 6.99500E-01
+    errors:
+    - {symerror: 2.16400E-01, label: 'errL.'}
+    - {symerror: 2.16400E-01, label: 'errH.'}
+  - value: 7.35300E-01
+    errors:
+    - {symerror: 1.77000E-01, label: 'errL.'}
+    - {symerror: 1.77000E-01, label: 'errH.'}
+  - value: 7.03800E-01
+
+  - value: 7.55700E-01
+
+  - value: 8.00000E-01
+
+  - value: 8.32700E-01
+
+  - value: 8.53200E-01
+
+  - value: 8.67700E-01
+
+  - value: 8.82500E-01
+
+  - value: 8.90100E-01
+
+  - value: 8.93800E-01
+
+  - value: 8.96100E-01
+
+  - value: 8.93700E-01
+    errors:
+    - {symerror: 1.23600E-06, label: 'errL.'}
+    - {symerror: 1.23600E-06, label: 'errH.'}
+  - value: 8.85100E-01
+    errors:
+    - {symerror: 2.77300E-03, label: 'errL.'}
+    - {symerror: 2.77300E-03, label: 'errH.'}
+  - value: 8.85000E-01
+    errors:
+    - {symerror: 1.61300E-02, label: 'errL.'}
+    - {symerror: 1.61300E-02, label: 'errH.'}
+  - value: 8.85300E-01
+    errors:
+    - {symerror: 1.20600E-02, label: 'errL.'}
+    - {symerror: 1.20600E-02, label: 'errH.'}
+  - value: 8.81100E-01
+    errors:
+    - {symerror: 8.61900E-03, label: 'errL.'}
+    - {symerror: 8.61900E-03, label: 'errH.'}
+  - value: 8.70900E-01
+    errors:
+    - {symerror: 5.73500E-03, label: 'errL.'}
+    - {symerror: 5.73500E-03, label: 'errH.'}
+  - value: 8.72700E-01
+    errors:
+    - {symerror: 2.47200E-03, label: 'errL.'}
+    - {symerror: 2.47200E-03, label: 'errH.'}
+  - value: 8.61900E-01
+    errors:
+    - {symerror: 1.58500E-03, label: 'errL.'}
+    - {symerror: 1.58500E-03, label: 'errH.'}
+  - value: 8.56900E-01
+    errors:
+    - {symerror: 5.62200E-03, label: 'errL.'}
+    - {symerror: 5.62200E-03, label: 'errH.'}
+  - value: 8.45700E-01
+    errors:
+    - {symerror: 8.88700E-03, label: 'errL.'}
+    - {symerror: 8.88700E-03, label: 'errH.'}

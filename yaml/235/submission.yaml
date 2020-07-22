@@ -1,0 +1,803 @@
+additional_resources:
+- {description: arXiv, location: 'https://arxiv.org/abs/1504.01317'}
+comment: BNL-RHIC. Measurements of Dielectron Production from Au + Au Collisions at $\sqrt{s_{{NN}}}$ = 200 GeV from the STAR experiment
+doi: 10.1103/PhysRevLett.113.022301
+---
+# Start a new YAML document to indicate a new data table.
+additional_resources:
+- {description: Image file, location: fg7.eps}
+- {description: Thumbnail image file, location: fg7.png}
+name: "Figure 7"
+location: Data from Figure 7
+description: Estimated electron purity vs momentum in 200-GeV Au + Au collisions.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: [e purity]}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg7.yaml
+---
+additional_resources:
+- {description: Image file, location: fg17.eps}
+- {description: Thumbnail image file, location: fg17.png}
+name: "Figure 17"
+location: Data from Figure 17
+description: Acceptance correction factor for unlike-sign and like-sign pair difference from 200-GeV Au + Au minimum-bias collisions.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: [unLikeS(mix)/LikeS(mix)]}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg17.yaml
+---
+additional_resources:
+- {description: Image file, location: fg18.eps}
+- {description: Thumbnail image file, location: fg18.png}
+name: "Figure 18"
+location: Data from Figure 18
+description: Ratio of the same-event like-sign to the mixed-event unlike-sign distributions. The gray area indicates the normalization region. The solid and dashed lines depict an empirical fit to the distribution in the mass region of 1–4 GeV/c2 and the fit uncertainties, respectively.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: [LikeS/unLikeS(mix)]}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg18.yaml
+---
+additional_resources:
+- {description: Image file, location: fg20.eps}
+- {description: Thumbnail image file, location: fg20.png}
+name: "Figure 20A"
+location: Data from Figure 20A
+description: e+e− invariant-mass pair distributions of signal pairs compared to the inclusive unlike-sign (open symbols) and reconstructed background pairs (black line) in 200-GeV Au + Au minimum-bias collisions. The inset shows the signals of the φ and ω vector mesons.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg20A.yaml
+---
+additional_resources:
+- {description: Image file, location: fg20.eps}
+- {description: Thumbnail image file, location: fg20.png}
+name: "Figure 20B_MinBias"
+location: Minimum Bias Data from Figure 20B
+description: Signal-to-background ratios in p + p and Au + Au minimum bias collisions.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$\frac{S}{B}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg20B_MB.yaml
+---
+additional_resources:
+- {description: Image file, location: fg20.eps}
+- {description: Thumbnail image file, location: fg20.png}
+name: "Figure 20B_Central"
+location: Central Data from Figure 20B
+description: Signal-to-background ratios in p + p and Au + Au central collisions.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$\frac{S}{B}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg20B_C.yaml
+---
+additional_resources:
+- {description: Image file, location: fg28a.eps}
+- {description: Thumbnail image file, location: fg28a.png}
+name: "Figure 28A"
+location: Data from Figure 28A
+description:  Invariant-mass spectrum in the STAR acceptance ($p_T^e$ > 0.2 GeV/c, |$\eta$e| < 1, and |$y_{ee}$| < 1) from $\sqrt{s_{{NN}}}$ = 200 GeV Au + Au minimum-bias collisions. The mass spectrum is compared to the hadronic cocktail simulations without (top left panel) and with (top middle panel) the vacuum ρ contribution (the top right panel is an expanded version of top middle panel below Mee of 1.4 GeV/c2). The vertical bars on data points depict the statistical uncertainties, while the systematic uncertainties are shown as green boxes. Yellow bands in the bottom panels depict the systematic uncertainties on the cocktail. The dashed line indicates the charm-decay dielectron contribution from PYTHIA [32] calculations and scaled with Nbin.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg28A.yaml
+---
+additional_resources:
+- {description: Image file, location: fg28b.eps}
+- {description: Thumbnail image file, location: fg28b.png}
+name: "Figure 28B"
+location: Data from Figure 28B
+description:  Invariant-mass spectrum in the STAR acceptance ($p_T^e$ > 0.2 GeV/c, |$\eta$e| < 1, and |$y_{ee}$| < 1) from $\sqrt{s_{{NN}}}$ = 200 GeV Au + Au minimum-bias collisions. The mass spectrum is compared to the hadronic cocktail simulations without (top left panel) and with (top middle panel) the vacuum ρ contribution (the top right panel is an expanded version of top middle panel below Mee of 1.4 GeV/c2). The vertical bars on data points depict the statistical uncertainties, while the systematic uncertainties are shown as green boxes. Yellow bands in the bottom panels depict the systematic uncertainties on the cocktail. The dashed line indicates the charm-decay dielectron contribution from PYTHIA [32] calculations and scaled with Nbin.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg28B.yaml
+---
+additional_resources:
+- {description: Image file, location: fg30.eps}
+- {description: Thumbnail image file, location: fg30.png}
+name: "Figure 30_1"
+location: Data from Figure 30 ($p_T$ 0.0-0.5 GeV/c)
+description: Invariant-mass spectra from $\sqrt{s_{{NN}}}$ = 200 GeV Au + Au minimum-bias collisions in $p_T$ range 0.0-0.5 GeV/c. The solid curves represent the cocktail of hadronic sources and include the charm-decayed dielectron contribution calculated by PYTHIA scaled by $N_{bin}$.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg30_1.yaml
+---
+additional_resources:
+- {description: Image file, location: fg30.eps}
+- {description: Thumbnail image file, location: fg30.png}
+name: "Figure 30_2"
+location: Data from Figure 30 ($p_T$ 0.5-1.0 GeV/c)
+description: Invariant-mass spectra from $\sqrt{s_{{NN}}}$ = 200 GeV Au + Au minimum-bias collisions in $p_T$ range 0.5-1.0 GeV/c. The solid curves represent the cocktail of hadronic sources and include the charm-decayed dielectron contribution calculated by PYTHIA scaled by $N_{bin}$.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg30_2.yaml
+---
+additional_resources:
+- {description: Image file, location: fg30.eps}
+- {description: Thumbnail image file, location: fg30.png}
+name: "Figure 30_3"
+location: Data from Figure 30 ($p_T$ 1.0-1.5 GeV/c)
+description: Invariant-mass spectra from $\sqrt{s_{{NN}}}$ = 200 GeV Au + Au minimum-bias collisions in $p_T$ range 1.0-1.5 GeV/c. The solid curves represent the cocktail of hadronic sources and include the charm-decayed dielectron contribution calculated by PYTHIA scaled by $N_{bin}$.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg30_3.yaml
+---
+additional_resources:
+- {description: Image file, location: fg30.eps}
+- {description: Thumbnail image file, location: fg30.png}
+name: "Figure 30_4"
+location: Data from Figure 30 ($p_T$ 1.5-2.0 GeV/c)
+description: Invariant-mass spectra from $\sqrt{s_{{NN}}}$ = 200 GeV Au + Au minimum-bias collisions in $p_T$ range 1.5-2.0 GeV/c. The solid curves represent the cocktail of hadronic sources and include the charm-decayed dielectron contribution calculated by PYTHIA scaled by $N_{bin}$.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg30_4.yaml
+---
+additional_resources:
+- {description: Image file, location: fg30.eps}
+- {description: Thumbnail image file, location: fg30.png}
+name: "Figure 30_5"
+location: Data from Figure 30 ($p_T$ integrated)
+description: Invariant-mass spectra from $\sqrt{s_{{NN}}}$ = 200 GeV Au + Au minimum-bias collisions in integrated $p_T$ range. The solid curves represent the cocktail of hadronic sources and include the charm-decayed dielectron contribution calculated by PYTHIA scaled by $N_{bin}$.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg30_5.yaml
+---
+additional_resources:
+- {description: Image file, location: fg30.eps}
+- {description: Thumbnail image file, location: fg30.png}
+name: "Figure 30_1 (RATIO)"
+location: Ratio Data from Figure 30 ($p_T$ 0.0-0.5 GeV/c)
+description: The ratio of dielectron yield over cocktail for $p_T$ range 0.0-0.5 GeV/c, and the comparison with model calculations. The gray boxes show the systematic uncertainties of the data. Yellow bands depict systematic uncertainties on the cocktail.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg30_1R.yaml
+---
+additional_resources:
+- {description: Image file, location: fg30.eps}
+- {description: Thumbnail image file, location: fg30.png}
+name: "Figure 30_2 (RATIO)"
+location: Ratio Data from Figure 30 ($p_T$ 0.5-1.0 GeV/c)
+description: The ratio of dielectron yield over cocktail for $p_T$ range 0.5-1.0 GeV/c, and the comparison with model calculations. The gray boxes show the systematic uncertainties of the data. Yellow bands depict systematic uncertainties on the cocktail.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg30_2R.yaml
+---
+additional_resources:
+- {description: Image file, location: fg30.eps}
+- {description: Thumbnail image file, location: fg30.png}
+name: "Figure 30_3 (RATIO)"
+location: Ratio Data from Figure 30 ($p_T$ 1.0-1.5 GeV/c)
+description: The ratio of dielectron yield over cocktail for $p_T$ range 1.0-1.5 GeV/c, and the comparison with model calculations. The gray boxes show the systematic uncertainties of the data. Yellow bands depict systematic uncertainties on the cocktail.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg30_3R.yaml
+---
+additional_resources:
+- {description: Image file, location: fg30.eps}
+- {description: Thumbnail image file, location: fg30.png}
+name: "Figure 30_4 (RATIO)"
+location: Ratio Data from Figure 30 ($p_T$ 1.5-2.0 GeV/c)
+description: The ratio of dielectron yield over cocktail for $p_T$ range 1.5-2.0 GeV/c, and the comparison with model calculations. The gray boxes show the systematic uncertainties of the data. Yellow bands depict systematic uncertainties on the cocktail.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg30_4R.yaml
+---
+additional_resources:
+- {description: Image file, location: fg30.eps}
+- {description: Thumbnail image file, location: fg30.png}
+name: "Figure 30_5 (RATIO)"
+location: Ratio Data from Figure 30 ($p_T$ integrated)
+description: The ratio of dielectron yield over cocktail for integrated $p_T$ range, and the comparison with model calculations. The gray boxes show the systematic uncertainties of the data. Yellow bands depict systematic uncertainties on the cocktail.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg30_5R.yaml
+---
+additional_resources:
+- {description: Image file, location: fg31.eps}
+- {description: Thumbnail image file, location: fg31.png}
+name: "Figure 31_1"
+location: Data from Figure 31 ($M_{ee}$ 0.00-0.15)
+description: (Left) The integrated dielectron yield as a function of pair in range $M_{ee}$ 0.00-0.15 GeV/c^2 compared with cocktail. The solid lines represent the yield of the cocktail in different mass ranges, while the gray bands show the systematic uncertainties of the data. (Right) The ratio of dielectron yield over cocktail for different mass ranges as a function of pair pT . The yellow bands show the systematic uncertainties of the cocktail. The gray bands show the systematic uncertainties of the data.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg31_1.yaml
+---
+additional_resources:
+- {description: Image file, location: fg31.eps}
+- {description: Thumbnail image file, location: fg31.png}
+name: "Figure 31_2"
+location: Data from Figure 31 ($M_{ee}$ 0.15-0.30)
+description: (Left) The integrated dielectron yield as a function of pair in range $M_{ee}$ 0.15-0.30 GeV/c^2 compared with cocktail. The solid lines represent the yield of the cocktail in different mass ranges, while the gray bands show the systematic uncertainties of the data. (Right) The ratio of dielectron yield over cocktail for different mass ranges as a function of pair pT . The yellow bands show the systematic uncertainties of the cocktail. The gray bands show the systematic uncertainties of the data.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg31_2.yaml
+---
+additional_resources:
+- {description: Image file, location: fg31.eps}
+- {description: Thumbnail image file, location: fg31.png}
+name: "Figure 31_3"
+location: Data from Figure 31 ($M_{ee}$ 0.30-0.76)
+description: (Left) The integrated dielectron yield as a function of pair in range $M_{ee}$ 0.30-0.76 GeV/c^2 compared with cocktail. The solid lines represent the yield of the cocktail in different mass ranges, while the gray bands show the systematic uncertainties of the data. (Right) The ratio of dielectron yield over cocktail for different mass ranges as a function of pair pT . The yellow bands show the systematic uncertainties of the cocktail. The gray bands show the systematic uncertainties of the data.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg31_3.yaml
+---
+additional_resources:
+- {description: Image file, location: fg31.eps}
+- {description: Thumbnail image file, location: fg31.png}
+name: "Figure 31_4"
+location: Data from Figure 31 ($M_{ee}$ 0.76-1.05)
+description: (Left) The integrated dielectron yield as a function of pair in range $M_{ee}$ 0.76-1.05 GeV/c^2 compared with cocktail. The solid lines represent the yield of the cocktail in different mass ranges, while the gray bands show the systematic uncertainties of the data. (Right) The ratio of dielectron yield over cocktail for different mass ranges as a function of pair pT . The yellow bands show the systematic uncertainties of the cocktail. The gray bands show the systematic uncertainties of the data.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg31_4.yaml
+---
+additional_resources:
+- {description: Image file, location: fg31.eps}
+- {description: Thumbnail image file, location: fg31.png}
+name: "Figure 31_5"
+location: Data from Figure 31 ($M_{ee}$ 1.05-1.80)
+description: (Left) The integrated dielectron yield as a function of pair in range $M_{ee}$ 1.05-1.80 GeV/c^2 compared with cocktail. The solid lines represent the yield of the cocktail in different mass ranges, while the gray bands show the systematic uncertainties of the data. (Right) The ratio of dielectron yield over cocktail for different mass ranges as a function of pair pT . The yellow bands show the systematic uncertainties of the cocktail. The gray bands show the systematic uncertainties of the data.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg31_5.yaml
+---
+additional_resources:
+- {description: Image file, location: fg31.eps}
+- {description: Thumbnail image file, location: fg31.png}
+name: "Figure 31_6"
+location: Data from Figure 31 ($M_{ee}$ 1.80-2.80)
+description: (Left) The integrated dielectron yield as a function of pair in range $M_{ee}$ 1.80-2.80 GeV/c^2 compared with cocktail. The solid lines represent the yield of the cocktail in different mass ranges, while the gray bands show the systematic uncertainties of the data. (Right) The ratio of dielectron yield over cocktail for different mass ranges as a function of pair pT . The yellow bands show the systematic uncertainties of the cocktail. The gray bands show the systematic uncertainties of the data.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg31_6.yaml
+---
+additional_resources:
+- {description: Image file, location: fg31.eps}
+- {description: Thumbnail image file, location: fg31.png}
+name: "Figure 31_7"
+location: Data from Figure 31 ($M_{ee}$ 2.80-3.50)
+description: (Left) The integrated dielectron yield as a function of pair in range $M_{ee}$ 2.80-3.50 GeV/c^2 compared with cocktail. The solid lines represent the yield of the cocktail in different mass ranges, while the gray bands show the systematic uncertainties of the data. (Right) The ratio of dielectron yield over cocktail for different mass ranges as a function of pair pT . The yellow bands show the systematic uncertainties of the cocktail. The gray bands show the systematic uncertainties of the data.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg31_7.yaml
+---
+additional_resources:
+- {description: Image file, location: fg32.eps}
+- {description: Thumbnail image file, location: fg32.png}
+name: "Figure 32_1"
+location: Data from Figure 32 (Central)
+description: (Left) Invariant-mass spectra from $\sqrt{s_{{NN}}}$ = 200 GeV Au + Au collisions in for central collisions. The solid curves represent the cocktail of hadronic sources and include charm-decay dielectron contribution from PYTHIA scaled by Nbin. (Right) The ratio of dielectron yield over cocktail for different centrality. The gray boxes show the systematic uncertainties of the data. Yellow bands depict systematic uncertainties on the cocktail.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg32_1.yaml
+---
+additional_resources:
+- {description: Image file, location: fg32.eps}
+- {description: Thumbnail image file, location: fg32.png}
+name: "Figure 32_2"
+location: Data from Figure 32 (10-40%)
+description: (Left) Invariant-mass spectra from $\sqrt{s_{{NN}}}$ = 200 GeV Au + Au collisions in for 10-40% centrality collisions. The solid curves represent the cocktail of hadronic sources and include charm-decay dielectron contribution from PYTHIA scaled by Nbin. (Right) The ratio of dielectron yield over cocktail for different centrality. The gray boxes show the systematic uncertainties of the data. Yellow bands depict systematic uncertainties on the cocktail.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg32_2.yaml
+---
+additional_resources:
+- {description: Image file, location: fg32.eps}
+- {description: Thumbnail image file, location: fg32.png}
+name: "Figure 32_3"
+location: Data from Figure 32 (40-80%)
+description: (Left) Invariant-mass spectra from $\sqrt{s_{{NN}}}$ = 200 GeV Au + Au collisions in for 40-80% centrality collisions. The solid curves represent the cocktail of hadronic sources and include charm-decay dielectron contribution from PYTHIA scaled by Nbin. (Right) The ratio of dielectron yield over cocktail for different centrality. The gray boxes show the systematic uncertainties of the data. Yellow bands depict systematic uncertainties on the cocktail.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg32_3.yaml
+---
+additional_resources:
+- {description: Image file, location: fg32.eps}
+- {description: Thumbnail image file, location: fg32.png}
+name: "Figure 32_4"
+location: Data from Figure 32 (Minimum Bias)
+description: (Left) Invariant-mass spectra from $\sqrt{s_{{NN}}}$ = 200 GeV Au + Au collisions in for minimum bias collisions. The solid curves represent the cocktail of hadronic sources and include charm-decay dielectron contribution from PYTHIA scaled by Nbin. (Right) The ratio of dielectron yield over cocktail for different centrality. The gray boxes show the systematic uncertainties of the data. Yellow bands depict systematic uncertainties on the cocktail.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg32_4.yaml
+---
+additional_resources:
+- {description: Image file, location: fg32.eps}
+- {description: Thumbnail image file, location: fg32.png}
+name: "Figure 32_1R"
+location: Ratio Data from Figure 32 (Central)
+description: (Left) Invariant-mass spectra from $\sqrt{s_{{NN}}}$ = 200 GeV Au + Au collisions in for central collisions. The solid curves represent the cocktail of hadronic sources and include charm-decay dielectron contribution from PYTHIA scaled by Nbin. (Right) The ratio of dielectron yield over cocktail for different centrality. The gray boxes show the systematic uncertainties of the data. Yellow bands depict systematic uncertainties on the cocktail.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg32_1R.yaml
+---
+additional_resources:
+- {description: Image file, location: fg32.eps}
+- {description: Thumbnail image file, location: fg32.png}
+name: "Figure 32_2R"
+location: Ratio Data from Figure 32 (10-40%)
+description: (Left) Invariant-mass spectra from $\sqrt{s_{{NN}}}$ = 200 GeV Au + Au collisions in for 10-40% centrality collisions. The solid curves represent the cocktail of hadronic sources and include charm-decay dielectron contribution from PYTHIA scaled by Nbin. (Right) The ratio of dielectron yield over cocktail for different centrality. The gray boxes show the systematic uncertainties of the data. Yellow bands depict systematic uncertainties on the cocktail.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg32_2R.yaml
+---
+additional_resources:
+- {description: Image file, location: fg32.eps}
+- {description: Thumbnail image file, location: fg32.png}
+name: "Figure 32_3R"
+location: Ratio Data from Figure 32 (40-80%)
+description: (Left) Invariant-mass spectra from $\sqrt{s_{{NN}}}$ = 200 GeV Au + Au collisions in for 40-80% centrality collisions. The solid curves represent the cocktail of hadronic sources and include charm-decay dielectron contribution from PYTHIA scaled by Nbin. (Right) The ratio of dielectron yield over cocktail for different centrality. The gray boxes show the systematic uncertainties of the data. Yellow bands depict systematic uncertainties on the cocktail.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg32_3R.yaml
+---
+additional_resources:
+- {description: Image file, location: fg32.eps}
+- {description: Thumbnail image file, location: fg32.png}
+name: "Figure 32_4R"
+location: Ratio Data from Figure 32 (Minimum Bias)
+description: (Left) Invariant-mass spectra from $\sqrt{s_{{NN}}}$ = 200 GeV Au + Au collisions in for minimum bias collisions. The solid curves represent the cocktail of hadronic sources and include charm-decay dielectron contribution from PYTHIA scaled by Nbin. (Right) The ratio of dielectron yield over cocktail for different centrality. The gray boxes show the systematic uncertainties of the data. Yellow bands depict systematic uncertainties on the cocktail.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg32_4R.yaml
+---
+additional_resources:
+- {description: Image file, location: fg33.eps}
+- {description: Thumbnail image file, location: fg33.png}
+name: "Figure 33_1"
+location: Data from Figure 33 ($M_{ee}$ 0.00-0.15)
+description: (Left) The integrated dielectron yield in different centralities compared with the cocktail. The solid lines represent the yield of cocktail in invariant-mass range $M_{ee}$ 0.00-0.15. The gray bands show the systematic uncertainties of the data. (Right) The ratio of dielectron yield over cocktail for different centralities and the comparison with model calculations. The yellow bands show the systematic uncertainties of the cocktail. The gray bands show the systematic uncertainties of the data.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg33_1.yaml
+---
+additional_resources:
+- {description: Image file, location: fg33.eps}
+- {description: Thumbnail image file, location: fg33.png}
+name: "Figure 33_2"
+location: Data from Figure 33 ($M_{ee}$ 0.15-0.30)
+description: (Left) The integrated dielectron yield in different centralities compared with the cocktail. The solid lines represent the yield of cocktail in invariant-mass range $M_{ee}$ 0.15-0.30. The gray bands show the systematic uncertainties of the data. (Right) The ratio of dielectron yield over cocktail for different centralities and the comparison with model calculations. The yellow bands show the systematic uncertainties of the cocktail. The gray bands show the systematic uncertainties of the data.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg33_2.yaml
+---
+additional_resources:
+- {description: Image file, location: fg33.eps}
+- {description: Thumbnail image file, location: fg33.png}
+name: "Figure 33_3"
+location: Data from Figure 33 ($M_{ee}$ 0.3-0.76)
+description: (Left) The integrated dielectron yield in different centralities compared with the cocktail. The solid lines represent the yield of cocktail in invariant-mass range $M_{ee}$ 0.3-0.76. The gray bands show the systematic uncertainties of the data. (Right) The ratio of dielectron yield over cocktail for different centralities and the comparison with model calculations. The yellow bands show the systematic uncertainties of the cocktail. The gray bands show the systematic uncertainties of the data.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg33_3.yaml
+---
+additional_resources:
+- {description: Image file, location: fg33.eps}
+- {description: Thumbnail image file, location: fg33.png}
+name: "Figure 33_4"
+location: Data from Figure 33 ($M_{ee}$ 0.76-1.05)
+description: (Left) The integrated dielectron yield in different centralities compared with the cocktail. The solid lines represent the yield of cocktail in invariant-mass range $M_{ee}$ 0.76-1.05. The gray bands show the systematic uncertainties of the data. (Right) The ratio of dielectron yield over cocktail for different centralities and the comparison with model calculations. The yellow bands show the systematic uncertainties of the cocktail. The gray bands show the systematic uncertainties of the data.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg33_4.yaml
+---
+additional_resources:
+- {description: Image file, location: fg33.eps}
+- {description: Thumbnail image file, location: fg33.png}
+name: "Figure 33_5"
+location: Data from Figure 33 ($M_{ee}$ 1.05-1.8)
+description: (Left) The integrated dielectron yield in different centralities compared with the cocktail. The solid lines represent the yield of cocktail in invariant-mass range $M_{ee}$ 1.05-1.8. The gray bands show the systematic uncertainties of the data. (Right) The ratio of dielectron yield over cocktail for different centralities and the comparison with model calculations. The yellow bands show the systematic uncertainties of the cocktail. The gray bands show the systematic uncertainties of the data.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg33_5.yaml
+---
+additional_resources:
+- {description: Image file, location: fg33.eps}
+- {description: Thumbnail image file, location: fg33.png}
+name: "Figure 33_6"
+location: Data from Figure 33 ($M_{ee}$ 1.8-2.8)
+description: (Left) The integrated dielectron yield in different centralities compared with the cocktail. The solid lines represent the yield of cocktail in invariant-mass range $M_{ee}$ 1.8-2.8. The gray bands show the systematic uncertainties of the data. (Right) The ratio of dielectron yield over cocktail for different centralities and the comparison with model calculations. The yellow bands show the systematic uncertainties of the cocktail. The gray bands show the systematic uncertainties of the data.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg33_6.yaml
+---
+additional_resources:
+- {description: Image file, location: fg33.eps}
+- {description: Thumbnail image file, location: fg33.png}
+name: "Figure 33_7"
+location: Data from Figure 33 ($M_{ee}$ 2.8-3.5)
+description: (Left) The integrated dielectron yield in different centralities compared with the cocktail. The solid lines represent the yield of cocktail in invariant-mass range $M_{ee}$ 2.8-3.5. The gray bands show the systematic uncertainties of the data. (Right) The ratio of dielectron yield over cocktail for different centralities and the comparison with model calculations. The yellow bands show the systematic uncertainties of the cocktail. The gray bands show the systematic uncertainties of the data.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg33_7.yaml
+---
+additional_resources:
+- {description: Image file, location: fg34.eps}
+- {description: Thumbnail image file, location: fg34.png}
+name: "Figure 34_MB"
+location: Data from Figure 34 (Minimum Bias)
+description: (Top) Dielectron invariant mass spectra from minimum-bias and the most central (0%–10%) collisions that we are able to achieve most statistics at present. For direct comparison, the spectra are scaled with the number of participant nucleons (Npart). The solid line represents the cocktail for minimum-bias collisions. (Bottom) The ratio of the Npart-scaled dielectron yield between minimum-bias and the most central collisions. The gray boxes show the systematic uncertainties of the data.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg34_MB.yaml
+---
+additional_resources:
+- {description: Image file, location: fg34.eps}
+- {description: Thumbnail image file, location: fg34.png}
+name: "Figure 34_C"
+location: Data from Figure 34 (Central)
+description: (Top) Dielectron invariant mass spectra from minimum-bias and the most central (0%–10%) collisions that we are able to achieve most statistics at present. For direct comparison, the spectra are scaled with the number of participant nucleons (Npart). The solid line represents the cocktail for minimum-bias collisions. (Bottom) The ratio of the Npart-scaled dielectron yield between minimum-bias and the most central collisions. The gray boxes show the systematic uncertainties of the data.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg34_C.yaml
+---
+additional_resources:
+- {description: Image file, location: fg34.eps}
+- {description: Thumbnail image file, location: fg34.png}
+name: "Figure 34R"
+location: Ratio Data from Figure 34
+description: (Top) Dielectron invariant mass spectra from minimum-bias and the most central (0%–10%) collisions that we are able to achieve most statistics at present. For direct comparison, the spectra are scaled with the number of participant nucleons (Npart). The solid line represents the cocktail for minimum-bias collisions. (Bottom) The ratio of the Npart-scaled dielectron yield between minimum-bias and the most central collisions. The gray boxes show the systematic uncertainties of the data.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg34R.yaml
+---
+additional_resources:
+- {description: Image file, location: fg35.eps}
+- {description: Thumbnail image file, location: fg35.png}
+name: "Figure 35"
+location: Data from Figure 35
+description: Mass spectrum of the excess (data-cocktail) in the LMR in Au + Au minimum-bias collisions compared to model calculations. Green brackets depict the total systematic uncertainties including those from cocktails.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg35.yaml
+---
+additional_resources:
+- {description: Image file, location: fg36.eps}
+- {description: Thumbnail image file, location: fg36.png}
+name: "Figure 36_1"
+location: Data from Figure 36 (O.30-0.76 GeV/c^2)
+description: The yields scaled by Npart for the rho-like region with the cocktail subtracted and the omega-like and the phi-like regions without cocktail subtraction as a function of Npart. Model calculations are included as red solid and dot-dashed curves, while the dashed curve depicts a power-law fit to the yield Npart for the rho-like region with the cocktail subtracted. Systematic uncertainties from the data are shown as gray boxes, and the green brackets depict the total systematic uncertainties including those from cocktails. For clarity, the omega-like and phi-like data points are slightly horizontally displaced.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg36_1.yaml
+---
+additional_resources:
+- {description: Image file, location: fg36.eps}
+- {description: Thumbnail image file, location: fg36.png}
+name: "Figure 36_2"
+location: Data from Figure 36 (O.76-0.80 GeV/c^2)
+description: The yields scaled by Npart for the rho-like region with the cocktail subtracted and the omega-like and the phi-like regions without cocktail subtraction as a function of Npart. Model calculations are included as red solid and dot-dashed curves, while the dashed curve depicts a power-law fit to the yield Npart for the rho-like region with the cocktail subtracted. Systematic uncertainties from the data are shown as gray boxes, and the green brackets depict the total systematic uncertainties including those from cocktails. For clarity, the omega-like and phi-like data points are slightly horizontally displaced.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg36_2.yaml
+---
+additional_resources:
+- {description: Image file, location: fg36.eps}
+- {description: Thumbnail image file, location: fg36.png}
+name: "Figure 36_3"
+location: Data from Figure 36 (O.98-1.05 GeV/c^2)
+description: The yields scaled by Npart for the rho-like region with the cocktail subtracted and the omega-like and the phi-like regions without cocktail subtraction as a function of Npart. Model calculations are included as red solid and dot-dashed curves, while the dashed curve depicts a power-law fit to the yield Npart for the rho-like region with the cocktail subtracted. Systematic uncertainties from the data are shown as gray boxes, and the green brackets depict the total systematic uncertainties including those from cocktails. For clarity, the omega-like and phi-like data points are slightly horizontally displaced.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg36_3.yaml
+---
+additional_resources:
+- {description: Image file, location: fg37.eps}
+- {description: Thumbnail image file, location: fg37.png}
+name: "Figure 37"
+location: Data from Figure 37
+description: Correlated charm contributions to the dielectron-mass spectra for different assumptions of the correlation strength. The simulations are compared to the measured dielectron spectrum in the most central (0%–10%) Au + Au collisions. The total cocktail shown is calculated using the default PYTHIA correlations. The inset plot shows the comparison between the cocktail sums with above four different charm contributions and the measured spectrum in the IMR.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg37.yaml
+---
+additional_resources:
+- {description: Image file, location: fg38.eps}
+- {description: Thumbnail image file, location: fg38.png}
+name: "Figure 38"
+location: Data from Figure 38
+description: Slope parameters Teff versus invariant mass for dielectrons from charmed hadron decays. Different lines show the outcome from PYTHIA calculations assuming different levels of correlations between charm pairs.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$T_{eff}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg38.yaml
+---
+additional_resources:
+- {description: Image file, location: fg39.eps}
+- {description: Thumbnail image file, location: fg39.png}
+name: "Figure 39A"
+location: Data from Figure 39 (omega-meson)
+description: omega- and phi-meson invariant-mass distribution from $\sqrt{s_{{NN}}}$ = 200 GeV Au + Au minimum-bias collisions after subtraction of the combinatorial background using the mixed-event method. The blue and red lines depict two functions used for the signals in the fit. A second-order polynomial function is used to describe the residual correlated background.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg39A.yaml
+---
+additional_resources:
+- {description: Image file, location: fg39.eps}
+- {description: Thumbnail image file, location: fg39.png}
+name: "Figure 39B"
+location: Data from Figure 39 (phi-meson)
+description: omega- and phi-meson invariant-mass distribution from $\sqrt{s_{{NN}}}$ = 200 GeV Au + Au minimum-bias collisions after subtraction of the combinatorial background using the mixed-event method. The blue and red lines depict two functions used for the signals in the fit. A second-order polynomial function is used to describe the residual correlated background.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg39B.yaml
+---
+additional_resources:
+- {description: Image file, location: fg41a.eps}
+- {description: Thumbnail image file, location: fg41a.png}
+name: "Figure 41_1M"
+location: Data from Figure 41 (omega mass)
+description: The widths and mass positions of the omega and phi signals from data compared to the values from the PDG and the full GEANT simulation. Boxes on the data points depict the systematic uncertainties. Gray bands represent the uncertainty of the simulation
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg41_1M.yaml
+---
+additional_resources:
+- {description: Image file, location: fg41a.eps}
+- {description: Thumbnail image file, location: fg41a.png}
+name: "Figure 41_1W"
+location: Data from Figure 41 (omega width)
+description: The widths and mass positions of the omega and phi signals from data compared to the values from the PDG and the full GEANT simulation. Boxes on the data points depict the systematic uncertainties. Gray bands represent the uncertainty of the simulation
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg41_1W.yaml
+---
+additional_resources:
+- {description: Image file, location: fg41b.eps}
+- {description: Thumbnail image file, location: fg41b.png}
+name: "Figure 41_2M"
+location: Data from Figure 41 (phi mass)
+description: The widths and mass positions of the omega and phi signals from data compared to the values from the PDG and the full GEANT simulation. Boxes on the data points depict the systematic uncertainties. Gray bands represent the uncertainty of the simulation
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg41_2M.yaml
+---
+additional_resources:
+- {description: Image file, location: fg41b.eps}
+- {description: Thumbnail image file, location: fg41b.png}
+name: "Figure 41_2W"
+location: Data from Figure 41 (phi width)
+description: The widths and mass positions of the omega and phi signals from data compared to the values from the PDG and the full GEANT simulation. Boxes on the data points depict the systematic uncertainties. Gray bands represent the uncertainty of the simulation
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg41_2W.yaml
+---
+additional_resources:
+- {description: Image file, location: fg42.eps}
+- {description: Thumbnail image file, location: fg42.png}
+name: "Figure 42"
+location: Data from Figure 42
+description: The efficiency and acceptance correction factor as function of pT for midrapidity omega and phi mesons.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg42.yaml
+---
+additional_resources:
+- {description: Image file, location: fg43.eps}
+- {description: Thumbnail image file, location: fg43.png}
+name: "Figure 43_1"
+location: Data from Figure 43 (omega-meson)
+description: The pT distributions of the omega- and phi-meson invariant yields from $\sqrt{s_{{NN}}}$ = 200 GeV Au + Au minimumbias collisions. The solid black and blue lines are from the TBW functions as described in Sec. III G.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg43_1.yaml
+---
+additional_resources:
+- {description: Image file, location: fg43.eps}
+- {description: Thumbnail image file, location: fg43.png}
+name: "Figure 43_2"
+location: Data from Figure 43 (phi-meson)
+description: The pT distributions of the omega- and phi-meson invariant yields from $\sqrt{s_{{NN}}}$ = 200 GeV Au + Au minimumbias collisions. The solid black and blue lines are from the TBW functions as described in Sec. III G.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg43_2.yaml
+---
+additional_resources:
+- {description: Image file, location: fg46.eps}
+- {description: Thumbnail image file, location: fg46.png}
+name: "Figure 46"
+location: Data from Figure 46
+description: (Left) Unlike-sign/like-sign pair acceptance difference correction factor with the PHENIX phi acceptance (black stars) compared with the full acceptance (red circles). (Right) Dielectron pair mass distributions of the STAR data within the PHENIX phi acceptance; the inclusive unlike-sign distribution (black), the same-event like-sign distribution (blue), and the mixed-event unlike-sign (red), like-sign (magenta) distributions.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg46.yaml
+---
+additional_resources:
+- {description: Image file, location: fg47a.eps}
+- {description: Thumbnail image file, location: fg47a.png}
+name: "Figure 47A"
+location: Data from Figure 47 (Cocktail)
+description: (Left) Efficiency-corrected invariant-mass spectra (blue solid dots) calculated using the STAR data filtered with the PHENIX azimuthal angle acceptance. The data points are compared to cocktail simulations shown as curves and the bottom left panel shows the ratio of data to the cocktail sum. (Right) The same data points compared to theoretical model calculations of medium vector meson and QGP contributions from Ref. [52]. The bottom right panel shows the ratio of data to the sum of the cocktail and the theory calculations of medium contributions.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg47A.yaml
+---
+additional_resources:
+- {description: Image file, location: fg47b.eps}
+- {description: Thumbnail image file, location: fg47b.png}
+name: "Figure 47B"
+location: Data from Figure 47 (Sum (Rapp))
+description: (Left) Efficiency-corrected invariant-mass spectra (blue solid dots) calculated using the STAR data filtered with the PHENIX azimuthal angle acceptance. The data points are compared to cocktail simulations shown as curves and the bottom left panel shows the ratio of data to the cocktail sum. (Right) The same data points compared to theoretical model calculations of medium vector meson and QGP contributions from Ref. [52]. The bottom right panel shows the ratio of data to the sum of the cocktail and the theory calculations of medium contributions.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: reactions, values: [Au Au --> e+ e-]}
+  - {name: observables, values: ['$dN/dM_{ee}$']}
+  - {name: cmenergies, values: [200]} # centre-of-mass energy in GeV
+  - {name: phrases, values: [Dielectron Production]}
+data_file: fg47B.yaml
+---
+#additional_resources:
+#- {description: Image file, location: figFigure10B.png}
+#- {description: Thumbnail image file, location: thumb_figFigure10B.png}
+# End of YAML file.

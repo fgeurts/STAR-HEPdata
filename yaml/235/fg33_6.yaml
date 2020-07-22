@@ -1,0 +1,39 @@
+independent_variables:
+- header: {name: '$N_{part}$'}
+  values:
+  - {value: 3.25900E+02}
+  - {value: 1.72600E+02}
+  - {value: 4.15300E+01}
+dependent_variables:
+- header: {name: '$dN/dM_{ee} (signal)$'}
+  qualifiers:
+  - {name: '$N_{part}$', value: 'Signal ($M_{ee} 1.8-2.8 GeV/c^2$)'}
+  values:
+  - value: 3.04600E-04
+    errors:
+    - {symerror: 9.81200E-05, label: 'stat.'}
+    - {symerror: 6.77000E-05, label: 'syst.'}
+  - value: 2.23000E-04
+    errors:
+    - {symerror: 2.92200E-05, label: 'stat.'}
+    - {symerror: 3.62100E-05, label: 'syst.'}
+  - value: 3.70100E-05
+    errors:
+    - {symerror: 3.95800E-06, label: 'stat.'}
+    - {symerror: 7.89400E-06, label: 'syst.'}
+- header: {name: '$dN/dM_{ee} (cocktail)$'}
+  qualifiers:
+  - {name: '$N_{part}$', value: 'Cocktail ($M_{ee} 1.8-2.8 GeV/c^2$)'}
+  values:
+  - value: 4.43100E-04
+    errors:
+    - {symerror: 0.00000E+00, label: 'stat.'}
+    - {symerror: 1.81800E-01, label: 'syst.'}
+  - value: 1.81000E-04
+    errors:
+    - {symerror: 0.00000E+00, label: 'stat.'}
+    - {symerror: 1.81800E-01, label: 'syst.'}
+  - value: 2.71000E-05
+    errors:
+    - {symerror: 0.00000E+00, label: 'stat.'}
+    - {symerror: 1.81800E-01, label: 'syst.'}

@@ -1,0 +1,208 @@
+independent_variables:
+- header: {name: '$M{ee} (GeV/c^2)$'}
+  values:
+  - {low: 0, high: 0.01}
+  - {low: 0.01, high: 0.02}
+  - {low: 0.02, high: 0.03}
+  - {low: 0.03, high: 0.04}
+  - {low: 0.04, high: 0.05}
+  - {low: 0.05, high: 0.06}
+  - {low: 0.06, high: 0.07}
+  - {low: 0.07, high: 0.08}
+  - {low: 0.08, high: 0.09}
+  - {low: 0.09, high: 0.1}
+  - {low: 0.1, high: 0.11}
+  - {low: 0.11, high: 0.125}
+  - {low: 0.125, high: 0.15}
+  - {low: 0.15, high: 0.175}
+  - {low: 0.175, high: 0.25}
+  - {low: 0.25, high: 0.31}
+  - {low: 0.31, high: 0.44}
+  - {low: 0.44, high: 0.56}
+  - {low: 0.56, high: 0.66}
+  - {low: 0.66, high: 0.74}
+  - {low: 0.74, high: 0.78}
+  - {low: 0.78, high: 0.785}
+  - {low: 0.785, high: 0.875}
+  - {low: 0.875, high: 0.99}
+  - {low: 0.99, high: 1.01}
+  - {low: 1.0095, high: 1.0145}
+  - {low: 1.0145, high: 1.0295}
+  - {low: 1.0295, high: 1.0745}
+  - {low: 1.0745, high: 1.1995}
+  - {low: 1.2, high: 1.4}
+  - {low: 1.4, high: 1.66}
+  - {low: 1.66, high: 1.85}
+  - {low: 1.8495, high: 2.0745}
+  - {low: 2.0745, high: 2.3995}
+  - {low: 2.4005, high: 2.6755}
+  - {low: 2.6755, high: 2.9405}
+  - {low: 2.9395, high: 3.0345}
+  - {low: 3.035, high: 3.055}
+  - {low: 3.0545, high: 3.0695}
+  - {low: 3.0695, high: 3.0745}
+  - {low: 3.0755, high: 3.0905}
+  - {low: 3.0895, high: 3.0945}
+  - {low: 3.0955, high: 3.1005}
+  - {low: 3.1, high: 3.12}
+  - {low: 3.1195, high: 3.1345}
+  - {low: 3.135, high: 3.225}
+  - {low: 3.2245, high: 3.3995}
+  - {low: 3.4, high: 3.85}
+dependent_variables:
+- header: {name: 'ratio'}
+  qualifiers:
+  - {name: '$M{ee} (GeV/c^2)$', value: 'Ratio ($p_T 1.0 - 1.5$)'}
+  values:
+  - value: 9.86600E-01
+  - value: 1.01600E+00
+  - value: 9.54900E-01
+  - value: 9.41400E-01
+  - value: 9.42800E-01
+  - value: 9.76900E-01
+  - value: 9.47500E-01
+  - value: 9.93000E-01
+  - value: 1.06900E+00
+  - value: 1.05900E+00
+  - value: 1.03800E+00
+  - value: 1.11700E+00
+  - value: 1.45400E+00
+  - value: 1.43300E+00
+  - value: 1.41500E+00
+  - value: 1.21000E+00
+  - value: 1.50500E+00
+  - value: 2.00500E+00
+  - value: 2.64200E+00
+  - value: 2.09200E+00
+  - value: 1.19000E+00
+  - value: 8.51600E-01
+  - value: 1.44600E+00
+  - value: 2.30300E+00
+  - value: 8.92000E-01
+  - value: 9.35700E-01
+  - value: 8.91400E-01
+  - value: 6.79200E-01
+  - value: 1.44400E+00
+  - value: 1.38500E+00
+  - value: 1.10100E+00
+  - value: 1.74400E+00
+  - value: 1.92900E+00
+  - value: 1.42100E+00
+  - value: 1.56300E+00
+  - value: 1.06900E+00
+  - value: 1.65100E+00
+  - value: 1.38700E+00
+  - value: 8.77300E-01
+  - value: 1.00400E+00
+  - value: 9.39100E-01
+  - value: 1.24800E+00
+  - value: 1.03600E+00
+  - value: 1.16500E+00
+  - value: 9.48500E-01
+  - value: 5.71200E-01
+  - value: 9.73600E-01
+  - value: 1.52900E+00
+- header: {name: 'ratio $R_{app}$'}
+  qualifiers:
+  - {name: '$M{ee} (GeV/c^2)$', value: 'Rapp Ratio ($p_T 1.0 - 1.5$)'}
+  values:
+  - value: 1.01500E+00
+  - value: 1.01200E+00
+  - value: 1.02100E+00
+  - value: 1.03100E+00
+  - value: 1.04400E+00
+  - value: 1.05200E+00
+  - value: 1.06800E+00
+  - value: 1.09600E+00
+  - value: 1.13800E+00
+  - value: 1.19600E+00
+  - value: 1.16200E+00
+  - value: 1.29600E+00
+  - value: 1.49400E+00
+  - value: 1.38800E+00
+  - value: 1.47700E+00
+  - value: 1.52000E+00
+  - value: 1.75000E+00
+  - value: 2.34000E+00
+  - value: 2.75400E+00
+  - value: 3.06600E+00
+  - value: 1.65000E+00
+  - value: 1.19900E+00
+  - value: 1.71400E+00
+  - value: 1.61000E+00
+  - value: 1.12900E+00
+  - value: 1.03800E+00
+  - value: 1.03700E+00
+  - value: 1.27200E+00
+  - value: 1.53900E+00
+  - value: 1.38400E+00
+  - value: 1.25600E+00
+  - value: 1.18600E+00
+  - value: 1.14100E+00
+  - value: 1.09800E+00
+  - value: 1.05900E+00
+  - value: 1.03000E+00
+  - value: 1.00900E+00
+  - value: 1.00200E+00
+  - value: 1.00100E+00
+  - value: 1.00100E+00
+  - value: 1.00100E+00
+  - value: 1.00100E+00
+  - value: 1.00100E+00
+  - value: 1.00100E+00
+  - value: 1.00100E+00
+  - value: 1.00500E+00
+  - value: 1.01800E+00
+  - value: 1.01000E+00
+- header: {name: 'ratio $PHSD$'}
+  qualifiers:
+  - {name: '$M{ee} (GeV/c^2)$', value: 'PHSD Ratio ($p_T 1.0 - 1.5$)'}
+  values:
+  - value: 1.00000E+00
+  - value: 1.00500E+00
+  - value: 1.00300E+00
+  - value: 1.00300E+00
+  - value: 1.00300E+00
+  - value: 1.00300E+00
+  - value: 1.00300E+00
+  - value: 1.00400E+00
+  - value: 1.00400E+00
+  - value: 1.00600E+00
+  - value: 1.00700E+00
+  - value: 1.01100E+00
+  - value: 1.01600E+00
+  - value: 1.01500E+00
+  - value: 1.01500E+00
+  - value: 1.01500E+00
+  - value: 1.34300E+00
+  - value: 1.66300E+00
+  - value: 2.86900E+00
+  - value: 4.01700E+00
+  - value: 2.20200E+00
+  - value: 1.29100E+00
+  - value: 2.36100E+00
+  - value: 1.55800E+00
+  - value: 1.06600E+00
+  - value: 1.01900E+00
+  - value: 1.01500E+00
+  - value: 1.13600E+00
+  - value: 1.26100E+00
+  - value: 1.15700E+00
+  - value: 1.14800E+00
+  - value: 1.13500E+00
+  - value: 1.13300E+00
+  - value: 1.12400E+00
+  - value: 1.11400E+00
+  - value: 1.08500E+00
+  - value: 1.03300E+00
+  - value: 1.01000E+00
+  - value: 1.00500E+00
+  - value: 1.00400E+00
+  - value: 1.00400E+00
+  - value: 1.00300E+00
+  - value: 1.00300E+00
+  - value: 1.00400E+00
+  - value: 1.00600E+00
+  - value: 1.02800E+00
+  - value: 1.11400E+00
+  - value: 1.10200E+00

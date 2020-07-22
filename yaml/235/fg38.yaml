@@ -1,0 +1,195 @@
+independent_variables:
+- header: {name: '$M_{ee}$'}
+  values:
+  - {value: 1.05000E+00}
+  - {value: 1.10000E+00}
+  - {value: 1.15000E+00}
+  - {value: 1.20000E+00}
+  - {value: 1.25000E+00}
+  - {value: 1.30000E+00}
+  - {value: 1.35000E+00}
+  - {value: 1.40000E+00}
+  - {value: 1.45000E+00}
+  - {value: 1.50000E+00}
+  - {value: 1.55000E+00}
+  - {value: 1.60000E+00}
+  - {value: 1.65000E+00}
+  - {value: 1.70000E+00}
+  - {value: 1.75000E+00}
+  - {value: 1.80000E+00}
+  - {value: 1.85000E+00}
+  - {value: 1.90000E+00}
+  - {value: 1.95000E+00}
+  - {value: 2.00000E+00}
+  - {value: 2.05000E+00}
+  - {value: 2.10000E+00}
+  - {value: 2.15000E+00}
+  - {value: 2.20000E+00}
+  - {value: 2.25000E+00}
+  - {value: 2.30000E+00}
+  - {value: 2.35000E+00}
+  - {value: 2.40000E+00}
+  - {value: 2.45000E+00}
+  - {value: 2.50000E+00}
+  - {value: 2.55000E+00}
+  - {value: 2.60000E+00}
+  - {value: 2.65000E+00}
+  - {value: 2.70000E+00}
+  - {value: 2.75000E+00}
+dependent_variables:
+- header: {name: '$T_{eff} (GeV) (a)$'}
+  qualifiers:
+  - {name: '$M_{ee}$', value: '$T_{eff} (GeV)$ (a) PYTHIA'}
+  values:
+  - value: 1.96900E-01
+  - value: 1.96100E-01
+  - value: 1.95500E-01
+  - value: 1.94700E-01
+  - value: 1.93700E-01
+  - value: 1.92800E-01
+  - value: 1.91800E-01
+  - value: 1.90800E-01
+  - value: 1.89700E-01
+  - value: 1.88600E-01
+  - value: 1.87600E-01
+  - value: 1.86500E-01
+  - value: 1.85500E-01
+  - value: 1.84300E-01
+  - value: 1.83000E-01
+  - value: 1.82000E-01
+  - value: 1.80500E-01
+  - value: 1.78900E-01
+  - value: 1.77600E-01
+  - value: 1.76500E-01
+  - value: 1.75400E-01
+  - value: 1.73900E-01
+  - value: 1.73200E-01
+  - value: 1.71300E-01
+  - value: 1.70800E-01
+  - value: 1.68700E-01
+  - value: 1.67500E-01
+  - value: 1.66300E-01
+  - value: 1.65500E-01
+  - value: 1.63600E-01
+  - value: 1.63000E-01
+  - value: 1.61200E-01
+  - value: 1.60800E-01
+  - value: 1.59700E-01
+  - value: 1.57900E-01
+- header: {name: '$T_{eff} (GeV) (b)$'}
+  qualifiers:
+  - {name: '$M_{ee}$', value: '$T_{eff} (GeV)$ (b) PYTHIA with decorrelated $\Delta\phi$'}
+  values:
+  - value: 1.88100E-01
+  - value: 1.87000E-01
+  - value: 1.86200E-01
+  - value: 1.85200E-01
+  - value: 1.84000E-01
+  - value: 1.82800E-01
+  - value: 1.81700E-01
+  - value: 1.80300E-01
+  - value: 1.79200E-01
+  - value: 1.78100E-01
+  - value: 1.76900E-01
+  - value: 1.75700E-01
+  - value: 1.74100E-01
+  - value: 1.73000E-01
+  - value: 1.71700E-01
+  - value: 1.70100E-01
+  - value: 1.68500E-01
+  - value: 1.67000E-01
+  - value: 1.65900E-01
+  - value: 1.64900E-01
+  - value: 1.63400E-01
+  - value: 1.62400E-01
+  - value: 1.60800E-01
+  - value: 1.59400E-01
+  - value: 1.57400E-01
+  - value: 1.56400E-01
+  - value: 1.55000E-01
+  - value: 1.53900E-01
+  - value: 1.53100E-01
+  - value: 1.51400E-01
+  - value: 1.50700E-01
+  - value: 1.49300E-01
+  - value: 1.48100E-01
+  - value: 1.46000E-01
+  - value: 1.45600E-01
+- header: {name: '$T_{eff} (GeV) (c)$'}
+  qualifiers:
+  - {name: '$M_{ee}$', value: '$T_{eff} (GeV)$ (c) random ee (PYTHIA e $p_T$)'}
+  values:
+  - value: 1.85400E-01
+  - value: 1.84000E-01
+  - value: 1.82700E-01
+  - value: 1.81600E-01
+  - value: 1.80300E-01
+  - value: 1.79000E-01
+  - value: 1.77800E-01
+  - value: 1.76500E-01
+  - value: 1.75100E-01
+  - value: 1.74300E-01
+  - value: 1.72800E-01
+  - value: 1.71700E-01
+  - value: 1.70500E-01
+  - value: 1.69200E-01
+  - value: 1.67900E-01
+  - value: 1.66600E-01
+  - value: 1.65500E-01
+  - value: 1.64300E-01
+  - value: 1.63200E-01
+  - value: 1.61600E-01
+  - value: 1.60400E-01
+  - value: 1.59500E-01
+  - value: 1.58500E-01
+  - value: 1.57100E-01
+  - value: 1.56100E-01
+  - value: 1.55400E-01
+  - value: 1.53600E-01
+  - value: 1.52600E-01
+  - value: 1.51500E-01
+  - value: 1.50600E-01
+  - value: 1.49100E-01
+  - value: 1.48200E-01
+  - value: 1.47500E-01
+  - value: 1.45700E-01
+  - value: 1.44900E-01
+- header: {name: '$T_{eff} (GeV) (d)$'}
+  qualifiers:
+  - {name: '$M_{ee}$', value: '$T_{eff} (GeV)$ (d) random ee (PYTHIA e $p_T$ with NPE $R_{AA}$)'}
+  values:
+  - value: 2.01000E-01
+  - value: 1.99900E-01
+  - value: 1.99100E-01
+  - value: 1.98200E-01
+  - value: 1.97200E-01
+  - value: 1.96100E-01
+  - value: 1.95200E-01
+  - value: 1.94000E-01
+  - value: 1.93000E-01
+  - value: 1.92200E-01
+  - value: 1.91100E-01
+  - value: 1.90100E-01
+  - value: 1.89000E-01
+  - value: 1.88100E-01
+  - value: 1.87100E-01
+  - value: 1.86100E-01
+  - value: 1.84900E-01
+  - value: 1.84300E-01
+  - value: 1.83200E-01
+  - value: 1.82300E-01
+  - value: 1.81200E-01
+  - value: 1.80300E-01
+  - value: 1.79500E-01
+  - value: 1.78700E-01
+  - value: 1.77300E-01
+  - value: 1.76800E-01
+  - value: 1.75000E-01
+  - value: 1.75300E-01
+  - value: 1.73800E-01
+  - value: 1.73300E-01
+  - value: 1.71900E-01
+  - value: 1.70800E-01
+  - value: 1.70500E-01
+  - value: 1.69600E-01
+  - value: 1.69500E-01
