@@ -5,8 +5,10 @@ additional_resources:
   - {location: "https://arxiv.org/abs/1812.10224", description: arXiv}
 ---
 additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig22.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig22.png", description: Image file}
 - {location: fig22.png, description: Image file}
-- {location: fig22.png, description: Thumbnail Image file}
+- {location: thumb_fig22.png, description: Thumbnail Image file}
 name: "$D^0$ spectra in AuAu collisions"
 description: '$D^0$ spectra in AuAu collisions'
 keywords:
@@ -22,8 +24,10 @@ keywords:
 data_file: spectra pp.yaml
 ---
 additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig24.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig24.png", description: Image file}
 - {location: fig24.png, description: Image file}
-- {location: fig24.png, description: Thumbnail Image file}
+- {location: thumb_fig24.png, description: Thumbnail Image file}
 name: "X-section in AuAu collisions"
 description: 'X-section in AuAu collisions'
 keywords:
@@ -32,8 +36,10 @@ keywords:
 data_file: Fig24_X-section in AuAu collisions.yaml
 ---
 additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig24.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig24.png", description: Image file}
 - {location: fig24.png, description: Image file}
-- {location: fig24.png, description: Thumbnail Image file}
+- {location: thumb_fig24.png, description: Thumbnail Image file}
 name: "X-section in pp collisions"
 description: 'X-section in pp collisions'
 keywords:
@@ -42,8 +48,10 @@ keywords:
 data_file: Fig24_X-section in pp collisions.yaml
 ---
 additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig31.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig31.png", description: Image file}
 - {location: fig31.png, description: Image file}
-- {location: fig31.png, description: Thumbnail Image file}
+- {location: thumb_fig31.png, description: Thumbnail Image file}
 name: "$R_{AA}$"
 description: '$R_{AA}$ $D^0$ in AuAu collisions'
 keywords:
@@ -52,8 +60,10 @@ keywords:
 data_file: Fig31_raa.yaml
 ---
 additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig33.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig33.png", description: Image file}
 - {location: fig33.png, description: Image file}
-- {location: fig33.png, description: Thumbnail Image file}
+- {location: thumb_fig33.png, description: Thumbnail Image file}
 name: "$D^0$ and $D^0bar$ spectra"
 description: '$D^0$ and $\bar{D}^0$ spectra in AuAu collisions'
 keywords:
@@ -62,8 +72,10 @@ keywords:
 data_file: Fig33_D0 and D0bar spectra.yaml
 ---
 additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig34.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig34.png", description: Image file}
 - {location: fig34.png, description: Image file}
-- {location: fig34.png, description: Thumbnail Image file}
+- {location: thumb_fig34.png, description: Thumbnail Image file}
 name: "$D^0bar$/$D^0$ Ratio"
 description: '$\bar{D}^0$/$D^0$ Ratio in AuAu collisions'
 keywords:
@@ -72,8 +84,10 @@ keywords:
 data_file: Fig34_D0barD0 Ratio.yaml
 ---
 additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig35.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig35.png", description: Image file}
 - {location: fig35.png, description: Image file}
-- {location: fig35.png, description: Thumbnail Image file}
+- {location: thumb_fig35.png, description: Thumbnail Image file}
 name: "$R_{CP}$ (60-80%)"
 description: '$R_{CP}$ $D^0$ in AuAu collisions (with 60-80% as reference)'
 keywords:
@@ -82,8 +96,10 @@ keywords:
 data_file: Fig35_rcp6080.yaml
 ---
 additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig36.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig36.png", description: Image file}
 - {location: fig36.png, description: Image file}
-- {location: fig36.png, description: Thumbnail Image file}
+- {location: thumb_fig36.png, description: Thumbnail Image file}
 name: "$R_{CP}$ (40-60%)"
 description: '$R_{CP}$ $D^0$ in AuAu collisions (with 40-60% as reference)'
 keywords:
@@ -99,8 +115,10 @@ keywords:
 data_file: BW fit parameters for D0.yaml
 ---
 additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig25.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig25.png", description: Image file}
 - {location: fig25.png, description: Image file}
-- {location: fig25.png, description: Thumbnail Image file}
+- {location: thumb_fig25.png, description: Thumbnail Image file}
 name: "$D^0$ spectra $m_T - m_0$ AuAu"
 description: '$D^0$ spectra in AuAu collisions'
 keywords:
