@@ -1,0 +1,159 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 0.001, high: 0.485}
+  - {low: 0.485, high: 0.971}
+  - {low: 0.971, high: 1.469}
+  - {low: 1.469, high: 1.951}
+  - {low: 1.951, high: 2.469}
+  - {low: 2.469, high: 2.951}
+  - {low: 2.951, high: 3.769}
+  - {low: 3.769, high: 4.951}
+  - {low: 4.951, high: 5.789}
+  - {low: 5.789, high: 7.391}
+  - {low: 7.391, high: 9.889}
+dependent_variables:
+- header: {name: '$R_{CP}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$D^0$ in 0-10% Au+Au collisions (with 40-60% as reference)'}
+  values:
+  - value: 1.04e+00
+    errors:
+    - {symerror: 2.64e-01, label: 'Stat error'}
+    - {symerror: 2.17e-01, label: 'Sys error'}
+  - value: 1.09e+00
+    errors:
+    - {symerror: 8.79e-02, label: 'Stat error'}
+    - {symerror: 1.46e-01, label: 'Sys error'}
+  - value: 1.04e+00
+    errors:
+    - {symerror: 4.37e-02, label: 'Stat error'}
+    - {symerror: 1.66e-01, label: 'Sys error'}
+  - value: 1.07e+00
+    errors:
+    - {symerror: 3.49e-02, label: 'Stat error'}
+    - {symerror: 1.50e-01, label: 'Sys error'}
+  - value: 9.97e-01
+    errors:
+    - {symerror: 3.11e-02, label: 'Stat error'}
+    - {symerror: 1.21e-01, label: 'Sys error'}
+  - value: 9.33e-01
+    errors:
+    - {symerror: 3.09e-02, label: 'Stat error'}
+    - {symerror: 1.26e-01, label: 'Sys error'}
+  - value: 7.30e-01
+    errors:
+    - {symerror: 2.30e-02, label: 'Stat error'}
+    - {symerror: 7.98e-02, label: 'Sys error'}
+  - value: 6.00e-01
+    errors:
+    - {symerror: 3.20e-02, label: 'Stat error'}
+    - {symerror: 7.29e-02, label: 'Sys error'}
+  - value: 4.82e-01
+    errors:
+    - {symerror: 4.50e-02, label: 'Stat error'}
+    - {symerror: 7.88e-02, label: 'Sys error'}
+  - value: 3.93e-01
+    errors:
+    - {symerror: 5.40e-02, label: 'Stat error'}
+    - {symerror: 5.22e-02, label: 'Sys error'}
+  - value: 2.45e-01
+    errors:
+    - {symerror: 9.61e-02, label: 'Stat error'}
+    - {symerror: 8.65e-02, label: 'Sys error'}
+- header: {name: '$R_{CP}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$D^0$ in 10-20% Au+Au collisions (with 40-60% as reference)'}
+  values:
+  - value: 1.06e+00
+    errors:
+    - {symerror: 1.99e-01, label: 'Stat error'}
+    - {symerror: 3.58e-01, label: 'Sys error'}
+  - value: 1.16e+00
+    errors:
+    - {symerror: 9.22e-02, label: 'Stat error'}
+    - {symerror: 2.04e-01, label: 'Sys error'}
+  - value: 1.06e+00
+    errors:
+    - {symerror: 4.45e-02, label: 'Stat error'}
+    - {symerror: 1.05e-01, label: 'Sys error'}
+  - value: 1.01e+00
+    errors:
+    - {symerror: 3.31e-02, label: 'Stat error'}
+    - {symerror: 9.48e-02, label: 'Sys error'}
+  - value: 9.93e-01
+    errors:
+    - {symerror: 3.07e-02, label: 'Stat error'}
+    - {symerror: 8.11e-02, label: 'Sys error'}
+  - value: 9.84e-01
+    errors:
+    - {symerror: 3.18e-02, label: 'Stat error'}
+    - {symerror: 8.33e-02, label: 'Sys error'}
+  - value: 7.50e-01
+    errors:
+    - {symerror: 2.31e-02, label: 'Stat error'}
+    - {symerror: 7.17e-02, label: 'Sys error'}
+  - value: 7.05e-01
+    errors:
+    - {symerror: 3.59e-02, label: 'Stat error'}
+    - {symerror: 6.74e-02, label: 'Sys error'}
+  - value: 6.12e-01
+    errors:
+    - {symerror: 5.43e-02, label: 'Stat error'}
+    - {symerror: 6.80e-02, label: 'Sys error'}
+  - value: 5.44e-01
+    errors:
+    - {symerror: 6.77e-02, label: 'Stat error'}
+    - {symerror: 8.90e-02, label: 'Sys error'}
+  - value: 3.52e-01
+    errors:
+    - {symerror: 1.39e-01, label: 'Stat error'}
+    - {symerror: 1.05e-01, label: 'Sys error'}
+- header: {name: '$R_{CP}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$D^0$ in 20-40% Au+Au collisions (with 40-60% as reference)'}
+  values:
+  - value: 1.19e+00
+    errors:
+    - {symerror: 1.92e-01, label: 'Stat error'}
+    - {symerror: 2.91e-01, label: 'Sys error'}
+  - value: 1.05e+00
+    errors:
+    - {symerror: 7.13e-02, label: 'Stat error'}
+    - {symerror: 1.57e-01, label: 'Sys error'}
+  - value: 1.12e+00
+    errors:
+    - {symerror: 4.03e-02, label: 'Stat error'}
+    - {symerror: 1.29e-01, label: 'Sys error'}
+  - value: 1.12e+00
+    errors:
+    - {symerror: 3.26e-02, label: 'Stat error'}
+    - {symerror: 1.08e-01, label: 'Sys error'}
+  - value: 1.04e+00
+    errors:
+    - {symerror: 2.93e-02, label: 'Stat error'}
+    - {symerror: 9.06e-02, label: 'Sys error'}
+  - value: 1.06e+00
+    errors:
+    - {symerror: 3.28e-02, label: 'Stat error'}
+    - {symerror: 8.55e-02, label: 'Sys error'}
+  - value: 8.76e-01
+    errors:
+    - {symerror: 2.48e-02, label: 'Stat error'}
+    - {symerror: 6.54e-02, label: 'Sys error'}
+  - value: 8.15e-01
+    errors:
+    - {symerror: 3.84e-02, label: 'Stat error'}
+    - {symerror: 9.11e-02, label: 'Sys error'}
+  - value: 8.27e-01
+    errors:
+    - {symerror: 6.52e-02, label: 'Stat error'}
+    - {symerror: 1.28e-01, label: 'Sys error'}
+  - value: 6.58e-01
+    errors:
+    - {symerror: 7.68e-02, label: 'Stat error'}
+    - {symerror: 9.78e-02, label: 'Sys error'}
+  - value: 5.44e-01
+    errors:
+    - {symerror: 1.64e-01, label: 'Stat error'}
+    - {symerror: 1.56e-01, label: 'Sys error'}

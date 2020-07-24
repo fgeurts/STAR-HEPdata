@@ -1,0 +1,18 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {value: 0}
+  - {value: 4}
+dependent_variables:
+- header: {name: 'X-section'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Xsec $p_T > 0.0$ GeV/c and $p_T > 4.0$ GeV/c in pp'}
+  values:
+  - value: 79.26
+    errors:
+    - {symerror: 18.42, label: 'Stat error'}
+    - {symerror: 13.96, label: 'Sys error'}
+  - value: 0.538
+    errors:
+    - {symerror: 0.124, label: 'Stat error'}
+    - {symerror: 0.0517, label: 'Sys error'}

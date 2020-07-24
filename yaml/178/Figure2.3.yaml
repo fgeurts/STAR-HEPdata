@@ -1,0 +1,48 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 6.00, high: 7.00}
+  - {low: 7.00, high: 8.00}
+  - {low: 8.00, high: 10.00}
+  - {low: 10.00, high: 12.00}
+dependent_variables:
+- header: {name: 'Yield Ratio'}
+  qualifiers:
+  - {name: '$p_T$', value: '$p/\pi^+$ Ratio in $0-12\%$ Au+Au collisions at 200 GeV'}
+  values:
+  - value: 0.494
+    errors:
+    - {symerror: 0.0287, label: 'Stat error'}
+    - {asymerror: {plus: 0.171, minus: 0.111}, label: 'Sys error'}
+  - value: 0.412
+    errors:
+    - {symerror: 0.0437, label: 'Stat error'}
+    - {asymerror: {plus: 0.183, minus: 0.0937}, label: 'Sys error'}
+  - value: 0.381
+    errors:
+    - {symerror: 0.0446, label: 'Stat error'}
+    - {asymerror: {plus: 0.168, minus: 0.0849}, label: 'Sys error'}
+  - value: 0.489
+    errors:
+    - {symerror: 0.122, label: 'Stat error'}
+    - {asymerror: {plus: 0.280, minus: 0.210}, label: 'Sys error'}
+- header: {name: 'Yield Ratio'}
+  qualifiers:
+  - {name: '$p_T$', value: '$\bar{p}/\pi^-$ Ratio in $0-12%$ Au+Au collisions at 200 GeV'}
+  values:
+  - value: 0.339
+    errors:
+    - {symerror: 0.0237, label: 'Stat error'}
+    - {asymerror: {plus: 0.123, minus: 0.0237}, label: 'Sys error'}
+  - value: 0.275
+    errors:
+    - {symerror: 0.0337, label: 'Stat error'}
+    - {asymerror: {plus: 0.125, minus: 0.0626}, label: 'Sys error'}
+  - value: 0.231
+    errors:
+    - {symerror: 0.0339, label: 'Stat error'}
+    - {asymerror: {plus: 0.104, minus: 0.0516}, label: 'Sys error'}
+  - value: 0.259
+    errors:
+    - {symerror: 0.0794, label: 'Stat error'}
+    - {asymerror: {plus: 0.150, minus: 0.111}, label: 'Sys error'}

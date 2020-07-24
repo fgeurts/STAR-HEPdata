@@ -1,0 +1,12 @@
+independent_variables:
+- header: {name: 'Mass'}
+  values:
+  - {value: 3.10e+00}
+dependent_variables:
+- header: {name: 'Teff'}
+  qualifiers:
+  - {name: 'Mass', value: '$J/\psi$'}
+  values:
+  - value: 4.24e-01
+    errors:
+    - {symerror: 3.48e-02, label: 'Teff Err.'}

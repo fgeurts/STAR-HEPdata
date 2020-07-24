@@ -1,0 +1,52 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 3.00, high: 3.25}
+  - {low: 3.25, high: 3.50}
+  - {low: 3.50, high: 3.75}
+  - {low: 3.75, high: 4.00}
+  - {low: 4.00, high: 4.50}
+  - {low: 4.50, high: 5.00}
+  - {low: 5.00, high: 5.50}
+  - {low: 5.50, high: 6.00}
+  - {low: 6.00, high: 7.00}
+  - {low: 7.00, high: 8.00}
+  - {low: 8.00, high: 9.00}
+dependent_variables:
+- header: {name: 'Yield'}
+  qualifiers:
+  - {name: '$p_T$', value: '$K^0_S$ in central Au+Au $0-12\%$ collisions at 200 GeV'}
+  values:
+  - value: 5.56e-03
+    errors:
+    - {symerror: 7.71e-05, label: 'Stat+Sys error'}
+  - value: 2.91e-03
+    errors:
+    - {symerror: 4.26e-05, label: 'Stat+Sys error'}
+  - value: 1.59e-03
+    errors:
+    - {symerror: 2.50e-05, label: 'Stat+Sys error'}
+  - value: 8.89e-04
+    errors:
+    - {symerror: 1.55e-05, label: 'Stat+Sys error'}
+  - value: 3.93e-04
+    errors:
+    - {symerror: 4.51e-06, label: 'Stat+Sys error'}
+  - value: 1.45e-04
+    errors:
+    - {symerror: 2.26e-06, label: 'Stat+Sys error'}
+  - value: 5.73e-05
+    errors:
+    - {symerror: 1.26e-06, label: 'Stat+Sys error'}
+  - value: 2.50e-05
+    errors:
+    - {symerror: 7.64e-07, label: 'Stat+Sys error'}
+  - value: 9.25e-06
+    errors:
+    - {symerror: 2.96e-07, label: 'Stat+Sys error'}
+  - value: 2.23e-06
+    errors:
+    - {symerror: 1.44e-07, label: 'Stat+Sys error'}
+  - value: 7.21e-07
+    errors:
+    - {symerror: 7.87e-08, label: 'Stat+Sys error'}

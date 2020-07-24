@@ -1,0 +1,197 @@
+comment: BNL-RHIC. We report transverse momentum ($p_T \leq 15$ GeV/c) spectra of $\pi^{\pm}$, $K^{\pm}$ and $p$, $\bar{p}$, $K^0_S$, and $\rho^0$ at mid-rapidity in p+p and Au+Au collisions at $\sqrt{s_{NN}} = 200$ GeV. Perturbative QCD calculations are consistent with $\pi^{\pm}$ spectra in p+p collisions but do not reproduce $K$ and $p$($\bar{p}$) spectra. The observed decreasing antiparticle-to-particle ratios with increasing $p_T$ provide experimental evidence for varying quark and gluon jet contributions to high-$p_T$ hadron yields. The relative hadron abundances in Au+Au at $p_T > 8$ GeV/c are measured to be similar to the p+p results, despite the expected Casimir effect for parton energy loss.
+additional_resources:
+ - {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/data.html", description: "web page with data points"}
+ - {location: "https://drupal.star.bnl.gov/STAR/publications/identified-hadron-compositions-pp-and-auau-collisions-high-transverse-momenta-sqrtsnn-200-gev", description: Webpage with all figures}
+ - {location: "https://arxiv.org/abs/1110.0579", description: arXiv}
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig1.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig1.png", description: Image file}
+- {location: fig1.png, description: Image file}
+- {location: thumb_fig1.png, description: Thumbnail Image file}
+name: "Figure 1.1: Invariant yield vs $p_T$ in p+p collisions."
+description: 'Invariant yields in p+p collisions at 200 GeV'
+keywords:
+ - {name: reactions, values: [p p --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+data_file: Figure1.1.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig1.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig1.png", description: Image file}
+- {location: fig1.png, description: Image file}
+- {location: thumb_fig1.png, description: Thumbnail Image file}
+name: "Figure 1.2: Invariant yield vs $p_T$ in p+p collisions."
+description: '$K^0_S$ yields in p+p collisions at 200 GeV'
+keywords:
+ - {name: reactions, values: [p p --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+data_file: Figure1.2.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig1.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig1.png", description: Image file}
+- {location: fig1.png, description: Image file}
+- {location: thumb_fig1.png, description: Thumbnail Image file}
+name: "Figure 1.3: Invariant yield vs $p_T$ in p+p collisions."
+description: '$\rho^0$ yields in p+p collisions at 200 GeV'
+keywords:
+ - {name: reactions, values: [p p --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+data_file: Figure1.3.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig1.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig1.png", description: Image file}
+- {location: fig1.png, description: Image file}
+- {location: thumb_fig1.png, description: Thumbnail Image file}
+name: "Figure 1.4: Invariant yield vs $p_T$ in Au+Au (0-12%) collisions"
+description: 'Invariant yield in Au+Au ($0-12\%$) collisions at 200 GeV.'
+keywords:
+ - {name: reactions, values: [ AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+data_file: Figure1.4.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig1.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig1.png", description: Image file}
+- {location: fig1.png, description: Image file}
+- {location: thumb_fig1.png, description: Thumbnail Image file}
+name: "Figure 1.5: Invariant yield vs $p_T$ in Au+Au (0-12%) collisions"
+description: '$\rho^0$ in Au+Au ($0-12\%$) collisions at 200 GeV'
+keywords:
+ - {name: reactions, values: [ AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+data_file: Figure1.5.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig1.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig1.png", description: Image file}
+- {location: fig1.png, description: Image file}
+- {location: thumb_fig1.png, description: Thumbnail Image file}
+name: "Figure 1.6: Invariant yield vs $p_T$ in Au+Au (0-12%) collisions"
+description: '$K^0_S$ in Au+Au ($0-12\%$) collisions at 200 GeV'
+keywords:
+ - {name: reactions, values: [ AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+data_file: Figure1.6.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig2.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig2.png", description: Image file}
+- {location: fig2.png, description: Image file}
+- {location: thumb_fig2.png, description: Thumbnail Image file}
+name: "Figure 2.1: Particle ratios vs $p_T$ in p+p collisions."
+description: 'Yield Ratio in p+p collisions at 200 GeV'
+keywords:
+ - {name: reactions, values: [p p --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+data_file: Figure2.1.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig2.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig2.png", description: Image file}
+- {location: fig2.png, description: Image file}
+- {location: thumb_fig2.png, description: Thumbnail Image file}
+name: "Figure 2.2: Particle ratios vs $p_T$ in p+p collisions."
+description: '$K^0_S/\pi^{\pm}$ Ratio in p+p collisions at 200 GeV'
+keywords:
+ - {name: reactions, values: [p p --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+data_file: Figure2.2.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig2.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig2.png", description: Image file}
+- {location: fig2.png, description: Image file}
+- {location: thumb_fig2.png, description: Thumbnail Image file}
+name: "Figure 2.3: Particle ratios vs $p_T$ in Au+Au collisions."
+description: 'Yield Ratio in $0-12\%$ Au+Au collisions at 200 GeV'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+data_file: Figure2.3.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig3.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig3.png", description: Image file}
+- {location: fig3.png, description: Image file}
+- {location: thumb_fig3.png, description: Thumbnail Image file}
+name: "Figure3.1: RAA vs $p_T$ in 0-12% Au+Au collisions."
+description: '$\pi^{\pm}$ in Au+Au $0-12\%$ collisions at 200 GeV'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+data_file: Figure3.1.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig3.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig3.png", description: Image file}
+- {location: fig3.png, description: Image file}
+- {location: thumb_fig3.png, description: Thumbnail Image file}
+name: "Figure3.2: RAA vs $p_T$ in 0-12% Au+Au collisions."
+description: '$K^{\pm}+p(\bar{p})$ in Au+Au $0-12\%$ collisions at 200 GeV'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+data_file: Figure3.2.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig3.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig3.png", description: Image file}
+- {location: fig3.png, description: Image file}
+- {location: thumb_fig3.png, description: Thumbnail Image file}
+name: "Figure3.3: RAA vs $p_T$ in 0-12% Au+Au collisions."
+description: '$K^0_S$ in Au+Au $0-12\%$ collisions at 200 GeV'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+data_file: Figure3.3.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig3.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig3.png", description: Image file}
+- {location: fig3.png, description: Image file}
+- {location: thumb_fig3.png, description: Thumbnail Image file}
+name: "Figure3.4: RAA vs $p_T$ in 0-12% Au+Au collisions."
+description: '$\rho^0$ in Au+Au $0-12\%$ collisions at 200 GeV'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+data_file: Figure3.4.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig3.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig3.png", description: Image file}
+- {location: fig3.png, description: Image file}
+- {location: thumb_fig3.png, description: Thumbnail Image file}
+name: "Figure3.5: Double ratio vs $p_T$ in 0-12% Au+Au collisions."
+description: '$R_{AA} K^{\pm} + p(\bar{p}) /R_{AA} \pi^{\pm}$ in Au+Au $0-12\%$ collisions at 200 GeV'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+data_file: Figure3.5.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig3.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig3.png", description: Image file}
+- {location: fig3.png, description: Image file}
+- {location: thumb_fig3.png, description: Thumbnail Image file}
+name: "Figure3.6: Double ratio vs $p_T$ in 0-12% Au+Au collisions."
+description: '$R_{AA} K^- + (\bar{p}) /R_{AA} K^+ +p$ in Au+Au $0-12\%$ collisions at 200 GeV'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+data_file: Figure3.6.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig3.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/178/fig3.png", description: Image file}
+- {location: fig3.png, description: Image file}
+- {location: thumb_fig3.png, description: Thumbnail Image file}
+name: "Figure3.7: Double ratio vs $p_T$ in 0-12% Au+Au collisions."
+description: '$R_{AA} \rho^0 /R_{AA} \pi^{\pm}$ in Au+Au $0-12\%$ collisions at 200 GeV'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+data_file: Figure3.7.yaml
