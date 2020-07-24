@@ -10,7 +10,7 @@ additional_resources:
 - {location: fig1.png, description: Image file}
 - {location: thumb_fig1.png, description: Thumbnail Image file}
 name: "Figure 1.1: Invariant yield vs $p_T$ in p+p collisions."
-description: 'Invariant yields in p+p collisions at 200 GeV'
+description: 'The invariant yields $d^2N/(2\pi p_T dp_T dy)$ of $\pi^{\pm}$, $K^{\pm}$, $p$, and $\bar{p}$ from non-singly diffractive p+p collisions ($\sigma_{NSD} = 30.0 \pm 3.5$ mb), and NLO calculations with AKK [9] and DSS [10] FF. The uncertainty of yields due to the scale dependence as evaluated in [10] is about a factor of 2. Bars and boxes (bands) represent statistical and systematic uncertainties, respectively.'
 keywords:
  - {name: reactions, values: [p p --> CHARGED X]}
  - {name: cmenergies, values: [200.0]}
@@ -22,7 +22,7 @@ additional_resources:
 - {location: fig1.png, description: Image file}
 - {location: thumb_fig1.png, description: Thumbnail Image file}
 name: "Figure 1.2: Invariant yield vs $p_T$ in p+p collisions."
-description: '$K^0_S$ yields in p+p collisions at 200 GeV'
+description: 'The invariant yields $d^2N/(2\pi p_T dp_T dy)$ of $K^0_S$ from non-singly diffractive p+p collisions ($\sigma_{NSD} = 30.0 \pm 3.5$ mb), and NLO calculations with AKK [9] and DSS [10] FF. The uncertainty of yields due to the scale dependence as evaluated in [10] is about a factor of 2. Bars and boxes (bands) represent statistical and systematic uncertainties, respectively.'
 keywords:
  - {name: reactions, values: [p p --> CHARGED X]}
  - {name: cmenergies, values: [200.0]}
@@ -34,7 +34,7 @@ additional_resources:
 - {location: fig1.png, description: Image file}
 - {location: thumb_fig1.png, description: Thumbnail Image file}
 name: "Figure 1.3: Invariant yield vs $p_T$ in p+p collisions."
-description: '$\rho^0$ yields in p+p collisions at 200 GeV'
+description: 'The invariant yields $d^2N/(2\pi p_T dp_T dy)$ of $\rho^0$ from non-singly diffractive p+p collisions ($\sigma_{NSD} = 30.0 \pm 3.5$ mb), and NLO calculations with AKK [9] and DSS [10] FF. The uncertainty of yields due to the scale dependence as evaluated in [10] is about a factor of 2. Bars and boxes (bands) represent statistical and systematic uncertainties, respectively.'
 keywords:
  - {name: reactions, values: [p p --> CHARGED X]}
  - {name: cmenergies, values: [200.0]}
@@ -46,7 +46,7 @@ additional_resources:
 - {location: fig1.png, description: Image file}
 - {location: thumb_fig1.png, description: Thumbnail Image file}
 name: "Figure 1.4: Invariant yield vs $p_T$ in Au+Au (0-12%) collisions"
-description: 'Invariant yield in Au+Au ($0-12\%$) collisions at 200 GeV.'
+description: 'The invariant yields $d^2N/(2\pi p_T dp_T dy)$ of $K + p(\bar{p})$ in central Au+Au collisions, and NLO calculations with AKK [9] and DSS [10] FF. The uncertainty of yields due to the scale dependence as evaluated in [10] is about a factor of 2. Bars and boxes (bands) represent statistical and systematic uncertainties, respectively.'
 keywords:
  - {name: reactions, values: [ AU AU --> CHARGED X]}
  - {name: cmenergies, values: [200.0]}
@@ -58,7 +58,7 @@ additional_resources:
 - {location: fig1.png, description: Image file}
 - {location: thumb_fig1.png, description: Thumbnail Image file}
 name: "Figure 1.5: Invariant yield vs $p_T$ in Au+Au (0-12%) collisions"
-description: '$\rho^0$ in Au+Au ($0-12\%$) collisions at 200 GeV'
+description: 'The invariant yields $d^2N/(2\pi p_T dp_T dy)$ of $\rho^0$ in central Au+Au collisions, and NLO calculations with AKK [9] and DSS [10] FF. The uncertainty of yields due to the scale dependence as evaluated in [10] is about a factor of 2. Bars and boxes (bands) represent statistical and systematic uncertainties, respectively.'
 keywords:
  - {name: reactions, values: [ AU AU --> CHARGED X]}
  - {name: cmenergies, values: [200.0]}
@@ -70,7 +70,7 @@ additional_resources:
 - {location: fig1.png, description: Image file}
 - {location: thumb_fig1.png, description: Thumbnail Image file}
 name: "Figure 1.6: Invariant yield vs $p_T$ in Au+Au (0-12%) collisions"
-description: '$K^0_S$ in Au+Au ($0-12\%$) collisions at 200 GeV'
+description: 'The invariant yields $d^2N/(2\pi p_T dp_T dy)$ of $K^0_S$ in central Au+Au collisions, and NLO calculations with AKK [9] and DSS [10] FF. The uncertainty of yields due to the scale dependence as evaluated in [10] is about a factor of 2. Bars and boxes (bands) represent statistical and systematic uncertainties, respectively.'
 keywords:
  - {name: reactions, values: [ AU AU --> CHARGED X]}
  - {name: cmenergies, values: [200.0]}
@@ -82,7 +82,7 @@ additional_resources:
 - {location: fig2.png, description: Image file}
 - {location: thumb_fig2.png, description: Thumbnail Image file}
 name: "Figure 2.1: Particle ratios vs $p_T$ in p+p collisions."
-description: 'Yield Ratio in p+p collisions at 200 GeV'
+description: 'Yield ratios $\pi^−/\pi^+$, $\bar{p}/p$, $K^−/K^+$, $p/\pi^+$, $\bar{p}/\pi^−$, and ($K^{\pm}$ versus $p_T$ in p+p collisions, and nominal NLO calculations with AKK [9] and DSS [10] FFs without theoretical uncertainties. Bars and boxes (bands) represent statistical and systematic uncertainties, respectively.'
 keywords:
  - {name: reactions, values: [p p --> CHARGED X]}
  - {name: cmenergies, values: [200.0]}
@@ -94,7 +94,7 @@ additional_resources:
 - {location: fig2.png, description: Image file}
 - {location: thumb_fig2.png, description: Thumbnail Image file}
 name: "Figure 2.2: Particle ratios vs $p_T$ in p+p collisions."
-description: '$K^0_S/\pi^{\pm}$ Ratio in p+p collisions at 200 GeV'
+description: 'Yield ratio $K^0_S$)/$\pi^{\pm}$ versus $p_T$ in p+p collisions, and nominal NLO calculations with AKK [9] and DSS [10] FFs without theoretical uncertainties. Bars and boxes (bands) represent statistical and systematic uncertainties, respectively.'
 keywords:
  - {name: reactions, values: [p p --> CHARGED X]}
  - {name: cmenergies, values: [200.0]}
@@ -106,7 +106,7 @@ additional_resources:
 - {location: fig2.png, description: Image file}
 - {location: thumb_fig2.png, description: Thumbnail Image file}
 name: "Figure 2.3: Particle ratios vs $p_T$ in Au+Au collisions."
-description: 'Yield Ratio in $0-12\%$ Au+Au collisions at 200 GeV'
+description: 'Yield ratios $p/\pi^+$ and $\bar{p}/\pi^−$ versus $p_T$ in central Au+Au collisions [14] with updated uncertainties at high $p_T$. Bars and boxes (bands) represent statistical and systematic uncertainties, respectively.'
 keywords:
  - {name: reactions, values: [AU AU --> CHARGED X]}
  - {name: cmenergies, values: [200.0]}
@@ -118,7 +118,7 @@ additional_resources:
 - {location: fig3.png, description: Image file}
 - {location: thumb_fig3.png, description: Thumbnail Image file}
 name: "Figure3.1: RAA vs $p_T$ in 0-12% Au+Au collisions."
-description: '$\pi^{\pm}$ in Au+Au $0-12\%$ collisions at 200 GeV'
+description: '$R_{AA}$ of $\pi^{\pm} in central Au+Au collisions as a function of $p_T$. Bars and boxes (bands) represent statistical and systematic uncertainties, respectively. The height of the band at unity represents the normalization uncertainty.'
 keywords:
  - {name: reactions, values: [AU AU --> CHARGED X]}
  - {name: cmenergies, values: [200.0]}
@@ -130,7 +130,7 @@ additional_resources:
 - {location: fig3.png, description: Image file}
 - {location: thumb_fig3.png, description: Thumbnail Image file}
 name: "Figure3.2: RAA vs $p_T$ in 0-12% Au+Au collisions."
-description: '$K^{\pm}+p(\bar{p})$ in Au+Au $0-12\%$ collisions at 200 GeV'
+description: '$R_{AA}$ of $K^{\pm}+p(\bar{p})$ in central Au+Au collisions as a function of $p_T$. Bars and boxes (bands) represent statistical and systematic uncertainties, respectively. The height of the band at unity represents the normalization uncertainty.'
 keywords:
  - {name: reactions, values: [AU AU --> CHARGED X]}
  - {name: cmenergies, values: [200.0]}
@@ -142,7 +142,7 @@ additional_resources:
 - {location: fig3.png, description: Image file}
 - {location: thumb_fig3.png, description: Thumbnail Image file}
 name: "Figure3.3: RAA vs $p_T$ in 0-12% Au+Au collisions."
-description: '$K^0_S$ in Au+Au $0-12\%$ collisions at 200 GeV'
+description: '$R_{AA}$ of $K^0_S$ in central Au+Au collisions as a function of $p_T$. The curves are the calculations for $K^0_S$ $R_{AA}$ with and without jet conversion in medium [15]. Bars and boxes (bands) represent statistical and systematic uncertainties, respectively. The height of the band at unity represents the normalization uncertainty.'
 keywords:
  - {name: reactions, values: [AU AU --> CHARGED X]}
  - {name: cmenergies, values: [200.0]}
@@ -154,7 +154,7 @@ additional_resources:
 - {location: fig3.png, description: Image file}
 - {location: thumb_fig3.png, description: Thumbnail Image file}
 name: "Figure3.4: RAA vs $p_T$ in 0-12% Au+Au collisions."
-description: '$\rho^0$ in Au+Au $0-12\%$ collisions at 200 GeV'
+description: '$R_{AA}$ of $\rho^0$ in central Au+Au collisions as a function of $p_T$. Bars and boxes (bands) represent statistical and systematic uncertainties, respectively. The height of the band at unity represents the normalization uncertainty.'
 keywords:
  - {name: reactions, values: [AU AU --> CHARGED X]}
  - {name: cmenergies, values: [200.0]}
@@ -166,7 +166,7 @@ additional_resources:
 - {location: fig3.png, description: Image file}
 - {location: thumb_fig3.png, description: Thumbnail Image file}
 name: "Figure3.5: Double ratio vs $p_T$ in 0-12% Au+Au collisions."
-description: '$R_{AA} K^{\pm} + p(\bar{p}) /R_{AA} \pi^{\pm}$ in Au+Au $0-12\%$ collisions at 200 GeV'
+description: '$The ratios of $R_{AA}[K^{\pm} + p(\bar{p})]$ to $R_{AA}(\pi^{\pm})$. The boxes and shaded bands represent the systematic uncertainties for $R_{AA}[K^{\pm} +p(\bar{p})]/R_{AA}(\pi^{\pm})$, respectively.'
 keywords:
  - {name: reactions, values: [AU AU --> CHARGED X]}
  - {name: cmenergies, values: [200.0]}
@@ -178,7 +178,7 @@ additional_resources:
 - {location: fig3.png, description: Image file}
 - {location: thumb_fig3.png, description: Thumbnail Image file}
 name: "Figure3.6: Double ratio vs $p_T$ in 0-12% Au+Au collisions."
-description: '$R_{AA} K^- + (\bar{p}) /R_{AA} K^+ +p$ in Au+Au $0-12\%$ collisions at 200 GeV'
+description: '$The ratios of $R_{AA}(K^− + \bar{p})$ to $R_{AA}(K^+ p)$. The systematic uncertainties for $R_{AA}(K^− + \bar{p})/R_{AA}(K^+ +p)$ are 2–12% and left off for clarity.'
 keywords:
  - {name: reactions, values: [AU AU --> CHARGED X]}
  - {name: cmenergies, values: [200.0]}
@@ -190,7 +190,7 @@ additional_resources:
 - {location: fig3.png, description: Image file}
 - {location: thumb_fig3.png, description: Thumbnail Image file}
 name: "Figure3.7: Double ratio vs $p_T$ in 0-12% Au+Au collisions."
-description: '$R_{AA} \rho^0 /R_{AA} \pi^{\pm}$ in Au+Au $0-12\%$ collisions at 200 GeV'
+description: 'The ratios of $R_{AA}[\rho^0]$ to $R_{AA}(\pi^{\pm})$. The boxes and shaded bands represent the systematic uncertainties for $R_{AA}(\rho^0)/R_{AA}(\pi^{\pm})$, respectively.'
 keywords:
  - {name: reactions, values: [AU AU --> CHARGED X]}
  - {name: cmenergies, values: [200.0]}
