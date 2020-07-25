@@ -10,10 +10,11 @@ additional_resources:
 - {location: fig22.png, description: Image file}
 - {location: thumb_fig22.png, description: Thumbnail Image file}
 name: "$D^0$ spectra in AuAu collisions"
-description: '$D^0$ spectra in AuAu collisions'
+description: '$D^0$ invariant yield at mid-rapidity ($|y| < 1$) vs transverse momentum for different centrality classes. Error bars indicate statistical uncertainties and brackets depict systematic uncertainties. Global systematic uncertainties in B.R. are not plotted. Solid and dashed lines depict Levy function fits.'
 keywords:
   - {name: reactions, values: [AU AU --> NEUTRAL X]}
   - {name: cmenergies, values: [200.0]}
+location: Data from Figure 22
 data_file: Fig22-23_D0 spectra in AuAu collisions.yaml
 ---
 name: "$D^0$ spectra in pp collisions"
@@ -29,10 +30,11 @@ additional_resources:
 - {location: fig24.png, description: Image file}
 - {location: thumb_fig24.png, description: Thumbnail Image file}
 name: "X-section in AuAu collisions"
-description: 'X-section in AuAu collisions'
+description: 'Integrated $D^0$ cross section per nucleon-nucleon collision at mid-rapidity for $p_T >0$ (a) and $p_T >4$ GeV/c (b) as a function of centrality $N_{part}$. The statistical and systematic uncertainties are shown as error bars and brackets on the data points. The green boxes on the data points depict the overall normalization uncertainties in p+p and Au+Au data respectively.'
 keywords:
   - {name: reactions, values: [AU AU --> NEUTRAL X]}
   - {name: cmenergies, values: [200.0]}
+location: Data from Figure 24
 data_file: Fig24_X-section in AuAu collisions.yaml
 ---
 additional_resources:
@@ -41,10 +43,11 @@ additional_resources:
 - {location: fig24.png, description: Image file}
 - {location: thumb_fig24.png, description: Thumbnail Image file}
 name: "X-section in pp collisions"
-description: 'X-section in pp collisions'
+description: 'Integrated $D^0$ cross section per nucleon-nucleon collision at mid-rapidity for $p_T >0$ (a) and $p_T >4$ GeV/c (b) as a function of centrality $N_{part}$. The statistical and systematic uncertainties are shown as error bars and brackets on the data points. The green boxes on the data points depict the overall normalization uncertainties in p+p and Au+Au data respectively.'
 keywords:
   - {name: reactions, values: [AU AU --> NEUTRAL X]}
   - {name: cmenergies, values: [200.0]}
+location: Data from Figure 24
 data_file: Fig24_X-section in pp collisions.yaml
 ---
 additional_resources:
@@ -52,11 +55,12 @@ additional_resources:
 - {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig31.png", description: Image file}
 - {location: fig31.png, description: Image file}
 - {location: thumb_fig31.png, description: Thumbnail Image file}
-name: "$R_{AA}$"
-description: '$R_{AA}$ $D^0$ in AuAu collisions'
+name: "RAA"
+description: '$D^0$ $R_{AA}$ in Au+Au collisions at $\sqrt{s_{NN}} =200$ GeV for $0-10\%$ (a), $10-40\%$ (b) and $40-80\%$ (c) centrality bins, respectively. The first two and last two data points are presented as empty circles, indicating that the p+p reference is extrapolated into these $p_T$ ranges. The statistical and systematic uncertainties are shown as error bars and brackets on the data points. The light and dark green boxes on the right depict the normalization uncertainties in determining the $N_{bin}$ in Au+Au collisions and the total inelastic cross section in p+p collisions, respectively.'
 keywords:
   - {name: reactions, values: [AU AU --> NEUTRAL X]}
   - {name: cmenergies, values: [200.0]}
+location: Data from Figure 31
 data_file: Fig31_raa.yaml
 ---
 additional_resources:
@@ -65,10 +69,11 @@ additional_resources:
 - {location: fig33.png, description: Image file}
 - {location: thumb_fig33.png, description: Thumbnail Image file}
 name: "$D^0$ and $D^0bar$ spectra"
-description: '$D^0$ and $\bar{D}^0$ spectra in AuAu collisions'
+description: '$D^0$ and $\bar{D}^0$ invariant yields at mid-rapidity $(|y|<1)$ vs transverse momentum for different centrality classes. Error bars indicate statistical uncertainties and brackets depict systematic uncertainties. Global systematic uncertainties in B.R. and $N_{bin}$ are not plotted. Solid lines depict Levy function fits.'
 keywords:
   - {name: reactions, values: [AU AU --> NEUTRAL X]}
   - {name: cmenergies, values: [200.0]}
+location: Data from Figure 33
 data_file: Fig33_D0 and D0bar spectra.yaml
 ---
 additional_resources:
@@ -77,10 +82,11 @@ additional_resources:
 - {location: fig34.png, description: Image file}
 - {location: thumb_fig34.png, description: Thumbnail Image file}
 name: "$D^0bar$/$D^0$ Ratio"
-description: '$\bar{D}^0$/$D^0$ Ratio in AuAu collisions'
+description: '$\bar{D}^0/D^0$ invariant yield ratio at mid-rapidity $(|y|<1)$ vs transverse momentum for different centrality classes. Error bars indicate statistical uncertainties and brackets depict systematic uncertainties. Dashed lines depict constant function fits to the $\bar{D}^0/D^0$ ratios.'
 keywords:
   - {name: reactions, values: [AU AU --> NEUTRAL X]}
   - {name: cmenergies, values: [200.0]}
+location: Data from Figure 34
 data_file: Fig34_D0barD0 Ratio.yaml
 ---
 additional_resources:
@@ -88,11 +94,12 @@ additional_resources:
 - {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig35.png", description: Image file}
 - {location: fig35.png, description: Image file}
 - {location: thumb_fig35.png, description: Thumbnail Image file}
-name: "$R_{CP}$ (60-80%)"
-description: '$R_{CP}$ $D^0$ in AuAu collisions (with 60-80% as reference)'
+name: "RCP (60-80%)"
+description: '$D_0$ $R_{CP}$ with the $60-80\%$ spectrum as the reference for different centrality classes compared to the LBT model calculations shown by dashed lines [48, 49].'
 keywords:
   - {name: reactions, values: [AU AU --> NEUTRAL X]}
   - {name: cmenergies, values: [200.0]}
+location: Data from Figure 35
 data_file: Fig35_rcp6080.yaml
 ---
 additional_resources:
@@ -100,11 +107,12 @@ additional_resources:
 - {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/297/fig36.png", description: Image file}
 - {location: fig36.png, description: Image file}
 - {location: thumb_fig36.png, description: Thumbnail Image file}
-name: "$R_{CP}$ (40-60%)"
-description: '$R_{CP}$ $D^0$ in AuAu collisions (with 40-60% as reference)'
+name: "RCP (40-60%)"
+description: '$D^0$ $R_{CP}$ with the $40-60\%$ spectrum as the reference for different centrality classes compared to model calculations from LBT (black dotted lines) and the Duke (blue dashedlines) groups [48-50].'
 keywords:
   - {name: reactions, values: [AU AU --> NEUTRAL X]}
   - {name: cmenergies, values: [200.0]}
+location: Data from Figure 36
 data_file: Fig36_rcp4060.yaml
 ---
 name: "BW fit parameters for $D^0$"
@@ -120,10 +128,11 @@ additional_resources:
 - {location: fig25.png, description: Image file}
 - {location: thumb_fig25.png, description: Thumbnail Image file}
 name: "$D^0$ spectra $m_T - m_0$ AuAu"
-description: '$D^0$ spectra in AuAu collisions'
+description: '$D^0$ invariant yield at mid-rapidity $(|y|<1)$ vs transverse kinetic energy ($m_T -m_0$) for different centrality classes. Error bars indicate statistical uncertainties and brackets depict systematic uncertainties. Global systematic uncertainties in B.R. are not plotted. Solid and dashed black lines depict exponential function fits and the dot-dashed line depicts a power-law function fit to the spectrum in the $60-80\%$ centrality bin.'
 keywords:
   - {name: reactions, values: [AU AU --> NEUTRAL X]}
   - {name: cmenergies, values: [200.0]}
+location: Data from Figure 25
 data_file: D0 spectra mT AuAu.yaml
 ---
 name: "mT fit parameters Teff $D^0$"
