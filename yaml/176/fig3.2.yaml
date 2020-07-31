@@ -1,0 +1,85 @@
+independent_variables:
+- header: {name: 'Centrality'}
+  values:
+  - {low: 60, high: 80}
+  - {low: 40, high: 60}
+  - {low: 20, high: 40}
+  - {low: 10, high: 20}
+  - {low: 0, high: 5}
+dependent_variables:
+- header: {name: 'Strangeness Enhancement'}
+  qualifiers:
+  - {name: 'Centrality', value: 'Au+Au $K^0_S$'}
+  values:
+  - value: 1.939e+00
+    errors:
+    - {symerror: 1.683e-01, label: 'Stat+Sys error'}
+  - value: 2.250e+00
+    errors:
+    - {symerror: 1.512e-01, label: 'Stat+Sys error'}
+  - value: 2.332e+00
+    errors:
+    - {symerror: 1.178e-01, label: 'Stat+Sys error'}
+  - value: 2.433e+00
+    errors:
+    - {symerror: 1.192e-01, label: 'Stat+Sys error'}
+  - value: 2.601e+00
+    errors:
+    - {symerror: 1.416e-01, label: 'Stat+Sys error'}
+- header: {name: 'Strangeness Enhancement'}
+  qualifiers:
+  - {name: 'Centrality', value: 'Au+Au $\Lambda+\bar{\Lambda}$'}
+  values:
+  - value: 2.079e+00
+    errors:
+    - {symerror: 1.851e-01, label: 'Stat+Sys error'}
+  - value: 2.368e+00
+    errors:
+    - {symerror: 2.080e-01, label: 'Stat+Sys error'}
+  - value: 2.641e+00
+    errors:
+    - {symerror: 2.306e-01, label: 'Stat+Sys error'}
+  - value: 2.622e+00
+    errors:
+    - {symerror: 2.290e-01, label: 'Stat+Sys error'}
+  - value: 2.884e+00
+    errors:
+    - {symerror: 2.544e-01, label: 'Stat+Sys error'}
+- header: {name: 'Strangeness Enhancement'}
+  qualifiers:
+  - {name: 'Centrality', value: 'Au+Au $\Xi+\bar{\Xi}$'}
+  values:
+  - value: 2.834e+00
+    errors:
+    - {symerror: 2.440e-01, label: 'Stat+Sys error'}
+  - value: 3.539e+00
+    errors:
+    - {symerror: 3.457e-01, label: 'Stat+Sys error'}
+  - value: 4.281e+00
+    errors:
+    - {symerror: 2.446e-01, label: 'Stat+Sys error'}
+  - value: 4.959e+00
+    errors:
+    - {symerror: 4.122e-01, label: 'Stat+Sys error'}
+  - value: 5.167e+00
+    errors:
+    - {symerror: 6.961e-01, label: 'Stat+Sys error'}
+- header: {name: 'Strangeness Enhancement'}
+  qualifiers:
+  - {name: 'Centrality', value: 'Au+Au $\Omega+\bar{\Omega}$'}
+  values:
+  - value: .00000001
+    errors:
+    - {symerror: .00000001, label: 'Stat+Sys error'}
+  - value: 8.005e+00
+    errors:
+    - {symerror: 1.208e+00, label: 'Stat+Sys error'}
+  - value: 9.245e+00
+    errors:
+    - {symerror: 1.198e+00, label: 'Stat+Sys error'}
+  - value: .00000001
+    errors:
+    - {symerror: .00000001, label: 'Stat+Sys error'}
+  - value: 1.184e+01
+    errors:
+    - {symerror: 1.298e+00, label: 'Stat+Sys error'}

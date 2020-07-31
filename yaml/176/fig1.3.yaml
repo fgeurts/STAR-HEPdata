@@ -1,0 +1,385 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 0.75, high: 1}
+  - {low: 1, high: 1.25}
+  - {low: 1.25, high: 1.5}
+  - {low: 1.5, high: 1.75}
+  - {low: 1.75, high: 2}
+  - {low: 2, high: 2.5}
+  - {low: 2.5, high: 3}
+  - {low: 3, high: 3.5}
+  - {low: 3.5, high: 4}
+  - {low: 4, high: 5}
+  - {low: 5, high: 6}
+dependent_variables:
+- header: {name: 'Invariant mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Cu+Cu $\Xi$ $0-10\%$'}
+  values:
+  - value: 9.030e-02
+    errors:
+    - {symerror: 9.210e-03, label: 'Stat+Sys error'}
+  - value: 4.935e-02
+    errors:
+    - {symerror: 5.033e-03, label: 'Stat+Sys error'}
+  - value: 3.516e-02
+    errors:
+    - {symerror: 3.586e-03, label: 'Stat+Sys error'}
+  - value: 2.134e-02
+    errors:
+    - {symerror: 2.176e-03, label: 'Stat+Sys error'}
+  - value: 1.163e-02
+    errors:
+    - {symerror: 1.187e-03, label: 'Stat+Sys error'}
+  - value: 4.899e-03
+    errors:
+    - {symerror: 4.997e-04, label: 'Stat+Sys error'}
+  - value: 1.419e-03
+    errors:
+    - {symerror: 1.447e-04, label: 'Stat+Sys error'}
+  - value: 3.757e-04
+    errors:
+    - {symerror: 3.832e-05, label: 'Stat+Sys error'}
+  - value: 1.092e-04
+    errors:
+    - {symerror: 1.114e-05, label: 'Stat+Sys error'}
+  - value: 1.703e-05
+    errors:
+    - {symerror: 1.737e-06, label: 'Stat+Sys error'}
+  - value: 2.036e-06
+    errors:
+    - {symerror: 2.077e-07, label: 'Stat+Sys error'}
+- header: {name: 'Invariant mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Cu+Cu $\Xi$ $10-20\%$'}
+  values:
+  - value: 3.917e-02
+    errors:
+    - {symerror: 3.995e-03, label: 'Stat+Sys error'}
+  - value: 3.227e-02
+    errors:
+    - {symerror: 3.292e-03, label: 'Stat+Sys error'}
+  - value: 2.194e-02
+    errors:
+    - {symerror: 2.238e-03, label: 'Stat+Sys error'}
+  - value: 1.239e-02
+    errors:
+    - {symerror: 1.264e-03, label: 'Stat+Sys error'}
+  - value: 7.712e-03
+    errors:
+    - {symerror: 7.866e-04, label: 'Stat+Sys error'}
+  - value: 3.157e-03
+    errors:
+    - {symerror: 3.220e-04, label: 'Stat+Sys error'}
+  - value: 8.276e-04
+    errors:
+    - {symerror: 8.442e-05, label: 'Stat+Sys error'}
+  - value: 2.463e-04
+    errors:
+    - {symerror: 2.512e-05, label: 'Stat+Sys error'}
+  - value: 6.817e-05
+    errors:
+    - {symerror: 6.953e-06, label: 'Stat+Sys error'}
+  - value: 1.200e-05
+    errors:
+    - {symerror: 1.224e-06, label: 'Stat+Sys error'}
+  - value: 1.284e-06
+    errors:
+    - {symerror: 1.309e-07, label: 'Stat+Sys error'}
+- header: {name: 'Invariant mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Cu+Cu $\Xi$ $20-30\%$'}
+  values:
+  - value: 2.936e-02
+    errors:
+    - {symerror: 2.995e-03, label: 'Stat+Sys error'}
+  - value: 2.175e-02
+    errors:
+    - {symerror: 2.218e-03, label: 'Stat+Sys error'}
+  - value: 1.339e-02
+    errors:
+    - {symerror: 1.366e-03, label: 'Stat+Sys error'}
+  - value: 7.861e-03
+    errors:
+    - {symerror: 8.018e-04, label: 'Stat+Sys error'}
+  - value: 4.784e-03
+    errors:
+    - {symerror: 4.880e-04, label: 'Stat+Sys error'}
+  - value: 1.965e-03
+    errors:
+    - {symerror: 2.005e-04, label: 'Stat+Sys error'}
+  - value: 5.612e-04
+    errors:
+    - {symerror: 5.725e-05, label: 'Stat+Sys error'}
+  - value: 1.608e-04
+    errors:
+    - {symerror: 1.640e-05, label: 'Stat+Sys error'}
+  - value: 4.120e-05
+    errors:
+    - {symerror: 4.202e-06, label: 'Stat+Sys error'}
+  - value: 8.746e-06
+    errors:
+    - {symerror: 8.921e-07, label: 'Stat+Sys error'}
+  - value: 1.248e-06
+    errors:
+    - {symerror: 1.273e-07, label: 'Stat+Sys error'}
+- header: {name: 'Invariant mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Cu+Cu $\Xi$ $30-40\%$'}
+  values:
+  - value: 1.946e-02
+    errors:
+    - {symerror: 1.985e-03, label: 'Stat+Sys error'}
+  - value: 1.382e-02
+    errors:
+    - {symerror: 1.410e-03, label: 'Stat+Sys error'}
+  - value: 8.042e-03
+    errors:
+    - {symerror: 8.203e-04, label: 'Stat+Sys error'}
+  - value: 5.129e-03
+    errors:
+    - {symerror: 5.232e-04, label: 'Stat+Sys error'}
+  - value: 2.899e-03
+    errors:
+    - {symerror: 2.957e-04, label: 'Stat+Sys error'}
+  - value: 1.200e-03
+    errors:
+    - {symerror: 1.224e-04, label: 'Stat+Sys error'}
+  - value: 3.052e-04
+    errors:
+    - {symerror: 3.113e-05, label: 'Stat+Sys error'}
+  - value: 8.948e-05
+    errors:
+    - {symerror: 9.127e-06, label: 'Stat+Sys error'}
+  - value: 2.696e-05
+    errors:
+    - {symerror: 2.750e-06, label: 'Stat+Sys error'}
+  - value: 5.401e-06
+    errors:
+    - {symerror: 5.509e-07, label: 'Stat+Sys error'}
+  - value: 5.922e-07
+    errors:
+    - {symerror: 6.040e-08, label: 'Stat+Sys error'}
+- header: {name: 'Invariant mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Cu+Cu $\Xi$ $40-60\%$'}
+  values:
+  - value: 9.500e-03
+    errors:
+    - {symerror: 9.690e-04, label: 'Stat+Sys error'}
+  - value: 6.816e-03
+    errors:
+    - {symerror: 6.952e-04, label: 'Stat+Sys error'}
+  - value: 4.222e-03
+    errors:
+    - {symerror: 4.307e-04, label: 'Stat+Sys error'}
+  - value: 2.461e-03
+    errors:
+    - {symerror: 2.511e-04, label: 'Stat+Sys error'}
+  - value: 1.296e-03
+    errors:
+    - {symerror: 1.322e-04, label: 'Stat+Sys error'}
+  - value: 5.108e-04
+    errors:
+    - {symerror: 5.210e-05, label: 'Stat+Sys error'}
+  - value: 1.431e-04
+    errors:
+    - {symerror: 1.460e-05, label: 'Stat+Sys error'}
+  - value: 4.140e-05
+    errors:
+    - {symerror: 4.223e-06, label: 'Stat+Sys error'}
+  - value: 1.165e-05
+    errors:
+    - {symerror: 1.188e-06, label: 'Stat+Sys error'}
+  - value: 2.533e-06
+    errors:
+    - {symerror: 2.583e-07, label: 'Stat+Sys error'}
+  - value: 2.055e-07
+    errors:
+    - {symerror: 2.096e-08, label: 'Stat+Sys error'}
+- header: {name: 'Invariant mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Cu+Cu $\bar{\Xi}$ $0-10\%$'}
+  values:
+  - value: 6.225e-02
+    errors:
+    - {symerror: 6.350e-03, label: 'Stat+Sys error'}
+  - value: 4.511e-02
+    errors:
+    - {symerror: 4.601e-03, label: 'Stat+Sys error'}
+  - value: 3.261e-02
+    errors:
+    - {symerror: 3.326e-03, label: 'Stat+Sys error'}
+  - value: 1.763e-02
+    errors:
+    - {symerror: 1.798e-03, label: 'Stat+Sys error'}
+  - value: 1.115e-02
+    errors:
+    - {symerror: 1.137e-03, label: 'Stat+Sys error'}
+  - value: 4.401e-03
+    errors:
+    - {symerror: 4.489e-04, label: 'Stat+Sys error'}
+  - value: 1.232e-03
+    errors:
+    - {symerror: 1.257e-04, label: 'Stat+Sys error'}
+  - value: 3.379e-04
+    errors:
+    - {symerror: 3.447e-05, label: 'Stat+Sys error'}
+  - value: 9.877e-05
+    errors:
+    - {symerror: 1.007e-05, label: 'Stat+Sys error'}
+  - value: 1.791e-05
+    errors:
+    - {symerror: 1.826e-06, label: 'Stat+Sys error'}
+  - value: 2.117e-06
+    errors:
+    - {symerror: 2.159e-07, label: 'Stat+Sys error'}
+- header: {name: 'Invariant mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Cu+Cu $\bar{\Xi}$ $10-20\%$'}
+  values:
+  - value: 3.458e-02
+    errors:
+    - {symerror: 3.527e-03, label: 'Stat+Sys error'}
+  - value: 3.237e-02
+    errors:
+    - {symerror: 3.301e-03, label: 'Stat+Sys error'}
+  - value: 2.106e-02
+    errors:
+    - {symerror: 2.148e-03, label: 'Stat+Sys error'}
+  - value: 9.937e-03
+    errors:
+    - {symerror: 1.014e-03, label: 'Stat+Sys error'}
+  - value: 6.125e-03
+    errors:
+    - {symerror: 6.248e-04, label: 'Stat+Sys error'}
+  - value: 2.670e-03
+    errors:
+    - {symerror: 2.723e-04, label: 'Stat+Sys error'}
+  - value: 7.943e-04
+    errors:
+    - {symerror: 8.102e-05, label: 'Stat+Sys error'}
+  - value: 2.371e-04
+    errors:
+    - {symerror: 2.419e-05, label: 'Stat+Sys error'}
+  - value: 5.990e-05
+    errors:
+    - {symerror: 6.109e-06, label: 'Stat+Sys error'}
+  - value: 1.199e-05
+    errors:
+    - {symerror: 1.223e-06, label: 'Stat+Sys error'}
+  - value: 1.567e-06
+    errors:
+    - {symerror: 1.598e-07, label: 'Stat+Sys error'}
+- header: {name: 'Invariant mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Cu+Cu $\bar{\Xi}$ $20-30\%$'}
+  values:
+  - value: 2.463e-02
+    errors:
+    - {symerror: 2.512e-03, label: 'Stat+Sys error'}
+  - value: 1.931e-02
+    errors:
+    - {symerror: 1.969e-03, label: 'Stat+Sys error'}
+  - value: 1.110e-02
+    errors:
+    - {symerror: 1.132e-03, label: 'Stat+Sys error'}
+  - value: 6.738e-03
+    errors:
+    - {symerror: 6.873e-04, label: 'Stat+Sys error'}
+  - value: 3.697e-03
+    errors:
+    - {symerror: 3.771e-04, label: 'Stat+Sys error'}
+  - value: 1.900e-03
+    errors:
+    - {symerror: 1.938e-04, label: 'Stat+Sys error'}
+  - value: 4.720e-04
+    errors:
+    - {symerror: 4.815e-05, label: 'Stat+Sys error'}
+  - value: 1.387e-04
+    errors:
+    - {symerror: 1.414e-05, label: 'Stat+Sys error'}
+  - value: 3.856e-05
+    errors:
+    - {symerror: 3.933e-06, label: 'Stat+Sys error'}
+  - value: 8.244e-06
+    errors:
+    - {symerror: 8.409e-07, label: 'Stat+Sys error'}
+  - value: 1.192e-06
+    errors:
+    - {symerror: 1.216e-07, label: 'Stat+Sys error'}
+- header: {name: 'Invariant mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Cu+Cu $\bar{\Xi}$ $30-40\%$'}
+  values:
+  - value: 2.785e-02
+    errors:
+    - {symerror: 2.841e-03, label: 'Stat+Sys error'}
+  - value: 1.036e-02
+    errors:
+    - {symerror: 1.057e-03, label: 'Stat+Sys error'}
+  - value: 8.218e-03
+    errors:
+    - {symerror: 8.382e-04, label: 'Stat+Sys error'}
+  - value: 3.983e-03
+    errors:
+    - {symerror: 4.063e-04, label: 'Stat+Sys error'}
+  - value: 2.084e-03
+    errors:
+    - {symerror: 2.126e-04, label: 'Stat+Sys error'}
+  - value: 9.239e-04
+    errors:
+    - {symerror: 9.423e-05, label: 'Stat+Sys error'}
+  - value: 2.802e-04
+    errors:
+    - {symerror: 2.858e-05, label: 'Stat+Sys error'}
+  - value: 7.516e-05
+    errors:
+    - {symerror: 7.667e-06, label: 'Stat+Sys error'}
+  - value: 2.402e-05
+    errors:
+    - {symerror: 2.450e-06, label: 'Stat+Sys error'}
+  - value: 4.993e-06
+    errors:
+    - {symerror: 5.093e-07, label: 'Stat+Sys error'}
+  - value: 5.601e-07
+    errors:
+    - {symerror: 5.713e-08, label: 'Stat+Sys error'}
+- header: {name: 'Invariant mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Cu+Cu $\bar{\Xi}$ $40-60\%$'}
+  values:
+  - value: 9.151e-03
+    errors:
+    - {symerror: 9.334e-04, label: 'Stat+Sys error'}
+  - value: 6.298e-03
+    errors:
+    - {symerror: 6.424e-04, label: 'Stat+Sys error'}
+  - value: 3.842e-03
+    errors:
+    - {symerror: 3.918e-04, label: 'Stat+Sys error'}
+  - value: 1.723e-03
+    errors:
+    - {symerror: 1.758e-04, label: 'Stat+Sys error'}
+  - value: 1.017e-03
+    errors:
+    - {symerror: 1.037e-04, label: 'Stat+Sys error'}
+  - value: 4.393e-04
+    errors:
+    - {symerror: 4.481e-05, label: 'Stat+Sys error'}
+  - value: 1.283e-04
+    errors:
+    - {symerror: 1.309e-05, label: 'Stat+Sys error'}
+  - value: 3.795e-05
+    errors:
+    - {symerror: 3.871e-06, label: 'Stat+Sys error'}
+  - value: 1.060e-05
+    errors:
+    - {symerror: 1.082e-06, label: 'Stat+Sys error'}
+  - value: 2.121e-06
+    errors:
+    - {symerror: 2.164e-07, label: 'Stat+Sys error'}
+  - value: 2.826e-07
+    errors:
+    - {symerror: 2.882e-08, label: 'Stat+Sys error'}

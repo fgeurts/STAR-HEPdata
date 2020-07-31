@@ -1,0 +1,48 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 0.7, high: 1}
+  - {low: 1, high: 1.2}
+  - {low: 1.2, high: 1.4}
+  - {low: 1.4, high: 1.6}
+  - {low: 1.6, high: 1.8}
+  - {low: 1.8, high: 2}
+  - {low: 2, high: 2.2}
+  - {low: 2.2, high: 2.4}
+  - {low: 2.4, high: 2.6}
+  - {low: 2.6, high: 2.8}
+dependent_variables:
+- header: {name: '$d^2N/dydp_T$ mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au $\Xi+\bar{\Xi}$'}
+  values:
+  - value: 5.787e-03
+    errors:
+    - {symerror: 4.888e-04, label: 'Stat+Sys error'}
+  - value: 5.316e-03
+    errors:
+    - {symerror: 4.288e-04, label: 'Stat+Sys error'}
+  - value: 4.601e-03
+    errors:
+    - {symerror: 2.250e-04, label: 'Stat+Sys error'}
+  - value: 3.915e-03
+    errors:
+    - {symerror: 1.974e-04, label: 'Stat+Sys error'}
+  - value: 2.830e-03
+    errors:
+    - {symerror: 1.339e-04, label: 'Stat+Sys error'}
+  - value: 2.138e-03
+    errors:
+    - {symerror: 1.077e-04, label: 'Stat+Sys error'}
+  - value: 1.535e-03
+    errors:
+    - {symerror: 8.608e-05, label: 'Stat+Sys error'}
+  - value: 1.004e-03
+    errors:
+    - {symerror: 5.854e-05, label: 'Stat+Sys error'}
+  - value: 6.712e-04
+    errors:
+    - {symerror: 4.628e-05, label: 'Stat+Sys error'}
+  - value: 4.364e-04
+    errors:
+    - {symerror: 5.641e-05, label: 'Stat+Sys error'}

@@ -1,0 +1,360 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 0.5, high: 0.75}
+  - {low: 0.75, high: 1}
+  - {low: 1, high: 1.25}
+  - {low: 1.25, high: 1.5}
+  - {low: 1.5, high: 1.75}
+  - {low: 1.75, high: 2}
+  - {low: 2, high: 2.25}
+  - {low: 2.25, high: 2.5}
+  - {low: 2.5, high: 2.75}
+  - {low: 2.75, high: 3}
+  - {low: 3, high: 3.25}
+  - {low: 3.25, high: 3.5}
+  - {low: 3.5, high: 3.75}
+  - {low: 3.75, high: 4}
+  - {low: 4, high: 4.5}
+  - {low: 4.5, high: 5}
+  - {low: 5, high: 5.5}
+  - {low: 5.5, high: 6}
+  - {low: 6, high: 7}
+  - {low: 7, high: 8}
+  - {low: 8, high: 9}
+dependent_variables:
+- header: {name: 'Invariant mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au $K^0_S$ $0-5\%$'}
+  values:
+  - value: 9.407e+00
+    errors:
+    - {symerror: 6.461e-01, label: 'Stat+Sys error'}
+  - value: 6.167e+00
+    errors:
+    - {symerror: 3.254e-01, label: 'Stat+Sys error'}
+  - value: 2.516e+00
+    errors:
+    - {symerror: 1.134e-01, label: 'Stat+Sys error'}
+  - value: 1.226e+00
+    errors:
+    - {symerror: 5.395e-02, label: 'Stat+Sys error'}
+  - value: 5.391e-01
+    errors:
+    - {symerror: 2.341e-02, label: 'Stat+Sys error'}
+  - value: 2.509e-01
+    errors:
+    - {symerror: 1.087e-02, label: 'Stat+Sys error'}
+  - value: 1.106e-01
+    errors:
+    - {symerror: 4.786e-03, label: 'Stat+Sys error'}
+  - value: 5.158e-02
+    errors:
+    - {symerror: 2.233e-03, label: 'Stat+Sys error'}
+  - value: 2.528e-02
+    errors:
+    - {symerror: 1.096e-03, label: 'Stat+Sys error'}
+  - value: 1.210e-02
+    errors:
+    - {symerror: 5.255e-04, label: 'Stat+Sys error'}
+  - value: 6.396e-03
+    errors:
+    - {symerror: 2.802e-04, label: 'Stat+Sys error'}
+  - value: 3.396e-03
+    errors:
+    - {symerror: 1.504e-04, label: 'Stat+Sys error'}
+  - value: 1.892e-03
+    errors:
+    - {symerror: 8.520e-05, label: 'Stat+Sys error'}
+  - value: 1.094e-03
+    errors:
+    - {symerror: 5.020e-05, label: 'Stat+Sys error'}
+  - value: 4.344e-04
+    errors:
+    - {symerror: 4.573e-05, label: 'Stat+Sys error'}
+  - value: 1.605e-04
+    errors:
+    - {symerror: 1.709e-05, label: 'Stat+Sys error'}
+  - value: 6.303e-05
+    errors:
+    - {symerror: 6.881e-06, label: 'Stat+Sys error'}
+  - value: 2.766e-05
+    errors:
+    - {symerror: 3.153e-06, label: 'Stat+Sys error'}
+  - value: 1.049e-05
+    errors:
+    - {symerror: 1.194e-06, label: 'Stat+Sys error'}
+  - value: 2.646e-06
+    errors:
+    - {symerror: 3.535e-07, label: 'Stat+Sys error'}
+  - value: 8.100e-07
+    errors:
+    - {symerror: 1.424e-07, label: 'Stat+Sys error'}
+- header: {name: 'Invariant mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au $K^0_S$ $10-20\%$'}
+  values:
+  - value: 5.794e+00
+    errors:
+    - {symerror: 2.762e-01, label: 'Stat+Sys error'}
+  - value: 3.585e+00
+    errors:
+    - {symerror: 1.567e-01, label: 'Stat+Sys error'}
+  - value: 1.551e+00
+    errors:
+    - {symerror: 6.456e-02, label: 'Stat+Sys error'}
+  - value: 7.703e-01
+    errors:
+    - {symerror: 3.188e-02, label: 'Stat+Sys error'}
+  - value: 3.384e-01
+    errors:
+    - {symerror: 1.396e-02, label: 'Stat+Sys error'}
+  - value: 1.579e-01
+    errors:
+    - {symerror: 6.517e-03, label: 'Stat+Sys error'}
+  - value: 7.237e-02
+    errors:
+    - {symerror: 2.996e-03, label: 'Stat+Sys error'}
+  - value: 3.411e-02
+    errors:
+    - {symerror: 1.420e-03, label: 'Stat+Sys error'}
+  - value: 1.713e-02
+    errors:
+    - {symerror: 7.196e-04, label: 'Stat+Sys error'}
+  - value: 8.583e-03
+    errors:
+    - {symerror: 3.664e-04, label: 'Stat+Sys error'}
+  - value: 4.546e-03
+    errors:
+    - {symerror: 1.997e-04, label: 'Stat+Sys error'}
+  - value: 2.433e-03
+    errors:
+    - {symerror: 1.115e-04, label: 'Stat+Sys error'}
+  - value: 1.337e-03
+    errors:
+    - {symerror: 6.513e-05, label: 'Stat+Sys error'}
+  - value: 8.006e-04
+    errors:
+    - {symerror: 4.207e-05, label: 'Stat+Sys error'}
+  - value: 3.548e-04
+    errors:
+    - {symerror: 3.801e-05, label: 'Stat+Sys error'}
+  - value: 1.334e-04
+    errors:
+    - {symerror: 1.474e-05, label: 'Stat+Sys error'}
+  - value: 5.640e-05
+    errors:
+    - {symerror: 6.528e-06, label: 'Stat+Sys error'}
+  - value: 2.234e-05
+    errors:
+    - {symerror: 2.933e-06, label: 'Stat+Sys error'}
+  - value: 8.884e-06
+    errors:
+    - {symerror: 1.149e-06, label: 'Stat+Sys error'}
+  - value: 2.084e-06
+    errors:
+    - {symerror: 3.735e-07, label: 'Stat+Sys error'}
+  - value: 5.157e-07
+    errors:
+    - {symerror: 1.390e-07, label: 'Stat+Sys error'}
+- header: {name: 'Invariant mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au $K^0_S$ $20-40\%$'}
+  values:
+  - value: 3.549e+00
+    errors:
+    - {symerror: 1.721e-01, label: 'Stat+Sys error'}
+  - value: 2.061e+00
+    errors:
+    - {symerror: 9.103e-02, label: 'Stat+Sys error'}
+  - value: 8.748e-01
+    errors:
+    - {symerror: 3.657e-02, label: 'Stat+Sys error'}
+  - value: 4.303e-01
+    errors:
+    - {symerror: 1.789e-02, label: 'Stat+Sys error'}
+  - value: 1.905e-01
+    errors:
+    - {symerror: 7.892e-03, label: 'Stat+Sys error'}
+  - value: 8.904e-02
+    errors:
+    - {symerror: 3.689e-03, label: 'Stat+Sys error'}
+  - value: 4.128e-02
+    errors:
+    - {symerror: 1.714e-03, label: 'Stat+Sys error'}
+  - value: 1.974e-02
+    errors:
+    - {symerror: 8.227e-04, label: 'Stat+Sys error'}
+  - value: 9.932e-03
+    errors:
+    - {symerror: 4.172e-04, label: 'Stat+Sys error'}
+  - value: 5.115e-03
+    errors:
+    - {symerror: 2.176e-04, label: 'Stat+Sys error'}
+  - value: 2.767e-03
+    errors:
+    - {symerror: 1.202e-04, label: 'Stat+Sys error'}
+  - value: 1.498e-03
+    errors:
+    - {symerror: 6.720e-05, label: 'Stat+Sys error'}
+  - value: 8.442e-04
+    errors:
+    - {symerror: 3.973e-05, label: 'Stat+Sys error'}
+  - value: 4.994e-04
+    errors:
+    - {symerror: 2.508e-05, label: 'Stat+Sys error'}
+  - value: 2.353e-04
+    errors:
+    - {symerror: 2.489e-05, label: 'Stat+Sys error'}
+  - value: 8.914e-05
+    errors:
+    - {symerror: 9.609e-06, label: 'Stat+Sys error'}
+  - value: 3.670e-05
+    errors:
+    - {symerror: 4.120e-06, label: 'Stat+Sys error'}
+  - value: 1.599e-05
+    errors:
+    - {symerror: 1.912e-06, label: 'Stat+Sys error'}
+  - value: 5.423e-06
+    errors:
+    - {symerror: 6.730e-07, label: 'Stat+Sys error'}
+  - value: 1.399e-06
+    errors:
+    - {symerror: 2.297e-07, label: 'Stat+Sys error'}
+  - value: 2.813e-07
+    errors:
+    - {symerror: 9.048e-08, label: 'Stat+Sys error'}
+- header: {name: 'Invariant mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au $K^0_S$ $40-60\%$'}
+  values:
+  - value: 1.510e+00
+    errors:
+    - {symerror: 8.997e-02, label: 'Stat+Sys error'}
+  - value: 8.347e-01
+    errors:
+    - {symerror: 4.164e-02, label: 'Stat+Sys error'}
+  - value: 3.342e-01
+    errors:
+    - {symerror: 1.476e-02, label: 'Stat+Sys error'}
+  - value: 1.561e-01
+    errors:
+    - {symerror: 6.791e-03, label: 'Stat+Sys error'}
+  - value: 7.122e-02
+    errors:
+    - {symerror: 3.084e-03, label: 'Stat+Sys error'}
+  - value: 3.282e-02
+    errors:
+    - {symerror: 1.421e-03, label: 'Stat+Sys error'}
+  - value: 1.562e-02
+    errors:
+    - {symerror: 6.798e-04, label: 'Stat+Sys error'}
+  - value: 7.755e-03
+    errors:
+    - {symerror: 3.406e-04, label: 'Stat+Sys error'}
+  - value: 4.006e-03
+    errors:
+    - {symerror: 1.788e-04, label: 'Stat+Sys error'}
+  - value: 2.085e-03
+    errors:
+    - {symerror: 9.544e-05, label: 'Stat+Sys error'}
+  - value: 1.161e-03
+    errors:
+    - {symerror: 5.547e-05, label: 'Stat+Sys error'}
+  - value: 6.971e-04
+    errors:
+    - {symerror: 3.481e-05, label: 'Stat+Sys error'}
+  - value: 3.683e-04
+    errors:
+    - {symerror: 2.018e-05, label: 'Stat+Sys error'}
+  - value: 2.113e-04
+    errors:
+    - {symerror: 1.281e-05, label: 'Stat+Sys error'}
+  - value: 1.031e-04
+    errors:
+    - {symerror: 1.110e-05, label: 'Stat+Sys error'}
+  - value: 4.009e-05
+    errors:
+    - {symerror: 4.491e-06, label: 'Stat+Sys error'}
+  - value: 1.729e-05
+    errors:
+    - {symerror: 2.050e-06, label: 'Stat+Sys error'}
+  - value: 7.554e-06
+    errors:
+    - {symerror: 1.002e-06, label: 'Stat+Sys error'}
+  - value: 2.753e-06
+    errors:
+    - {symerror: 3.810e-07, label: 'Stat+Sys error'}
+  - value: 6.963e-07
+    errors:
+    - {symerror: 1.530e-07, label: 'Stat+Sys error'}
+  - value: 2.385e-07
+    errors:
+    - {symerror: 7.362e-08, label: 'Stat+Sys error'}
+- header: {name: 'Invariant mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au $K^0_S$ $60-80\%$'}
+  values:
+  - value: 5.070e-01
+    errors:
+    - {symerror: 4.550e-02, label: 'Stat+Sys error'}
+  - value: 2.410e-01
+    errors:
+    - {symerror: 1.517e-02, label: 'Stat+Sys error'}
+  - value: 9.302e-02
+    errors:
+    - {symerror: 4.623e-03, label: 'Stat+Sys error'}
+  - value: 4.183e-02
+    errors:
+    - {symerror: 2.019e-03, label: 'Stat+Sys error'}
+  - value: 1.858e-02
+    errors:
+    - {symerror: 8.871e-04, label: 'Stat+Sys error'}
+  - value: 8.464e-03
+    errors:
+    - {symerror: 4.037e-04, label: 'Stat+Sys error'}
+  - value: 4.054e-03
+    errors:
+    - {symerror: 1.962e-04, label: 'Stat+Sys error'}
+  - value: 2.152e-03
+    errors:
+    - {symerror: 1.080e-04, label: 'Stat+Sys error'}
+  - value: 1.177e-03
+    errors:
+    - {symerror: 6.146e-05, label: 'Stat+Sys error'}
+  - value: 5.898e-04
+    errors:
+    - {symerror: 3.251e-05, label: 'Stat+Sys error'}
+  - value: 3.648e-04
+    errors:
+    - {symerror: 2.189e-05, label: 'Stat+Sys error'}
+  - value: 2.019e-04
+    errors:
+    - {symerror: 1.353e-05, label: 'Stat+Sys error'}
+  - value: 1.110e-04
+    errors:
+    - {symerror: 8.631e-06, label: 'Stat+Sys error'}
+  - value: 6.750e-05
+    errors:
+    - {symerror: 5.986e-06, label: 'Stat+Sys error'}
+  - value: 3.290e-05
+    errors:
+    - {symerror: 3.780e-06, label: 'Stat+Sys error'}
+  - value: 1.203e-05
+    errors:
+    - {symerror: 1.537e-06, label: 'Stat+Sys error'}
+  - value: 4.793e-06
+    errors:
+    - {symerror: 7.181e-07, label: 'Stat+Sys error'}
+  - value: 2.357e-06
+    errors:
+    - {symerror: 4.233e-07, label: 'Stat+Sys error'}
+  - value: 8.999e-07
+    errors:
+    - {symerror: 1.691e-07, label: 'Stat+Sys error'}
+  - value: 1.330e-07
+    errors:
+    - {symerror: 5.215e-08, label: 'Stat+Sys error'}
+  - value: 3.255e-08
+    errors:
+    - {symerror: 3.273e-08, label: 'Stat+Sys error'}

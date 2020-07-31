@@ -1,0 +1,280 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 0.5, high: 0.6}
+  - {low: 0.6, high: 0.7}
+  - {low: 0.7, high: 0.8}
+  - {low: 0.8, high: 0.9}
+  - {low: 0.9, high: 1.0}
+  - {low: 1.0, high: 1.1}
+  - {low: 1.1, high: 1.2}
+  - {low: 1.2, high: 1.3}
+  - {low: 1.3, high: 1.4}
+  - {low: 1.4, high: 1.5}
+  - {low: 1.5, high: 1.6}
+  - {low: 1.6, high: 1.7}
+  - {low: 1.7, high: 1.8}
+  - {low: 1.8, high: 1.9}
+  - {low: 1.9, high: 2.0}
+  - {low: 2.0, high: 2.1}
+  - {low: 2.1, high: 2.35}
+  - {low: 2.35, high: 2.6}
+  - {low: 2.6, high: 2.85}
+  - {low: 2.85, high: 3.1}
+dependent_variables:
+- header: {name: '$d^2N/dydp_T$ mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Cu+Cu $K^0_S$'}
+  values:
+  - value: 1.759e-01
+    errors:
+    - {symerror: 3.217e-02, label: 'Stat+Sys error'}
+  - value: 1.337e-01
+    errors:
+    - {symerror: 1.495e-02, label: 'Stat+Sys error'}
+  - value: 1.069e-01
+    errors:
+    - {symerror: 9.514e-03, label: 'Stat+Sys error'}
+  - value: 8.777e-02
+    errors:
+    - {symerror: 6.923e-03, label: 'Stat+Sys error'}
+  - value: 7.766e-02
+    errors:
+    - {symerror: 5.861e-03, label: 'Stat+Sys error'}
+  - value: 5.630e-02
+    errors:
+    - {symerror: 3.169e-03, label: 'Stat+Sys error'}
+  - value: 4.392e-02
+    errors:
+    - {symerror: 2.317e-03, label: 'Stat+Sys error'}
+  - value: 3.397e-02
+    errors:
+    - {symerror: 1.735e-03, label: 'Stat+Sys error'}
+  - value: 2.825e-02
+    errors:
+    - {symerror: 1.425e-03, label: 'Stat+Sys error'}
+  - value: 2.110e-02
+    errors:
+    - {symerror: 1.026e-03, label: 'Stat+Sys error'}
+  - value: 1.555e-02
+    errors:
+    - {symerror: 7.303e-04, label: 'Stat+Sys error'}
+  - value: 1.259e-02
+    errors:
+    - {symerror: 5.969e-04, label: 'Stat+Sys error'}
+  - value: 1.012e-02
+    errors:
+    - {symerror: 4.727e-04, label: 'Stat+Sys error'}
+  - value: 7.038e-03
+    errors:
+    - {symerror: 3.196e-04, label: 'Stat+Sys error'}
+  - value: 5.584e-03
+    errors:
+    - {symerror: 2.550e-04, label: 'Stat+Sys error'}
+  - value: 4.411e-03
+    errors:
+    - {symerror: 2.007e-04, label: 'Stat+Sys error'}
+  - value: 2.854e-03
+    errors:
+    - {symerror: 1.128e-04, label: 'Stat+Sys error'}
+  - value: 1.522e-03
+    errors:
+    - {symerror: 6.016e-05, label: 'Stat+Sys error'}
+  - value: 8.623e-04
+    errors:
+    - {symerror: 3.440e-05, label: 'Stat+Sys error'}
+  - value: 4.811e-04
+    errors:
+    - {symerror: 1.949e-05, label: 'Stat+Sys error'}
+- header: {name: '$d^2N/dydp_T$ mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au $K^0_S$'}
+  values:
+  - value: 1.050e-01
+    errors:
+    - {symerror: 8.156e-03, label: 'Stat+Sys error'}
+  - value: 1.066e-01
+    errors:
+    - {symerror: 7.062e-03, label: 'Stat+Sys error'}
+  - value: 8.818e-02
+    errors:
+    - {symerror: 5.204e-03, label: 'Stat+Sys error'}
+  - value: 7.788e-02
+    errors:
+    - {symerror: 4.444e-03, label: 'Stat+Sys error'}
+  - value: 5.865e-02
+    errors:
+    - {symerror: 3.241e-03, label: 'Stat+Sys error'}
+  - value: 5.067e-02
+    errors:
+    - {symerror: 2.633e-03, label: 'Stat+Sys error'}
+  - value: 4.093e-02
+    errors:
+    - {symerror: 2.132e-03, label: 'Stat+Sys error'}
+  - value: 3.407e-02
+    errors:
+    - {symerror: 1.823e-03, label: 'Stat+Sys error'}
+  - value: 2.439e-02
+    errors:
+    - {symerror: 1.301e-03, label: 'Stat+Sys error'}
+  - value: 1.982e-02
+    errors:
+    - {symerror: 1.100e-03, label: 'Stat+Sys error'}
+  - value: 1.552e-02
+    errors:
+    - {symerror: 8.947e-04, label: 'Stat+Sys error'}
+  - value: 1.123e-02
+    errors:
+    - {symerror: 6.724e-04, label: 'Stat+Sys error'}
+  - value: 9.979e-03
+    errors:
+    - {symerror: 6.585e-04, label: 'Stat+Sys error'}
+  - value: 7.647e-03
+    errors:
+    - {symerror: 5.394e-04, label: 'Stat+Sys error'}
+  - value: 6.474e-03
+    errors:
+    - {symerror: 5.008e-04, label: 'Stat+Sys error'}
+  - value: 4.565e-03
+    errors:
+    - {symerror: 3.744e-04, label: 'Stat+Sys error'}
+  - value: 2.900e-03
+    errors:
+    - {symerror: 1.911e-04, label: 'Stat+Sys error'}
+  - value: 1.631e-03
+    errors:
+    - {symerror: 1.347e-04, label: 'Stat+Sys error'}
+  - value: 8.594e-04
+    errors:
+    - {symerror: 8.611e-05, label: 'Stat+Sys error'}
+  - value: 5.075e-04
+    errors:
+    - {symerror: 6.824e-05, label: 'Stat+Sys error'}
+- header: {name: '$d^2N/dydp_T$ mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Cu+Cu $\Lambda+\bar{\Lambda}$'}
+  values:
+  - value: 6.523e-02
+    errors:
+    - {symerror: 9.759e-03, label: 'Stat+Sys error'}
+  - value: 6.782e-02
+    errors:
+    - {symerror: 8.578e-03, label: 'Stat+Sys error'}
+  - value: 6.415e-02
+    errors:
+    - {symerror: 7.568e-03, label: 'Stat+Sys error'}
+  - value: 6.749e-02
+    errors:
+    - {symerror: 7.742e-03, label: 'Stat+Sys error'}
+  - value: 5.983e-02
+    errors:
+    - {symerror: 6.745e-03, label: 'Stat+Sys error'}
+  - value: 5.801e-02
+    errors:
+    - {symerror: 3.221e-03, label: 'Stat+Sys error'}
+  - value: 4.957e-02
+    errors:
+    - {symerror: 2.741e-03, label: 'Stat+Sys error'}
+  - value: 4.685e-02
+    errors:
+    - {symerror: 2.521e-03, label: 'Stat+Sys error'}
+  - value: 4.032e-02
+    errors:
+    - {symerror: 2.172e-03, label: 'Stat+Sys error'}
+  - value: 3.506e-02
+    errors:
+    - {symerror: 1.855e-03, label: 'Stat+Sys error'}
+  - value: 3.000e-02
+    errors:
+    - {symerror: 1.585e-03, label: 'Stat+Sys error'}
+  - value: 2.184e-02
+    errors:
+    - {symerror: 1.165e-03, label: 'Stat+Sys error'}
+  - value: 1.808e-02
+    errors:
+    - {symerror: 9.631e-04, label: 'Stat+Sys error'}
+  - value: 1.492e-02
+    errors:
+    - {symerror: 7.945e-04, label: 'Stat+Sys error'}
+  - value: 1.207e-02
+    errors:
+    - {symerror: 6.569e-04, label: 'Stat+Sys error'}
+  - value: 1.023e-02
+    errors:
+    - {symerror: 5.582e-04, label: 'Stat+Sys error'}
+  - value: 6.990e-03
+    errors:
+    - {symerror: 3.446e-04, label: 'Stat+Sys error'}
+  - value: 3.595e-03
+    errors:
+    - {symerror: 1.911e-04, label: 'Stat+Sys error'}
+  - value: 2.083e-03
+    errors:
+    - {symerror: 1.000e-04, label: 'Stat+Sys error'}
+  - value: 1.062e-03
+    errors:
+    - {symerror: 5.219e-05, label: 'Stat+Sys error'}
+- header: {name: '$d^2N/dydp_T$ mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au $\Lambda+\bar{\Lambda}$'}
+  values:
+  - value: 5.267e-02
+    errors:
+    - {symerror: 5.564e-03, label: 'Stat+Sys error'}
+  - value: 5.140e-02
+    errors:
+    - {symerror: 4.931e-03, label: 'Stat+Sys error'}
+  - value: 5.026e-02
+    errors:
+    - {symerror: 4.678e-03, label: 'Stat+Sys error'}
+  - value: 4.717e-02
+    errors:
+    - {symerror: 4.358e-03, label: 'Stat+Sys error'}
+  - value: 4.657e-02
+    errors:
+    - {symerror: 4.261e-03, label: 'Stat+Sys error'}
+  - value: 4.693e-02
+    errors:
+    - {symerror: 2.612e-03, label: 'Stat+Sys error'}
+  - value: 4.365e-02
+    errors:
+    - {symerror: 2.427e-03, label: 'Stat+Sys error'}
+  - value: 3.928e-02
+    errors:
+    - {symerror: 2.188e-03, label: 'Stat+Sys error'}
+  - value: 3.460e-02
+    errors:
+    - {symerror: 1.934e-03, label: 'Stat+Sys error'}
+  - value: 2.798e-02
+    errors:
+    - {symerror: 1.571e-03, label: 'Stat+Sys error'}
+  - value: 2.446e-02
+    errors:
+    - {symerror: 1.385e-03, label: 'Stat+Sys error'}
+  - value: 2.147e-02
+    errors:
+    - {symerror: 1.220e-03, label: 'Stat+Sys error'}
+  - value: 1.841e-02
+    errors:
+    - {symerror: 1.062e-03, label: 'Stat+Sys error'}
+  - value: 1.406e-02
+    errors:
+    - {symerror: 8.210e-04, label: 'Stat+Sys error'}
+  - value: 1.173e-02
+    errors:
+    - {symerror: 6.982e-04, label: 'Stat+Sys error'}
+  - value: 1.013e-02
+    errors:
+    - {symerror: 6.141e-04, label: 'Stat+Sys error'}
+  - value: 6.720e-03
+    errors:
+    - {symerror: 3.822e-04, label: 'Stat+Sys error'}
+  - value: 3.844e-03
+    errors:
+    - {symerror: 2.318e-04, label: 'Stat+Sys error'}
+  - value: 2.243e-03
+    errors:
+    - {symerror: 1.466e-04, label: 'Stat+Sys error'}
+  - value: 1.190e-03
+    errors:
+    - {symerror: 8.686e-05, label: 'Stat+Sys error'}
