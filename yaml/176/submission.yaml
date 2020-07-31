@@ -172,3 +172,16 @@ keywords:
  - {name: cmenergies, values: [200.0]}
 location: Data from Figure 3
 data_file: fig3.2.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/176/fig4.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/176/fig4.png", description: Image file}
+- {location: fig4.png, description: Image file}
+- {location: thumb_fig4.png, description: Thumbnail Image file}
+name: "Figure4: Ratio of particle yields"
+description: 'Ratio of particle yields in central Cu+Cu and midcentral Au+Au collisions when $\langle N_{part} \rangle = 99$ in each case for $|y| < 0.5$. $\pi$ yields are from elsewhere [17]. Boxed uncertainties are from the Glauber calculations and are correlated for every particle. $\langle N_{part>1} \rangle$ refers to the parameterization shown by eq. 1, while the EPOS and AMPT models are described in the text. The default settings are used for each model. The vertical lines show the remaining independent statistical and systematic uncertainties.'
+keywords:
+ - {name: reactions, values: [AU AU --> NEUTRAL X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 3
+data_file: fig4.yaml

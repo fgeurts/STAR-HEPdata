@@ -1,0 +1,33 @@
+independent_variables:
+- header: {name: 'Particle'}
+  values:
+  - {value: Pion}
+  - {value: K0Short}
+  - {value: Lambda}
+  - {value: Xi}
+  - {value: Omega}
+dependent_variables:
+- header: {name: 'Ratio'}
+  qualifiers:
+  - {name: 'Particle', value: 'Ratio of particle yields in central Cu+Cu and midcentral Au+Au collisions'}
+  values:
+  - value: 1.244e+00
+    errors:
+    - {symerror: 8.705e-02, label: 'Uncorrelated Error'}
+    - {symerror: 6.218e-02, label: 'Correlated Error'}
+  - value: 1.287e+00
+    errors:
+    - {symerror: 1.096e-01, label: 'Uncorrelated Error'}
+    - {symerror: 6.434e-02, label: 'Correlated Error'}
+  - value: 1.314e+00
+    errors:
+    - {symerror: 1.140e-01, label: 'Uncorrelated Error'}
+    - {symerror: 6.572e-02, label: 'Correlated Error'}
+  - value: 1.457e+00
+    errors:
+    - {symerror: 1.826e-01, label: 'Uncorrelated Error'}
+    - {symerror: 7.285e-02, label: 'Correlated Error'}
+  - value: 1.349e+00
+    errors:
+    - {symerror: 1.838e-01, label: 'Uncorrelated Error'}
+    - {symerror: 6.744e-02, label: 'Correlated Error'}
