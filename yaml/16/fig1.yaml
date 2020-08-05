@@ -1,0 +1,692 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 0.20, high: 0.30}
+  - {low: 0.30, high: 0.40}
+  - {low: 0.40, high: 0.50}
+  - {low: 0.50, high: 0.60}
+  - {low: 0.60, high: 0.70}
+  - {low: 0.70, high: 0.80}
+  - {low: 0.80, high: 0.90}
+  - {low: 0.90, high: 1.00}
+  - {low: 1.00, high: 1.10}
+  - {low: 1.10, high: 1.20}
+  - {low: 1.20, high: 1.30}
+  - {low: 1.30, high: 1.40}
+  - {low: 1.40, high: 1.50}
+  - {low: 1.50, high: 1.60}
+  - {low: 1.60, high: 1.70}
+  - {low: 1.70, high: 1.80}
+  - {low: 1.80, high: 1.90}
+  - {low: 1.90, high: 2.00}
+  - {low: 2.00, high: 2.10}
+  - {low: 2.10, high: 2.20}
+  - {low: 2.20, high: 2.30}
+  - {low: 2.30, high: 2.40}
+  - {low: 2.40, high: 2.60}
+  - {low: 2.60, high: 2.80}
+  - {low: 2.80, high: 3.00}
+  - {low: 3.00, high: 3.35}
+  - {low: 3.35, high: 3.80}
+  - {low: 3.80, high: 4.40}
+  - {low: 4.40, high: 5.10}
+  - {low: 5.10, high: 6.00}
+dependent_variables:
+- header: {name: '$1/(2\pi p_T) d^2N/dp_Td\eta[(GeV/c)-2]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au $(h^+ + h^-)/2$ $0-5\%$'}
+  values:
+  - value: 283
+    errors:
+    - {symerror: 53, label: 'Stat+Sys error'}
+  - value: 178
+    errors:
+    - {symerror: 15, label: 'Stat+Sys error'}
+  - value: 114.8
+    errors:
+    - {symerror: 9.7, label: 'Stat+Sys error'}
+  - value: 75.5
+    errors:
+    - {symerror: 5.9, label: 'Stat+Sys error'}
+  - value: 50.8
+    errors:
+    - {symerror: 3.8, label: 'Stat+Sys error'}
+  - value: 34.2
+    errors:
+    - {symerror: 2.5, label: 'Stat+Sys error'}
+  - value: 23.4
+    errors:
+    - {symerror: 1.7, label: 'Stat+Sys error'}
+  - value: 16.0
+    errors:
+    - {symerror: 1.1, label: 'Stat+Sys error'}
+  - value: 11.2
+    errors:
+    - {symerror: 0.8, label: 'Stat+Sys error'}
+  - value: 7.8
+    errors:
+    - {symerror: 0.5, label: 'Stat+Sys error'}
+  - value: 5.5
+    errors:
+    - {symerror: 0.4, label: 'Stat+Sys error'}
+  - value: 4.0
+    errors:
+    - {symerror: 0.3, label: 'Stat+Sys error'}
+  - value: 2.8
+    errors:
+    - {symerror: 0.2, label: 'Stat+Sys error'}
+  - value: 2.0
+    errors:
+    - {symerror: 0.1, label: 'Stat+Sys error'}
+  - value: 1.4
+    errors:
+    - {symerror: 0.1, label: 'Stat+Sys error'}
+  - value: 1.1
+    errors:
+    - {symerror: 0.1, label: 'Stat+Sys error'}
+  - value: 0.77
+    errors:
+    - {symerror: 0.07, label: 'Stat+Sys error'}
+  - value: 0.57
+    errors:
+    - {symerror: 0.06, label: 'Stat+Sys error'}
+  - value: 0.41
+    errors:
+    - {symerror: 0.04, label: 'Stat+Sys error'}
+  - value: 0.30
+    errors:
+    - {symerror: 0.03, label: 'Stat+Sys error'}
+  - value: 0.21
+    errors:
+    - {symerror: 0.02, label: 'Stat+Sys error'}
+  - value: 0.16
+    errors:
+    - {symerror: 0.02, label: 'Stat+Sys error'}
+  - value: 0.10
+    errors:
+    - {symerror: 0.01, label: 'Stat+Sys error'}
+  - value: 0.053
+    errors:
+    - {symerror: 0.007, label: 'Stat+Sys error'}
+  - value: 0.030
+    errors:
+    - {symerror: 0.005, label: 'Stat+Sys error'}
+  - value: 0.014
+    errors:
+    - {symerror: 0.003, label: 'Stat+Sys error'}
+  - value: 0.005
+    errors:
+    - {symerror: 0.001, label: 'Stat+Sys error'}
+  - value: 0.0013
+    errors:
+    - {symerror: 0.0003, label: 'Stat+Sys error'}
+  - value: 0.00033
+    errors:
+    - {symerror: 0.00009, label: 'Stat+Sys error'}
+  - value: 0.00007
+    errors:
+    - {symerror: 0.00002, label: 'Stat+Sys error'}
+- header: {name: '$1/(2\pi p_T) d^2N/dp_Td\eta[(GeV/c)-2]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au $(h^+ + h^-)/2$ $5-10\%$'}
+  values:
+  - value: 228
+    errors:
+    - {symerror: 40, label: 'Stat+Sys error'}
+  - value: 144
+    errors:
+    - {symerror: 12, label: 'Stat+Sys error'}
+  - value: 92.4
+    errors:
+    - {symerror: 7.4, label: 'Stat+Sys error'}
+  - value: 60.4
+    errors:
+    - {symerror: 4.5, label: 'Stat+Sys error'}
+  - value: 40.3
+    errors:
+    - {symerror: 3.0, label: 'Stat+Sys error'}
+  - value: 27.4
+    errors:
+    - {symerror: 1.9, label: 'Stat+Sys error'}
+  - value: 18.5
+    errors:
+    - {symerror: 1.3, label: 'Stat+Sys error'}
+  - value: 12.7
+    errors:
+    - {symerror: 0.9, label: 'Stat+Sys error'}
+  - value: 8.8
+    errors:
+    - {symerror: 0.6, label: 'Stat+Sys error'}
+  - value: 6.3
+    errors:
+    - {symerror: 0.4, label: 'Stat+Sys error'}
+  - value: 4.4
+    errors:
+    - {symerror: 0.3, label: 'Stat+Sys error'}
+  - value: 3.1
+    errors:
+    - {symerror: 0.2, label: 'Stat+Sys error'}
+  - value: 2.2
+    errors:
+    - {symerror: 0.2, label: 'Stat+Sys error'}
+  - value: 1.6
+    errors:
+    - {symerror: 0.1, label: 'Stat+Sys error'}
+  - value: 1.15
+    errors:
+    - {symerror: 0.08, label: 'Stat+Sys error'}
+  - value: 0.86
+    errors:
+    - {symerror: 0.08, label: 'Stat+Sys error'}
+  - value: 0.61
+    errors:
+    - {symerror: 0.05, label: 'Stat+Sys error'}
+  - value: 0.44
+    errors:
+    - {symerror: 0.04, label: 'Stat+Sys error'}
+  - value: 0.33
+    errors:
+    - {symerror: 0.03, label: 'Stat+Sys error'}
+  - value: 0.24
+    errors:
+    - {symerror: 0.02, label: 'Stat+Sys error'}
+  - value: 0.18
+    errors:
+    - {symerror: 0.02, label: 'Stat+Sys error'}
+  - value: 0.13
+    errors:
+    - {symerror: 0.01, label: 'Stat+Sys error'}
+  - value: 0.081
+    errors:
+    - {symerror: 0.009, label: 'Stat+Sys error'}
+  - value: 0.044
+    errors:
+    - {symerror: 0.006, label: 'Stat+Sys error'}
+  - value: 0.024
+    errors:
+    - {symerror: 0.004, label: 'Stat+Sys error'}
+  - value: 0.011
+    errors:
+    - {symerror: 0.002, label: 'Stat+Sys error'}
+  - value: 0.0041
+    errors:
+    - {symerror: 0.0009, label: 'Stat+Sys error'}
+  - value: 0.0012
+    errors:
+    - {symerror: 0.0003, label: 'Stat+Sys error'}
+  - value: 0.00030
+    errors:
+    - {symerror: 0.00008, label: 'Stat+Sys error'}
+  - value: 0.00006
+    errors:
+    - {symerror: 0.00002, label: 'Stat+Sys error'}
+- header: {name: '$1/(2\pi p_T) d^2N/dp_Td\eta[(GeV/c)-2]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au $(h^+ + h^-)/2$ $10-20\%$'}
+  values:
+  - value: 175
+    errors:
+    - {symerror: 28, label: 'Stat+Sys error'}
+  - value: 110.3
+    errors:
+    - {symerror: 9.3, label: 'Stat+Sys error'}
+  - value: 70.1
+    errors:
+    - {symerror: 5.4, label: 'Stat+Sys error'}
+  - value: 45.8
+    errors:
+    - {symerror: 3.3, label: 'Stat+Sys error'}
+  - value: 30.4
+    errors:
+    - {symerror: 2.1, label: 'Stat+Sys error'}
+  - value: 20.5
+    errors:
+    - {symerror: 1.4, label: 'Stat+Sys error'}
+  - value: 13.9
+    errors:
+    - {symerror: 1.0, label: 'Stat+Sys error'}
+  - value: 9.5
+    errors:
+    - {symerror: 0.7, label: 'Stat+Sys error'}
+  - value: 6.7
+    errors:
+    - {symerror: 0.5, label: 'Stat+Sys error'}
+  - value: 4.7
+    errors:
+    - {symerror: 0.3, label: 'Stat+Sys error'}
+  - value: 3.3
+    errors:
+    - {symerror: 0.2, label: 'Stat+Sys error'}
+  - value: 2.4
+    errors:
+    - {symerror: 0.2, label: 'Stat+Sys error'}
+  - value: 1.7
+    errors:
+    - {symerror: 0.1, label: 'Stat+Sys error'}
+  - value: 1.21
+    errors:
+    - {symerror: 0.08, label: 'Stat+Sys error'}
+  - value: 0.86
+    errors:
+    - {symerror: 0.06, label: 'Stat+Sys error'}
+  - value: 0.63
+    errors:
+    - {symerror: 0.05, label: 'Stat+Sys error'}
+  - value: 0.45
+    errors:
+    - {symerror: 0.04, label: 'Stat+Sys error'}
+  - value: 0.34
+    errors:
+    - {symerror: 0.03, label: 'Stat+Sys error'}
+  - value: 0.24
+    errors:
+    - {symerror: 0.02, label: 'Stat+Sys error'}
+  - value: 0.18
+    errors:
+    - {symerror: 0.01, label: 'Stat+Sys error'}
+  - value: 0.13
+    errors:
+    - {symerror: 0.01, label: 'Stat+Sys error'}
+  - value: 0.096
+    errors:
+    - {symerror: 0.009, label: 'Stat+Sys error'}
+  - value: 0.061
+    errors:
+    - {symerror: 0.006, label: 'Stat+Sys error'}
+  - value: 0.034
+    errors:
+    - {symerror: 0.004, label: 'Stat+Sys error'}
+  - value: 0.019
+    errors:
+    - {symerror: 0.003, label: 'Stat+Sys error'}
+  - value: 0.009
+    errors:
+    - {symerror: 0.002, label: 'Stat+Sys error'}
+  - value: 0.0033
+    errors:
+    - {symerror: 0.0007, label: 'Stat+Sys error'}
+  - value: 0.0010
+    errors:
+    - {symerror: 0.0002, label: 'Stat+Sys error'}
+  - value: 0.00028
+    errors:
+    - {symerror: 0.00008, label: 'Stat+Sys error'}
+  - value: 0.00005
+    errors:
+    - {symerror: 0.00002, label: 'Stat+Sys error'}
+- header: {name: '$1/(2\pi p_T) d^2N/dp_Td\eta[(GeV/c)-2]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au $(h^+ + h^-)/2$ $20-30\%$'}
+  values:
+  - value: 122
+    errors:
+    - {symerror: 18, label: 'Stat+Sys error'}
+  - value: 75.1
+    errors:
+    - {symerror: 6.7, label: 'Stat+Sys error'}
+  - value: 47.4
+    errors:
+    - {symerror: 3.5, label: 'Stat+Sys error'}
+  - value: 30.9
+    errors:
+    - {symerror: 2.2, label: 'Stat+Sys error'}
+  - value: 20.5
+    errors:
+    - {symerror: 1.4, label: 'Stat+Sys error'}
+  - value: 13.8
+    errors:
+    - {symerror: 1.0, label: 'Stat+Sys error'}
+  - value: 9.4
+    errors:
+    - {symerror: 0.7, label: 'Stat+Sys error'}
+  - value: 6.4
+    errors:
+    - {symerror: 0.4, label: 'Stat+Sys error'}
+  - value: 4.4
+    errors:
+    - {symerror: 0.3, label: 'Stat+Sys error'}
+  - value: 3.1
+    errors:
+    - {symerror: 0.2, label: 'Stat+Sys error'}
+  - value: 2.2
+    errors:
+    - {symerror: 0.2, label: 'Stat+Sys error'}
+  - value: 1.5
+    errors:
+    - {symerror: 0.1, label: 'Stat+Sys error'}
+  - value: 1.09
+    errors:
+    - {symerror: 0.08, label: 'Stat+Sys error'}
+  - value: 0.78
+    errors:
+    - {symerror: 0.05, label: 'Stat+Sys error'}
+  - value: 0.57
+    errors:
+    - {symerror: 0.04, label: 'Stat+Sys error'}
+  - value: 0.42
+    errors:
+    - {symerror: 0.03, label: 'Stat+Sys error'}
+  - value: 0.29
+    errors:
+    - {symerror: 0.02, label: 'Stat+Sys error'}
+  - value: 0.22
+    errors:
+    - {symerror: 0.02, label: 'Stat+Sys error'}
+  - value: 0.16
+    errors:
+    - {symerror: 0.01, label: 'Stat+Sys error'}
+  - value: 0.120
+    errors:
+    - {symerror: 0.010, label: 'Stat+Sys error'}
+  - value: 0.087
+    errors:
+    - {symerror: 0.007, label: 'Stat+Sys error'}
+  - value: 0.064
+    errors:
+    - {symerror: 0.006, label: 'Stat+Sys error'}
+  - value: 0.042
+    errors:
+    - {symerror: 0.004, label: 'Stat+Sys error'}
+  - value: 0.024
+    errors:
+    - {symerror: 0.002, label: 'Stat+Sys error'}
+  - value: 0.013
+    errors:
+    - {symerror: 0.002, label: 'Stat+Sys error'}
+  - value: 0.007
+    errors:
+    - {symerror: 0.001, label: 'Stat+Sys error'}
+  - value: 0.0024
+    errors:
+    - {symerror: 0.0005, label: 'Stat+Sys error'}
+  - value: 0.0007
+    errors:
+    - {symerror: 0.0002, label: 'Stat+Sys error'}
+  - value: 0.00021
+    errors:
+    - {symerror: 0.00006, label: 'Stat+Sys error'}
+  - value: 0.00005
+    errors:
+    - {symerror: 0.00001, label: 'Stat+Sys error'}
+- header: {name: '$1/(2\pi p_T) d^2N/dp_Td\eta[(GeV/c)-2]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au $(h^+ + h^-)/2$ $30-40\%$'}
+  values:
+  - value: 82
+    errors:
+    - {symerror: 11, label: 'Stat+Sys error'}
+  - value: 50.1
+    errors:
+    - {symerror: 4.6, label: 'Stat+Sys error'}
+  - value: 31.1
+    errors:
+    - {symerror: 2.2, label: 'Stat+Sys error'}
+  - value: 20.3
+    errors:
+    - {symerror: 1.4, label: 'Stat+Sys error'}
+  - value: 13.3
+    errors:
+    - {symerror: 0.9, label: 'Stat+Sys error'}
+  - value: 8.9
+    errors:
+    - {symerror: 0.6, label: 'Stat+Sys error'}
+  - value: 6.0
+    errors:
+    - {symerror: 0.4, label: 'Stat+Sys error'}
+  - value: 4.1
+    errors:
+    - {symerror: 0.3, label: 'Stat+Sys error'}
+  - value: 2.9
+    errors:
+    - {symerror: 0.2, label: 'Stat+Sys error'}
+  - value: 2.0
+    errors:
+    - {symerror: 0.1, label: 'Stat+Sys error'}
+  - value: 1.35
+    errors:
+    - {symerror: 0.09, label: 'Stat+Sys error'}
+  - value: 0.99
+    errors:
+    - {symerror: 0.07, label: 'Stat+Sys error'}
+  - value: 0.70
+    errors:
+    - {symerror: 0.05, label: 'Stat+Sys error'}
+  - value: 0.49
+    errors:
+    - {symerror: 0.03, label: 'Stat+Sys error'}
+  - value: 0.35
+    errors:
+    - {symerror: 0.02, label: 'Stat+Sys error'}
+  - value: 0.25
+    errors:
+    - {symerror: 0.02, label: 'Stat+Sys error'}
+  - value: 0.18
+    errors:
+    - {symerror: 0.01, label: 'Stat+Sys error'}
+  - value: 0.14
+    errors:
+    - {symerror: 0.01, label: 'Stat+Sys error'}
+  - value: 0.098
+    errors:
+    - {symerror: 0.008, label: 'Stat+Sys error'}
+  - value: 0.077
+    errors:
+    - {symerror: 0.006, label: 'Stat+Sys error'}
+  - value: 0.053
+    errors:
+    - {symerror: 0.005, label: 'Stat+Sys error'}
+  - value: 0.040
+    errors:
+    - {symerror: 0.004, label: 'Stat+Sys error'}
+  - value: 0.026
+    errors:
+    - {symerror: 0.002, label: 'Stat+Sys error'}
+  - value: 0.015
+    errors:
+    - {symerror: 0.001, label: 'Stat+Sys error'}
+  - value: 0.008
+    errors:
+    - {symerror: 0.001, label: 'Stat+Sys error'}
+  - value: 0.0041
+    errors:
+    - {symerror: 0.0006, label: 'Stat+Sys error'}
+  - value: 0.0014
+    errors:
+    - {symerror: 0.0003, label: 'Stat+Sys error'}
+  - value: 0.0004
+    errors:
+    - {symerror: 0.0001, label: 'Stat+Sys error'}
+  - value: 0.00012
+    errors:
+    - {symerror: 0.00003, label: 'Stat+Sys error'}
+  - value: 0.000031
+    errors:
+    - {symerror: 0.000010, label: 'Stat+Sys error'}
+- header: {name: '$1/(2\pi p_T) d^2N/dp_Td\eta[(GeV/c)-2]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au $(h^+ + h^-)/2$ $40-60\%$'}
+  values:
+  - value: 42.2
+    errors:
+    - {symerror: 3.9, label: 'Stat+Sys error'}
+  - value: 25.6
+    errors:
+    - {symerror: 1.9, label: 'Stat+Sys error'}
+  - value: 15.7
+    errors:
+    - {symerror: 1.1, label: 'Stat+Sys error'}
+  - value: 10.0
+    errors:
+    - {symerror: 0.7, label: 'Stat+Sys error'}
+  - value: 6.5
+    errors:
+    - {symerror: 0.5, label: 'Stat+Sys error'}
+  - value: 4.3
+    errors:
+    - {symerror: 0.3, label: 'Stat+Sys error'}
+  - value: 2.8
+    errors:
+    - {symerror: 0.2, label: 'Stat+Sys error'}
+  - value: 1.9
+    errors:
+    - {symerror: 0.1, label: 'Stat+Sys error'}
+  - value: 1.32
+    errors:
+    - {symerror: 0.09, label: 'Stat+Sys error'}
+  - value: 0.91
+    errors:
+    - {symerror: 0.06, label: 'Stat+Sys error'}
+  - value: 0.64
+    errors:
+    - {symerror: 0.04, label: 'Stat+Sys error'}
+  - value: 0.45
+    errors:
+    - {symerror: 0.03, label: 'Stat+Sys error'}
+  - value: 0.32
+    errors:
+    - {symerror: 0.02, label: 'Stat+Sys error'}
+  - value: 0.22
+    errors:
+    - {symerror: 0.02, label: 'Stat+Sys error'}
+  - value: 0.15
+    errors:
+    - {symerror: 0.01, label: 'Stat+Sys error'}
+  - value: 0.118
+    errors:
+    - {symerror: 0.009, label: 'Stat+Sys error'}
+  - value: 0.084
+    errors:
+    - {symerror: 0.006, label: 'Stat+Sys error'}
+  - value: 0.061
+    errors:
+    - {symerror: 0.005, label: 'Stat+Sys error'}
+  - value: 0.047
+    errors:
+    - {symerror: 0.004, label: 'Stat+Sys error'}
+  - value: 0.033
+    errors:
+    - {symerror: 0.003, label: 'Stat+Sys error'}
+  - value: 0.024
+    errors:
+    - {symerror: 0.002, label: 'Stat+Sys error'}
+  - value: 0.019
+    errors:
+    - {symerror: 0.002, label: 'Stat+Sys error'}
+  - value: 0.012
+    errors:
+    - {symerror: 0.001, label: 'Stat+Sys error'}
+  - value: 0.0071
+    errors:
+    - {symerror: 0.0006, label: 'Stat+Sys error'}
+  - value: 0.0040
+    errors:
+    - {symerror: 0.0005, label: 'Stat+Sys error'}
+  - value: 0.0022
+    errors:
+    - {symerror: 0.0003, label: 'Stat+Sys error'}
+  - value: 0.0008
+    errors:
+    - {symerror: 0.0001, label: 'Stat+Sys error'}
+  - value: 0.00026
+    errors:
+    - {symerror: 0.00005, label: 'Stat+Sys error'}
+  - value: 0.00007
+    errors:
+    - {symerror: 0.00002, label: 'Stat+Sys error'}
+  - value: 0.000017
+    errors:
+    - {symerror: 0.000005, label: 'Stat+Sys error'}
+- header: {name: '$1/(2\pi p_T) d^2N/dp_Td\eta[(GeV/c)-2]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au $(h^+ + h^-)/2$ $60-80\%$'}
+  values:
+  - value: 12.9
+    errors:
+    - {symerror: 1.2, label: 'Stat+Sys error'}
+  - value: 7.7
+    errors:
+    - {symerror: 0.6, label: 'Stat+Sys error'}
+  - value: 4.6
+    errors:
+    - {symerror: 0.3, label: 'Stat+Sys error'}
+  - value: 2.8
+    errors:
+    - {symerror: 0.2, label: 'Stat+Sys error'}
+  - value: 1.8
+    errors:
+    - {symerror: 0.1, label: 'Stat+Sys error'}
+  - value: 1.17
+    errors:
+    - {symerror: 0.08, label: 'Stat+Sys error'}
+  - value: 0.76
+    errors:
+    - {symerror: 0.05, label: 'Stat+Sys error'}
+  - value: 0.49
+    errors:
+    - {symerror: 0.03, label: 'Stat+Sys error'}
+  - value: 0.33
+    errors:
+    - {symerror: 0.02, label: 'Stat+Sys error'}
+  - value: 0.22
+    errors:
+    - {symerror: 0.02, label: 'Stat+Sys error'}
+  - value: 0.15
+    errors:
+    - {symerror: 0.01, label: 'Stat+Sys error'}
+  - value: 0.109
+    errors:
+    - {symerror: 0.008, label: 'Stat+Sys error'}
+  - value: 0.074
+    errors:
+    - {symerror: 0.005, label: 'Stat+Sys error'}
+  - value: 0.052
+    errors:
+    - {symerror: 0.004, label: 'Stat+Sys error'}
+  - value: 0.036
+    errors:
+    - {symerror: 0.003, label: 'Stat+Sys error'}
+  - value: 0.028
+    errors:
+    - {symerror: 0.002, label: 'Stat+Sys error'}
+  - value: 0.020
+    errors:
+    - {symerror: 0.002, label: 'Stat+Sys error'}
+  - value: 0.015
+    errors:
+    - {symerror: 0.001, label: 'Stat+Sys error'}
+  - value: 0.0108
+    errors:
+    - {symerror: 0.0009, label: 'Stat+Sys error'}
+  - value: 0.0074
+    errors:
+    - {symerror: 0.0007, label: 'Stat+Sys error'}
+  - value: 0.0058
+    errors:
+    - {symerror: 0.0006, label: 'Stat+Sys error'}
+  - value: 0.0045
+    errors:
+    - {symerror: 0.0004, label: 'Stat+Sys error'}
+  - value: 0.0030
+    errors:
+    - {symerror: 0.0003, label: 'Stat+Sys error'}
+  - value: 0.0017
+    errors:
+    - {symerror: 0.0002, label: 'Stat+Sys error'}
+  - value: 0.0011
+    errors:
+    - {symerror: 0.0001, label: 'Stat+Sys error'}
+  - value: 0.00050
+    errors:
+    - {symerror: 0.00007, label: 'Stat+Sys error'}
+  - value: 0.00020
+    errors:
+    - {symerror: 0.00004, label: 'Stat+Sys error'}
+  - value: 0.00007
+    errors:
+    - {symerror: 0.00001, label: 'Stat+Sys error'}
+  - value: 0.000020
+    errors:
+    - {symerror: 0.000005, label: 'Stat+Sys error'}
+  - value: 0.000005
+    errors:
+    - {symerror: 0.000002, label: 'Stat+Sys error'}

@@ -1,0 +1,85 @@
+independent_variables:
+- header: {name: 'Centrality'}
+  values:
+  - {low: 40, high: 60}
+  - {low: 30, high: 40}
+  - {low: 20, high: 30}
+  - {low: 10, high: 20}
+  - {low: 0, high: 10}
+dependent_variables:
+- header: {name: 'Strangeness Enhancement'}
+  qualifiers:
+  - {name: 'Centrality', value: 'Cu+Cu $K^0_S$'}
+  values:
+  - value: 2.176e+00
+    errors:
+    - {symerror: 2.238e-01, label: 'Stat+Sys error'}
+  - value: 2.338e+00
+    errors:
+    - {symerror: 1.750e-01, label: 'Stat+Sys error'}
+  - value: 2.527e+00
+    errors:
+    - {symerror: 1.724e-01, label: 'Stat+Sys error'}
+  - value: 2.749e+00
+    errors:
+    - {symerror: 1.901e-01, label: 'Stat+Sys error'}
+  - value: 2.934e+00
+    errors:
+    - {symerror: 2.207e-01, label: 'Stat+Sys error'}
+- header: {name: 'Strangeness Enhancement'}
+  qualifiers:
+  - {name: 'Centrality', value: 'Cu+Cu $\Lambda+\bar{\Lambda}$'}
+  values:
+  - value: 2.338e+00
+    errors:
+    - {symerror: 2.296e-01, label: 'Stat+Sys error'}
+  - value: 2.581e+00
+    errors:
+    - {symerror: 2.501e-01, label: 'Stat+Sys error'}
+  - value: 2.751e+00
+    errors:
+    - {symerror: 2.658e-01, label: 'Stat+Sys error'}
+  - value: 2.960e+00
+    errors:
+    - {symerror: 2.858e-01, label: 'Stat+Sys error'}
+  - value: 3.258e+00
+    errors:
+    - {symerror: 3.154e-01, label: 'Stat+Sys error'}
+- header: {name: 'Strangeness Enhancement'}
+  qualifiers:
+  - {name: 'Centrality', value: 'Cu+Cu $\Xi+\bar{\Xi}$'}
+  values:
+  - value: 3.468e+00
+    errors:
+    - {symerror: 4.442e-01, label: 'Stat+Sys error'}
+  - value: 4.239e+00
+    errors:
+    - {symerror: 6.068e-01, label: 'Stat+Sys error'}
+  - value: 4.122e+00
+    errors:
+    - {symerror: 5.227e-01, label: 'Stat+Sys error'}
+  - value: 4.541e+00
+    errors:
+    - {symerror: 5.471e-01, label: 'Stat+Sys error'}
+  - value: 5.844e+00
+    errors:
+    - {symerror: 6.996e-01, label: 'Stat+Sys error'}
+- header: {name: 'Strangeness Enhancement'}
+  qualifiers:
+  - {name: 'Centrality', value: 'Cu+Cu $\Omega+\bar{\Omega}$'}
+  values:
+  - value: 5.731e+00
+    errors:
+    - {symerror: 8.021e-01, label: 'Stat+Sys error'}
+  - value: 9.879e+00
+    errors:
+    - {symerror: 1.321e+00, label: 'Stat+Sys error'}
+  - value: 1.048e+01
+    errors:
+    - {symerror: 1.065e+00, label: 'Stat+Sys error'}
+  - value: 1.174e+01
+    errors:
+    - {symerror: 1.149e+00, label: 'Stat+Sys error'}
+  - value: 1.173e+01
+    errors:
+    - {symerror: 1.270e+00, label: 'Stat+Sys error'}

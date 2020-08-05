@@ -1,0 +1,20 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 0.999, high: 1.625}
+  - {low: 1.625, high: 2.251}
+  - {low: 2.251, high: 2.873}
+dependent_variables:
+- header: {name: '$d^2N/dydp_T$ mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au $\Omega+\bar{\Omega}$'}
+  values:
+  - value: 5.420e-04
+    errors:
+    - {symerror: 1.069e-04, label: 'Stat+Sys error'}
+  - value: 3.237e-04
+    errors:
+    - {symerror: 3.727e-05, label: 'Stat+Sys error'}
+  - value: 1.168e-04
+    errors:
+    - {symerror: 1.474e-05, label: 'Stat+Sys error'}

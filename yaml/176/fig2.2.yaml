@@ -1,0 +1,36 @@
+independent_variables:
+- header: {name: '$p_T$'}
+  values:
+  - {low: 0.75, high: 1}
+  - {low: 1, high: 1.25}
+  - {low: 1.25, high: 1.5}
+  - {low: 1.5, high: 1.75}
+  - {low: 1.75, high: 2}
+  - {low: 2, high: 2.5}
+  - {low: 2.5, high: 3}
+dependent_variables:
+- header: {name: '$d^2N/dydp_T$ mass spectra'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Cu+Cu $\Xi+\bar{\Xi}$'}
+  values:
+  - value: 8.471e-03
+    errors:
+    - {symerror: 1.103e-03, label: 'Stat+Sys error'}
+  - value: 6.744e-03
+    errors:
+    - {symerror: 6.029e-04, label: 'Stat+Sys error'}
+  - value: 5.914e-03
+    errors:
+    - {symerror: 4.708e-04, label: 'Stat+Sys error'}
+  - value: 4.018e-03
+    errors:
+    - {symerror: 2.913e-04, label: 'Stat+Sys error'}
+  - value: 2.711e-03
+    errors:
+    - {symerror: 1.872e-04, label: 'Stat+Sys error'}
+  - value: 1.328e-03
+    errors:
+    - {symerror: 8.112e-05, label: 'Stat+Sys error'}
+  - value: 4.627e-04
+    errors:
+    - {symerror: 2.745e-05, label: 'Stat+Sys error'}
