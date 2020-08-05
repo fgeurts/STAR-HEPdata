@@ -1,0 +1,168 @@
+independent_variables:
+- header: {name: '% cross section'}
+  values:
+  - {low: 0, high: 5}
+  - {low: 5, high: 10}
+  - {low: 10, high: 20}
+  - {low: 20, high: 30}
+  - {low: 30, high: 40}
+  - {low: 40, high: 50}
+  - {low: 50, high: 60}
+  - {low: 60, high: 70}
+  - {low: 70, high: 80}
+dependent_variables:
+- header: {name: '{Npart}'}
+  qualifiers:
+  - {name: 'energy', value: '7.7 GeV'}
+  values:
+  - value: 337
+    errors:
+    - {symerror: 2, label: 'error'}
+  - value: 290
+    errors:
+    - {symerror: 6, label: 'error'}
+  - value: 226
+    errors:
+    - {symerror: 8, label: 'error'}
+  - value: 160
+    errors:
+    - {symerror: 10, label: 'error'}
+  - value: 110
+    errors:
+    - {symerror: 11, label: 'error'}
+  - value: 72
+    errors:
+    - {symerror: 10, label: 'error'}
+  - value: 45
+    errors:
+    - {symerror: 9, label: 'error'}
+  - value: 26
+    errors:
+    - {symerror: 7, label: 'error'}
+  - value: 14
+    errors:
+    - {symerror: 4, label: 'error'}
+- header: {name: '{Npart}'}
+  qualifiers:
+  - {name: 'energy', value: '11.5 GeV'}
+  values:
+  - value: 338
+    errors:
+    - {symerror: 2, label: 'error'}
+  - value: 291
+    errors:
+    - {symerror: 6, label: 'error'}
+  - value: 226
+    errors:
+    - {symerror: 8, label: 'error'}
+  - value: 160
+    errors:
+    - {symerror: 9, label: 'error'}
+  - value: 110
+    errors:
+    - {symerror: 10, label: 'error'}
+  - value: 73
+    errors:
+    - {symerror: 10, label: 'error'}
+  - value: 45
+    errors:
+    - {symerror: 9, label: 'error'}
+  - value: 26
+    errors:
+    - {symerror: 7, label: 'error'}
+  - value: 14
+    errors:
+    - {symerror: 5, label: 'error'}
+- header: {name: '{Npart}'}
+  qualifiers:
+  - {name: 'energy', value: '19.6 GeV'}
+  values:
+  - value: 338
+    errors:
+    - {symerror: 2, label: 'error'}
+  - value: 289
+    errors:
+    - {symerror: 6, label: 'error'}
+  - value: 225
+    errors:
+    - {symerror: 9, label: 'error'}
+  - value: 158
+    errors:
+    - {symerror: 10, label: 'error'}
+  - value: 108
+    errors:
+    - {symerror: 11, label: 'error'}
+  - value: 71
+    errors:
+    - {symerror: 10, label: 'error'}
+  - value: 44
+    errors:
+    - {symerror: 9, label: 'error'}
+  - value: 26
+    errors:
+    - {symerror: 7, label: 'error'}
+  - value: 14
+    errors:
+    - {symerror: 5, label: 'error'}
+- header: {name: '{Npart}'}
+  qualifiers:
+  - {name: 'energy', value: '27 GeV'}
+  values:
+  - value: 343
+    errors:
+    - {symerror: 2, label: 'error'}
+  - value: 299
+    errors:
+    - {symerror: 6, label: 'error'}
+  - value: 234
+    errors:
+    - {symerror: 9, label: 'error'}
+  - value: 166
+    errors:
+    - {symerror: 11, label: 'error'}
+  - value: 114
+    errors:
+    - {symerror: 11, label: 'error'}
+  - value: 75
+    errors:
+    - {symerror: 10, label: 'error'}
+  - value: 47
+    errors:
+    - {symerror: 9, label: 'error'}
+  - value: 27
+    errors:
+    - {symerror: 8, label: 'error'}
+  - value: 14
+    errors:
+    - {symerror: 6, label: 'error'}
+- header: {name: '{Npart}'}
+  qualifiers:
+  - {name: 'energy', value: '39 GeV'}
+  values:
+  - value: 342
+    errors:
+    - {symerror: 2, label: 'error'}
+  - value: 294
+    errors:
+    - {symerror: 6, label: 'error'}
+  - value: 230
+    errors:
+    - {symerror: 9, label: 'error'}
+  - value: 162
+    errors:
+    - {symerror: 10, label: 'error'}
+  - value: 111
+    errors:
+    - {symerror: 11, label: 'error'}
+  - value: 74
+    errors:
+    - {symerror: 10, label: 'error'}
+  - value: 46
+    errors:
+    - {symerror: 9, label: 'error'}
+  - value: 26
+    errors:
+    - {symerror: 7, label: 'error'}
+  - value: 14
+    errors:
+    - {symerror: 5, label: 'error'}

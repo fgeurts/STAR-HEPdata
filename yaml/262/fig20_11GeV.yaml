@@ -1,0 +1,173 @@
+independent_variables:
+- header: {name: 'Npart'}
+  values:
+  - {value: 338.2}
+  - {value: 290.6}
+  - {value: 226}
+  - {value: 159.6}
+  - {value: 110}
+  - {value: 72.5}
+  - {value: 44.5}
+  - {value: 25.7}
+  - {value: 14.1}
+dependent_variables:
+- header: {name: 'K-/pi-'}
+  qualifiers:
+  - {name: 'energy', value: '11.5 GeV'}
+  values:
+  - value: 0.0951
+    errors:
+    - {symerror: 0.0003, label: 'stat.'}
+    - {symerror: 0.0117, label: 'sys.'}
+  - value: 0.0998
+    errors:
+    - {symerror: 0.0004, label: 'stat.'}
+    - {symerror: 0.0123, label: 'sys.'}
+  - value: 0.0967
+    errors:
+    - {symerror: 0.0003, label: 'stat.'}
+    - {symerror: 0.0119, label: 'sys.'}
+  - value: 0.0943
+    errors:
+    - {symerror: 0.0003, label: 'stat.'}
+    - {symerror: 0.0116, label: 'sys.'}
+  - value: 0.0891
+    errors:
+    - {symerror: 0.0004, label: 'stat.'}
+    - {symerror: 0.011, label: 'sys.'}
+  - value: 0.0882
+    errors:
+    - {symerror: 0.0005, label: 'stat.'}
+    - {symerror: 0.0108, label: 'sys.'}
+  - value: 0.077
+    errors:
+    - {symerror: 0.0006, label: 'stat.'}
+    - {symerror: 0.0095, label: 'sys.'}
+  - value: 0.0671
+    errors:
+    - {symerror: 0.0007, label: 'stat.'}
+    - {symerror: 0.0082, label: 'sys.'}
+  - value: 0.0596
+    errors:
+    - {symerror: 0.0011, label: 'stat.'}
+    - {symerror: 0.0073, label: 'sys.'}
+- header: {name: 'K+/pi+'}
+  qualifiers:
+  - {name: 'energy', value: '11.5 GeV'}
+  values:
+  - value: 0.2018
+    errors:
+    - {symerror: 0.0005, label: 'stat.'}
+    - {symerror: 0.0249, label: 'sys.'}
+  - value: 0.2117
+    errors:
+    - {symerror: 0.0006, label: 'stat.'}
+    - {symerror: 0.0261, label: 'sys.'}
+  - value: 0.2017
+    errors:
+    - {symerror: 0.0005, label: 'stat.'}
+    - {symerror: 0.0248, label: 'sys.'}
+  - value: 0.1943
+    errors:
+    - {symerror: 0.0005, label: 'stat.'}
+    - {symerror: 0.0239, label: 'sys.'}
+  - value: 0.1788
+    errors:
+    - {symerror: 0.0006, label: 'stat.'}
+    - {symerror: 0.022, label: 'sys.'}
+  - value: 0.1733
+    errors:
+    - {symerror: 0.0008, label: 'stat.'}
+    - {symerror: 0.0213, label: 'sys.'}
+  - value: 0.1486
+    errors:
+    - {symerror: 0.0009, label: 'stat.'}
+    - {symerror: 0.0183, label: 'sys.'}
+  - value: 0.1292
+    errors:
+    - {symerror: 0.0011, label: 'stat.'}
+    - {symerror: 0.0159, label: 'sys.'}
+  - value: 0.1161
+    errors:
+    - {symerror: 0.0016, label: 'stat.'}
+    - {symerror: 0.0142, label: 'sys.'}
+- header: {name: 'pbar/pi-'}
+  qualifiers:
+  - {name: 'energy', value: '11.5 GeV'}
+  values:
+  - value: 0.01123
+    errors:
+    - {symerror: 0.00007, label: 'stat.'}
+    - {symerror: 0.00167, label: 'sys.'}
+  - value: 0.01148
+    errors:
+    - {symerror: 0.00008, label: 'stat.'}
+    - {symerror: 0.0017, label: 'sys.'}
+  - value: 0.01228
+    errors:
+    - {symerror: 0.00007, label: 'stat.'}
+    - {symerror: 0.00182, label: 'sys.'}
+  - value: 0.01324
+    errors:
+    - {symerror: 0.00009, label: 'stat.'}
+    - {symerror: 0.00196, label: 'sys.'}
+  - value: 0.01398
+    errors:
+    - {symerror: 0.00011, label: 'stat.'}
+    - {symerror: 0.00207, label: 'sys.'}
+  - value: 0.01491
+    errors:
+    - {symerror: 0.00014, label: 'stat.'}
+    - {symerror: 0.00221, label: 'sys.'}
+  - value: 0.01556
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+    - {symerror: 0.0023, label: 'sys.'}
+  - value: 0.01578
+    errors:
+    - {symerror: 0.00033, label: 'stat.'}
+    - {symerror: 0.00232, label: 'sys.'}
+  - value: 0.0156
+    errors:
+    - {symerror: 0.00053, label: 'stat.'}
+    - {symerror: 0.00226, label: 'sys.'}
+- header: {name: 'proton/pi+'}
+  qualifiers:
+  - {name: 'energy', value: '11.5 GeV'}
+  values:
+  - value: 0.355
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+    - {symerror: 0.05, label: 'sys.'}
+  - value: 0.362
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+    - {symerror: 0.051, label: 'sys.'}
+  - value: 0.356
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+    - {symerror: 0.05, label: 'sys.'}
+  - value: 0.361
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+    - {symerror: 0.05, label: 'sys.'}
+  - value: 0.346
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+    - {symerror: 0.048, label: 'sys.'}
+  - value: 0.342
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+    - {symerror: 0.048, label: 'sys.'}
+  - value: 0.32
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+    - {symerror: 0.045, label: 'sys.'}
+  - value: 0.282
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.039, label: 'sys.'}
+  - value: 0.253
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.035, label: 'sys.'}
