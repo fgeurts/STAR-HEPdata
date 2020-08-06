@@ -1,0 +1,543 @@
+additional_resources:
+- {description: web page with auxiliary material, location: 'https://https://drupal.star.bnl.gov/STAR/files/starpublications/262/data.html'}
+hepdata_doi: 10.17182/hepdata.94313.v1
+---
+data_file: fig12_piminus.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (b) \u03C0-
+  in Au+Au collisions at \u221AsNN = 7.7 GeV for different centralities. The spectra
+  for centralities other than 0\u20135% are scaled for clarity as shown in the figure.
+  The curves represent the Bose-Einstein, mT -exponential, and double-exponential
+  function fits to 0\u20135% central data for pions, kaons, and (anti)protons, respectively.
+  The uncertainties are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [pi- pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 12b
+name: pi- 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig12_piplus.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (a) \u03C0+
+  in Au+Au collisions at \u221AsNN = 7.7 GeV for different centralities. The spectra
+  for centralities other than 0\u20135% are scaled for clarity as shown in the figure.
+  The curves represent the Bose-Einstein, mT -exponential, and double-exponential
+  function fits to 0\u20135% central data for pions, kaons, and (anti)protons, respectively.
+  The uncertainties are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [pi+ pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 12a
+name: pi+ 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig12_kminus.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (d) K\u2212
+  in Au+Au collisions at \u221AsNN = 7.7 GeV for different centralities. The spectra
+  for centralities other than 0\u20135% are scaled for clarity as shown in the figure.
+  The curves represent the Bose-Einstein, mT -exponential, and double-exponential
+  function fits to 0\u20135% central data for pions, kaons, and (anti)protons, respectively.
+  The uncertainties are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [k- pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 12d
+name: k- 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig12_kplus.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (c) K+ in Au+Au
+  collisions at \u221AsNN = 7.7 GeV for different centralities. The spectra for centralities
+  other than 0\u20135% are scaled for clarity as shown in the figure. The curves represent
+  the Bose-Einstein, mT -exponential, and double-exponential function fits to 0\u20135%
+  central data for pions, kaons, and (anti)protons, respectively. The uncertainties
+  are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [k+ pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 12c
+name: k+ 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig12_pbar.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (f) p\xAF in
+  Au+Au collisions at \u221AsNN = 7.7 GeV for different centralities. The spectra
+  for centralities other than 0\u20135% are scaled for clarity as shown in the figure.
+  The curves represent the Bose-Einstein, mT -exponential, and double-exponential
+  function fits to 0\u20135% central data for pions, kaons, and (anti)protons, respectively.
+  The uncertainties are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [pbar pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 12f
+name: pbar 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig12_proton.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (e) p in Au+Au
+  collisions at \u221AsNN = 7.7 GeV for different centralities. The spectra for centralities
+  other than 0\u20135% are scaled for clarity as shown in the figure. The curves represent
+  the Bose-Einstein, mT -exponential, and double-exponential function fits to 0\u20135%
+  central data for pions, kaons, and (anti)protons, respectively. The uncertainties
+  are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [proton pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 12e
+name: proton 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig13_piminus.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (b) \u03C0\u2212
+  in Au+Au collisions at \u221AsNN = 11.5 GeV for different centralities. The spectra
+  for centralities other than 0\u20135% are scaled for clarity as shown in the figure.
+  The curves represent the Bose-Einstein, mT -exponential, and double-exponential
+  function fits to 0\u20135% central data for pions, kaons, and (anti)protons, respectively.
+  The uncertainties are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [pi- pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 13b
+name: pi- 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig13_piplus.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (a) \u03C0+
+  in Au+Au collisions at \u221AsNN = 11.5 GeV for different centralities. The spectra
+  for centralities other than 0\u20135% are scaled for clarity as shown in the figure.
+  The curves represent the Bose-Einstein, mT -exponential, and double-exponential
+  function fits to 0\u20135% central data for pions, kaons, and (anti)protons, respectively.
+  The uncertainties are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [pi+ pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 13a
+name: pi+ 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig13_kminus.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (d) K\u2212
+  in Au+Au collisions at \u221AsNN = 11.5 GeV for different centralities. The spectra
+  for centralities other than 0\u20135% are scaled for clarity as shown in the figure.
+  The curves represent the Bose-Einstein, mT -exponential, and double-exponential
+  function fits to 0\u20135% central data for pions, kaons, and (anti)protons, respectively.
+  The uncertainties are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [k- pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 13d
+name: k- 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig13_kplus.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (c) K+ in Au+Au
+  collisions at \u221AsNN = 11.5 GeV for different centralities. The spectra for centralities
+  other than 0\u20135% are scaled for clarity as shown in the figure. The curves represent
+  the Bose-Einstein, mT -exponential, and double-exponential function fits to 0\u20135%
+  central data for pions, kaons, and (anti)protons, respectively. The uncertainties
+  are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [k+ pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 13c
+name: k+ 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig13_pbar.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (f) p\xAF in
+  Au+Au collisions at \u221AsNN = 11.5 GeV for different centralities. The spectra
+  for centralities other than 0\u20135% are scaled for clarity as shown in the figure.
+  The curves represent the Bose-Einstein, mT -exponential, and double-exponential
+  function fits to 0\u20135% central data for pions, kaons, and (anti)protons, respectively.
+  The uncertainties are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [pbar pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 13f
+name: pbar 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig13_proton.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (e) p in Au+Au
+  collisions at \u221AsNN = 11.5 GeV for different centralities. The spectra for centralities
+  other than 0\u20135% are scaled for clarity as shown in the figure. The curves represent
+  the Bose-Einstein, mT -exponential, and double-exponential function fits to 0\u20135%
+  central data for pions, kaons, and (anti)protons, respectively. The uncertainties
+  are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [proton pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 13e
+name: proton 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig14_piminus.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (b) \u03C0\u2212
+  in Au+Au collisions at \u221AsNN = 19.6 GeV for different centralities. The spectra
+  for centralities other than 0\u20135% are scaled for clarity as shown in the figure.
+  The curves represent the Bose-Einstein, mT -exponential, and double-exponential
+  function fits to 0\u20135% central data for pions, kaons, and (anti)protons, respectively.
+  The uncertainties are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [pi- pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 14b
+name: pi- 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig14_piplus.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (a) \u03C0+
+  in Au+Au collisions at \u221AsNN = 19.6 GeV for different centralities. The spectra
+  for centralities other than 0\u20135% are scaled for clarity as shown in the figure.
+  The curves represent the Bose-Einstein, mT -exponential, and double-exponential
+  function fits to 0\u20135% central data for pions, kaons, and (anti)protons, respectively.
+  The uncertainties are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [pi+ pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 14a
+name: pi+ 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig14_kminus.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (d) K\u2212
+  in Au+Au collisions at \u221AsNN = 19.6 GeV for different centralities. The spectra
+  for centralities other than 0\u20135% are scaled for clarity as shown in the figure.
+  The curves represent the Bose-Einstein, mT -exponential, and double-exponential
+  function fits to 0\u20135% central data for pions, kaons, and (anti)protons, respectively.
+  The uncertainties are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [k- pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 14d
+name: k- 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig14_kplus.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (c) K+ in Au+Au
+  collisions at \u221AsNN = 19.6 GeV for different centralities. The spectra for centralities
+  other than 0\u20135% are scaled for clarity as shown in the figure. The curves represent
+  the Bose-Einstein, mT -exponential, and double-exponential function fits to 0\u20135%
+  central data for pions, kaons, and (anti)protons, respectively. The uncertainties
+  are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [k+ pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 14c
+name: k+ 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig14_pbar.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (f) p\xAF in
+  Au+Au collisions at \u221AsNN = 19.6 GeV for different centralities. The spectra
+  for centralities other than 0\u20135% are scaled for clarity as shown in the figure.
+  The curves represent the Bose-Einstein, mT -exponential, and double-exponential
+  function fits to 0\u20135% central data for pions, kaons, and (anti)protons, respectively.
+  The uncertainties are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [pbar pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 14f
+name: pbar 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig14_proton.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (e) p in Au+Au
+  collisions at \u221AsNN = 19.6 GeV for different centralities. The spectra for centralities
+  other than 0\u20135% are scaled for clarity as shown in the figure. The curves represent
+  the Bose-Einstein, mT -exponential, and double-exponential function fits to 0\u20135%
+  central data for pions, kaons, and (anti)protons, respectively. The uncertainties
+  are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [proton pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 14e
+name: proton 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig15_piminus.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (b) \u03C0\u2212
+  in Au+Au collisions at \u221AsNN = 27 GeV for different centralities. The spectra
+  for centralities other than 0\u20135% are scaled for clarity as shown in the figure.
+  The curves represent the Bose-Einstein, mT -exponential, and double-exponential
+  function fits to 0\u20135% central data for pions, kaons, and (anti)protons, respectively.
+  The uncertainties are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [pi- pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 15b
+name: pi- 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig15_piplus.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (a) \u03C0+
+  in Au+Au collisions at \u221AsNN = 27 GeV for different centralities. The spectra
+  for centralities other than 0\u20135% are scaled for clarity as shown in the figure.
+  The curves represent the Bose-Einstein, mT -exponential, and double-exponential
+  function fits to 0\u20135% central data for pions, kaons, and (anti)protons, respectively.
+  The uncertainties are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [pi+ pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 15a
+name: pi+ 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig15_kminus.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (d) K\u2212
+  in Au+Au collisions at \u221AsNN = 27 GeV for different centralities. The spectra
+  for centralities other than 0\u20135% are scaled for clarity as shown in the figure.
+  The curves represent the Bose-Einstein, mT -exponential, and double-exponential
+  function fits to 0\u20135% central data for pions, kaons, and (anti)protons, respectively.
+  The uncertainties are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [k- pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 15d
+name: k- 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig15_kplus.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (c) K+ in Au+Au
+  collisions at \u221AsNN = 27 GeV for different centralities. The spectra for centralities
+  other than 0\u20135% are scaled for clarity as shown in the figure. The curves represent
+  the Bose-Einstein, mT -exponential, and double-exponential function fits to 0\u20135%
+  central data for pions, kaons, and (anti)protons, respectively. The uncertainties
+  are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [k+ pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 15c
+name: k+ 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig15_pbar.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (f) p\xAF in
+  Au+Au collisions at \u221AsNN = 27 GeV for different centralities. The spectra for
+  centralities other than 0\u20135% are scaled for clarity as shown in the figure.
+  The curves represent the Bose-Einstein, mT -exponential, and double-exponential
+  function fits to 0\u20135% central data for pions, kaons, and (anti)protons, respectively.
+  The uncertainties are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [pbar pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 15f
+name: pbar 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig15_proton.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (e) p in Au+Au
+  collisions at \u221AsNN = 27 GeV for different centralities. The spectra for centralities
+  other than 0\u20135% are scaled for clarity as shown in the figure. The curves represent
+  the Bose-Einstein, mT -exponential, and double-exponential function fits to 0\u20135%
+  central data for pions, kaons, and (anti)protons, respectively. The uncertainties
+  are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [proton pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 15e
+name: proton 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig16_piminus.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (b) \u03C0\u2212
+  in Au+Au collisions at \u221AsNN = 39 GeV for different centralities. The spectra
+  for centralities other than 0\u20135% are scaled for clarity as shown in the figure.
+  The curves represent the Bose-Einstein, mT -exponential, and double-exponential
+  function fits to 0\u20135% central data for pions, kaons, and (anti)protons, respectively.
+  The uncertainties are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [pi- pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 16b
+name: pi- 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig16_piplus.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (a) \u03C0+
+  in Au+Au collisions at \u221AsNN = 39 GeV for different centralities. The spectra
+  for centralities other than 0\u20135% are scaled for clarity as shown in the figure.
+  The curves represent the Bose-Einstein, mT -exponential, and double-exponential
+  function fits to 0\u20135% central data for pions, kaons, and (anti)protons, respectively.
+  The uncertainties are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [pi+ pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 16a
+name: pi+ 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig16_kminus.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (d) k- in Au+Au
+  collisions at \u221AsNN = 39 GeV for different centralities. The spectra for centralities
+  other than 0\u20135% are scaled for clarity as shown in the figure. The curves represent
+  the Bose-Einstein, mT -exponential, and double-exponential function fits to 0\u20135%
+  central data for pions, kaons, and (anti)protons, respectively. The uncertainties
+  are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [k- pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 16d
+name: k- 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig16_kplus.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (c) k+ in Au+Au
+  collisions at \u221AsNN = 39 GeV for different centralities. The spectra for centralities
+  other than 0\u20135% are scaled for clarity as shown in the figure. The curves represent
+  the Bose-Einstein, mT -exponential, and double-exponential function fits to 0\u20135%
+  central data for pions, kaons, and (anti)protons, respectively. The uncertainties
+  are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [k+ pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 16c
+name: k+ 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig16_pbar.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (f) pbar in
+  Au+Au collisions at \u221AsNN = 39 GeV for different centralities. The spectra for
+  centralities other than 0\u20135% are scaled for clarity as shown in the figure.
+  The curves represent the Bose-Einstein, mT -exponential, and double-exponential
+  function fits to 0\u20135% central data for pions, kaons, and (anti)protons, respectively.
+  The uncertainties are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [pbar pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 16f
+name: pbar 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig16_proton.yaml
+description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (e) p in Au+Au
+  collisions at \u221AsNN = 39 GeV for different centralities. The spectra for centralities
+  other than 0\u20135% are scaled for clarity as shown in the figure. The curves represent
+  the Bose-Einstein, mT -exponential, and double-exponential function fits to 0\u20135%
+  central data for pions, kaons, and (anti)protons, respectively. The uncertainties
+  are statistical and systematic added in quadrature.\n"
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [proton pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 16e
+name: proton 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t1
