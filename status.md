@@ -12,3 +12,4 @@
 | x | 248 | Jet-like Correlations with Direct-Photon and Neutral-Pion Triggers at sqrt(sNN)=200GeV | Phys. Lett. B 760 (2016) 689 | https://www.hepdata.net/record/ins1442357
 || 262 | Bulk Properties of the Medium Produced in Relativistic Heavy-Ion Collisions from the Beam Energy Scan Program | Phys. Rev. C 96 (2017) 44904 | 1510593 |
 | o | 297 | Centrality and transverse momentum dependence of D0-meson production at mid-rapidity in Au+Au collisions at sqrt(sNN) = 200 GeV | Phys. Rev. C 99 (2019) 34908 | 1711377 | 
+| R | 329 | Results on Total and Elastic Cross Sections in Proton-Proton Collisions at sqrt(s)=200 GeV" | Phys. Lett. B | 1791591 |
