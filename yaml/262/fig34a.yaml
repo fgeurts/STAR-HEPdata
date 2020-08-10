@@ -1,0 +1,89 @@
+independent_variables:
+- header: {name: 'Npart'}
+  values:
+  - value: 337.4
+  - value: 290.4
+  - value: 226.2
+  - value: 160.2
+  - value: 109.9
+  - value: 58.4
+  - value: 20.2
+dependent_variables:
+- header: {name: 'Tch [MeV]'}
+  qualifiers:
+  - {name: 'muQ = 0'}
+  - {name: 'energy', value: '7.7 GeV'}
+  values:
+  - value: 143.8
+    errors:
+    - {symerror: 2.7, label: 'sys.'}
+  - value: 142.9
+    errors:
+    - {symerror: 2.6, label: 'sys.'}
+  - value: 144.7
+    errors:
+    - {symerror: 2.6, label: 'sys.'}
+  - value: 144.9
+    errors:
+    - {symerror: 2.6, label: 'sys.'}
+  - value: 146.2
+    errors:
+    - {symerror: 2.8, label: 'sys.'}
+  - value: 145.5
+    errors:
+    - {symerror: 2.7, label: 'sys.'}
+  - value: 143.3
+    errors:
+    - {symerror: 2.8, label: 'sys.'}
+- header: {name: 'Tch [MeV]'}
+  qualifiers:
+  - {name: 'constrain muQ'}
+  - {name: 'energy', value: '7.7 GeV'}
+  values:
+  - value: 144.0
+    errors:
+    - {symerror: 2.9, label: 'sys.'}
+  - value: 143.0
+    errors:
+    - {symerror: 1.6, label: 'sys.'}
+  - value: 144.9
+    errors:
+    - {symerror: 2.2, label: 'sys.'}
+  - value: 145.0
+    errors:
+    - {symerror: 1.8, label: 'sys.'}
+  - value: 146.3
+    errors:
+    - {symerror: 3.1, label: 'sys.'}
+  - value: 145.6
+    errors:
+    - {symerror: 2.8, label: 'sys.'}
+  - value: 141.6
+    errors:
+    - {symerror: 2.2, label: 'sys.'}
+- header: {name: 'Tch [MeV]'}
+  qualifiers:
+  - {name: 'constrain muQ, muS'}
+  - {name: 'energy', value: '7.7 GeV'}
+  values:
+  - value: 144.5
+    errors:
+    - {symerror: 2.4 label: 'sys.'}
+  - value: 144.4
+    errors:
+    - {symerror: 2.2, label: 'sys.'}
+  - value: 145.2
+    errors:
+    - {symerror: 2.1, label: 'sys.'}
+  - value: 145.5
+    errors:
+    - {symerror: 2.7, label: 'sys.'}
+  - value: 147.7
+    errors:
+    - {symerror: 2.9, label: 'sys.'}
+  - value: 145.8
+    errors:
+    - {symerror: 2.8, label: 'sys.'}
+  - value: 145.9
+    errors:
+    - {symerror: 3.0, label: 'sys.'}

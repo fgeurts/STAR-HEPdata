@@ -1,0 +1,89 @@
+independent_variables:
+- header: {name: 'Npart'}
+  values:
+  - value: 338.1
+  - value: 289.2
+  - value: 224.9
+  - value: 158.1
+  - value: 108.0
+  - value: 57.7
+  - value: 19.9
+dependent_variables:
+- header: {name: 'muB [MeV]'}
+  qualifiers:
+  - {name: 'muQ = 0'}
+  - {name: 'energy', value: '19.6 GeV'}
+  values:
+  - value: 195.6
+    errors:
+    - {symerror: 9.7, label: 'sys.'}
+  - value: 193.9
+    errors:
+    - {symerror: 9.7, label: 'sys.'}
+  - value: 193.9
+    errors:
+    - {symerror: 9.7, label: 'sys.'}
+  - value: 184.9
+    errors:
+    - {symerror: 9.0, label: 'sys.'}
+  - value: 173.3
+    errors:
+    - {symerror: 9.3, label: 'sys.'}
+  - value: 159.4
+    errors:
+    - {symerror: 9.8, label: 'sys.'}
+  - value: 134.6
+    errors:
+    - {symerror: 10.4, label: 'sys.'}
+- header: {name: 'muB [MeV]'}
+  qualifiers:
+  - {name: 'constrain muQ'}
+  - {name: 'energy', value: '19.6 GeV'}
+  values:
+  - value: 201.4
+    errors:
+    - {symerror: 10.5, label: 'sys.'}
+  - value: 199.8
+    errors:
+    - {symerror: 11.0, label: 'sys.'}
+  - value: 200.3
+    errors:
+    - {symerror: 10.4, label: 'sys.'}
+  - value: 190.7
+    errors:
+    - {symerror: 13.8, label: 'sys.'}
+  - value: 178.8
+    errors:
+    - {symerror: 9.8, label: 'sys.'}
+  - value: 164.7
+    errors:
+    - {symerror: 11.2, label: 'sys.'}
+  - value: 138.9
+    errors:
+    - {symerror: 8.8, label: 'sys.'}
+- header: {name: 'muB [MeV]'}
+  qualifiers:
+  - {name: 'constrain muQ, muS'}
+  - {name: 'energy', value: '19.6 GeV'}
+  values:
+  - value: 198.1
+    errors:
+    - {symerror: 10.5 label: 'sys.'}
+  - value: 194.0
+    errors:
+    - {symerror: 4.4, label: 'sys.'}
+  - value: 194.2
+    errors:
+    - {symerror: 9.4, label: 'sys.'}
+  - value: 184.3
+    errors:
+    - {symerror: 6.7, label: 'sys.'}
+  - value: 173.9
+    errors:
+    - {symerror: 11.2, label: 'sys.'}
+  - value: 155.5
+    errors:
+    - {symerror: 4.6, label: 'sys.'}
+  - value: 127.1
+    errors:
+    - {symerror: 6.5, label: 'sys.'}

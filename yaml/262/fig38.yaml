@@ -1,0 +1,66 @@
+independent_variables:
+- header: {name: 'sqrt{s_{NN}} [GeV]'}
+  values:
+  - {value: 7.7}
+  - {value: 11.5}
+  - {value: 19.6}
+  - {value: 27}
+  - {value: 39}
+dependent_variables:
+- header: {name: 'Tkin [MeV]'}
+  qualifiers:
+  - {name: 'sqrt{s_{NN}} [GeV]', value: 'Tkin [MeV]'}
+  values:
+  - value: 116
+    errors:
+    - {symerror: 10, label: 'sys'}
+  - value: 118
+    errors:
+    - {symerror: 11, label: 'sys'}
+  - value: 113
+    errors:
+    - {symerror: 11, label: 'sys'}
+  - value: 117
+    errors:
+    - {symerror: 11, label: 'sys'}
+  - value: 117
+    errors:
+    - {symerror: 11, label: 'sys'}
+- header: {name: 'Tch [MeV]'}
+  qualifiers:
+  - {name: 'sqrt{s_{NN}} [GeV]', value: 'Tch [MeV]'}
+  values:
+  - value: 143.8
+    errors:
+    - {symerror: 2.7, label: 'sys'}
+  - value: 150.6
+    errors:
+    - {symerror: 3.2, label: 'sys'}
+  - value: 157.5
+    errors:
+    - {symerror: 3.1, label: 'sys'}
+  - value: 159.8
+    errors:
+    - {symerror: 3, label: 'sys'}
+  - value: 159.9
+    errors:
+    - {symerror: 3.5, label: 'sys'}
+- header: {name: '<beta>'}
+  qualifiers:
+  - {name: 'sqrt{s_{NN}} [GeV]', value: '<beta>'}
+  values:
+  - value: 0.462
+    errors:
+    - {symerror: 0.043, label: 'sys'}
+  - value: 0.464
+    errors:
+    - {symerror: 0.044, label: 'sys'}
+  - value: 0.458
+    errors:
+    - {symerror: 0.034, label: 'sys'}
+  - value: 0.482
+    errors:
+    - {symerror: 0.038, label: 'sys'}
+  - value: 0.492
+    errors:
+    - {symerror: 0.038, label: 'sys'}

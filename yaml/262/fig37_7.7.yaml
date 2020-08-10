@@ -1,0 +1,44 @@
+independent_variables:
+- header: {name: '<beta>'}
+  values:
+  - {low: 0.4405, high: 0.4835}
+  - {low: 0.416, high: 0.464}
+  - {low: 0.383, high: 0.423}
+  - {low: 0.359, high: 0.399}
+  - {low: 0.3235, high: 0.3725}
+  - {low: 0.26, high: 0.304}
+  - {low: 0.1785, high: 0.2315}
+  - {low: 0.137, high: 0.157}
+  - {low: 0.0885, high: 0.1235}
+dependent_variables:
+- header: {name: 'Tkin [MeV]'}
+  qualifiers:
+  - {name: '<beta>', value: '7.7 GeV'}
+  values:
+  - value: 116
+    errors:
+    - {symerror: 11, label: 'sys'}
+  - value: 118
+    errors:
+    - {symerror: 11, label: 'sys'}
+  - value: 121
+    errors:
+    - {symerror: 12, label: 'sys'}
+  - value: 123
+    errors:
+    - {symerror: 12, label: 'sys'}
+  - value: 129
+    errors:
+    - {symerror: 12, label: 'sys'}
+  - value: 131
+    errors:
+    - {symerror: 12, label: 'sys'}
+  - value: 139
+    errors:
+    - {symerror: 13, label: 'sys'}
+  - value: 139
+    errors:
+    - {symerror: 13, label: 'sys'}
+  - value: 140
+    errors:
+    - {symerror: 13, label: 'sys'}

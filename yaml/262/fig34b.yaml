@@ -1,0 +1,89 @@
+independent_variables:
+- header: {name: 'Npart'}
+  values:
+  - value: 338.1
+  - value: 289.2
+  - value: 224.9
+  - value: 158.1
+  - value: 108.0
+  - value: 57.7
+  - value: 19.9
+dependent_variables:
+- header: {name: 'Tch [MeV]'}
+  qualifiers:
+  - {name: 'muQ = 0'}
+  - {name: 'energy', value: '19.6 GeV'}
+  values:
+  - value: 157.5
+    errors:
+    - {symerror: 3.1, label: 'sys.'}
+  - value: 158.0
+    errors:
+    - {symerror: 3.2, label: 'sys.'}
+  - value: 159.8
+    errors:
+    - {symerror: 3.3, label: 'sys.'}
+  - value: 160.6
+    errors:
+    - {symerror: 3.3, label: 'sys.'}
+  - value: 161.6
+    errors:
+    - {symerror: 3.4, label: 'sys.'}
+  - value: 162.2
+    errors:
+    - {symerror: 3.5, label: 'sys.'}
+  - value: 159.6
+    errors:
+    - {symerror: 3.6, label: 'sys.'}
+- header: {name: 'Tch [MeV]'}
+  qualifiers:
+  - {name: 'constrain muQ'}
+  - {name: 'energy', value: '19.6 GeV'}
+  values:
+  - value: 157.6
+    errors:
+    - {symerror: 2.4, label: 'sys.'}
+  - value: 158.0
+    errors:
+    - {symerror: 3.4, label: 'sys.'}
+  - value: 159.9
+    errors:
+    - {symerror: 3.1, label: 'sys.'}
+  - value: 160.6
+    errors:
+    - {symerror: 4.1, label: 'sys.'}
+  - value: 161.7
+    errors:
+    - {symerror: 3.1, label: 'sys.'}
+  - value: 162.2
+    errors:
+    - {symerror: 2.6, label: 'sys.'}
+  - value: 159.6
+    errors:
+    - {symerror: 2.8, label: 'sys.'}
+- header: {name: 'Tch [MeV]'}
+  qualifiers:
+  - {name: 'constrain muQ, muS'}
+  - {name: 'energy', value: '19.6 GeV'}
+  values:
+  - value: 158.3
+    errors:
+    - {symerror: 3.7 label: 'sys.'}
+  - value: 158.5
+    errors:
+    - {symerror: 3.2, label: 'sys.'}
+  - value: 161.3
+    errors:
+    - {symerror: 3.2, label: 'sys.'}
+  - value: 161.6
+    errors:
+    - {symerror: 2.3, label: 'sys.'}
+  - value: 163.1
+    errors:
+    - {symerror: 4.4, label: 'sys.'}
+  - value: 162.9
+    errors:
+    - {symerror: 3.5, label: 'sys.'}
+  - value: 159.6
+    errors:
+    - {symerror: 3.4, label: 'sys.'}

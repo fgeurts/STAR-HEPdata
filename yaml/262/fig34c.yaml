@@ -1,0 +1,89 @@
+independent_variables:
+- header: {name: 'Npart'}
+  values:
+  - value: 341.7
+  - value: 293.9
+  - value: 229.8
+  - value: 162.4
+  - value: 111.4
+  - value: 59.2
+  - value: 20.0
+dependent_variables:
+- header: {name: 'Tch [MeV]'}
+  qualifiers:
+  - {name: 'muQ = 0'}
+  - {name: 'energy', value: '39 GeV'}
+  values:
+  - value: 159.9
+    errors:
+    - {symerror: 3.5, label: 'sys.'}
+  - value: 160.3
+    errors:
+    - {symerror: 3.4, label: 'sys.'}
+  - value: 160.9
+    errors:
+    - {symerror: 3.4, label: 'sys.'}
+  - value: 162.6
+    errors:
+    - {symerror: 3.4, label: 'sys.'}
+  - value: 164.8
+    errors:
+    - {symerror: 3.6, label: 'sys.'}
+  - value: 163.5
+    errors:
+    - {symerror: 3.5, label: 'sys.'}
+  - value: 160.4
+    errors:
+    - {symerror: 3.4, label: 'sys.'}
+- header: {name: 'Tch [MeV]'}
+  qualifiers:
+  - {name: 'constrain muQ'}
+  - {name: 'energy', value: '39 GeV'}
+  values:
+  - value: 159.9
+    errors:
+    - {symerror: 3.6, label: 'sys.'}
+  - value: 160.3
+    errors:
+    - {symerror: 3.6, label: 'sys.'}
+  - value: 160.9
+    errors:
+    - {symerror: 3.4, label: 'sys.'}
+  - value: 162.6
+    errors:
+    - {symerror: 2.3, label: 'sys.'}
+  - value: 164.8
+    errors:
+    - {symerror: 3.1, label: 'sys.'}
+  - value: 163.5
+    errors:
+    - {symerror: 2.9, label: 'sys.'}
+  - value: 160.4
+    errors:
+    - {symerror: 3.4, label: 'sys.'}
+- header: {name: 'Tch [MeV]'}
+  qualifiers:
+  - {name: 'constrain muQ, muS'}
+  - {name: 'energy', value: '39 GeV'}
+  values:
+  - value: 160.0
+    errors:
+    - {symerror: 3.9 label: 'sys.'}
+  - value: 160.5
+    errors:
+    - {symerror: 3.5, label: 'sys.'}
+  - value: 161.2
+    errors:
+    - {symerror: 3.4, label: 'sys.'}
+  - value: 163.2
+    errors:
+    - {symerror: 2.9, label: 'sys.'}
+  - value: 165.0
+    errors:
+    - {symerror: 3.1, label: 'sys.'}
+  - value: 164.0
+    errors:
+    - {symerror: 3.7, label: 'sys.'}
+  - value: 160.9
+    errors:
+    - {symerror: 1.9, label: 'sys.'}
