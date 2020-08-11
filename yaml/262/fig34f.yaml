@@ -11,7 +11,7 @@ independent_variables:
 dependent_variables:
 - header: {name: 'muB [MeV]'}
   qualifiers:
-  - {name: 'muQ = 0'}
+  - {name: 'constaint', value: 'muQ=0'}
   - {name: 'energy', value: '39 GeV'}
   values:
   - value: 104.7
@@ -37,7 +37,7 @@ dependent_variables:
     - {symerror: 10.0, label: 'sys.'}
 - header: {name: 'muB [MeV]'}
   qualifiers:
-  - {name: 'constrain muQ'}
+  - {name: 'constraint', value: 'constrain muQ'}
   - {name: 'energy', value: '39 GeV'}
   values:
   - value: 108.2
@@ -63,12 +63,12 @@ dependent_variables:
     - {symerror: 11.0, label: 'sys.'}
 - header: {name: 'muB [MeV]'}
   qualifiers:
-  - {name: 'constrain muQ, muS'}
+  - {name: 'constraint', value: 'constrain muQ, muS'}
   - {name: 'energy', value: '39 GeV'}
   values:
   - value: 106.3
     errors:
-    - {symerror: 9.8 label: 'sys.'}
+    - {symerror: 9.8, label: 'sys.'}
   - value: 104.1
     errors:
     - {symerror: 9.3, label: 'sys.'}
