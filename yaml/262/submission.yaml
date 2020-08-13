@@ -1,6 +1,15 @@
 additional_resources:
 - {description: web page with auxiliary material, location: 'https://https://drupal.star.bnl.gov/STAR/files/starpublications/262/data.html'}
+comment: BNL-RHIC. Bulk Properties of the Medium Produced in Relativistic Heavy-Ion Collisions from the Beam Energy Scan Program.
 hepdata_doi: 10.17182/hepdata.94313.v1
+---
+data_file: table2.yaml
+description: "The average number of participating nucleons (⟨Npart⟩) for various collision centralities in Au+Au collisions at √sNN = 7.7–39 GeV."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Npart]}
+- {name: cmenergies, values: [7.7, 11.5, 19.6, 27, 39]}
+name: Table 2
 ---
 data_file: fig12_piminus.yaml
 description: "Midrapidity (|y| < 0.1) transverse momentum spectra for (b) \u03C0-
@@ -541,3 +550,564 @@ keywords:
 location: Figure 16e
 name: proton 39 GeV
 table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig17_7GeV.yaml
+description: "Centrality dependence of dN/dy normalized by \u27E8Npart\u27E9/2 for \u03C0+, \u03C0\u2212, K+, K\u2212, p, and p \u0304 at midrapidity (|y|<0.1) in Au+Au collisions at \u221AsNN = 7.7 GeV. Errors shown are the quadrature sum of statistical and systematic uncertainties. For clarity, \u27E8Npart\u27E9 uncertainties are not added in quadrature."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [dN/dy/(0.5*Npart)]}
+- {name: cmenergies, values: [7.7]}
+location: Figure 17
+name: dN/dy, 7.7 GeV
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig17.png}
+---
+data_file: fig17_11GeV.yaml
+description: "Centrality dependence of dN/dy normalized by \u27E8Npart\u27E9/2 for \u03C0+, \u03C0\u2212, K+, K\u2212, p, and p \u0304 at midrapidity (|y|<0.1) in Au+Au collisions at \u221AsNN = 11.5 GeV. Errors shown are the quadrature sum of statistical and systematic uncertainties. For clarity, \u27E8Npart\u27E9 uncertainties are not added in quadrature."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [dN/dy/(0.5*Npart)]}
+- {name: cmenergies, values: [11.5]}
+location: Figure 17
+name: dN/dy, 11.5 GeV
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig17.png}
+---
+data_file: fig17_19GeV.yaml
+description: "Centrality dependence of dN/dy normalized by \u27E8Npart\u27E9/2 for \u03C0+, \u03C0\u2212, K+, K\u2212, p, and p \u0304 at midrapidity (|y|<0.1) in Au+Au collisions at \u221AsNN = 19.6 GeV. Errors shown are the quadrature sum of statistical and systematic uncertainties. For clarity, \u27E8Npart\u27E9 uncertainties are not added in quadrature."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [dN/dy/(0.5*Npart)]}
+- {name: cmenergies, values: [19.6]}
+location: Figure 17
+name: dN/dy, 19.6 GeV
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig17.png}
+---
+data_file: fig17_27GeV.yaml
+description: "Centrality dependence of dN/dy normalized by \u27E8Npart\u27E9/2 for \u03C0+, \u03C0\u2212, K+, K\u2212, p, and p \u0304 at midrapidity (|y|<0.1) in Au+Au collisions at \u221AsNN = 27 GeV. Errors shown are the quadrature sum of statistical and systematic uncertainties. For clarity, \u27E8Npart\u27E9 uncertainties are not added in quadrature."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [dN/dy/(0.5*Npart)]}
+- {name: cmenergies, values: [27]}
+location: Figure 17
+name: dN/dy, 27 GeV
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig17.png}
+---
+data_file: fig17_39GeV.yaml
+description: "Centrality dependence of dN/dy normalized by \u27E8Npart\u27E9/2 for \u03C0+, \u03C0\u2212, K+, K\u2212, p, and p \u0304 at midrapidity (|y|<0.1) in Au+Au collisions at \u221AsNN = 39 GeV. Errors shown are the quadrature sum of statistical and systematic uncertainties. For clarity, \u27E8Npart\u27E9 uncertainties are not added in quadrature."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [dN/dy/(0.5*Npart)]}
+- {name: cmenergies, values: [39]}
+location: Figure 17
+name: dN/dy, 39 GeV
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig17.png}
+---
+data_file: fig18_7GeV.yaml
+description: Centrality dependences of <pT> for π+, π−, K+, K−, p, and p ̄ at midrapidity (|y|<0.1) in Au+Au collisions at √sNN = 7.7 GeV. Errors shown are quadrature sum of statistical and systematic uncertainties where the latter dominates.
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [<pT> (GeV/c)]}
+- {name: cmenergies, values: [7.7]}
+location: Figure 18
+name: <pT>, 7.7 GeV
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig18.png}
+---
+data_file: fig18_11GeV.yaml
+description: Centrality dependences of <pT> for π+, π−, K+, K−, p, and p ̄ at midrapidity (|y|<0.1) in Au+Au collisions at √sNN = 11.5 GeV. Errors shown are quadrature sum of statistical and systematic uncertainties where the latter dominates.
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [<pT> (GeV/c)]}
+- {name: cmenergies, values: [11.5]}
+location: Figure 18
+name: <pT>, 11.5 GeV
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig18.png}
+---
+data_file: fig18_19GeV.yaml
+description: Centrality dependences of <pT> for π+, π−, K+, K−, p, and p ̄ at midrapidity (|y|<0.1) in Au+Au collisions at √sNN = 19.6 GeV. Errors shown are quadrature sum of statistical and systematic uncertainties where the latter dominates.
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [<pT> (GeV/c)]}
+- {name: cmenergies, values: [19.6]}
+location: Figure 18
+name: <pT>, 19.6 GeV
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig18.png}
+---
+data_file: fig18_27GeV.yaml
+description: Centrality dependences of <pT> for π+, π−, K+, K−, p, and p ̄ at midrapidity (|y|<0.1) in Au+Au collisions at √sNN = 27 GeV. Errors shown are quadrature sum of statistical and systematic uncertainties where the latter dominates.
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [<pT> (GeV/c)]}
+- {name: cmenergies, values: [27]}
+location: Figure 18
+name: <pT>, 27 GeV
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig18.png}
+---
+data_file: fig18_39GeV.yaml
+description: Centrality dependences of <pT> for π+, π−, K+, K−, p, and p ̄ at midrapidity (|y|<0.1) in Au+Au collisions at √sNN = 39 GeV. Errors shown are quadrature sum of statistical and systematic uncertainties where the latter dominates.
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [<pT> (GeV/c)]}
+- {name: cmenergies, values: [39]}
+location: Figure 18
+name: <pT>, 39 GeV
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig18.png}
+---
+data_file: fig19_7GeV.yaml
+description: Variation of π−/π+, K−/K+, and p ̄/p ratios as a function of ⟨Npart⟩ at midrapidity (|y| < 0.1) in Au+Au collisions at 7.7 GeV. Errors shown are the quadrature sum of statistical and systematic uncertainties where the latter dominates.
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [pi-/pi+, K-/K+, pbar/p]}
+- {name: cmenergies, values: [7.7]}
+location: Figure 19
+name: π−/π+, K−/K+, p ̄/p, 7.7 GeV
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig19.png}
+---
+data_file: fig19_11GeV.yaml
+description: Variation of π−/π+, K−/K+, and p ̄/p ratios as a function of ⟨Npart⟩ at midrapidity (|y| < 0.1) in Au+Au collisions at 11.5 GeV. Errors shown are the quadrature sum of statistical and systematic uncertainties where the latter dominates.
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [pi-/pi+, K-/K+, pbar/p]}
+- {name: cmenergies, values: [11.5]}
+location: Figure 19
+name: π−/π+, K−/K+, p ̄/p, 11.5 GeV
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig19.png}
+---
+data_file: fig19_19GeV.yaml
+description: Variation of π−/π+, K−/K+, and p ̄/p ratios as a function of ⟨Npart⟩ at midrapidity (|y| < 0.1) in Au+Au collisions at 19.6 GeV. Errors shown are the quadrature sum of statistical and systematic uncertainties where the latter dominates.
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [pi-/pi+, K-/K+, pbar/p]}
+- {name: cmenergies, values: [19.6]}
+location: Figure 19
+name: π−/π+, K−/K+, p ̄/p, 19.6 GeV
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig19.png}
+---
+data_file: fig19_27GeV.yaml
+description: Variation of π−/π+, K−/K+, and p ̄/p ratios as a function of ⟨Npart⟩ at midrapidity (|y| < 0.1) in Au+Au collisions at 27 GeV. Errors shown are the quadrature sum of statistical and systematic uncertainties where the latter dominates.
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [pi-/pi+, K-/K+, pbar/p]}
+- {name: cmenergies, values: [27]}
+location: Figure 19
+name: π−/π+, K−/K+, p ̄/p, 27 GeV
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig19.png}
+---
+data_file: fig19_39GeV.yaml
+description: Variation of π−/π+, K−/K+, and p ̄/p ratios as a function of ⟨Npart⟩ at midrapidity (|y| < 0.1) in Au+Au collisions at 39 GeV. Errors shown are the quadrature sum of statistical and systematic uncertainties where the latter dominates.
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [pi-/pi+, K-/K+, pbar/p]}
+- {name: cmenergies, values: [39]}
+location: Figure 19
+name: π−/π+, K−/K+, p ̄/p, 39 GeV
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig19.png}
+---
+data_file: fig20_7GeV.yaml
+description: Variation of K−/π−, p ̄/π−, K+/π+, and p/π+ ratios as a function of ⟨Npart⟩ at midrapidity (|y| < 0.1) in Au+Au collisions at 7.7 GeV. Errors shown are the quadrature sum of statistical and systematic uncertainties where the latter dominates.
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [K-/pi-, K+/pi+, pbar/pi-, proton/pi+]}
+- {name: cmenergies, values: [7.7]}
+location: Figure 20
+name: K−/π−, p ̄/π−, K+/π+, p/π+, 7.7 GeV
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig20.png}
+---
+data_file: fig20_11GeV.yaml
+description: Variation of K−/π−, p ̄/π−, K+/π+, and p/π+ ratios as a function of ⟨Npart⟩ at midrapidity (|y| < 0.1) in Au+Au collisions at 11.5 GeV. Errors shown are the quadrature sum of statistical and systematic uncertainties where the latter dominates.
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [K-/pi-, K+/pi+, pbar/pi-, proton/pi+]}
+- {name: cmenergies, values: [11.5]}
+location: Figure 20
+name: K−/π−, p ̄/π−, K+/π+, p/π+, 11.5 GeV
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig20.png}
+---
+data_file: fig20_19GeV.yaml
+description: Variation of K−/π−, p ̄/π−, K+/π+, and p/π+ ratios as a function of ⟨Npart⟩ at midrapidity (|y| < 0.1) in Au+Au collisions at 19.6 GeV. Errors shown are the quadrature sum of statistical and systematic uncertainties where the latter dominates.
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [K-/pi-, K+/pi+, pbar/pi-, proton/pi+]}
+- {name: cmenergies, values: [19.6]}
+location: Figure 20
+name: K−/π−, p ̄/π−, K+/π+, p/π+, 19.6 GeV
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig20.png}
+---
+data_file: fig20_27GeV.yaml
+description: Variation of K−/π−, p ̄/π−, K+/π+, and p/π+ ratios as a function of ⟨Npart⟩ at midrapidity (|y| < 0.1) in Au+Au collisions at 27 GeV. Errors shown are the quadrature sum of statistical and systematic uncertainties where the latter dominates.
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [K-/pi-, K+/pi+, pbar/pi-, proton/pi+]}
+- {name: cmenergies, values: [27]}
+location: Figure 20
+name: K−/π−, p ̄/π−, K+/π+, p/π+, 27 GeV
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig20.png}
+---
+data_file: fig20_39GeV.yaml
+description: Variation of K−/π−, p ̄/π−, K+/π+, and p/π+ ratios as a function of ⟨Npart⟩ at midrapidity (|y| < 0.1) in Au+Au collisions at 39 GeV. Errors shown are the quadrature sum of statistical and systematic uncertainties where the latter dominates.
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [K-/pi-, K+/pi+, pbar/pi-, proton/pi+]}
+- {name: cmenergies, values: [39]}
+location: Figure 20
+name: K−/π−, p ̄/π−, K+/π+, p/π+, 39 GeV
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig20.png}
+---
+data_file: fig21.yaml
+description: The midrapidity (|y| < 0.1) dN/dy normalized by ⟨Npart⟩/2 as a function of √sNN for π±, K±, and p and p ̄ in 0–5% Au+Au collisions at BES energies. Errors shown are the quadrature sum of statistical and systematic uncertainties where the latter dominates.
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [dN/dy/(0.5*Npart)]}
+- {name: cmenergies, values: [7.7, 11.5, 19.6, 27, 39]}
+location: Figure 21
+name: dN/dy/(0.5*Npart)
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig21.png}
+---
+data_file: fig22.yaml
+description: ⟨mT⟩ − m of π±, K±, and p and p ̄ as a function of √sNN . Midrapidity (|y| < 0.1) results are shown for 0–5% central Au+Au collisions at BES energies. The errors shown are the quadrature sum of statistical and systematic uncertainties where the latter dominates.
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [<mT>-m]}
+- {name: cmenergies, values: [7.7, 11.5, 19.6, 27, 39]}
+location: Figure 22
+name: ⟨mT⟩ − m
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig22.png}
+---
+data_file: fig23.yaml
+description: π−/π+, K−/K+, and p ̄/p ratios at midrapidity (|y| < 0.1) in central 0–5% Au+Au collisions at √sNN = 7.7, 11.5, 19.6, 27, and 39 GeV. Errors shown are the quadrature sum of statistical and systematic uncertainties where the latter dominates.
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [π−/π+, K−/K+, p ̄/p]}
+- {name: cmenergies, values: [7.7, 11.5, 19.6, 27, 39]}
+location: Figure 23
+name: π−/π+, K−/K+, p ̄/p
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig23.png}
+---
+data_file: fig24.yaml
+description: K/π ratio at midrapidity (|y| < 0.1) for central 0–5% Au+Au collisions at √sNN = 7.7, 11.5, 19.6, 27, and 39 GeV. Errors shown are the quadrature sum of statistical and systematic uncertainties where the latter dominates.
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [K/π]}
+- {name: cmenergies, values: [7.7, 11.5, 19.6, 27, 39]}
+location: Figure 24
+name: K/π
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig24.png}
+---
+data_file: fig25_gcey.yaml
+description: "The GCE model particle yields fits shown along with standard deviations for Au+Au 7.7 and Au+Au 39 GeV in 0–5% central collisions. Uncertainties on experimental data represent statistical and systematic uncertainties added in quadrature."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [dn/dy]}
+- {name: cmenergies, values: [7.7,39]}
+location: Figure 25
+name: GCEY
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig25_gcey.png}
+---
+data_file: fig25_gcer.yaml
+description: "The GCE model particle ratios fits shown along with standard deviations for Au+Au 7.7 and Au+Au 39 GeV in 0–5% central collisions. Uncertainties on experimental data represent statistical and systematic uncertainties added in quadrature."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [dn/dy]}
+- {name: cmenergies, values: [7.7,39]}
+location: Figure 25
+name: GCER
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig25_gcer.png}
+---
+data_file: fig26_scey.yaml
+description: "The SCE model particle yields fits shown along with standard deviations for Au+Au 7.7 and Au+Au 39 GeV in 0–5% central collisions. Uncertainties on experimental data represent statistical and systematic uncertainties added in quadrature."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [dn/dy]}
+- {name: cmenergies, values: [7.7,39]}
+location: Figure 26
+name: SCEY
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig26_scey.png}
+---
+data_file: fig26_scer.yaml
+description: "The SCE model particle ratios fits shown along with standard deviations for Au+Au 7.7 and Au+Au 39 GeV in 0–5% central collisions. Uncertainties on experimental data represent statistical and systematic uncertainties added in quadrature."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [dn/dy]}
+- {name: cmenergies, values: [7.7,39]}
+location: Figure 26
+name: SCER
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig26_scer.png}
+---
+data_file: fig27_gammas.yaml
+description: "Chemical freeze-out parameter γS plotted vs ⟨Npart⟩ in GCE for particle yields fit. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, γS]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 27
+name: GCE Yield, γS
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig27.png}
+---
+data_file: fig27_mub.yaml
+description: "Chemical freeze-out parameter μB plotted vs ⟨Npart⟩ in GCE for particle yields fit. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, μB]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 27
+name: GCE Yield, μB
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig27.png}
+---
+data_file: fig27_mus.yaml
+description: "Chemical freeze-out parameter μS plotted vs ⟨Npart⟩ in GCE for particle yields fit. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, μS]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 27
+name: GCE Yield, μS
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig27.png}
+---
+data_file: fig27_tch.yaml
+description: "Chemical freeze-out parameter Tch plotted vs ⟨Npart⟩ in GCE for particle yields fit. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, Tch]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 27
+name: GCE Yield, Tch
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig27.png}
+---
+data_file: fig27_radius.yaml
+description: "Chemical freeze-out parameter R plotted vs ⟨Npart⟩ in GCE for particle yields fit. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, R]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 27
+name: GCE Yield, R
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig27.png}
+---
+data_file: fig28_gammas.yaml
+description: "Ratio of chemical freeze-out parameter γS between results from particle yield fits to particle ratio fits in GCE plotted vs ⟨Npart⟩. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, γS]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 28
+name: GCE Yields/Ratios, γS
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig28.png}
+---
+data_file: fig28_mub.yaml
+description: "Ratio of chemical freeze-out parameter μB between results from particle yield fits to particle ratio fits in GCE plotted vs ⟨Npart⟩. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, μB]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 28
+name: GCE Yields/Ratios, μB
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig28.png}
+---
+data_file: fig28_mus.yaml
+description: "Ratio of chemical freeze-out parameter μS between results from particle yield fits to particle ratio fits in GCE plotted vs ⟨Npart⟩. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, μS]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 28
+name: GCE Yields/Ratios, μS
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig28.png}
+---
+data_file: fig28_tch.yaml
+description: "Ratio of chemical freeze-out parameter Tch between results from particle yield fits to particle ratio fits in GCE plotted vs ⟨Npart⟩. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, Tch]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 28
+name: GCE Yields/Ratios, Tch
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig28.png}
+---
+data_file: fig29_gammas.yaml
+description: "Chemical freeze-out parameter γS plotted vs ⟨Npart⟩ in SCE for particle yields fit. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, γS]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 29
+name: SCE Yield, γS
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig29.png}
+---
+data_file: fig29_mub.yaml
+description: "Chemical freeze-out parameter μB plotted vs ⟨Npart⟩ in SCE for particle yields fit. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, μB]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 29
+name: SCE Yield, μB
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig29.png}
+---
+data_file: fig29_tch.yaml
+description: "Chemical freeze-out parameter Tch plotted vs ⟨Npart⟩ in SCE for particle yields fit. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, Tch]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 29
+name: SCE Yield, Tch
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig29.png}
+---
+data_file: fig29_radius.yaml
+description: "Chemical freeze-out parameter R plotted vs ⟨Npart⟩ in SCE for particle yields fit. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, R]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 29
+name: SCE Yield, R
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig29.png}
+---
+data_file: fig30_gammas.yaml
+description: "Ratio of chemical freeze-out parameter γS between yield and ratio fits in SCE plotted vs ⟨Npart⟩. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, γS]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 30
+name: SCE Yields/Ratios, γS
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig30.png}
+---
+data_file: fig30_mub.yaml
+description: "Ratio of chemical freeze-out parameter μB between yield and ratio fits in SCE plotted vs ⟨Npart⟩. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, μB]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 30
+name: SCE Yields/Ratios, μB
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig30.png}
+---
+data_file: fig30_tch.yaml
+description: "Ratio of chemical freeze-out parameter Tch between yield and ratio fits in SCE plotted vs ⟨Npart⟩. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, Tch]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 30
+name: SCE Yields/Ratios, Tch
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig30.png}
+---
+data_file: fig31_gammas.yaml
+description: "Ratio of chemical freeze-out parameter γS between GCE and SCE results using particle ratios in fits plotted vs ⟨Npart⟩. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, γS]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 31
+name: GCE/SCE Ratios, γS
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig31.png}
+---
+data_file: fig31_mub.yaml
+description: "Ratio of chemical freeze-out parameter μB between GCE and SCE results using particle ratios in fits plotted vs ⟨Npart⟩. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, μB]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 31
+name: GCE/SCE Ratios, μB
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig31.png}
+---
+data_file: fig31_tch.yaml
+description: "Ratio of chemical freeze-out parameter Tch between GCE and SCE results using particle ratios in fits plotted vs ⟨Npart⟩. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, Tch]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 31
+name: GCE/SCE Ratios, Tch
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig31.png}
+---
+data_file: fig32_gammas.yaml
+description: "Ratio of chemical freeze-out parameter γS between GCE and SCE results using particle yields in fits plotted vs ⟨Npart⟩. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, γS]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 32
+name: GCE/SCE Yields, γS
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig32.png}
+---
+data_file: fig32_mub.yaml
+description: "Ratio of chemical freeze-out parameter μB between GCE and SCE results using particle yields in fits plotted vs ⟨Npart⟩. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, μB]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 32
+name: GCE/SCE Yields, μB
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig32.png}
+---
+data_file: fig32_tch.yaml
+description: "Ratio of chemical freeze-out parameter Tch between GCE and SCE results using particle yields in fits plotted vs ⟨Npart⟩. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, Tch]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 32
+name: GCE/SCE Yields, Tch
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig32.png}
+---
+data_file: fig32_radius.yaml
+description: "Ratio of chemical freeze-out parameter R between GCE and SCE results using particle yields in fits plotted vs ⟨Npart⟩. Uncertainties represent systematic errors."
+keywords:
+- {name: reactions, values: [Au+Au]}
+- {name: observables, values: [Ratio, Radius]}
+- {name: cmenergies, values: [7.7,11.5,19.6,27,39]}
+location: Figure 32
+name: GCE/SCE Yields, R
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig32.png}
