@@ -1174,17 +1174,17 @@ additional_resources:
 ---
 data_file: fig33_0-5%.yaml
 description: >
-Extracted chemical freeze-out temperature vs baryon
-chemical potential for (a) GCE and (b) SCE cases using particle
-yields as input for fitting. Curves represent two model predictions
-[81,82]. The gray bands represent the theoretical prediction ranges
-of the Cleymans et al. model [81]. Uncertainties represent systematic
-errors.
+  Extracted chemical freeze-out temperature vs baryon
+  chemical potential for (a) GCE and (b) SCE cases using particle
+  yields as input for fitting. Curves represent two model predictions
+  [81,82]. The gray bands represent the theoretical prediction ranges
+  of the Cleymans et al. model [81]. Uncertainties represent systematic
+  errors.
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [Tch, muB]
+  values: [Tch, muB]
 location: Figure 33a
 name: Tch vs muB 0-5%
 additional_resources:
@@ -1192,17 +1192,17 @@ additional_resources:
 ---
 data_file: fig33_30-40%.yaml
 description: >
-Extracted chemical freeze-out temperature vs baryon
-chemical potential for (a) GCE and (b) SCE cases using particle
-yields as input for fitting. Curves represent two model predictions
-[81,82]. The gray bands represent the theoretical prediction ranges
-of the Cleymans et al. model [81]. Uncertainties represent systematic
-errors.
+  Extracted chemical freeze-out temperature vs baryon
+  chemical potential for (a) GCE and (b) SCE cases using particle
+  yields as input for fitting. Curves represent two model predictions
+  [81,82]. The gray bands represent the theoretical prediction ranges
+  of the Cleymans et al. model [81]. Uncertainties represent systematic
+  errors.
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [Tch, muB]
+  values: [Tch, muB]
 location: Figure 33a
 name: Tch vs muB 30-40%
 additional_resources:
@@ -1210,17 +1210,17 @@ additional_resources:
 ---
 data_file: fig33_60-80%.yaml
 description: >
-Extracted chemical freeze-out temperature vs baryon
-chemical potential for (a) GCE and (b) SCE cases using particle
-yields as input for fitting. Curves represent two model predictions
-[81,82]. The gray bands represent the theoretical prediction ranges
-of the Cleymans et al. model [81]. Uncertainties represent systematic
-errors.
+  Extracted chemical freeze-out temperature vs baryon
+  chemical potential for (a) GCE and (b) SCE cases using particle
+  yields as input for fitting. Curves represent two model predictions
+  [81,82]. The gray bands represent the theoretical prediction ranges
+  of the Cleymans et al. model [81]. Uncertainties represent systematic
+  errors.
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [Tch, muB]
+  values: [Tch, muB]
 location: Figure 33a
 name: Tch vs muB 60-80%
 additional_resources:
@@ -1228,17 +1228,17 @@ additional_resources:
 ---
 data_file: fig33b_0-5%.yaml
 description: >
-Extracted chemical freeze-out temperature vs baryon
-chemical potential for (a) GCE and (b) SCE cases using particle
-yields as input for fitting. Curves represent two model predictions
-[81,82]. The gray bands represent the theoretical prediction ranges
-of the Cleymans et al. model [81]. Uncertainties represent systematic
-errors.
+  Extracted chemical freeze-out temperature vs baryon
+  chemical potential for (a) GCE and (b) SCE cases using particle
+  yields as input for fitting. Curves represent two model predictions
+  [81,82]. The gray bands represent the theoretical prediction ranges
+  of the Cleymans et al. model [81]. Uncertainties represent systematic
+  errors.
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [Tch, muB]
+  values: [Tch, muB]
 location: Figure 33b
 name: Tch vs muB 0-5%
 additional_resources:
@@ -1246,17 +1246,17 @@ additional_resources:
 ---
 data_file: fig33b_30-40%.yaml
 description: >
-Extracted chemical freeze-out temperature vs baryon
-chemical potential for (a) GCE and (b) SCE cases using particle
-yields as input for fitting. Curves represent two model predictions
-[81,82]. The gray bands represent the theoretical prediction ranges
-of the Cleymans et al. model [81]. Uncertainties represent systematic
-errors.
+  Extracted chemical freeze-out temperature vs baryon
+  chemical potential for (a) GCE and (b) SCE cases using particle
+  yields as input for fitting. Curves represent two model predictions
+  [81,82]. The gray bands represent the theoretical prediction ranges
+  of the Cleymans et al. model [81]. Uncertainties represent systematic
+  errors.
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [Tch, muB]
+  values: [Tch, muB]
 location: Figure 33b
 name: Tch vs muB 30-40%
 additional_resources:
@@ -1264,17 +1264,17 @@ additional_resources:
 ---
 data_file: fig33b_60-80%.yaml
 description: >
-Extracted chemical freeze-out temperature vs baryon
-chemical potential for (a) GCE and (b) SCE cases using particle
-yields as input for fitting. Curves represent two model predictions
-[81,82]. The gray bands represent the theoretical prediction ranges
-of the Cleymans et al. model [81]. Uncertainties represent systematic
-errors.
+  Extracted chemical freeze-out temperature vs baryon
+  chemical potential for (a) GCE and (b) SCE cases using particle
+  yields as input for fitting. Curves represent two model predictions
+  [81,82]. The gray bands represent the theoretical prediction ranges
+  of the Cleymans et al. model [81]. Uncertainties represent systematic
+  errors.
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [Tch, muB]
+  values: [Tch, muB]
 location: Figure 33b
 name: Tch vs muB 60-80%
 additional_resources:
@@ -1282,17 +1282,17 @@ additional_resources:
 ---
 data_file: fig34a.yaml
 description: >
-"Choice on constraints: Extracted chemical freeze-out temperatures shown in panels (a), (c), and (e) and baryon chemical potentials
-shown in panels (b), (d), and (f) for GCE using particle yields as input for fitting, respectively, for Au+Au collisions at √sNN = 7.7, 19.6, and
-39 GeV. Results are compared for three initial conditions: μQ = 0, μQ constrained to B/2Q value, and μQ constrained to B/2Q along with
-μS constrained to 0. Uncertainties represent systematic errors."
+  "Choice on constraints: Extracted chemical freeze-out temperatures shown in panels (a), (c), and (e) and baryon chemical potentials
+  shown in panels (b), (d), and (f) for GCE using particle yields as input for fitting, respectively, for Au+Au collisions at √sNN = 7.7, 19.6, and
+  39 GeV. Results are compared for three initial conditions: μQ = 0, μQ constrained to B/2Q value, and μQ constrained to B/2Q along with
+  μS constrained to 0. Uncertainties represent systematic errors."
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [Tch]
+  values: [Tch]
 - name: cmenergies
-values: [7.7]
+  values: [7.7]
 location: Figure 34a
 name: Tch vs <Npart> 7.7
 additional_resources:
@@ -1300,17 +1300,17 @@ additional_resources:
 ---
 data_file: fig34c.yaml
 description: >
-"Choice on constraints: Extracted chemical freeze-out temperatures shown in panels (a), (c), and (e) and baryon chemical potentials
-shown in panels (b), (d), and (f) for GCE using particle yields as input for fitting, respectively, for Au+Au collisions at √sNN = 7.7, 19.6, and
-39 GeV. Results are compared for three initial conditions: μQ = 0, μQ constrained to B/2Q value, and μQ constrained to B/2Q along with
-μS constrained to 0. Uncertainties represent systematic errors."
+  "Choice on constraints: Extracted chemical freeze-out temperatures shown in panels (a), (c), and (e) and baryon chemical potentials
+  shown in panels (b), (d), and (f) for GCE using particle yields as input for fitting, respectively, for Au+Au collisions at √sNN = 7.7, 19.6, and
+  39 GeV. Results are compared for three initial conditions: μQ = 0, μQ constrained to B/2Q value, and μQ constrained to B/2Q along with
+  μS constrained to 0. Uncertainties represent systematic errors."
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [Tch]
+  values: [Tch]
 - name: cmenergies
-values: [19.6]
+  values: [19.6]
 location: Figure 34c
 name: Tch vs <Npart> 19.6
 additional_resources:
@@ -1318,17 +1318,17 @@ additional_resources:
 ---
 data_file: fig34e.yaml
 description: >
-"Choice on constraints: Extracted chemical freeze-out temperatures shown in panels (a), (c), and (e) and baryon chemical potentials
-shown in panels (b), (d), and (f) for GCE using particle yields as input for fitting, respectively, for Au+Au collisions at √sNN = 7.7, 19.6, and
-39 GeV. Results are compared for three initial conditions: μQ = 0, μQ constrained to B/2Q value, and μQ constrained to B/2Q along with
-μS constrained to 0. Uncertainties represent systematic errors."
+  "Choice on constraints: Extracted chemical freeze-out temperatures shown in panels (a), (c), and (e) and baryon chemical potentials
+  shown in panels (b), (d), and (f) for GCE using particle yields as input for fitting, respectively, for Au+Au collisions at √sNN = 7.7, 19.6, and
+  39 GeV. Results are compared for three initial conditions: μQ = 0, μQ constrained to B/2Q value, and μQ constrained to B/2Q along with
+  μS constrained to 0. Uncertainties represent systematic errors."
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [Tch]
+  values: [Tch]
 - name: cmenergies
-values: [39]
+  values: [39]
 location: Figure 34e
 name: Tch vs <Npart> 39
 additional_resources:
@@ -1336,17 +1336,17 @@ additional_resources:
 ---
 data_file: fig34b.yaml
 description: >
-"Choice on constraints: Extracted chemical freeze-out temperatures shown in panels (a), (c), and (e) and baryon chemical potentials
-shown in panels (b), (d), and (f) for GCE using particle yields as input for fitting, respectively, for Au+Au collisions at √sNN = 7.7, 19.6, and
-39 GeV. Results are compared for three initial conditions: μQ = 0, μQ constrained to B/2Q value, and μQ constrained to B/2Q along with
-μS constrained to 0. Uncertainties represent systematic errors."
+  "Choice on constraints: Extracted chemical freeze-out temperatures shown in panels (a), (c), and (e) and baryon chemical potentials
+  shown in panels (b), (d), and (f) for GCE using particle yields as input for fitting, respectively, for Au+Au collisions at √sNN = 7.7, 19.6, and
+  39 GeV. Results are compared for three initial conditions: μQ = 0, μQ constrained to B/2Q value, and μQ constrained to B/2Q along with
+  μS constrained to 0. Uncertainties represent systematic errors."
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [MuB]
+  values: [MuB]
 - name: cmenergies
-values: [7.7]
+  values: [7.7]
 location: Figure 34b
 name: MuB vs <Npart> 7.7
 additional_resources:
@@ -1354,17 +1354,17 @@ additional_resources:
 ---
 data_file: fig34d.yaml
 description: >
-"Choice on constraints: Extracted chemical freeze-out temperatures shown in panels (a), (c), and (e) and baryon chemical potentials
-shown in panels (b), (d), and (f) for GCE using particle yields as input for fitting, respectively, for Au+Au collisions at √sNN = 7.7, 19.6, and
-39 GeV. Results are compared for three initial conditions: μQ = 0, μQ constrained to B/2Q value, and μQ constrained to B/2Q along with
-μS constrained to 0. Uncertainties represent systematic errors."
+  "Choice on constraints: Extracted chemical freeze-out temperatures shown in panels (a), (c), and (e) and baryon chemical potentials
+  shown in panels (b), (d), and (f) for GCE using particle yields as input for fitting, respectively, for Au+Au collisions at √sNN = 7.7, 19.6, and
+  39 GeV. Results are compared for three initial conditions: μQ = 0, μQ constrained to B/2Q value, and μQ constrained to B/2Q along with
+  μS constrained to 0. Uncertainties represent systematic errors."
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [MuB]
+  values: [MuB]
 - name: cmenergies
-values: [19.6]
+  values: [19.6]
 location: Figure 34d
 name: MuB vs <Npart> 19.6
 additional_resources:
@@ -1372,17 +1372,17 @@ additional_resources:
 ---
 data_file: fig34f.yaml
 description: >
-"Choice on constraints: Extracted chemical freeze-out temperatures shown in panels (a), (c), and (e) and baryon chemical potentials
-shown in panels (b), (d), and (f) for GCE using particle yields as input for fitting, respectively, for Au+Au collisions at √sNN = 7.7, 19.6, and
-39 GeV. Results are compared for three initial conditions: μQ = 0, μQ constrained to B/2Q value, and μQ constrained to B/2Q along with
-μS constrained to 0. Uncertainties represent systematic errors."
+  "Choice on constraints: Extracted chemical freeze-out temperatures shown in panels (a), (c), and (e) and baryon chemical potentials
+  shown in panels (b), (d), and (f) for GCE using particle yields as input for fitting, respectively, for Au+Au collisions at √sNN = 7.7, 19.6, and
+  39 GeV. Results are compared for three initial conditions: μQ = 0, μQ constrained to B/2Q value, and μQ constrained to B/2Q along with
+  μS constrained to 0. Uncertainties represent systematic errors."
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [MuB]
+  values: [MuB]
 - name: cmenergies
-values: [39]
+  values: [39]
 location: Figure 34f
 name: MuB vs <Npart> 39
 additional_resources:
@@ -1390,16 +1390,16 @@ additional_resources:
 ---
 data_file: fig35a.yaml
 description: >
-"Choice on including more particles: Extracted chemical freeze-out parameters (a) Tch, (b) μB, and (c) γS along with (d) χ2/ndf
-for GCE using particle yields as input for fitting. Results are compared for Au+Au collisions at √sNN = 39 GeV for four different sets of
-particle yields used in fitting. Uncertainties represent systematic errors."
+  "Choice on including more particles: Extracted chemical freeze-out parameters (a) Tch, (b) μB, and (c) γS along with (d) χ2/ndf
+  for GCE using particle yields as input for fitting. Results are compared for Au+Au collisions at √sNN = 39 GeV for four different sets of
+  particle yields used in fitting. Uncertainties represent systematic errors."
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [Tch]
+  values: [Tch]
 - name: cmenergies
-values: [39]
+  values: [39]
 location: Figure 35a
 name: Tch vs <Npart>
 additional_resources:
@@ -1407,16 +1407,16 @@ additional_resources:
 ---
 data_file: fig35b.yaml
 description: >
-"Choice on including more particles: Extracted chemical freeze-out parameters (a) Tch, (b) μB, and (c) γS along with (d) χ2/ndf
-for GCE using particle yields as input for fitting. Results are compared for Au+Au collisions at √sNN = 39 GeV for four different sets of
-particle yields used in fitting. Uncertainties represent systematic errors."
+  "Choice on including more particles: Extracted chemical freeze-out parameters (a) Tch, (b) μB, and (c) γS along with (d) χ2/ndf
+  for GCE using particle yields as input for fitting. Results are compared for Au+Au collisions at √sNN = 39 GeV for four different sets of
+  particle yields used in fitting. Uncertainties represent systematic errors."
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [MuB]
+  values: [MuB]
 - name: cmenergies
-values: [39]
+  values: [39]
 location: Figure 35b
 name: MuB vs <Npart>
 additional_resources:
@@ -1424,16 +1424,16 @@ additional_resources:
 ---
 data_file: fig35c.yaml
 description: >
-"Choice on including more particles: Extracted chemical freeze-out parameters (a) Tch, (b) μB, and (c) γS along with (d) χ2/ndf
-for GCE using particle yields as input for fitting. Results are compared for Au+Au collisions at √sNN = 39 GeV for four different sets of
-particle yields used in fitting. Uncertainties represent systematic errors."
+  "Choice on including more particles: Extracted chemical freeze-out parameters (a) Tch, (b) μB, and (c) γS along with (d) χ2/ndf
+  for GCE using particle yields as input for fitting. Results are compared for Au+Au collisions at √sNN = 39 GeV for four different sets of
+  particle yields used in fitting. Uncertainties represent systematic errors."
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [gamma_s]
+  values: [gamma_s]
 - name: cmenergies
-values: [39]
+  values: [39]
 location: Figure 35c
 name: gamma_s vs <Npart>
 additional_resources:
@@ -1441,16 +1441,16 @@ additional_resources:
 ---
 data_file: fig35d.yaml
 description: >
-"Choice on including more particles: Extracted chemical freeze-out parameters (a) Tch, (b) μB, and (c) γS along with (d) χ2/ndf
-for GCE using particle yields as input for fitting. Results are compared for Au+Au collisions at √sNN = 39 GeV for four different sets of
-particle yields used in fitting. Uncertainties represent systematic errors."
+  "Choice on including more particles: Extracted chemical freeze-out parameters (a) Tch, (b) μB, and (c) γS along with (d) χ2/ndf
+  for GCE using particle yields as input for fitting. Results are compared for Au+Au collisions at √sNN = 39 GeV for four different sets of
+  particle yields used in fitting. Uncertainties represent systematic errors."
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [chi^2/NDF]
+  values: [chi^2/NDF]
 - name: cmenergies
-values: [39]
+  values: [39]
 location: Figure 35d
 name: chi^2/NDF vs <Npart>
 additional_resources:
@@ -1458,14 +1458,14 @@ additional_resources:
 ---
 data_file: fig36a.yaml
 description: >
-"Blast wave model fits of π±, K±, p and p p¯ T spectra in 0–5% central Au+Au collisions at √sNN = (a) 7.7, (b) 11.5, (c) 19.6,
-(d) 27, and (e) 39 GeV. Uncertainties on experimental data represent statistical and systematic uncertainties added in quadrature. Here, the
-uncertainties are smaller than the symbol size."
+  "Blast wave model fits of π±, K±, p and p p¯ T spectra in 0–5% central Au+Au collisions at √sNN = (a) 7.7, (b) 11.5, (c) 19.6,
+  (d) 27, and (e) 39 GeV. Uncertainties on experimental data represent statistical and systematic uncertainties added in quadrature. Here, the
+  uncertainties are smaller than the symbol size."
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: cmenergies
-values: [7.7]
+  values: [7.7]
 location: Figure 36a
 name: blast wave fit 7.7
 additional_resources:
@@ -1473,14 +1473,14 @@ additional_resources:
 ---
 data_file: fig36b.yaml
 description: >
-"Blast wave model fits of π±, K±, p and p p¯ T spectra in 0–5% central Au+Au collisions at √sNN = (a) 7.7, (b) 11.5, (c) 19.6,
-(d) 27, and (e) 39 GeV. Uncertainties on experimental data represent statistical and systematic uncertainties added in quadrature. Here, the
-uncertainties are smaller than the symbol size."
+  "Blast wave model fits of π±, K±, p and p p¯ T spectra in 0–5% central Au+Au collisions at √sNN = (a) 7.7, (b) 11.5, (c) 19.6,
+  (d) 27, and (e) 39 GeV. Uncertainties on experimental data represent statistical and systematic uncertainties added in quadrature. Here, the
+  uncertainties are smaller than the symbol size."
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: cmenergies
-values: [11.5]
+  values: [11.5]
 location: Figure 36b
 name: blast wave fit 11.5
 additional_resources:
@@ -1488,14 +1488,14 @@ additional_resources:
 ---
 data_file: fig36c.yaml
 description: >
-"Blast wave model fits of π±, K±, p and p p¯ T spectra in 0–5% central Au+Au collisions at √sNN = (a) 7.7, (b) 11.5, (c) 19.6,
-(d) 27, and (e) 39 GeV. Uncertainties on experimental data represent statistical and systematic uncertainties added in quadrature. Here, the
-uncertainties are smaller than the symbol size."
+  "Blast wave model fits of π±, K±, p and p p¯ T spectra in 0–5% central Au+Au collisions at √sNN = (a) 7.7, (b) 11.5, (c) 19.6,
+  (d) 27, and (e) 39 GeV. Uncertainties on experimental data represent statistical and systematic uncertainties added in quadrature. Here, the
+  uncertainties are smaller than the symbol size."
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: cmenergies
-values: [19.6]
+  values: [19.6]
 location: Figure 36c
 name: blast wave fit 19.6
 additional_resources:
@@ -1503,14 +1503,14 @@ additional_resources:
 ---
 data_file: fig36d.yaml
 description: >
-"Blast wave model fits of π±, K±, p and p p¯ T spectra in 0–5% central Au+Au collisions at √sNN = (a) 7.7, (b) 11.5, (c) 19.6,
-(d) 27, and (e) 39 GeV. Uncertainties on experimental data represent statistical and systematic uncertainties added in quadrature. Here, the
-uncertainties are smaller than the symbol size."
+  "Blast wave model fits of π±, K±, p and p p¯ T spectra in 0–5% central Au+Au collisions at √sNN = (a) 7.7, (b) 11.5, (c) 19.6,
+  (d) 27, and (e) 39 GeV. Uncertainties on experimental data represent statistical and systematic uncertainties added in quadrature. Here, the
+  uncertainties are smaller than the symbol size."
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: cmenergies
-values: [27]
+  values: [27]
 location: Figure 36d
 name: blast wave fit 27
 additional_resources:
@@ -1518,14 +1518,14 @@ additional_resources:
 ---
 data_file: fig36e.yaml
 description: >
-"Blast wave model fits of π±, K±, p and p p¯ T spectra in 0–5% central Au+Au collisions at √sNN = (a) 7.7, (b) 11.5, (c) 19.6,
-(d) 27, and (e) 39 GeV. Uncertainties on experimental data represent statistical and systematic uncertainties added in quadrature. Here, the
-uncertainties are smaller than the symbol size."
+  "Blast wave model fits of π±, K±, p and p p¯ T spectra in 0–5% central Au+Au collisions at √sNN = (a) 7.7, (b) 11.5, (c) 19.6,
+  (d) 27, and (e) 39 GeV. Uncertainties on experimental data represent statistical and systematic uncertainties added in quadrature. Here, the
+  uncertainties are smaller than the symbol size."
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: cmenergies
-values: [39]
+  values: [39]
 location: Figure 36e
 name: blast wave fit 39
 additional_resources:
@@ -1533,17 +1533,17 @@ additional_resources:
 ---
 data_file: fig37_7.7.yaml
 description: >
-"Variation of Tkin with <β> for different energies and
-centralities. The centrality increases from left to right for a given
-energy. The data points other than BES energies are taken from
-Refs. [43,66]. Uncertainties represent systematic uncertainties."
+  "Variation of Tkin with <β> for different energies and
+  centralities. The centrality increases from left to right for a given
+  energy. The data points other than BES energies are taken from
+  Refs. [43,66]. Uncertainties represent systematic uncertainties."
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [Tkin, <beta>]
+  values: [Tkin, <beta>]
 - name: cmenergies
-values: [7.7]
+  values: [7.7]
 location: Figure 37
 name: Tkin vs <beta> 7.7
 additional_resources:
@@ -1551,17 +1551,17 @@ additional_resources:
 ---
 data_file: fig37_11.5.yaml
 description: >
-"Variation of Tkin with <β> for different energies and
-centralities. The centrality increases from left to right for a given
-energy. The data points other than BES energies are taken from
-Refs. [43,66]. Uncertainties represent systematic uncertainties."
+  "Variation of Tkin with <β> for different energies and
+  centralities. The centrality increases from left to right for a given
+  energy. The data points other than BES energies are taken from
+  Refs. [43,66]. Uncertainties represent systematic uncertainties."
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [Tkin, <beta>]
+  values: [Tkin, <beta>]
 - name: cmenergies
-values: [11.5]
+  values: [11.5]
 location: Figure 37
 name: Tkin vs <beta> 11.5
 additional_resources:
@@ -1569,17 +1569,17 @@ additional_resources:
 ---
 data_file: fig37_19.6.yaml
 description: >
-"Variation of Tkin with <β> for different energies and
-centralities. The centrality increases from left to right for a given
-energy. The data points other than BES energies are taken from
-Refs. [43,66]. Uncertainties represent systematic uncertainties."
+  "Variation of Tkin with <β> for different energies and
+  centralities. The centrality increases from left to right for a given
+  energy. The data points other than BES energies are taken from
+  Refs. [43,66]. Uncertainties represent systematic uncertainties."
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [Tkin, <beta>]
+  values: [Tkin, <beta>]
 - name: cmenergies
-values: [19.6]
+  values: [19.6]
 location: Figure 37
 name: Tkin vs <beta> 19.6
 additional_resources:
@@ -1587,17 +1587,17 @@ additional_resources:
 ---
 data_file: fig37_27.yaml
 description: >
-"Variation of Tkin with <β> for different energies and
-centralities. The centrality increases from left to right for a given
-energy. The data points other than BES energies are taken from
-Refs. [43,66]. Uncertainties represent systematic uncertainties."
+  "Variation of Tkin with <β> for different energies and
+  centralities. The centrality increases from left to right for a given
+  energy. The data points other than BES energies are taken from
+  Refs. [43,66]. Uncertainties represent systematic uncertainties."
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [Tkin, <beta>]
+  values: [Tkin, <beta>]
 - name: cmenergies
-values: [27]
+  values: [27]
 location: Figure 37
 name: Tkin vs <beta> 27
 additional_resources:
@@ -1605,17 +1605,17 @@ additional_resources:
 ---
 data_file: fig37_39.yaml
 description: >
-"Variation of Tkin with <β> for different energies and
-centralities. The centrality increases from left to right for a given
-energy. The data points other than BES energies are taken from
-Refs. [43,66]. Uncertainties represent systematic uncertainties."
+  "Variation of Tkin with <β> for different energies and
+  centralities. The centrality increases from left to right for a given
+  energy. The data points other than BES energies are taken from
+  Refs. [43,66]. Uncertainties represent systematic uncertainties."
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [Tkin, <beta>]
+  values: [Tkin, <beta>]
 - name: cmenergies
-values: [39]
+  values: [39]
 location: Figure 37
 name: Tkin vs <beta> 39
 additional_resources:
@@ -1623,19 +1623,19 @@ additional_resources:
 ---
 data_file: fig38.yaml
 description: >
-" (a) Energy dependence of kinetic and chemical freezeout temperatures for central heavy-ion collisions. The curves represent various theoretical predictions [81,82]. (b) Energy dependence
-of average transverse radial flow velocity for central heavy-ion
-collisions. The data points other than BES energies are taken from
-Refs. [43,53–64,66] and references therein. The BES data points
-are for 0–5% central collisions, AGS energies are mostly for 0–5%,
-SPS energies are for mostly 0–7%, and top RHIC and LHC energies
-are for 0–5% central collisions. Uncertainties represent systematic
-uncertainties."
+  " (a) Energy dependence of kinetic and chemical freezeout temperatures for central heavy-ion collisions. The curves represent various theoretical predictions [81,82]. (b) Energy dependence
+  of average transverse radial flow velocity for central heavy-ion
+  collisions. The data points other than BES energies are taken from
+  Refs. [43,53–64,66] and references therein. The BES data points
+  are for 0–5% central collisions, AGS energies are mostly for 0–5%,
+  SPS energies are for mostly 0–7%, and top RHIC and LHC energies
+  are for 0–5% central collisions. Uncertainties represent systematic
+  uncertainties."
 keywords:
 - name: reactions
-values: [Au+Au]
+  values: [Au+Au]
 - name: observables
-values: [T, <beta>]
+  values: [T, <beta>]
 location: Figure 38
 name: T and <beta> vs sqrt(S_NN)
 additional_resources:
