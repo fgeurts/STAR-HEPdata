@@ -1,0 +1,63 @@
+independent_variables:
+- header: {name: '$M_{ee} (GeV/c2)$'}
+  values:
+  - {low: 0.3, high: 0.4}
+  - {low: 0.4, high: 0.45}
+  - {low: 0.45, high: 0.5}
+  - {low: 0.5, high: 0.56}
+  - {low: 0.56, high: 0.62}
+  - {low: 0.62, high: 0.76}
+  - {low: 0.76, high: 0.94}
+  - {low: 0.94, high: 1.2}
+  - {low: 1.2, high: 1.5}
+  - {low: 1.5, high: 2}
+  - {low: 2, high: 2.6}
+dependent_variables:
+- header: {name: '$dN/dM_{ee}$ (40-60% Au+Au collisions)'}
+  qualifiers:
+  - {name: '$M_{ee} (GeV/c2)$', value: 'dN/dMee (40-60% Au+Au collisions)'}
+  values:
+  - value: 9.83000E-06
+    errors:
+    - {symerror: 1.17000E-05, label: 'statErr'}
+    - {symerror: 3.59000E-06, label: 'sysErr'}
+  - value: 1.83000E-04
+    errors:
+    - {symerror: 1.28000E-04, label: 'statErr'}
+    - {symerror: 6.29000E-05, label: 'sysErr'}
+  - value: 3.71000E-04
+    errors:
+    - {symerror: 1.91000E-04, label: 'statErr'}
+    - {symerror: 9.94000E-05, label: 'sysErr'}
+  - value: 6.27000E-04
+    errors:
+    - {symerror: 1.79000E-04, label: 'statErr'}
+    - {symerror: 1.23000E-04, label: 'sysErr'}
+  - value: 4.26000E-04
+    errors:
+    - {symerror: 1.54000E-04, label: 'statErr'}
+    - {symerror: 8.17000E-05, label: 'sysErr'}
+  - value: 2.35000E-04
+    errors:
+    - {symerror: 7.10000E-05, label: 'statErr'}
+    - {symerror: 4.96000E-05, label: 'sysErr'}
+  - value: 9.10000E-05
+    errors:
+    - {symerror: 3.81000E-05, label: 'statErr'}
+    - {symerror: 3.45000E-05, label: 'sysErr'}
+  - value: 2.95000E-05
+    errors:
+    - {symerror: 1.82000E-05, label: 'statErr'}
+    - {symerror: 1.20000E-05, label: 'sysErr'}
+  - value: 1.95000E-05
+    errors:
+    - {symerror: 9.30000E-06, label: 'statErr'}
+    - {symerror: 3.88000E-06, label: 'sysErr'}
+  - value: 6.57000E-06
+    errors:
+    - {symerror: 3.39000E-06, label: 'statErr'}
+    - {symerror: 1.37000E-06, label: 'sysErr'}
+  - value: 4.11000E-06
+    errors:
+    - {symerror: 1.22000E-06, label: 'statErr'}
+    - {symerror: 6.49000E-07, label: 'sysErr'}

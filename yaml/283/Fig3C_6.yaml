@@ -1,0 +1,23 @@
+independent_variables:
+- header: {name: '$N_{part}$'}
+  values:
+  - {value: 1.47190E+01}
+  - {value: 2.92800E+01}
+  - {value: 6.95140E+01}
+dependent_variables:
+- header: {name: 'Excess Yield (1.20-2.60 GeV/c2 in U+U collisions)'}
+  qualifiers:
+  - {name: '$N_{part}$', value: 'Excess Yield (1.20-2.60 GeV/c2 in U+U collisions)'}
+  values:
+  - value: 9.78000E-06
+    errors:
+    - {symerror: 1.81000E-06, label: 'statErr'}
+    - {symerror: 1.12000E-06, label: 'sysErr'}
+  - value: 1.52000E-05
+    errors:
+    - {symerror: 3.12000E-06, label: 'statErr'}
+    - {symerror: 1.95000E-06, label: 'sysErr'}
+  - value: 1.12000E-05
+    errors:
+    - {symerror: 6.26000E-06, label: 'statErr'}
+    - {symerror: 1.90000E-06, label: 'sysErr'}

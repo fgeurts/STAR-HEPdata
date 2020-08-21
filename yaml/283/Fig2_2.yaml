@@ -1,0 +1,63 @@
+independent_variables:
+- header: {name: '$p_T (GeV/c)$'}
+  values:
+  - {low: 0, high: 0.01}
+  - {low: 0.01, high: 0.02}
+  - {low: 0.02, high: 0.03}
+  - {low: 0.03, high: 0.04}
+  - {low: 0.04, high: 0.05}
+  - {low: 0.05, high: 0.08}
+  - {low: 0.08, high: 0.15}
+  - {low: 0.15, high: 0.3}
+  - {low: 0.3, high: 0.5}
+  - {low: 0.5, high: 0.7}
+  - {low: 0.7, high: 1}
+dependent_variables:
+- header: {name: '$dN/dp_T$ (0.40< Mee <0.76 GeV/c2 in U+U collisions)'}
+  qualifiers:
+  - {name: '$p_T (GeV/c)$', value: 'dN/dpT (0.40< Mee <0.76 GeV/c2 in U+U collisions)'}
+  values:
+  - value: 6.60000E-04
+    errors:
+    - {symerror: 1.02000E-04, label: 'statErr'}
+    - {symerror: 8.54000E-05, label: 'sysErr'}
+  - value: 2.09000E-03
+    errors:
+    - {symerror: 1.82000E-04, label: 'statErr'}
+    - {symerror: 2.68000E-04, label: 'sysErr'}
+  - value: 2.88000E-03
+    errors:
+    - {symerror: 2.23000E-04, label: 'statErr'}
+    - {symerror: 3.60000E-04, label: 'sysErr'}
+  - value: 3.41000E-03
+    errors:
+    - {symerror: 2.42000E-04, label: 'statErr'}
+    - {symerror: 4.18000E-04, label: 'sysErr'}
+  - value: 2.20000E-03
+    errors:
+    - {symerror: 2.51000E-04, label: 'statErr'}
+    - {symerror: 2.65000E-04, label: 'sysErr'}
+  - value: 1.16000E-03
+    errors:
+    - {symerror: 1.52000E-04, label: 'statErr'}
+    - {symerror: 1.40000E-04, label: 'sysErr'}
+  - value: 2.76000E-04
+    errors:
+    - {symerror: 1.10000E-04, label: 'statErr'}
+    - {symerror: 3.37000E-05, label: 'sysErr'}
+  - value: 1.64000E-04
+    errors:
+    - {symerror: 8.24000E-05, label: 'statErr'}
+    - {symerror: 2.19000E-05, label: 'sysErr'}
+  - value: 1.47000E-04
+    errors:
+    - {symerror: 6.81000E-05, label: 'statErr'}
+    - {symerror: 1.74000E-05, label: 'sysErr'}
+  - value: 1.33000E-04
+    errors:
+    - {symerror: 5.80000E-05, label: 'statErr'}
+    - {symerror: 1.64000E-05, label: 'sysErr'}
+  - value: 1.06000E-04
+    errors:
+    - {symerror: 3.46000E-05, label: 'statErr'}
+    - {symerror: 1.18000E-05, label: 'sysErr'}

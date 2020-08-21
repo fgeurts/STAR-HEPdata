@@ -1,0 +1,20 @@
+independent_variables:
+- header: {name: '$Mass Region (GeV/c2)$'}
+  values:
+  - {low: 0.40, high: 0.76}
+  - {low: 0.76, high: 1.20}
+  - {low: 1.20, high: 2.60}
+dependent_variables:
+- header: {name: '$\sqrt{p_T^2} (MeV/c)$ 60-80% Au+Au collisions'}
+  qualifiers:
+  - {name: '$Mass Region (GeV/c2)$', value: 'sqrt(pT2) (MeV/c) (60-80% Au+Au collisions)'}
+  values:
+  - value: 5.08600E+01
+    errors:
+    - {symerror: 2.51000E+00, label: 'Err (stat.+sys.)'}
+  - value: 5.61900E+01
+    errors:
+    - {symerror: 4.50000E+00, label: 'Err (stat.+sys.)'}
+  - value: 5.97900E+01
+    errors:
+    - {symerror: 7.54000E+00, label: 'Err (stat.+sys.)'}

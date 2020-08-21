@@ -1,0 +1,83 @@
+independent_variables:
+- header: {name: '$M{ee} (GeV/c^2)$'}
+  values:
+  - {low: 0.4, high: 0.52}
+  - {low: 0.52, high: 0.64}
+  - {low: 0.64, high: 0.76}
+  - {low: 0.76, high: 0.88}
+  - {low: 0.88, high: 1}
+  - {low: 1, high: 1.2}
+  - {low: 1.2, high: 1.6}
+  - {low: 1.6, high: 2.2}
+  - {low: 2.2, high: 2.6}
+  - {low: 2.6, high: 3}
+  - {low: 3, high: 3.08}
+  - {low: 3.08, high: 3.11}
+  - {low: 3.11, high: 3.15}
+  - {low: 3.15, high: 3.2}
+  - {low: 3.2, high: 4}
+dependent_variables:
+- header: {name: 'data/cocktail (40-60% U+U collisions)'}
+  qualifiers:
+  - {name: '$M{ee} (GeV/c^2)$', value: 'Ratio of Data over Cocktail (40-60% U+U collisions)'}
+  values:
+  - value: 3.52000E+00
+    errors:
+    - {symerror: 1.86000E+00, label: 'statErr'}
+    - {symerror: 6.20000E-01, label: 'sysErr'}
+  - value: 6.37000E+00
+    errors:
+    - {symerror: 1.62000E+00, label: 'statErr'}
+    - {symerror: 7.60000E-01, label: 'sysErr'}
+  - value: 6.24000E+00
+    errors:
+    - {symerror: 1.55000E+00, label: 'statErr'}
+    - {symerror: 7.50000E-01, label: 'sysErr'}
+  - value: 1.96000E+00
+    errors:
+    - {symerror: 6.70000E-01, label: 'statErr'}
+    - {symerror: 2.20000E-01, label: 'sysErr'}
+  - value: 5.00000E+00
+    errors:
+    - {symerror: 1.56000E+00, label: 'statErr'}
+    - {symerror: 5.60000E-01, label: 'sysErr'}
+  - value: 2.45000E+00
+    errors:
+    - {symerror: 6.20000E-01, label: 'statErr'}
+    - {symerror: 2.70000E-01, label: 'sysErr'}
+  - value: 2.87000E+00
+    errors:
+    - {symerror: 1.86000E+00, label: 'statErr'}
+    - {symerror: 3.30000E-01, label: 'sysErr'}
+  - value: 4.01000E+00
+    errors:
+    - {symerror: 2.51000E+00, label: 'statErr'}
+    - {symerror: 4.80000E-01, label: 'sysErr'}
+  - value: 1.27500E+01
+    errors:
+    - {symerror: 4.32000E+00, label: 'statErr'}
+    - {symerror: 1.37000E+00, label: 'sysErr'}
+  - value: 6.05000E+00
+    errors:
+    - {symerror: 4.42000E+00, label: 'statErr'}
+    - {symerror: 1.08000E+00, label: 'sysErr'}
+  - value: 8.02000E+00
+    errors:
+    - {symerror: 3.46000E+00, label: 'statErr'}
+    - {symerror: 8.90000E-01, label: 'sysErr'}
+  - value: 1.02900E+01
+    errors:
+    - {symerror: 2.99000E+00, label: 'statErr'}
+    - {symerror: 1.11000E+00, label: 'sysErr'}
+  - value: 6.65000E+00
+    errors:
+    - {symerror: 2.98000E+00, label: 'statErr'}
+    - {symerror: 7.40000E-01, label: 'sysErr'}
+  - value: 1.11900E+01
+    errors:
+    - {symerror: 7.92000E+00, label: 'statErr'}
+    - {symerror: 1.21000E+00, label: 'sysErr'}
+  - value: 5.91000E+00
+    errors:
+    - {symerror: 4.24000E+00, label: 'statErr'}
+    - {symerror: 8.70000E-01, label: 'sysErr'}

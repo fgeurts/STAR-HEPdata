@@ -1,0 +1,78 @@
+independent_variables:
+- header: {name: '$M{ee} (GeV/c^2)$'}
+  values:
+  - {low: 0.4, high: 0.6}
+  - {low: 0.6, high: 0.76}
+  - {low: 0.76, high: 0.88}
+  - {low: 0.88, high: 1}
+  - {low: 1, high: 1.2}
+  - {low: 1.2, high: 1.6}
+  - {low: 1.6, high: 2.1}
+  - {low: 2.1, high: 2.6}
+  - {low: 2.6, high: 3}
+  - {low: 3, high: 3.08}
+  - {low: 3.08, high: 3.11}
+  - {low: 3.11, high: 3.2}
+  - {low: 3.2, high: 3.45}
+  - {low: 3.45, high: 4}
+dependent_variables:
+- header: {name: 'data/cocktail (10-40% Au+Au collisions)'}
+  qualifiers:
+  - {name: '$M{ee} (GeV/c^2)$', value: 'Ratio of Data over Cocktail (10-40% Au+Au collisions)'}
+  values:
+  - value: 4.04000E+00
+    errors:
+    - {symerror: 9.70000E-01, label: 'statErr'}
+    - {symerror: 7.30000E-01, label: 'sysErr'}
+  - value: 2.45000E+00
+    errors:
+    - {symerror: 8.40000E-01, label: 'statErr'}
+    - {symerror: 3.70000E-01, label: 'sysErr'}
+  - value: 1.67000E+00
+    errors:
+    - {symerror: 4.70000E-01, label: 'statErr'}
+    - {symerror: 2.40000E-01, label: 'sysErr'}
+  - value: 1.53000E+00
+    errors:
+    - {symerror: 9.50000E-01, label: 'statErr'}
+    - {symerror: 2.40000E-01, label: 'sysErr'}
+  - value: 1.18000E+00
+    errors:
+    - {symerror: 4.60000E-01, label: 'statErr'}
+    - {symerror: 1.70000E-01, label: 'sysErr'}
+  - value: 2.50000E+00
+    errors:
+    - {symerror: 9.50000E-01, label: 'statErr'}
+    - {symerror: 3.40000E-01, label: 'sysErr'}
+  - value: 4.09000E+00
+    errors:
+    - {symerror: 1.31000E+00, label: 'statErr'}
+    - {symerror: 6.20000E-01, label: 'sysErr'}
+  - value: 2.96000E+00
+    errors:
+    - {symerror: 2.06000E+00, label: 'statErr'}
+    - {symerror: 4.10000E-01, label: 'sysErr'}
+  - value: 3.39000E+00
+    errors:
+    - {symerror: 2.56000E+00, label: 'statErr'}
+    - {symerror: 6.90000E-01, label: 'sysErr'}
+  - value: 5.74000E+00
+    errors:
+    - {symerror: 1.79000E+00, label: 'statErr'}
+    - {symerror: 8.30000E-01, label: 'sysErr'}
+  - value: 3.95000E+00
+    errors:
+    - {symerror: 1.40000E+00, label: 'statErr'}
+    - {symerror: 6.10000E-01, label: 'sysErr'}
+  - value: 4.26000E+00
+    errors:
+    - {symerror: 2.11000E+00, label: 'statErr'}
+    - {symerror: 7.10000E-01, label: 'sysErr'}
+  - value: 1.14600E+01
+    errors:
+    - {symerror: 4.68000E+00, label: 'statErr'}
+    - {symerror: 1.74000E+00, label: 'sysErr'}
+  - value: 5.15000E+00
+    errors:
+    - {symerror: 3.83000E+00, label: 'statErr'}
+    - {symerror: 9.10000E-01, label: 'sysErr'}

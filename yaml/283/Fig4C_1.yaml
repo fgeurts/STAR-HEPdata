@@ -1,0 +1,33 @@
+independent_variables:
+- header: {name: '$p_T^2 ((GeV/c)^2)$'}
+  values:
+  - {low: 0, high: 0.0004}
+  - {low: 0.0004, high: 0.0009}
+  - {low: 0.0009, high: 0.0016}
+  - {low: 0.0016, high: 0.0036}
+  - {low: 0.0036, high: 0.0064}
+dependent_variables:
+- header: {name: '$dN^2/dp_T^2/dy$ (1.20< Mee <2.60 GeV/c2 in 60-80% Au+Au collisions)'}
+  qualifiers:
+  - {name: '$p_T^2 ((GeV/c)^2)$', value: 'dN2/dpT2/dy (1.20< Mee <2.60 GeV/c2 in 60-80% Au+Au collisions)'}
+  values:
+  - value: 1.29000E-03
+    errors:
+    - {symerror: 2.65000E-04, label: 'statErr'}
+    - {symerror: 1.81000E-04, label: 'sysErr'}
+  - value: 1.43000E-03
+    errors:
+    - {symerror: 2.51000E-04, label: 'statErr'}
+    - {symerror: 2.04000E-04, label: 'sysErr'}
+  - value: 1.02000E-03
+    errors:
+    - {symerror: 1.96000E-04, label: 'statErr'}
+    - {symerror: 1.43000E-04, label: 'sysErr'}
+  - value: 7.89000E-04
+    errors:
+    - {symerror: 1.06000E-04, label: 'statErr'}
+    - {symerror: 1.12000E-04, label: 'sysErr'}
+  - value: 3.86000E-04
+    errors:
+    - {symerror: 7.87000E-05, label: 'statErr'}
+    - {symerror: 5.64000E-05, label: 'sysErr'}
