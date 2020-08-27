@@ -4,18 +4,6 @@ dependent_variables:
   - {name: p_T, value: 0-5%}
   values:
   - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
     - {label: stat, symerror: 0.00801}
     - {label: sys, symerror: 0.04482}
     value: 0.4272
@@ -47,22 +35,6 @@ dependent_variables:
     - {label: stat, symerror: 0.00473}
     - {label: sys, symerror: 0.02224}
     value: 0.2845
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
   - errors:
     - {label: stat, symerror: 'null'}
     - {label: sys, symerror: 'null'}
@@ -136,18 +108,6 @@ dependent_variables:
   - {name: p_T, value: 5-10%}
   values:
   - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
     - {label: stat, symerror: 0.00732}
     - {label: sys, symerror: 0.03909}
     value: 0.3725
@@ -179,22 +139,6 @@ dependent_variables:
     - {label: stat, symerror: 0.00411}
     - {label: sys, symerror: 0.01734}
     value: 0.2217
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
   - errors:
     - {label: stat, symerror: 'null'}
     - {label: sys, symerror: 'null'}
@@ -268,18 +212,6 @@ dependent_variables:
   - {name: p_T, value: 10-20%}
   values:
   - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
     - {label: stat, symerror: 0.00457}
     - {label: sys, symerror: 0.0322}
     value: 0.3068
@@ -311,22 +243,6 @@ dependent_variables:
     - {label: stat, symerror: 0.00256}
     - {label: sys, symerror: 0.01431}
     value: 0.183
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
   - errors:
     - {label: stat, symerror: 'null'}
     - {label: sys, symerror: 'null'}
@@ -400,18 +316,6 @@ dependent_variables:
   - {name: p_T, value: 20-30%}
   values:
   - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
     - {label: stat, symerror: 0.00404}
     - {label: sys, symerror: 0.0265}
     value: 0.2526
@@ -447,22 +351,6 @@ dependent_variables:
     - {label: stat, symerror: 0.00196}
     - {label: sys, symerror: 0.00935}
     value: 0.1195
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
   - errors:
     - {label: stat, symerror: 'null'}
     - {label: sys, symerror: 'null'}
@@ -532,18 +420,6 @@ dependent_variables:
   - {name: p_T, value: 30-40%}
   values:
   - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
     - {label: stat, symerror: 0.00352}
     - {label: sys, symerror: 0.02031}
     value: 0.1936
@@ -579,22 +455,6 @@ dependent_variables:
     - {label: stat, symerror: 0.00166}
     - {label: sys, symerror: 0.00679}
     value: 0.0866
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
   - errors:
     - {label: stat, symerror: 0.00344}
     - {label: sys, symerror: 0.01826}
@@ -664,18 +524,6 @@ dependent_variables:
   - {name: p_T, value: 40-50%}
   values:
   - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
     - {label: stat, symerror: 0.00301}
     - {label: sys, symerror: 0.01573}
     value: 0.1499
@@ -703,22 +551,6 @@ dependent_variables:
     - {label: stat, symerror: 0.00157}
     - {label: sys, symerror: 0.00552}
     value: 0.0706
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
   - errors:
     - {label: stat, symerror: 'null'}
     - {label: sys, symerror: 'null'}
@@ -796,18 +628,6 @@ dependent_variables:
   - {name: p_T, value: 50-60%}
   values:
   - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
     - {label: stat, symerror: 0.00249}
     - {label: sys, symerror: 0.01089}
     value: 0.1038
@@ -835,22 +655,6 @@ dependent_variables:
     - {label: stat, symerror: 0.00123}
     - {label: sys, symerror: 0.00346}
     value: 0.0442
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
   - errors:
     - {label: stat, symerror: 'null'}
     - {label: sys, symerror: 'null'}
@@ -928,18 +732,6 @@ dependent_variables:
   - {name: p_T, value: 60-70%}
   values:
   - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
     - {label: stat, symerror: 0.00204}
     - {label: sys, symerror: 0.00691}
     value: 0.0659
@@ -963,22 +755,6 @@ dependent_variables:
     - {label: stat, symerror: 0.00111}
     - {label: sys, symerror: 0.0025}
     value: 0.0319
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
   - errors:
     - {label: stat, symerror: 'null'}
     - {label: sys, symerror: 'null'}
@@ -1060,18 +836,6 @@ dependent_variables:
   - {name: p_T, value: 70-80%}
   values:
   - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
     - {label: stat, symerror: 0.00162}
     - {label: sys, symerror: 0.00376}
     value: 0.0358
@@ -1099,22 +863,6 @@ dependent_variables:
     - {label: stat, symerror: 0.00074}
     - {label: sys, symerror: 0.00103}
     value: 0.0131
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
-  - errors:
-    - {label: stat, symerror: 'null'}
-    - {label: sys, symerror: 'null'}
-    value: 'null'
   - errors:
     - {label: stat, symerror: 'null'}
     - {label: sys, symerror: 'null'}
@@ -1190,9 +938,6 @@ dependent_variables:
 independent_variables:
 - header: {name: p_T}
   values:
-  - {high: 0.3, low: 0.25}
-  - {high: 0.35, low: 0.3}
-  - {high: 0.4, low: 0.35}
   - {high: 0.45, low: 0.4}
   - {high: 0.5, low: 0.45}
   - {high: 0.55, low: 0.5}
@@ -1202,10 +947,6 @@ independent_variables:
   - {high: 0.75, low: 0.7}
   - {high: 0.8, low: 0.75}
   - {high: 0.85, low: 0.8}
-  - {high: 0.9, low: 0.85}
-  - {high: 0.95, low: 0.9}
-  - {high: 1.0, low: 0.95}
-  - {high: 1.05, low: 1.0}
   - {high: 0.5, low: 0.4}
   - {high: 0.6, low: 0.5}
   - {high: 0.7, low: 0.6}
