@@ -1,44 +1,44 @@
 independent_variables:
 - header: {name: '<beta>'}
   values:
-  - {low: 0.463, high: 0.501}
-  - {low: 0.454, high: 0.48}
-  - {low: 0.438, high: 0.466}
-  - {low: 0.406, high: 0.434}
-  - {low: 0.3665, high: 0.3955}
-  - {low: 0.3105, high: 0.3375}
-  - {low: 0.239, high: 0.267}
-  - {low: 0.1845, high: 0.2155}
-  - {low: 0.1615, high: 0.1905}
+  - {low: 0.444, high: 0.520, value: 0.482}
+  - {low: 0.441, high: 0.493, value: 0.467}
+  - {low: 0.424, high: 0.480, value: 0.452}
+  - {low: 0.392, high: 0.448, value: 0.420}
+  - {low: 0.352, high: 0.410, value: 0.381}
+  - {low: 0.297, high: 0.351, value: 0.324}
+  - {low: 0.225, high: 0.281, value: 0.253}
+  - {low: 0.169, high: 0.231, value: 0.200}
+  - {low: 0.147, high: 0.205, value: 0.176}
 dependent_variables:
 - header: {name: 'Tkin [MeV]'}
   qualifiers:
-  - {name: '<beta>', value: '27 GeV'}
+  - {name: 'Energy', value: '27 GeV'}
   values:
   - value: 117
     errors:
-    - {symerror: 11, label: 'sys'}
+    - {symerror: 11, label: 'error'}
   - value: 116
     errors:
-    - {symerror: 11, label: 'sys'}
+    - {symerror: 11, label: 'error'}
   - value: 120
     errors:
-    - {symerror: 11, label: 'sys'}
+    - {symerror: 11, label: 'error'}
   - value: 123
     errors:
-    - {symerror: 12, label: 'sys'}
+    - {symerror: 12, label: 'error'}
   - value: 131
     errors:
-    - {symerror: 10, label: 'sys'}
+    - {symerror: 10, label: 'error'}
   - value: 133
     errors:
-    - {symerror: 10, label: 'sys'}
+    - {symerror: 10, label: 'error'}
   - value: 139
     errors:
-    - {symerror: 10, label: 'sys'}
+    - {symerror: 10, label: 'error'}
   - value: 141
     errors:
-    - {symerror: 11, label: 'sys'}
+    - {symerror: 11, label: 'error'}
   - value: 142
     errors:
-    - {symerror: 11, label: 'sys'}
+    - {symerror: 11, label: 'error'}
