@@ -1,0 +1,53 @@
+comment: |
+  BNL-RHIC.  The STAR Collaboration at RHIC reports measurements of azimuthal correlations of high transverse momentum ($p_T$) charged hadrons in Au+Au collisions at higher $p_T$ than reported previously. As $p_T$ is increased, a narrow, back-to-back peak emerges above the decreasing background, providing a clear dijet signal for all collision centralities studied. Using these correlations, we perform a systematic study of dijet production and suppression in nuclear collisions, providing new constraints on the mechanisms underlying partonic energy loss in dense matter.
+additional_resources:
+  - {location: "https://drupal.star.bnl.gov/STAR/publications/direct-observation-dijets-central-au-au-collisions-sqrt-s-sub-nn-sub-200-gev", description: "web page with data points"}
+  - {location: "https://arxiv.org/pdf/nucl-ex/0604018.pdf", description: "arxiv"}
+---
+additional_resources:
+  - {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/64/figure3.png", description: Image file}
+  - {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/64/figure3.eps.gz", description: Image file}
+  - {location: "figure3.png", description: Image file}
+  - {location: "thumb_figure3.png", description: Thumbnail Image file}
+name: "Figure 3.1"
+description: 'Centrality dependence (number of participants $N_{Part}$) of near- and away-side yield in 200 GeV Au+Au collisions, for 8 $< p^{trig}_T <$ 15 GeV/$c$ and various $p^{assoc}_T$ ranges. A semi-log scale is used and data for 3 $< p^{assoc}_T <$ 4 GeV/$c$ are scaled by 1.5 for clarity. The error bars are statistical. The horizontal bars for 3 $< p^{assoc}_T <$ 4 GeV/$c$ show the systematic uncertainty due to background subtraction; it is negligible for higher $p^{assoc}_T$ .'
+keywords:
+  - {name: reactions, values: [AU AU --> NEUTRAL X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: figure3.1.yaml
+---
+additional_resources:
+  - {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/64/figure3.png", description: Image file}
+  - {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/64/figure3.eps.gz", description: Image file}
+  - {location: "figure3.png", description: Image file}
+  - {location: "thumb_figure3.png", description: Thumbnail Image file}
+name: "Figure 3.2"
+description: 'Centrality dependence (number of participants $N_{Part}$) of near- and away-side yield in 200 GeV d+Au (leftmost points) for 8 $< p^{trig}_T <$ 15 GeV/$c$ and various $p^{assoc}_T$ ranges. A semi-log scale is used and data for 3 $< p^{assoc}_T <$ 4 GeV/$c$ are scaled by 1.5 for clarity. The error bars are statistical. The horizontal bars for 3 $< p^{assoc}_T <$ 4 GeV/$c$ show the systematic uncertainty due to background subtraction; it is negligible for higher $p^{assoc}_T$ .'
+keywords:
+  - {name: reactions, values: [d AU --> NEUTRAL X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: figure3.2.yaml
+---
+additional_resources:
+  - {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/64/figure4.png", description: Image file}
+  - {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/64/figure4.eps.gz", description: Image file}
+  - {location: "figure4.png", description: Image file}
+  - {location: "thumb_figure4.png", description: Thumbnail Image file}
+name: "Figure 4.1"
+description: 'Upper panels: trigger-normalized charged hadron fragmentation function D($z_T$) with 8 $< p^{trig}_T <$ 15 GeV/c, for near- (left) and away-side (right) correlations in d+Au and Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. Dashed and solid lines described in text. Horizontal bars on away-side show systematic uncertainty due to background substraction. Lower panels: ratio of D($z_T$) for Au+Au relative to d+Au. The error bars are statistical in all panels.' 
+keywords:
+  - {name: reactions, values: [AU AU --> NEUTRAL X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: figure4.1.yaml
+---
+additional_resources:
+  - {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/64/figure4.png", description: Image file}
+  - {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/64/figure4.eps.gz", description: Image file}
+  - {location: "figure4.png", description: Image file}
+  - {location: "thumb_figure4.png", description: Thumbnail Image file}
+name: "Figure 4.2"
+description: 'Upper panels: trigger-normalized charged hadron fragmentation function D($z_T$) with 8 $< p^{trig}_T <$ 15 GeV/c, for near- (left) and away-side (right) correlations in d+Au and Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV. Dashed and solid lines described in text. Horizontal bars on away-side show systematic uncertainty due to background substraction. Lower panels: ratio of D($z_T$) for Au+Au relative to d+Au. The error bars are statistical in all panels.' 
+keywords:
+  - {name: reactions, values: [AU AU --> NEUTRAL X]}
+  - {name: cmenergies, values: [200.0]}
+data_file: figure4.2.yaml

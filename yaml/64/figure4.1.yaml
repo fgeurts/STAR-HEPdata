@@ -1,0 +1,136 @@
+independent_variables:
+- header: {name: '$z_T$'}
+  values:
+  - {low: 0.3, high: 0.4}
+  - {low: 0.4, high: 0.5}
+  - {low: 0.5, high: 0.6}
+  - {low: 0.6, high: 0.7}
+  - {low: 0.7, high: 0.8}
+  - {low: 0.8, high: 0.9}
+  - {low: 0.9, high: 1}
+dependent_variables:
+- header: {name: '$D(z_T)$'}
+  qualifiers:
+  - {name: '$z_T$', value: 'd+Au Near side,  min bias'}
+  values:
+  - value: 0.502
+    errors:
+    - {symerror: 0.127, label: 'Stat error'}
+  - value: 0.392
+    errors:
+    - {symerror: 0.099, label: 'Stat error'}
+  - value: 0.192
+    errors:
+    - {symerror: 0.065, label: 'Stat error'}
+  - value: 0.092
+    errors:
+    - {symerror: 0.043, label: 'Stat error'}
+  - value: 0.068
+    errors:
+    - {symerror: 0.037, label: 'Stat error'}
+  - value: 0.071
+    errors:
+    - {symerror: 0.038, label: 'Stat error'}
+  - value: 0.047
+    errors:
+    - {symerror: 0.01, label: 'Stat error'}
+- header: {name: '$D(z_T)$'}
+  qualifiers:
+  - {name: '$z_T$', value: 'Au+Au Near side, $20-40\%$ centrality'}
+  values:
+  - value: 0.584
+    errors:
+    - {symerror: 0.08, label: 'Stat error'}
+  - value: 0.434
+    errors:
+    - {symerror: 0.042, label: 'Stat error'}
+  - value: 0.226
+    errors:
+    - {symerror: 0.026, label: 'Stat error'}
+  - value: 0.135
+    errors:
+    - {symerror: 0.018, label: 'Stat error'}
+  - value: 0.076
+    errors:
+    - {symerror: 0.014, label: 'Stat error'}
+  - value: 0.056
+    errors:
+    - {symerror: 0.011, label: 'Stat error'}
+  - value: 0.046
+    errors:
+    - {symerror: 0.006, label: 'Stat error'}
+- header: {name: '$D(z_T)$'}
+  qualifiers:
+  - {name: '$z_T$', value: 'Au+Au Near side, $0-5\%$ centrality'}
+  values:
+  - value: 0.787
+    errors:
+    - {symerror: 0.067, label: 'Stat error'}
+  - value: 0.321
+    errors:
+    - {symerror: 0.028, label: 'Stat error'}
+  - value: 0.189
+    errors:
+    - {symerror: 0.015, label: 'Stat error'}
+  - value: 0.102
+    errors:
+    - {symerror: 0.01, label: 'Stat error'}
+  - value: 0.077
+    errors:
+    - {symerror: 0.008, label: 'Stat error'}
+  - value: 0.043
+    errors:
+    - {symerror: 0.006, label: 'Stat error'}
+  - value: 0.138
+    errors:
+    - {symerror: 0.053, label: 'Stat error'}
+- header: {name: '$D(z_T)$'}
+  qualifiers:
+  - {name: '$z_T$', value: 'd+Au Away side, min bias'}
+  values:
+  - value: 1.19
+    errors:
+    - {symerror: 0.17, label: 'Stat error'}
+  - value: 0.58
+    errors:
+    - {symerror: 0.12, label: 'Stat error'}
+  - value: 0.4
+    errors:
+    - {symerror: 0.09, label: 'Stat error'}
+  - value: 0.28
+    errors:
+    - {symerror: 0.075, label: 'Stat error'}
+  - value: 0.298
+    errors:
+    - {symerror: 0.077, label: 'Stat error'}
+  - value: 0.116
+    errors:
+    - {symerror: 0.048, label: 'Stat error'}
+  - value: 0.058
+    errors:
+    - {symerror: 0.011, label: 'Stat error'}
+- header: {name: '$D(z_T)$'}
+  qualifiers:
+  - {name: '$z_T$', value: 'Au+Au Away side, $20-40\%$ centrality'}
+  values:
+  - value: 0.768
+    errors:
+    - {symerror: 0.083, label: 'Stat error'}
+  - value: 0.385
+    errors:
+    - {symerror: 0.04, label: 'Stat error'}
+  - value: 0.217
+    errors:
+    - {symerror: 0.026, label: 'Stat error'}
+  - value: 0.144
+    errors:
+    - {symerror: 0.018, label: 'Stat error'}
+  - value: 0.128
+    errors:
+    - {symerror: 0.017, label: 'Stat error'}
+  - value: 0.07
+    errors:
+    - {symerror: 0.013, label: 'Stat error'}
+  - value: 0.023
+    errors:
+    - {symerror: 0.004, label: 'Stat error'}
