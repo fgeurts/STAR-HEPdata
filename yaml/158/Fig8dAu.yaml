@@ -1,0 +1,48 @@
+dependent_variables:
+- header: {name: $\langle p_T \rangle$}
+  qualifiers:
+  - {name: $\Delta\phi$, value: '6.0 < $p_T_{trig}$ < 10.0'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.167}
+    value: 0.829
+  - errors:
+    - {label: stat, symerror: 0.118}
+    value: 0.955
+  - errors:
+    - {label: stat, symerror: 0.079}
+    value: 0.928
+  - errors:
+    - {label: stat, symerror: 0.069}
+    value: 1.049
+  - errors:
+    - {label: stat, symerror: 0.056}
+    value: 1.047
+  - errors:
+    - {label: stat, symerror: 0.052}
+    value: 1.029
+  - errors:
+    - {label: stat, symerror: 0.063}
+    value: 0.996
+  - errors:
+    - {label: stat, symerror: 0.087}
+    value: 0.967
+  - errors:
+    - {label: stat, symerror: 0.108}
+    value: 0.93
+  - errors:
+    - {label: stat, symerror: 0.135}
+    value: 0.798
+independent_variables:
+- header: {name: $\Delta\phi$}
+  values:
+  - {high: 2.09, low: 1.83}
+  - {high: 2.36, low: 2.09}
+  - {high: 2.62, low: 2.36}
+  - {high: 2.88, low: 2.62}
+  - {high: 3.14, low: 2.88}
+  - {high: 3.4, low: 3.14}
+  - {high: 3.67, low: 3.4}
+  - {high: 3.93, low: 3.67}
+  - {high: 4.19, low: 3.93}
+  - {high: 4.45, low: 4.19}

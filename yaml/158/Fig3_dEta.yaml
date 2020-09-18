@@ -1,0 +1,2436 @@
+dependent_variables:
+- header: {name: '1/$N_{trig}$dN/d$\Delta\phi$'}
+  qualifiers:
+  - {name: $\Delta\phi$, value: '$|\Delta\eta| <0.7$ 0.5 < $p_{T}^{assoc}$ < 1.0 GeV/c
+      $/otimes$ 2.5 < $p_{T}^{trig}$ < 3.0 GeV/c'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: -0.0082
+  - errors:
+    - {label: stat, symerror: 0.0037}
+    value: 0.0177
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.0768
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.1434
+  - errors:
+    - {label: stat, symerror: 0.0037}
+    value: 0.2338
+  - errors:
+    - {label: stat, symerror: 0.004}
+    value: 0.3185
+  - errors:
+    - {label: stat, symerror: 0.0039}
+    value: 0.3968
+  - errors:
+    - {label: stat, symerror: 0.0039}
+    value: 0.4264
+  - errors:
+    - {label: stat, symerror: 0.004}
+    value: 0.4272
+  - errors:
+    - {label: stat, symerror: 0.004}
+    value: 0.3885
+  - errors:
+    - {label: stat, symerror: 0.0039}
+    value: 0.3393
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.2486
+  - errors:
+    - {label: stat, symerror: 0.0037}
+    value: 0.1594
+  - errors:
+    - {label: stat, symerror: 0.0037}
+    value: 0.0806
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.0354
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: -0.0024
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.0198
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.0649
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.117
+  - errors:
+    - {label: stat, symerror: 0.0037}
+    value: 0.1545
+  - errors:
+    - {label: stat, symerror: 0.0037}
+    value: 0.1983
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.2376
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.2653
+  - errors:
+    - {label: stat, symerror: 0.0037}
+    value: 0.2658
+  - errors:
+    - {label: stat, symerror: 0.0037}
+    value: 0.2708
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.2704
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.2482
+  - errors:
+    - {label: stat, symerror: 0.0037}
+    value: 0.2291
+  - errors:
+    - {label: stat, symerror: 0.0037}
+    value: 0.2254
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.2205
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.2146
+  - errors:
+    - {label: stat, symerror: 0.0037}
+    value: 0.2126
+  - errors:
+    - {label: stat, symerror: 0.0037}
+    value: 0.2104
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.2328
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.2439
+  - errors:
+    - {label: stat, symerror: 0.0037}
+    value: 0.2529
+  - errors:
+    - {label: stat, symerror: 0.0037}
+    value: 0.2657
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.284
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.2786
+  - errors:
+    - {label: stat, symerror: 0.0037}
+    value: 0.2684
+  - errors:
+    - {label: stat, symerror: 0.0037}
+    value: 0.2393
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.2116
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.1668
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.1111
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.0655
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.032
+  - errors:
+    - {label: stat, symerror: 0.0036}
+    value: 0.0005
+- header: {name: '1/$N_{trig}$dN/d$\Delta\phi$'}
+  qualifiers:
+  - {name: $\Delta\phi$, value: '$|\Delta\eta| <0.7$ 0.5 < $p_{T}^{assoc}$ < 1.0 GeV/c
+      $/otimes$ 3.0 < $p_{T}^{trig}$ < 4.0 GeV/c'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.0006
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.0072
+  - errors:
+    - {label: stat, symerror: 0.0057}
+    value: 0.0509
+  - errors:
+    - {label: stat, symerror: 0.0057}
+    value: 0.1437
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.2375
+  - errors:
+    - {label: stat, symerror: 0.0063}
+    value: 0.3479
+  - errors:
+    - {label: stat, symerror: 0.0062}
+    value: 0.4144
+  - errors:
+    - {label: stat, symerror: 0.0062}
+    value: 0.4609
+  - errors:
+    - {label: stat, symerror: 0.0063}
+    value: 0.4674
+  - errors:
+    - {label: stat, symerror: 0.0063}
+    value: 0.4288
+  - errors:
+    - {label: stat, symerror: 0.0062}
+    value: 0.352
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.2605
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.1432
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.0637
+  - errors:
+    - {label: stat, symerror: 0.0057}
+    value: 0.0124
+  - errors:
+    - {label: stat, symerror: 0.0057}
+    value: -0.0104
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: -0.0035
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.0369
+  - errors:
+    - {label: stat, symerror: 0.0057}
+    value: 0.0725
+  - errors:
+    - {label: stat, symerror: 0.0057}
+    value: 0.1194
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.1786
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.2269
+  - errors:
+    - {label: stat, symerror: 0.0057}
+    value: 0.2744
+  - errors:
+    - {label: stat, symerror: 0.0057}
+    value: 0.292
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.3066
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.3143
+  - errors:
+    - {label: stat, symerror: 0.0057}
+    value: 0.2948
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.2944
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.2815
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.269
+  - errors:
+    - {label: stat, symerror: 0.0057}
+    value: 0.2617
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.2552
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.2564
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.2693
+  - errors:
+    - {label: stat, symerror: 0.0057}
+    value: 0.2724
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.2922
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.3176
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.3035
+  - errors:
+    - {label: stat, symerror: 0.0057}
+    value: 0.309
+  - errors:
+    - {label: stat, symerror: 0.0057}
+    value: 0.3103
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.3116
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.286
+  - errors:
+    - {label: stat, symerror: 0.0057}
+    value: 0.2456
+  - errors:
+    - {label: stat, symerror: 0.0057}
+    value: 0.1867
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.1333
+  - errors:
+    - {label: stat, symerror: 0.0058}
+    value: 0.0754
+  - errors:
+    - {label: stat, symerror: 0.0057}
+    value: 0.0284
+  - errors:
+    - {label: stat, symerror: 0.0057}
+    value: -0.0026
+- header: {name: '1/$N_{trig}$dN/d$\Delta\phi$'}
+  qualifiers:
+  - {name: $\Delta\phi$, value: '$|\Delta\eta| <0.7$ 0.5 < $p_{T}^{assoc}$ < 1.0 GeV/c
+      $/otimes$ 4.0 < $p_{T}^{trig}$ < 6.0 GeV/c'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.015}
+    value: -0.0438
+  - errors:
+    - {label: stat, symerror: 0.0151}
+    value: -0.0073
+  - errors:
+    - {label: stat, symerror: 0.0149}
+    value: 0.0295
+  - errors:
+    - {label: stat, symerror: 0.015}
+    value: 0.101
+  - errors:
+    - {label: stat, symerror: 0.0151}
+    value: 0.1753
+  - errors:
+    - {label: stat, symerror: 0.0164}
+    value: 0.3331
+  - errors:
+    - {label: stat, symerror: 0.0162}
+    value: 0.398
+  - errors:
+    - {label: stat, symerror: 0.0163}
+    value: 0.4349
+  - errors:
+    - {label: stat, symerror: 0.0164}
+    value: 0.425
+  - errors:
+    - {label: stat, symerror: 0.0164}
+    value: 0.3944
+  - errors:
+    - {label: stat, symerror: 0.0162}
+    value: 0.3408
+  - errors:
+    - {label: stat, symerror: 0.015}
+    value: 0.1975
+  - errors:
+    - {label: stat, symerror: 0.0151}
+    value: 0.1089
+  - errors:
+    - {label: stat, symerror: 0.0151}
+    value: 0.0623
+  - errors:
+    - {label: stat, symerror: 0.0149}
+    value: 0.0096
+  - errors:
+    - {label: stat, symerror: 0.0149}
+    value: -0.0151
+  - errors:
+    - {label: stat, symerror: 0.015}
+    value: -0.0014
+  - errors:
+    - {label: stat, symerror: 0.015}
+    value: 0.0191
+  - errors:
+    - {label: stat, symerror: 0.0149}
+    value: 0.0803
+  - errors:
+    - {label: stat, symerror: 0.0149}
+    value: 0.1525
+  - errors:
+    - {label: stat, symerror: 0.0151}
+    value: 0.1615
+  - errors:
+    - {label: stat, symerror: 0.0151}
+    value: 0.2182
+  - errors:
+    - {label: stat, symerror: 0.0149}
+    value: 0.2811
+  - errors:
+    - {label: stat, symerror: 0.015}
+    value: 0.321
+  - errors:
+    - {label: stat, symerror: 0.0151}
+    value: 0.3453
+  - errors:
+    - {label: stat, symerror: 0.0151}
+    value: 0.3509
+  - errors:
+    - {label: stat, symerror: 0.0149}
+    value: 0.336
+  - errors:
+    - {label: stat, symerror: 0.015}
+    value: 0.3303
+  - errors:
+    - {label: stat, symerror: 0.0152}
+    value: 0.3268
+  - errors:
+    - {label: stat, symerror: 0.0152}
+    value: 0.3158
+  - errors:
+    - {label: stat, symerror: 0.015}
+    value: 0.2814
+  - errors:
+    - {label: stat, symerror: 0.015}
+    value: 0.2945
+  - errors:
+    - {label: stat, symerror: 0.0152}
+    value: 0.3102
+  - errors:
+    - {label: stat, symerror: 0.0152}
+    value: 0.2922
+  - errors:
+    - {label: stat, symerror: 0.015}
+    value: 0.3139
+  - errors:
+    - {label: stat, symerror: 0.015}
+    value: 0.3108
+  - errors:
+    - {label: stat, symerror: 0.0152}
+    value: 0.3323
+  - errors:
+    - {label: stat, symerror: 0.0151}
+    value: 0.336
+  - errors:
+    - {label: stat, symerror: 0.0149}
+    value: 0.3407
+  - errors:
+    - {label: stat, symerror: 0.015}
+    value: 0.34
+  - errors:
+    - {label: stat, symerror: 0.0151}
+    value: 0.298
+  - errors:
+    - {label: stat, symerror: 0.0151}
+    value: 0.3155
+  - errors:
+    - {label: stat, symerror: 0.0149}
+    value: 0.2549
+  - errors:
+    - {label: stat, symerror: 0.0149}
+    value: 0.22
+  - errors:
+    - {label: stat, symerror: 0.0151}
+    value: 0.1734
+  - errors:
+    - {label: stat, symerror: 0.0151}
+    value: 0.1092
+  - errors:
+    - {label: stat, symerror: 0.0148}
+    value: 0.0314
+  - errors:
+    - {label: stat, symerror: 0.0149}
+    value: 0.0101
+- header: {name: '1/$N_{trig}$dN/d$\Delta\phi$'}
+  qualifiers:
+  - {name: $\Delta\phi$, value: '$|\Delta\eta| <0.7$ 0.5 < $p_{T}^{assoc}$ < 1.0 GeV/c
+      $/otimes$ 6.0 < $p_{T}^{trig}$ < 10.0 GeV/c'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.0586}
+    value: 0.012
+  - errors:
+    - {label: stat, symerror: 0.0587}
+    value: -0.0208
+  - errors:
+    - {label: stat, symerror: 0.058}
+    value: 0.1249
+  - errors:
+    - {label: stat, symerror: 0.0583}
+    value: 0.0966
+  - errors:
+    - {label: stat, symerror: 0.0589}
+    value: 0.2364
+  - errors:
+    - {label: stat, symerror: 0.0638}
+    value: 0.3688
+  - errors:
+    - {label: stat, symerror: 0.0632}
+    value: 0.4825
+  - errors:
+    - {label: stat, symerror: 0.0634}
+    value: 0.4587
+  - errors:
+    - {label: stat, symerror: 0.064}
+    value: 0.4958
+  - errors:
+    - {label: stat, symerror: 0.064}
+    value: 0.4456
+  - errors:
+    - {label: stat, symerror: 0.063}
+    value: 0.363
+  - errors:
+    - {label: stat, symerror: 0.0584}
+    value: 0.1418
+  - errors:
+    - {label: stat, symerror: 0.0588}
+    value: 0.166
+  - errors:
+    - {label: stat, symerror: 0.0586}
+    value: -0.0922
+  - errors:
+    - {label: stat, symerror: 0.058}
+    value: 0.032
+  - errors:
+    - {label: stat, symerror: 0.058}
+    value: -0.1396
+  - errors:
+    - {label: stat, symerror: 0.0586}
+    value: 0.0149
+  - errors:
+    - {label: stat, symerror: 0.0588}
+    value: 0.1838
+  - errors:
+    - {label: stat, symerror: 0.058}
+    value: 0.1862
+  - errors:
+    - {label: stat, symerror: 0.0583}
+    value: 0.2092
+  - errors:
+    - {label: stat, symerror: 0.0587}
+    value: 0.2157
+  - errors:
+    - {label: stat, symerror: 0.0588}
+    value: 0.2197
+  - errors:
+    - {label: stat, symerror: 0.0581}
+    value: 0.2801
+  - errors:
+    - {label: stat, symerror: 0.0584}
+    value: 0.2727
+  - errors:
+    - {label: stat, symerror: 0.0589}
+    value: 0.3692
+  - errors:
+    - {label: stat, symerror: 0.059}
+    value: 0.3966
+  - errors:
+    - {label: stat, symerror: 0.0583}
+    value: 0.4521
+  - errors:
+    - {label: stat, symerror: 0.0586}
+    value: 0.4225
+  - errors:
+    - {label: stat, symerror: 0.0591}
+    value: 0.4008
+  - errors:
+    - {label: stat, symerror: 0.0591}
+    value: 0.371
+  - errors:
+    - {label: stat, symerror: 0.0583}
+    value: 0.3563
+  - errors:
+    - {label: stat, symerror: 0.0586}
+    value: 0.4192
+  - errors:
+    - {label: stat, symerror: 0.0593}
+    value: 0.6364
+  - errors:
+    - {label: stat, symerror: 0.0592}
+    value: 0.4907
+  - errors:
+    - {label: stat, symerror: 0.0584}
+    value: 0.4215
+  - errors:
+    - {label: stat, symerror: 0.0586}
+    value: 0.4285
+  - errors:
+    - {label: stat, symerror: 0.0591}
+    value: 0.447
+  - errors:
+    - {label: stat, symerror: 0.059}
+    value: 0.4013
+  - errors:
+    - {label: stat, symerror: 0.0582}
+    value: 0.3978
+  - errors:
+    - {label: stat, symerror: 0.0584}
+    value: 0.2876
+  - errors:
+    - {label: stat, symerror: 0.0589}
+    value: 0.3275
+  - errors:
+    - {label: stat, symerror: 0.0588}
+    value: 0.2091
+  - errors:
+    - {label: stat, symerror: 0.058}
+    value: 0.2356
+  - errors:
+    - {label: stat, symerror: 0.0581}
+    value: 0.0223
+  - errors:
+    - {label: stat, symerror: 0.0587}
+    value: 0.1053
+  - errors:
+    - {label: stat, symerror: 0.0587}
+    value: 0.1091
+  - errors:
+    - {label: stat, symerror: 0.0579}
+    value: 0.0088
+  - errors:
+    - {label: stat, symerror: 0.0581}
+    value: -0.0407
+- header: {name: '1/$N_{trig}$dN/d$\Delta\phi$'}
+  qualifiers:
+  - {name: $\Delta\phi$, value: '$|\Delta\eta| <0.7$ 1.0 < $p_{T}^{assoc}$ < 1.5 GeV/c
+      $/otimes$ 2.5 < $p_{T}^{trig}$ < 3.0 GeV/c'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: -0.0084
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.0017
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.0324
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.0753
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.1313
+  - errors:
+    - {label: stat, symerror: 0.0021}
+    value: 0.1901
+  - errors:
+    - {label: stat, symerror: 0.0021}
+    value: 0.2326
+  - errors:
+    - {label: stat, symerror: 0.0021}
+    value: 0.257
+  - errors:
+    - {label: stat, symerror: 0.0021}
+    value: 0.2562
+  - errors:
+    - {label: stat, symerror: 0.0021}
+    value: 0.2294
+  - errors:
+    - {label: stat, symerror: 0.0021}
+    value: 0.1891
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.1338
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.0783
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.037
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.0024
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: -0.0073
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: -0.0001
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.015
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.0413
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.0621
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.0893
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.1104
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.1212
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.1245
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.127
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.1142
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.1051
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.095
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.0861
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.0758
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.0689
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.0633
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.0649
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.065
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.0751
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.0873
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.0947
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.1028
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.1209
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.1268
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.1237
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.1222
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.1086
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.0927
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.0658
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.0376
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.016
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    value: 0.0012
+- header: {name: '1/$N_{trig}$dN/d$\Delta\phi$'}
+  qualifiers:
+  - {name: $\Delta\phi$, value: '$|\Delta\eta| <0.7$ 1.0 < $p_{T}^{assoc}$ < 1.5 GeV/c
+      $/otimes$ 3.0 < $p_{T}^{trig}$ < 4.0 GeV/c'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: -0.0036
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.0116
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.0388
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.0816
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.1452
+  - errors:
+    - {label: stat, symerror: 0.0033}
+    value: 0.2126
+  - errors:
+    - {label: stat, symerror: 0.0033}
+    value: 0.2694
+  - errors:
+    - {label: stat, symerror: 0.0033}
+    value: 0.2979
+  - errors:
+    - {label: stat, symerror: 0.0033}
+    value: 0.301
+  - errors:
+    - {label: stat, symerror: 0.0033}
+    value: 0.2696
+  - errors:
+    - {label: stat, symerror: 0.0033}
+    value: 0.2136
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.1437
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.088
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.0309
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.0061
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: -0.0051
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: -0.0058
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.0166
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.0508
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.0775
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.0987
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.1253
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.1329
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.1437
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.1411
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.1359
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.116
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.1063
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.0971
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.0907
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.0802
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.0775
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.0768
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.075
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.0849
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.0964
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.107
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.118
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.136
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.1356
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.1417
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.1334
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.1218
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.1071
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.0743
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.0525
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.0167
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.0019
+- header: {name: '1/$N_{trig}$dN/d$\Delta\phi$'}
+  qualifiers:
+  - {name: $\Delta\phi$, value: '$|\Delta\eta| <0.7$ 1.0 < $p_{T}^{assoc}$ < 1.5 GeV/c
+      $/otimes$ 4.0 < $p_{T}^{trig}$ < 6.0 GeV/c'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: -0.012
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.0005
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.0216
+  - errors:
+    - {label: stat, symerror: 0.0078}
+    value: 0.0622
+  - errors:
+    - {label: stat, symerror: 0.008}
+    value: 0.1285
+  - errors:
+    - {label: stat, symerror: 0.0086}
+    value: 0.1969
+  - errors:
+    - {label: stat, symerror: 0.0087}
+    value: 0.2745
+  - errors:
+    - {label: stat, symerror: 0.0085}
+    value: 0.31
+  - errors:
+    - {label: stat, symerror: 0.0087}
+    value: 0.3154
+  - errors:
+    - {label: stat, symerror: 0.0087}
+    value: 0.2874
+  - errors:
+    - {label: stat, symerror: 0.0086}
+    value: 0.198
+  - errors:
+    - {label: stat, symerror: 0.0078}
+    value: 0.1202
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.0704
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.0115
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: -0.0189
+  - errors:
+    - {label: stat, symerror: 0.0077}
+    value: -0.0033
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.0055
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.0239
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.0367
+  - errors:
+    - {label: stat, symerror: 0.0077}
+    value: 0.0817
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.0901
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.1165
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.1108
+  - errors:
+    - {label: stat, symerror: 0.0078}
+    value: 0.1264
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.1473
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.1203
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.1086
+  - errors:
+    - {label: stat, symerror: 0.0078}
+    value: 0.1217
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.0976
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.0896
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.0962
+  - errors:
+    - {label: stat, symerror: 0.0078}
+    value: 0.0912
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.0802
+  - errors:
+    - {label: stat, symerror: 0.008}
+    value: 0.1084
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.0916
+  - errors:
+    - {label: stat, symerror: 0.0078}
+    value: 0.1148
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.1115
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.133
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.1332
+  - errors:
+    - {label: stat, symerror: 0.0078}
+    value: 0.143
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.1385
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.1227
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.1109
+  - errors:
+    - {label: stat, symerror: 0.0078}
+    value: 0.1075
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.0703
+  - errors:
+    - {label: stat, symerror: 0.0079}
+    value: 0.0432
+  - errors:
+    - {label: stat, symerror: 0.0078}
+    value: 0.0097
+  - errors:
+    - {label: stat, symerror: 0.0077}
+    value: -0.0138
+- header: {name: '1/$N_{trig}$dN/d$\Delta\phi$'}
+  qualifiers:
+  - {name: $\Delta\phi$, value: '$|\Delta\eta| <0.7$ 1.0 < $p_{T}^{assoc}$ < 1.5 GeV/c
+      $/otimes$ 6.0 < $p_{T}^{trig}$ < 10.0 GeV/c'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.0307}
+    value: 0.0058
+  - errors:
+    - {label: stat, symerror: 0.0307}
+    value: -0.0049
+  - errors:
+    - {label: stat, symerror: 0.0307}
+    value: -0.0094
+  - errors:
+    - {label: stat, symerror: 0.0302}
+    value: 0.0181
+  - errors:
+    - {label: stat, symerror: 0.0309}
+    value: 0.1264
+  - errors:
+    - {label: stat, symerror: 0.0336}
+    value: 0.2344
+  - errors:
+    - {label: stat, symerror: 0.0338}
+    value: 0.3094
+  - errors:
+    - {label: stat, symerror: 0.0333}
+    value: 0.3981
+  - errors:
+    - {label: stat, symerror: 0.0339}
+    value: 0.3844
+  - errors:
+    - {label: stat, symerror: 0.0338}
+    value: 0.3482
+  - errors:
+    - {label: stat, symerror: 0.0336}
+    value: 0.2572
+  - errors:
+    - {label: stat, symerror: 0.0304}
+    value: 0.1478
+  - errors:
+    - {label: stat, symerror: 0.0309}
+    value: 0.1027
+  - errors:
+    - {label: stat, symerror: 0.0307}
+    value: -0.0099
+  - errors:
+    - {label: stat, symerror: 0.0307}
+    value: 0.0411
+  - errors:
+    - {label: stat, symerror: 0.0301}
+    value: -0.0149
+  - errors:
+    - {label: stat, symerror: 0.0307}
+    value: 0.0244
+  - errors:
+    - {label: stat, symerror: 0.0306}
+    value: 0.0064
+  - errors:
+    - {label: stat, symerror: 0.0306}
+    value: 0.0069
+  - errors:
+    - {label: stat, symerror: 0.0301}
+    value: 0.0447
+  - errors:
+    - {label: stat, symerror: 0.0308}
+    value: 0.1044
+  - errors:
+    - {label: stat, symerror: 0.0307}
+    value: 0.074
+  - errors:
+    - {label: stat, symerror: 0.0308}
+    value: 0.1435
+  - errors:
+    - {label: stat, symerror: 0.0304}
+    value: 0.1743
+  - errors:
+    - {label: stat, symerror: 0.0309}
+    value: 0.1717
+  - errors:
+    - {label: stat, symerror: 0.0309}
+    value: 0.1725
+  - errors:
+    - {label: stat, symerror: 0.0309}
+    value: 0.1672
+  - errors:
+    - {label: stat, symerror: 0.0304}
+    value: 0.1799
+  - errors:
+    - {label: stat, symerror: 0.0309}
+    value: 0.0832
+  - errors:
+    - {label: stat, symerror: 0.031}
+    value: 0.1636
+  - errors:
+    - {label: stat, symerror: 0.031}
+    value: 0.1521
+  - errors:
+    - {label: stat, symerror: 0.0304}
+    value: 0.1381
+  - errors:
+    - {label: stat, symerror: 0.031}
+    value: 0.1559
+  - errors:
+    - {label: stat, symerror: 0.0311}
+    value: 0.2232
+  - errors:
+    - {label: stat, symerror: 0.0311}
+    value: 0.2093
+  - errors:
+    - {label: stat, symerror: 0.0304}
+    value: 0.1606
+  - errors:
+    - {label: stat, symerror: 0.0309}
+    value: 0.1394
+  - errors:
+    - {label: stat, symerror: 0.0309}
+    value: 0.1169
+  - errors:
+    - {label: stat, symerror: 0.0308}
+    value: 0.1163
+  - errors:
+    - {label: stat, symerror: 0.0303}
+    value: 0.1471
+  - errors:
+    - {label: stat, symerror: 0.0308}
+    value: 0.1365
+  - errors:
+    - {label: stat, symerror: 0.0307}
+    value: 0.087
+  - errors:
+    - {label: stat, symerror: 0.0307}
+    value: 0.093
+  - errors:
+    - {label: stat, symerror: 0.0301}
+    value: 0.0161
+  - errors:
+    - {label: stat, symerror: 0.0306}
+    value: 0.0219
+  - errors:
+    - {label: stat, symerror: 0.0307}
+    value: 0.0452
+  - errors:
+    - {label: stat, symerror: 0.0306}
+    value: -0.0262
+  - errors:
+    - {label: stat, symerror: 0.0301}
+    value: 0.0238
+- header: {name: '1/$N_{trig}$dN/d$\Delta\phi$'}
+  qualifiers:
+  - {name: $\Delta\phi$, value: '$|\Delta\eta| <0.7$ 1.5 < $p_{T}^{assoc}$ < 2.5 GeV/c
+      $/otimes$ 2.5 < $p_{T}^{trig}$ < 3.0 GeV/c'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: -0.0038
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0014
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0194
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0484
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.087
+  - errors:
+    - {label: stat, symerror: 0.0012}
+    value: 0.1247
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.1591
+  - errors:
+    - {label: stat, symerror: 0.0012}
+    value: 0.1775
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.1773
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.1585
+  - errors:
+    - {label: stat, symerror: 0.0012}
+    value: 0.124
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.086
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0474
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0185
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.002
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: -0.0053
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: -0.0001
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0084
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0227
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0364
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0482
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0583
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0627
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0628
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0586
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0534
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0465
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0387
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0323
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0266
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0247
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0226
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0239
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0245
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0279
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0319
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0404
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0466
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.055
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0608
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0609
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0632
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0594
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0496
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0387
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0256
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: 0.0096
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    value: -0.0004
+- header: {name: '1/$N_{trig}$dN/d$\Delta\phi$'}
+  qualifiers:
+  - {name: $\Delta\phi$, value: '$|\Delta\eta| <0.7$ 1.5 < $p_{T}^{assoc}$ < 2.5 GeV/c
+      $/otimes$ 3.0 < $p_{T}^{trig}$ < 4.0 GeV/c'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: -0.004
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0001
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0215
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0526
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.096
+  - errors:
+    - {label: stat, symerror: 0.002}
+    value: 0.1431
+  - errors:
+    - {label: stat, symerror: 0.002}
+    value: 0.1947
+  - errors:
+    - {label: stat, symerror: 0.002}
+    value: 0.2212
+  - errors:
+    - {label: stat, symerror: 0.002}
+    value: 0.2203
+  - errors:
+    - {label: stat, symerror: 0.002}
+    value: 0.1886
+  - errors:
+    - {label: stat, symerror: 0.002}
+    value: 0.1449
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0972
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0509
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0192
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: -0.0021
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: -0.0028
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.001
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0059
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0261
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.038
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0489
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0603
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0656
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0643
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0587
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0478
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0445
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.038
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0329
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.029
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0212
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0235
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.022
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0236
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0309
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0364
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0375
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0513
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0543
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0628
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0638
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0664
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0623
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0511
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0391
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0245
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: 0.0107
+  - errors:
+    - {label: stat, symerror: 0.0018}
+    value: -0.0028
+- header: {name: '1/$N_{trig}$dN/d$\Delta\phi$'}
+  qualifiers:
+  - {name: $\Delta\phi$, value: '$|\Delta\eta| <0.7$ 1.5 < $p_{T}^{assoc}$ < 2.5 GeV/c
+      $/otimes$ 4.0 < $p_{T}^{trig}$ < 6.0 GeV/c'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0006
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0036
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0138
+  - errors:
+    - {label: stat, symerror: 0.0046}
+    value: 0.054
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0908
+  - errors:
+    - {label: stat, symerror: 0.0052}
+    value: 0.1537
+  - errors:
+    - {label: stat, symerror: 0.0052}
+    value: 0.2326
+  - errors:
+    - {label: stat, symerror: 0.0052}
+    value: 0.2786
+  - errors:
+    - {label: stat, symerror: 0.0053}
+    value: 0.2802
+  - errors:
+    - {label: stat, symerror: 0.0052}
+    value: 0.2278
+  - errors:
+    - {label: stat, symerror: 0.0052}
+    value: 0.1643
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.093
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0487
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0185
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: -0.0002
+  - errors:
+    - {label: stat, symerror: 0.0046}
+    value: -0.0029
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0003
+  - errors:
+    - {label: stat, symerror: 0.0046}
+    value: 0.0033
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0172
+  - errors:
+    - {label: stat, symerror: 0.0046}
+    value: 0.0464
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0387
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0518
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0594
+  - errors:
+    - {label: stat, symerror: 0.0046}
+    value: 0.0569
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0549
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0543
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0481
+  - errors:
+    - {label: stat, symerror: 0.0046}
+    value: 0.0402
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0287
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0317
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0355
+  - errors:
+    - {label: stat, symerror: 0.0046}
+    value: 0.0395
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0255
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0396
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0316
+  - errors:
+    - {label: stat, symerror: 0.0046}
+    value: 0.041
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0414
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0486
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0529
+  - errors:
+    - {label: stat, symerror: 0.0046}
+    value: 0.0616
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0606
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0569
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.064
+  - errors:
+    - {label: stat, symerror: 0.0046}
+    value: 0.0474
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0463
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.0235
+  - errors:
+    - {label: stat, symerror: 0.0047}
+    value: 0.007
+  - errors:
+    - {label: stat, symerror: 0.0046}
+    value: 0.0031
+- header: {name: '1/$N_{trig}$dN/d$\Delta\phi$'}
+  qualifiers:
+  - {name: $\Delta\phi$, value: '$|\Delta\eta| <0.7$ 1.5 < $p_{T}^{assoc}$ < 2.5 GeV/c
+      $/otimes$ 6.0 < $p_{T}^{trig}$ < 10.0 GeV/c'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.0181}
+    value: -0.0255
+  - errors:
+    - {label: stat, symerror: 0.0182}
+    value: 0.0169
+  - errors:
+    - {label: stat, symerror: 0.0183}
+    value: 0.0158
+  - errors:
+    - {label: stat, symerror: 0.0181}
+    value: 0.0463
+  - errors:
+    - {label: stat, symerror: 0.0184}
+    value: 0.0785
+  - errors:
+    - {label: stat, symerror: 0.0202}
+    value: 0.1787
+  - errors:
+    - {label: stat, symerror: 0.0207}
+    value: 0.3236
+  - errors:
+    - {label: stat, symerror: 0.0207}
+    value: 0.433
+  - errors:
+    - {label: stat, symerror: 0.021}
+    value: 0.4375
+  - errors:
+    - {label: stat, symerror: 0.0206}
+    value: 0.2919
+  - errors:
+    - {label: stat, symerror: 0.0203}
+    value: 0.1929
+  - errors:
+    - {label: stat, symerror: 0.0182}
+    value: 0.0936
+  - errors:
+    - {label: stat, symerror: 0.0183}
+    value: 0.0467
+  - errors:
+    - {label: stat, symerror: 0.0182}
+    value: -0.0044
+  - errors:
+    - {label: stat, symerror: 0.0183}
+    value: 0.0246
+  - errors:
+    - {label: stat, symerror: 0.0179}
+    value: 0.0188
+  - errors:
+    - {label: stat, symerror: 0.0182}
+    value: 0.0002
+  - errors:
+    - {label: stat, symerror: 0.0181}
+    value: -0.0129
+  - errors:
+    - {label: stat, symerror: 0.0182}
+    value: 0.0114
+  - errors:
+    - {label: stat, symerror: 0.0179}
+    value: 0.0134
+  - errors:
+    - {label: stat, symerror: 0.0182}
+    value: 0.0165
+  - errors:
+    - {label: stat, symerror: 0.0183}
+    value: 0.0459
+  - errors:
+    - {label: stat, symerror: 0.0183}
+    value: 0.0445
+  - errors:
+    - {label: stat, symerror: 0.0181}
+    value: 0.0736
+  - errors:
+    - {label: stat, symerror: 0.0183}
+    value: 0.0413
+  - errors:
+    - {label: stat, symerror: 0.0183}
+    value: 0.0555
+  - errors:
+    - {label: stat, symerror: 0.0184}
+    value: 0.0567
+  - errors:
+    - {label: stat, symerror: 0.0181}
+    value: 0.0848
+  - errors:
+    - {label: stat, symerror: 0.0185}
+    value: 0.0912
+  - errors:
+    - {label: stat, symerror: 0.0184}
+    value: 0.0693
+  - errors:
+    - {label: stat, symerror: 0.0185}
+    value: 0.0818
+  - errors:
+    - {label: stat, symerror: 0.0183}
+    value: 0.1176
+  - errors:
+    - {label: stat, symerror: 0.0185}
+    value: 0.0861
+  - errors:
+    - {label: stat, symerror: 0.0185}
+    value: 0.0994
+  - errors:
+    - {label: stat, symerror: 0.0185}
+    value: 0.0795
+  - errors:
+    - {label: stat, symerror: 0.0182}
+    value: 0.1106
+  - errors:
+    - {label: stat, symerror: 0.0184}
+    value: 0.0629
+  - errors:
+    - {label: stat, symerror: 0.0184}
+    value: 0.0888
+  - errors:
+    - {label: stat, symerror: 0.0183}
+    value: 0.053
+  - errors:
+    - {label: stat, symerror: 0.018}
+    value: 0.0602
+  - errors:
+    - {label: stat, symerror: 0.0183}
+    value: 0.0541
+  - errors:
+    - {label: stat, symerror: 0.0183}
+    value: 0.0457
+  - errors:
+    - {label: stat, symerror: 0.0182}
+    value: 0.0382
+  - errors:
+    - {label: stat, symerror: 0.018}
+    value: 0.0584
+  - errors:
+    - {label: stat, symerror: 0.0182}
+    value: 0.0041
+  - errors:
+    - {label: stat, symerror: 0.0182}
+    value: 0.024
+  - errors:
+    - {label: stat, symerror: 0.0181}
+    value: -0.0096
+  - errors:
+    - {label: stat, symerror: 0.0179}
+    value: 0.0102
+- header: {name: '1/$N_{trig}$dN/d$\Delta\phi$'}
+  qualifiers:
+  - {name: $\Delta\phi$, value: '$|\Delta\eta| <0.7$ 2.5 < $p_{T}^{assoc}$ < 4.0 GeV/c
+      $/otimes$ 2.5 < $p_{T}^{trig}$ < 3.0 GeV/c'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: -0.0002
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0003
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0029
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0067
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.012
+  - errors:
+    - {label: stat, symerror: 0.0004}
+    value: 0.0183
+  - errors:
+    - {label: stat, symerror: 0.0004}
+    value: 0.0267
+  - errors:
+    - {label: stat, symerror: 0.0004}
+    value: 0.0312
+  - errors:
+    - {label: stat, symerror: 0.0004}
+    value: 0.0312
+  - errors:
+    - {label: stat, symerror: 0.0004}
+    value: 0.0266
+  - errors:
+    - {label: stat, symerror: 0.0004}
+    value: 0.0183
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0124
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0067
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0023
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0001
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: -0.0002
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: -0.0004
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0013
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0024
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0047
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0056
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0056
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0067
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.006
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0048
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0051
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0035
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0025
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0027
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0017
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0007
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0014
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0014
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0012
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0018
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0028
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0024
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0036
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0046
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.006
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0062
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0063
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0062
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0058
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0047
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0023
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: 0.0011
+  - errors:
+    - {label: stat, symerror: 0.0003}
+    value: -0.0006
+- header: {name: '1/$N_{trig}$dN/d$\Delta\phi$'}
+  qualifiers:
+  - {name: $\Delta\phi$, value: '$|\Delta\eta| <0.7$ 2.5 < $p_{T}^{assoc}$ < 4.0 GeV/c
+      $/otimes$ 3.0 < $p_{T}^{trig}$ < 4.0 GeV/c'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: -0.0003
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0002
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0043
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0083
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0144
+  - errors:
+    - {label: stat, symerror: 0.0006}
+    value: 0.0242
+  - errors:
+    - {label: stat, symerror: 0.0006}
+    value: 0.0372
+  - errors:
+    - {label: stat, symerror: 0.0006}
+    value: 0.046
+  - errors:
+    - {label: stat, symerror: 0.0006}
+    value: 0.0462
+  - errors:
+    - {label: stat, symerror: 0.0006}
+    value: 0.0365
+  - errors:
+    - {label: stat, symerror: 0.0006}
+    value: 0.0247
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0141
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0079
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0027
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: -0.0006
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0001
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0003
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0032
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0046
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0057
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0059
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0064
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0056
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0052
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.004
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0025
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0027
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0023
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0022
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0019
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0012
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0016
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.002
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0016
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.002
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0024
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0037
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0042
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0049
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0054
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0056
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0068
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.006
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0042
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0029
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: 0.0015
+  - errors:
+    - {label: stat, symerror: 0.0005}
+    value: -0.0007
+- header: {name: '1/$N_{trig}$dN/d$\Delta\phi$'}
+  qualifiers:
+  - {name: $\Delta\phi$, value: '$|\Delta\eta| <0.7$ 2.5 < $p_{T}^{assoc}$ < 4.0 GeV/c
+      $/otimes$ 4.0 < $p_{T}^{trig}$ < 6.0 GeV/c'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: -0.0014
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0037
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0066
+  - errors:
+    - {label: stat, symerror: 0.0014}
+    value: 0.0165
+  - errors:
+    - {label: stat, symerror: 0.0015}
+    value: 0.0297
+  - errors:
+    - {label: stat, symerror: 0.0016}
+    value: 0.0569
+  - errors:
+    - {label: stat, symerror: 0.0017}
+    value: 0.091
+  - errors:
+    - {label: stat, symerror: 0.0017}
+    value: 0.0895
+  - errors:
+    - {label: stat, symerror: 0.0016}
+    value: 0.0577
+  - errors:
+    - {label: stat, symerror: 0.0015}
+    value: 0.0287
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0148
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0072
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0032
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: -0.0002
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: -0.0011
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0018
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0023
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0051
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0055
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0046
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0049
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0065
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0047
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0057
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0022
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0025
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0035
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.002
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.003
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0048
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0044
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0042
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0024
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0021
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0024
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0045
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0034
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0029
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0051
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.004
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0046
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0064
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.004
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0013
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: 0.0008
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    value: -0.0005
+- header: {name: '1/$N_{trig}$dN/d$\Delta\phi$'}
+  qualifiers:
+  - {name: $\Delta\phi$, value: '$|\Delta\eta| <0.7$ 2.5 < $p_{T}^{assoc}$ < 4.0 GeV/c
+      $/otimes$ 6.0 < $p_{T}^{trig}$ < 10.0 GeV/c'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.0052}
+    value: 0.0112
+  - errors:
+    - {label: stat, symerror: 0.0051}
+    value: -0.0008
+  - errors:
+    - {label: stat, symerror: 0.0052}
+    value: 0.0055
+  - errors:
+    - {label: stat, symerror: 0.0052}
+    value: 0.0067
+  - errors:
+    - {label: stat, symerror: 0.0054}
+    value: 0.0233
+  - errors:
+    - {label: stat, symerror: 0.006}
+    value: 0.0351
+  - errors:
+    - {label: stat, symerror: 0.0067}
+    value: 0.1039
+  - errors:
+    - {label: stat, symerror: 0.0077}
+    value: 0.2266
+  - errors:
+    - {label: stat, symerror: 0.0078}
+    value: 0.2265
+  - errors:
+    - {label: stat, symerror: 0.0069}
+    value: 0.1247
+  - errors:
+    - {label: stat, symerror: 0.0061}
+    value: 0.0474
+  - errors:
+    - {label: stat, symerror: 0.0053}
+    value: 0.0207
+  - errors:
+    - {label: stat, symerror: 0.0053}
+    value: 0.0131
+  - errors:
+    - {label: stat, symerror: 0.0053}
+    value: 0.0178
+  - errors:
+    - {label: stat, symerror: 0.0051}
+    value: -0.005
+  - errors:
+    - {label: stat, symerror: 0.0051}
+    value: 0.0039
+  - errors:
+    - {label: stat, symerror: 0.0052}
+    value: 0.002
+  - errors:
+    - {label: stat, symerror: 0.0051}
+    value: -0.0072
+  - errors:
+    - {label: stat, symerror: 0.0052}
+    value: 0.0028
+  - errors:
+    - {label: stat, symerror: 0.005}
+    value: -0.0013
+  - errors:
+    - {label: stat, symerror: 0.0052}
+    value: 0.011
+  - errors:
+    - {label: stat, symerror: 0.0052}
+    value: 0.0059
+  - errors:
+    - {label: stat, symerror: 0.0051}
+    value: 0.0006
+  - errors:
+    - {label: stat, symerror: 0.0052}
+    value: 0.0129
+  - errors:
+    - {label: stat, symerror: 0.0053}
+    value: 0.0153
+  - errors:
+    - {label: stat, symerror: 0.0052}
+    value: 0.0049
+  - errors:
+    - {label: stat, symerror: 0.0053}
+    value: 0.0133
+  - errors:
+    - {label: stat, symerror: 0.0051}
+    value: 0.0037
+  - errors:
+    - {label: stat, symerror: 0.0053}
+    value: 0.0132
+  - errors:
+    - {label: stat, symerror: 0.0054}
+    value: 0.0267
+  - errors:
+    - {label: stat, symerror: 0.0053}
+    value: 0.0216
+  - errors:
+    - {label: stat, symerror: 0.0053}
+    value: 0.0261
+  - errors:
+    - {label: stat, symerror: 0.0055}
+    value: 0.036
+  - errors:
+    - {label: stat, symerror: 0.0054}
+    value: 0.0315
+  - errors:
+    - {label: stat, symerror: 0.0054}
+    value: 0.0246
+  - errors:
+    - {label: stat, symerror: 0.0053}
+    value: 0.0204
+  - errors:
+    - {label: stat, symerror: 0.0052}
+    value: 0.0102
+  - errors:
+    - {label: stat, symerror: 0.0052}
+    value: 0.0058
+  - errors:
+    - {label: stat, symerror: 0.0052}
+    value: 0.0086
+  - errors:
+    - {label: stat, symerror: 0.0051}
+    value: 0.0054
+  - errors:
+    - {label: stat, symerror: 0.0052}
+    value: 0.0099
+  - errors:
+    - {label: stat, symerror: 0.0052}
+    value: 0.0062
+  - errors:
+    - {label: stat, symerror: 0.0051}
+    value: 0.0011
+  - errors:
+    - {label: stat, symerror: 0.0051}
+    value: -0.0004
+  - errors:
+    - {label: stat, symerror: 0.0051}
+    value: 0.0005
+  - errors:
+    - {label: stat, symerror: 0.0051}
+    value: 0.0017
+  - errors:
+    - {label: stat, symerror: 0.0051}
+    value: 0.0002
+  - errors:
+    - {label: stat, symerror: 0.0051}
+    value: 0.0017
+independent_variables:
+- header: {name: $\Delta\phi$}
+  values:
+  - {high: -0.92, low: -1.05}
+  - {high: -0.79, low: -0.92}
+  - {high: -0.65, low: -0.79}
+  - {high: -0.52, low: -0.65}
+  - {high: -0.39, low: -0.52}
+  - {high: -0.26, low: -0.39}
+  - {high: -0.13, low: -0.26}
+  - {high: 0, low: -0.13}
+  - {high: 0.13, low: 0}
+  - {high: 0.26, low: 0.13}
+  - {high: 0.39, low: 0.26}
+  - {high: 0.52, low: 0.39}
+  - {high: 0.65, low: 0.52}
+  - {high: 0.79, low: 0.65}
+  - {high: 0.92, low: 0.79}
+  - {high: 1.05, low: 0.92}
+  - {high: 1.18, low: 1.05}
+  - {high: 1.31, low: 1.18}
+  - {high: 1.44, low: 1.31}
+  - {high: 1.57, low: 1.44}
+  - {high: 1.7, low: 1.57}
+  - {high: 1.83, low: 1.7}
+  - {high: 1.96, low: 1.83}
+  - {high: 2.09, low: 1.96}
+  - {high: 2.23, low: 2.09}
+  - {high: 2.36, low: 2.23}
+  - {high: 2.49, low: 2.36}
+  - {high: 2.62, low: 2.49}
+  - {high: 2.75, low: 2.62}
+  - {high: 2.88, low: 2.75}
+  - {high: 3.01, low: 2.88}
+  - {high: 3.14, low: 3.01}
+  - {high: 3.27, low: 3.14}
+  - {high: 3.4, low: 3.27}
+  - {high: 3.53, low: 3.4}
+  - {high: 3.67, low: 3.53}
+  - {high: 3.8, low: 3.67}
+  - {high: 3.93, low: 3.8}
+  - {high: 4.06, low: 3.93}
+  - {high: 4.19, low: 4.06}
+  - {high: 4.32, low: 4.19}
+  - {high: 4.45, low: 4.32}
+  - {high: 4.58, low: 4.45}
+  - {high: 4.71, low: 4.58}
+  - {high: 4.84, low: 4.71}
+  - {high: 4.97, low: 4.84}
+  - {high: 5.11, low: 4.97}
+  - {high: 5.24, low: 5.11}

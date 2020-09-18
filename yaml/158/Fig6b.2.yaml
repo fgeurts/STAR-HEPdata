@@ -1,0 +1,36 @@
+dependent_variables:
+- header: {name: '$p_{T}^{trig}$'}
+  qualifiers:
+  - {name: '$p_{T}$', value: 6-10 GeV dAu}
+  values:
+  - errors:
+    - {label: stat error, symerror: 0.4}
+    value: 1.29
+  - errors:
+    - {label: stat error, symerror: 0.23}
+    value: 1.03
+  - errors:
+    - {label: stat error, symerror: 0.58}
+    value: 2.19
+  - errors:
+    - {label: stat error, symerror: 0.41}
+    value: 1.62
+  - errors:
+    - {label: stat error, symerror: 0.23}
+    value: 1.29
+  - errors:
+    - {label: stat error, symerror: 0.65}
+    value: 1.97
+  - errors:
+    - {label: stat error, symerror: 0.19}
+    value: 0.94
+independent_variables:
+- header: {name: '$p_{T}$'}
+  values:
+  - {high: 0.8, low: 0.4}
+  - {high: 1.2, low: 0.8}
+  - {high: 1.6, low: 1.2}
+  - {high: 2, low: 1.6}
+  - {high: 2.8, low: 2}
+  - {high: 3.6, low: 2.8}
+  - {high: 4, low: 3.6}

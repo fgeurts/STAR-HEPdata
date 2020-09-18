@@ -1,0 +1,88 @@
+dependent_variables:
+- header: {name: $\langle p_T \rangle$}
+  qualifiers:
+  - {name: $\Delta\phi$, value: '6.0 < $p_T_{trig}$ < 10.0'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.203}
+    - asymerror: {minus: 0.001, plus: 0.001}
+      label: v2min
+    - asymerror: {minus: 0.001, plus: 0.001}
+      label: v2max
+    value: 0.734
+  - errors:
+    - {label: stat, symerror: 0.208}
+    - asymerror: {minus: 0.002, plus: 0.002}
+      label: v2min
+    - asymerror: {minus: 0.002, plus: 0.002}
+      label: v2max
+    value: 0.899
+  - errors:
+    - {label: stat, symerror: 0.137}
+    - asymerror: {minus: 0.003, plus: 0.004}
+      label: v2min
+    - asymerror: {minus: 0.003, plus: 0.003}
+      label: v2max
+    value: 0.914
+  - errors:
+    - {label: stat, symerror: 0.093}
+    - asymerror: {minus: 0.004, plus: 0.004}
+      label: v2min
+    - asymerror: {minus: 0.004, plus: 0.004}
+      label: v2max
+    value: 0.927
+  - errors:
+    - {label: stat, symerror: 0.092}
+    - asymerror: {minus: 0.011, plus: 0.012}
+      label: v2min
+    - asymerror: {minus: 0.011, plus: 0.011}
+      label: v2max
+    value: 1.136
+  - errors:
+    - {label: stat, symerror: 0.095}
+    - asymerror: {minus: 0.011, plus: 0.012}
+      label: v2min
+    - asymerror: {minus: 0.011, plus: 0.011}
+      label: v2max
+    value: 1.129
+  - errors:
+    - {label: stat, symerror: 0.139}
+    - asymerror: {minus: 0.011, plus: 0.012}
+      label: v2min
+    - asymerror: {minus: 0.011, plus: 0.011}
+      label: v2max
+    value: 1.044
+  - errors:
+    - {label: stat, symerror: 0.173}
+    - asymerror: {minus: 0.008, plus: 0.009}
+      label: v2min
+    - asymerror: {minus: 0.008, plus: 0.008}
+      label: v2max
+    value: 1.009
+  - errors:
+    - {label: stat, symerror: 0.241}
+    - asymerror: {minus: 0.002, plus: 0.002}
+      label: v2min
+    - asymerror: {minus: 0.002, plus: 0.002}
+      label: v2max
+    value: 0.88
+  - errors:
+    - {label: stat, symerror: 0.386}
+    - asymerror: {minus: 1.0e-15, plus: 1.0e-15}
+      label: v2min
+    - asymerror: {minus: 1.0e-15, plus: 1.0e-15}
+      label: v2max
+    value: 0.804
+independent_variables:
+- header: {name: $\Delta\phi$}
+  values:
+  - {high: 2.09, low: 1.83}
+  - {high: 2.36, low: 2.09}
+  - {high: 2.62, low: 2.36}
+  - {high: 2.88, low: 2.62}
+  - {high: 3.14, low: 2.88}
+  - {high: 3.4, low: 3.14}
+  - {high: 3.67, low: 3.4}
+  - {high: 3.93, low: 3.67}
+  - {high: 4.19, low: 3.93}
+  - {high: 4.45, low: 4.19}
