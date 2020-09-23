@@ -1,0 +1,61 @@
+dependent_variables:
+- header: {name: '$p_{T}^{trig}$'}
+  qualifiers:
+  - {name: '$p_{T}$', value: 6-10 GeV dAu}
+  values:
+  - errors:
+    - {label: stat error, symerror: 0.17}
+    value: 0.74
+  - errors:
+    - {label: stat error, symerror: 0.1}
+    value: 0.66
+  - errors:
+    - {label: stat error, symerror: 0.06}
+    value: 0.26
+  - errors:
+    - {label: stat error, symerror: 0.04}
+    value: 0.2
+  - errors:
+    - {label: stat error, symerror: 0.02}
+    value: 0.16
+  - errors:
+    - {label: stat error, symerror: 0.02}
+    value: 0.06
+  - errors:
+    - {label: stat error, symerror: 0.01}
+    value: 0.07
+- header: {name: '$p_{T}^{trig}$'}
+  qualifiers:
+  - {name: '$p_{T}$', value: 6-10 GeV $Au+Au 0-12\%$ Centrality}
+  values:
+  - errors:
+    - {label: stat error, symerror: 0.2}
+    value: 0.95
+  - errors:
+    - {label: stat error, symerror: 0.12}
+    value: 0.68
+  - errors:
+    - {label: stat error, symerror: 0.07}
+    value: 0.58
+  - errors:
+    - {label: stat error, symerror: 0.04}
+    value: 0.32
+  - errors:
+    - {label: stat error, symerror: 0.02}
+    value: 0.21
+  - errors:
+    - {label: stat error, symerror: 0.01}
+    value: 0.11
+  - errors:
+    - {label: stat error, symerror: 0.01}
+    value: 0.06
+independent_variables:
+- header: {name: '$p_{T}$'}
+  values:
+  - {high: 0.8, low: 0.4}
+  - {high: 1.2, low: 0.8}
+  - {high: 1.6, low: 1.2}
+  - {high: 2, low: 1.6}
+  - {high: 2.8, low: 2}
+  - {high: 3.6, low: 2.8}
+  - {high: 4, low: 3.6}

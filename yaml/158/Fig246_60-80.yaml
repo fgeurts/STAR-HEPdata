@@ -1,0 +1,348 @@
+dependent_variables:
+- header: {name: Raw}
+  qualifiers:
+  - {name: $p_T$, value: $60-80\%$ Centrality}
+  values:
+  - errors:
+    - {label: stat error, symerror: 0.0078}
+    value: 1.2283
+  - errors:
+    - {label: stat error, symerror: 0.0079}
+    value: 1.2454
+  - errors:
+    - {label: stat error, symerror: 0.008}
+    value: 1.2759
+  - errors:
+    - {label: stat error, symerror: 0.008}
+    value: 1.3225
+  - errors:
+    - {label: stat error, symerror: 0.0083}
+    value: 1.3657
+  - errors:
+    - {label: stat error, symerror: 0.009}
+    value: 1.4392
+  - errors:
+    - {label: stat error, symerror: 0.0092}
+    value: 1.5087
+  - errors:
+    - {label: stat error, symerror: 0.0092}
+    value: 1.5431
+  - errors:
+    - {label: stat error, symerror: 0.0093}
+    value: 1.5319
+  - errors:
+    - {label: stat error, symerror: 0.0092}
+    value: 1.5005
+  - errors:
+    - {label: stat error, symerror: 0.009}
+    value: 1.4367
+  - errors:
+    - {label: stat error, symerror: 0.0082}
+    value: 1.3641
+  - errors:
+    - {label: stat error, symerror: 0.0081}
+    value: 1.3149
+  - errors:
+    - {label: stat error, symerror: 0.008}
+    value: 1.2739
+  - errors:
+    - {label: stat error, symerror: 0.0079}
+    value: 1.2508
+  - errors:
+    - {label: stat error, symerror: 0.0078}
+    value: 1.2313
+  - errors:
+    - {label: stat error, symerror: 0.0078}
+    value: 1.2035
+  - errors:
+    - {label: stat error, symerror: 0.0077}
+    value: 1.1978
+  - errors:
+    - {label: stat error, symerror: 0.0077}
+    value: 1.1917
+  - errors:
+    - {label: stat error, symerror: 0.0077}
+    value: 1.2123
+  - errors:
+    - {label: stat error, symerror: 0.0078}
+    value: 1.227
+  - errors:
+    - {label: stat error, symerror: 0.0079}
+    value: 1.2417
+  - errors:
+    - {label: stat error, symerror: 0.008}
+    value: 1.2845
+  - errors:
+    - {label: stat error, symerror: 0.0079}
+    value: 1.2874
+  - errors:
+    - {label: stat error, symerror: 0.0082}
+    value: 1.3276
+  - errors:
+    - {label: stat error, symerror: 0.0082}
+    value: 1.3424
+  - errors:
+    - {label: stat error, symerror: 0.0084}
+    value: 1.3893
+  - errors:
+    - {label: stat error, symerror: 0.0083}
+    value: 1.4162
+  - errors:
+    - {label: stat error, symerror: 0.0085}
+    value: 1.4508
+  - errors:
+    - {label: stat error, symerror: 0.0086}
+    value: 1.4733
+  - errors:
+    - {label: stat error, symerror: 0.0087}
+    value: 1.5038
+  - errors:
+    - {label: stat error, symerror: 0.0087}
+    value: 1.5195
+  - errors:
+    - {label: stat error, symerror: 0.0087}
+    value: 1.5064
+  - errors:
+    - {label: stat error, symerror: 0.0087}
+    value: 1.5046
+  - errors:
+    - {label: stat error, symerror: 0.0086}
+    value: 1.4601
+  - errors:
+    - {label: stat error, symerror: 0.0084}
+    value: 1.4429
+  - errors:
+    - {label: stat error, symerror: 0.0085}
+    value: 1.4299
+  - errors:
+    - {label: stat error, symerror: 0.0084}
+    value: 1.3895
+  - errors:
+    - {label: stat error, symerror: 0.0083}
+    value: 1.3617
+  - errors:
+    - {label: stat error, symerror: 0.008}
+    value: 1.3108
+  - errors:
+    - {label: stat error, symerror: 0.0081}
+    value: 1.2969
+  - errors:
+    - {label: stat error, symerror: 0.008}
+    value: 1.2713
+  - errors:
+    - {label: stat error, symerror: 0.0079}
+    value: 1.2368
+  - errors:
+    - {label: stat error, symerror: 0.0077}
+    value: 1.2172
+  - errors:
+    - {label: stat error, symerror: 0.0078}
+    value: 1.2191
+  - errors:
+    - {label: stat error, symerror: 0.0078}
+    value: 1.2025
+  - errors:
+    - {label: stat error, symerror: 0.0078}
+    value: 1.2081
+  - errors:
+    - {label: stat error, symerror: 0.0077}
+    value: 1.202
+- header: {name: Delta eta}
+  qualifiers:
+  - {name: $p_T$, value: $60-80\%$ Centrality}
+  values:
+  - errors:
+    - {label: stat error, symerror: 0.006}
+    value: 0.0076
+  - errors:
+    - {label: stat error, symerror: 0.006}
+    value: 0.012
+  - errors:
+    - {label: stat error, symerror: 0.0061}
+    value: 0.0268
+  - errors:
+    - {label: stat error, symerror: 0.0062}
+    value: 0.0635
+  - errors:
+    - {label: stat error, symerror: 0.0064}
+    value: 0.0937
+  - errors:
+    - {label: stat error, symerror: 0.0073}
+    value: 0.1517
+  - errors:
+    - {label: stat error, symerror: 0.0076}
+    value: 0.214
+  - errors:
+    - {label: stat error, symerror: 0.0076}
+    value: 0.2497
+  - errors:
+    - {label: stat error, symerror: 0.0077}
+    value: 0.2374
+  - errors:
+    - {label: stat error, symerror: 0.0075}
+    value: 0.2061
+  - errors:
+    - {label: stat error, symerror: 0.0073}
+    value: 0.1499
+  - errors:
+    - {label: stat error, symerror: 0.0063}
+    value: 0.087
+  - errors:
+    - {label: stat error, symerror: 0.0062}
+    value: 0.0473
+  - errors:
+    - {label: stat error, symerror: 0.0061}
+    value: 0.0254
+  - errors:
+    - {label: stat error, symerror: 0.006}
+    value: 0.0191
+  - errors:
+    - {label: stat error, symerror: 0.0059}
+    value: 0.0142
+  - errors:
+    - {label: stat error, symerror: 0.0059}
+    value: -0.0051
+  - errors:
+    - {label: stat error, symerror: 0.0059}
+    value: -0.005
+  - errors:
+    - {label: stat error, symerror: 0.0059}
+    value: 0.0018
+  - errors:
+    - {label: stat error, symerror: 0.0058}
+    value: 0.0089
+  - errors:
+    - {label: stat error, symerror: 0.006}
+    value: 0.0245
+  - errors:
+    - {label: stat error, symerror: 0.006}
+    value: 0.0291
+  - errors:
+    - {label: stat error, symerror: 0.0061}
+    value: 0.0423
+  - errors:
+    - {label: stat error, symerror: 0.006}
+    value: 0.039
+  - errors:
+    - {label: stat error, symerror: 0.0062}
+    value: 0.0652
+  - errors:
+    - {label: stat error, symerror: 0.0063}
+    value: 0.0699
+  - errors:
+    - {label: stat error, symerror: 0.0063}
+    value: 0.0802
+  - errors:
+    - {label: stat error, symerror: 0.0063}
+    value: 0.0908
+  - errors:
+    - {label: stat error, symerror: 0.0065}
+    value: 0.1099
+  - errors:
+    - {label: stat error, symerror: 0.0065}
+    value: 0.1137
+  - errors:
+    - {label: stat error, symerror: 0.0066}
+    value: 0.1385
+  - errors:
+    - {label: stat error, symerror: 0.0066}
+    value: 0.132
+  - errors:
+    - {label: stat error, symerror: 0.0066}
+    value: 0.1241
+  - errors:
+    - {label: stat error, symerror: 0.0066}
+    value: 0.1317
+  - errors:
+    - {label: stat error, symerror: 0.0065}
+    value: 0.1003
+  - errors:
+    - {label: stat error, symerror: 0.0064}
+    value: 0.1036
+  - errors:
+    - {label: stat error, symerror: 0.0064}
+    value: 0.0999
+  - errors:
+    - {label: stat error, symerror: 0.0064}
+    value: 0.0916
+  - errors:
+    - {label: stat error, symerror: 0.0063}
+    value: 0.0799
+  - errors:
+    - {label: stat error, symerror: 0.006}
+    value: 0.0432
+  - errors:
+    - {label: stat error, symerror: 0.0062}
+    value: 0.0595
+  - errors:
+    - {label: stat error, symerror: 0.0061}
+    value: 0.0446
+  - errors:
+    - {label: stat error, symerror: 0.006}
+    value: 0.0318
+  - errors:
+    - {label: stat error, symerror: 0.0058}
+    value: 0.0104
+  - errors:
+    - {label: stat error, symerror: 0.006}
+    value: 0.0224
+  - errors:
+    - {label: stat error, symerror: 0.0059}
+    value: 0.0037
+  - errors:
+    - {label: stat error, symerror: 0.0059}
+    value: 0.0068
+  - errors:
+    - {label: stat error, symerror: 0.0058}
+    value: -0.0041
+independent_variables:
+- header: {name: $p_T$}
+  values:
+  - {high: -0.92, low: -1.05}
+  - {high: -0.79, low: -0.92}
+  - {high: -0.65, low: -0.79}
+  - {high: -0.52, low: -0.65}
+  - {high: -0.39, low: -0.52}
+  - {high: -0.26, low: -0.39}
+  - {high: -0.13, low: -0.26}
+  - {high: 0, low: -0.13}
+  - {high: 0.13, low: 0}
+  - {high: 0.26, low: 0.13}
+  - {high: 0.39, low: 0.26}
+  - {high: 0.52, low: 0.39}
+  - {high: 0.65, low: 0.52}
+  - {high: 0.79, low: 0.65}
+  - {high: 0.92, low: 0.79}
+  - {high: 1.05, low: 0.92}
+  - {high: 1.18, low: 1.05}
+  - {high: 1.31, low: 1.18}
+  - {high: 1.44, low: 1.31}
+  - {high: 1.57, low: 1.44}
+  - {high: 1.7, low: 1.57}
+  - {high: 1.83, low: 1.7}
+  - {high: 1.96, low: 1.83}
+  - {high: 2.09, low: 1.96}
+  - {high: 2.23, low: 2.09}
+  - {high: 2.36, low: 2.23}
+  - {high: 2.49, low: 2.36}
+  - {high: 2.62, low: 2.49}
+  - {high: 2.75, low: 2.62}
+  - {high: 2.88, low: 2.75}
+  - {high: 3.01, low: 2.88}
+  - {high: 3.14, low: 3.01}
+  - {high: 3.27, low: 3.14}
+  - {high: 3.4, low: 3.27}
+  - {high: 3.53, low: 3.4}
+  - {high: 3.67, low: 3.53}
+  - {high: 3.8, low: 3.67}
+  - {high: 3.93, low: 3.8}
+  - {high: 4.06, low: 3.93}
+  - {high: 4.19, low: 4.06}
+  - {high: 4.32, low: 4.19}
+  - {high: 4.45, low: 4.32}
+  - {high: 4.58, low: 4.45}
+  - {high: 4.71, low: 4.58}
+  - {high: 4.84, low: 4.71}
+  - {high: 4.97, low: 4.84}
+  - {high: 5.11, low: 4.97}
+  - {high: 5.24, low: 5.11}

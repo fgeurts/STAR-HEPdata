@@ -1,0 +1,32 @@
+independent_variables:
+- header: {name: '$z_T$'}
+  values:
+  - {low: 0.3, high: 0.4}
+  - {low: 0.4, high: 0.5}
+  - {low: 0.5, high: 0.6}
+  - {low: 0.6, high: 0.7}
+  - {low: 0.7, high: 0.8}
+  - {low: 0.8, high: 0.9}
+dependent_variables:
+- header: {name: '$D(z_T)$'}
+  qualifiers:
+  - {name: '$z_T$', value: 'Au+Au Away side, $0-5\%$ centrality'}
+  values:
+  - value: 0.409
+    errors:
+    - {symerror: 0.065, label: 'Stat error'}
+  - value: 0.141
+    errors:
+    - {symerror: 0.026, label: 'Stat error'}
+  - value: 0.102
+    errors:
+    - {symerror: 0.013, label: 'Stat error'}
+  - value: 0.07
+    errors:
+    - {symerror: 0.009, label: 'Stat error'}
+  - value: 0.046
+    errors:
+    - {symerror: 0.007, label: 'Stat error'}
+  - value: 0.035
+    errors:
+    - {symerror: 0.005, label: 'Stat error'}

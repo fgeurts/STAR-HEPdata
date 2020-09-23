@@ -1,5 +1,5 @@
 independent_variables:
-- header: {name: '$p_T$'}
+- header: {name: '$p_T$ bins'}
   values:
   - {low: 0.001, high: 0.485}
   - {low: 0.485, high: 0.971}
@@ -12,6 +12,19 @@ independent_variables:
   - {low: 4.951, high: 5.789}
   - {low: 5.789, high: 7.391}
   - {low: 7.391, high: 9.889}
+- header: {name: '$\langle p_T \rangle$'}
+  values:
+  - {value: 0.242}
+  - {value: 0.728}
+  - {value: 1.22}
+  - {value: 1.71}
+  - {value: 2.21}
+  - {value: 2.71}
+  - {value: 3.36}
+  - {value: 4.36}
+  - {value: 5.37}
+  - {value: 6.59}
+  - {value: 8.64}
 dependent_variables:
 - header: {name: '$R_{AA}$'}
   qualifiers:

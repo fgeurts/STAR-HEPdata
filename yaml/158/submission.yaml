@@ -1,0 +1,521 @@
+additional_resources:
+- {description: web page with links to data and figures, location: 'https://drupal.star.bnl.gov/STAR/publications/azimuthal-di-hadron-correlations-dau-and-auau-collisions-sqrtsnn200-gev-star'}
+- {description: paper, location: 'https://arxiv.org/abs/0801.4545'}
+comment: |
+  BNL-RHIC.  Yields, correlation shapes, and mean transverse momenta $p_{T}$ of charged particles associated with intermediate to high-$p_{T}$ trigger particles $(2.5 < p_{T} < 10 \frac{GeV}{c})$ in d+Au and Au+Au collisions at $\sqrt{s_{NN}} = 200$ GeV are presented. For associated particles at higher $p_{T} \gtrsim 2.5 \frac{GeV}{c}$, narrow correlation peaks are seen in d+Au and Au+Au, indicating that the main production mechanism is jet fragmentation. At lower associated particle $p_{T} < 2$ \GeVc, a large enhancement of the near- ($\Delta \phi \sim 0$) and away-side ($\Delta \phi \sim \pi$) associated yields is found, together with a strong broadening of the away-side azimuthal distributions in Au+Au collisions compared to d+Au measurements, suggesting that other particle production mechanisms play a role. This is further supported by the observed significant softening of the away-sid
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig2.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig2.eps.gz'}
+- {description: Image File, location: fig2.png}
+- {description: Thumbnail Image File, location: thumb_fig2.png}
+data_file: Fig2_2.5-3_1.yaml
+description: "Background-subtracted azimuthal angle difference distributions for associated
+  particles with $p_T$ between 1.0 and 2.5 $\\frac{GeV}{c}$ and for different ranges
+  of trigger particle $p_T$ , ranging from $2.5 \u2212 3.0 \\frac{GeV}{c}$ to $6 \u2212
+  10 \\frac{GeV}{c}$. The rapidity range is $|\\eta| < 1$ and as a result the rapidity-difference
+  $|\\Delta\\eta| < 2$."
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 2 for $2.5< p_{T}^{trig} < 3.0$
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig2.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig2.eps.gz'}
+- {description: Image File, location: fig2.png}
+- {description: Thumbnail Image File, location: thumb_fig2.png}
+data_file: Fig2_Bkg_2.5-3.yaml
+description: "Background-subtracted azimuthal angle difference distributions for associated
+  particles with $p_T$ between 1.0 and 2.5 $\\frac{GeV}{c}$ and for different ranges
+  of trigger particle $p_T$ , ranging from $2.5 \u2212 3.0 \\frac{GeV}{c}$ to $6 \u2212
+  10 \\frac{GeV}{c}$. The rapidity range is $|\\eta| < 1$ and as a result the rapidity-difference
+  $|\\Delta\\eta| < 2$."
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 2 Background Subtracted for $2.5< p_{T}^{trig} < 3.0$
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig2.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig2.eps.gz'}
+- {description: Image File, location: fig2.png}
+- {description: Thumbnail Image File, location: thumb_fig2.png}
+data_file: Fig2_3-4_1.yaml
+description: "Background-subtracted azimuthal angle difference distributions for associated
+  particles with $p_T$ between 1.0 and 2.5 $\\frac{GeV}{c}$ and for different ranges
+  of trigger particle $p_T$ , ranging from $2.5 \u2212 3.0 \\frac{GeV}{c}$ to $6 \u2212
+  10 \\frac{GeV}{c}$. The rapidity range is $|\\eta| < 1$ and as a result the rapidity-difference
+  $|\\Delta\\eta| < 2$."
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 2 for $3.0< p_{T}^{trig} < 4.0$
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig2.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig2.eps.gz'}
+- {description: Image File, location: fig2.png}
+- {description: Thumbnail Image File, location: thumb_fig2.png}
+data_file: Fig2_Bkg_3-4.yaml
+description: "Background-subtracted azimuthal angle difference distributions for associated
+  particles with $p_T$ between 1.0 and 2.5 $\\frac{GeV}{c}$ and for different ranges
+  of trigger particle $p_T$ , ranging from $2.5 \u2212 3.0 \\frac{GeV}{c}$ to $6 \u2212
+  10 \\frac{GeV}{c}$. The rapidity range is $|\\eta| < 1$ and as a result the rapidity-difference
+  $|\\Delta\\eta| < 2$."
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 2 Background Subtracted for $3.0< p_{T}^{trig} < 4.0$
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig2.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig2.eps.gz'}
+- {description: Image File, location: fig2.png}
+- {description: Thumbnail Image File, location: thumb_fig2.png}
+data_file: Fig246_0-60.yaml
+description: "Background-subtracted azimuthal angle difference distributions for associated
+  particles with $p_T$ between 1.0 and 2.5 $\\frac{GeV}{c}$ and for different ranges
+  of trigger particle $p_T$ , ranging from $2.5 \u2212 3.0 \\frac{GeV}{c}$ to $6 \u2212
+  10 \\frac{GeV}{c}$. The rapidity range is $|\\eta| < 1$ and as a result the rapidity-difference
+  $|\\Delta\\eta| < 2$."
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 2 for $4.0< p_{T}^{trig} < 6.0$ 0-60 percent Centrality
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig2.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig2.eps.gz'}
+- {description: Image File, location: fig2.png}
+- {description: Thumbnail Image File, location: thumb_fig2.png}
+data_file: Fig246_60-80.yaml
+description: "Background-subtracted azimuthal angle difference distributions for associated
+  particles with $p_T$ between 1.0 and 2.5 $\\frac{GeV}{c}$ and for different ranges
+  of trigger particle $p_T$ , ranging from $2.5 \u2212 3.0 \\frac{GeV}{c}$ to $6 \u2212
+  10 \\frac{GeV}{c}$. The rapidity range is $|\\eta| < 1$ and as a result the rapidity-difference
+  $|\\Delta\\eta| < 2$."
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 2 for $4.0< p_{T}^{trig} < 6.0$ 60-80 percent Centrality
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig2.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig2.eps.gz'}
+- {description: Image File, location: fig2.png}
+- {description: Thumbnail Image File, location: thumb_fig2.png}
+data_file: Fig2_Bkg_4-6.yaml
+description: "Background-subtracted azimuthal angle difference distributions for associated
+  particles with $p_T$ between 1.0 and 2.5 $\\frac{GeV}{c}$ and for different ranges
+  of trigger particle $p_T$ , ranging from $2.5 \u2212 3.0 \\frac{GeV}{c}$ to $6 \u2212
+  10 \\frac{GeV}{c}$. The rapidity range is $|\\eta| < 1$ and as a result the rapidity-difference
+  $|\\Delta\\eta| < 2$."
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 2 Background Subtracted for $4.0< p_{T}^{trig} < 6.0$
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig2.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig2.eps.gz'}
+- {description: Image File, location: fig2.png}
+- {description: Thumbnail Image File, location: thumb_fig2.png}
+data_file: Fig2_6-10.yaml
+description: "Background-subtracted azimuthal angle difference distributions for associated
+  particles with $p_T$ between 1.0 and 2.5 $\\frac{GeV}{c}$ and for different ranges
+  of trigger particle $p_T$ , ranging from $2.5 \u2212 3.0 \\frac{GeV}{c}$ to $6 \u2212
+  10 \\frac{GeV}{c}$. The rapidity range is $|\\eta| < 1$ and as a result the rapidity-difference
+  $|\\Delta\\eta| < 2$."
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 2 for $6.0< p_{T}^{trig} < 10.0$
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig2.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig2.eps.gz'}
+- {description: Image File, location: fig2.png}
+- {description: Thumbnail Image File, location: thumb_fig2.png}
+data_file: Fig2_Bkg_6-10.yaml
+description: "Background-subtracted azimuthal angle difference distributions for associated
+  particles with $p_T$ between 1.0 and 2.5 $\\frac{GeV}{c}$ and for different ranges
+  of trigger particle $p_T$ , ranging from $2.5 \u2212 3.0 \\frac{GeV}{c}$ to $6 \u2212
+  10 \\frac{GeV}{c}$. The rapidity range is $|\\eta| < 1$ and as a result the rapidity-difference
+  $|\\Delta\\eta| < 2$."
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 2 Background Subtracted for $6.0< p_{T}^{trig} < 10.0$
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig3.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig3.eps.gz'}
+- {description: Image File, location: fig3.png}
+- {description: Thumbnail Image File, location: thumb_fig3.png}
+data_file: Fig3_Bkg.yaml
+description: Background-subtracted azimuthal angle difference distributions for different
+  $p^trig_T$ (columns) and $p^assoc_T$ (rows) in $0-12\%$ central Au+Au collisions
+  and d+Au reference results. The rapidity range is $|\eta| < 1$ and as a result the
+  rapidity-difference $|\Delta\eta| < 2$.
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 3 Background Subtracted
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig3.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig3.eps.gz'}
+- {description: Image File, location: fig3.png}
+- {description: Thumbnail Image File, location: thumb_fig3.png}
+data_file: Fig3_Raw.yaml
+description: Background-subtracted azimuthal angle difference distributions for different
+  $p^trig_T$ (columns) and $p^assoc_T$ (rows) in $0-12\%$ central Au+Au collisions
+  and d+Au reference results. The rapidity range is $|\eta| < 1$ and as a result the
+  rapidity-difference $|\Delta\eta| < 2$.
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 3 Au+Au Raw
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig3.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig3.eps.gz'}
+- {description: Image File, location: fig3.png}
+- {description: Thumbnail Image File, location: thumb_fig3.png}
+data_file: Fig3_dAu.yaml
+description: Background-subtracted azimuthal angle difference distributions for different
+  $p^trig_T$ (columns) and $p^assoc_T$ (rows) in $0-12\%$ central Au+Au collisions
+  and d+Au reference results. The rapidity range is $|\eta| < 1$ and as a result the
+  rapidity-difference $|\Delta\eta| < 2$.
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 3 d+Au
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig3.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig3.eps.gz'}
+- {description: Image File, location: fig3.png}
+- {description: Thumbnail Image File, location: thumb_fig3.png}
+data_file: Fig3_dEta.yaml
+description: Background-subtracted azimuthal angle difference distributions for different
+  $p^trig_T$ (columns) and $p^assoc_T$ (rows) in $0-12\%$ central Au+Au collisions
+  and d+Au reference results. The rapidity range is $|\eta| < 1$ and as a result the
+  rapidity-difference $|\Delta\eta| < 2$.
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 3 dEta < 0.7
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig6a.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig6a.eps.gz'}
+- {description: Image File, location: fig6a.png}
+- {description: Thumbnail Image File, location: thumb_fig6a.png}
+data_file: Fig6a.1.yaml
+description: Near-side ($|\Delta \phi | < 0.9$) associated yield per trigger particle
+  for various $p_T$ selections as a function of $p_T$ . Results are shown for $0-12\%$
+  central Au+Au collisions and for d+Au collisions. The error bars on the points indicate
+  the statistical uncertainty, including the statistical uncertainty on the subtracted
+  background level.
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 6a Near-side $2.5 < p_T^trig < 6.0$
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig6b.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig6b.eps.gz'}
+- {description: Image File, location: fig6b.png}
+- {description: Thumbnail Image File, location: thumb_fig6b.png}
+data_file: Fig6b.1.yaml
+description: Near-side ($|\Delta \phi | < 0.9$) associated yield per trigger particle
+  for various $p_T$ selections as a function of $p_T$ . Results are shown for $0-12\%$
+  central Au+Au collisions and for d+Au collisions. The error bars on the points indicate
+  the statistical uncertainty, including the statistical uncertainty on the subtracted
+  background level.
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 6b Near-side $(Au+Au)/(d+Au)$ $2.5 < p_T^trig < 6.0$
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig6c.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig6c.eps.gz'}
+- {description: Image File, location: fig6c.png}
+- {description: Thumbnail Image File, location: thumb_fig6c.png}
+data_file: Fig6c.1.yaml
+description: Away-side ($|\Delta \phi | > 0.9$) associated yield per trigger particle
+  for various $p_T$ selections as a function of $p_T$ . Results are shown for $0-12\%$
+  central Au+Au collisions and for d+Au collisions. The error bars on the points indicate
+  the statistical uncertainty, including the statistical uncertainty on the subtracted
+  background level.
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 6c Away-Side $2.5 < p_T^trig < 6.0$
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig6d.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig6d.eps.gz'}
+- {description: Image File, location: fig6d.png}
+- {description: Thumbnail Image File, location: thumb_fig6d.png}
+data_file: Fig6d.1.yaml
+description: Away-side ($|\Delta \phi | > 0.9$) associated yield per trigger particle
+  for various $p_T$ selections as a function of $p_T$ . Results are shown for $0-12\%$
+  central Au+Au collisions and for d+Au collisions. The error bars on the points indicate
+  the statistical uncertainty, including the statistical uncertainty on the subtracted
+  background level.
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 6d Away-side $(Au+Au)/(d+Au)$ $2.5 < p_T^trig < 6.0$
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig6a.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig6a.eps.gz'}
+- {description: Image File, location: fig6a.png}
+- {description: Thumbnail Image File, location: thumb_fig6a.png}
+data_file: Fig6a.2.yaml
+description: Near-side ($|\Delta \phi | < 0.9$) associated yield per trigger particle
+  for various $p_T$ selections as a function of $p_T$ . Results are shown for $0-12\%$
+  central Au+Au collisions and for d+Au collisions. The error bars on the points indicate
+  the statistical uncertainty, including the statistical uncertainty on the subtracted
+  background level.
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure Near-side $6.0 < p_T^trig < 10.0$
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig6b.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig6b.eps.gz'}
+- {description: Image File, location: fig6b.png}
+- {description: Thumbnail Image File, location: thumb_fig6b.png}
+data_file: Fig6b.2.yaml
+description: Near-side ($|\Delta \phi | < 0.9$) associated yield per trigger particle
+  for various $p_T$ selections as a function of $p_T$ . Results are shown for $0-12\%$
+  central Au+Au collisions and for d+Au collisions. The error bars on the points indicate
+  the statistical uncertainty, including the statistical uncertainty on the subtracted
+  background level.
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 6b Near-side $(Au+Au)/(d+Au)$ $6.0 < p_T^trig < 10.0$
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig6c.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig6c.eps.gz'}
+- {description: Image File, location: fig6c.png}
+- {description: Thumbnail Image File, location: thumb_fig6c.png}
+data_file: Fig6c.2.yaml
+description: Away-side ($|\Delta \phi | > 0.9$) associated yield per trigger particle
+  for various $p_T$ selections as a function of $p_T$ . Results are shown for $0-12\%$
+  central Au+Au collisions and for d+Au collisions. The error bars on the points indicate
+  the statistical uncertainty, including the statistical uncertainty on the subtracted
+  background level.
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 6c Away-Side $6.0 < p_T^trig < 10.0$
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig6d.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig6d.eps.gz'}
+- {description: Image File, location: fig6d.png}
+- {description: Thumbnail Image File, location: thumb_fig6d.png}
+data_file: Fig6d.2.yaml
+description: Away-side ($|\Delta \phi | > 0.9$) associated yield per trigger particle
+  for various $p_T$ selections as a function of $p_T$ . Results are shown for $0-12\%$
+  central Au+Au collisions and for d+Au collisions. The error bars on the points indicate
+  the statistical uncertainty, including the statistical uncertainty on the subtracted
+  background level.
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 6d Away-side $(Au+Au)/(d+Au)$ $6.0 < p_T^trig < 10.0$
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig7.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig7.eps.gz'}
+- {description: Image File, location: fig7.png}
+- {description: Thumbnail Image File, location: thumb_fig7.png}
+data_file: Fig7_part1.yaml
+description: Inclusive, azimuthal $p_T$ of associated hadrons between 0.25 and 4.0
+  $\frac{GeV}{c}$ in all events containing various classes of trigger particles.
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 7.1
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig7.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig7.eps.gz'}
+- {description: Image File, location: fig7.png}
+- {description: Thumbnail Image File, location: thumb_fig7.png}
+data_file: Fig7_part2.yaml
+description: Inclusive, azimuthal $p_T$ of associated hadrons between 0.25 and 4.0
+  $\frac{GeV}{c}$ in all events containing various classes of trigger particles.
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 7.2
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig8.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig8.eps.gz'}
+- {description: Image File, location: fig8.png}
+- {description: Thumbnail Image File, location: thumb_fig8.png}
+data_file: Fig8_20_40_part1.yaml
+description: Mean transverse momentum $\left \langle {p_T} \right \rangle$ of associated
+  particles with $0.25 < p_T^{assoc} < 4.0 \frac{GeV}{c}$, for four different centrality
+  selections.
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Fig. 8 Au+Au $3.0 < p_T < 6.0$ 20 to 40 percent Centrality
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig8.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig8.eps.gz'}
+- {description: Image File, location: fig8.png}
+- {description: Thumbnail Image File, location: thumb_fig8.png}
+data_file: Fig8_20_40_part2.yaml
+description: Mean transverse momentum $\left \langle {p_T} \right \rangle$ of associated
+  particles with $0.25 < p_T^{assoc} < 4.0 \frac{GeV}{c}$, for four different centrality
+  selections.
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Fig. 8 Au+Au $6.0 < p_T < 10.0$ 20 to 40 percent Centrality
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig8.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig8.eps.gz'}
+- {description: Image File, location: fig8.png}
+- {description: Thumbnail Image File, location: thumb_fig8.png}
+data_file: Fig8_40_60_part1.yaml
+description: Mean transverse momentum $\left \langle {p_T} \right \rangle$ of associated
+  particles with $0.25 < p_T^{assoc} < 4.0 \frac{GeV}{c}$, for four different centrality
+  selections.
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Fig. 8 Au+Au $3.0 < p_T < 6.0$ 40 to 60 percent Centrality
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig8.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig8.eps.gz'}
+- {description: Image File, location: fig8.png}
+- {description: Thumbnail Image File, location: thumb_fig8.png}
+data_file: Fig8_40_60_part2.yaml
+description: Mean transverse momentum $\left \langle {p_T} \right \rangle$ of associated
+  particles with $0.25 < p_T^{assoc} < 4.0 \frac{GeV}{c}$, for four different centrality
+  selections.
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Fig. 8 Au+Au $6.0 < p_T < 10.0$ 40 to 60 percent Centrality
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig8.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig8.eps.gz'}
+- {description: Image File, location: fig8.png}
+- {description: Thumbnail Image File, location: thumb_fig8.png}
+data_file: Fig8_60_80_part1.yaml
+description: Mean transverse momentum $\left \langle {p_T} \right \rangle$ of associated
+  particles with $0.25 < p_T^{assoc} < 4.0 \frac{GeV}{c}$, for four different centrality
+  selections.
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Fig. 8 Au+Au $3.0 < p_T < 6.0$ 60 to 80 percent Centrality
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig8.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig8.eps.gz'}
+- {description: Image File, location: fig8.png}
+- {description: Thumbnail Image File, location: thumb_fig8.png}
+data_file: Fig8_60_80_part2.yaml
+description: Mean transverse momentum $\left \langle {p_T} \right \rangle$ of associated
+  particles with $0.25 < p_T^{assoc} < 4.0 \frac{GeV}{c}$, for four different centrality
+  selections.
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Fig. 8 Au+Au $6.0 < p_T < 10.0$ 60 to 80 percent Centrality
+---
+additional_resources:
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig8.png'}
+- {description: Image file, location: 'https://drupal.star.bnl.gov/STAR/files/starpublications/158/fig8.eps.gz'}
+- {description: Image File, location: fig8.png}
+- {description: Thumbnail Image File, location: thumb_fig8.png}
+data_file: Fig8dAu.yaml
+description: Mean transverse momentum $\left \langle {p_T} \right \rangle$ of associated
+  particles with $0.25 < p_T^{assoc} < 4.0 \frac{GeV}{c}$, for four different centrality
+  selections.
+keywords:
+- name: reactions
+  values: [AU AU --> CHARGED X]
+- name: cmenergies
+  values: [200.0]
+name: Figure 8 dAu

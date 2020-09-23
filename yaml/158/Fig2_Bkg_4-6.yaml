@@ -1,0 +1,716 @@
+dependent_variables:
+- header: {name: '1/$N_{trig}$dN/d$\Delta\phi$'}
+  qualifiers:
+  - {name: $\Delta\phi$, value: 0-12% Centrality}
+  values:
+  - errors:
+    - asymerror: {minus: -0.0526, plus: -0.0052}
+      label: v2min
+    - asymerror: {minus: 0.0085, plus: 0.0085}
+      label: v2max
+    - {label: stat, symerror: 0.0085}
+    value: -0.02882
+  - errors:
+    - asymerror: {minus: 0.0242, plus: 0.1449}
+      label: v2min
+    - asymerror: {minus: 0.0084, plus: 0.0084}
+      label: v2max
+    - {label: stat, symerror: 0.0084}
+    value: 0.08465
+  - errors:
+    - asymerror: {minus: 0.2643, plus: 0.4485}
+      label: v2min
+    - asymerror: {minus: 0.0088, plus: 0.0088}
+      label: v2max
+    - {label: stat, symerror: 0.0088}
+    value: 0.3566
+  - errors:
+    - asymerror: {minus: 0.5706, plus: 0.7914}
+      label: v2min
+    - asymerror: {minus: 0.009, plus: 0.009}
+      label: v2max
+    - {label: stat, symerror: 0.009}
+    value: 0.6812
+  - errors:
+    - asymerror: {minus: 0.5791, plus: 0.8}
+      label: v2min
+    - asymerror: {minus: 0.0091, plus: 0.0091}
+      label: v2max
+    - {label: stat, symerror: 0.0091}
+    value: 0.6897
+  - errors:
+    - asymerror: {minus: 0.2579, plus: 0.4421}
+      label: v2min
+    - asymerror: {minus: 0.0087, plus: 0.0087}
+      label: v2max
+    - {label: stat, symerror: 0.0087}
+    value: 0.3502
+  - errors:
+    - asymerror: {minus: 0.0239, plus: 0.1446}
+      label: v2min
+    - asymerror: {minus: 0.0085, plus: 0.0085}
+      label: v2max
+    - {label: stat, symerror: 0.0085}
+    value: 0.08435
+  - errors:
+    - asymerror: {minus: -0.0565, plus: -0.0091}
+      label: v2min
+    - asymerror: {minus: 0.0084, plus: 0.0084}
+      label: v2max
+    - {label: stat, symerror: 0.0084}
+    value: -0.03277
+  - errors:
+    - asymerror: {minus: 0.0348, plus: 0.0187}
+      label: v2min
+    - asymerror: {minus: 0.0085, plus: 0.0085}
+      label: v2max
+    - {label: stat, symerror: 0.0085}
+    value: 0.0267
+  - errors:
+    - asymerror: {minus: 0.1831, plus: 0.1304}
+      label: v2min
+    - asymerror: {minus: 0.0084, plus: 0.0084}
+      label: v2max
+    - {label: stat, symerror: 0.0084}
+    value: 0.1567
+  - errors:
+    - asymerror: {minus: 0.2798, plus: 0.2271}
+      label: v2min
+    - asymerror: {minus: 0.0085, plus: 0.0085}
+      label: v2max
+    - {label: stat, symerror: 0.0085}
+    value: 0.2534
+  - errors:
+    - asymerror: {minus: 0.3138, plus: 0.2977}
+      label: v2min
+    - asymerror: {minus: 0.0084, plus: 0.0084}
+      label: v2max
+    - {label: stat, symerror: 0.0084}
+    value: 0.3057
+  - errors:
+    - asymerror: {minus: 0.2843, plus: 0.3317}
+      label: v2min
+    - asymerror: {minus: 0.0085, plus: 0.0085}
+      label: v2max
+    - {label: stat, symerror: 0.0085}
+    value: 0.308
+  - errors:
+    - asymerror: {minus: 0.2022, plus: 0.323}
+      label: v2min
+    - asymerror: {minus: 0.0085, plus: 0.0085}
+      label: v2max
+    - {label: stat, symerror: 0.0085}
+    value: 0.2627
+  - errors:
+    - asymerror: {minus: 0.1173, plus: 0.3015}
+      label: v2min
+    - asymerror: {minus: 0.0085, plus: 0.0085}
+      label: v2max
+    - {label: stat, symerror: 0.0085}
+    value: 0.2095
+  - errors:
+    - asymerror: {minus: 0.0896, plus: 0.3105}
+      label: v2min
+    - asymerror: {minus: 0.0085, plus: 0.0085}
+      label: v2max
+    - {label: stat, symerror: 0.0085}
+    value: 0.2002
+  - errors:
+    - asymerror: {minus: 0.0849, plus: 0.3058}
+      label: v2min
+    - asymerror: {minus: 0.0086, plus: 0.0086}
+      label: v2max
+    - {label: stat, symerror: 0.0086}
+    value: 0.1955
+  - errors:
+    - asymerror: {minus: 0.1327, plus: 0.3169}
+      label: v2min
+    - asymerror: {minus: 0.0085, plus: 0.0085}
+      label: v2max
+    - {label: stat, symerror: 0.0085}
+    value: 0.225
+  - errors:
+    - asymerror: {minus: 0.2103, plus: 0.3311}
+      label: v2min
+    - asymerror: {minus: 0.0085, plus: 0.0085}
+      label: v2max
+    - {label: stat, symerror: 0.0085}
+    value: 0.2708
+  - errors:
+    - asymerror: {minus: 0.2904, plus: 0.3378}
+      label: v2min
+    - asymerror: {minus: 0.0085, plus: 0.0085}
+      label: v2max
+    - {label: stat, symerror: 0.0085}
+    value: 0.3142
+  - errors:
+    - asymerror: {minus: 0.3308, plus: 0.3147}
+      label: v2min
+    - asymerror: {minus: 0.0085, plus: 0.0085}
+      label: v2max
+    - {label: stat, symerror: 0.0085}
+    value: 0.3227
+  - errors:
+    - asymerror: {minus: 0.299, plus: 0.2462}
+      label: v2min
+    - asymerror: {minus: 0.0084, plus: 0.0084}
+      label: v2max
+    - {label: stat, symerror: 0.0084}
+    value: 0.2725
+  - errors:
+    - asymerror: {minus: 0.183, plus: 0.1303}
+      label: v2min
+    - asymerror: {minus: 0.0085, plus: 0.0085}
+      label: v2max
+    - {label: stat, symerror: 0.0085}
+    value: 0.1566
+  - errors:
+    - asymerror: {minus: 0.0214, plus: 0.0053}
+      label: v2min
+    - asymerror: {minus: 0.0084, plus: 0.0084}
+      label: v2max
+    - {label: stat, symerror: 0.0084}
+    value: 0.01334
+- header: {name: '1/$N_{trig}$dN/d$\Delta\phi$'}
+  qualifiers:
+  - {name: $\Delta\phi$, value: 20-40% Centrality}
+  values:
+  - errors:
+    - asymerror: {minus: -0.0226, plus: 0.0227}
+      label: v2min
+    - asymerror: {minus: 0.0133, plus: 0.0133}
+      label: v2max
+    - {label: stat, symerror: 0.0133}
+    value: 0.0001607
+  - errors:
+    - asymerror: {minus: 0.0441, plus: 0.1594}
+      label: v2min
+    - asymerror: {minus: 0.0134, plus: 0.0134}
+      label: v2max
+    - {label: stat, symerror: 0.0134}
+    value: 0.102
+  - errors:
+    - asymerror: {minus: 0.2539, plus: 0.4299}
+      label: v2min
+    - asymerror: {minus: 0.0141, plus: 0.0141}
+      label: v2max
+    - {label: stat, symerror: 0.0141}
+    value: 0.3423
+  - errors:
+    - asymerror: {minus: 0.5156, plus: 0.7265}
+      label: v2min
+    - asymerror: {minus: 0.0146, plus: 0.0146}
+      label: v2max
+    - {label: stat, symerror: 0.0146}
+    value: 0.6215
+  - errors:
+    - asymerror: {minus: 0.5114, plus: 0.7223}
+      label: v2min
+    - asymerror: {minus: 0.0148, plus: 0.0148}
+      label: v2max
+    - {label: stat, symerror: 0.0148}
+    value: 0.6173
+  - errors:
+    - asymerror: {minus: 0.2441, plus: 0.4201}
+      label: v2min
+    - asymerror: {minus: 0.014, plus: 0.014}
+      label: v2max
+    - {label: stat, symerror: 0.014}
+    value: 0.3325
+  - errors:
+    - asymerror: {minus: 0.0745, plus: 0.1898}
+      label: v2min
+    - asymerror: {minus: 0.0135, plus: 0.0135}
+      label: v2max
+    - {label: stat, symerror: 0.0135}
+    value: 0.1324
+  - errors:
+    - asymerror: {minus: -0.0077, plus: 0.0376}
+      label: v2min
+    - asymerror: {minus: 0.0132, plus: 0.0132}
+      label: v2max
+    - {label: stat, symerror: 0.0132}
+    value: 0.01504
+  - errors:
+    - asymerror: {minus: 0.0355, plus: 0.0202}
+      label: v2min
+    - asymerror: {minus: 0.0132, plus: 0.0132}
+      label: v2max
+    - {label: stat, symerror: 0.0132}
+    value: 0.02781
+  - errors:
+    - asymerror: {minus: 0.1102, plus: 0.0598}
+      label: v2min
+    - asymerror: {minus: 0.013, plus: 0.013}
+      label: v2max
+    - {label: stat, symerror: 0.013}
+    value: 0.08492
+  - errors:
+    - asymerror: {minus: 0.2075, plus: 0.1571}
+      label: v2min
+    - asymerror: {minus: 0.0132, plus: 0.0132}
+      label: v2max
+    - {label: stat, symerror: 0.0132}
+    value: 0.1822
+  - errors:
+    - asymerror: {minus: 0.2578, plus: 0.2425}
+      label: v2min
+    - asymerror: {minus: 0.0132, plus: 0.0132}
+      label: v2max
+    - {label: stat, symerror: 0.0132}
+    value: 0.2501
+  - errors:
+    - asymerror: {minus: 0.2662, plus: 0.3115}
+      label: v2min
+    - asymerror: {minus: 0.0135, plus: 0.0135}
+      label: v2max
+    - {label: stat, symerror: 0.0135}
+    value: 0.289
+  - errors:
+    - asymerror: {minus: 0.2468, plus: 0.3621}
+      label: v2min
+    - asymerror: {minus: 0.0135, plus: 0.0135}
+      label: v2max
+    - {label: stat, symerror: 0.0135}
+    value: 0.3047
+  - errors:
+    - asymerror: {minus: 0.2294, plus: 0.4054}
+      label: v2min
+    - asymerror: {minus: 0.0138, plus: 0.0138}
+      label: v2max
+    - {label: stat, symerror: 0.0138}
+    value: 0.3178
+  - errors:
+    - asymerror: {minus: 0.2202, plus: 0.4312}
+      label: v2min
+    - asymerror: {minus: 0.0138, plus: 0.0138}
+      label: v2max
+    - {label: stat, symerror: 0.0138}
+    value: 0.3261
+  - errors:
+    - asymerror: {minus: 0.22, plus: 0.4309}
+      label: v2min
+    - asymerror: {minus: 0.0139, plus: 0.0139}
+      label: v2max
+    - {label: stat, symerror: 0.0139}
+    value: 0.3259
+  - errors:
+    - asymerror: {minus: 0.226, plus: 0.402}
+      label: v2min
+    - asymerror: {minus: 0.0137, plus: 0.0137}
+      label: v2max
+    - {label: stat, symerror: 0.0137}
+    value: 0.3143
+  - errors:
+    - asymerror: {minus: 0.2564, plus: 0.3717}
+      label: v2min
+    - asymerror: {minus: 0.0136, plus: 0.0136}
+      label: v2max
+    - {label: stat, symerror: 0.0136}
+    value: 0.3143
+  - errors:
+    - asymerror: {minus: 0.2395, plus: 0.2848}
+      label: v2min
+    - asymerror: {minus: 0.0134, plus: 0.0134}
+      label: v2max
+    - {label: stat, symerror: 0.0134}
+    value: 0.2622
+  - errors:
+    - asymerror: {minus: 0.2286, plus: 0.2132}
+      label: v2min
+    - asymerror: {minus: 0.0133, plus: 0.0133}
+      label: v2max
+    - {label: stat, symerror: 0.0133}
+    value: 0.2208
+  - errors:
+    - asymerror: {minus: 0.2016, plus: 0.1512}
+      label: v2min
+    - asymerror: {minus: 0.0131, plus: 0.0131}
+      label: v2max
+    - {label: stat, symerror: 0.0131}
+    value: 0.1763
+  - errors:
+    - asymerror: {minus: 0.1335, plus: 0.0831}
+      label: v2min
+    - asymerror: {minus: 0.0131, plus: 0.0131}
+      label: v2max
+    - {label: stat, symerror: 0.0131}
+    value: 0.1082
+  - errors:
+    - asymerror: {minus: 0.0164, plus: 0.0011}
+      label: v2min
+    - asymerror: {minus: 0.0131, plus: 0.0131}
+      label: v2max
+    - {label: stat, symerror: 0.0131}
+    value: 0.008717
+- header: {name: '1/$N_{trig}$dN/d$\Delta\phi$'}
+  qualifiers:
+  - {name: $\Delta\phi$, value: 40-60% Centrality}
+  values:
+  - errors:
+    - asymerror: {minus: 0.0054, plus: 0.0292}
+      label: v2min
+    - asymerror: {minus: 0.0123, plus: 0.0123}
+      label: v2max
+    - {label: stat, symerror: 0.0123}
+    value: 0.01737
+  - errors:
+    - asymerror: {minus: 0.0783, plus: 0.1388}
+      label: v2min
+    - asymerror: {minus: 0.0125, plus: 0.0125}
+      label: v2max
+    - {label: stat, symerror: 0.0125}
+    value: 0.1087
+  - errors:
+    - asymerror: {minus: 0.1885, plus: 0.2807}
+      label: v2min
+    - asymerror: {minus: 0.0133, plus: 0.0133}
+      label: v2max
+    - {label: stat, symerror: 0.0133}
+    value: 0.2349
+  - errors:
+    - asymerror: {minus: 0.3819, plus: 0.4925}
+      label: v2min
+    - asymerror: {minus: 0.0139, plus: 0.0139}
+      label: v2max
+    - {label: stat, symerror: 0.0139}
+    value: 0.4375
+  - errors:
+    - asymerror: {minus: 0.4079, plus: 0.5186}
+      label: v2min
+    - asymerror: {minus: 0.014, plus: 0.014}
+      label: v2max
+    - {label: stat, symerror: 0.014}
+    value: 0.4636
+  - errors:
+    - asymerror: {minus: 0.1926, plus: 0.2848}
+      label: v2min
+    - asymerror: {minus: 0.0132, plus: 0.0132}
+      label: v2max
+    - {label: stat, symerror: 0.0132}
+    value: 0.239
+  - errors:
+    - asymerror: {minus: 0.0597, plus: 0.1202}
+      label: v2min
+    - asymerror: {minus: 0.0126, plus: 0.0126}
+      label: v2max
+    - {label: stat, symerror: 0.0126}
+    value: 0.09008
+  - errors:
+    - asymerror: {minus: 0.0118, plus: 0.0356}
+      label: v2min
+    - asymerror: {minus: 0.0122, plus: 0.0122}
+      label: v2max
+    - {label: stat, symerror: 0.0122}
+    value: 0.02378
+  - errors:
+    - asymerror: {minus: 0.0173, plus: 0.0093}
+      label: v2min
+    - asymerror: {minus: 0.0122, plus: 0.0122}
+      label: v2max
+    - {label: stat, symerror: 0.0122}
+    value: 0.01329
+  - errors:
+    - asymerror: {minus: 0.0267, plus: 0.0003}
+      label: v2min
+    - asymerror: {minus: 0.012, plus: 0.012}
+      label: v2max
+    - {label: stat, symerror: 0.012}
+    value: 0.01343
+  - errors:
+    - asymerror: {minus: 0.0685, plus: 0.0421}
+      label: v2min
+    - asymerror: {minus: 0.0122, plus: 0.0122}
+      label: v2max
+    - {label: stat, symerror: 0.0122}
+    value: 0.05524
+  - errors:
+    - asymerror: {minus: 0.1272, plus: 0.1191}
+      label: v2min
+    - asymerror: {minus: 0.0122, plus: 0.0122}
+      label: v2max
+    - {label: stat, symerror: 0.0122}
+    value: 0.1231
+  - errors:
+    - asymerror: {minus: 0.1684, plus: 0.1921}
+      label: v2min
+    - asymerror: {minus: 0.0126, plus: 0.0126}
+      label: v2max
+    - {label: stat, symerror: 0.0126}
+    value: 0.1803
+  - errors:
+    - asymerror: {minus: 0.2281, plus: 0.2886}
+      label: v2min
+    - asymerror: {minus: 0.0127, plus: 0.0127}
+      label: v2max
+    - {label: stat, symerror: 0.0127}
+    value: 0.2585
+  - errors:
+    - asymerror: {minus: 0.2418, plus: 0.3341}
+      label: v2min
+    - asymerror: {minus: 0.013, plus: 0.013}
+      label: v2max
+    - {label: stat, symerror: 0.013}
+    value: 0.2882
+  - errors:
+    - asymerror: {minus: 0.3167, plus: 0.4273}
+      label: v2min
+    - asymerror: {minus: 0.0131, plus: 0.0131}
+      label: v2max
+    - {label: stat, symerror: 0.0131}
+    value: 0.3723
+  - errors:
+    - asymerror: {minus: 0.3137, plus: 0.4243}
+      label: v2min
+    - asymerror: {minus: 0.0132, plus: 0.0132}
+      label: v2max
+    - {label: stat, symerror: 0.0132}
+    value: 0.3693
+  - errors:
+    - asymerror: {minus: 0.2618, plus: 0.354}
+      label: v2min
+    - asymerror: {minus: 0.0129, plus: 0.0129}
+      label: v2max
+    - {label: stat, symerror: 0.0129}
+    value: 0.3081
+  - errors:
+    - asymerror: {minus: 0.2255, plus: 0.2859}
+      label: v2min
+    - asymerror: {minus: 0.0128, plus: 0.0128}
+      label: v2max
+    - {label: stat, symerror: 0.0128}
+    value: 0.2558
+  - errors:
+    - asymerror: {minus: 0.1587, plus: 0.1824}
+      label: v2min
+    - asymerror: {minus: 0.0124, plus: 0.0124}
+      label: v2max
+    - {label: stat, symerror: 0.0124}
+    value: 0.1706
+  - errors:
+    - asymerror: {minus: 0.1339, plus: 0.1258}
+      label: v2min
+    - asymerror: {minus: 0.0123, plus: 0.0123}
+      label: v2max
+    - {label: stat, symerror: 0.0123}
+    value: 0.1298
+  - errors:
+    - asymerror: {minus: 0.0951, plus: 0.0687}
+      label: v2min
+    - asymerror: {minus: 0.0121, plus: 0.0121}
+      label: v2max
+    - {label: stat, symerror: 0.0121}
+    value: 0.08183
+  - errors:
+    - asymerror: {minus: 0.075, plus: 0.0486}
+      label: v2min
+    - asymerror: {minus: 0.0122, plus: 0.0122}
+      label: v2max
+    - {label: stat, symerror: 0.0122}
+    value: 0.06169
+  - errors:
+    - asymerror: {minus: -0.0021, plus: -0.0101}
+      label: v2min
+    - asymerror: {minus: 0.012, plus: 0.012}
+      label: v2max
+    - {label: stat, symerror: 0.012}
+    value: -0.006133
+- header: {name: '1/$N_{trig}$dN/d$\Delta\phi$'}
+  qualifiers:
+  - {name: $\Delta\phi$, value: 60-80% Centrality}
+  values:
+  - errors:
+    - asymerror: {minus: 0.0074, plus: 0.0142}
+      label: v2min
+    - asymerror: {minus: 0.0124, plus: 0.0124}
+      label: v2max
+    - {label: stat, symerror: 0.0124}
+    value: 0.01084
+  - errors:
+    - asymerror: {minus: 0.0321, plus: 0.0494}
+      label: v2min
+    - asymerror: {minus: 0.0126, plus: 0.0126}
+      label: v2max
+    - {label: stat, symerror: 0.0126}
+    value: 0.04081
+  - errors:
+    - asymerror: {minus: 0.158, plus: 0.1843}
+      label: v2min
+    - asymerror: {minus: 0.0138, plus: 0.0138}
+      label: v2max
+    - {label: stat, symerror: 0.0138}
+    value: 0.1712
+  - errors:
+    - asymerror: {minus: 0.3476, plus: 0.3792}
+      label: v2min
+    - asymerror: {minus: 0.0152, plus: 0.0152}
+      label: v2max
+    - {label: stat, symerror: 0.0152}
+    value: 0.3635
+  - errors:
+    - asymerror: {minus: 0.3367, plus: 0.3683}
+      label: v2min
+    - asymerror: {minus: 0.0152, plus: 0.0152}
+      label: v2max
+    - {label: stat, symerror: 0.0152}
+    value: 0.3526
+  - errors:
+    - asymerror: {minus: 0.148, plus: 0.1743}
+      label: v2min
+    - asymerror: {minus: 0.0137, plus: 0.0137}
+      label: v2max
+    - {label: stat, symerror: 0.0137}
+    value: 0.1612
+  - errors:
+    - asymerror: {minus: 0.022, plus: 0.0392}
+      label: v2min
+    - asymerror: {minus: 0.0126, plus: 0.0126}
+      label: v2max
+    - {label: stat, symerror: 0.0126}
+    value: 0.03065
+  - errors:
+    - asymerror: {minus: 0.0093, plus: 0.0161}
+      label: v2min
+    - asymerror: {minus: 0.0123, plus: 0.0123}
+      label: v2max
+    - {label: stat, symerror: 0.0123}
+    value: 0.01268
+  - errors:
+    - asymerror: {minus: -0.0079, plus: -0.0102}
+      label: v2min
+    - asymerror: {minus: 0.0122, plus: 0.0122}
+      label: v2max
+    - {label: stat, symerror: 0.0122}
+    value: -0.009102
+  - errors:
+    - asymerror: {minus: -0.0102, plus: -0.0177}
+      label: v2min
+    - asymerror: {minus: 0.0121, plus: 0.0121}
+      label: v2max
+    - {label: stat, symerror: 0.0121}
+    value: -0.01396
+  - errors:
+    - asymerror: {minus: 0.0407, plus: 0.0332}
+      label: v2min
+    - asymerror: {minus: 0.0124, plus: 0.0124}
+      label: v2max
+    - {label: stat, symerror: 0.0124}
+    value: 0.03695
+  - errors:
+    - asymerror: {minus: 0.0966, plus: 0.0943}
+      label: v2min
+    - asymerror: {minus: 0.0127, plus: 0.0127}
+      label: v2max
+    - {label: stat, symerror: 0.0127}
+    value: 0.09543
+  - errors:
+    - asymerror: {minus: 0.1477, plus: 0.1545}
+      label: v2min
+    - asymerror: {minus: 0.0131, plus: 0.0131}
+      label: v2max
+    - {label: stat, symerror: 0.0131}
+    value: 0.1511
+  - errors:
+    - asymerror: {minus: 0.1873, plus: 0.2045}
+      label: v2min
+    - asymerror: {minus: 0.0134, plus: 0.0134}
+      label: v2max
+    - {label: stat, symerror: 0.0134}
+    value: 0.196
+  - errors:
+    - asymerror: {minus: 0.2662, plus: 0.2925}
+      label: v2min
+    - asymerror: {minus: 0.0139, plus: 0.0139}
+      label: v2max
+    - {label: stat, symerror: 0.0139}
+    value: 0.2794
+  - errors:
+    - asymerror: {minus: 0.3176, plus: 0.3492}
+      label: v2min
+    - asymerror: {minus: 0.0141, plus: 0.0141}
+      label: v2max
+    - {label: stat, symerror: 0.0141}
+    value: 0.3334
+  - errors:
+    - asymerror: {minus: 0.3084, plus: 0.34}
+      label: v2min
+    - asymerror: {minus: 0.0142, plus: 0.0142}
+      label: v2max
+    - {label: stat, symerror: 0.0142}
+    value: 0.3242
+  - errors:
+    - asymerror: {minus: 0.2665, plus: 0.2929}
+      label: v2min
+    - asymerror: {minus: 0.0138, plus: 0.0138}
+      label: v2max
+    - {label: stat, symerror: 0.0138}
+    value: 0.2797
+  - errors:
+    - asymerror: {minus: 0.207, plus: 0.2242}
+      label: v2min
+    - asymerror: {minus: 0.0135, plus: 0.0135}
+      label: v2max
+    - {label: stat, symerror: 0.0135}
+    value: 0.2156
+  - errors:
+    - asymerror: {minus: 0.121, plus: 0.1278}
+      label: v2min
+    - asymerror: {minus: 0.0129, plus: 0.0129}
+      label: v2max
+    - {label: stat, symerror: 0.0129}
+    value: 0.1244
+  - errors:
+    - asymerror: {minus: 0.0823, plus: 0.08}
+      label: v2min
+    - asymerror: {minus: 0.0127, plus: 0.0127}
+      label: v2max
+    - {label: stat, symerror: 0.0127}
+    value: 0.08113
+  - errors:
+    - asymerror: {minus: 0.0482, plus: 0.0407}
+      label: v2min
+    - asymerror: {minus: 0.0124, plus: 0.0124}
+      label: v2max
+    - {label: stat, symerror: 0.0124}
+    value: 0.04444
+  - errors:
+    - asymerror: {minus: 0.0254, plus: 0.0179}
+      label: v2min
+    - asymerror: {minus: 0.0123, plus: 0.0123}
+      label: v2max
+    - {label: stat, symerror: 0.0123}
+    value: 0.02161
+  - errors:
+    - asymerror: {minus: 0.0125, plus: 0.0102}
+      label: v2min
+    - asymerror: {minus: 0.0123, plus: 0.0123}
+      label: v2max
+    - {label: stat, symerror: 0.0123}
+    value: 0.01135
+independent_variables:
+- header: {name: $\Delta\phi$}
+  values:
+  - {high: -0.79, low: -1.05}
+  - {high: -0.52, low: -0.79}
+  - {high: -0.26, low: -0.52}
+  - {high: 0.0, low: -0.26}
+  - {high: 0.26, low: 0.0}
+  - {high: 0.52, low: 0.26}
+  - {high: 0.79, low: 0.52}
+  - {high: 1.05, low: 0.79}
+  - {high: 1.31, low: 1.05}
+  - {high: 1.57, low: 1.31}
+  - {high: 1.83, low: 1.57}
+  - {high: 2.09, low: 1.83}
+  - {high: 2.36, low: 2.09}
+  - {high: 2.62, low: 2.36}
+  - {high: 2.88, low: 2.62}
+  - {high: 3.14, low: 2.88}
+  - {high: 3.4, low: 3.14}
+  - {high: 3.67, low: 3.4}
+  - {high: 3.93, low: 3.67}
+  - {high: 4.19, low: 3.93}
+  - {high: 4.45, low: 4.19}
+  - {high: 4.71, low: 4.45}
+  - {high: 4.97, low: 4.71}
+  - {high: 5.24, low: 4.97}

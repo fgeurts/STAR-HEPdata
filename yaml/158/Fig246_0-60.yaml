@@ -1,0 +1,484 @@
+dependent_variables:
+- header: {name: Raw}
+  qualifiers:
+  - {name: $p_T$, value: $0-12\%$ Centrality}
+  values:
+  - errors:
+    - {label: stat error, symerror: 0.0085}
+    value: 23.3162
+  - errors:
+    - {label: stat error, symerror: 0.0084}
+    value: 23.5463
+  - errors:
+    - {label: stat error, symerror: 0.0088}
+    value: 23.9192
+  - errors:
+    - {label: stat error, symerror: 0.009}
+    value: 24.3022
+  - errors:
+    - {label: stat error, symerror: 0.0091}
+    value: 24.3107
+  - errors:
+    - {label: stat error, symerror: 0.0087}
+    value: 23.9128
+  - errors:
+    - {label: stat error, symerror: 0.0085}
+    value: 23.546
+  - errors:
+    - {label: stat error, symerror: 0.0084}
+    value: 23.3122
+  - errors:
+    - {label: stat error, symerror: 0.0085}
+    value: 23.2707
+  - errors:
+    - {label: stat error, symerror: 0.0084}
+    value: 23.3423
+  - errors:
+    - {label: stat error, symerror: 0.0085}
+    value: 23.4391
+  - errors:
+    - {label: stat error, symerror: 0.0084}
+    value: 23.5497
+  - errors:
+    - {label: stat error, symerror: 0.0085}
+    value: 23.653
+  - errors:
+    - {label: stat error, symerror: 0.0085}
+    value: 23.7243
+  - errors:
+    - {label: stat error, symerror: 0.0085}
+    value: 23.7722
+  - errors:
+    - {label: stat error, symerror: 0.0085}
+    value: 23.8212
+  - errors:
+    - {label: stat error, symerror: 0.0086}
+    value: 23.8165
+  - errors:
+    - {label: stat error, symerror: 0.0085}
+    value: 23.7876
+  - errors:
+    - {label: stat error, symerror: 0.0085}
+    value: 23.7325
+  - errors:
+    - {label: stat error, symerror: 0.0085}
+    value: 23.6591
+  - errors:
+    - {label: stat error, symerror: 0.0085}
+    value: 23.5667
+  - errors:
+    - {label: stat error, symerror: 0.0084}
+    value: 23.4582
+  - errors:
+    - {label: stat error, symerror: 0.0085}
+    value: 23.3423
+  - errors:
+    - {label: stat error, symerror: 0.0084}
+    value: 23.2573
+- header: {name: Delta eta}
+  qualifiers:
+  - {name: $p_T$, value: $0-12\%$ Centrality}
+  values:
+  - errors:
+    - {label: stat error, symerror: 0.0065}
+    value: -0.0036
+  - errors:
+    - {label: stat error, symerror: 0.0064}
+    value: 0.0758
+  - errors:
+    - {label: stat error, symerror: 0.0068}
+    value: 0.2851
+  - errors:
+    - {label: stat error, symerror: 0.0071}
+    value: 0.5478
+  - errors:
+    - {label: stat error, symerror: 0.0072}
+    value: 0.5557
+  - errors:
+    - {label: stat error, symerror: 0.0068}
+    value: 0.2876
+  - errors:
+    - {label: stat error, symerror: 0.0065}
+    value: 0.0746
+  - errors:
+    - {label: stat error, symerror: 0.0064}
+    value: -0.0126
+  - errors:
+    - {label: stat error, symerror: 0.0065}
+    value: 0.0165
+  - errors:
+    - {label: stat error, symerror: 0.0064}
+    value: 0.091
+  - errors:
+    - {label: stat error, symerror: 0.0065}
+    value: 0.1485
+  - errors:
+    - {label: stat error, symerror: 0.0064}
+    value: 0.1767
+  - errors:
+    - {label: stat error, symerror: 0.0065}
+    value: 0.1884
+  - errors:
+    - {label: stat error, symerror: 0.0065}
+    value: 0.1593
+  - errors:
+    - {label: stat error, symerror: 0.0065}
+    value: 0.1239
+  - errors:
+    - {label: stat error, symerror: 0.0065}
+    value: 0.1312
+  - errors:
+    - {label: stat error, symerror: 0.0065}
+    value: 0.1269
+  - errors:
+    - {label: stat error, symerror: 0.0065}
+    value: 0.1395
+  - errors:
+    - {label: stat error, symerror: 0.0065}
+    value: 0.1673
+  - errors:
+    - {label: stat error, symerror: 0.0065}
+    value: 0.1953
+  - errors:
+    - {label: stat error, symerror: 0.0065}
+    value: 0.1893
+  - errors:
+    - {label: stat error, symerror: 0.0064}
+    value: 0.1649
+  - errors:
+    - {label: stat error, symerror: 0.0065}
+    value: 0.0917
+  - errors:
+    - {label: stat error, symerror: 0.0064}
+    value: 0.003
+- header: {name: Raw}
+  qualifiers:
+  - {name: $p_T$, value: $20-40\%$ Centrality}
+  values:
+  - errors:
+    - {label: stat error, symerror: 0.0133}
+    value: 9.563
+  - errors:
+    - {label: stat error, symerror: 0.0134}
+    value: 9.8816
+  - errors:
+    - {label: stat error, symerror: 0.0141}
+    value: 10.3096
+  - errors:
+    - {label: stat error, symerror: 0.0146}
+    value: 10.6972
+  - errors:
+    - {label: stat error, symerror: 0.0148}
+    value: 10.693
+  - errors:
+    - {label: stat error, symerror: 0.014}
+    value: 10.2998
+  - errors:
+    - {label: stat error, symerror: 0.0135}
+    value: 9.912
+  - errors:
+    - {label: stat error, symerror: 0.0132}
+    value: 9.5778
+  - errors:
+    - {label: stat error, symerror: 0.0132}
+    value: 9.4029
+  - errors:
+    - {label: stat error, symerror: 0.013}
+    value: 9.3516
+  - errors:
+    - {label: stat error, symerror: 0.0132}
+    value: 9.4489
+  - errors:
+    - {label: stat error, symerror: 0.0132}
+    value: 9.6252
+  - errors:
+    - {label: stat error, symerror: 0.0135}
+    value: 9.8518
+  - errors:
+    - {label: stat error, symerror: 0.0135}
+    value: 10.0843
+  - errors:
+    - {label: stat error, symerror: 0.0138}
+    value: 10.2851
+  - errors:
+    - {label: stat error, symerror: 0.0138}
+    value: 10.4019
+  - errors:
+    - {label: stat error, symerror: 0.0139}
+    value: 10.4016
+  - errors:
+    - {label: stat error, symerror: 0.0137}
+    value: 10.2817
+  - errors:
+    - {label: stat error, symerror: 0.0136}
+    value: 10.0939
+  - errors:
+    - {label: stat error, symerror: 0.0134}
+    value: 9.8251
+  - errors:
+    - {label: stat error, symerror: 0.0133}
+    value: 9.5959
+  - errors:
+    - {label: stat error, symerror: 0.0131}
+    value: 9.4429
+  - errors:
+    - {label: stat error, symerror: 0.0131}
+    value: 9.3749
+  - errors:
+    - {label: stat error, symerror: 0.0131}
+    value: 9.3838
+- header: {name: Delta eta}
+  qualifiers:
+  - {name: $p_T$, value: $20-40\%$ Centrality}
+  values:
+  - errors:
+    - {label: stat error, symerror: 0.0101}
+    value: -0.0054
+  - errors:
+    - {label: stat error, symerror: 0.0103}
+    value: 0.094
+  - errors:
+    - {label: stat error, symerror: 0.011}
+    value: 0.2731
+  - errors:
+    - {label: stat error, symerror: 0.0117}
+    value: 0.5066
+  - errors:
+    - {label: stat error, symerror: 0.0117}
+    value: 0.5111
+  - errors:
+    - {label: stat error, symerror: 0.011}
+    value: 0.2711
+  - errors:
+    - {label: stat error, symerror: 0.0103}
+    value: 0.0987
+  - errors:
+    - {label: stat error, symerror: 0.0101}
+    value: 0.0179
+  - errors:
+    - {label: stat error, symerror: 0.01}
+    value: 0.0139
+  - errors:
+    - {label: stat error, symerror: 0.0099}
+    value: 0.0398
+  - errors:
+    - {label: stat error, symerror: 0.0101}
+    value: 0.1135
+  - errors:
+    - {label: stat error, symerror: 0.0101}
+    value: 0.1408
+  - errors:
+    - {label: stat error, symerror: 0.0103}
+    value: 0.1679
+  - errors:
+    - {label: stat error, symerror: 0.0103}
+    value: 0.1871
+  - errors:
+    - {label: stat error, symerror: 0.0105}
+    value: 0.1886
+  - errors:
+    - {label: stat error, symerror: 0.0105}
+    value: 0.1873
+  - errors:
+    - {label: stat error, symerror: 0.0106}
+    value: 0.2031
+  - errors:
+    - {label: stat error, symerror: 0.0104}
+    value: 0.1885
+  - errors:
+    - {label: stat error, symerror: 0.0104}
+    value: 0.1949
+  - errors:
+    - {label: stat error, symerror: 0.0102}
+    value: 0.143
+  - errors:
+    - {label: stat error, symerror: 0.0101}
+    value: 0.127
+  - errors:
+    - {label: stat error, symerror: 0.01}
+    value: 0.0958
+  - errors:
+    - {label: stat error, symerror: 0.01}
+    value: 0.0605
+  - errors:
+    - {label: stat error, symerror: 0.01}
+    value: 0.0071
+- header: {name: Raw}
+  qualifiers:
+  - {name: $p_T$, value: $40-60\%$ Centrality}
+  values:
+  - errors:
+    - {label: stat error, symerror: 0.0123}
+    value: 3.8797
+  - errors:
+    - {label: stat error, symerror: 0.0125}
+    value: 4.0628
+  - errors:
+    - {label: stat error, symerror: 0.0133}
+    value: 4.2685
+  - errors:
+    - {label: stat error, symerror: 0.0139}
+    value: 4.517
+  - errors:
+    - {label: stat error, symerror: 0.014}
+    value: 4.5431
+  - errors:
+    - {label: stat error, symerror: 0.0132}
+    value: 4.2726
+  - errors:
+    - {label: stat error, symerror: 0.0126}
+    value: 4.0442
+  - errors:
+    - {label: stat error, symerror: 0.0122}
+    value: 3.8861
+  - errors:
+    - {label: stat error, symerror: 0.0122}
+    value: 3.7961
+  - errors:
+    - {label: stat error, symerror: 0.012}
+    value: 3.7503
+  - errors:
+    - {label: stat error, symerror: 0.0122}
+    value: 3.7921
+  - errors:
+    - {label: stat error, symerror: 0.0122}
+    value: 3.9059
+  - errors:
+    - {label: stat error, symerror: 0.0126}
+    value: 4.0426
+  - errors:
+    - {label: stat error, symerror: 0.0127}
+    value: 4.2126
+  - errors:
+    - {label: stat error, symerror: 0.013}
+    value: 4.3218
+  - errors:
+    - {label: stat error, symerror: 0.0131}
+    value: 4.4518
+  - errors:
+    - {label: stat error, symerror: 0.0132}
+    value: 4.4488
+  - errors:
+    - {label: stat error, symerror: 0.0129}
+    value: 4.3418
+  - errors:
+    - {label: stat error, symerror: 0.0128}
+    value: 4.21
+  - errors:
+    - {label: stat error, symerror: 0.0124}
+    value: 4.0329
+  - errors:
+    - {label: stat error, symerror: 0.0123}
+    value: 3.9126
+  - errors:
+    - {label: stat error, symerror: 0.0121}
+    value: 3.8187
+  - errors:
+    - {label: stat error, symerror: 0.0122}
+    value: 3.7986
+  - errors:
+    - {label: stat error, symerror: 0.012}
+    value: 3.7767
+- header: {name: Delta eta}
+  qualifiers:
+  - {name: $p_T$, value: $40-60\%$ Centrality}
+  values:
+  - errors:
+    - {label: stat error, symerror: 0.0094}
+    value: 0.0139
+  - errors:
+    - {label: stat error, symerror: 0.0096}
+    value: 0.0802
+  - errors:
+    - {label: stat error, symerror: 0.0104}
+    value: 0.2027
+  - errors:
+    - {label: stat error, symerror: 0.0112}
+    value: 0.3953
+  - errors:
+    - {label: stat error, symerror: 0.0113}
+    value: 0.4109
+  - errors:
+    - {label: stat error, symerror: 0.0103}
+    value: 0.203
+  - errors:
+    - {label: stat error, symerror: 0.0096}
+    value: 0.0673
+  - errors:
+    - {label: stat error, symerror: 0.0093}
+    value: 0.0128
+  - errors:
+    - {label: stat error, symerror: 0.0093}
+    value: 0.0123
+  - errors:
+    - {label: stat error, symerror: 0.0091}
+    value: 0.0108
+  - errors:
+    - {label: stat error, symerror: 0.0092}
+    value: 0.0273
+  - errors:
+    - {label: stat error, symerror: 0.0093}
+    value: 0.0669
+  - errors:
+    - {label: stat error, symerror: 0.0096}
+    value: 0.1076
+  - errors:
+    - {label: stat error, symerror: 0.0097}
+    value: 0.1464
+  - errors:
+    - {label: stat error, symerror: 0.0099}
+    value: 0.1732
+  - errors:
+    - {label: stat error, symerror: 0.01}
+    value: 0.223
+  - errors:
+    - {label: stat error, symerror: 0.0101}
+    value: 0.2236
+  - errors:
+    - {label: stat error, symerror: 0.0098}
+    value: 0.1806
+  - errors:
+    - {label: stat error, symerror: 0.0097}
+    value: 0.1442
+  - errors:
+    - {label: stat error, symerror: 0.0095}
+    value: 0.0907
+  - errors:
+    - {label: stat error, symerror: 0.0094}
+    value: 0.0739
+  - errors:
+    - {label: stat error, symerror: 0.0092}
+    value: 0.0397
+  - errors:
+    - {label: stat error, symerror: 0.0093}
+    value: 0.0313
+  - errors:
+    - {label: stat error, symerror: 0.0092}
+    value: -0.0025
+independent_variables:
+- header: {name: $p_T$}
+  values:
+  - {high: -0.79, low: -1.05}
+  - {high: -0.52, low: -0.79}
+  - {high: -0.26, low: -0.52}
+  - {high: 0, low: -0.26}
+  - {high: 0.26, low: 0}
+  - {high: 0.52, low: 0.26}
+  - {high: 0.79, low: 0.52}
+  - {high: 1.05, low: 0.79}
+  - {high: 1.31, low: 1.05}
+  - {high: 1.57, low: 1.31}
+  - {high: 1.83, low: 1.57}
+  - {high: 2.09, low: 1.83}
+  - {high: 2.36, low: 2.09}
+  - {high: 2.62, low: 2.36}
+  - {high: 2.88, low: 2.62}
+  - {high: 3.14, low: 2.88}
+  - {high: 3.4, low: 3.14}
+  - {high: 3.67, low: 3.4}
+  - {high: 3.93, low: 3.67}
+  - {high: 4.19, low: 3.93}
+  - {high: 4.45, low: 4.19}
+  - {high: 4.71, low: 4.45}
+  - {high: 4.97, low: 4.71}
+  - {high: 5.24, low: 4.97}
