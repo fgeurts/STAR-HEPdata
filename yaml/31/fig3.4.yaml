@@ -1,0 +1,20 @@
+independent_variables:
+- header: {name: '$(dN/dy)_{\pi}/S [fm^{-2}]$'}
+  values:
+  - {value: 1.645}
+  - {value: 2.211}
+  - {value: 2.737}
+dependent_variables:
+- header: {name: '$K-/\pi^-$'}
+  qualifiers:
+  - {name: '$(dN/dy)_{\pi}/S [fm^{-2}]$', value: 'NA49, Pb+Pb, $\sqrt(s_{NN})$ = 8.8, 12.3, 17.3 GeV'}
+  values:
+  - value: 0.0748
+    errors:
+    - {symerror: 0.0052, label: 'stat + syst'}
+  - value: 0.0859
+    errors:
+    - {symerror: 0.0055, label: 'stat + syst'}
+  - value: 0.0973
+    errors:
+    - {symerror: 0.006, label: 'stat + syst'}

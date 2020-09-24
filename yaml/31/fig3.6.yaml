@@ -1,0 +1,44 @@
+independent_variables:
+- header: {name: '$(dN/dy)_{\pi}/S [fm^{-2}]$'}
+  values:
+  - {value: 1.56}
+  - {value: 1.939}
+  - {value: 2.275}
+  - {value: 2.678}
+  - {value: 3.084}
+  - {value: 3.655}
+  - {value: 4.193}
+  - {value: 4.723}
+  - {value: 5.286}
+dependent_variables:
+- header: {name: '$K-/\pi^-$'}
+  qualifiers:
+  - {name: '$(dN/dy)_{\pi}/S [fm^{-2}]$', value: 'STAR, Au+Au, sqrt(sNN)=200 GeV'}
+  values:
+  - value: 0.1271
+    errors:
+    - {symerror: 0.0103, label: 'stat + syst'}
+  - value: 0.1368
+    errors:
+    - {symerror: 0.0108, label: 'stat + syst'}
+  - value: 0.1429
+    errors:
+    - {symerror: 0.0115, label: 'stat + syst'}
+  - value: 0.1422
+    errors:
+    - {symerror: 0.0118, label: 'stat + syst'}
+  - value: 0.147
+    errors:
+    - {symerror: 0.0127, label: 'stat + syst'}
+  - value: 0.1446
+    errors:
+    - {symerror: 0.0131, label: 'stat + syst'}
+  - value: 0.1465
+    errors:
+    - {symerror: 0.0147, label: 'stat + syst'}
+  - value: 0.1526
+    errors:
+    - {symerror: 0.0166, label: 'stat + syst'}
+  - value: 0.1513
+    errors:
+    - {symerror: 0.0181, label: 'stat + syst'}
