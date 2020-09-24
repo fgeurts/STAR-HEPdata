@@ -1,0 +1,96 @@
+comment: BNL-RHIC. Identified mid-rapidity particle spectra of $\pi^{\pm}$, $K^{\pm}$, and $p(\bar{p})$ from 200 GeV p+p and d+Au collisions are reported. A time-of-flight detector based on multi-gap resistive plate chamber technology is used for particle identification. The particle-species dependence of the Cronin effect is observed to be significantly smaller than that at lower energies. The ratio of the nuclear modification factor $(R_{dAu})$ between protons $(p + \bar{p})$ and charged hadrons $(h)$ in the transverse momentum range $1.2 < p_T < 3.0 GeV/c$ is measured to be 1.19$\pm$0.05(stat)$\pm$0.03(syst) in minimum-bias collisions and shows little centrality dependence. The yield ratio of $(p + \bar{p})/h$ in minimum-bias d+Au collisions is found to be a factor of 2 lower than that in Au+Au collisions, indicating that the Cronin effect alone is not enough to account for the relative baryon enhancement observed in heavy ion collisions at RHIC.
+additional_resources:
+ - {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/30/data.html", description: "web page with data points"}
+ - {location: "https://drupal.star.bnl.gov/STAR/publications/pion-kaon-proton-and-anti-proton-transverse-momentum-distributions-p-p-and-d-au-collisions-sqrt-s-sub-nn-sub-200-ge", description: Webpage with all figures}
+ - {location: "https://arxiv.org/abs/nucl-ex/0309012", description: arXiv}
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/30/Figure_2.eps.gz", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/30/Figure_2.png", description: Image file}
+- {location: Figure_2.png, description: Image file}
+- {location: thumb_Figure_2.png, description: Thumbnail Image file}
+name: "Figure 2.1: The invariant yields of pions"
+description: 'The invariant yields of $\pi^+$ (filled circles), $K^+$ (open squares), $p$ (filled triangles) and their anti-particles as a function of $p_T$ from d+Au and NSD p+p events at 200 GeV. The rapidity range was $−0.5 < y < 0.0$ with the direction of the outgoing Au ions as negative rapidity. Errors are statistical.'
+keywords:
+ - {name: reactions, values: [d AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 2
+data_file: fig2.1.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/30/Figure_2.eps.gz", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/30/Figure_2.png", description: Image file}
+- {location: Figure_2.png, description: Image file}
+- {location: thumb_Figure_2.png, description: Thumbnail Image file}
+name: "Figure 2.2: The invariant yields of kaons"
+description: 'The invariant yields of $\pi^+$ (filled circles), $K^+$ (open squares), $p$ (filled triangles) and their anti-particles as a function of $p_T$ from d+Au and NSD p+p events at 200 GeV. The rapidity range was $−0.5 < y < 0.0$ with the direction of the outgoing Au ions as negative rapidity. Errors are statistical.'
+keywords:
+ - {name: reactions, values: [d AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 2
+data_file: fig2.2.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/30/Figure_2.eps.gz", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/30/Figure_2.png", description: Image file}
+- {location: Figure_2.png, description: Image file}
+- {location: thumb_Figure_2.png, description: Thumbnail Image file}
+name: "Figure 2.3: The invariant yields of protons"
+description: 'The invariant yields of $\pi^+$ (filled circles), $K^+$ (open squares), $p$ (filled triangles) and their anti-particles as a function of $p_T$ from d+Au and NSD p+p events at 200 GeV. The rapidity range was $−0.5 < y < 0.0$ with the direction of the outgoing Au ions as negative rapidity. Errors are statistical.'
+keywords:
+ - {name: reactions, values: [d AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 2
+data_file: fig2.3.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/30/Figure_3.eps.gz", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/30/Figure_3.png", description: Image file}
+- {location: Figure_3.png, description: Image file}
+- {location: thumb_Figure_3.png, description: Thumbnail Image file}
+name: "Figure 3.1: The identified particle $R_{dAu}$, pions"
+description: 'The identified particle $R_{dAu}$ for minimum-bias and top $20\%$ d+Au collisions. The filled triangles are for $p + \bar{p}$, the filled circles are for $\pi^+ +\pi^−$ and the open squares are for $K^++K^−$. Dashed lines are $R_{dAu}$ of inclusive charged hadrons from [22]. The open triangles and open circles are $R_{CP}$ of $p+\bar{p}$ and $\pi^0$ in Au+Au collisions measured by PHENIX [7]. Errors are statistical. The gray band represents the normalization uncertainty of $16\%$.'
+keywords:
+ - {name: reactions, values: [d AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 3
+data_file: fig3.1.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/30/Figure_3.eps.gz", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/30/Figure_3.png", description: Image file}
+- {location: Figure_3.png, description: Image file}
+- {location: thumb_Figure_3.png, description: Thumbnail Image file}
+name: "Figure 3.2: The identified particle $R_{dAu}$, kaons"
+description: 'The identified particle $R_{dAu}$ for minimum-bias and top $20\%$ d+Au collisions. The filled triangles are for $p + \bar{p}$, the filled circles are for $\pi^+ +\pi^−$ and the open squares are for $K^++K^−$. Dashed lines are $R_{dAu}$ of inclusive charged hadrons from [22]. The open triangles and open circles are $R_{CP}$ of $p+\bar{p}$ and $\pi^0$ in Au+Au collisions measured by PHENIX [7]. Errors are statistical. The gray band represents the normalization uncertainty of $16\%$.'
+keywords:
+ - {name: reactions, values: [d AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 3
+data_file: fig3.2.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/30/Figure_3.eps.gz", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/30/Figure_3.png", description: Image file}
+- {location: Figure_3.png, description: Image file}
+- {location: thumb_Figure_3.png, description: Thumbnail Image file}
+name: "Figure 3.3: The identified particle $R_{dAu}$, protons"
+description: 'The identified particle $R_{dAu}$ for minimum-bias and top $20\%$ d+Au collisions. The filled triangles are for $p + \bar{p}$, the filled circles are for $\pi^+ +\pi^−$ and the open squares are for $K^++K^−$. Dashed lines are $R_{dAu}$ of inclusive charged hadrons from [22]. The open triangles and open circles are $R_{CP}$ of $p+\bar{p}$ and $\pi^0$ in Au+Au collisions measured by PHENIX [7]. Errors are statistical. The gray band represents the normalization uncertainty of $16\%$.'
+keywords:
+ - {name: reactions, values: [d AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 3
+data_file: fig3.3.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/30/Figure_4.eps.gz", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/30/Figure_4.png", description: Image file}
+- {location: Figure_4.png, description: Image file}
+- {location: thumb_Figure_4.png, description: Thumbnail Image file}
+name: "Figure 4: p+pbar/h ratio"
+description: 'Minimum-bias ratios of protons $p + \bar{p}$ over inclusive charged hadrons $(h)$ at $−0.5<\eta<0.0$ from $\sqrt{s_{NN}} = 200$ GeV p+p (open diamonds), d+Au (filled triangles) and $\sqrt{s_{NN}}= 130$ GeV Au+Au [7] (asterisks) collisions. Results of $p + \bar{p}$ collisions at $\sqrt{s_{NN}} =1.8$ TeV [36] are shown as solid stars. Dashed lines are results of $p/h^+$ ratios from $\sqrt{s_{NN}} = 23.8$ GeV p+p (short-dashed lines) and p+W (dot-dashed) collisions [14, 15]. Errors are statistical.'
+keywords:
+ - {name: reactions, values: [d AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 4
+data_file: fig4.yaml
