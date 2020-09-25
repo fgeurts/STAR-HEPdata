@@ -1,0 +1,114 @@
+independent_variables:
+- header: {name: '$p_T$ bins'}
+  values:
+  - {low: 4.0e-01, high: 5.0e-01}
+  - {low: 5.0e-01, high: 6.0e-01}
+  - {low: 6.0e-01, high: 7.0e-01}
+  - {low: 7.0e-01, high: 8.0e-01}
+  - {low: 8.0e-01, high: 9.0e-01}
+  - {low: 9.0e-01, high: 1.0e-00}
+  - {low: 1.0e-00, high: 1.1e-00}
+  - {low: 1.1e-00, high: 1.2e-00}
+  - {low: 1.2e-00, high: 1.4e-00}
+  - {low: 1.4e-00, high: 1.6e-00}
+- header: {name: '$p_T$'}
+  values:
+  - {value: 4.50e-01}
+  - {value: 5.50e-01}
+  - {value: 6.50e-01}
+  - {value: 7.50e-01}
+  - {value: 8.50e-01}
+  - {value: 9.50e-01}
+  - {value: 1.05e+00}
+  - {value: 1.15e+00}
+  - {value: 1.30e+00}
+  - {value: 1.50e+00}
+dependent_variables:
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'minbias $K^+ +K^-$'}
+  values:
+  - value: 6.67e-01
+    errors:
+    - {symerror: 2.92e-02, label: 'stat'}
+    - {symerror: 0.10672, label: 'syst'}
+  - value: 7.35e-01
+    errors:
+    - {symerror: 3.31e-02, label: 'stat'}
+    - {symerror: 0.1176, label: 'syst'}
+  - value: 7.77e-01
+    errors:
+    - {symerror: 3.50e-02, label: 'stat'}
+    - {symerror: 0.12432, label: 'syst'}
+  - value: 7.99e-01
+    errors:
+    - {symerror: 3.14e-02, label: 'stat'}
+    - {symerror: 0.12784, label: 'syst'}
+  - value: 8.41e-01
+    errors:
+    - {symerror: 3.71e-02, label: 'stat'}
+    - {symerror: 0.13456, label: 'syst'}
+  - value: 8.81e-01
+    errors:
+    - {symerror: 4.35e-02, label: 'stat'}
+    - {symerror: 0.14096, label: 'syst'}
+  - value: 8.38e-01
+    errors:
+    - {symerror: 4.79e-02, label: 'stat'}
+    - {symerror: 0.13408, label: 'syst'}
+  - value: 8.47e-01
+    errors:
+    - {symerror: 5.54e-02, label: 'stat'}
+    - {symerror: 0.13552, label: 'syst'}
+  - value: 8.87e-01
+    errors:
+    - {symerror: 5.35e-02, label: 'stat'}
+    - {symerror: 0.14192, label: 'syst'}
+  - value: 9.77e-01
+    errors:
+    - {symerror: 6.79e-02, label: 'stat'}
+    - {symerror: 0.15632, label: 'syst'}
+- header: {name: '$R_{dAu}$'}
+  qualifiers:
+  - {name: '$p_T$', value: '$0-20\%$ $K^+ +K^-$'}
+  values:
+  - value: 6.81e-01
+    errors:
+    - {symerror: 3.58e-02, label: 'stat'}
+    - {symerror: 0.10896, label: 'syst'}
+  - value: 7.64e-01
+    errors:
+    - {symerror: 4.02e-02, label: 'stat'}
+    - {symerror: 0.12224, label: 'syst'}
+  - value: 8.17e-01
+    errors:
+    - {symerror: 4.32e-02, label: 'stat'}
+    - {symerror: 0.13072, label: 'syst'}
+  - value: 8.38e-01
+    errors:
+    - {symerror: 4.11e-02, label: 'stat'}
+    - {symerror: 0.13408, label: 'syst'}
+  - value: 9.01e-01
+    errors:
+    - {symerror: 4.91e-02, label: 'stat'}
+    - {symerror: 0.14416, label: 'syst'}
+  - value: 8.83e-01
+    errors:
+    - {symerror: 5.41e-02, label: 'stat'}
+    - {symerror: 0.14128, label: 'syst'}
+  - value: 9.45e-01
+    errors:
+    - {symerror: 6.48e-02, label: 'stat'}
+    - {symerror: 0.1512, label: 'syst'}
+  - value: 8.75e-01
+    errors:
+    - {symerror: 6.90e-02, label: 'stat'}
+    - {symerror: 0.14, label: 'syst'}
+  - value: 1.00e+00
+    errors:
+    - {symerror: 6.93e-02, label: 'stat'}
+    - {symerror: 0.16, label: 'syst'}
+  - value: 1.04e+00
+    errors:
+    - {symerror: 8.96e-02, label: 'stat'}
+    - {symerror: 0.1664, label: 'syst'}

@@ -1,0 +1,1121 @@
+independent_variables:
+- header: {name: '$m_T - m_{p} [GeV/c^2]$'}
+  values:
+  - {value: 0.0724}
+  - {value: 0.0920}
+  - {value: 0.114}
+  - {value: 0.137}
+  - {value: 0.162}
+  - {value: 0.189}
+  - {value: 0.218}
+  - {value: 0.248}
+  - {value: 0.279}
+  - {value: 0.311}
+  - {value: 0.345}
+  - {value: 0.379}
+  - {value: 0.415}
+  - {value: 0.452}
+  - {value: 0.489}
+  - {value: 0.527}
+  - {value: 0.566}
+dependent_variables:
+- header: {name: '$1/N_{event} d^2 N / (2 K m_T dm_{T} dy) [c^4/GeV^2]$'}
+  qualifiers:
+  - {name: '$m_T - m_{p} [GeV/c^2]$', value: '$p$, $0-5\%$ Au+Au'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 6.42
+    errors:
+    - {symerror: 0.31, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 6.45
+    errors:
+    - {symerror: 0.25, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 6.18
+    errors:
+    - {symerror: 0.20, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 5.96
+    errors:
+    - {symerror: 0.16, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 5.75
+    errors:
+    - {symerror: 0.13, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 5.44
+    errors:
+    - {symerror: 0.13, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 5.07
+    errors:
+    - {symerror: 0.12, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 4.89
+    errors:
+    - {symerror: 0.11, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 4.67
+    errors:
+    - {symerror: 0.10, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 4.436
+    errors:
+    - {symerror: 0.095, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 4.16
+    errors:
+    - {symerror: 0.13, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.95
+    errors:
+    - {symerror: 0.12, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.68
+    errors:
+    - {symerror: 0.12, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.36
+    errors:
+    - {symerror: 0.11, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.24
+    errors:
+    - {symerror: 0.14, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.89
+    errors:
+    - {symerror: 0.14, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+- header: {name: '$1/N_{event} d^2 N / (2 K m_T dm_{T} dy) [c^4/GeV^2]$'}
+  qualifiers:
+  - {name: '$m_T - m_{p} [GeV/c^2]$', value: '$p$, $5-10\%$ Au+Au'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 5.70
+    errors:
+    - {symerror: 0.28, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 5.62
+    errors:
+    - {symerror: 0.22, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 5.38
+    errors:
+    - {symerror: 0.17, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 5.09
+    errors:
+    - {symerror: 0.13, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 4.89
+    errors:
+    - {symerror: 0.11, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 4.56
+    errors:
+    - {symerror: 0.11, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 4.30
+    errors:
+    - {symerror: 0.10, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 4.093
+    errors:
+    - {symerror: 0.092, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.826
+    errors:
+    - {symerror: 0.084, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.665
+    errors:
+    - {symerror: 0.079, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.419
+    errors:
+    - {symerror: 0.10, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.174
+    errors:
+    - {symerror: 0.093, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.953
+    errors:
+    - {symerror: 0.093, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.712
+    errors:
+    - {symerror: 0.087, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.57
+    errors:
+    - {symerror: 0.10, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.34
+    errors:
+    - {symerror: 0.11, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+- header: {name: '$1/N_{event} d^2 N / (2 K m_T dm_{T} dy) [c^4/GeV^2]$'}
+  qualifiers:
+  - {name: '$m_T - m_{p} [GeV/c^2]$', value: '$p$, $10-20\%$ Au+Au'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 4.21
+    errors:
+    - {symerror: 0.20, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 4.28
+    errors:
+    - {symerror: 0.17, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 4.12
+    errors:
+    - {symerror: 0.13, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.97
+    errors:
+    - {symerror: 0.10, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.767
+    errors:
+    - {symerror: 0.081, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.581
+    errors:
+    - {symerror: 0.082, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.316
+    errors:
+    - {symerror: 0.077, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.131
+    errors:
+    - {symerror: 0.069, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.931
+    errors:
+    - {symerror: 0.063, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.775
+    errors:
+    - {symerror: 0.059, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.587
+    errors:
+    - {symerror: 0.072, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.373
+    errors:
+    - {symerror: 0.066, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.207
+    errors:
+    - {symerror: 0.068, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.057
+    errors:
+    - {symerror: 0.064, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.849
+    errors:
+    - {symerror: 0.072, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.704
+    errors:
+    - {symerror: 0.074, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+- header: {name: '$1/N_{event} d^2 N / (2 K m_T dm_{T} dy) [c^4/GeV^2]$'}
+  qualifiers:
+  - {name: '$m_T - m_{p} [GeV/c^2]$', value: '$p$, $20-30\%$ Au+Au'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.34
+    errors:
+    - {symerror: 0.16, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.26
+    errors:
+    - {symerror: 0.13, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.13
+    errors:
+    - {symerror: 0.10, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.992
+    errors:
+    - {symerror: 0.078, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.786
+    errors:
+    - {symerror: 0.060, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.628
+    errors:
+    - {symerror: 0.059, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.424
+    errors:
+    - {symerror: 0.057, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.235
+    errors:
+    - {symerror: 0.050, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.114
+    errors:
+    - {symerror: 0.046, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.938
+    errors:
+    - {symerror: 0.042, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.823
+    errors:
+    - {symerror: 0.049, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.664
+    errors:
+    - {symerror: 0.045, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.526
+    errors:
+    - {symerror: 0.048, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.383
+    errors:
+    - {symerror: 0.043, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.268
+    errors:
+    - {symerror: 0.048, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.157
+    errors:
+    - {symerror: 0.050, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+- header: {name: '$1/N_{event} d^2 N / (2 K m_T dm_{T} dy) [c^4/GeV^2]$'}
+  qualifiers:
+  - {name: '$m_T - m_{p} [GeV/c^2]$', value: '$p$, $30-40\%$ Au+Au'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.33
+    errors:
+    - {symerror: 0.11, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.313
+    errors:
+    - {symerror: 0.090, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.175
+    errors:
+    - {symerror: 0.071, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.072
+    errors:
+    - {symerror: 0.055, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.910
+    errors:
+    - {symerror: 0.042, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.784
+    errors:
+    - {symerror: 0.039, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.670
+    errors:
+    - {symerror: 0.040, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.542
+    errors:
+    - {symerror: 0.035, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.397
+    errors:
+    - {symerror: 0.031, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.303
+    errors:
+    - {symerror: 0.029, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.184
+    errors:
+    - {symerror: 0.032, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.092
+    errors:
+    - {symerror: 0.029, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.997
+    errors:
+    - {symerror: 0.032, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.882
+    errors:
+    - {symerror: 0.028, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.821
+    errors:
+    - {symerror: 0.031, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.736
+    errors:
+    - {symerror: 0.032, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+- header: {name: '$1/N_{event} d^2 N / (2 K m_T dm_{T} dy) [c^4/GeV^2]$'}
+  qualifiers:
+  - {name: '$m_T - m_{p} [GeV/c^2]$', value: '$p$, $40-50\%$ Au+Au'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.646
+    errors:
+    - {symerror: 0.081, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.612
+    errors:
+    - {symerror: 0.064, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.544
+    errors:
+    - {symerror: 0.051, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.462
+    errors:
+    - {symerror: 0.039, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.338
+    errors:
+    - {symerror: 0.031, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.249
+    errors:
+    - {symerror: 0.028, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.134
+    errors:
+    - {symerror: 0.028, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.027
+    errors:
+    - {symerror: 0.024, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.962
+    errors:
+    - {symerror: 0.022, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.871
+    errors:
+    - {symerror: 0.020, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.786
+    errors:
+    - {symerror: 0.021, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.712
+    errors:
+    - {symerror: 0.019, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.653
+    errors:
+    - {symerror: 0.021, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.581
+    errors:
+    - {symerror: 0.019, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.524
+    errors:
+    - {symerror: 0.020, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.476
+    errors:
+    - {symerror: 0.021, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+- header: {name: '$1/N_{event} d^2 N / (2 K m_T dm_{T} dy) [c^4/GeV^2]$'}
+  qualifiers:
+  - {name: '$m_T - m_{p} [GeV/c^2]$', value: '$p$, $50-60\%$ Au+Au'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.169
+    errors:
+    - {symerror: 0.058, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.105
+    errors:
+    - {symerror: 0.044, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.015
+    errors:
+    - {symerror: 0.034, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.946
+    errors:
+    - {symerror: 0.026, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.850
+    errors:
+    - {symerror: 0.020, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.785
+    errors:
+    - {symerror: 0.018, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.711
+    errors:
+    - {symerror: 0.018, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.634
+    errors:
+    - {symerror: 0.016, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.579
+    errors:
+    - {symerror: 0.014, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.528
+    errors:
+    - {symerror: 0.013, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.493
+    errors:
+    - {symerror: 0.013, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.428
+    errors:
+    - {symerror: 0.012, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.389
+    errors:
+    - {symerror: 0.013, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.338
+    errors:
+    - {symerror: 0.012, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.314
+    errors:
+    - {symerror: 0.012, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.282
+    errors:
+    - {symerror: 0.014, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+- header: {name: '$1/N_{event} d^2 N / (2 K m_T dm_{T} dy) [c^4/GeV^2]$'}
+  qualifiers:
+  - {name: '$m_T - m_{p} [GeV/c^2]$', value: '$p$, $60-70\%$ Au+Au'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.712
+    errors:
+    - {symerror: 0.036, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.665
+    errors:
+    - {symerror: 0.027, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.631
+    errors:
+    - {symerror: 0.022, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.556
+    errors:
+    - {symerror: 0.016, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.510
+    errors:
+    - {symerror: 0.013, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.446
+    errors:
+    - {symerror: 0.011, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.403
+    errors:
+    - {symerror: 0.011, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.371
+    errors:
+    - {symerror: 0.010, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.3166
+    errors:
+    - {symerror: 0.0087, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.2838
+    errors:
+    - {symerror: 0.0078, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.2562
+    errors:
+    - {symerror: 0.0076, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.2294
+    errors:
+    - {symerror: 0.0069, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.2143
+    errors:
+    - {symerror: 0.0079, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.1758
+    errors:
+    - {symerror: 0.0067, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.1601
+    errors:
+    - {symerror: 0.0068, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.1383
+    errors:
+    - {symerror: 0.0075, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+- header: {name: '$1/N_{event} d^2 N / (2 K m_T dm_{T} dy) [c^4/GeV^2]$'}
+  qualifiers:
+  - {name: '$m_T - m_{p} [GeV/c^2]$', value: '$p$, $70-80\%$ Au+Au'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.387
+    errors:
+    - {symerror: 0.020, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.362
+    errors:
+    - {symerror: 0.016, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.343
+    errors:
+    - {symerror: 0.013, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.308
+    errors:
+    - {symerror: 0.010, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.2635
+    errors:
+    - {symerror: 0.0080, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.2373
+    errors:
+    - {symerror: 0.0069, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.2153
+    errors:
+    - {symerror: 0.0070, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.1870
+    errors:
+    - {symerror: 0.0059, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.1630
+    errors:
+    - {symerror: 0.0053, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.1457
+    errors:
+    - {symerror: 0.0050, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.1261
+    errors:
+    - {symerror: 0.0045, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.1074
+    errors:
+    - {symerror: 0.0040, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.0988
+    errors:
+    - {symerror: 0.0043, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.0837
+    errors:
+    - {symerror: 0.0038, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.0700
+    errors:
+    - {symerror: 0.0036, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.0618
+    errors:
+    - {symerror: 0.0040, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+- header: {name: '$1/N_{event} d^2 N / (2 K m_T dm_{T} dy) [c^4/GeV^2]$'}
+  qualifiers:
+  - {name: '$m_T - m_{p} [GeV/c^2]$', value: '$p$, pp'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.0507
+    errors:
+    - {symerror: 0.0025, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.0469
+    errors:
+    - {symerror: 0.0019, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.0408
+    errors:
+    - {symerror: 0.0014, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.03416
+    errors:
+    - {symerror: 0.00097, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.02873
+    errors:
+    - {symerror: 0.00073, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.02411
+    errors:
+    - {symerror: 0.00071, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.02131
+    errors:
+    - {symerror: 0.00060, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.01816
+    errors:
+    - {symerror: 0.00053, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.01535
+    errors:
+    - {symerror: 0.00046, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.01310
+    errors:
+    - {symerror: 0.00041, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.01109
+    errors:
+    - {symerror: 0.00036, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.00978
+    errors:
+    - {symerror: 0.00040, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.00856
+    errors:
+    - {symerror: 0.00037, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.00738
+    errors:
+    - {symerror: 0.00038, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+- header: {name: '$1/N_{event} d^2 N / (2 K m_T dm_{T} dy) [c^4/GeV^2]$'}
+  qualifiers:
+  - {name: '$m_T - m_{p} [GeV/c^2]$', value: '$\bar{p}$, $0-5\%$ Au+Au'}
+  values:
+  - value: 5.08
+    errors:
+    - {symerror: 0.12, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 4.879
+    errors:
+    - {symerror: 0.070, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 4.837
+    errors:
+    - {symerror: 0.068, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 4.685
+    errors:
+    - {symerror: 0.065, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 4.608
+    errors:
+    - {symerror: 0.063, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 4.369
+    errors:
+    - {symerror: 0.059, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 4.293
+    errors:
+    - {symerror: 0.090, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 4.009
+    errors:
+    - {symerror: 0.088, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.818
+    errors:
+    - {symerror: 0.084, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.660
+    errors:
+    - {symerror: 0.081, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.504
+    errors:
+    - {symerror: 0.077, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.174
+    errors:
+    - {symerror: 0.097, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.995
+    errors:
+    - {symerror: 0.092, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.812
+    errors:
+    - {symerror: 0.090, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.596
+    errors:
+    - {symerror: 0.087, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.43
+    errors:
+    - {symerror: 0.11, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.22
+    errors:
+    - {symerror: 0.12, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+- header: {name: '$1/N_{event} d^2 N / (2 K m_T dm_{T} dy) [c^4/GeV^2]$'}
+  qualifiers:
+  - {name: '$m_T - m_{p} [GeV/c^2]$', value: '$\bar{p}$, $5-10\%$ Au+Au'}
+  values:
+  - value: 4.41
+    errors:
+    - {symerror: 0.10, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 4.167
+    errors:
+    - {symerror: 0.061, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 4.038
+    errors:
+    - {symerror: 0.058, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.948
+    errors:
+    - {symerror: 0.055, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.787
+    errors:
+    - {symerror: 0.053, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.771
+    errors:
+    - {symerror: 0.051, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.603
+    errors:
+    - {symerror: 0.073, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.345
+    errors:
+    - {symerror: 0.074, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.160
+    errors:
+    - {symerror: 0.070, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.059
+    errors:
+    - {symerror: 0.068, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.882
+    errors:
+    - {symerror: 0.064, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.599
+    errors:
+    - {symerror: 0.077, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.420
+    errors:
+    - {symerror: 0.072, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.284
+    errors:
+    - {symerror: 0.073, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.090
+    errors:
+    - {symerror: 0.069, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.913
+    errors:
+    - {symerror: 0.083, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.783
+    errors:
+    - {symerror: 0.091, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+- header: {name: '$1/N_{event} d^2 N / (2 K m_T dm_{T} dy) [c^4/GeV^2]$'}
+  qualifiers:
+  - {name: '$m_T - m_{p} [GeV/c^2]$', value: '$\bar{p}$, $10-20\%$ Au+Au'}
+  values:
+  - value: 3.440
+    errors:
+    - {symerror: 0.076, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.309
+    errors:
+    - {symerror: 0.044, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.230
+    errors:
+    - {symerror: 0.042, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.154
+    errors:
+    - {symerror: 0.040, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 3.059
+    errors:
+    - {symerror: 0.039, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.931
+    errors:
+    - {symerror: 0.037, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.800
+    errors:
+    - {symerror: 0.052, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.655
+    errors:
+    - {symerror: 0.057, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.499
+    errors:
+    - {symerror: 0.054, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.303
+    errors:
+    - {symerror: 0.049, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.180
+    errors:
+    - {symerror: 0.047, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.004
+    errors:
+    - {symerror: 0.056, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.854
+    errors:
+    - {symerror: 0.052, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.721
+    errors:
+    - {symerror: 0.054, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.580
+    errors:
+    - {symerror: 0.050, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.484
+    errors:
+    - {symerror: 0.059, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.387
+    errors:
+    - {symerror: 0.064, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+- header: {name: '$1/N_{event} d^2 N / (2 K m_T dm_{T} dy) [c^4/GeV^2]$'}
+  qualifiers:
+  - {name: '$m_T - m_{p} [GeV/c^2]$', value: '$\bar{p}$, $20-30\%$ Au+Au'}
+  values:
+  - value: 2.693
+    errors:
+    - {symerror: 0.061, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.538
+    errors:
+    - {symerror: 0.035, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.451
+    errors:
+    - {symerror: 0.033, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.336
+    errors:
+    - {symerror: 0.031, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.274
+    errors:
+    - {symerror: 0.030, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.151
+    errors:
+    - {symerror: 0.028, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 2.063
+    errors:
+    - {symerror: 0.037, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.913
+    errors:
+    - {symerror: 0.042, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.792
+    errors:
+    - {symerror: 0.039, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.670
+    errors:
+    - {symerror: 0.036, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.561
+    errors:
+    - {symerror: 0.034, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.408
+    errors:
+    - {symerror: 0.039, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.316
+    errors:
+    - {symerror: 0.036, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.212
+    errors:
+    - {symerror: 0.038, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.095
+    errors:
+    - {symerror: 0.035, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.013
+    errors:
+    - {symerror: 0.039, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.905
+    errors:
+    - {symerror: 0.041, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+- header: {name: '$1/N_{event} d^2 N / (2 K m_T dm_{T} dy) [c^4/GeV^2]$'}
+  qualifiers:
+  - {name: '$m_T - m_{p} [GeV/c^2]$', value: '$\bar{p}$, $30-40\%$ Au+Au'}
+  values:
+  - value: 1.949
+    errors:
+    - {symerror: 0.045, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.831
+    errors:
+    - {symerror: 0.028, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.813
+    errors:
+    - {symerror: 0.027, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.756
+    errors:
+    - {symerror: 0.025, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.625
+    errors:
+    - {symerror: 0.023, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.540
+    errors:
+    - {symerror: 0.022, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.469
+    errors:
+    - {symerror: 0.027, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.356
+    errors:
+    - {symerror: 0.030, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.218
+    errors:
+    - {symerror: 0.028, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.149
+    errors:
+    - {symerror: 0.026, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.045
+    errors:
+    - {symerror: 0.024, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.970
+    errors:
+    - {symerror: 0.027, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.881
+    errors:
+    - {symerror: 0.024, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.786
+    errors:
+    - {symerror: 0.025, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.707
+    errors:
+    - {symerror: 0.023, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.650
+    errors:
+    - {symerror: 0.025, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.606
+    errors:
+    - {symerror: 0.028, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+- header: {name: '$1/N_{event} d^2 N / (2 K m_T dm_{T} dy) [c^4/GeV^2]$'}
+  qualifiers:
+  - {name: '$m_T - m_{p} [GeV/c^2]$', value: '$\bar{p}$, $40-50\%$ Au+Au'}
+  values:
+  - value: 1.480
+    errors:
+    - {symerror: 0.036, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.369
+    errors:
+    - {symerror: 0.023, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.311
+    errors:
+    - {symerror: 0.021, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.206
+    errors:
+    - {symerror: 0.020, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.160
+    errors:
+    - {symerror: 0.018, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1.058
+    errors:
+    - {symerror: 0.017, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.995
+    errors:
+    - {symerror: 0.019, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.936
+    errors:
+    - {symerror: 0.022, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.847
+    errors:
+    - {symerror: 0.020, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.772
+    errors:
+    - {symerror: 0.018, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.691
+    errors:
+    - {symerror: 0.017, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.614
+    errors:
+    - {symerror: 0.017, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.567
+    errors:
+    - {symerror: 0.016, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.512
+    errors:
+    - {symerror: 0.017, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.462
+    errors:
+    - {symerror: 0.016, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.400
+    errors:
+    - {symerror: 0.016, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.353
+    errors:
+    - {symerror: 0.017, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+- header: {name: '$1/N_{event} d^2 N / (2 K m_T dm_{T} dy) [c^4/GeV^2]$'}
+  qualifiers:
+  - {name: '$m_T - m_{p} [GeV/c^2]$', value: '$\bar{p}$, $50-60\%$ Au+Au'}
+  values:
+  - value: 0.992
+    errors:
+    - {symerror: 0.026, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.931
+    errors:
+    - {symerror: 0.018, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.874
+    errors:
+    - {symerror: 0.016, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.832
+    errors:
+    - {symerror: 0.015, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.795
+    errors:
+    - {symerror: 0.014, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.722
+    errors:
+    - {symerror: 0.013, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.643
+    errors:
+    - {symerror: 0.013, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.597
+    errors:
+    - {symerror: 0.015, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.537
+    errors:
+    - {symerror: 0.014, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.483
+    errors:
+    - {symerror: 0.012, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.435
+    errors:
+    - {symerror: 0.011, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.392
+    errors:
+    - {symerror: 0.011, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.342
+    errors:
+    - {symerror: 0.010, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.315
+    errors:
+    - {symerror: 0.011, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.2695
+    errors:
+    - {symerror: 0.0098, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.2390
+    errors:
+    - {symerror: 0.0097, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.217
+    errors:
+    - {symerror: 0.011, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+- header: {name: '$1/N_{event} d^2 N / (2 K m_T dm_{T} dy) [c^4/GeV^2]$'}
+  qualifiers:
+  - {name: '$m_T - m_{p} [GeV/c^2]$', value: '$\bar{p}$, $60-70\%$ Au+Au'}
+  values:
+  - value: 0.668
+    errors:
+    - {symerror: 0.019, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.623
+    errors:
+    - {symerror: 0.014, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.572
+    errors:
+    - {symerror: 0.012, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.519
+    errors:
+    - {symerror: 0.011, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.480
+    errors:
+    - {symerror: 0.010, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.4272
+    errors:
+    - {symerror: 0.0093, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.3728
+    errors:
+    - {symerror: 0.0086, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.3476
+    errors:
+    - {symerror: 0.0098, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.3032
+    errors:
+    - {symerror: 0.0086, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.2643
+    errors:
+    - {symerror: 0.0078, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.2442
+    errors:
+    - {symerror: 0.0073, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.2161
+    errors:
+    - {symerror: 0.0068, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.1838
+    errors:
+    - {symerror: 0.0060, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.1637
+    errors:
+    - {symerror: 0.0063, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.1388
+    errors:
+    - {symerror: 0.0056, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.1238
+    errors:
+    - {symerror: 0.0056, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.1111
+    errors:
+    - {symerror: 0.0063, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+- header: {name: '$1/N_{event} d^2 N / (2 K m_T dm_{T} dy) [c^4/GeV^2]$'}
+  qualifiers:
+  - {name: '$m_T - m_{p} [GeV/c^2]$', value: '$\bar{p}$, $70-80\%$ Au+Au'}
+  values:
+  - value: 0.363
+    errors:
+    - {symerror: 0.012, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.3415
+    errors:
+    - {symerror: 0.0097, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.3271
+    errors:
+    - {symerror: 0.0090, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.2856
+    errors:
+    - {symerror: 0.0080, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.2609
+    errors:
+    - {symerror: 0.0073, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.2269
+    errors:
+    - {symerror: 0.0065, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.2092
+    errors:
+    - {symerror: 0.0061, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.1795
+    errors:
+    - {symerror: 0.0062, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.1523
+    errors:
+    - {symerror: 0.0053, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.1390
+    errors:
+    - {symerror: 0.0050, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.1122
+    errors:
+    - {symerror: 0.0044, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.1077
+    errors:
+    - {symerror: 0.0042, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.0916
+    errors:
+    - {symerror: 0.0037, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.0749
+    errors:
+    - {symerror: 0.0034, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.0692
+    errors:
+    - {symerror: 0.0034, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.0574
+    errors:
+    - {symerror: 0.0032, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.0510
+    errors:
+    - {symerror: 0.0039, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+- header: {name: '$1/N_{event} d^2 N / (2 K m_T dm_{T} dy) [c^4/GeV^2]$'}
+  qualifiers:
+  - {name: '$m_T - m_{p} [GeV/c^2]$', value: '$\bar{p}$, pp'}
+  values:
+  - value: 0.0554
+    errors:
+    - {symerror: 0.0013, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.0481
+    errors:
+    - {symerror: 0.0011, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.04250
+    errors:
+    - {symerror: 0.00098, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.03772
+    errors:
+    - {symerror: 0.00088, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.03383
+    errors:
+    - {symerror: 0.00079, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.02781
+    errors:
+    - {symerror: 0.00068, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.02486
+    errors:
+    - {symerror: 0.00063, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.02032
+    errors:
+    - {symerror: 0.00064, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.01753
+    errors:
+    - {symerror: 0.00057, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.01518
+    errors:
+    - {symerror: 0.00051, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.01267
+    errors:
+    - {symerror: 0.00044, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.01047
+    errors:
+    - {symerror: 0.00038, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.00895
+    errors:
+    - {symerror: 0.00034, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.00736
+    errors:
+    - {symerror: 0.00034, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.00659
+    errors:
+    - {symerror: 0.00032, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 0.00521
+    errors:
+    - {symerror: 0.00029, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat and point-to-point syst. There is an additional correlated $5\%$ uncertainty.'}
