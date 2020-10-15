@@ -1,0 +1,40 @@
+independent_variables:
+- header: {name: 'Centrality'}
+  values:
+  - {low: 58, high: 85}
+  - {low: 45, high: 58}
+  - {low: 34, high: 45}
+  - {low: 26, high: 34}
+  - {low: 18, high: 26}
+  - {low: 11, high: 18}
+  - {low: 6, high: 11}
+  - {low: 0, high: 6}
+dependent_variables:
+- header: {name: '$K^-/pi^-$'}
+  qualifiers:
+  - {name: 'Centrality', value: 'STAR Au+Au 130 GeV'}
+  values:
+  - value: 0.1395
+    errors:
+    - {symerror: 0.0176, label: 'error'}
+  - value: 0.1369
+    errors:
+    - {symerror: 0.0113, label: 'error'}
+  - value: 0.1421
+    errors:
+    - {symerror: 0.0130, label: 'error'}
+  - value: 0.1448
+    errors:
+    - {symerror: 0.0135, label: 'error'}
+  - value: 0.1463
+    errors:
+    - {symerror: 0.0136, label: 'error'}
+  - value: 0.1420
+    errors:
+    - {symerror: 0.0122, label: 'error'}
+  - value: 0.1447
+    errors:
+    - {symerror: 0.0105, label: 'error'}
+  - value: 0.1525
+    errors:
+    - {symerror: 0.0101, label: 'error'}

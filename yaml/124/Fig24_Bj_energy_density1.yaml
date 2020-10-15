@@ -1,0 +1,75 @@
+independent_variables:
+- header: {name: 'Centrality'}
+  values:
+  - {low: 70, high: 80}
+  - {low: 60, high: 70}
+  - {low: 50, high: 60}
+  - {low: 40, high: 50}
+  - {low: 30, high: 40}
+  - {low: 20, high: 30}
+  - {low: 10, high: 20}
+  - {low: 5, high: 10}
+  - {low: 0, high: 5}
+dependent_variables:
+- header: {name: '$\epsilon_{BJ}\cross \tau[GeV/fm^2]$'}
+  qualifiers:
+  - {name: 'Centrality', value: 'Au+Au 62.4 GeV'}
+  values:
+  - value: 0.86
+    errors:
+    - {symerror: 0.12, label: 'error'}
+  - value: 1.17
+    errors:
+    - {symerror: 0.14, label: 'error'}
+  - value: 1.51
+    errors:
+    - {symerror: 0.15, label: 'error'}
+  - value: 1.88
+    errors:
+    - {symerror: 0.16, label: 'error'}
+  - value: 2.29
+    errors:
+    - {symerror: 0.18, label: 'error'}
+  - value: 2.75
+    errors:
+    - {symerror: 0.19, label: 'error'}
+  - value: 3.09
+    errors:
+    - {symerror: 0.22, label: 'error'}
+  - value: 3.42
+    errors:
+    - {symerror: 0.23, label: 'error'}
+  - value: 3.59
+    errors:
+    - {symerror: 0.25, label: 'error'}
+- header: {name: '$N_{part}$'}
+  qualifiers:
+  - {name: 'Centrality', value: 'Au+Au 62.4 GeV'}
+  values:
+  - value: 15.3
+    errors:
+    - {symerror: 2.4, label: 'error'}
+  - value: 27.8
+    errors:
+    - {symerror: 3.7, label: 'error'}
+  - value: 47.9
+    errors:
+    - {symerror: 4.7, label: 'error'}
+  - value: 76.3
+    errors:
+    - {symerror: 5.2, label: 'error'}
+  - value: 114.3
+    errors:
+    - {symerror: 5.1, label: 'error'}
+  - value: 164.1
+    errors:
+    - {symerror: 5.4, label: 'error'}
+  - value: 229.8
+    errors:
+    - {symerror: 4.6, label: 'error'}
+  - value: 293.9
+    errors:
+    - {symerror: 4.2, label: 'error'}
+  - value: 346.5
+    errors:
+    - {symerror: 2.8, label: 'error'}

@@ -1,0 +1,3208 @@
+independent_variables:
+- header: {name: '$N_{ch}^{raw} (|\eta|<0.5)$'}
+  values:
+  - {value: 0.500000}
+  - {value: 1.500000}
+  - {value: 2.500000}
+  - {value: 3.500000}
+  - {value: 4.500000}
+  - {value: 5.500000}
+  - {value: 6.500000}
+  - {value: 7.500000}
+  - {value: 8.500000}
+  - {value: 9.500000}
+  - {value: 10.500000}
+  - {value: 11.500000}
+  - {value: 12.500000}
+  - {value: 13.500000}
+  - {value: 14.500000}
+  - {value: 15.500000}
+  - {value: 16.500000}
+  - {value: 17.500000}
+  - {value: 18.500000}
+  - {value: 19.500000}
+  - {value: 20.500000}
+  - {value: 21.500000}
+  - {value: 22.500000}
+  - {value: 23.500000}
+  - {value: 24.500000}
+  - {value: 25.500000}
+  - {value: 26.500000}
+  - {value: 27.500000}
+  - {value: 28.500000}
+  - {value: 29.500000}
+  - {value: 30.500000}
+  - {value: 31.500000}
+  - {value: 32.500000}
+  - {value: 33.500000}
+  - {value: 34.500000}
+  - {value: 35.500000}
+  - {value: 36.500000}
+  - {value: 37.500000}
+  - {value: 38.500000}
+  - {value: 39.500000}
+  - {value: 40.500000}
+  - {value: 41.500000}
+  - {value: 42.500000}
+  - {value: 43.500000}
+  - {value: 44.500000}
+  - {value: 45.500000}
+  - {value: 46.500000}
+  - {value: 47.500000}
+  - {value: 48.500000}
+  - {value: 49.500000}
+  - {value: 50.500000}
+  - {value: 51.500000}
+  - {value: 52.500000}
+  - {value: 53.500000}
+  - {value: 54.500000}
+  - {value: 55.500000}
+  - {value: 56.500000}
+  - {value: 57.500000}
+  - {value: 58.500000}
+  - {value: 59.500000}
+  - {value: 60.500000}
+  - {value: 61.500000}
+  - {value: 62.500000}
+  - {value: 63.500000}
+  - {value: 64.500000}
+  - {value: 65.500000}
+  - {value: 66.500000}
+  - {value: 67.500000}
+  - {value: 68.500000}
+  - {value: 69.500000}
+  - {value: 70.500000}
+  - {value: 71.500000}
+  - {value: 72.500000}
+  - {value: 73.500000}
+  - {value: 74.500000}
+  - {value: 75.500000}
+  - {value: 76.500000}
+  - {value: 77.500000}
+  - {value: 78.500000}
+  - {value: 79.500000}
+  - {value: 80.500000}
+  - {value: 81.500000}
+  - {value: 82.500000}
+  - {value: 83.500000}
+  - {value: 84.500000}
+  - {value: 85.500000}
+  - {value: 86.500000}
+  - {value: 87.500000}
+  - {value: 88.500000}
+  - {value: 89.500000}
+  - {value: 90.500000}
+  - {value: 91.500000}
+  - {value: 92.500000}
+  - {value: 93.500000}
+  - {value: 94.500000}
+  - {value: 95.500000}
+  - {value: 96.500000}
+  - {value: 97.500000}
+  - {value: 98.500000}
+  - {value: 99.500000}
+  - {value: 100.500000}
+  - {value: 101.500000}
+  - {value: 102.500000}
+  - {value: 103.500000}
+  - {value: 104.500000}
+  - {value: 105.500000}
+  - {value: 106.500000}
+  - {value: 107.500000}
+  - {value: 108.500000}
+  - {value: 109.500000}
+  - {value: 110.500000}
+  - {value: 111.500000}
+  - {value: 112.500000}
+  - {value: 113.500000}
+  - {value: 114.500000}
+  - {value: 115.500000}
+  - {value: 116.500000}
+  - {value: 117.500000}
+  - {value: 118.500000}
+  - {value: 119.500000}
+  - {value: 120.500000}
+  - {value: 121.500000}
+  - {value: 122.500000}
+  - {value: 123.500000}
+  - {value: 124.500000}
+  - {value: 125.500000}
+  - {value: 126.500000}
+  - {value: 127.500000}
+  - {value: 128.500000}
+  - {value: 129.500000}
+  - {value: 130.500000}
+  - {value: 131.500000}
+  - {value: 132.500000}
+  - {value: 133.500000}
+  - {value: 134.500000}
+  - {value: 135.500000}
+  - {value: 136.500000}
+  - {value: 137.500000}
+  - {value: 138.500000}
+  - {value: 139.500000}
+  - {value: 140.500000}
+  - {value: 141.500000}
+  - {value: 142.500000}
+  - {value: 143.500000}
+  - {value: 144.500000}
+  - {value: 145.500000}
+  - {value: 146.500000}
+  - {value: 147.500000}
+  - {value: 148.500000}
+  - {value: 149.500000}
+  - {value: 150.500000}
+  - {value: 151.500000}
+  - {value: 152.500000}
+  - {value: 153.500000}
+  - {value: 154.500000}
+  - {value: 155.500000}
+  - {value: 156.500000}
+  - {value: 157.500000}
+  - {value: 158.500000}
+  - {value: 159.500000}
+  - {value: 160.500000}
+  - {value: 161.500000}
+  - {value: 162.500000}
+  - {value: 163.500000}
+  - {value: 164.500000}
+  - {value: 165.500000}
+  - {value: 166.500000}
+  - {value: 167.500000}
+  - {value: 168.500000}
+  - {value: 169.500000}
+  - {value: 170.500000}
+  - {value: 171.500000}
+  - {value: 172.500000}
+  - {value: 173.500000}
+  - {value: 174.500000}
+  - {value: 175.500000}
+  - {value: 176.500000}
+  - {value: 177.500000}
+  - {value: 178.500000}
+  - {value: 179.500000}
+  - {value: 180.500000}
+  - {value: 181.500000}
+  - {value: 182.500000}
+  - {value: 183.500000}
+  - {value: 184.500000}
+  - {value: 185.500000}
+  - {value: 186.500000}
+  - {value: 187.500000}
+  - {value: 188.500000}
+  - {value: 189.500000}
+  - {value: 190.500000}
+  - {value: 191.500000}
+  - {value: 192.500000}
+  - {value: 193.500000}
+  - {value: 194.500000}
+  - {value: 195.500000}
+  - {value: 196.500000}
+  - {value: 197.500000}
+  - {value: 198.500000}
+  - {value: 199.500000}
+  - {value: 200.500000}
+  - {value: 201.500000}
+  - {value: 202.500000}
+  - {value: 203.500000}
+  - {value: 204.500000}
+  - {value: 205.500000}
+  - {value: 206.500000}
+  - {value: 207.500000}
+  - {value: 208.500000}
+  - {value: 209.500000}
+  - {value: 210.500000}
+  - {value: 211.500000}
+  - {value: 212.500000}
+  - {value: 213.500000}
+  - {value: 214.500000}
+  - {value: 215.500000}
+  - {value: 216.500000}
+  - {value: 217.500000}
+  - {value: 218.500000}
+  - {value: 219.500000}
+  - {value: 220.500000}
+  - {value: 221.500000}
+  - {value: 222.500000}
+  - {value: 223.500000}
+  - {value: 224.500000}
+  - {value: 225.500000}
+  - {value: 226.500000}
+  - {value: 227.500000}
+  - {value: 228.500000}
+  - {value: 229.500000}
+  - {value: 230.500000}
+  - {value: 231.500000}
+  - {value: 232.500000}
+  - {value: 233.500000}
+  - {value: 234.500000}
+  - {value: 235.500000}
+  - {value: 236.500000}
+  - {value: 237.500000}
+  - {value: 238.500000}
+  - {value: 239.500000}
+  - {value: 240.500000}
+  - {value: 241.500000}
+  - {value: 242.500000}
+  - {value: 243.500000}
+  - {value: 244.500000}
+  - {value: 245.500000}
+  - {value: 246.500000}
+  - {value: 247.500000}
+  - {value: 248.500000}
+  - {value: 249.500000}
+  - {value: 250.500000}
+  - {value: 251.500000}
+  - {value: 252.500000}
+  - {value: 253.500000}
+  - {value: 254.500000}
+  - {value: 255.500000}
+  - {value: 256.500000}
+  - {value: 257.500000}
+  - {value: 258.500000}
+  - {value: 259.500000}
+  - {value: 260.500000}
+  - {value: 261.500000}
+  - {value: 262.500000}
+  - {value: 263.500000}
+  - {value: 264.500000}
+  - {value: 265.500000}
+  - {value: 266.500000}
+  - {value: 267.500000}
+  - {value: 268.500000}
+  - {value: 269.500000}
+  - {value: 270.500000}
+  - {value: 271.500000}
+  - {value: 272.500000}
+  - {value: 273.500000}
+  - {value: 274.500000}
+  - {value: 275.500000}
+  - {value: 276.500000}
+  - {value: 277.500000}
+  - {value: 278.500000}
+  - {value: 279.500000}
+  - {value: 280.500000}
+  - {value: 281.500000}
+  - {value: 282.500000}
+  - {value: 283.500000}
+  - {value: 284.500000}
+  - {value: 285.500000}
+  - {value: 286.500000}
+  - {value: 287.500000}
+  - {value: 288.500000}
+  - {value: 289.500000}
+  - {value: 290.500000}
+  - {value: 291.500000}
+  - {value: 292.500000}
+  - {value: 293.500000}
+  - {value: 294.500000}
+  - {value: 295.500000}
+  - {value: 296.500000}
+  - {value: 297.500000}
+  - {value: 298.500000}
+  - {value: 299.500000}
+  - {value: 300.500000}
+  - {value: 301.500000}
+  - {value: 302.500000}
+  - {value: 303.500000}
+  - {value: 304.500000}
+  - {value: 305.500000}
+  - {value: 306.500000}
+  - {value: 307.500000}
+  - {value: 308.500000}
+  - {value: 309.500000}
+  - {value: 310.500000}
+  - {value: 311.500000}
+  - {value: 312.500000}
+  - {value: 313.500000}
+  - {value: 314.500000}
+  - {value: 315.500000}
+  - {value: 316.500000}
+  - {value: 317.500000}
+  - {value: 318.500000}
+  - {value: 319.500000}
+  - {value: 320.500000}
+  - {value: 321.500000}
+  - {value: 322.500000}
+  - {value: 323.500000}
+  - {value: 324.500000}
+  - {value: 325.500000}
+  - {value: 326.500000}
+  - {value: 327.500000}
+  - {value: 328.500000}
+  - {value: 329.500000}
+  - {value: 330.500000}
+  - {value: 331.500000}
+  - {value: 332.500000}
+  - {value: 333.500000}
+  - {value: 334.500000}
+  - {value: 335.500000}
+  - {value: 336.500000}
+  - {value: 337.500000}
+  - {value: 338.500000}
+  - {value: 339.500000}
+  - {value: 340.500000}
+  - {value: 341.500000}
+  - {value: 342.500000}
+  - {value: 343.500000}
+  - {value: 344.500000}
+  - {value: 345.500000}
+  - {value: 346.500000}
+  - {value: 347.500000}
+  - {value: 348.500000}
+  - {value: 349.500000}
+  - {value: 350.500000}
+  - {value: 351.500000}
+  - {value: 352.500000}
+  - {value: 353.500000}
+  - {value: 354.500000}
+  - {value: 355.500000}
+  - {value: 356.500000}
+  - {value: 357.500000}
+  - {value: 358.500000}
+  - {value: 359.500000}
+  - {value: 360.500000}
+  - {value: 361.500000}
+  - {value: 362.500000}
+  - {value: 363.500000}
+  - {value: 364.500000}
+  - {value: 365.500000}
+  - {value: 366.500000}
+  - {value: 367.500000}
+  - {value: 368.500000}
+  - {value: 369.500000}
+  - {value: 370.500000}
+  - {value: 371.500000}
+  - {value: 372.500000}
+  - {value: 373.500000}
+  - {value: 374.500000}
+  - {value: 375.500000}
+  - {value: 376.500000}
+  - {value: 377.500000}
+  - {value: 378.500000}
+  - {value: 379.500000}
+  - {value: 380.500000}
+  - {value: 381.500000}
+  - {value: 382.500000}
+  - {value: 383.500000}
+  - {value: 384.500000}
+  - {value: 385.500000}
+  - {value: 386.500000}
+  - {value: 387.500000}
+  - {value: 388.500000}
+  - {value: 389.500000}
+  - {value: 390.500000}
+  - {value: 391.500000}
+  - {value: 392.500000}
+  - {value: 393.500000}
+  - {value: 394.500000}
+  - {value: 395.500000}
+  - {value: 396.500000}
+  - {value: 397.500000}
+  - {value: 398.500000}
+  - {value: 399.500000}
+  - {value: 400.500000}
+  - {value: 401.500000}
+  - {value: 402.500000}
+  - {value: 403.500000}
+  - {value: 404.500000}
+  - {value: 405.500000}
+  - {value: 406.500000}
+  - {value: 407.500000}
+  - {value: 408.500000}
+  - {value: 409.500000}
+  - {value: 410.500000}
+  - {value: 411.500000}
+  - {value: 412.500000}
+  - {value: 413.500000}
+  - {value: 414.500000}
+  - {value: 415.500000}
+  - {value: 416.500000}
+  - {value: 417.500000}
+  - {value: 418.500000}
+  - {value: 419.500000}
+  - {value: 420.500000}
+  - {value: 421.500000}
+  - {value: 422.500000}
+  - {value: 423.500000}
+  - {value: 424.500000}
+  - {value: 425.500000}
+  - {value: 426.500000}
+  - {value: 427.500000}
+  - {value: 428.500000}
+  - {value: 429.500000}
+  - {value: 430.500000}
+  - {value: 431.500000}
+  - {value: 432.500000}
+  - {value: 433.500000}
+  - {value: 434.500000}
+  - {value: 435.500000}
+  - {value: 436.500000}
+  - {value: 437.500000}
+  - {value: 438.500000}
+  - {value: 439.500000}
+  - {value: 440.500000}
+  - {value: 441.500000}
+  - {value: 442.500000}
+  - {value: 443.500000}
+  - {value: 444.500000}
+  - {value: 445.500000}
+  - {value: 446.500000}
+  - {value: 447.500000}
+  - {value: 448.500000}
+  - {value: 449.500000}
+  - {value: 450.500000}
+  - {value: 451.500000}
+  - {value: 452.500000}
+  - {value: 453.500000}
+  - {value: 454.500000}
+  - {value: 455.500000}
+  - {value: 456.500000}
+  - {value: 457.500000}
+  - {value: 458.500000}
+  - {value: 459.500000}
+  - {value: 460.500000}
+  - {value: 461.500000}
+  - {value: 462.500000}
+  - {value: 463.500000}
+  - {value: 464.500000}
+  - {value: 465.500000}
+  - {value: 466.500000}
+  - {value: 467.500000}
+  - {value: 468.500000}
+  - {value: 469.500000}
+  - {value: 470.500000}
+  - {value: 471.500000}
+  - {value: 472.500000}
+  - {value: 473.500000}
+  - {value: 474.500000}
+  - {value: 475.500000}
+  - {value: 476.500000}
+  - {value: 477.500000}
+  - {value: 478.500000}
+  - {value: 479.500000}
+  - {value: 480.500000}
+  - {value: 481.500000}
+  - {value: 482.500000}
+  - {value: 483.500000}
+  - {value: 484.500000}
+  - {value: 485.500000}
+  - {value: 486.500000}
+  - {value: 487.500000}
+  - {value: 488.500000}
+  - {value: 489.500000}
+  - {value: 490.500000}
+  - {value: 491.500000}
+  - {value: 492.500000}
+  - {value: 493.500000}
+  - {value: 494.500000}
+  - {value: 495.500000}
+  - {value: 496.500000}
+  - {value: 497.500000}
+  - {value: 498.500000}
+  - {value: 499.500000}
+  - {value: 500.500000}
+  - {value: 501.500000}
+  - {value: 502.500000}
+  - {value: 503.500000}
+  - {value: 504.500000}
+  - {value: 505.500000}
+  - {value: 506.500000}
+  - {value: 507.500000}
+  - {value: 508.500000}
+  - {value: 509.500000}
+  - {value: 510.500000}
+  - {value: 511.500000}
+  - {value: 512.500000}
+  - {value: 513.500000}
+  - {value: 514.500000}
+  - {value: 515.500000}
+  - {value: 516.500000}
+  - {value: 517.500000}
+  - {value: 518.500000}
+  - {value: 519.500000}
+  - {value: 520.500000}
+  - {value: 521.500000}
+  - {value: 522.500000}
+  - {value: 523.500000}
+  - {value: 524.500000}
+  - {value: 525.500000}
+  - {value: 526.500000}
+  - {value: 527.500000}
+  - {value: 528.500000}
+  - {value: 529.500000}
+  - {value: 530.500000}
+  - {value: 531.500000}
+  - {value: 532.500000}
+  - {value: 533.500000}
+  - {value: 534.500000}
+  - {value: 535.500000}
+  - {value: 536.500000}
+  - {value: 537.500000}
+  - {value: 538.500000}
+  - {value: 539.500000}
+  - {value: 540.500000}
+  - {value: 541.500000}
+  - {value: 542.500000}
+  - {value: 543.500000}
+  - {value: 544.500000}
+  - {value: 545.500000}
+  - {value: 546.500000}
+  - {value: 547.500000}
+  - {value: 548.500000}
+  - {value: 549.500000}
+  - {value: 550.500000}
+  - {value: 551.500000}
+  - {value: 552.500000}
+  - {value: 553.500000}
+  - {value: 554.500000}
+  - {value: 555.500000}
+  - {value: 556.500000}
+  - {value: 557.500000}
+  - {value: 558.500000}
+  - {value: 559.500000}
+  - {value: 560.500000}
+  - {value: 561.500000}
+  - {value: 562.500000}
+  - {value: 563.500000}
+  - {value: 564.500000}
+  - {value: 565.500000}
+  - {value: 566.500000}
+  - {value: 567.500000}
+  - {value: 568.500000}
+  - {value: 569.500000}
+  - {value: 570.500000}
+  - {value: 571.500000}
+  - {value: 572.500000}
+  - {value: 573.500000}
+  - {value: 574.500000}
+  - {value: 575.500000}
+  - {value: 576.500000}
+  - {value: 577.500000}
+  - {value: 578.500000}
+  - {value: 579.500000}
+  - {value: 580.500000}
+  - {value: 581.500000}
+  - {value: 582.500000}
+  - {value: 583.500000}
+  - {value: 584.500000}
+  - {value: 585.500000}
+  - {value: 586.500000}
+  - {value: 587.500000}
+  - {value: 588.500000}
+  - {value: 589.500000}
+  - {value: 590.500000}
+  - {value: 591.500000}
+  - {value: 592.500000}
+  - {value: 593.500000}
+  - {value: 594.500000}
+  - {value: 595.500000}
+  - {value: 596.500000}
+  - {value: 597.500000}
+  - {value: 598.500000}
+  - {value: 599.500000}
+  - {value: 600.500000}
+  - {value: 601.500000}
+  - {value: 602.500000}
+  - {value: 603.500000}
+  - {value: 604.500000}
+  - {value: 605.500000}
+  - {value: 606.500000}
+  - {value: 607.500000}
+  - {value: 608.500000}
+  - {value: 609.500000}
+  - {value: 610.500000}
+  - {value: 611.500000}
+  - {value: 612.500000}
+  - {value: 613.500000}
+  - {value: 614.500000}
+  - {value: 615.500000}
+  - {value: 616.500000}
+  - {value: 617.500000}
+  - {value: 618.500000}
+  - {value: 619.500000}
+  - {value: 620.500000}
+  - {value: 621.500000}
+  - {value: 622.500000}
+  - {value: 623.500000}
+  - {value: 624.500000}
+  - {value: 625.500000}
+  - {value: 626.500000}
+  - {value: 627.500000}
+  - {value: 628.500000}
+  - {value: 629.500000}
+  - {value: 630.500000}
+  - {value: 631.500000}
+  - {value: 632.500000}
+  - {value: 633.500000}
+  - {value: 634.500000}
+  - {value: 635.500000}
+  - {value: 636.500000}
+  - {value: 637.500000}
+  - {value: 638.500000}
+  - {value: 639.500000}
+  - {value: 640.500000}
+  - {value: 641.500000}
+  - {value: 642.500000}
+  - {value: 643.500000}
+  - {value: 644.500000}
+  - {value: 645.500000}
+  - {value: 646.500000}
+  - {value: 647.500000}
+  - {value: 648.500000}
+  - {value: 649.500000}
+  - {value: 650.500000}
+  - {value: 651.500000}
+  - {value: 652.500000}
+  - {value: 653.500000}
+  - {value: 654.500000}
+  - {value: 655.500000}
+  - {value: 656.500000}
+  - {value: 657.500000}
+  - {value: 658.500000}
+  - {value: 659.500000}
+  - {value: 660.500000}
+  - {value: 661.500000}
+  - {value: 662.500000}
+  - {value: 663.500000}
+  - {value: 664.500000}
+  - {value: 665.500000}
+  - {value: 666.500000}
+  - {value: 667.500000}
+  - {value: 668.500000}
+  - {value: 669.500000}
+  - {value: 670.500000}
+  - {value: 671.500000}
+  - {value: 672.500000}
+  - {value: 673.500000}
+  - {value: 674.500000}
+  - {value: 675.500000}
+  - {value: 676.500000}
+  - {value: 677.500000}
+  - {value: 678.500000}
+  - {value: 679.500000}
+  - {value: 680.500000}
+  - {value: 681.500000}
+  - {value: 682.500000}
+  - {value: 683.500000}
+  - {value: 684.500000}
+  - {value: 685.500000}
+  - {value: 686.500000}
+  - {value: 687.500000}
+  - {value: 688.500000}
+  - {value: 689.500000}
+  - {value: 690.500000}
+  - {value: 691.500000}
+  - {value: 692.500000}
+  - {value: 693.500000}
+  - {value: 694.500000}
+  - {value: 695.500000}
+  - {value: 696.500000}
+  - {value: 697.500000}
+  - {value: 698.500000}
+  - {value: 699.500000}
+  - {value: 700.500000}
+  - {value: 701.500000}
+  - {value: 702.500000}
+  - {value: 703.500000}
+  - {value: 704.500000}
+  - {value: 705.500000}
+  - {value: 706.500000}
+  - {value: 707.500000}
+  - {value: 708.500000}
+  - {value: 709.500000}
+  - {value: 710.500000}
+  - {value: 711.500000}
+  - {value: 712.500000}
+  - {value: 713.500000}
+  - {value: 714.500000}
+  - {value: 715.500000}
+  - {value: 716.500000}
+  - {value: 717.500000}
+  - {value: 718.500000}
+  - {value: 719.500000}
+  - {value: 720.500000}
+  - {value: 721.500000}
+  - {value: 722.500000}
+  - {value: 723.500000}
+  - {value: 724.500000}
+  - {value: 725.500000}
+  - {value: 726.500000}
+  - {value: 727.500000}
+  - {value: 728.500000}
+  - {value: 729.500000}
+  - {value: 730.500000}
+  - {value: 731.500000}
+  - {value: 732.500000}
+  - {value: 733.500000}
+  - {value: 734.500000}
+  - {value: 735.500000}
+  - {value: 736.500000}
+  - {value: 737.500000}
+  - {value: 738.500000}
+  - {value: 739.500000}
+  - {value: 740.500000}
+  - {value: 741.500000}
+  - {value: 742.500000}
+  - {value: 743.500000}
+  - {value: 744.500000}
+  - {value: 745.500000}
+  - {value: 746.500000}
+  - {value: 747.500000}
+  - {value: 748.500000}
+  - {value: 749.500000}
+  - {value: 750.500000}
+  - {value: 751.500000}
+  - {value: 752.500000}
+  - {value: 753.500000}
+  - {value: 754.500000}
+  - {value: 755.500000}
+  - {value: 756.500000}
+  - {value: 757.500000}
+  - {value: 758.500000}
+  - {value: 759.500000}
+  - {value: 760.500000}
+  - {value: 761.500000}
+  - {value: 762.500000}
+  - {value: 763.500000}
+  - {value: 764.500000}
+  - {value: 765.500000}
+  - {value: 766.500000}
+  - {value: 767.500000}
+  - {value: 768.500000}
+  - {value: 769.500000}
+  - {value: 770.500000}
+  - {value: 771.500000}
+  - {value: 772.500000}
+  - {value: 773.500000}
+  - {value: 774.500000}
+  - {value: 775.500000}
+  - {value: 776.500000}
+  - {value: 777.500000}
+  - {value: 778.500000}
+  - {value: 779.500000}
+  - {value: 780.500000}
+  - {value: 781.500000}
+  - {value: 782.500000}
+  - {value: 783.500000}
+  - {value: 784.500000}
+  - {value: 785.500000}
+  - {value: 786.500000}
+  - {value: 787.500000}
+  - {value: 788.500000}
+  - {value: 789.500000}
+  - {value: 790.500000}
+  - {value: 791.500000}
+  - {value: 792.500000}
+  - {value: 793.500000}
+  - {value: 794.500000}
+  - {value: 795.500000}
+  - {value: 796.500000}
+  - {value: 797.500000}
+  - {value: 798.500000}
+  - {value: 799.500000}
+dependent_variables:
+- header: {name: '$(1/N_{evt})dN_{evt}/dN^{raw}$'}
+  qualifiers:
+  - {name: '$N_{ch}^{raw} (|\eta|<0.5)$', value: 'AuAu 62.4 GeV'}
+  values:
+  - value: 0.008300
+    errors:
+    - {symerror: 0.000036, label: 'stat error'}
+  - value: 0.017641
+    errors:
+    - {symerror: 0.000053, label: 'stat error'}
+  - value: 0.020923
+    errors:
+    - {symerror: 0.000057, label: 'stat error'}
+  - value: 0.020272
+    errors:
+    - {symerror: 0.000056, label: 'stat error'}
+  - value: 0.019037
+    errors:
+    - {symerror: 0.000055, label: 'stat error'}
+  - value: 0.017485
+    errors:
+    - {symerror: 0.000052, label: 'stat error'}
+  - value: 0.016226
+    errors:
+    - {symerror: 0.000051, label: 'stat error'}
+  - value: 0.015047
+    errors:
+    - {symerror: 0.000049, label: 'stat error'}
+  - value: 0.013943
+    errors:
+    - {symerror: 0.000047, label: 'stat error'}
+  - value: 0.013031
+    errors:
+    - {symerror: 0.000045, label: 'stat error'}
+  - value: 0.012194
+    errors:
+    - {symerror: 0.000044, label: 'stat error'}
+  - value: 0.011419
+    errors:
+    - {symerror: 0.000042, label: 'stat error'}
+  - value: 0.010798
+    errors:
+    - {symerror: 0.000041, label: 'stat error'}
+  - value: 0.010164
+    errors:
+    - {symerror: 0.000040, label: 'stat error'}
+  - value: 0.009675
+    errors:
+    - {symerror: 0.000039, label: 'stat error'}
+  - value: 0.009208
+    errors:
+    - {symerror: 0.000038, label: 'stat error'}
+  - value: 0.008810
+    errors:
+    - {symerror: 0.000037, label: 'stat error'}
+  - value: 0.008416
+    errors:
+    - {symerror: 0.000036, label: 'stat error'}
+  - value: 0.008105
+    errors:
+    - {symerror: 0.000036, label: 'stat error'}
+  - value: 0.007721
+    errors:
+    - {symerror: 0.000035, label: 'stat error'}
+  - value: 0.007513
+    errors:
+    - {symerror: 0.000034, label: 'stat error'}
+  - value: 0.007193
+    errors:
+    - {symerror: 0.000034, label: 'stat error'}
+  - value: 0.006931
+    errors:
+    - {symerror: 0.000033, label: 'stat error'}
+  - value: 0.006751
+    errors:
+    - {symerror: 0.000033, label: 'stat error'}
+  - value: 0.006567
+    errors:
+    - {symerror: 0.000032, label: 'stat error'}
+  - value: 0.006371
+    errors:
+    - {symerror: 0.000032, label: 'stat error'}
+  - value: 0.006190
+    errors:
+    - {symerror: 0.000031, label: 'stat error'}
+  - value: 0.006026
+    errors:
+    - {symerror: 0.000031, label: 'stat error'}
+  - value: 0.005899
+    errors:
+    - {symerror: 0.000030, label: 'stat error'}
+  - value: 0.005715
+    errors:
+    - {symerror: 0.000030, label: 'stat error'}
+  - value: 0.005611
+    errors:
+    - {symerror: 0.000030, label: 'stat error'}
+  - value: 0.005496
+    errors:
+    - {symerror: 0.000029, label: 'stat error'}
+  - value: 0.005374
+    errors:
+    - {symerror: 0.000029, label: 'stat error'}
+  - value: 0.005239
+    errors:
+    - {symerror: 0.000029, label: 'stat error'}
+  - value: 0.005168
+    errors:
+    - {symerror: 0.000029, label: 'stat error'}
+  - value: 0.005074
+    errors:
+    - {symerror: 0.000028, label: 'stat error'}
+  - value: 0.004924
+    errors:
+    - {symerror: 0.000028, label: 'stat error'}
+  - value: 0.004837
+    errors:
+    - {symerror: 0.000028, label: 'stat error'}
+  - value: 0.004753
+    errors:
+    - {symerror: 0.000027, label: 'stat error'}
+  - value: 0.004710
+    errors:
+    - {symerror: 0.000027, label: 'stat error'}
+  - value: 0.004633
+    errors:
+    - {symerror: 0.000027, label: 'stat error'}
+  - value: 0.004527
+    errors:
+    - {symerror: 0.000027, label: 'stat error'}
+  - value: 0.004463
+    errors:
+    - {symerror: 0.000026, label: 'stat error'}
+  - value: 0.004379
+    errors:
+    - {symerror: 0.000026, label: 'stat error'}
+  - value: 0.004301
+    errors:
+    - {symerror: 0.000026, label: 'stat error'}
+  - value: 0.004228
+    errors:
+    - {symerror: 0.000026, label: 'stat error'}
+  - value: 0.004170
+    errors:
+    - {symerror: 0.000026, label: 'stat error'}
+  - value: 0.004118
+    errors:
+    - {symerror: 0.000025, label: 'stat error'}
+  - value: 0.004038
+    errors:
+    - {symerror: 0.000025, label: 'stat error'}
+  - value: 0.004039
+    errors:
+    - {symerror: 0.000025, label: 'stat error'}
+  - value: 0.003942
+    errors:
+    - {symerror: 0.000025, label: 'stat error'}
+  - value: 0.003856
+    errors:
+    - {symerror: 0.000025, label: 'stat error'}
+  - value: 0.003826
+    errors:
+    - {symerror: 0.000025, label: 'stat error'}
+  - value: 0.003805
+    errors:
+    - {symerror: 0.000024, label: 'stat error'}
+  - value: 0.003728
+    errors:
+    - {symerror: 0.000024, label: 'stat error'}
+  - value: 0.003677
+    errors:
+    - {symerror: 0.000024, label: 'stat error'}
+  - value: 0.003661
+    errors:
+    - {symerror: 0.000024, label: 'stat error'}
+  - value: 0.003624
+    errors:
+    - {symerror: 0.000024, label: 'stat error'}
+  - value: 0.003572
+    errors:
+    - {symerror: 0.000024, label: 'stat error'}
+  - value: 0.003473
+    errors:
+    - {symerror: 0.000023, label: 'stat error'}
+  - value: 0.003480
+    errors:
+    - {symerror: 0.000023, label: 'stat error'}
+  - value: 0.003422
+    errors:
+    - {symerror: 0.000023, label: 'stat error'}
+  - value: 0.003447
+    errors:
+    - {symerror: 0.000023, label: 'stat error'}
+  - value: 0.003403
+    errors:
+    - {symerror: 0.000023, label: 'stat error'}
+  - value: 0.003314
+    errors:
+    - {symerror: 0.000023, label: 'stat error'}
+  - value: 0.003313
+    errors:
+    - {symerror: 0.000023, label: 'stat error'}
+  - value: 0.003238
+    errors:
+    - {symerror: 0.000023, label: 'stat error'}
+  - value: 0.003253
+    errors:
+    - {symerror: 0.000023, label: 'stat error'}
+  - value: 0.003201
+    errors:
+    - {symerror: 0.000022, label: 'stat error'}
+  - value: 0.003159
+    errors:
+    - {symerror: 0.000022, label: 'stat error'}
+  - value: 0.003152
+    errors:
+    - {symerror: 0.000022, label: 'stat error'}
+  - value: 0.003089
+    errors:
+    - {symerror: 0.000022, label: 'stat error'}
+  - value: 0.003050
+    errors:
+    - {symerror: 0.000022, label: 'stat error'}
+  - value: 0.003052
+    errors:
+    - {symerror: 0.000022, label: 'stat error'}
+  - value: 0.003032
+    errors:
+    - {symerror: 0.000022, label: 'stat error'}
+  - value: 0.002983
+    errors:
+    - {symerror: 0.000022, label: 'stat error'}
+  - value: 0.002983
+    errors:
+    - {symerror: 0.000022, label: 'stat error'}
+  - value: 0.002943
+    errors:
+    - {symerror: 0.000022, label: 'stat error'}
+  - value: 0.002959
+    errors:
+    - {symerror: 0.000022, label: 'stat error'}
+  - value: 0.002856
+    errors:
+    - {symerror: 0.000021, label: 'stat error'}
+  - value: 0.002879
+    errors:
+    - {symerror: 0.000021, label: 'stat error'}
+  - value: 0.002833
+    errors:
+    - {symerror: 0.000021, label: 'stat error'}
+  - value: 0.002797
+    errors:
+    - {symerror: 0.000021, label: 'stat error'}
+  - value: 0.002760
+    errors:
+    - {symerror: 0.000021, label: 'stat error'}
+  - value: 0.002747
+    errors:
+    - {symerror: 0.000021, label: 'stat error'}
+  - value: 0.002756
+    errors:
+    - {symerror: 0.000021, label: 'stat error'}
+  - value: 0.002692
+    errors:
+    - {symerror: 0.000021, label: 'stat error'}
+  - value: 0.002700
+    errors:
+    - {symerror: 0.000021, label: 'stat error'}
+  - value: 0.002674
+    errors:
+    - {symerror: 0.000021, label: 'stat error'}
+  - value: 0.002659
+    errors:
+    - {symerror: 0.000020, label: 'stat error'}
+  - value: 0.002656
+    errors:
+    - {symerror: 0.000020, label: 'stat error'}
+  - value: 0.002601
+    errors:
+    - {symerror: 0.000020, label: 'stat error'}
+  - value: 0.002551
+    errors:
+    - {symerror: 0.000020, label: 'stat error'}
+  - value: 0.002572
+    errors:
+    - {symerror: 0.000020, label: 'stat error'}
+  - value: 0.002515
+    errors:
+    - {symerror: 0.000020, label: 'stat error'}
+  - value: 0.002549
+    errors:
+    - {symerror: 0.000020, label: 'stat error'}
+  - value: 0.002510
+    errors:
+    - {symerror: 0.000020, label: 'stat error'}
+  - value: 0.002526
+    errors:
+    - {symerror: 0.000020, label: 'stat error'}
+  - value: 0.002481
+    errors:
+    - {symerror: 0.000020, label: 'stat error'}
+  - value: 0.002444
+    errors:
+    - {symerror: 0.000020, label: 'stat error'}
+  - value: 0.002400
+    errors:
+    - {symerror: 0.000019, label: 'stat error'}
+  - value: 0.002378
+    errors:
+    - {symerror: 0.000019, label: 'stat error'}
+  - value: 0.002388
+    errors:
+    - {symerror: 0.000019, label: 'stat error'}
+  - value: 0.002403
+    errors:
+    - {symerror: 0.000019, label: 'stat error'}
+  - value: 0.002392
+    errors:
+    - {symerror: 0.000019, label: 'stat error'}
+  - value: 0.002376
+    errors:
+    - {symerror: 0.000019, label: 'stat error'}
+  - value: 0.002330
+    errors:
+    - {symerror: 0.000019, label: 'stat error'}
+  - value: 0.002335
+    errors:
+    - {symerror: 0.000019, label: 'stat error'}
+  - value: 0.002302
+    errors:
+    - {symerror: 0.000019, label: 'stat error'}
+  - value: 0.002297
+    errors:
+    - {symerror: 0.000019, label: 'stat error'}
+  - value: 0.002269
+    errors:
+    - {symerror: 0.000019, label: 'stat error'}
+  - value: 0.002281
+    errors:
+    - {symerror: 0.000019, label: 'stat error'}
+  - value: 0.002237
+    errors:
+    - {symerror: 0.000019, label: 'stat error'}
+  - value: 0.002241
+    errors:
+    - {symerror: 0.000019, label: 'stat error'}
+  - value: 0.002241
+    errors:
+    - {symerror: 0.000019, label: 'stat error'}
+  - value: 0.002225
+    errors:
+    - {symerror: 0.000019, label: 'stat error'}
+  - value: 0.002215
+    errors:
+    - {symerror: 0.000019, label: 'stat error'}
+  - value: 0.002186
+    errors:
+    - {symerror: 0.000019, label: 'stat error'}
+  - value: 0.002174
+    errors:
+    - {symerror: 0.000018, label: 'stat error'}
+  - value: 0.002138
+    errors:
+    - {symerror: 0.000018, label: 'stat error'}
+  - value: 0.002132
+    errors:
+    - {symerror: 0.000018, label: 'stat error'}
+  - value: 0.002128
+    errors:
+    - {symerror: 0.000018, label: 'stat error'}
+  - value: 0.002137
+    errors:
+    - {symerror: 0.000018, label: 'stat error'}
+  - value: 0.002085
+    errors:
+    - {symerror: 0.000018, label: 'stat error'}
+  - value: 0.002088
+    errors:
+    - {symerror: 0.000018, label: 'stat error'}
+  - value: 0.002041
+    errors:
+    - {symerror: 0.000018, label: 'stat error'}
+  - value: 0.002073
+    errors:
+    - {symerror: 0.000018, label: 'stat error'}
+  - value: 0.002048
+    errors:
+    - {symerror: 0.000018, label: 'stat error'}
+  - value: 0.002035
+    errors:
+    - {symerror: 0.000018, label: 'stat error'}
+  - value: 0.002022
+    errors:
+    - {symerror: 0.000018, label: 'stat error'}
+  - value: 0.002006
+    errors:
+    - {symerror: 0.000018, label: 'stat error'}
+  - value: 0.002021
+    errors:
+    - {symerror: 0.000018, label: 'stat error'}
+  - value: 0.002022
+    errors:
+    - {symerror: 0.000018, label: 'stat error'}
+  - value: 0.001988
+    errors:
+    - {symerror: 0.000018, label: 'stat error'}
+  - value: 0.001984
+    errors:
+    - {symerror: 0.000018, label: 'stat error'}
+  - value: 0.001983
+    errors:
+    - {symerror: 0.000018, label: 'stat error'}
+  - value: 0.001969
+    errors:
+    - {symerror: 0.000018, label: 'stat error'}
+  - value: 0.001927
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001958
+    errors:
+    - {symerror: 0.000018, label: 'stat error'}
+  - value: 0.001902
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001895
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001887
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001903
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001864
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001881
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001854
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001857
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001856
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001839
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001835
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001842
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001814
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001786
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001795
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001801
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001743
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001779
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001761
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001769
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001747
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001740
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001723
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001741
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001707
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001743
+    errors:
+    - {symerror: 0.000017, label: 'stat error'}
+  - value: 0.001697
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001687
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001709
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001661
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001672
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001641
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001644
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001628
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001628
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001661
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001642
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001641
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001606
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001594
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001584
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001586
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001575
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001593
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001571
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001547
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001562
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001531
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001538
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001558
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001540
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001563
+    errors:
+    - {symerror: 0.000016, label: 'stat error'}
+  - value: 0.001528
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001495
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001485
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001510
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001476
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001480
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001500
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001450
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001481
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001480
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001456
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001455
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001414
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001466
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001449
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001419
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001405
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001422
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001391
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001428
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001396
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001405
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001406
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001396
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001383
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001388
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001370
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001360
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001362
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001364
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001346
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001329
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001334
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001337
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001315
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001311
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001320
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001338
+    errors:
+    - {symerror: 0.000015, label: 'stat error'}
+  - value: 0.001311
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001308
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001290
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001301
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001299
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001277
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001318
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001283
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001256
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001268
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001269
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001259
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001249
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001265
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001241
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001240
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001240
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001261
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001221
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001214
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001247
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001199
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001216
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001226
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001203
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001201
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001184
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001206
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001192
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001189
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001170
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001168
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001171
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001170
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001174
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001170
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001168
+    errors:
+    - {symerror: 0.000014, label: 'stat error'}
+  - value: 0.001150
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001145
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001142
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001158
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001135
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001117
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001137
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001126
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001113
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001094
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001132
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001104
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001087
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001087
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001105
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001097
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001074
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001097
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001079
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001063
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001053
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001081
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001061
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001058
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001060
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001052
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001052
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001043
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001036
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001036
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001017
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001027
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001025
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001038
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001031
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001015
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.000995
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001001
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001024
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001021
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.001002
+    errors:
+    - {symerror: 0.000013, label: 'stat error'}
+  - value: 0.000987
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000992
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000989
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000979
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000984
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000971
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000955
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000980
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000986
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000973
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000969
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000964
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000967
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000952
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000954
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000954
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000926
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000929
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000942
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000931
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000922
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000924
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000917
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000905
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000916
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000911
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000922
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000919
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000899
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000907
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000907
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000903
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000889
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000868
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000890
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000893
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000883
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000874
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000851
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000861
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000868
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000853
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000860
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000866
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000851
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000852
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000834
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000861
+    errors:
+    - {symerror: 0.000012, label: 'stat error'}
+  - value: 0.000838
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000830
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000808
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000836
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000813
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000821
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000834
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000821
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000836
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000836
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000824
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000811
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000787
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000794
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000818
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000768
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000798
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000783
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000777
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000773
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000779
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000790
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000752
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000782
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000760
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000757
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000743
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000759
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000762
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000743
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000752
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000735
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000715
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000736
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000721
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000712
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000735
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000703
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000729
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000718
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000710
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000692
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000722
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000703
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000695
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000684
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000693
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000685
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000706
+    errors:
+    - {symerror: 0.000011, label: 'stat error'}
+  - value: 0.000657
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000666
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000668
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000654
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000676
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000660
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000629
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000643
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000629
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000652
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000626
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000607
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000605
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000605
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000599
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000577
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000583
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000574
+    errors:
+    - {symerror: 0.000009, label: 'stat error'}
+  - value: 0.000589
+    errors:
+    - {symerror: 0.000010, label: 'stat error'}
+  - value: 0.000555
+    errors:
+    - {symerror: 0.000009, label: 'stat error'}
+  - value: 0.000557
+    errors:
+    - {symerror: 0.000009, label: 'stat error'}
+  - value: 0.000535
+    errors:
+    - {symerror: 0.000009, label: 'stat error'}
+  - value: 0.000531
+    errors:
+    - {symerror: 0.000009, label: 'stat error'}
+  - value: 0.000519
+    errors:
+    - {symerror: 0.000009, label: 'stat error'}
+  - value: 0.000505
+    errors:
+    - {symerror: 0.000009, label: 'stat error'}
+  - value: 0.000516
+    errors:
+    - {symerror: 0.000009, label: 'stat error'}
+  - value: 0.000521
+    errors:
+    - {symerror: 0.000009, label: 'stat error'}
+  - value: 0.000494
+    errors:
+    - {symerror: 0.000009, label: 'stat error'}
+  - value: 0.000487
+    errors:
+    - {symerror: 0.000009, label: 'stat error'}
+  - value: 0.000492
+    errors:
+    - {symerror: 0.000009, label: 'stat error'}
+  - value: 0.000480
+    errors:
+    - {symerror: 0.000009, label: 'stat error'}
+  - value: 0.000460
+    errors:
+    - {symerror: 0.000008, label: 'stat error'}
+  - value: 0.000455
+    errors:
+    - {symerror: 0.000008, label: 'stat error'}
+  - value: 0.000467
+    errors:
+    - {symerror: 0.000009, label: 'stat error'}
+  - value: 0.000430
+    errors:
+    - {symerror: 0.000008, label: 'stat error'}
+  - value: 0.000419
+    errors:
+    - {symerror: 0.000008, label: 'stat error'}
+  - value: 0.000417
+    errors:
+    - {symerror: 0.000008, label: 'stat error'}
+  - value: 0.000411
+    errors:
+    - {symerror: 0.000008, label: 'stat error'}
+  - value: 0.000397
+    errors:
+    - {symerror: 0.000008, label: 'stat error'}
+  - value: 0.000380
+    errors:
+    - {symerror: 0.000008, label: 'stat error'}
+  - value: 0.000383
+    errors:
+    - {symerror: 0.000008, label: 'stat error'}
+  - value: 0.000376
+    errors:
+    - {symerror: 0.000008, label: 'stat error'}
+  - value: 0.000347
+    errors:
+    - {symerror: 0.000007, label: 'stat error'}
+  - value: 0.000352
+    errors:
+    - {symerror: 0.000007, label: 'stat error'}
+  - value: 0.000341
+    errors:
+    - {symerror: 0.000007, label: 'stat error'}
+  - value: 0.000321
+    errors:
+    - {symerror: 0.000007, label: 'stat error'}
+  - value: 0.000318
+    errors:
+    - {symerror: 0.000007, label: 'stat error'}
+  - value: 0.000298
+    errors:
+    - {symerror: 0.000007, label: 'stat error'}
+  - value: 0.000286
+    errors:
+    - {symerror: 0.000007, label: 'stat error'}
+  - value: 0.000291
+    errors:
+    - {symerror: 0.000007, label: 'stat error'}
+  - value: 0.000280
+    errors:
+    - {symerror: 0.000007, label: 'stat error'}
+  - value: 0.000261
+    errors:
+    - {symerror: 0.000006, label: 'stat error'}
+  - value: 0.000244
+    errors:
+    - {symerror: 0.000006, label: 'stat error'}
+  - value: 0.000251
+    errors:
+    - {symerror: 0.000006, label: 'stat error'}
+  - value: 0.000234
+    errors:
+    - {symerror: 0.000006, label: 'stat error'}
+  - value: 0.000236
+    errors:
+    - {symerror: 0.000006, label: 'stat error'}
+  - value: 0.000219
+    errors:
+    - {symerror: 0.000006, label: 'stat error'}
+  - value: 0.000216
+    errors:
+    - {symerror: 0.000006, label: 'stat error'}
+  - value: 0.000193
+    errors:
+    - {symerror: 0.000006, label: 'stat error'}
+  - value: 0.000202
+    errors:
+    - {symerror: 0.000006, label: 'stat error'}
+  - value: 0.000179
+    errors:
+    - {symerror: 0.000005, label: 'stat error'}
+  - value: 0.000184
+    errors:
+    - {symerror: 0.000005, label: 'stat error'}
+  - value: 0.000169
+    errors:
+    - {symerror: 0.000005, label: 'stat error'}
+  - value: 0.000168
+    errors:
+    - {symerror: 0.000005, label: 'stat error'}
+  - value: 0.000158
+    errors:
+    - {symerror: 0.000005, label: 'stat error'}
+  - value: 0.000146
+    errors:
+    - {symerror: 0.000005, label: 'stat error'}
+  - value: 0.000149
+    errors:
+    - {symerror: 0.000005, label: 'stat error'}
+  - value: 0.000135
+    errors:
+    - {symerror: 0.000005, label: 'stat error'}
+  - value: 0.000127
+    errors:
+    - {symerror: 0.000004, label: 'stat error'}
+  - value: 0.000116
+    errors:
+    - {symerror: 0.000004, label: 'stat error'}
+  - value: 0.000108
+    errors:
+    - {symerror: 0.000004, label: 'stat error'}
+  - value: 0.000115
+    errors:
+    - {symerror: 0.000004, label: 'stat error'}
+  - value: 0.000106
+    errors:
+    - {symerror: 0.000004, label: 'stat error'}
+  - value: 0.000098
+    errors:
+    - {symerror: 0.000004, label: 'stat error'}
+  - value: 0.000095
+    errors:
+    - {symerror: 0.000004, label: 'stat error'}
+  - value: 0.000088
+    errors:
+    - {symerror: 0.000004, label: 'stat error'}
+  - value: 0.000076
+    errors:
+    - {symerror: 0.000003, label: 'stat error'}
+  - value: 0.000080
+    errors:
+    - {symerror: 0.000004, label: 'stat error'}
+  - value: 0.000073
+    errors:
+    - {symerror: 0.000003, label: 'stat error'}
+  - value: 0.000068
+    errors:
+    - {symerror: 0.000003, label: 'stat error'}
+  - value: 0.000060
+    errors:
+    - {symerror: 0.000003, label: 'stat error'}
+  - value: 0.000062
+    errors:
+    - {symerror: 0.000003, label: 'stat error'}
+  - value: 0.000058
+    errors:
+    - {symerror: 0.000003, label: 'stat error'}
+  - value: 0.000047
+    errors:
+    - {symerror: 0.000003, label: 'stat error'}
+  - value: 0.000054
+    errors:
+    - {symerror: 0.000003, label: 'stat error'}
+  - value: 0.000045
+    errors:
+    - {symerror: 0.000003, label: 'stat error'}
+  - value: 0.000042
+    errors:
+    - {symerror: 0.000003, label: 'stat error'}
+  - value: 0.000039
+    errors:
+    - {symerror: 0.000002, label: 'stat error'}
+  - value: 0.000036
+    errors:
+    - {symerror: 0.000002, label: 'stat error'}
+  - value: 0.000033
+    errors:
+    - {symerror: 0.000002, label: 'stat error'}
+  - value: 0.000028
+    errors:
+    - {symerror: 0.000002, label: 'stat error'}
+  - value: 0.000033
+    errors:
+    - {symerror: 0.000002, label: 'stat error'}
+  - value: 0.000031
+    errors:
+    - {symerror: 0.000002, label: 'stat error'}
+  - value: 0.000026
+    errors:
+    - {symerror: 0.000002, label: 'stat error'}
+  - value: 0.000023
+    errors:
+    - {symerror: 0.000002, label: 'stat error'}
+  - value: 0.000019
+    errors:
+    - {symerror: 0.000002, label: 'stat error'}
+  - value: 0.000017
+    errors:
+    - {symerror: 0.000002, label: 'stat error'}
+  - value: 0.000016
+    errors:
+    - {symerror: 0.000002, label: 'stat error'}
+  - value: 0.000017
+    errors:
+    - {symerror: 0.000002, label: 'stat error'}
+  - value: 0.000013
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 0.000014
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 0.000015
+    errors:
+    - {symerror: 0.000002, label: 'stat error'}
+  - value: 0.000012
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 0.000010
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 0.000009
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 0.000009
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 0.000010
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 0.000007
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 0.000006
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 0.000005
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 0.000006
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 0.000005
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 0.000004
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 0.000005
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 0.000005
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 0.000004
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 0.000004
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 0.000003
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 0.000003
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 0.000002
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 0.000002
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 0.000002
+    errors:
+    - {symerror: 0.000001, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 0.000001
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 0.000001
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 0.000001
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 0.000001
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 0.000001
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 0.000001
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 0.000001
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 0.000001
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 0.000001
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}

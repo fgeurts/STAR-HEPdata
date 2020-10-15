@@ -1,0 +1,75 @@
+independent_variables:
+- header: {name: 'Centrality'}
+  values:
+  - {low: 70, high: 80}
+  - {low: 60, high: 70}
+  - {low: 50, high: 60}
+  - {low: 40, high: 50}
+  - {low: 30, high: 40}
+  - {low: 20, high: 30}
+  - {low: 10, high: 20}
+  - {low: 5, high: 10}
+  - {low: 0, high: 5}
+dependent_variables:
+- header: {name: '$S/(N{part}/2)^{2/3}[fm^2]$'}
+  qualifiers:
+  - {name: 'Centrality', value: 'Au+Au 62.4 GeV'}
+  values:
+  - value: 4.13
+    errors:
+    - {symerror: 0.09, label: 'error'}
+  - value: 4.29
+    errors:
+    - {symerror: 0.04, label: 'error'}
+  - value: 4.31
+    errors:
+    - {symerror: 0.03, label: 'error'}
+  - value: 4.29
+    errors:
+    - {symerror: 0.04, label: 'error'}
+  - value: 4.29
+    errors:
+    - {symerror: 0.07, label: 'error'}
+  - value: 4.32
+    errors:
+    - {symerror: 0.07, label: 'error'}
+  - value: 4.43
+    errors:
+    - {symerror: 0.08, label: 'error'}
+  - value: 4.57
+    errors:
+    - {symerror: 0.08, label: 'error'}
+  - value: 4.75
+    errors:
+    - {symerror: 0.11, label: 'error'}
+- header: {name: '$(N_{part}/2)^{2/3}$'}
+  qualifiers:
+  - {name: 'Centrality', value: 'Au+Au 62.4 GeV'}
+  values:
+  - value: 3.89
+    errors:
+    - {symerror: 0.41, label: 'error'}
+  - value: 5.79
+    errors:
+    - {symerror: 0.51, label: 'error'}
+  - value: 8.31
+    errors:
+    - {symerror: 0.54, label: 'error'}
+  - value: 11.33
+    errors:
+    - {symerror: 0.51, label: 'error'}
+  - value: 14.84
+    errors:
+    - {symerror: 0.44, label: 'error'}
+  - value: 18.89
+    errors:
+    - {symerror: 0.41, label: 'error'}
+  - value: 23.64
+    errors:
+    - {symerror: 0.31, label: 'error'}
+  - value: 27.84
+    errors:
+    - {symerror: 0.27, label: 'error'}
+  - value: 31.08
+    errors:
+    - {symerror: 0.17, label: 'error'}

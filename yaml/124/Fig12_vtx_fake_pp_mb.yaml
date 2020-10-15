@@ -1,0 +1,210 @@
+independent_variables:
+- header: {name: '$p_T$ bins'}
+  values:
+  - {low: 0, high: 0.05}
+  - {low: 0.05, high: 0.1}
+  - {low: 0.1, high: 0.15}
+  - {low: 0.15, high: 0.2}
+  - {low: 0.2, high: 0.25}
+  - {low: 0.25, high: 0.3}
+  - {low: 0.3, high: 0.35}
+  - {low: 0.35, high: 0.4}
+  - {low: 0.4, high: 0.45}
+  - {low: 0.45, high: 0.5}
+  - {low: 0.5, high: 0.55}
+  - {low: 0.55, high: 0.6}
+  - {low: 0.6, high: 0.65}
+  - {low: 0.65, high: 0.7}
+  - {low: 0.7, high: 0.75}
+  - {low: 0.75, high: 0.8}
+  - {low: 0.8, high: 0.85}
+  - {low: 0.85, high: 0.9}
+  - {low: 0.9, high: 0.95}
+  - {low: 0.95, high: 1}
+  - {low: 1, high: 1.05}
+  - {low: 1.05, high: 1.1}
+  - {low: 1.1, high: 1.15}
+  - {low: 1.15, high: 1.2}
+  - {low: 1.2, high: 1.25}
+  - {low: 1.25, high: 1.3}
+  - {low: 1.3, high: 1.35}
+  - {low: 1.35, high: 1.4}
+  - {low: 1.4, high: 1.45}
+  - {low: 1.45, high: 1.5}
+  - {low: 1.5, high: 1.55}
+  - {low: 1.55, high: 1.6}
+  - {low: 1.6, high: 1.65}
+  - {low: 1.65, high: 1.7}
+  - {low: 1.7, high: 1.75}
+  - {low: 1.75, high: 1.8}
+  - {low: 1.8, high: 1.85}
+  - {low: 1.85, high: 1.9}
+  - {low: 1.9, high: 1.95}
+  - {low: 1.95, high: 2}
+- header: {name: '$p_T$'}
+  values:
+  - {value: 0.025000}
+  - {value: 0.075000}
+  - {value: 0.125000}
+  - {value: 0.175000}
+  - {value: 0.225000}
+  - {value: 0.275000}
+  - {value: 0.325000}
+  - {value: 0.375000}
+  - {value: 0.425000}
+  - {value: 0.475000}
+  - {value: 0.525000}
+  - {value: 0.575000}
+  - {value: 0.625000}
+  - {value: 0.675000}
+  - {value: 0.725000}
+  - {value: 0.775000}
+  - {value: 0.825000}
+  - {value: 0.875000}
+  - {value: 0.925000}
+  - {value: 0.975000}
+  - {value: 1.025000}
+  - {value: 1.075000}
+  - {value: 1.125000}
+  - {value: 1.175000}
+  - {value: 1.225000}
+  - {value: 1.275000}
+  - {value: 1.325000}
+  - {value: 1.375000}
+  - {value: 1.425000}
+  - {value: 1.475000}
+  - {value: 1.525000}
+  - {value: 1.575000}
+  - {value: 1.625000}
+  - {value: 1.675000}
+  - {value: 1.725000}
+  - {value: 1.775000}
+  - {value: 1.825000}
+  - {value: 1.875000}
+  - {value: 1.925000}
+  - {value: 1.975000}
+dependent_variables:
+- header: {name: 'correction'}
+  qualifiers:
+  - {name: '$p_T$', value: 'pp MB collisions fake vertex correction'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1.041318
+    errors:
+    - {symerror: 0.004160, label: 'error'}
+  - value: 1.034371
+    errors:
+    - {symerror: 0.003730, label: 'error'}
+  - value: 1.037215
+    errors:
+    - {symerror: 0.003696, label: 'error'}
+  - value: 1.037940
+    errors:
+    - {symerror: 0.003775, label: 'error'}
+  - value: 1.033408
+    errors:
+    - {symerror: 0.003999, label: 'error'}
+  - value: 1.033721
+    errors:
+    - {symerror: 0.004270, label: 'error'}
+  - value: 1.032314
+    errors:
+    - {symerror: 0.004606, label: 'error'}
+  - value: 1.030567
+    errors:
+    - {symerror: 0.005023, label: 'error'}
+  - value: 1.025002
+    errors:
+    - {symerror: 0.005507, label: 'error'}
+  - value: 1.022679
+    errors:
+    - {symerror: 0.006071, label: 'error'}
+  - value: 1.020689
+    errors:
+    - {symerror: 0.006715, label: 'error'}
+  - value: 1.014818
+    errors:
+    - {symerror: 0.007493, label: 'error'}
+  - value: 1.009620
+    errors:
+    - {symerror: 0.008288, label: 'error'}
+  - value: 1.006285
+    errors:
+    - {symerror: 0.009259, label: 'error'}
+  - value: 1.005331
+    errors:
+    - {symerror: 0.010146, label: 'error'}
+  - value: 0.999774
+    errors:
+    - {symerror: 0.011388, label: 'error'}
+  - value: 0.997827
+    errors:
+    - {symerror: 0.012522, label: 'error'}
+  - value: 0.991117
+    errors:
+    - {symerror: 0.013809, label: 'error'}
+  - value: 0.990010
+    errors:
+    - {symerror: 0.015142, label: 'error'}
+  - value: 0.993248
+    errors:
+    - {symerror: 0.016529, label: 'error'}
+  - value: 0.989993
+    errors:
+    - {symerror: 0.017957, label: 'error'}
+  - value: 0.989273
+    errors:
+    - {symerror: 0.019402, label: 'error'}
+  - value: 0.969718
+    errors:
+    - {symerror: 0.021367, label: 'error'}
+  - value: 0.967379
+    errors:
+    - {symerror: 0.023018, label: 'error'}
+  - value: 0.964147
+    errors:
+    - {symerror: 0.024800, label: 'error'}
+  - value: 0.947178
+    errors:
+    - {symerror: 0.027212, label: 'error'}
+  - value: 0.942217
+    errors:
+    - {symerror: 0.030011, label: 'error'}
+  - value: 0.950140
+    errors:
+    - {symerror: 0.030509, label: 'error'}
+  - value: 0.941870
+    errors:
+    - {symerror: 0.032712, label: 'error'}
+  - value: 0.932975
+    errors:
+    - {symerror: 0.035750, label: 'error'}
+  - value: 0.920705
+    errors:
+    - {symerror: 0.037692, label: 'error'}
+  - value: 0.950435
+    errors:
+    - {symerror: 0.040056, label: 'error'}
+  - value: 0.920437
+    errors:
+    - {symerror: 0.042741, label: 'error'}
+  - value: 0.900924
+    errors:
+    - {symerror: 0.046479, label: 'error'}
+  - value: 0.919353
+    errors:
+    - {symerror: 0.048993, label: 'error'}
+  - value: 0.892290
+    errors:
+    - {symerror: 0.054834, label: 'error'}
+  - value: 0.909577
+    errors:
+    - {symerror: 0.054339, label: 'error'}

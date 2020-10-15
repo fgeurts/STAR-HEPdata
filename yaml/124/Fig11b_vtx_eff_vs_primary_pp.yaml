@@ -1,0 +1,719 @@
+independent_variables:
+- header: {name: '$N_{prim}$'}
+  values:
+  - {value: 0.000000}
+  - {value: 1.000000}
+  - {value: 2.000000}
+  - {value: 3.000000}
+  - {value: 4.000000}
+  - {value: 5.000000}
+  - {value: 6.000000}
+  - {value: 7.000000}
+  - {value: 8.000000}
+  - {value: 9.000000}
+  - {value: 10.000000}
+  - {value: 11.000000}
+  - {value: 12.000000}
+  - {value: 13.000000}
+  - {value: 14.000000}
+  - {value: 15.000000}
+  - {value: 16.000000}
+  - {value: 17.000000}
+  - {value: 18.000000}
+  - {value: 19.000000}
+  - {value: 20.000000}
+  - {value: 21.000000}
+  - {value: 22.000000}
+  - {value: 23.000000}
+  - {value: 24.000000}
+  - {value: 25.000000}
+  - {value: 26.000000}
+  - {value: 27.000000}
+  - {value: 28.000000}
+  - {value: 29.000000}
+  - {value: 30.000000}
+  - {value: 31.000000}
+  - {value: 32.000000}
+  - {value: 33.000000}
+  - {value: 34.000000}
+  - {value: 35.000000}
+  - {value: 36.000000}
+  - {value: 37.000000}
+  - {value: 38.000000}
+  - {value: 39.000000}
+  - {value: 40.000000}
+  - {value: 41.000000}
+  - {value: 42.000000}
+  - {value: 43.000000}
+  - {value: 44.000000}
+  - {value: 45.000000}
+  - {value: 46.000000}
+  - {value: 47.000000}
+  - {value: 48.000000}
+  - {value: 49.000000}
+  - {value: 50.000000}
+  - {value: 51.000000}
+  - {value: 52.000000}
+  - {value: 53.000000}
+  - {value: 54.000000}
+  - {value: 55.000000}
+  - {value: 56.000000}
+  - {value: 57.000000}
+  - {value: 58.000000}
+  - {value: 59.000000}
+  - {value: 60.000000}
+  - {value: 61.000000}
+  - {value: 62.000000}
+  - {value: 63.000000}
+  - {value: 64.000000}
+  - {value: 65.000000}
+  - {value: 66.000000}
+  - {value: 67.000000}
+  - {value: 68.000000}
+  - {value: 69.000000}
+  - {value: 70.000000}
+  - {value: 71.000000}
+  - {value: 72.000000}
+  - {value: 73.000000}
+  - {value: 74.000000}
+  - {value: 75.000000}
+  - {value: 76.000000}
+  - {value: 77.000000}
+  - {value: 78.000000}
+  - {value: 79.000000}
+  - {value: 80.000000}
+  - {value: 81.000000}
+  - {value: 82.000000}
+  - {value: 83.000000}
+  - {value: 84.000000}
+  - {value: 85.000000}
+  - {value: 86.000000}
+  - {value: 87.000000}
+  - {value: 88.000000}
+  - {value: 89.000000}
+  - {value: 90.000000}
+  - {value: 91.000000}
+  - {value: 92.000000}
+  - {value: 93.000000}
+  - {value: 94.000000}
+  - {value: 95.000000}
+  - {value: 96.000000}
+  - {value: 97.000000}
+  - {value: 98.000000}
+  - {value: 99.000000}
+  - {value: 100.000000}
+dependent_variables:
+- header: {name: 'Efficiency'}
+  qualifiers:
+  - {name: '$N_{prim}$', value: 'pp collisions 200 GeV vertex finding efficiency'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 0.075295, label: 'error'}
+  - value: 0.666813
+    errors:
+    - {symerror: 0.058032, label: 'error'}
+  - value: 0.755624
+    errors:
+    - {symerror: 0.049696, label: 'error'}
+  - value: 0.815925
+    errors:
+    - {symerror: 0.043131, label: 'error'}
+  - value: 0.852787
+    errors:
+    - {symerror: 0.038573, label: 'error'}
+  - value: 0.877172
+    errors:
+    - {symerror: 0.035235, label: 'error'}
+  - value: 0.895778
+    errors:
+    - {symerror: 0.032459, label: 'error'}
+  - value: 0.910199
+    errors:
+    - {symerror: 0.030131, label: 'error'}
+  - value: 0.922469
+    errors:
+    - {symerror: 0.027999, label: 'error'}
+  - value: 0.931426
+    errors:
+    - {symerror: 0.026333, label: 'error'}
+  - value: 0.940758
+    errors:
+    - {symerror: 0.024477, label: 'error'}
+  - value: 0.944740
+    errors:
+    - {symerror: 0.023642, label: 'error'}
+  - value: 0.949022
+    errors:
+    - {symerror: 0.022710, label: 'error'}
+  - value: 0.949922
+    errors:
+    - {symerror: 0.022510, label: 'error'}
+  - value: 0.953335
+    errors:
+    - {symerror: 0.021732, label: 'error'}
+  - value: 0.954447
+    errors:
+    - {symerror: 0.021473, label: 'error'}
+  - value: 0.951886
+    errors:
+    - {symerror: 0.022073, label: 'error'}
+  - value: 0.951269
+    errors:
+    - {symerror: 0.022217, label: 'error'}
+  - value: 0.951826
+    errors:
+    - {symerror: 0.022095, label: 'error'}
+  - value: 0.953817
+    errors:
+    - {symerror: 0.021637, label: 'error'}
+  - value: 0.948868
+    errors:
+    - {symerror: 0.022773, label: 'error'}
+  - value: 0.943372
+    errors:
+    - {symerror: 0.023976, label: 'error'}
+  - value: 0.939686
+    errors:
+    - {symerror: 0.024752, label: 'error'}
+  - value: 0.951125
+    errors:
+    - {symerror: 0.022295, label: 'error'}
+  - value: 0.950179
+    errors:
+    - {symerror: 0.022519, label: 'error'}
+  - value: 0.953167
+    errors:
+    - {symerror: 0.021839, label: 'error'}
+  - value: 0.943012
+    errors:
+    - {symerror: 0.024128, label: 'error'}
+  - value: 0.942460
+    errors:
+    - {symerror: 0.024238, label: 'error'}
+  - value: 0.918529
+    errors:
+    - {symerror: 0.028909, label: 'error'}
+  - value: 0.957309
+    errors:
+    - {symerror: 0.020912, label: 'error'}
+  - value: 0.938720
+    errors:
+    - {symerror: 0.025095, label: 'error'}
+  - value: 0.940722
+    errors:
+    - {symerror: 0.024849, label: 'error'}
+  - value: 0.948058
+    errors:
+    - {symerror: 0.023254, label: 'error'}
+  - value: 0.980481
+    errors:
+    - {symerror: 0.014379, label: 'error'}
+  - value: 0.941229
+    errors:
+    - {symerror: 0.024606, label: 'error'}
+  - value: 0.943286
+    errors:
+    - {symerror: 0.024366, label: 'error'}
+  - value: 0.902507
+    errors:
+    - {symerror: 0.032331, label: 'error'}
+  - value: 0.933972
+    errors:
+    - {symerror: 0.027402, label: 'error'}
+  - value: 0.995493
+    errors:
+    - {symerror: 0.007945, label: 'error'}
+  - value: 0.989566
+    errors:
+    - {symerror: 0.010621, label: 'error'}
+  - value: 0.928146
+    errors:
+    - {symerror: 0.030545, label: 'error'}
+  - value: 0.995873
+    errors:
+    - {symerror: 0.010698, label: 'error'}
+  - value: 0.950622
+    errors:
+    - {symerror: 0.024778, label: 'error'}
+  - value: 0.957828
+    errors:
+    - {symerror: 0.021814, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 0.964025
+    errors:
+    - {symerror: 0.024746, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1.000000
+    errors:
+    - {symerror: 0.014433, label: 'error'}
+  - value: 1.000000
+    errors:
+    - {symerror: 0.014358, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 0.982961
+    errors:
+    - {symerror: 0.019558, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+- header: {name: 'Efficiency'}
+  qualifiers:
+  - {name: '$N_{prim}$', value: 'pp collisions 200 GeV fake vertex rate'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 0.027401, label: 'error'}
+  - value: 0.097297
+    errors:
+    - {symerror: 0.031360, label: 'error'}
+  - value: 0.109534
+    errors:
+    - {symerror: 0.033271, label: 'error'}
+  - value: 0.107812
+    errors:
+    - {symerror: 0.033008, label: 'error'}
+  - value: 0.102087
+    errors:
+    - {symerror: 0.032121, label: 'error'}
+  - value: 0.093488
+    errors:
+    - {symerror: 0.030740, label: 'error'}
+  - value: 0.082908
+    errors:
+    - {symerror: 0.028950, label: 'error'}
+  - value: 0.072723
+    errors:
+    - {symerror: 0.027115, label: 'error'}
+  - value: 0.062458
+    errors:
+    - {symerror: 0.025130, label: 'error'}
+  - value: 0.054056
+    errors:
+    - {symerror: 0.023380, label: 'error'}
+  - value: 0.046522
+    errors:
+    - {symerror: 0.021691, label: 'error'}
+  - value: 0.041218
+    errors:
+    - {symerror: 0.020418, label: 'error'}
+  - value: 0.036543
+    errors:
+    - {symerror: 0.019227, label: 'error'}
+  - value: 0.033656
+    errors:
+    - {symerror: 0.018454, label: 'error'}
+  - value: 0.031743
+    errors:
+    - {symerror: 0.017923, label: 'error'}
+  - value: 0.030063
+    errors:
+    - {symerror: 0.017444, label: 'error'}
+  - value: 0.029727
+    errors:
+    - {symerror: 0.017349, label: 'error'}
+  - value: 0.030183
+    errors:
+    - {symerror: 0.017485, label: 'error'}
+  - value: 0.028237
+    errors:
+    - {symerror: 0.016915, label: 'error'}
+  - value: 0.029546
+    errors:
+    - {symerror: 0.017306, label: 'error'}
+  - value: 0.030847
+    errors:
+    - {symerror: 0.017687, label: 'error'}
+  - value: 0.033270
+    errors:
+    - {symerror: 0.018376, label: 'error'}
+  - value: 0.032830
+    errors:
+    - {symerror: 0.018259, label: 'error'}
+  - value: 0.031242
+    errors:
+    - {symerror: 0.017824, label: 'error'}
+  - value: 0.027656
+    errors:
+    - {symerror: 0.016773, label: 'error'}
+  - value: 0.028253
+    errors:
+    - {symerror: 0.016957, label: 'error'}
+  - value: 0.034133
+    errors:
+    - {symerror: 0.018666, label: 'error'}
+  - value: 0.031427
+    errors:
+    - {symerror: 0.017906, label: 'error'}
+  - value: 0.034518
+    errors:
+    - {symerror: 0.018796, label: 'error'}
+  - value: 0.030658
+    errors:
+    - {symerror: 0.017717, label: 'error'}
+  - value: 0.034146
+    errors:
+    - {symerror: 0.018722, label: 'error'}
+  - value: 0.028974
+    errors:
+    - {symerror: 0.017298, label: 'error'}
+  - value: 0.032233
+    errors:
+    - {symerror: 0.018293, label: 'error'}
+  - value: 0.016521
+    errors:
+    - {symerror: 0.013190, label: 'error'}
+  - value: 0.034762
+    errors:
+    - {symerror: 0.018914, label: 'error'}
+  - value: 0.033885
+    errors:
+    - {symerror: 0.018810, label: 'error'}
+  - value: 0.043676
+    errors:
+    - {symerror: 0.021536, label: 'error'}
+  - value: 0.042103
+    errors:
+    - {symerror: 0.021689, label: 'error'}
+  - value: 0.003852
+    errors:
+    - {symerror: 0.006927, label: 'error'}
+  - value: 0.009226
+    errors:
+    - {symerror: 0.009905, label: 'error'}
+  - value: 0.058905
+    errors:
+    - {symerror: 0.027335, label: 'error'}
+  - value: 0.003492
+    errors:
+    - {symerror: 0.008810, label: 'error'}
+  - value: 0.042840
+    errors:
+    - {symerror: 0.022693, label: 'error'}
+  - value: 0.039885
+    errors:
+    - {symerror: 0.020964, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 0.033236
+    errors:
+    - {symerror: 0.021751, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 0.010256, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 0.010178, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 0.015974
+    errors:
+    - {symerror: 0.016409, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}

@@ -1,0 +1,28 @@
+independent_variables:
+- header: {name: '$N_{part}$'}
+  values:
+  - {value: 349.0}
+  - {value: 349.0}
+  - {value: 349.0}
+  - {value: 349.0}
+  - {value: 362.0}
+dependent_variables:
+- header: {name: '$K^-/pi^-$'}
+  qualifiers:
+  - {name: '$N_{part}$', value: 'SPS NA49 Pb+Pb energy scan'}
+  values:
+  - value: 0.0658
+    errors:
+    - {symerror: 0.0019, label: 'error'}
+  - value: 0.0808
+    errors:
+    - {symerror: 0.0027, label: 'error'}
+  - value: 0.0714
+    errors:
+    - {symerror: 0.0041, label: 'error'}
+  - value: 0.0833
+    errors:
+    - {symerror: 0.0045, label: 'error'}
+  - value: 0.0958
+    errors:
+    - {symerror: 0.0049, label: 'error'}

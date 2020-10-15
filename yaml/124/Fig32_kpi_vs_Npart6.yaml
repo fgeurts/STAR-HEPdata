@@ -1,0 +1,16 @@
+independent_variables:
+- header: {name: '$N_{part}$'}
+  values:
+  - {value: 16.3}
+  - {value: 41.4}
+dependent_variables:
+- header: {name: '$K^-/pi^-$'}
+  qualifiers:
+  - {name: '$N_{part}$', value: 'SPS NA49 C+C/Si+Si 17.3 GeV'}
+  values:
+  - value: 0.0930
+    errors:
+    - {symerror: 0.0135, label: 'error'}
+  - value: 0.1000
+    errors:
+    - {symerror: 0.0141, label: 'error'}

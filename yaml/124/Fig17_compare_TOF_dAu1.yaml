@@ -1,0 +1,80 @@
+independent_variables:
+- header: {name: '$p_T[GeV/c]$ bins'}
+  values:
+  - {low: 0.4, high: 0.45}
+  - {low: 0.45, high: 0.5}
+  - {low: 0.5, high: 0.55}
+  - {low: 0.55, high: 0.6}
+  - {low: 0.6, high: 0.65}
+  - {low: 0.65, high: 0.7}
+  - {low: 0.7, high: 0.75}
+  - {low: 0.75, high: 0.8}
+  - {low: 0.8, high: 0.85}
+  - {low: 0.85, high: 0.9}
+  - {low: 0.9, high: 0.95}
+  - {low: 0.95, high: 1}
+  - {low: 1, high: 1.05}
+  - {low: 1.05, high: 1.1}
+- header: {name: '$p_T[GeV/c]$'}
+  values:
+  - {value: 0.425}
+  - {value: 0.475}
+  - {value: 0.525}
+  - {value: 0.575}
+  - {value: 0.625}
+  - {value: 0.675}
+  - {value: 0.725}
+  - {value: 0.775}
+  - {value: 0.825}
+  - {value: 0.875}
+  - {value: 0.925}
+  - {value: 0.975}
+  - {value: 1.025}
+  - {value: 1.075}
+dependent_variables:
+- header: {name: '$d^2N/(2\pi p_T dp_T dy)[(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_T[GeV/c]$', value: 'd+Au 200 GeV pbar spectra $dE/dx$'}
+  values:
+  - value: 1.369e-001
+    errors:
+    - {symerror: 1.613e-003, label: 'error'}
+  - value: 1.224e-001
+    errors:
+    - {symerror: 1.436e-003, label: 'error'}
+  - value: 1.105e-001
+    errors:
+    - {symerror: 1.294e-003, label: 'error'}
+  - value: 1.012e-001
+    errors:
+    - {symerror: 1.184e-003, label: 'error'}
+  - value: 8.998e-002
+    errors:
+    - {symerror: 1.884e-003, label: 'error'}
+  - value: 8.052e-002
+    errors:
+    - {symerror: 1.688e-003, label: 'error'}
+  - value: 7.219e-002
+    errors:
+    - {symerror: 8.587e-004, label: 'error'}
+  - value: 6.374e-002
+    errors:
+    - {symerror: 1.958e-003, label: 'error'}
+  - value: 5.767e-002
+    errors:
+    - {symerror: 2.911e-003, label: 'error'}
+  - value: 5.213e-002
+    errors:
+    - {symerror: 2.632e-003, label: 'error'}
+  - value: 4.566e-002
+    errors:
+    - {symerror: 9.709e-004, label: 'error'}
+  - value: 3.952e-002
+    errors:
+    - {symerror: 8.464e-004, label: 'error'}
+  - value: 3.428e-002
+    errors:
+    - {symerror: 2.417e-003, label: 'error'}
+  - value: 3.030e-002
+    errors:
+    - {symerror: 9.581e-004, label: 'error'}

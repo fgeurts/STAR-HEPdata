@@ -1,0 +1,24 @@
+independent_variables:
+- header: {name: '$N_{part}$'}
+  values:
+  - {value: 9.5}
+  - {value: 22.4}
+  - {value: 32.4}
+  - {value: 38.7}
+dependent_variables:
+- header: {name: '$K^-/pi^-$'}
+  qualifiers:
+  - {name: '$N_{part}$', value: 'AGS E859 Si+Al 5.4 GeV'}
+  values:
+  - value: 0.0215
+    errors:
+    - {symerror: 0.0020, label: 'error'}
+  - value: 0.0314
+    errors:
+    - {symerror: 0.0028, label: 'error'}
+  - value: 0.0322
+    errors:
+    - {symerror: 0.0035, label: 'error'}
+  - value: 0.0365
+    errors:
+    - {symerror: 0.0028, label: 'error'}

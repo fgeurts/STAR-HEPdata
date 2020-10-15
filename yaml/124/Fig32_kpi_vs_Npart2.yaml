@@ -1,0 +1,36 @@
+independent_variables:
+- header: {name: '$N_{part}$'}
+  values:
+  - {value: 48.0}
+  - {value: 121.0}
+  - {value: 211.0}
+  - {value: 273.0}
+  - {value: 316.0}
+  - {value: 343.0}
+  - {value: 363.0}
+dependent_variables:
+- header: {name: '$K^-/pi^-$'}
+  qualifiers:
+  - {name: '$N_{part}$', value: 'AGS E866 Au+Au 4.7 GeV'}
+  values:
+  - value: 0.0293
+    errors:
+    - {symerror: 0.0054, label: 'error'}
+  - value: 0.0327
+    errors:
+    - {symerror: 0.0030, label: 'error'}
+  - value: 0.0432
+    errors:
+    - {symerror: 0.0034, label: 'error'}
+  - value: 0.0401
+    errors:
+    - {symerror: 0.0042, label: 'error'}
+  - value: 0.0398
+    errors:
+    - {symerror: 0.0044, label: 'error'}
+  - value: 0.0387
+    errors:
+    - {symerror: 0.0049, label: 'error'}
+  - value: 0.0481
+    errors:
+    - {symerror: 0.0045, label: 'error'}
