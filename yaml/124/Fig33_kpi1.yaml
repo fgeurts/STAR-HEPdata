@@ -1,0 +1,24 @@
+independent_variables:
+- header: {name: '$(dN_{\pi}/dy)/S_{\prep}[fm^{-2}]$'}
+  values:
+  - {value: 0.3}
+  - {value: 0.5}
+  - {value: 0.6}
+  - {value: 0.7}
+dependent_variables:
+- header: {name: '$K^-/pi^-$'}
+  qualifiers:
+  - {name: '$(dN_{\pi}/dy)/S_{\prep}[fm^{-2}]$', value: 'AGS E859 Si+Al 5.4 GeV'}
+  values:
+  - value: 0.0215
+    errors:
+    - {symerror: 0.0020, label: 'error'}
+  - value: 0.0314
+    errors:
+    - {symerror: 0.0028, label: 'error'}
+  - value: 0.0322
+    errors:
+    - {symerror: 0.0035, label: 'error'}
+  - value: 0.0365
+    errors:
+    - {symerror: 0.0028, label: 'error'}

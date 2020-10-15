@@ -1,0 +1,48 @@
+independent_variables:
+- header: {name: '$\sqrt{s_{NN}}[GeV]$'}
+  values:
+  - {value: 2.70}
+  - {value: 3.32}
+  - {value: 3.84}
+  - {value: 4.30}
+  - {value: 4.85}
+  - {value: 8.76}
+  - {value: 12.30}
+  - {value: 17.30}
+  - {value: 130.00}
+  - {value: 200.00}
+dependent_variables:
+- header: {name: '$\mu_B[MeV]$'}
+  qualifiers:
+  - {name: '$\sqrt{s_{NN}}[GeV]$', value: 'Andronic et al.'}
+  values:
+  - value: 760.0
+    errors:
+    - {symerror: 30.5, label: 'total error'}
+  - value: 670.0
+    errors:
+    - {symerror: 25.6, label: 'total error'}
+  - value: 615.0
+    errors:
+    - {symerror: 20.6, label: 'total error'}
+  - value: 580.0
+    errors:
+    - {symerror: 20.2, label: 'total error'}
+  - value: 537.0
+    errors:
+    - {symerror: 15.6, label: 'total error'}
+  - value: 403.0
+    errors:
+    - {symerror: 36.7, label: 'total error'}
+  - value: 298.0
+    errors:
+    - {symerror: 38.1, label: 'total error'}
+  - value: 240.0
+    errors:
+    - {symerror: 30.0, label: 'total error'}
+  - value: 38.0
+    errors:
+    - {symerror: 15.6, label: 'total error'}
+  - value: 20.0
+    errors:
+    - {symerror: 8.1, label: 'total error'}

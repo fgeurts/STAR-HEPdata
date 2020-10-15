@@ -1,0 +1,9 @@
+independent_variables: []
+dependent_variables:
+- header: {name: '$T_{chem}[MeV]$'}
+  qualifiers:
+  - {name: 'none', value: 'STAR pp 200 GeV'}
+  values:
+  - value: 157.5
+    errors:
+    - {symerror: 3.6, label: 'error'}

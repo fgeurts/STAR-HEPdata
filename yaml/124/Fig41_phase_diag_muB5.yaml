@@ -1,0 +1,15 @@
+independent_variables: []
+dependent_variables:
+- header: {name: '$\mu_B[MeV]$'}
+  qualifiers:
+  - {name: 'none', value: 'STAR Au+Au'}
+  values:
+  - value: 62.7
+    errors:
+    - {symerror: 6.0, label: 'error'}
+  - value: 29.0
+    errors:
+    - {symerror: 4.6, label: 'error'}
+  - value: 22.0
+    errors:
+    - {symerror: 4.4, label: 'error'}

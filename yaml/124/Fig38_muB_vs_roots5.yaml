@@ -1,0 +1,32 @@
+independent_variables:
+- header: {name: '$\sqrt{s_{NN}}[GeV]$'}
+  values:
+  - {value: 8.80}
+  - {value: 17.30}
+  - {value: 12.30}
+  - {value: 8.77}
+  - {value: 7.62}
+  - {value: 6.27}
+dependent_variables:
+- header: {name: '$\mu_B[MeV]$'}
+  qualifiers:
+  - {name: '$\sqrt{s_{NN}}[GeV]$', value: 'SPS'}
+  values:
+  - value: 410.0
+    errors:
+    - {symerror: 30.0, label: 'total error'}
+  - value: 266.0
+    errors:
+    - {symerror: 9.0, label: 'total error'}
+  - value: 292.0
+    errors:
+    - {symerror: 12.0, label: 'total error'}
+  - value: 377.0
+    errors:
+    - {symerror: 11.0, label: 'total error'}
+  - value: 410.0
+    errors:
+    - {symerror: 18.0, label: 'total error'}
+  - value: 470.0
+    errors:
+    - {symerror: 13.0, label: 'total error'}

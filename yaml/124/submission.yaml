@@ -1,0 +1,1435 @@
+comment: BNL-RHIC. Identified charged particle spectra of $\pi^{\pm}$, $K^{\pm}$, $p$ and $\bar{p}$ at mid-rapidity $(|y| < 0.1)$ measured by the $dE/dx$ method in the STAR-TPC are reported for pp and d+Au collisions at $\sqrt{s_{NN}} = 200$ GeV and for Au+Au collisions at 62.4 GeV, 130 GeV, and 200 GeV. Average transverse momenta, total particle production, particle yield ratios, strangeness and baryon production rates are investigated as a function of the collision system and centrality. The transverse momentum spectra are found to be flatter for heavy particles than for light particles in all collision systems; the effect is more prominent for more central collisions. The extracted average transverse momentum of each particle species follows a trend determined by the total charged particle multiplicity density. The Bjorken energy density estimate is at least several $GeV/fm^3$ for a formation time less than 1 $fm/c$. A significantly larger net-baryon density and a stronger increase of the net-baryon density with centrality are found in Au+Au collisions at 62.4 GeV than at the two higher energies. Antibaryon production relative to total particle multiplicity is found to be constant over centrality, but increases with the collision energy. Strangeness production relative to total particle multiplicity is similar at the three measured RHIC energies. Relative strangeness production increases quickly with centrality in peripheral Au+Au collisions, to a value about $50\%$ above the pp value, and remains rather constant in more central collisions. Bulk freeze-out properties are extracted from thermal equilibrium model and hydrodynamics-motivated blast-wave model fits to the data. Resonance decays are found to have little effect on the extracted kinetic freeze-out parameters due to the transverse momentum range of our measurements. The extracted chemical freeze-out temperature is constant, independent of collision system or centrality; its value is close to the predicted phase-transition temperature, suggesting that chemical freeze-out happens in the vicinity of hadronization and the chemical freezeout temperature is universal despite the vastly different initial conditions in the collision systems. The extracted kinetic freeze-out temperature, while similar to the chemical freeze-out temperature in pp, d+Au, and peripheral Au+Au collisions, drops significantly with centrality in Au+Au collisions, whereas the extracted transverse radial flow velocity increases rapidly with centrality. There appears to be a prolonged period of particle elastic scatterings from chemical to kinetic freeze-out in central Au+Au collisions. The bulk properties extracted at chemical and kinetic freeze-out are observed to evolve smoothly over the measured energy range, collision systems, and collision centralities.
+additional_resources:
+ - {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data.html", description: "web page with data points"}
+ - {location: "https://drupal.star.bnl.gov/STAR/publications/systematic-measurements-identified-particle-spectra-pp-d-au-and-au-au-collisions-star", description: Webpage with all figures}
+ - {location: "https://arxiv.org/abs/0808.2041", description: arXiv}
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig01_AuAuMult.eps", description: Image file}
+- {location: "http://drupal.star.bnl.gov/STAR/files/starpublications/124/Fig01_AuAuMult.png", description: Image file}
+- {location: Fig01_AuAuMult.png, description: Image file}
+- {location: thumb_Fig01_AuAuMult.png, description: Thumbnail Image file}
+name: "Figure 1: AuAu200"
+description: 'Uncorrected charged particle multiplicity distribution measured in the TPC in $|\eta| < 0.5$ for Au+Au collisions at 62.4 GeV and 200 GeV. The shaded regions indicate the centrality bins used in the analysis. The 200 GeV data are scaled by a factor 5 for clarity.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 1
+data_file: Fig01_AuAu200.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig01_AuAuMult.eps", description: Image file}
+- {location: "http://drupal.star.bnl.gov/STAR/files/starpublications/124/Fig01_AuAuMult.png", description: Image file}
+- {location: Fig01_AuAuMult.png, description: Image file}
+- {location: thumb_Fig01_AuAuMult.png, description: Thumbnail Image file}
+name: "Figure 1: AuAu62"
+description: 'Uncorrected charged particle multiplicity distribution measured in the TPC in $|\eta| < 0.5$ for Au+Au collisions at 62.4 GeV and 200 GeV. The shaded regions indicate the centrality bins used in the analysis. The 200 GeV data are scaled by a factor 5 for clarity.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 1
+data_file: Fig01_AuAu62.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig02a_dAuMult.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig02a_dAuMult.gif", description: Image file}
+- {location: Fig02a_dAuMult.gif, description: Image file}
+- {location: thumb_Fig02a_dAuMult.gif, description: Thumbnail Image file}
+name: "Figure 2a"
+description: '(a) Uncorrected charged particle multiplicity distribution measured in the E-FTPC (Au-direction) within −3.8 < $\eta$ < −2.8 in d+Au collisions at 200 GeV. The shaded regions indicate the centrality bins used in the analysis. (b) The TPC mid-rapidity multiplicity distributions ($|\eta| < 0.5$) for the corresponding E-FTPC selected centrality bins.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 2a
+data_file: Fig02a_dAuMult.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig02b_dAuMult.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig02b_dAuMult.gif", description: Image file}
+- {location: Fig02b_dAuMult.gif, description: Image file}
+- {location: thumb_Fig02b_dAuMult.gif, description: Thumbnail Image file}
+name: "Figure 2b"
+description: '(a) Uncorrected charged particle multiplicity distribution measured in the E-FTPC (Au-direction) within −3.8 < $\eta$ < −2.8 in d+Au collisions at 200 GeV. The shaded regions indicate the centrality bins used in the analysis. (b) The TPC mid-rapidity multiplicity distributions ($|\eta| < 0.5$) for the corresponding E-FTPC selected centrality bins.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 2a
+data_file: Fig02b_dAuMult.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig03_ppMult.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig03_ppMult.gif", description: Image file}
+- {location: Fig03_ppMult.gif, description: Image file}
+- {location: thumb_Fig03_ppMult.gif, description: Thumbnail Image file}
+name: "Figure 3"
+description: 'Uncorrected charged particle multiplicity distribution measured in the TPC within $|\eta| < 0.5$ in pp collisions at 200 GeV.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 2a
+data_file: Fig03_ppMult.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig04a_S.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig04a_S.gif", description: Image file}
+- {location: Fig04a_S.gif, description: Image file}
+- {location: thumb_Fig04a_S.gif, description: Thumbnail Image file}
+name: "Figure 4a: AuAu200"
+description: '(a) The ratio of the transverse overlap area $S\perp$ to $(N_{part}/2)^{2/3}$ versus $(N_{part}/2)^{2/3}$. (b) The ratio of the charged pion multiplicity to the transverse overlap area $dN_{\pi}/dy/S_{\perp}$ versus $N_{coll}/N_{part}$. Errors shown are total errors, dominated by systematic uncertainties. The systematic uncertainties are correlated between $N_{part}$, $N_{coll}$ , and $S_{\perp}$, and are largely canceled in the plotted ratio quantities.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 4a
+data_file: Fig04a_S200.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig04a_S.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig04a_S.gif", description: Image file}
+- {location: Fig04a_S.gif, description: Image file}
+- {location: thumb_Fig04a_S.gif, description: Thumbnail Image file}
+name: "Figure 4a: AuAu62"
+description: '(a) The ratio of the transverse overlap area $S\perp$ to $(N_{part}/2)^{2/3}$ versus $(N_{part}/2)^{2/3}$. (b) The ratio of the charged pion multiplicity to the transverse overlap area $dN_{\pi}/dy/S_{\perp}$ versus $N_{coll}/N_{part}$. Errors shown are total errors, dominated by systematic uncertainties. The systematic uncertainties are correlated between $N_{part}$, $N_{coll}$ , and $S_{\perp}$, and are largely canceled in the plotted ratio quantities.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 4a
+data_file: Fig04a_S62.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig04a_S.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig04a_S.gif", description: Image file}
+- {location: Fig04a_S.gif, description: Image file}
+- {location: thumb_Fig04a_S.gif, description: Thumbnail Image file}
+name: "Figure 4a: pp"
+description: '(a) The ratio of the transverse overlap area $S\perp$ to $(N_{part}/2)^{2/3}$ versus $(N_{part}/2)^{2/3}$. (b) The ratio of the charged pion multiplicity to the transverse overlap area $dN_{\pi}/dy/S_{\perp}$ versus $N_{coll}/N_{part}$. Errors shown are total errors, dominated by systematic uncertainties. The systematic uncertainties are correlated between $N_{part}$, $N_{coll}$ , and $S_{\perp}$, and are largely canceled in the plotted ratio quantities.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 4a
+data_file: Fig04a_Spp.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig04b_S.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig04b_S.gif", description: Image file}
+- {location: Fig04b_S.gif, description: Image file}
+- {location: thumb_Fig04b_S.gif, description: Thumbnail Image file}
+name: "Figure 4b: AuAu200"
+description: '(a) The ratio of the transverse overlap area $S\perp$ to $(N_{part}/2)^{2/3}$ versus $(N_{part}/2)^{2/3}$. (b) The ratio of the charged pion multiplicity to the transverse overlap area $dN_{\pi}/dy/S_{\perp}$ versus $N_{coll}/N_{part}$. Errors shown are total errors, dominated by systematic uncertainties. The systematic uncertainties are correlated between $N_{part}$, $N_{coll}$ , and $S_{\perp}$, and are largely canceled in the plotted ratio quantities.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 4b
+data_file: Fig04b_S200.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig04b_S.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig04b_S.gif", description: Image file}
+- {location: Fig04b_S.gif, description: Image file}
+- {location: thumb_Fig04b_S.gif, description: Thumbnail Image file}
+name: "Figure 4b: AuAu62"
+description: '(a) The ratio of the transverse overlap area $S\perp$ to $(N_{part}/2)^{2/3}$ versus $(N_{part}/2)^{2/3}$. (b) The ratio of the charged pion multiplicity to the transverse overlap area $dN_{\pi}/dy/S_{\perp}$ versus $N_{coll}/N_{part}$. Errors shown are total errors, dominated by systematic uncertainties. The systematic uncertainties are correlated between $N_{part}$, $N_{coll}$ , and $S_{\perp}$, and are largely canceled in the plotted ratio quantities.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 4b
+data_file: Fig04b_S62.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig04b_S.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig04b_S.gif", description: Image file}
+- {location: Fig04b_S.gif, description: Image file}
+- {location: thumb_Fig04b_S.gif, description: Thumbnail Image file}
+name: "Figure 4b: pp"
+description: '(a) The ratio of the transverse overlap area $S\perp$ to $(N_{part}/2)^{2/3}$ versus $(N_{part}/2)^{2/3}$. (b) The ratio of the charged pion multiplicity to the transverse overlap area $dN_{\pi}/dy/S_{\perp}$ versus $N_{coll}/N_{part}$. Errors shown are total errors, dominated by systematic uncertainties. The systematic uncertainties are correlated between $N_{part}$, $N_{coll}$ , and $S_{\perp}$, and are largely canceled in the plotted ratio quantities.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 4b
+data_file: Fig04b_Spp.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig10_eloss.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig10_eloss.gif", description: Image file}
+- {location: Fig10_eloss.gif, description: Image file}
+- {location: thumb_Fig10_eloss.gif, description: Thumbnail Image file}
+name: "Figure 10"
+description: 'Energy loss effect for $\pi^{\pm}$ (a), $K^{\pm}$ (b), and $p$ and $\bar{p}$ (c) at mid-rapidity $(|y| < 0.1)$  as a function of particle momentum magnitude in 200 GeV pp and 62.4 GeV central $0-5\%$  Au+Au collisions. Only negative particles are shown; energy loss for particles and antiparticles are the same. Errors shown are statistical only. The pion energy loss is already corrected by the track reconstruction algorithm.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 10
+data_file: Fig10_eloss.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig11a_vtx_eff_vs_global_pp.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig11a_vtx_eff_vs_global_pp.gif", description: Image file}
+- {location: Fig11a_vtx_eff_vs_global_pp.gif, description: Image file}
+- {location: thumb_Fig11a_vtx_eff_vs_global_pp.gif, description: Thumbnail Image file}
+name: "Figure 11a"
+description: 'Vertex-finding efficiency ($\epsilon_{vtx}$) and fake vertex rate ($\delta_{fake}$) as a function of the number of good global tracks (a) and the number of good primary tracks (b). Errors shown or smaller than the point size are statistical only.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 11a
+data_file: Fig11a_vtx_eff_vs_global_pp.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig11b_vtx_eff_vs_primary_pp.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig11b_vtx_eff_vs_primary_pp.gif", description: Image file}
+- {location: Fig11b_vtx_eff_vs_primary_pp.gif, description: Image file}
+- {location: thumb_Fig11b_vtx_eff_vs_primary_pp.gif, description: Thumbnail Image file}
+name: "Figure 11b"
+description: 'Vertex-finding efficiency ($\epsilon_{vtx}$) and fake vertex rate ($\delta_{fake}$) as a function of the number of good global tracks (a) and the number of good primary tracks (b). Errors shown or smaller than the point size are statistical only.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 11b
+data_file: Fig11b_vtx_eff_vs_primary_pp.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig12_vtx_fake_pp_dAu_mb.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig12_vtx_fake_pp_dAu_mb.gif", description: Image file}
+- {location: Fig12_vtx_fake_pp_dAu_mb.gif, description: Image file}
+- {location: thumb_Fig12_vtx_fake_pp_dAu_mb.gif, description: Thumbnail Image file}
+name: "Figure 12: dAu"
+description: 'The $p_{\perp}$ dependent correction to particle spectra due to fake vertex events, $\epsilon_{fake}$($p_{\perp}$), in 200 GeV minimum bias pp and d+Au collisions. Errors shown are statistical only.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 12
+data_file: Fig12_vtx_fake_dAu_mb.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig12_vtx_fake_pp_dAu_mb.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig12_vtx_fake_pp_dAu_mb.gif", description: Image file}
+- {location: Fig12_vtx_fake_pp_dAu_mb.gif, description: Image file}
+- {location: thumb_Fig12_vtx_fake_pp_dAu_mb.gif, description: Thumbnail Image file}
+name: "Figure 12: pp"
+description: 'The $p_{\perp}$ dependent correction to particle spectra due to fake vertex events, $\epsilon_{fake}$($p_{\perp}$), in 200 GeV minimum bias pp and d+Au collisions. Errors shown are statistical only.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 12
+data_file: Fig12_vtx_fake_pp_mb.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig13a_eff_pp_neg.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig13a_eff_pp_neg.gif", description: Image file}
+- {location: Fig13a_eff_pp_neg.gif, description: Image file}
+- {location: thumb_Fig13a_eff_pp_neg.gif, description: Thumbnail Image file}
+name: "Figure 13a"
+description: 'Efficiency (product of tracking efficiency and detector acceptance) of $\pi^-$, $K^-$, and $\bar{p}$ in $pp$ (a) and d+Au collisions (b) at 200 GeV as a function of input MC $p_{\perp}$. Errors shown are binomial errors. The curves are parameterizations to the efficiency data and are used for corrections in the analysis.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 13a
+data_file: Fig13a_eff_pp_neg.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig13b_eff_dAu_neg.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig13b_eff_dAu_neg.gif", description: Image file}
+- {location: Fig13b_eff_dAu_neg.gif, description: Image file}
+- {location: thumb_Fig13b_eff_dAu_neg.gif, description: Thumbnail Image file}
+name: "Figure 13b"
+description: 'Efficiency (product of tracking efficiency and detector acceptance) of $\pi^-$, $K^-$, and $\bar{p}$ in $pp$ (a) and d+Au collisions (b) at 200 GeV as a function of input MC $p_{\perp}$. Errors shown are binomial errors. The curves are parameterizations to the efficiency data and are used for corrections in the analysis.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 13b
+data_file: Fig13b_eff_dAu_neg.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig14a_eff_AuAu62_neg_7080.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig14a_eff_AuAu62_neg_7080.gif", description: Image file}
+- {location: Fig14a_eff_AuAu62_neg_7080.gif, description: Image file}
+- {location: thumb_Fig14a_eff_AuAu62_neg_7080.gif, description: Thumbnail Image file}
+name: "Figure 14a: pion and kaon"
+description: 'Efficiency (product of tracking efficiency and detector acceptance) of $\pi^-$, $K^-$, and $\bar{p}$ in $70-80\%$ peripheral Au+Au (a) and $0-5\%$  central Au+Au collisions (b) at 62.4 GeV as a function of input MC $p_{\perp}$. Errors shown are binomial errors. The curves are parameterizations to the efficiency data and are used for corrections in the analysis.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 14a
+data_file: Fig14a_eff_AuAu62_neg_7080.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig14a_eff_AuAu62_neg_7080.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig14a_eff_AuAu62_neg_7080.gif", description: Image file}
+- {location: Fig14a_eff_AuAu62_neg_7080.gif, description: Image file}
+- {location: thumb_Fig14a_eff_AuAu62_neg_7080.gif, description: Thumbnail Image file}
+name: "Figure 14a: proton"
+description: 'Efficiency (product of tracking efficiency and detector acceptance) of $\pi^-$, $K^-$, and $\bar{p}$ in $70-80\%$ peripheral Au+Au (a) and $0-5\%$  central Au+Au collisions (b) at 62.4 GeV as a function of input MC $p_{\perp}$. Errors shown are binomial errors. The curves are parameterizations to the efficiency data and are used for corrections in the analysis.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 14a
+data_file: Fig14a_eff_AuAu62_negp_7080.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig14b_eff_AuAu62_neg_05.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig14b_eff_AuAu62_neg_05.gif", description: Image file}
+- {location: Fig14b_eff_AuAu62_neg_05.gif, description: Image file}
+- {location: thumb_Fig14b_eff_AuAu62_neg_05.gif, description: Thumbnail Image file}
+name: "Figure 14b: pion and kaon"
+description: 'Efficiency (product of tracking efficiency and detector acceptance) of $\pi^-$, $K^-$, and $\bar{p}$ in $70-80\%$ peripheral Au+Au (a) and $0-5\%$  central Au+Au collisions (b) at 62.4 GeV as a function of input MC $p_{\perp}$. Errors shown are binomial errors. The curves are parameterizations to the efficiency data and are used for corrections in the analysis.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 14b
+data_file: Fig14b_eff_AuAu62_neg_05.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig14b_eff_AuAu62_neg_05.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig14b_eff_AuAu62_neg_05.gif", description: Image file}
+- {location: Fig14b_eff_AuAu62_neg_05.gif, description: Image file}
+- {location: thumb_Fig14b_eff_AuAu62_neg_05.gif, description: Thumbnail Image file}
+name: "Figure 14b: proton"
+description: 'Efficiency (product of tracking efficiency and detector acceptance) of $\pi^-$, $K^-$, and $\bar{p}$ in $70-80\%$ peripheral Au+Au (a) and $0-5\%$  central Au+Au collisions (b) at 62.4 GeV as a function of input MC $p_{\perp}$. Errors shown are binomial errors. The curves are parameterizations to the efficiency data and are used for corrections in the analysis.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 14b
+data_file: Fig14b_eff_AuAu62_negp_05.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig15a_dca_dAu_0.40pt0.45.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig15a_dca_dAu_0.40pt0.45.gif", description: Image file}
+- {location: Fig15a_dca_dAu_0.40pt0.45.gif, description: Image file}
+- {location: thumb_Fig15a_dca_dAu_0.40pt0.45.gif, description: Thumbnail Image file}
+name: "Figure 15a"
+description: 'The $d_{ca}$ distributions of protons and antiprotons for 0.40 < $p_{\perp}$ < 0.45 GeV/c and 0.70 < $p_{\perp}$ < 0.75 GeV/c in 200 GeV minimum bias d+Au (upper panels) and 62.4 GeV $0-5\%$  central Au+Au collisions (lower panels). Errors shown are statistical only. The dashed curve is the fit proton background; the dotted histogram is the $\bar{p}$ distribution scaled up by the fit $p/\bar{p}$ ratio; and the solid histogram is the fit $p$ distribution by Eq. (6). The range 3.2 < $d_{ca}$ < 5 cm is excluded from the fit for the d+Au data. Note the logarithm scale of the right panels.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 15a
+data_file: Fig15a_dca_dAu_0.40pt0.45.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig15a_dca_dAu_0.40pt0.45.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig15a_dca_dAu_0.40pt0.45.gif", description: Image file}
+- {location: Fig15a_dca_dAu_0.40pt0.45.gif, description: Image file}
+- {location: thumb_Fig15a_dca_dAu_0.40pt0.45.gif, description: Thumbnail Image file}
+name: "Figure 15a: Bkgd"
+description: 'The $d_{ca}$ distributions of protons and antiprotons for 0.40 < $p_{\perp}$ < 0.45 GeV/c and 0.70 < $p_{\perp}$ < 0.75 GeV/c in 200 GeV minimum bias d+Au (upper panels) and 62.4 GeV $0-5\%$  central Au+Au collisions (lower panels). Errors shown are statistical only. The dashed curve is the fit proton background; the dotted histogram is the $\bar{p}$ distribution scaled up by the fit $p/\bar{p}$ ratio; and the solid histogram is the fit $p$ distribution by Eq. (6). The range 3.2 < $d_{ca}$ < 5 cm is excluded from the fit for the d+Au data. Note the logarithm scale of the right panels.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 15a
+data_file: Fig15a_dca_dAu_0.40pt0.45_bkg.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig15b_dca_dAu_0.70pt0.75.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig15b_dca_dAu_0.70pt0.75.gif", description: Image file}
+- {location: Fig15b_dca_dAu_0.70pt0.75.gif, description: Image file}
+- {location: thumb_Fig15b_dca_dAu_0.70pt0.75.gif, description: Thumbnail Image file}
+name: "Figure 15b"
+description: 'The $d_{ca}$ distributions of protons and antiprotons for 0.40 < $p_{\perp}$ < 0.45 GeV/c and 0.70 < $p_{\perp}$ < 0.75 GeV/c in 200 GeV minimum bias d+Au (upper panels) and 62.4 GeV $0-5\%$  central Au+Au collisions (lower panels). Errors shown are statistical only. The dashed curve is the fit proton background; the dotted histogram is the $\bar{p}$ distribution scaled up by the fit $p/\bar{p}$ ratio; and the solid histogram is the fit $p$ distribution by Eq. (6). The range 3.2 < $d_{ca}$ < 5 cm is excluded from the fit for the d+Au data. Note the logarithm scale of the right panels.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 15b
+data_file: Fig15b_dca_dAu_0.70pt0.75.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig15b_dca_dAu_0.70pt0.75.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig15b_dca_dAu_0.70pt0.75.gif", description: Image file}
+- {location: Fig15b_dca_dAu_0.70pt0.75.gif, description: Image file}
+- {location: thumb_Fig15b_dca_dAu_0.70pt0.75.gif, description: Thumbnail Image file}
+name: "Figure 15b: Bkgd"
+description: 'The $d_{ca}$ distributions of protons and antiprotons for 0.40 < $p_{\perp}$ < 0.45 GeV/c and 0.70 < $p_{\perp}$ < 0.75 GeV/c in 200 GeV minimum bias d+Au (upper panels) and 62.4 GeV $0-5\%$  central Au+Au collisions (lower panels). Errors shown are statistical only. The dashed curve is the fit proton background; the dotted histogram is the $\bar{p}$ distribution scaled up by the fit $p/\bar{p}$ ratio; and the solid histogram is the fit $p$ distribution by Eq. (6). The range 3.2 < $d_{ca}$ < 5 cm is excluded from the fit for the d+Au data. Note the logarithm scale of the right panels.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 15b
+data_file: Fig15b_dca_dAu_0.70pt0.75_bkg.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig15c_dca_AuAu62_0-5_0.40pt0.45.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig15c_dca_AuAu62_0-5_0.40pt0.45.gif", description: Image file}
+- {location: Fig15c_dca_AuAu62_0-5_0.40pt0.45.gif, description: Image file}
+- {location: thumb_Fig15c_dca_AuAu62_0-5_0.40pt0.45.gif, description: Thumbnail Image file}
+name: "Figure 15c"
+description: 'The $d_{ca}$ distributions of protons and antiprotons for 0.40 < $p_{\perp}$ < 0.45 GeV/c and 0.70 < $p_{\perp}$ < 0.75 GeV/c in 200 GeV minimum bias d+Au (upper panels) and 62.4 GeV $0-5\%$  central Au+Au collisions (lower panels). Errors shown are statistical only. The dashed curve is the fit proton background; the dotted histogram is the $\bar{p}$ distribution scaled up by the fit $p/\bar{p}$ ratio; and the solid histogram is the fit $p$ distribution by Eq. (6). The range 3.2 < $d_{ca}$ < 5 cm is excluded from the fit for the d+Au data. Note the logarithm scale of the right panels.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 15c
+data_file: Fig15c_dca_AuAu62_0-5_0.40pt0.45.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig15c_dca_AuAu62_0-5_0.40pt0.45.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig15c_dca_AuAu62_0-5_0.40pt0.45.gif", description: Image file}
+- {location: Fig15c_dca_AuAu62_0-5_0.40pt0.45.gif, description: Image file}
+- {location: thumb_Fig15c_dca_AuAu62_0-5_0.40pt0.45.gif, description: Thumbnail Image file}
+name: "Figure 15c: Bkgd"
+description: 'The $d_{ca}$ distributions of protons and antiprotons for 0.40 < $p_{\perp}$ < 0.45 GeV/c and 0.70 < $p_{\perp}$ < 0.75 GeV/c in 200 GeV minimum bias d+Au (upper panels) and 62.4 GeV $0-5\%$  central Au+Au collisions (lower panels). Errors shown are statistical only. The dashed curve is the fit proton background; the dotted histogram is the $\bar{p}$ distribution scaled up by the fit $p/\bar{p}$ ratio; and the solid histogram is the fit $p$ distribution by Eq. (6). The range 3.2 < $d_{ca}$ < 5 cm is excluded from the fit for the d+Au data. Note the logarithm scale of the right panels.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 15c
+data_file: Fig15c_dca_AuAu62_0-5_0.40pt0.45_bkg.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig15d_dca_AuAu62_0-5_0.70pt0.75.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig15d_dca_AuAu62_0-5_0.70pt0.75.gif", description: Image file}
+- {location: Fig15d_dca_AuAu62_0-5_0.70pt0.75.gif, description: Image file}
+- {location: thumb_Fig15d_dca_AuAu62_0-5_0.70pt0.75.gif, description: Thumbnail Image file}
+name: "Figure 15d"
+description: 'The $d_{ca}$ distributions of protons and antiprotons for 0.40 < $p_{\perp}$ < 0.45 GeV/c and 0.70 < $p_{\perp}$ < 0.75 GeV/c in 200 GeV minimum bias d+Au (upper panels) and 62.4 GeV $0-5\%$  central Au+Au collisions (lower panels). Errors shown are statistical only. The dashed curve is the fit proton background; the dotted histogram is the $\bar{p}$ distribution scaled up by the fit $p/\bar{p}$ ratio; and the solid histogram is the fit $p$ distribution by Eq. (6). The range 3.2 < $d_{ca}$ < 5 cm is excluded from the fit for the d+Au data. Note the logarithm scale of the right panels.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 15d
+data_file: Fig15d_dca_AuAu62_0-5_0.70pt0.75.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig15d_dca_AuAu62_0-5_0.70pt0.75.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig15d_dca_AuAu62_0-5_0.70pt0.75.gif", description: Image file}
+- {location: Fig15d_dca_AuAu62_0-5_0.70pt0.75.gif, description: Image file}
+- {location: thumb_Fig15d_dca_AuAu62_0-5_0.70pt0.75.gif, description: Thumbnail Image file}
+name: "Figure 15d: Bkgd"
+description: 'The $d_{ca}$ distributions of protons and antiprotons for 0.40 < $p_{\perp}$ < 0.45 GeV/c and 0.70 < $p_{\perp}$ < 0.75 GeV/c in 200 GeV minimum bias d+Au (upper panels) and 62.4 GeV $0-5\%$  central Au+Au collisions (lower panels). Errors shown are statistical only. The dashed curve is the fit proton background; the dotted histogram is the $\bar{p}$ distribution scaled up by the fit $p/\bar{p}$ ratio; and the solid histogram is the fit $p$ distribution by Eq. (6). The range 3.2 < $d_{ca}$ < 5 cm is excluded from the fit for the d+Au data. Note the logarithm scale of the right panels.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 15d
+data_file: Fig15d_dca_AuAu62_0-5_0.70pt0.75_bkg.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig16_piBG_dAu_mb.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig16_piBG_dAu_mb.gif", description: Image file}
+- {location: Fig16_piBG_dAu_mb.gif, description: Image file}
+- {location: thumb_Fig16_piBG_dAu_mb.gif, description: Thumbnail Image file}
+name: "Figure 16: all and weak-decay bkgd"
+description: 'Pion background fraction from weak decays ($\Lambda$, $K^0_S$) and $\mu^{pm}$ contamination as a function of $p_{\perp}$ in minimum bias d+Au collisions at 200 GeV. Errors shown are statistical only.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 16
+data_file: Fig16_piBG_dAu_mb1.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig16_piBG_dAu_mb.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig16_piBG_dAu_mb.gif", description: Image file}
+- {location: Fig16_piBG_dAu_mb.gif, description: Image file}
+- {location: thumb_Fig16_piBG_dAu_mb.gif, description: Thumbnail Image file}
+name: "Figure 16: muon contamination"
+description: 'Pion background fraction from weak decays ($\Lambda$, $K^0_S$) and $\mu^{pm}$ contamination as a function of $p_{\perp}$ in minimum bias d+Au collisions at 200 GeV. Errors shown are statistical only.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 16
+data_file: Fig16_piBG_dAu_mb2.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig17_compare_TOF.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig17_compare_TOF.gif", description: Image file}
+- {location: Fig17_compare_TOF.gif, description: Image file}
+- {location: thumb_Fig17_compare_TOF.gif, description: Thumbnail Image file}
+name: "Figure 17: AuAu $dE/dx$"
+description: 'Mid-rapidity identified antiproton spectra in 200 GeV minimum bias d+Au (a) and 62.4 GeV central Au+Au collisions (b) measured by $dE/dx$ together with those by TOF [46, 47]. The $dE/dx$ data are from $|y| < 0.1$ and the TOF data are from  $|y| < 0.5$. The curves are various fits to the $dE/dx$ data for extrapolation. The quadratic sum of statistical errors and point-to-point systematic errors are plotted, but are smaller than the point size.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 17
+data_file: Fig17_compare_TOF_AuAu1.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig17_compare_TOF.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig17_compare_TOF.gif", description: Image file}
+- {location: Fig17_compare_TOF.gif, description: Image file}
+- {location: thumb_Fig17_compare_TOF.gif, description: Thumbnail Image file}
+name: "Figure 17: AuAu Blast-wave fit"
+description: 'Mid-rapidity identified antiproton spectra in 200 GeV minimum bias d+Au (a) and 62.4 GeV central Au+Au collisions (b) measured by $dE/dx$ together with those by TOF [46, 47]. The $dE/dx$ data are from $|y| < 0.1$ and the TOF data are from  $|y| < 0.5$. The curves are various fits to the $dE/dx$ data for extrapolation. The quadratic sum of statistical errors and point-to-point systematic errors are plotted, but are smaller than the point size.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 17
+data_file: Fig17_compare_TOF_AuAu2.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig17_compare_TOF.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig17_compare_TOF.gif", description: Image file}
+- {location: Fig17_compare_TOF.gif, description: Image file}
+- {location: thumb_Fig17_compare_TOF.gif, description: Thumbnail Image file}
+name: "Figure 17: AuAu $p_T$-Gaussian fit"
+description: 'Mid-rapidity identified antiproton spectra in 200 GeV minimum bias d+Au (a) and 62.4 GeV central Au+Au collisions (b) measured by $dE/dx$ together with those by TOF [46, 47]. The $dE/dx$ data are from $|y| < 0.1$ and the TOF data are from  $|y| < 0.5$. The curves are various fits to the $dE/dx$ data for extrapolation. The quadratic sum of statistical errors and point-to-point systematic errors are plotted, but are smaller than the point size.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 17
+data_file: Fig17_compare_TOF_AuAu3.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig17_compare_TOF.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig17_compare_TOF.gif", description: Image file}
+- {location: Fig17_compare_TOF.gif, description: Image file}
+- {location: thumb_Fig17_compare_TOF.gif, description: Thumbnail Image file}
+name: "Figure 17: AuAu $p_T$-exponential fit"
+description: 'Mid-rapidity identified antiproton spectra in 200 GeV minimum bias d+Au (a) and 62.4 GeV central Au+Au collisions (b) measured by $dE/dx$ together with those by TOF [46, 47]. The $dE/dx$ data are from $|y| < 0.1$ and the TOF data are from  $|y| < 0.5$. The curves are various fits to the $dE/dx$ data for extrapolation. The quadratic sum of statistical errors and point-to-point systematic errors are plotted, but are smaller than the point size.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 17
+data_file: Fig17_compare_TOF_AuAu4.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig17_compare_TOF.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig17_compare_TOF.gif", description: Image file}
+- {location: Fig17_compare_TOF.gif, description: Image file}
+- {location: thumb_Fig17_compare_TOF.gif, description: Thumbnail Image file}
+name: "Figure 17: AuAu TOF data"
+description: 'Mid-rapidity identified antiproton spectra in 200 GeV minimum bias d+Au (a) and 62.4 GeV central Au+Au collisions (b) measured by $dE/dx$ together with those by TOF [46, 47]. The $dE/dx$ data are from $|y| < 0.1$ and the TOF data are from  $|y| < 0.5$. The curves are various fits to the $dE/dx$ data for extrapolation. The quadratic sum of statistical errors and point-to-point systematic errors are plotted, but are smaller than the point size.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 17
+data_file: Fig17_compare_TOF_AuAu5.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig17_compare_TOF.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig17_compare_TOF.gif", description: Image file}
+- {location: Fig17_compare_TOF.gif, description: Image file}
+- {location: thumb_Fig17_compare_TOF.gif, description: Thumbnail Image file}
+name: "Figure 17: dAu $dE/dx$"
+description: 'Mid-rapidity identified antiproton spectra in 200 GeV minimum bias d+Au (a) and 62.4 GeV central Au+Au collisions (b) measured by $dE/dx$ together with those by TOF [46, 47]. The $dE/dx$ data are from $|y| < 0.1$ and the TOF data are from  $|y| < 0.5$. The curves are various fits to the $dE/dx$ data for extrapolation. The quadratic sum of statistical errors and point-to-point systematic errors are plotted, but are smaller than the point size.'
+keywords:
+ - {name: reactions, values: [d AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 17
+data_file: Fig17_compare_TOF_dAu1.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig17_compare_TOF.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig17_compare_TOF.gif", description: Image file}
+- {location: Fig17_compare_TOF.gif, description: Image file}
+- {location: thumb_Fig17_compare_TOF.gif, description: Thumbnail Image file}
+name: "Figure 17: dAu Blast-wave fit"
+description: 'Mid-rapidity identified antiproton spectra in 200 GeV minimum bias d+Au (a) and 62.4 GeV central Au+Au collisions (b) measured by $dE/dx$ together with those by TOF [46, 47]. The $dE/dx$ data are from $|y| < 0.1$ and the TOF data are from  $|y| < 0.5$. The curves are various fits to the $dE/dx$ data for extrapolation. The quadratic sum of statistical errors and point-to-point systematic errors are plotted, but are smaller than the point size.'
+keywords:
+ - {name: reactions, values: [d AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 17
+data_file: Fig17_compare_TOF_dAu2.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig17_compare_TOF.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig17_compare_TOF.gif", description: Image file}
+- {location: Fig17_compare_TOF.gif, description: Image file}
+- {location: thumb_Fig17_compare_TOF.gif, description: Thumbnail Image file}
+name: "Figure 17: dAu $p_T$-Gaussian fit"
+description: 'Mid-rapidity identified antiproton spectra in 200 GeV minimum bias d+Au (a) and 62.4 GeV central Au+Au collisions (b) measured by $dE/dx$ together with those by TOF [46, 47]. The $dE/dx$ data are from $|y| < 0.1$ and the TOF data are from  $|y| < 0.5$. The curves are various fits to the $dE/dx$ data for extrapolation. The quadratic sum of statistical errors and point-to-point systematic errors are plotted, but are smaller than the point size.'
+keywords:
+ - {name: reactions, values: [d AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 17
+data_file: Fig17_compare_TOF_dAu3.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig17_compare_TOF.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig17_compare_TOF.gif", description: Image file}
+- {location: Fig17_compare_TOF.gif, description: Image file}
+- {location: thumb_Fig17_compare_TOF.gif, description: Thumbnail Image file}
+name: "Figure 17: dAu $p_T$-exponential fit"
+description: 'Mid-rapidity identified antiproton spectra in 200 GeV minimum bias d+Au (a) and 62.4 GeV central Au+Au collisions (b) measured by $dE/dx$ together with those by TOF [46, 47]. The $dE/dx$ data are from $|y| < 0.1$ and the TOF data are from  $|y| < 0.5$. The curves are various fits to the $dE/dx$ data for extrapolation. The quadratic sum of statistical errors and point-to-point systematic errors are plotted, but are smaller than the point size.'
+keywords:
+ - {name: reactions, values: [d AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 17
+data_file: Fig17_compare_TOF_dAu4.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig17_compare_TOF.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig17_compare_TOF.gif", description: Image file}
+- {location: Fig17_compare_TOF.gif, description: Image file}
+- {location: thumb_Fig17_compare_TOF.gif, description: Thumbnail Image file}
+name: "Figure 17: dAu TOF data"
+description: 'Mid-rapidity identified antiproton spectra in 200 GeV minimum bias d+Au (a) and 62.4 GeV central Au+Au collisions (b) measured by $dE/dx$ together with those by TOF [46, 47]. The $dE/dx$ data are from $|y| < 0.1$ and the TOF data are from  $|y| < 0.5$. The curves are various fits to the $dE/dx$ data for extrapolation. The quadratic sum of statistical errors and point-to-point systematic errors are plotted, but are smaller than the point size.'
+keywords:
+ - {name: reactions, values: [d AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 17
+data_file: Fig17_compare_TOF_dAu5.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig18_dAu_spectra.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig18_dAu_spectra.gif", description: Image file}
+- {location: Fig18_dAu_spectra.gif, description: Image file}
+- {location: thumb_Fig18_dAu_spectra.gif, description: Thumbnail Image file}
+name: "Figure 18: kaon"
+description: 'Mid-rapidity $(|y| < 0.1)$  identified particle spectra in d+Au collisions at 200 GeV. The $p$ and $\bar{p}$ spectra are inclusive, including weak decay products. Spectra are plotted for three centrality bins and for minimum bias events. Spectra from top to bottom are for  $0-20\%$ scaled by 4,  $20-40\%$ scaled by 2, minimum bias not scaled, and  $40-100\%$ scaled by 1/2. Errors plotted are statistical and point-to-point systematic errors added in quadrature, but are smaller than the point size. The curves are the blast-wave model fits to the minimum bias data; the normalizations of the curves are fixed by the corresponding negative particle spectra.'
+keywords:
+ - {name: reactions, values: [d AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 18
+data_file: Fig18_dAu_spectra_kaon.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig18_dAu_spectra.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig18_dAu_spectra.gif", description: Image file}
+- {location: Fig18_dAu_spectra.gif, description: Image file}
+- {location: thumb_Fig18_dAu_spectra.gif, description: Thumbnail Image file}
+name: "Figure 18: pion"
+description: 'Mid-rapidity $(|y| < 0.1)$  identified particle spectra in d+Au collisions at 200 GeV. The $p$ and $\bar{p}$ spectra are inclusive, including weak decay products. Spectra are plotted for three centrality bins and for minimum bias events. Spectra from top to bottom are for  $0-20\%$ scaled by 4,  $20-40\%$ scaled by 2, minimum bias not scaled, and  $40-100\%$ scaled by 1/2. Errors plotted are statistical and point-to-point systematic errors added in quadrature, but are smaller than the point size. The curves are the blast-wave model fits to the minimum bias data; the normalizations of the curves are fixed by the corresponding negative particle spectra.'
+keywords:
+ - {name: reactions, values: [d AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 18
+data_file: Fig18_dAu_spectra_pion.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig18_dAu_spectra.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig18_dAu_spectra.gif", description: Image file}
+- {location: Fig18_dAu_spectra.gif, description: Image file}
+- {location: thumb_Fig18_dAu_spectra.gif, description: Thumbnail Image file}
+name: "Figure 18: proton"
+description: 'Mid-rapidity $(|y| < 0.1)$  identified particle spectra in d+Au collisions at 200 GeV. The $p$ and $\bar{p}$ spectra are inclusive, including weak decay products. Spectra are plotted for three centrality bins and for minimum bias events. Spectra from top to bottom are for  $0-20\%$ scaled by 4,  $20-40\%$ scaled by 2, minimum bias not scaled, and  $40-100\%$ scaled by 1/2. Errors plotted are statistical and point-to-point systematic errors added in quadrature, but are smaller than the point size. The curves are the blast-wave model fits to the minimum bias data; the normalizations of the curves are fixed by the corresponding negative particle spectra.'
+keywords:
+ - {name: reactions, values: [d AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 18
+data_file: Fig18_dAu_spectra_proton.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig19_AuAu62_spectra.gif", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig19_AuAu62_spectra.eps", description: Image file}
+- {location: Fig19_AuAu62_spectra.gif, description: Image file}
+- {location: thumb_Fig19_AuAu62_spectra.gif, description: Thumbnail Image file}
+name: "Figure 19: kaon"
+description: 'Mid-rapidity $(|y| < 0.1)$ identified particle spectra in Au+Au collisions at 62.4 GeV. The $p$ and $\bar{p}$ spectra are inclusive, including weak decay products. Spectra are plotted for nine centrality bins, from top to bottom, $0-5\%$ ,  $5-10\%$,  $10-20\%$,  $20-30\%$, $30-40\%$,  $40-50\%$,  $50-60\%$,  $60-70\%$, and $70-80\%$. Errors plotted are statistical and point-to-point systematic errors added in quadrature, but are smaller than the point size. The curves are the blast-wave model fits to the spectra; the normalizations of the curves in (a,b) are fixed by the corresponding negative particle spectra.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 19
+data_file: Fig19_AuAu62_spectra_kaon.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig19_AuAu62_spectra.gif", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig19_AuAu62_spectra.eps", description: Image file}
+- {location: Fig19_AuAu62_spectra.gif, description: Image file}
+- {location: thumb_Fig19_AuAu62_spectra.gif, description: Thumbnail Image file}
+name: "Figure 19: pion"
+description: 'Mid-rapidity $(|y| < 0.1)$ identified particle spectra in Au+Au collisions at 62.4 GeV. The $p$ and $\bar{p}$ spectra are inclusive, including weak decay products. Spectra are plotted for nine centrality bins, from top to bottom, $0-5\%$ ,  $5-10\%$,  $10-20\%$,  $20-30\%$, $30-40\%$,  $40-50\%$,  $50-60\%$,  $60-70\%$, and $70-80\%$. Errors plotted are statistical and point-to-point systematic errors added in quadrature, but are smaller than the point size. The curves are the blast-wave model fits to the spectra; the normalizations of the curves in (a,b) are fixed by the corresponding negative particle spectra.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 19
+data_file: Fig19_AuAu62_spectra_pion.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig19_AuAu62_spectra.gif", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig19_AuAu62_spectra.eps", description: Image file}
+- {location: Fig19_AuAu62_spectra.gif, description: Image file}
+- {location: thumb_Fig19_AuAu62_spectra.gif, description: Thumbnail Image file}
+name: "Figure 19: proton"
+description: 'Mid-rapidity $(|y| < 0.1)$ identified particle spectra in Au+Au collisions at 62.4 GeV. The $p$ and $\bar{p}$ spectra are inclusive, including weak decay products. Spectra are plotted for nine centrality bins, from top to bottom, $0-5\%$ ,  $5-10\%$,  $10-20\%$,  $20-30\%$, $30-40\%$,  $40-50\%$,  $50-60\%$,  $60-70\%$, and $70-80\%$. Errors plotted are statistical and point-to-point systematic errors added in quadrature, but are smaller than the point size. The curves are the blast-wave model fits to the spectra; the normalizations of the curves in (a,b) are fixed by the corresponding negative particle spectra.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 19
+data_file: Fig19_AuAu62_spectra_proton.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig20_AuAu130_spectra.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig20_AuAu130_spectra.gif", description: Image file}
+- {location: Fig20_AuAu130_spectra.gif, description: Image file}
+- {location: thumb_Fig20_AuAu130_spectra.gif, description: Thumbnail Image file}
+name: "Figure 20"
+description: 'Mid-rapidity $(|y| < 0.1)$  identified pion spectra in Au+Au collisions at 130 GeV. Spectra are plotted for eight centrality bins, from top to bottom,  $0-6\%$,  $6-11\%$,  $11-18\%$,  $18-26\%$,  $26-34\%$,  $34-45\%$,  $45-58%$, and  $58-85%$. Errors plotted are statistical and point-to-point systematic errors added in quadrature, but they are smaller than the data point size. The curves are the Bose-Einstein fits to the spectra; the normalizations of the curves are fixed by the corresponding negative particle spectra.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 20
+data_file: Fig20_AuAu130_spectra.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig24_Bj_energy_density.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig24_Bj_energy_density.gif", description: Image file}
+- {location: Fig24_Bj_energy_density.gif, description: Image file}
+- {location: thumb_Fig24_Bj_energy_density.gif, description: Thumbnail Image file}
+name: "Figure 24: Au+Au 62.4 GeV"
+description: 'Estimate of the product of the Bjorken energy density and the formation time ($\epsilon_{Bj} \dot \tau $) as a function of centrality $N_{part}$. Errors shown are the quadratic sum of statistical and systematic uncertainties.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 24
+data_file: Fig24_Bj_energy_density1.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig24_Bj_energy_density.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig24_Bj_energy_density.gif", description: Image file}
+- {location: Fig24_Bj_energy_density.gif, description: Image file}
+- {location: thumb_Fig24_Bj_energy_density.gif, description: Thumbnail Image file}
+name: "Figure 24: Au+Au 130 GeV"
+description: 'Estimate of the product of the Bjorken energy density and the formation time ($\epsilon_{Bj} \dot \tau $) as a function of centrality $N_{part}$. Errors shown are the quadratic sum of statistical and systematic uncertainties.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 24
+data_file: Fig24_Bj_energy_density2.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig24_Bj_energy_density.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig24_Bj_energy_density.gif", description: Image file}
+- {location: Fig24_Bj_energy_density.gif, description: Image file}
+- {location: thumb_Fig24_Bj_energy_density.gif, description: Thumbnail Image file}
+name: "Figure 24: Au+Au 200 GeV"
+description: 'Estimate of the product of the Bjorken energy density and the formation time ($\epsilon_{Bj} \dot \tau $) as a function of centrality $N_{part}$. Errors shown are the quadratic sum of statistical and systematic uncertainties.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 24
+data_file: Fig24_Bj_energy_density3.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig30a_k2pi_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig30a_k2pi_vs_roots.gif", description: Image file}
+- {location: Fig30a_k2pi_vs_roots.gif, description: Image file}
+- {location: thumb_Fig30a_k2pi_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 30a"
+description: '(a) The $K^+/\pi^+$ and $K^-/\pi^-$ ratios as a function of the collision energy in $pp$ and central heavy-ion collisions. (b) The $K^+/K^-$ ratio as a function of the collision energy in central heavy-ion collisions. The error bars on the heavy-ion data are the quadratic sum of statistical and systematic uncertainties, and are statistical only on the elementary collision data. The curves going through the heavy-ion $K^-/\pi^-$ and $K^+/K^-$ data are phenomenological fits. The curves going through the heavy-ion $K^+/\pi^+$ data are the product of the fit curves.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 30a
+data_file: Fig30a_k2pi_vs_roots.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig30b_kp2km_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig30b_kp2km_vs_roots.gif", description: Image file}
+- {location: Fig30b_kp2km_vs_roots.gif, description: Image file}
+- {location: thumb_Fig30b_kp2km_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 30b"
+description: '(a) The $K^+/\pi^+$ and $K^-/\pi^-$ ratios as a function of the collision energy in $pp$ and central heavy-ion collisions. (b) The $K^+/K^-$ ratio as a function of the collision energy in central heavy-ion collisions. The error bars on the heavy-ion data are the quadratic sum of statistical and systematic uncertainties, and are statistical only on the elementary collision data. The curves going through the heavy-ion $K^-/\pi^-$ and $K^+/K^-$ data are phenomenological fits. The curves going through the heavy-ion $K^+/\pi^+$ data are the product of the fit curves.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 30b
+data_file: Fig30b_kp2km_vs_roots.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig32_kpi_vs_Npart.eps", description: Image file}
+- {location: "http://drupal.star.bnl.gov/STAR/files/starpublications/124/Fig32_kpi_vs_Npart.png", description: Image file}
+- {location: Fig32_kpi_vs_Npart.png, description: Image file}
+- {location: thumb_Fig32_kpi_vs_Npart.png, description: Thumbnail Image file}
+name: "Figure 32: AGS E859 Si+Al 5.4 GeV"
+description: '(color online) The $K^−/\pi^−$ ratio as a function of the number of participants $N_{part}$ in heavy-ion collisions at the AGS, the SPS, and RHIC. Errors shown are the quadratic sum of statistical and systematic uncertainties for the RHIC data, and only statistical for the AGS and SPS data.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 32
+data_file: Fig32_kpi_vs_Npart1.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig32_kpi_vs_Npart.eps", description: Image file}
+- {location: "http://drupal.star.bnl.gov/STAR/files/starpublications/124/Fig32_kpi_vs_Npart.png", description: Image file}
+- {location: Fig32_kpi_vs_Npart.png, description: Image file}
+- {location: thumb_Fig32_kpi_vs_Npart.png, description: Thumbnail Image file}
+name: "Figure 32: AGS E866 Au+Au 4.7 GeV"
+description: '(color online) The $K^−/\pi^−$ ratio as a function of the number of participants $N_{part}$ in heavy-ion collisions at the AGS, the SPS, and RHIC. Errors shown are the quadratic sum of statistical and systematic uncertainties for the RHIC data, and only statistical for the AGS and SPS data.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 32
+data_file: Fig32_kpi_vs_Npart2.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig32_kpi_vs_Npart.eps", description: Image file}
+- {location: "http://drupal.star.bnl.gov/STAR/files/starpublications/124/Fig32_kpi_vs_Npart.png", description: Image file}
+- {location: Fig32_kpi_vs_Npart.png, description: Image file}
+- {location: thumb_Fig32_kpi_vs_Npart.png, description: Thumbnail Image file}
+name: "Figure 32: SPS NA49 Pb+Pb 17.3 GeV"
+description: '(color online) The $K^−/\pi^−$ ratio as a function of the number of participants $N_{part}$ in heavy-ion collisions at the AGS, the SPS, and RHIC. Errors shown are the quadratic sum of statistical and systematic uncertainties for the RHIC data, and only statistical for the AGS and SPS data.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 32
+data_file: Fig32_kpi_vs_Npart3.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig32_kpi_vs_Npart.eps", description: Image file}
+- {location: "http://drupal.star.bnl.gov/STAR/files/starpublications/124/Fig32_kpi_vs_Npart.png", description: Image file}
+- {location: Fig32_kpi_vs_Npart.png, description: Image file}
+- {location: thumb_Fig32_kpi_vs_Npart.png, description: Thumbnail Image file}
+name: "Figure 32: SPS NA49 Pb+Pb energy scan"
+description: '(color online) The $K^−/\pi^−$ ratio as a function of the number of participants $N_{part}$ in heavy-ion collisions at the AGS, the SPS, and RHIC. Errors shown are the quadratic sum of statistical and systematic uncertainties for the RHIC data, and only statistical for the AGS and SPS data.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 32
+data_file: Fig32_kpi_vs_Npart4.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig32_kpi_vs_Npart.eps", description: Image file}
+- {location: "http://drupal.star.bnl.gov/STAR/files/starpublications/124/Fig32_kpi_vs_Npart.png", description: Image file}
+- {location: Fig32_kpi_vs_Npart.png, description: Image file}
+- {location: thumb_Fig32_kpi_vs_Npart.png, description: Thumbnail Image file}
+name: "Figure 32: SPS NA49 S+S 20 GeV"
+description: '(color online) The $K^−/\pi^−$ ratio as a function of the number of participants $N_{part}$ in heavy-ion collisions at the AGS, the SPS, and RHIC. Errors shown are the quadratic sum of statistical and systematic uncertainties for the RHIC data, and only statistical for the AGS and SPS data.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 32
+data_file: Fig32_kpi_vs_Npart5.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig32_kpi_vs_Npart.eps", description: Image file}
+- {location: "http://drupal.star.bnl.gov/STAR/files/starpublications/124/Fig32_kpi_vs_Npart.png", description: Image file}
+- {location: Fig32_kpi_vs_Npart.png, description: Image file}
+- {location: thumb_Fig32_kpi_vs_Npart.png, description: Thumbnail Image file}
+name: "Figure 32: SPS NA49 C+C/Si+Si 17.3 GeV"
+description: '(color online) The $K^−/\pi^−$ ratio as a function of the number of participants $N_{part}$ in heavy-ion collisions at the AGS, the SPS, and RHIC. Errors shown are the quadratic sum of statistical and systematic uncertainties for the RHIC data, and only statistical for the AGS and SPS data.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 32
+data_file: Fig32_kpi_vs_Npart6.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig32_kpi_vs_Npart.eps", description: Image file}
+- {location: "http://drupal.star.bnl.gov/STAR/files/starpublications/124/Fig32_kpi_vs_Npart.png", description: Image file}
+- {location: Fig32_kpi_vs_Npart.png, description: Image file}
+- {location: thumb_Fig32_kpi_vs_Npart.png, description: Thumbnail Image file}
+name: "Figure 32: STAR Au+Au 62.4 GeV"
+description: '(color online) The $K^−/\pi^−$ ratio as a function of the number of participants $N_{part}$ in heavy-ion collisions at the AGS, the SPS, and RHIC. Errors shown are the quadratic sum of statistical and systematic uncertainties for the RHIC data, and only statistical for the AGS and SPS data.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 32
+data_file: Fig32_kpi_vs_Npart7.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig32_kpi_vs_Npart.eps", description: Image file}
+- {location: "http://drupal.star.bnl.gov/STAR/files/starpublications/124/Fig32_kpi_vs_Npart.png", description: Image file}
+- {location: Fig32_kpi_vs_Npart.png, description: Image file}
+- {location: thumb_Fig32_kpi_vs_Npart.png, description: Thumbnail Image file}
+name: "Figure 32: STAR Au+Au 130 GeV"
+description: '(color online) The $K^−/\pi^−$ ratio as a function of the number of participants $N_{part}$ in heavy-ion collisions at the AGS, the SPS, and RHIC. Errors shown are the quadratic sum of statistical and systematic uncertainties for the RHIC data, and only statistical for the AGS and SPS data.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 32
+data_file: Fig32_kpi_vs_Npart8.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig32_kpi_vs_Npart.eps", description: Image file}
+- {location: "http://drupal.star.bnl.gov/STAR/files/starpublications/124/Fig32_kpi_vs_Npart.png", description: Image file}
+- {location: Fig32_kpi_vs_Npart.png, description: Image file}
+- {location: thumb_Fig32_kpi_vs_Npart.png, description: Thumbnail Image file}
+name: "Figure 32: STAR Au+Au 200 GeV"
+description: '(color online) The $K^−/\pi^−$ ratio as a function of the number of participants $N_{part}$ in heavy-ion collisions at the AGS, the SPS, and RHIC. Errors shown are the quadratic sum of statistical and systematic uncertainties for the RHIC data, and only statistical for the AGS and SPS data.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 32
+data_file: Fig32_kpi_vs_Npart9.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig33_kpi.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig33_kpi.gif", description: Image file}
+- {location: Fig33_kpi.gif, description: Image file}
+- {location: thumb_Fig33_kpi.gif, description: Thumbnail Image file}
+name: "Figure 33: AGS E859 Si+Al 5.4 GeV"
+description: '(color online) The $K^-/\pi^-$ ratio as a function of $\frac{dN_{\pi}/dy} {S_{\perp}}$ in heavy-ion collisions at the AGS, the SPS, and RHIC. Errors shown are the quadratic sum of statistical and systematic uncertainties for the RHIC data, and statistical only for the AGS and SPS data.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 33
+data_file: Fig33_kpi1.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig33_kpi.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig33_kpi.gif", description: Image file}
+- {location: Fig33_kpi.gif, description: Image file}
+- {location: thumb_Fig33_kpi.gif, description: Thumbnail Image file}
+name: "Figure 33: AGS E866 Au+Au 4.7 GeV"
+description: '(color online) The $K^-/\pi^-$ ratio as a function of $\frac{dN_{\pi}/dy} {S_{\perp}}$ in heavy-ion collisions at the AGS, the SPS, and RHIC. Errors shown are the quadratic sum of statistical and systematic uncertainties for the RHIC data, and statistical only for the AGS and SPS data.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 33
+data_file: Fig33_kpi2.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig33_kpi.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig33_kpi.gif", description: Image file}
+- {location: Fig33_kpi.gif, description: Image file}
+- {location: thumb_Fig33_kpi.gif, description: Thumbnail Image file}
+name: "Figure 33: SPS NA49 Pb+Pb 17.3 GeV"
+description: '(color online) The $K^-/\pi^-$ ratio as a function of $\frac{dN_{\pi}/dy} {S_{\perp}}$ in heavy-ion collisions at the AGS, the SPS, and RHIC. Errors shown are the quadratic sum of statistical and systematic uncertainties for the RHIC data, and statistical only for the AGS and SPS data.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 33
+data_file: Fig33_kpi3.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig33_kpi.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig33_kpi.gif", description: Image file}
+- {location: Fig33_kpi.gif, description: Image file}
+- {location: thumb_Fig33_kpi.gif, description: Thumbnail Image file}
+name: "Figure 33: SPS NA49 Pb+Pb energy scan"
+description: '(color online) The $K^-/\pi^-$ ratio as a function of $\frac{dN_{\pi}/dy} {S_{\perp}}$ in heavy-ion collisions at the AGS, the SPS, and RHIC. Errors shown are the quadratic sum of statistical and systematic uncertainties for the RHIC data, and statistical only for the AGS and SPS data.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 33
+data_file: Fig33_kpi4.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig33_kpi.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig33_kpi.gif", description: Image file}
+- {location: Fig33_kpi.gif, description: Image file}
+- {location: thumb_Fig33_kpi.gif, description: Thumbnail Image file}
+name: "Figure 33: SPS NA49 S+S 20 GeV"
+description: '(color online) The $K^-/\pi^-$ ratio as a function of $\frac{dN_{\pi}/dy} {S_{\perp}}$ in heavy-ion collisions at the AGS, the SPS, and RHIC. Errors shown are the quadratic sum of statistical and systematic uncertainties for the RHIC data, and statistical only for the AGS and SPS data.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 33
+data_file: Fig33_kpi5.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig33_kpi.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig33_kpi.gif", description: Image file}
+- {location: Fig33_kpi.gif, description: Image file}
+- {location: thumb_Fig33_kpi.gif, description: Thumbnail Image file}
+name: "Figure 33: SPS NA49 C+C/Si+Si 17.3 GeV"
+description: '(color online) The $K^-/\pi^-$ ratio as a function of $\frac{dN_{\pi}/dy} {S_{\perp}}$ in heavy-ion collisions at the AGS, the SPS, and RHIC. Errors shown are the quadratic sum of statistical and systematic uncertainties for the RHIC data, and statistical only for the AGS and SPS data.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 33
+data_file: Fig33_kpi6.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig33_kpi.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig33_kpi.gif", description: Image file}
+- {location: Fig33_kpi.gif, description: Image file}
+- {location: thumb_Fig33_kpi.gif, description: Thumbnail Image file}
+name: "Figure 33: STAR Au+Au 62.4 GeV"
+description: '(color online) The $K^-/\pi^-$ ratio as a function of $\frac{dN_{\pi}/dy} {S_{\perp}}$ in heavy-ion collisions at the AGS, the SPS, and RHIC. Errors shown are the quadratic sum of statistical and systematic uncertainties for the RHIC data, and statistical only for the AGS and SPS data.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 33
+data_file: Fig33_kpi7.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig33_kpi.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig33_kpi.gif", description: Image file}
+- {location: Fig33_kpi.gif, description: Image file}
+- {location: thumb_Fig33_kpi.gif, description: Thumbnail Image file}
+name: "Figure 33: STAR Au+Au 130 GeV"
+description: '(color online) The $K^-/\pi^-$ ratio as a function of $\frac{dN_{\pi}/dy} {S_{\perp}}$ in heavy-ion collisions at the AGS, the SPS, and RHIC. Errors shown are the quadratic sum of statistical and systematic uncertainties for the RHIC data, and statistical only for the AGS and SPS data.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 33
+data_file: Fig33_kpi8.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig33_kpi.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig33_kpi.gif", description: Image file}
+- {location: Fig33_kpi.gif, description: Image file}
+- {location: thumb_Fig33_kpi.gif, description: Thumbnail Image file}
+name: "Figure 33: STAR Au+Au 200 GeV"
+description: '(color online) The $K^-/\pi^-$ ratio as a function of $\frac{dN_{\pi}/dy} {S_{\perp}}$ in heavy-ion collisions at the AGS, the SPS, and RHIC. Errors shown are the quadratic sum of statistical and systematic uncertainties for the RHIC data, and statistical only for the AGS and SPS data.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 33
+data_file: Fig33_kpi9.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig38_muB_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig38_muB_vs_roots.gif", description: Image file}
+- {location: Fig38_muB_vs_roots.gif, description: Image file}
+- {location: thumb_Fig38_muB_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 38: Becattini et al."
+description: 'Baryon chemical potential extracted for central heavy-ion collisions as a function of the collision energy. STAR 62.4 GeV and 130 GeV data are from this work; the 200 GeV data are from Ref. [17]. Other data are from SIS, AGS. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 38
+data_file: Fig38_muB_vs_roots1.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig38_muB_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig38_muB_vs_roots.gif", description: Image file}
+- {location: Fig38_muB_vs_roots.gif, description: Image file}
+- {location: thumb_Fig38_muB_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 38: Andronic et al."
+description: 'Baryon chemical potential extracted for central heavy-ion collisions as a function of the collision energy. STAR 62.4 GeV and 130 GeV data are from this work; the 200 GeV data are from Ref. [17]. Other data are from SIS, AGS. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 38
+data_file: Fig38_muB_vs_roots2.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig38_muB_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig38_muB_vs_roots.gif", description: Image file}
+- {location: Fig38_muB_vs_roots.gif, description: Image file}
+- {location: thumb_Fig38_muB_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 38: SIS"
+description: 'Baryon chemical potential extracted for central heavy-ion collisions as a function of the collision energy. STAR 62.4 GeV and 130 GeV data are from this work; the 200 GeV data are from Ref. [17]. Other data are from SIS, AGS. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 38
+data_file: Fig38_muB_vs_roots3.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig38_muB_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig38_muB_vs_roots.gif", description: Image file}
+- {location: Fig38_muB_vs_roots.gif, description: Image file}
+- {location: thumb_Fig38_muB_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 38: AGS"
+description: 'Baryon chemical potential extracted for central heavy-ion collisions as a function of the collision energy. STAR 62.4 GeV and 130 GeV data are from this work; the 200 GeV data are from Ref. [17]. Other data are from SIS, AGS. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 38
+data_file: Fig38_muB_vs_roots4.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig38_muB_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig38_muB_vs_roots.gif", description: Image file}
+- {location: Fig38_muB_vs_roots.gif, description: Image file}
+- {location: thumb_Fig38_muB_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 38: SPS"
+description: 'Baryon chemical potential extracted for central heavy-ion collisions as a function of the collision energy. STAR 62.4 GeV and 130 GeV data are from this work; the 200 GeV data are from Ref. [17]. Other data are from SIS, AGS. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 38
+data_file: Fig38_muB_vs_roots5.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig38_muB_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig38_muB_vs_roots.gif", description: Image file}
+- {location: Fig38_muB_vs_roots.gif, description: Image file}
+- {location: thumb_Fig38_muB_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 38: STAR"
+description: 'Baryon chemical potential extracted for central heavy-ion collisions as a function of the collision energy. STAR 62.4 GeV and 130 GeV data are from this work; the 200 GeV data are from Ref. [17]. Other data are from SIS, AGS. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 38
+data_file: Fig38_muB_vs_roots6.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.gif", description: Image file}
+- {location: Fig39_Tch_Tkin_vs_roots.gif, description: Image file}
+- {location: thumb_Fig39_Tch_Tkin_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 39: Elementary collisions Becattini et al."
+description: '(color online) The extracted chemical (open symbols) and kinetic (filled symbols) freeze-out temperatures for central heavy-ion collisions as a function of the collision energy. The STAR 62.4 GeV and 130 GeV data are from this work; the STAR 200 GeV data are from Ref. [17]. The other kinetic freeze-out results are from FOPI, EOS, E866, and NA49. The other chemical freezeout data are from SIS, AGS, SPS. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 39
+data_file: Fig39_Tch_Tkin_vs_roots1.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.gif", description: Image file}
+- {location: Fig39_Tch_Tkin_vs_roots.gif, description: Image file}
+- {location: thumb_Fig39_Tch_Tkin_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 39: Becattini et al."
+description: '(color online) The extracted chemical (open symbols) and kinetic (filled symbols) freeze-out temperatures for central heavy-ion collisions as a function of the collision energy. The STAR 62.4 GeV and 130 GeV data are from this work; the STAR 200 GeV data are from Ref. [17]. The other kinetic freeze-out results are from FOPI, EOS, E866, and NA49. The other chemical freezeout data are from SIS, AGS, SPS. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 39
+data_file: Fig39_Tch_Tkin_vs_roots2.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.gif", description: Image file}
+- {location: Fig39_Tch_Tkin_vs_roots.gif, description: Image file}
+- {location: thumb_Fig39_Tch_Tkin_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 39: Andronic et al."
+description: '(color online) The extracted chemical (open symbols) and kinetic (filled symbols) freeze-out temperatures for central heavy-ion collisions as a function of the collision energy. The STAR 62.4 GeV and 130 GeV data are from this work; the STAR 200 GeV data are from Ref. [17]. The other kinetic freeze-out results are from FOPI, EOS, E866, and NA49. The other chemical freezeout data are from SIS, AGS, SPS. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 39
+data_file: Fig39_Tch_Tkin_vs_roots3.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.gif", description: Image file}
+- {location: Fig39_Tch_Tkin_vs_roots.gif, description: Image file}
+- {location: thumb_Fig39_Tch_Tkin_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 39: SIS"
+description: '(color online) The extracted chemical (open symbols) and kinetic (filled symbols) freeze-out temperatures for central heavy-ion collisions as a function of the collision energy. The STAR 62.4 GeV and 130 GeV data are from this work; the STAR 200 GeV data are from Ref. [17]. The other kinetic freeze-out results are from FOPI, EOS, E866, and NA49. The other chemical freezeout data are from SIS, AGS, SPS. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 39
+data_file: Fig39_Tch_Tkin_vs_roots4.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.gif", description: Image file}
+- {location: Fig39_Tch_Tkin_vs_roots.gif, description: Image file}
+- {location: thumb_Fig39_Tch_Tkin_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 39: AGS"
+description: '(color online) The extracted chemical (open symbols) and kinetic (filled symbols) freeze-out temperatures for central heavy-ion collisions as a function of the collision energy. The STAR 62.4 GeV and 130 GeV data are from this work; the STAR 200 GeV data are from Ref. [17]. The other kinetic freeze-out results are from FOPI, EOS, E866, and NA49. The other chemical freezeout data are from SIS, AGS, SPS. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 39
+data_file: Fig39_Tch_Tkin_vs_roots5.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.gif", description: Image file}
+- {location: Fig39_Tch_Tkin_vs_roots.gif, description: Image file}
+- {location: thumb_Fig39_Tch_Tkin_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 39 SPS"
+description: '(color online) The extracted chemical (open symbols) and kinetic (filled symbols) freeze-out temperatures for central heavy-ion collisions as a function of the collision energy. The STAR 62.4 GeV and 130 GeV data are from this work; the STAR 200 GeV data are from Ref. [17]. The other kinetic freeze-out results are from FOPI, EOS, E866, and NA49. The other chemical freezeout data are from SIS, AGS, SPS. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 39
+data_file: Fig39_Tch_Tkin_vs_roots6.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.gif", description: Image file}
+- {location: Fig39_Tch_Tkin_vs_roots.gif, description: Image file}
+- {location: thumb_Fig39_Tch_Tkin_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 39 STAR pp"
+description: '(color online) The extracted chemical (open symbols) and kinetic (filled symbols) freeze-out temperatures for central heavy-ion collisions as a function of the collision energy. The STAR 62.4 GeV and 130 GeV data are from this work; the STAR 200 GeV data are from Ref. [17]. The other kinetic freeze-out results are from FOPI, EOS, E866, and NA49. The other chemical freezeout data are from SIS, AGS, SPS. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 39
+data_file: Fig39_Tch_Tkin_vs_roots7.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.gif", description: Image file}
+- {location: Fig39_Tch_Tkin_vs_roots.gif, description: Image file}
+- {location: thumb_Fig39_Tch_Tkin_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 39: STAR Tchem"
+description: '(color online) The extracted chemical (open symbols) and kinetic (filled symbols) freeze-out temperatures for central heavy-ion collisions as a function of the collision energy. The STAR 62.4 GeV and 130 GeV data are from this work; the STAR 200 GeV data are from Ref. [17]. The other kinetic freeze-out results are from FOPI, EOS, E866, and NA49. The other chemical freezeout data are from SIS, AGS, SPS. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 39
+data_file: Fig39_Tch_Tkin_vs_roots8.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.gif", description: Image file}
+- {location: Fig39_Tch_Tkin_vs_roots.gif, description: Image file}
+- {location: thumb_Fig39_Tch_Tkin_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 39: EOS"
+description: '(color online) The extracted chemical (open symbols) and kinetic (filled symbols) freeze-out temperatures for central heavy-ion collisions as a function of the collision energy. The STAR 62.4 GeV and 130 GeV data are from this work; the STAR 200 GeV data are from Ref. [17]. The other kinetic freeze-out results are from FOPI, EOS, E866, and NA49. The other chemical freezeout data are from SIS, AGS, SPS. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 39
+data_file: Fig39_Tch_Tkin_vs_roots9.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.gif", description: Image file}
+- {location: Fig39_Tch_Tkin_vs_roots.gif, description: Image file}
+- {location: thumb_Fig39_Tch_Tkin_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 39: FOPI"
+description: '(color online) The extracted chemical (open symbols) and kinetic (filled symbols) freeze-out temperatures for central heavy-ion collisions as a function of the collision energy. The STAR 62.4 GeV and 130 GeV data are from this work; the STAR 200 GeV data are from Ref. [17]. The other kinetic freeze-out results are from FOPI, EOS, E866, and NA49. The other chemical freezeout data are from SIS, AGS, SPS. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 39
+data_file: Fig39_Tch_Tkin_vs_roots10.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.gif", description: Image file}
+- {location: Fig39_Tch_Tkin_vs_roots.gif, description: Image file}
+- {location: thumb_Fig39_Tch_Tkin_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 39: E866"
+description: '(color online) The extracted chemical (open symbols) and kinetic (filled symbols) freeze-out temperatures for central heavy-ion collisions as a function of the collision energy. The STAR 62.4 GeV and 130 GeV data are from this work; the STAR 200 GeV data are from Ref. [17]. The other kinetic freeze-out results are from FOPI, EOS, E866, and NA49. The other chemical freezeout data are from SIS, AGS, SPS. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 39
+data_file: Fig39_Tch_Tkin_vs_roots11.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.gif", description: Image file}
+- {location: Fig39_Tch_Tkin_vs_roots.gif, description: Image file}
+- {location: thumb_Fig39_Tch_Tkin_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 39: NA49"
+description: '(color online) The extracted chemical (open symbols) and kinetic (filled symbols) freeze-out temperatures for central heavy-ion collisions as a function of the collision energy. The STAR 62.4 GeV and 130 GeV data are from this work; the STAR 200 GeV data are from Ref. [17]. The other kinetic freeze-out results are from FOPI, EOS, E866, and NA49. The other chemical freezeout data are from SIS, AGS, SPS. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 39
+data_file: Fig39_Tch_Tkin_vs_roots12.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig39_Tch_Tkin_vs_roots.gif", description: Image file}
+- {location: Fig39_Tch_Tkin_vs_roots.gif, description: Image file}
+- {location: thumb_Fig39_Tch_Tkin_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 39: STAR Tkin"
+description: '(color online) The extracted chemical (open symbols) and kinetic (filled symbols) freeze-out temperatures for central heavy-ion collisions as a function of the collision energy. The STAR 62.4 GeV and 130 GeV data are from this work; the STAR 200 GeV data are from Ref. [17]. The other kinetic freeze-out results are from FOPI, EOS, E866, and NA49. The other chemical freezeout data are from SIS, AGS, SPS. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 39
+data_file: Fig39_Tch_Tkin_vs_roots13.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig40_beta_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig40_beta_vs_roots.gif", description: Image file}
+- {location: Fig40_beta_vs_roots.gif, description: Image file}
+- {location: thumb_Fig40_beta_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 40: FOPI"
+description: 'Average transverse radial flow velocity extracted from the blast-wave model for central heavy-ion collisions as a function of the collision energy. The STAR 62.4 GeV and 130 GeV data are from this work, and the STAR 200 GeV $pp$ and Au+Au data from Ref. [17]. The other data are from FOPI, EOS, E866, and NA49. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 40
+data_file: Fig40_beta_vs_roots1.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig40_beta_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig40_beta_vs_roots.gif", description: Image file}
+- {location: Fig40_beta_vs_roots.gif, description: Image file}
+- {location: thumb_Fig40_beta_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 40: EOS"
+description: 'Average transverse radial flow velocity extracted from the blast-wave model for central heavy-ion collisions as a function of the collision energy. The STAR 62.4 GeV and 130 GeV data are from this work, and the STAR 200 GeV $pp$ and Au+Au data from Ref. [17]. The other data are from FOPI, EOS, E866, and NA49. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 40
+data_file: Fig40_beta_vs_roots2.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig40_beta_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig40_beta_vs_roots.gif", description: Image file}
+- {location: Fig40_beta_vs_roots.gif, description: Image file}
+- {location: thumb_Fig40_beta_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 40: E866"
+description: 'Average transverse radial flow velocity extracted from the blast-wave model for central heavy-ion collisions as a function of the collision energy. The STAR 62.4 GeV and 130 GeV data are from this work, and the STAR 200 GeV $pp$ and Au+Au data from Ref. [17]. The other data are from FOPI, EOS, E866, and NA49. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 40
+data_file: Fig40_beta_vs_roots3.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig40_beta_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig40_beta_vs_roots.gif", description: Image file}
+- {location: Fig40_beta_vs_roots.gif, description: Image file}
+- {location: thumb_Fig40_beta_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 40: NA49"
+description: 'Average transverse radial flow velocity extracted from the blast-wave model for central heavy-ion collisions as a function of the collision energy. The STAR 62.4 GeV and 130 GeV data are from this work, and the STAR 200 GeV $pp$ and Au+Au data from Ref. [17]. The other data are from FOPI, EOS, E866, and NA49. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 40
+data_file: Fig40_beta_vs_roots4.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig40_beta_vs_roots.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig40_beta_vs_roots.gif", description: Image file}
+- {location: Fig40_beta_vs_roots.gif, description: Image file}
+- {location: thumb_Fig40_beta_vs_roots.gif, description: Thumbnail Image file}
+name: "Figure 40: STAR"
+description: 'Average transverse radial flow velocity extracted from the blast-wave model for central heavy-ion collisions as a function of the collision energy. The STAR 62.4 GeV and 130 GeV data are from this work, and the STAR 200 GeV $pp$ and Au+Au data from Ref. [17]. The other data are from FOPI, EOS, E866, and NA49. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 40
+data_file: Fig40_beta_vs_roots5.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.gif", description: Image file}
+- {location: Fig41_phase_diag_Tch_vs_muB.gif, description: Image file}
+- {location: thumb_Fig41_phase_diag_Tch_vs_muB.gif, description: Thumbnail Image file}
+name: "Figure 41: mu Andronic et al."
+description: '(color online) Phase diagram plot of chemical freezeout temperature versus baryon chemical potential extracted from chemical equilibrium models. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 41
+data_file: Fig41_phase_diag_muB1.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.gif", description: Image file}
+- {location: Fig41_phase_diag_Tch_vs_muB.gif, description: Image file}
+- {location: thumb_Fig41_phase_diag_Tch_vs_muB.gif, description: Thumbnail Image file}
+name: "Figure 41: mu SIS"
+description: '(color online) Phase diagram plot of chemical freezeout temperature versus baryon chemical potential extracted from chemical equilibrium models. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 41
+data_file: Fig41_phase_diag_muB2.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.gif", description: Image file}
+- {location: Fig41_phase_diag_Tch_vs_muB.gif, description: Image file}
+- {location: thumb_Fig41_phase_diag_Tch_vs_muB.gif, description: Thumbnail Image file}
+name: "Figure 41: mu AGS 4.8 GeV"
+description: '(color online) Phase diagram plot of chemical freezeout temperature versus baryon chemical potential extracted from chemical equilibrium models. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 41
+data_file: Fig41_phase_diag_muB3.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.gif", description: Image file}
+- {location: Fig41_phase_diag_Tch_vs_muB.gif, description: Image file}
+- {location: thumb_Fig41_phase_diag_Tch_vs_muB.gif, description: Thumbnail Image file}
+name: "Figure 41: mu SPS"
+description: '(color online) Phase diagram plot of chemical freezeout temperature versus baryon chemical potential extracted from chemical equilibrium models. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 41
+data_file: Fig41_phase_diag_muB4.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.gif", description: Image file}
+- {location: Fig41_phase_diag_Tch_vs_muB.gif, description: Image file}
+- {location: thumb_Fig41_phase_diag_Tch_vs_muB.gif, description: Thumbnail Image file}
+name: "Figure 41: mu STAR Au+Au"
+description: '(color online) Phase diagram plot of chemical freezeout temperature versus baryon chemical potential extracted from chemical equilibrium models. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 41
+data_file: Fig41_phase_diag_muB5.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.gif", description: Image file}
+- {location: Fig41_phase_diag_Tch_vs_muB.gif, description: Image file}
+- {location: thumb_Fig41_phase_diag_Tch_vs_muB.gif, description: Thumbnail Image file}
+name: "Figure 41: mu STAR pp 200 GeV"
+description: '(color online) Phase diagram plot of chemical freezeout temperature versus baryon chemical potential extracted from chemical equilibrium models. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 41
+data_file: Fig41_phase_diag_muB6.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.gif", description: Image file}
+- {location: Fig41_phase_diag_Tch_vs_muB.gif, description: Image file}
+- {location: thumb_Fig41_phase_diag_Tch_vs_muB.gif, description: Thumbnail Image file}
+name: "Figure 41: Tch Andronic et al."
+description: '(color online) Phase diagram plot of chemical freezeout temperature versus baryon chemical potential extracted from chemical equilibrium models. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 41
+data_file: Fig41_phase_diag_Tch1.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.gif", description: Image file}
+- {location: Fig41_phase_diag_Tch_vs_muB.gif, description: Image file}
+- {location: thumb_Fig41_phase_diag_Tch_vs_muB.gif, description: Thumbnail Image file}
+name: "Figure 41: Tch SIS"
+description: '(color online) Phase diagram plot of chemical freezeout temperature versus baryon chemical potential extracted from chemical equilibrium models. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 41
+data_file: Fig41_phase_diag_Tch2.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.gif", description: Image file}
+- {location: Fig41_phase_diag_Tch_vs_muB.gif, description: Image file}
+- {location: thumb_Fig41_phase_diag_Tch_vs_muB.gif, description: Thumbnail Image file}
+name: "Figure 41: Tch AGS 4.8 GeV"
+description: '(color online) Phase diagram plot of chemical freezeout temperature versus baryon chemical potential extracted from chemical equilibrium models. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 41
+data_file: Fig41_phase_diag_Tch3.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.gif", description: Image file}
+- {location: Fig41_phase_diag_Tch_vs_muB.gif, description: Image file}
+- {location: thumb_Fig41_phase_diag_Tch_vs_muB.gif, description: Thumbnail Image file}
+name: "Figure 41: Tch SPS"
+description: '(color online) Phase diagram plot of chemical freezeout temperature versus baryon chemical potential extracted from chemical equilibrium models. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 41
+data_file: Fig41_phase_diag_Tch4.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.gif", description: Image file}
+- {location: Fig41_phase_diag_Tch_vs_muB.gif, description: Image file}
+- {location: thumb_Fig41_phase_diag_Tch_vs_muB.gif, description: Thumbnail Image file}
+name: "Figure 41: Tch STAR Au+Au"
+description: '(color online) Phase diagram plot of chemical freezeout temperature versus baryon chemical potential extracted from chemical equilibrium models. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 41
+data_file: Fig41_phase_diag_Tch5.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig41_phase_diag_Tch_vs_muB.gif", description: Image file}
+- {location: Fig41_phase_diag_Tch_vs_muB.gif, description: Image file}
+- {location: thumb_Fig41_phase_diag_Tch_vs_muB.gif, description: Thumbnail Image file}
+name: "Figure 41: Tch STAR pp 200 GeV"
+description: '(color online) Phase diagram plot of chemical freezeout temperature versus baryon chemical potential extracted from chemical equilibrium models. Errors shown are the total statistical and systematic errors.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 41
+data_file: Fig41_phase_diag_Tch6.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig42_dsigmadb.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig42_dsigmadb.gif", description: Image file}
+- {location: Fig42_dsigmadb.gif, description: Image file}
+- {location: thumb_Fig42_dsigmadb.gif, description: Thumbnail Image file}
+name: "Figure 42: Optical Glauber"
+description: 'Differential cross-sections obtained from the optical and MC Glauber calculations for Au+Au collisions at 200 GeV. Statistical errors are smaller than the point size.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 42
+data_file: Fig42_dsigmadb1.yaml
+---
+additional_resources:
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig42_dsigmadb.eps", description: Image file}
+- {location: "https://drupal.star.bnl.gov/STAR/files/starpublications/124/data_html/Fig42_dsigmadb.gif", description: Image file}
+- {location: Fig42_dsigmadb.gif, description: Image file}
+- {location: thumb_Fig42_dsigmadb.gif, description: Thumbnail Image file}
+name: "Figure 42: MC Glauber"
+description: 'Differential cross-sections obtained from the optical and MC Glauber calculations for Au+Au collisions at 200 GeV. Statistical errors are smaller than the point size.'
+keywords:
+ - {name: reactions, values: [AU AU --> CHARGED X]}
+ - {name: cmenergies, values: [200.0]}
+location: Data from Figure 42
+data_file: Fig42_dsigmadb2.yaml

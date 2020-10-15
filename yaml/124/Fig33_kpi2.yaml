@@ -1,0 +1,36 @@
+independent_variables:
+- header: {name: '$(dN_{\pi}/dy)/S_{\prep}[fm^{-2}]$'}
+  values:
+  - {value: 0.3}
+  - {value: 0.5}
+  - {value: 0.7}
+  - {value: 0.8}
+  - {value: 0.9}
+  - {value: 0.9}
+  - {value: 0.9}
+dependent_variables:
+- header: {name: '$K^-/pi^-$'}
+  qualifiers:
+  - {name: '$(dN_{\pi}/dy)/S_{\prep}[fm^{-2}]$', value: 'AGS E866 Au+Au 4.7 GeV'}
+  values:
+  - value: 0.0293
+    errors:
+    - {symerror: 0.0054, label: 'error'}
+  - value: 0.0327
+    errors:
+    - {symerror: 0.0030, label: 'error'}
+  - value: 0.0432
+    errors:
+    - {symerror: 0.0034, label: 'error'}
+  - value: 0.0401
+    errors:
+    - {symerror: 0.0042, label: 'error'}
+  - value: 0.0398
+    errors:
+    - {symerror: 0.0044, label: 'error'}
+  - value: 0.0387
+    errors:
+    - {symerror: 0.0049, label: 'error'}
+  - value: 0.0481
+    errors:
+    - {symerror: 0.0045, label: 'error'}
