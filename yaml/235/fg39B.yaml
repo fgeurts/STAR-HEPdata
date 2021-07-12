@@ -1,0 +1,68 @@
+independent_variables:
+- header: {name: '$M{ee}$'}
+  values:
+  - {value: 8.95000E-01}
+  - {value: 9.25000E-01}
+  - {value: 9.55000E-01}
+  - {value: 9.80000E-01}
+  - {value: 9.95000E-01}
+  - {value: 1.00500E+00}
+  - {value: 1.01200E+00}
+  - {value: 1.01800E+00}
+  - {value: 1.02200E+00}
+  - {value: 1.02800E+00}
+  - {value: 1.03500E+00}
+  - {value: 1.05500E+00}
+  - {value: 1.09000E+00}
+  - {value: 1.13000E+00}
+  - {value: 1.17000E+00}
+dependent_variables:
+- header: {name: '$dN/dM_{ee} \phi$'}
+  qualifiers:
+  - {name: '$M{ee}$', value: 'Phi-Meson Invariant-Mass Distribution'}
+  values:
+  - value: 4.76400E-04
+    errors:
+    - {symerror: 1.11800E-04, label: 'stat.'}
+  - value: 5.05900E-04
+    errors:
+    - {symerror: 1.06400E-04, label: 'stat.'}
+  - value: 5.25100E-04
+    errors:
+    - {symerror: 1.01100E-04, label: 'stat.'}
+  - value: 7.01200E-04
+    errors:
+    - {symerror: 1.18800E-04, label: 'stat.'}
+  - value: 8.96500E-04
+    errors:
+    - {symerror: 1.64000E-04, label: 'stat.'}
+  - value: 1.32700E-03
+    errors:
+    - {symerror: 1.61600E-04, label: 'stat.'}
+  - value: 2.83500E-03
+    errors:
+    - {symerror: 2.27600E-04, label: 'stat.'}
+  - value: 3.42500E-03
+    errors:
+    - {symerror: 2.26500E-04, label: 'stat.'}
+  - value: 2.80200E-03
+    errors:
+    - {symerror: 2.23900E-04, label: 'stat.'}
+  - value: 1.66200E-03
+    errors:
+    - {symerror: 2.20400E-04, label: 'stat.'}
+  - value: 6.06100E-04
+    errors:
+    - {symerror: 1.52900E-04, label: 'stat.'}
+  - value: 2.51700E-04
+    errors:
+    - {symerror: 8.51100E-05, label: 'stat.'}
+  - value: 3.98700E-04
+    errors:
+    - {symerror: 6.94800E-05, label: 'stat.'}
+  - value: 2.40200E-04
+    errors:
+    - {symerror: 6.48100E-05, label: 'stat.'}
+  - value: 1.82400E-04
+    errors:
+    - {symerror: 6.04900E-05, label: 'stat.'}

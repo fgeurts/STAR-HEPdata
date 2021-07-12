@@ -1,0 +1,68 @@
+independent_variables:
+- header: {name: '$M{ee} (GeV/c^2)$'}
+  values:
+  - {low: 0.4, high: 0.52}
+  - {low: 0.52, high: 0.76}
+  - {low: 0.76, high: 0.96}
+  - {low: 0.96, high: 1.2}
+  - {low: 1.2, high: 1.8}
+  - {low: 1.8, high: 2.6}
+  - {low: 2.6, high: 3}
+  - {low: 3, high: 3.08}
+  - {low: 3.08, high: 3.11}
+  - {low: 3.11, high: 3.2}
+  - {low: 3.2, high: 3.6}
+  - {low: 3.6, high: 4}
+dependent_variables:
+- header: {name: 'data/cocktail (10-40% U+U collisions)'}
+  qualifiers:
+  - {name: '$M{ee} (GeV/c^2)$', value: 'Ratio of Data over Cocktail (10-40% U+U collisions)'}
+  values:
+  - value: 4.71000E+00
+    errors:
+    - {symerror: 1.91000E+00, label: 'statErr'}
+    - {symerror: 8.30000E-01, label: 'sysErr'}
+  - value: 2.64000E+00
+    errors:
+    - {symerror: 1.02000E+00, label: 'statErr'}
+    - {symerror: 2.90000E-01, label: 'sysErr'}
+  - value: 1.00000E+00
+    errors:
+    - {symerror: 6.90000E-01, label: 'statErr'}
+    - {symerror: 1.10000E-01, label: 'sysErr'}
+  - value: 1.36000E+00
+    errors:
+    - {symerror: 7.30000E-01, label: 'statErr'}
+    - {symerror: 1.50000E-01, label: 'sysErr'}
+  - value: 1.19000E+00
+    errors:
+    - {symerror: 1.45000E+00, label: 'statErr'}
+    - {symerror: 1.70000E-01, label: 'sysErr'}
+  - value: 2.27000E+00
+    errors:
+    - {symerror: 2.58000E+00, label: 'statErr'}
+    - {symerror: 3.20000E-01, label: 'sysErr'}
+  - value: 5.40000E+00
+    errors:
+    - {symerror: 3.78000E+00, label: 'statErr'}
+    - {symerror: 6.30000E-01, label: 'sysErr'}
+  - value: 3.07000E+00
+    errors:
+    - {symerror: 2.16000E+00, label: 'statErr'}
+    - {symerror: 3.40000E-01, label: 'sysErr'}
+  - value: 7.32000E+00
+    errors:
+    - {symerror: 1.88000E+00, label: 'statErr'}
+    - {symerror: 7.90000E-01, label: 'sysErr'}
+  - value: 1.01000E+00
+    errors:
+    - {symerror: 2.87000E+00, label: 'statErr'}
+    - {symerror: 2.10000E-01, label: 'sysErr'}
+  - value: 2.45000E+00
+    errors:
+    - {symerror: 5.66000E+00, label: 'statErr'}
+    - {symerror: 2.70000E-01, label: 'sysErr'}
+  - value: -2.99000E+00
+    errors:
+    - {symerror: 6.56000E+00, label: 'statErr'}
+    - {symerror: 1.93000E+00, label: 'sysErr'}

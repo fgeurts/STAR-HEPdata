@@ -1,0 +1,33 @@
+independent_variables:
+- header: {name: '$p_{T} (GeV/c)$'}
+  values:
+  - {value: 2.50000E-01}
+  - {value: 7.50000E-01}
+  - {value: 1.25000E+00}
+  - {value: 1.75000E+00}
+  - {value: 2.50000E+00}
+dependent_variables:
+- header: {name: '$d^2N/(2\pi p_{T}dp_{T}dy)[(GeV/c)^{-2}] \phi-meson$'}
+  qualifiers:
+  - {name: '$p_{T} (GeV/c)$', value: '$p_{T}$ distribution of $\phi-meson$ invariant yield'}
+  values:
+  - value: 6.58200E-01
+    errors:
+    - {symerror: 6.94500E-02, label: 'stat.'}
+    - {symerror: 1.51800E-01, label: 'syst.'}
+  - value: 4.13900E-01
+    errors:
+    - {symerror: 2.34700E-02, label: 'stat.'}
+    - {symerror: 6.60700E-02, label: 'syst.'}
+  - value: 1.21000E-01
+    errors:
+    - {symerror: 7.66800E-03, label: 'stat.'}
+    - {symerror: 2.39000E-02, label: 'syst.'}
+  - value: 3.45700E-02
+    errors:
+    - {symerror: 2.93300E-03, label: 'stat.'}
+    - {symerror: 6.53000E-03, label: 'syst.'}
+  - value: 5.93500E-03
+    errors:
+    - {symerror: 5.31900E-04, label: 'stat.'}
+    - {symerror: 2.26700E-03, label: 'syst.'}

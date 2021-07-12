@@ -1,0 +1,133 @@
+independent_variables:
+- header: {name: 'Npart'}
+  values:
+  - {value: 338.2}
+  - {value: 290.6}
+  - {value: 226}
+  - {value: 159.6}
+  - {value: 110}
+  - {value: 72.5}
+  - {value: 44.5}
+  - {value: 25.7}
+  - {value: 14.1}
+dependent_variables:
+- header: {name: 'pi-/pi+'}
+  qualifiers:
+  - {name: 'Npart', value: '11.5 GeV'}
+  values:
+  - value: 1.048
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.06, label: 'sys.'}
+  - value: 1.054
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+    - {symerror: 0.061, label: 'sys.'}
+  - value: 1.05
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.061, label: 'sys.'}
+  - value: 1.052
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+    - {symerror: 0.061, label: 'sys.'}
+  - value: 1.052
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+    - {symerror: 0.061, label: 'sys.'}
+  - value: 1.052
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.061, label: 'sys.'}
+  - value: 1.05
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {symerror: 0.06, label: 'sys.'}
+  - value: 1.05
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+    - {symerror: 0.06, label: 'sys.'}
+  - value: 1.053
+    errors:
+    - {symerror: 0.01, label: 'stat.'}
+    - {symerror: 0.06, label: 'sys.'}
+- header: {name: 'K-/K+'}
+  qualifiers:
+  - {name: 'Npart', value: '11.5 GeV'}
+  values:
+  - value: 0.494
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.022, label: 'sys.'}
+  - value: 0.497
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.022, label: 'sys.'}
+  - value: 0.503
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.022, label: 'sys.'}
+  - value: 0.511
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.023, label: 'sys.'}
+  - value: 0.524
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+    - {symerror: 0.023, label: 'sys.'}
+  - value: 0.535
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+    - {symerror: 0.024, label: 'sys.'}
+  - value: 0.544
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {symerror: 0.024, label: 'sys.'}
+  - value: 0.546
+    errors:
+    - {symerror: 0.007, label: 'stat.'}
+    - {symerror: 0.023, label: 'sys.'}
+  - value: 0.541
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+    - {symerror: 0.021, label: 'sys.'}
+- header: {name: 'pbar/p'}
+  qualifiers:
+  - {name: 'Npart', value: '11.5 GeV'}
+  values:
+  - value: 0.0331
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+    - {symerror: 0.0028, label: 'sys.'}
+  - value: 0.0334
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+    - {symerror: 0.0029, label: 'sys.'}
+  - value: 0.0362
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+    - {symerror: 0.0031, label: 'sys.'}
+  - value: 0.0386
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+    - {symerror: 0.0033, label: 'sys.'}
+  - value: 0.0424
+    errors:
+    - {symerror: 0.0003, label: 'stat.'}
+    - {symerror: 0.0036, label: 'sys.'}
+  - value: 0.0458
+    errors:
+    - {symerror: 0.0004, label: 'stat.'}
+    - {symerror: 0.0039, label: 'sys.'}
+  - value: 0.051
+    errors:
+    - {symerror: 0.0006, label: 'stat.'}
+    - {symerror: 0.0043, label: 'sys.'}
+  - value: 0.0588
+    errors:
+    - {symerror: 0.0012, label: 'stat.'}
+    - {symerror: 0.0049, label: 'sys.'}
+  - value: 0.065
+    errors:
+    - {symerror: 0.0022, label: 'stat.'}
+    - {symerror: 0.0051, label: 'sys.'}

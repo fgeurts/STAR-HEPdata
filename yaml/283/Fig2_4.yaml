@@ -1,0 +1,58 @@
+independent_variables:
+- header: {name: '$p_T (GeV/c)$'}
+  values:
+  - {low: 0, high: 0.01}
+  - {low: 0.01, high: 0.02}
+  - {low: 0.02, high: 0.03}
+  - {low: 0.03, high: 0.04}
+  - {low: 0.04, high: 0.06}
+  - {low: 0.06, high: 0.15}
+  - {low: 0.15, high: 0.3}
+  - {low: 0.3, high: 0.5}
+  - {low: 0.5, high: 0.7}
+  - {low: 0.7, high: 1}
+dependent_variables:
+- header: {name: '$dN/dp_T$ (0.76< Mee <1.20 GeV/c2 in U+U collisions)'}
+  qualifiers:
+  - {name: '$p_T (GeV/c)$', value: 'dN/dpT (0.76< Mee <1.20 GeV/c2 in U+U collisions)'}
+  values:
+  - value: 8.98000E-05
+    errors:
+    - {symerror: 3.37000E-05, label: 'statErr'}
+    - {symerror: 1.10000E-05, label: 'sysErr'}
+  - value: 3.95000E-04
+    errors:
+    - {symerror: 6.20000E-05, label: 'statErr'}
+    - {symerror: 4.37000E-05, label: 'sysErr'}
+  - value: 6.04000E-04
+    errors:
+    - {symerror: 7.76000E-05, label: 'statErr'}
+    - {symerror: 6.53000E-05, label: 'sysErr'}
+  - value: 8.59000E-04
+    errors:
+    - {symerror: 9.24000E-05, label: 'statErr'}
+    - {symerror: 9.30000E-05, label: 'sysErr'}
+  - value: 5.63000E-04
+    errors:
+    - {symerror: 7.14000E-05, label: 'statErr'}
+    - {symerror: 6.35000E-05, label: 'sysErr'}
+  - value: 1.41000E-04
+    errors:
+    - {symerror: 4.09000E-05, label: 'statErr'}
+    - {symerror: 1.56000E-05, label: 'sysErr'}
+  - value: 1.85000E-04
+    errors:
+    - {symerror: 4.31000E-05, label: 'statErr'}
+    - {symerror: 2.06000E-05, label: 'sysErr'}
+  - value: 1.43000E-04
+    errors:
+    - {symerror: 4.30000E-05, label: 'statErr'}
+    - {symerror: 1.58000E-05, label: 'sysErr'}
+  - value: 2.11000E-04
+    errors:
+    - {symerror: 4.01000E-05, label: 'statErr'}
+    - {symerror: 2.36000E-05, label: 'sysErr'}
+  - value: 1.58000E-04
+    errors:
+    - {symerror: 2.65000E-05, label: 'statErr'}
+    - {symerror: 1.71000E-05, label: 'sysErr'}

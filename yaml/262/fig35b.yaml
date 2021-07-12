@@ -1,0 +1,85 @@
+independent_variables:
+- header: {name: '<Npart>'}
+  values:
+  - {value: 317.3}
+  - {value: 229.8}
+  - {value: 137.03}
+  - {value: 59.2}
+  - {value: 20.03}
+dependent_variables:
+- header: {name: 'muB [MeV]'}
+  qualifiers:
+  - {name: '<Npart>', value: 'pi,k,p'}
+  values:
+  - value: 93.5
+    errors:
+    - {symerror: 13.3, label: 'sys'}
+  - value: 95.4
+    errors:
+    - {symerror: 13.3, label: 'sys'}
+  - value: 91.3
+    errors:
+    - {symerror: 13.6, label: 'sys'}
+  - value: 80.7
+    errors:
+    - {symerror: 13.6, label: 'sys'}
+  - value: 69.4
+    errors:
+    - {symerror: 13.2, label: 'sys'}
+- header: {name: 'muB [MeV]'}
+  qualifiers:
+  - {name: '<Npart>', value: 'pi,k,p,L,Xi'}
+  values:
+  - value: 105.4
+    errors:
+    - {symerror: 10.5, label: 'sys'}
+  - value: 103.8
+    errors:
+    - {symerror: 10.5, label: 'sys'}
+  - value: 98.3
+    errors:
+    - {symerror: 10.6, label: 'sys'}
+  - value: 86
+    errors:
+    - {symerror: 10, label: 'sys'}
+  - value: 71.1
+    errors:
+    - {symerror: 10.2, label: 'sys'}
+- header: {name: 'muB [MeV]'}
+  qualifiers:
+  - {name: '<Npart>', value: 'pi,k,p,L,Xi, Ks, phi, Omega'}
+  values:
+  - value: 110.4
+    errors:
+    - {symerror: 9.4, label: 'sys'}
+  - value: 109.5
+    errors:
+    - {symerror: 9.3, label: 'sys'}
+  - value: 101.5
+    errors:
+    - {symerror: 9.3, label: 'sys'}
+  - value: 86.3
+    errors:
+    - {symerror: 8.6, label: 'sys'}
+  - value: 68.7
+    errors:
+    - {symerror: 9.5, label: 'sys'}
+- header: {name: 'muB [MeV]'}
+  qualifiers:
+  - {name: '<Npart>', value: 'pi,k,p,L,Xi, Ks, Omega'}
+  values:
+  - value: 110.5
+    errors:
+    - {symerror: 9.4, label: 'sys'}
+  - value: 109.5
+    errors:
+    - {symerror: 9.3, label: 'sys'}
+  - value: 101.6
+    errors:
+    - {symerror: 9.3, label: 'sys'}
+  - value: 86.6
+    errors:
+    - {symerror: 8.6, label: 'sys'}
+  - value: 68.9
+    errors:
+    - {symerror: 9.5, label: 'sys'}

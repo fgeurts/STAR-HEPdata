@@ -1,0 +1,61 @@
+independent_variables:
+- header: {name: 'energy [GeV]'}
+  values:
+  - value: 7.7
+  - value: 11.5
+  - value: 19.6
+  - value: 27
+  - value: 39
+  - value: 62.4
+  - value: 200
+dependent_variables:
+- header: {name: 'muB [MeV]'}
+  qualifiers:
+  - {name: 'centrality', value: '60-80%'}
+  values:
+  - value: 347.4
+    errors:
+    - {symerror: 12.3, label: 'error'}
+  - value: 233.2
+    errors:
+    - {symerror: 12.4, label: 'error'}
+  - value: 129.1
+    errors:
+    - {symerror: 8.7, label: 'error'}
+  - value: 99.5
+    errors:
+    - {symerror: 7.6, label: 'error'}
+  - value: 66.9
+    errors:
+    - {symerror: 8.0, label: 'error'}
+  - value: 45.8
+    errors:
+    - {symerror: 7.9, label: 'error'}
+  - value: 15.3
+    errors:
+    - {symerror: 6.6, label: 'error'}
+- header: {name: 'Tch [MeV]'}
+  qualifiers:
+  - {name: 'centrality', value: '60-80%'}
+  values:
+  - value: 147.6
+    errors:
+    - {symerror: 3.0, label: 'error'}
+  - value: 158.8
+    errors:
+    - {symerror: 3.6, label: 'error'}
+  - value: 161.7
+    errors:
+    - {symerror: 3.6, label: 'error'}
+  - value: 165.5
+    errors:
+    - {symerror: 3.8, label: 'error'}
+  - value: 162.7
+    errors:
+    - {symerror: 3.6, label: 'error'}
+  - value: 164.0
+    errors:
+    - {symerror: 3.2, label: 'error'}
+  - value: 164.1
+    errors:
+    - {symerror: 3.2, label: 'error'}

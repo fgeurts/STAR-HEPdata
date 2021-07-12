@@ -1,0 +1,259 @@
+independent_variables:
+- header: {name: 'Npart'}
+  values:
+  - {value: 337.4}
+  - {value: 290.4}
+  - {value: 226.2}
+  - {value: 160.2}
+  - {value: 109.9}
+  - {value: 71.8}
+  - {value: 44.7}
+  - {value: 25.6}
+  - {value: 13.9}
+dependent_variables:
+- header: {name: '<pT> [GeV/c]'}
+  qualifiers:
+  - {name: 'energy', value: '7.7 GeV'}
+  - {name: 'particle type', value: 'pi-'}
+  values:
+  - value: 0.3758
+    errors:
+    - {symerror: 0.0003, label: 'stat.'}
+    - {symerror: 0.019, label: 'sys.'}
+  - value: 0.3727
+    errors:
+    - {symerror: 0.0004, label: 'stat.'}
+    - {symerror: 0.0189, label: 'sys.'}
+  - value: 0.3731
+    errors:
+    - {symerror: 0.0003, label: 'stat.'}
+    - {symerror: 0.0189, label: 'sys.'}
+  - value: 0.3682
+    errors:
+    - {symerror: 0.0003, label: 'stat.'}
+    - {symerror: 0.0186, label: 'sys.'}
+  - value: 0.3626
+    errors:
+    - {symerror: 0.0004, label: 'stat.'}
+    - {symerror: 0.0184, label: 'sys.'}
+  - value: 0.3545
+    errors:
+    - {symerror: 0.0005, label: 'stat.'}
+    - {symerror: 0.0179, label: 'sys.'}
+  - value: 0.3438
+    errors:
+    - {symerror: 0.0006, label: 'stat.'}
+    - {symerror: 0.0174, label: 'sys.'}
+  - value: 0.3352
+    errors:
+    - {symerror: 0.0007, label: 'stat.'}
+    - {symerror: 0.017, label: 'sys.'}
+  - value: 0.3262
+    errors:
+    - {symerror: 0.0011, label: 'stat.'}
+    - {symerror: 0.0165, label: 'sys.'}
+- header: {name: '<pT> [GeV/c]'}
+  qualifiers:
+  - {name: 'energy', value: '7.7 GeV'}
+  - {name: 'particle type', value: 'pi+'}
+  values:
+  - value: 0.3847
+    errors:
+    - {symerror: 0.0003, label: 'stat.'}
+    - {symerror: 0.0195, label: 'sys.'}
+  - value: 0.3807
+    errors:
+    - {symerror: 0.0004, label: 'stat.'}
+    - {symerror: 0.0193, label: 'sys.'}
+  - value: 0.38
+    errors:
+    - {symerror: 0.0003, label: 'stat.'}
+    - {symerror: 0.0192, label: 'sys.'}
+  - value: 0.3738
+    errors:
+    - {symerror: 0.0003, label: 'stat.'}
+    - {symerror: 0.0189, label: 'sys.'}
+  - value: 0.3684
+    errors:
+    - {symerror: 0.0004, label: 'stat.'}
+    - {symerror: 0.0187, label: 'sys.'}
+  - value: 0.3568
+    errors:
+    - {symerror: 0.0005, label: 'stat.'}
+    - {symerror: 0.0181, label: 'sys.'}
+  - value: 0.3465
+    errors:
+    - {symerror: 0.0006, label: 'stat.'}
+    - {symerror: 0.0175, label: 'sys.'}
+  - value: 0.3388
+    errors:
+    - {symerror: 0.0008, label: 'stat.'}
+    - {symerror: 0.0171, label: 'sys.'}
+  - value: 0.3253
+    errors:
+    - {symerror: 0.0011, label: 'stat.'}
+    - {symerror: 0.0164, label: 'sys.'}
+- header: {name: '<pT> [GeV/c]'}
+  qualifiers:
+  - {name: 'energy', value: '7.7 GeV'}
+  - {name: 'particle type', value: 'ka-'}
+  values:
+  - value: 0.539
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.022, label: 'sys.'}
+  - value: 0.532
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.022, label: 'sys.'}
+  - value: 0.521
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+    - {symerror: 0.021, label: 'sys.'}
+  - value: 0.506
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.021, label: 'sys.'}
+  - value: 0.499
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.02, label: 'sys.'}
+  - value: 0.47
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.019, label: 'sys.'}
+  - value: 0.46
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+    - {symerror: 0.019, label: 'sys.'}
+  - value: 0.438
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.018, label: 'sys.'}
+  - value: 0.427
+    errors:
+    - {symerror: 0.005, label: 'stat.'}
+    - {symerror: 0.017, label: 'sys.'}
+- header: {name: '<pT> [GeV/c]'}
+  qualifiers:
+  - {name: 'energy', value: '7.7 GeV'}
+  - {name: 'particle type', value: 'ka+'}
+  values:
+  - value: 0.576
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+    - {symerror: 0.024, label: 'sys.'}
+  - value: 0.563
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+    - {symerror: 0.023, label: 'sys.'}
+  - value: 0.552
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+    - {symerror: 0.023, label: 'sys.'}
+  - value: 0.533
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+    - {symerror: 0.022, label: 'sys.'}
+  - value: 0.528
+    errors:
+    - {symerror: 0.001, label: 'stat.'}
+    - {symerror: 0.022, label: 'sys.'}
+  - value: 0.505
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.021, label: 'sys.'}
+  - value: 0.485
+    errors:
+    - {symerror: 0.002, label: 'stat.'}
+    - {symerror: 0.02, label: 'sys.'}
+  - value: 0.472
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+    - {symerror: 0.019, label: 'sys.'}
+  - value: 0.457
+    errors:
+    - {symerror: 0.004, label: 'stat.'}
+    - {symerror: 0.018, label: 'sys.'}
+- header: {name: '<pT> [GeV/c]'}
+  qualifiers:
+  - {name: 'energy', value: '7.7 GeV'}
+  - {name: 'particle type', value: 'pbar'}
+  values:
+  - value: 0.779
+    errors:
+    - {symerror: 0.012, label: 'stat.'}
+    - {symerror: 0.054, label: 'sys.'}
+  - value: 0.77
+    errors:
+    - {symerror: 0.013, label: 'stat.'}
+    - {symerror: 0.053, label: 'sys.'}
+  - value: 0.723
+    errors:
+    - {symerror: 0.009, label: 'stat.'}
+    - {symerror: 0.05, label: 'sys.'}
+  - value: 0.702
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+    - {symerror: 0.048, label: 'sys.'}
+  - value: 0.657
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+    - {symerror: 0.045, label: 'sys.'}
+  - value: 0.608
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+    - {symerror: 0.041, label: 'sys.'}
+  - value: 0.567
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+    - {symerror: 0.039, label: 'sys.'}
+  - value: 0.541
+    errors:
+    - {symerror: 0.011, label: 'stat.'}
+    - {symerror: 0.037, label: 'sys.'}
+  - value: 0.486
+    errors:
+    - {symerror: 0.012, label: 'stat.'}
+    - {symerror: 0.032, label: 'sys.'}
+- header: {name: '<pT> [GeV/c]'}
+  qualifiers:
+  - {name: 'energy', value: '7.7 GeV'}
+  - {name: 'particle type', value: 'proton'}
+  values:
+  - value: 0.7966
+    errors:
+    - {symerror: 0.0008, label: 'stat.'}
+    - {symerror: 0.0639, label: 'sys.'}
+  - value: 0.764
+    errors:
+    - {symerror: 0.0008, label: 'stat.'}
+    - {symerror: 0.0613, label: 'sys.'}
+  - value: 0.7539
+    errors:
+    - {symerror: 0.0006, label: 'stat.'}
+    - {symerror: 0.0605, label: 'sys.'}
+  - value: 0.7486
+    errors:
+    - {symerror: 0.0007, label: 'stat.'}
+    - {symerror: 0.0601, label: 'sys.'}
+  - value: 0.6995
+    errors:
+    - {symerror: 0.0009, label: 'stat.'}
+    - {symerror: 0.0561, label: 'sys.'}
+  - value: 0.659
+    errors:
+    - {symerror: 0.0011, label: 'stat.'}
+    - {symerror: 0.0529, label: 'sys.'}
+  - value: 0.6174
+    errors:
+    - {symerror: 0.0014, label: 'stat.'}
+    - {symerror: 0.0495, label: 'sys.'}
+  - value: 0.5851
+    errors:
+    - {symerror: 0.0018, label: 'stat.'}
+    - {symerror: 0.0469, label: 'sys.'}
+  - value: 0.5204
+    errors:
+    - {symerror: 0.003, label: 'stat.'}
+    - {symerror: 0.0416, label: 'sys.'}

@@ -1,0 +1,63 @@
+independent_variables:
+- header: {name: '$p_T (GeV/c)$'}
+  values:
+  - {low: 0, high: 0.01}
+  - {low: 0.01, high: 0.02}
+  - {low: 0.02, high: 0.03}
+  - {low: 0.03, high: 0.04}
+  - {low: 0.04, high: 0.05}
+  - {low: 0.05, high: 0.07}
+  - {low: 0.07, high: 0.15}
+  - {low: 0.15, high: 0.3}
+  - {low: 0.3, high: 0.5}
+  - {low: 0.5, high: 0.7}
+  - {low: 0.7, high: 1}
+dependent_variables:
+- header: {name: '$dN/dp_T$ (0.40< Mee <0.76 GeV/c2 in Au+Au collisions)'}
+  qualifiers:
+  - {name: '$p_T (GeV/c)$', value: 'dN/dpT (0.40< Mee <0.76 GeV/c2 in Au+Au collisions)'}
+  values:
+  - value: 3.93000E-04
+    errors:
+    - {symerror: 6.50000E-05, label: 'statErr'}
+    - {symerror: 6.12000E-05, label: 'sysErr'}
+  - value: 1.12000E-03
+    errors:
+    - {symerror: 1.08000E-04, label: 'statErr'}
+    - {symerror: 1.73000E-04, label: 'sysErr'}
+  - value: 1.94000E-03
+    errors:
+    - {symerror: 1.35000E-04, label: 'statErr'}
+    - {symerror: 2.92000E-04, label: 'sysErr'}
+  - value: 2.04000E-03
+    errors:
+    - {symerror: 1.50000E-04, label: 'statErr'}
+    - {symerror: 3.02000E-04, label: 'sysErr'}
+  - value: 1.80000E-03
+    errors:
+    - {symerror: 1.58000E-04, label: 'statErr'}
+    - {symerror: 2.59000E-04, label: 'sysErr'}
+  - value: 1.33000E-03
+    errors:
+    - {symerror: 1.17000E-04, label: 'statErr'}
+    - {symerror: 1.94000E-04, label: 'sysErr'}
+  - value: 1.96000E-04
+    errors:
+    - {symerror: 6.50000E-05, label: 'statErr'}
+    - {symerror: 2.81000E-05, label: 'sysErr'}
+  - value: 1.65000E-04
+    errors:
+    - {symerror: 5.18000E-05, label: 'statErr'}
+    - {symerror: 2.37000E-05, label: 'sysErr'}
+  - value: 1.28000E-04
+    errors:
+    - {symerror: 4.26000E-05, label: 'statErr'}
+    - {symerror: 1.84000E-05, label: 'sysErr'}
+  - value: 1.65000E-04
+    errors:
+    - {symerror: 3.57000E-05, label: 'statErr'}
+    - {symerror: 2.36000E-05, label: 'sysErr'}
+  - value: 1.52000E-04
+    errors:
+    - {symerror: 2.11000E-05, label: 'statErr'}
+    - {symerror: 2.08000E-05, label: 'sysErr'}

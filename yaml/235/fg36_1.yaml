@@ -1,0 +1,26 @@
+independent_variables:
+- header: {name: '$N_{part}$'}
+  values:
+  - {value: 3.25900E+02}
+  - {value: 1.72600E+02}
+  - {value: 4.15300E+01}
+dependent_variables:
+- header: {name: '$/frac{Yield}{N_{part}} (0.3-0.76 GeV/c^2))$'}
+  qualifiers:
+  - {name: '$N_{part}$', value: 'Yield/Npart of Data - Cocktail (0.3-0.76 GeV/c^2)'}
+  values:
+  - value: 2.11800E-05
+    errors:
+    - {symerror: 3.11100E-06, label: 'stat. (data)'}
+    - {symerror: 2.06400E-03, label: 'syst. (data)'}
+    - {symerror: 8.00100E-06, label: 'syst. (data+cocktail)'}
+  - value: 1.08100E-05
+    errors:
+    - {symerror: 1.28900E-06, label: 'stat. (data)'}
+    - {symerror: 7.08700E-04, label: 'syst. (data)'}
+    - {symerror: 6.38400E-06, label: 'syst. (data+cocktail)'}
+  - value: 6.92600E-06
+    errors:
+    - {symerror: 7.96400E-07, label: 'stat. (data)'}
+    - {symerror: 1.22300E-04, label: 'syst. (data)'}
+    - {symerror: 5.70700E-06, label: 'syst. (data+cocktail)'}

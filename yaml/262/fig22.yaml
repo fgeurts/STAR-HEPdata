@@ -1,0 +1,153 @@
+independent_variables:
+- header: {name: 'Sqrt{s_{NN}} [GeV]'}
+  values:
+  - {value: 39.0}
+  - {value: 27.0}
+  - {value: 19.6}
+  - {value: 11.5}
+  - {value: 7.7}
+dependent_variables:
+- header: {name: '<mT>-m [GeV/c^2]'}
+  qualifiers:
+  - {name: 'Sqrt{s_{NN}} [GeV]', value: 'pi+'}
+  values:
+  - value: 0.3120
+    errors:
+    - {symerror: 0.0001, label: 'stat.'}
+    - {symerror: 0.0187, label: 'sys.'}
+  - value: 0.3046
+    errors:
+    - {symerror: 0.0001, label: 'stat.'}
+    - {symerror: 0.0183, label: 'sys.'}
+  - value: 0.2932
+    errors:
+    - {symerror: 0.0001, label: 'stat.'}
+    - {symerror: 0.0176, label: 'sys.'}
+  - value: 0.2855
+    errors:
+    - {symerror: 0.0001, label: 'stat.'}
+    - {symerror: 0.0143, label: 'sys.'}
+  - value: 0.2813
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+    - {symerror: 0.0141, label: 'sys.'}
+- header: {name: '<mT>-m [GeV/c^2]'}
+  qualifiers:
+  - {name: 'Sqrt{s_{NN}} [GeV]', value: 'pi-'}
+  values:
+  - value: 0.3076
+    errors:
+    - {symerror: 0.0001, label: 'stat.'}
+    - {symerror: 0.0185, label: 'sys.'}
+  - value: 0.3030
+    errors:
+    - {symerror: 0.0001, label: 'stat.'}
+    - {symerror: 0.0182, label: 'sys.'}
+  - value: 0.2886
+    errors:
+    - {symerror: 0.0001, label: 'stat.'}
+    - {symerror: 0.0173, label: 'sys.'}
+  - value: 0.2789
+    errors:
+    - {symerror: 0.0001, label: 'stat.'}
+    - {symerror: 0.0139, label: 'sys.'}
+  - value: 0.2730
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+    - {symerror: 0.0136, label: 'sys.'}
+- header: {name: '<mT>-m [GeV/c^2]'}
+  qualifiers:
+  - {name: 'Sqrt{s_{NN}} [GeV]', value: 'ka+'}
+  values:
+  - value: 0.3256
+    errors:
+    - {symerror: 0.0001, label: 'stat.'}
+    - {symerror: 0.0195, label: 'sys.'}
+  - value: 0.3178
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+    - {symerror: 0.0191, label: 'sys.'}
+  - value: 0.3072
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+    - {symerror: 0.0184, label: 'sys.'}
+  - value: 0.3035
+    errors:
+    - {symerror: 0.0005, label: 'stat.'}
+    - {symerror: 0.0152, label: 'sys.'}
+  - value: 0.2963
+    errors:
+    - {symerror: 0.0005, label: 'stat.'}
+    - {symerror: 0.0148, label: 'sys.'}
+- header: {name: '<mT>-m [GeV/c^2]'}
+  qualifiers:
+  - {name: 'Sqrt{s_{NN}} [GeV]', value: 'ka-'}
+  values:
+  - value: 0.3216
+    errors:
+    - {symerror: 0.0001, label: 'stat.'}
+    - {symerror: 0.0193, label: 'sys.'}
+  - value: 0.3002
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+    - {symerror: 0.0180, label: 'sys.'}
+  - value: 0.2919
+    errors:
+    - {symerror: 0.0005, label: 'stat.'}
+    - {symerror: 0.0175, label: 'sys.'}
+  - value: 0.2803
+    errors:
+    - {symerror: 0.0005, label: 'stat.'}
+    - {symerror: 0.0140, label: 'sys.'}
+  - value: 0.2670
+    errors:
+    - {symerror: 0.0010, label: 'stat.'}
+    - {symerror: 0.0133, label: 'sys.'}
+- header: {name: '<mT>-m [GeV/c^2]'}
+  qualifiers:
+  - {name: 'Sqrt{s_{NN}} [GeV]', value: 'proton'}
+  values:
+  - value: 0.3777
+    errors:
+    - {symerror: 0.0001, label: 'stat.'}
+    - {symerror: 0.0227, label: 'sys.'}
+  - value: 0.3580
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+    - {symerror: 0.0215, label: 'sys.'}
+  - value: 0.3420
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+    - {symerror: 0.0205, label: 'sys.'}
+  - value: 0.3330
+    errors:
+    - {symerror: 0.0003, label: 'stat.'}
+    - {symerror: 0.0233, label: 'sys.'}
+  - value: 0.3330
+    errors:
+    - {symerror: 0.0003, label: 'stat.'}
+    - {symerror: 0.0266, label: 'sys.'}
+- header: {name: '<mT>-m [GeV/c^2]'}
+  qualifiers:
+  - {name: 'Sqrt{s_{NN}} [GeV]', value: 'pbar'}
+  values:
+  - value: 0.3811
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+    - {symerror: 0.0419, label: 'sys.'}
+  - value: 0.3680
+    errors:
+    - {symerror: 0.0004, label: 'stat.'}
+    - {symerror: 0.0331, label: 'sys.'}
+  - value: 0.3570
+    errors:
+    - {symerror: 0.0004, label: 'stat.'}
+    - {symerror: 0.0321, label: 'sys.'}
+  - value: 0.3320
+    errors:
+    - {symerror: 0.0012, label: 'stat.'}
+    - {symerror: 0.0265, label: 'sys.'}
+  - value: 0.3190
+    errors:
+    - {symerror: 0.0049, label: 'stat.'}
+    - {symerror: 0.0218, label: 'sys.'}

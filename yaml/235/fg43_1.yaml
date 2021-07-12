@@ -1,0 +1,33 @@
+independent_variables:
+- header: {name: '$p_{T} (GeV/c)$'}
+  values:
+  - {value: 4.00000E-01}
+  - {value: 1.00000E+00}
+  - {value: 1.40000E+00}
+  - {value: 1.90000E+00}
+  - {value: 2.70000E+00}
+dependent_variables:
+- header: {name: '$d^2N/(2\pi p_{T}dp_{T}dy)[(GeV/c)^{-2}] \omega-meson$'}
+  qualifiers:
+  - {name: '$p_{T} (GeV/c)$', value: '$p_{T}$ distribution of $\omega-meson$ invariant yield'}
+  values:
+  - value: 2.89600E+00
+    errors:
+    - {symerror: 4.79200E-01, label: 'stat.'}
+    - {symerror: 7.84000E-01, label: 'syst.'}
+  - value: 7.76800E-01
+    errors:
+    - {symerror: 1.15900E-01, label: 'stat.'}
+    - {symerror: 1.29500E-01, label: 'syst.'}
+  - value: 3.37300E-01
+    errors:
+    - {symerror: 3.95500E-02, label: 'stat.'}
+    - {symerror: 8.37900E-02, label: 'syst.'}
+  - value: 8.35800E-02
+    errors:
+    - {symerror: 1.12400E-02, label: 'stat.'}
+    - {symerror: 4.52400E-02, label: 'syst.'}
+  - value: 1.10500E-02
+    errors:
+    - {symerror: 1.77900E-03, label: 'stat.'}
+    - {symerror: 3.68100E-03, label: 'syst.'}

@@ -1,0 +1,57 @@
+independent_variables:
+- header: {name: 'Sqrt{s_{NN}} [GeV]'}
+  values:
+  - {value: 7.7}
+  - {value: 11.5}
+  - {value: 19.6}
+  - {value: 27}
+  - {value: 39}
+dependent_variables:
+- header: {name: 'Ratio'}
+  qualifiers:
+  - {name: 'Sqrt{s_{NN}} [GeV]', value: 'ka-/pi-'}
+  values:
+  - value: 0.0770
+    errors:
+    - {symerror: 0.0005, label: 'stat.'}
+    - {symerror: 0.0076, label: 'sys.'}
+  - value: 0.0951
+    errors:
+    - {symerror: 0.0003, label: 'stat.'}
+    - {symerror: 0.0117, label: 'sys.'}
+  - value: 0.1136
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+    - {symerror: 0.0149, label: 'sys.'}
+  - value: 0.1278
+    errors:
+    - {symerror: 0.0001, label: 'stat.'}
+    - {symerror: 0.0158, label: 'sys.'}
+  - value: 0.1346
+    errors:
+    - {symerror: 0.0001, label: 'stat.'}
+    - {symerror: 0.0167, label: 'sys.'}
+- header: {name: 'Ratio'}
+  qualifiers:
+  - {name: 'Sqrt{s_{NN}} [GeV]', value: 'ka+/pi+'}
+  values:
+  - value: 0.2227
+    errors:
+    - {symerror: 0.0009, label: 'stat.'}
+    - {symerror: 0.0219, label: 'sys.'}
+  - value: 0.2018
+    errors:
+    - {symerror: 0.0005, label: 'stat.'}
+    - {symerror: 0.0249, label: 'sys.'}
+  - value: 0.1832
+    errors:
+    - {symerror: 0.0003, label: 'stat.'}
+    - {symerror: 0.0241, label: 'sys.'}
+  - value: 0.1797
+    errors:
+    - {symerror: 0.0002, label: 'stat.'}
+    - {symerror: 0.0223, label: 'sys.'}
+  - value: 0.1753
+    errors:
+    - {symerror: 0.0001, label: 'stat.'}
+    - {symerror: 0.0217, label: 'sys.'}

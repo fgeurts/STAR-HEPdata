@@ -1,0 +1,136 @@
+independent_variables:
+- header: {name: 'Npart'}
+  values:
+  - {value: 337.4}
+  - {value: 290.4}
+  - {value: 226.2}
+  - {value: 160.2}
+  - {value: 109.9}
+  - {value: 58.4}
+  - {value: 20.2}
+dependent_variables:
+- header: {name: 'R (fm)'}
+  qualifiers:
+  - {name: 'Energy', value: '7.7 GeV'}
+  values:
+  - value: 5.89
+    errors:
+    - {symerror: 0.33, label: 'error'}
+  - value: 5.65
+    errors:
+    - {symerror: 0.31, label: 'error'}
+  - value: 5.08
+    errors:
+    - {symerror: 0.27, label: 'error'}
+  - value: 4.58
+    errors:
+    - {symerror: 0.24, label: 'error'}
+  - value: 3.95
+    errors:
+    - {symerror: 0.22, label: 'error'}
+  - value: 3.28
+    errors:
+    - {symerror: 0.17, label: 'error'}
+  - value: 2.4
+    errors:
+    - {symerror: 0.13, label: 'error'}
+- header: {name: 'R (fm)'}
+  qualifiers:
+  - {name: 'Energy', value: '11.5 GeV'}
+  values:
+  - value: 6.16
+    errors:
+    - {symerror: 0.36, label: 'error'}
+  - value: 5.69
+    errors:
+    - {symerror: 0.34, label: 'error'}
+  - value: 5.02
+    errors:
+    - {symerror: 0.3, label: 'error'}
+  - value: 4.31
+    errors:
+    - {symerror: 0.27, label: 'error'}
+  - value: 3.76
+    errors:
+    - {symerror: 0.24, label: 'error'}
+  - value: 3.02
+    errors:
+    - {symerror: 0.19, label: 'error'}
+  - value: 2.26
+    errors:
+    - {symerror: 0.14, label: 'error'}
+- header: {name: 'R (fm)'}
+  qualifiers:
+  - {name: 'Energy', value: '19.6 GeV'}
+  values:
+  - value: 6.04
+    errors:
+    - {symerror: 0.35, label: 'error'}
+  - value: 5.67
+    errors:
+    - {symerror: 0.33, label: 'error'}
+  - value: 5.08
+    errors:
+    - {symerror: 0.3, label: 'error'}
+  - value: 4.49
+    errors:
+    - {symerror: 0.27, label: 'error'}
+  - value: 3.93
+    errors:
+    - {symerror: 0.24, label: 'error'}
+  - value: 3.19
+    errors:
+    - {symerror: 0.19, label: 'error'}
+  - value: 2.33
+    errors:
+    - {symerror: 0.14, label: 'error'}
+- header: {name: 'R (fm)'}
+  qualifiers:
+  - {name: 'Energy', value: '27 GeV'}
+  values:
+  - value: 6.05
+    errors:
+    - {symerror: 0.33, label: 'error'}
+  - value: 5.67
+    errors:
+    - {symerror: 0.31, label: 'error'}
+  - value: 5.22
+    errors:
+    - {symerror: 0.29, label: 'error'}
+  - value: 4.53
+    errors:
+    - {symerror: 0.25, label: 'error'}
+  - value: 3.89
+    errors:
+    - {symerror: 0.23, label: 'error'}
+  - value: 3.13
+    errors:
+    - {symerror: 0.18, label: 'error'}
+  - value: 2.27
+    errors:
+    - {symerror: 0.15, label: 'error'}
+- header: {name: 'R (fm)'}
+  qualifiers:
+  - {name: 'Energy', value: '39 GeV'}
+  values:
+  - value: 6.27
+    errors:
+    - {symerror: 0.39, label: 'error'}
+  - value: 5.92
+    errors:
+    - {symerror: 0.35, label: 'error'}
+  - value: 5.35
+    errors:
+    - {symerror: 0.31, label: 'error'}
+  - value: 4.65
+    errors:
+    - {symerror: 0.27, label: 'error'}
+  - value: 3.99
+    errors:
+    - {symerror: 0.24, label: 'error'}
+  - value: 3.29
+    errors:
+    - {symerror: 0.19, label: 'error'}
+  - value: 2.41
+    errors:
+    - {symerror: 0.14, label: 'error'}

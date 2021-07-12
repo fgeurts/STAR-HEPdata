@@ -1,0 +1,136 @@
+independent_variables:
+- header: {name: 'Npart'}
+  values:
+  - {value: 337.4}
+  - {value: 290.4}
+  - {value: 226.2}
+  - {value: 160.2}
+  - {value: 109.9}
+  - {value: 58.4}
+  - {value: 20.2}
+dependent_variables:
+- header: {name: 'Tch (MeV)'}
+  qualifiers:
+  - {name: 'Energy', value: '7.7 GeV'}
+  values:
+  - value: 143.8
+    errors:
+    - {symerror: 2.7, label: 'error'}
+  - value: 142.9
+    errors:
+    - {symerror: 2.6, label: 'error'}
+  - value: 144.7
+    errors:
+    - {symerror: 2.6, label: 'error'}
+  - value: 144.9
+    errors:
+    - {symerror: 2.6, label: 'error'}
+  - value: 146.2
+    errors:
+    - {symerror: 2.8, label: 'error'}
+  - value: 145.5
+    errors:
+    - {symerror: 2.7, label: 'error'}
+  - value: 143.3
+    errors:
+    - {symerror: 2.8, label: 'error'}
+- header: {name: 'Tch (MeV)'}
+  qualifiers:
+  - {name: 'Energy', value: '11.5 GeV'}
+  values:
+  - value: 150.6
+    errors:
+    - {symerror: 3.2, label: 'error'}
+  - value: 150.5
+    errors:
+    - {symerror: 3.2, label: 'error'}
+  - value: 153.1
+    errors:
+    - {symerror: 3.2, label: 'error'}
+  - value: 155.9
+    errors:
+    - {symerror: 3.4, label: 'error'}
+  - value: 156.9
+    errors:
+    - {symerror: 3.6, label: 'error'}
+  - value: 157.9
+    errors:
+    - {symerror: 3.7, label: 'error'}
+  - value: 154.3
+    errors:
+    - {symerror: 3.5, label: 'error'}
+- header: {name: 'Tch (MeV)'}
+  qualifiers:
+  - {name: 'Energy', value: '19.6 GeV'}
+  values:
+  - value: 157.5
+    errors:
+    - {symerror: 3.1, label: 'error'}
+  - value: 158
+    errors:
+    - {symerror: 3.2, label: 'error'}
+  - value: 159.8
+    errors:
+    - {symerror: 3.3, label: 'error'}
+  - value: 160.6
+    errors:
+    - {symerror: 3.3, label: 'error'}
+  - value: 161.6
+    errors:
+    - {symerror: 3.4, label: 'error'}
+  - value: 162.72
+    errors:
+    - {symerror: 3.5, label: 'error'}
+  - value: 159.6
+    errors:
+    - {symerror: 3.6, label: 'error'}
+- header: {name: 'Tch (MeV)'}
+  qualifiers:
+  - {name: 'Energy', value: '27 GeV'}
+  values:
+  - value: 159.8
+    errors:
+    - {symerror: 3, label: 'error'}
+  - value: 160.4
+    errors:
+    - {symerror: 3.1, label: 'error'}
+  - value: 160.7
+    errors:
+    - {symerror: 3, label: 'error'}
+  - value: 162.7
+    errors:
+    - {symerror: 3.1, label: 'error'}
+  - value: 164.7
+    errors:
+    - {symerror: 3.4, label: 'error'}
+  - value: 165.5
+    errors:
+    - {symerror: 3.5, label: 'error'}
+  - value: 163.1
+    errors:
+    - {symerror: 3.9, label: 'error'}
+- header: {name: 'Tch (MeV)'}
+  qualifiers:
+  - {name: 'Energy', value: '39 GeV'}
+  values:
+  - value: 159.9
+    errors:
+    - {symerror: 3.5, label: 'error'}
+  - value: 160.3
+    errors:
+    - {symerror: 3.4, label: 'error'}
+  - value: 160.9
+    errors:
+    - {symerror: 3.4, label: 'error'}
+  - value: 162.6
+    errors:
+    - {symerror: 3.4, label: 'error'}
+  - value: 164.8
+    errors:
+    - {symerror: 3.6, label: 'error'}
+  - value: 163.5
+    errors:
+    - {symerror: 3.5, label: 'error'}
+  - value: 160.4
+    errors:
+    - {symerror: 3.4, label: 'error'}

@@ -1,0 +1,53 @@
+independent_variables:
+- header: {name: '$M_{ee}$'}
+  values:
+  - {low: 0, high: 0.1}
+  - {low: 0.1, high: 0.25}
+  - {low: 0.25, high: 0.45}
+  - {low: 0.45, high: 0.76}
+  - {low: 0.76, high: 0.9}
+  - {low: 0.9, high: 1.1}
+  - {low: 1.1, high: 1.8}
+  - {low: 1.8, high: 2.8}
+  - {low: 2.8, high: 3.5}
+dependent_variables:
+- header: {name: '$Ratio (Central/MinBias)$'}
+  qualifiers:
+  - {name: '$M_{ee}$', value: 'Ratio of Central($0-10\%$)/Minimum Bias($0-80\%$)'}
+  values:
+  - value: 8.97900E-01
+    errors:
+    - {symerror: 8.67600E-04, label: 'stat.'}
+    - {symerror: 5.35500E-03, label: 'syst.'}
+  - value: 8.35700E-01
+    errors:
+    - {symerror: 4.47100E-02, label: 'stat.'}
+    - {symerror: 2.06100E-02, label: 'syst.'}
+  - value: 1.20200E+00
+    errors:
+    - {symerror: 1.31300E-01, label: 'stat.'}
+    - {symerror: 1.39800E-01, label: 'syst.'}
+  - value: 1.44100E+00
+    errors:
+    - {symerror: 1.49100E-01, label: 'stat.'}
+    - {symerror: 1.60900E-01, label: 'syst.'}
+  - value: 9.80900E-01
+    errors:
+    - {symerror: 1.64000E-01, label: 'stat.'}
+    - {symerror: 8.75800E-02, label: 'syst.'}
+  - value: 8.99200E-01
+    errors:
+    - {symerror: 1.23200E-01, label: 'stat.'}
+    - {symerror: 8.52600E-02, label: 'syst.'}
+  - value: 9.86500E-01
+    errors:
+    - {symerror: 1.70300E-01, label: 'stat.'}
+    - {symerror: 2.62900E-01, label: 'syst.'}
+  - value: 6.97400E-01
+    errors:
+    - {symerror: 2.35800E-01, label: 'stat.'}
+    - {symerror: 1.38800E-01, label: 'syst.'}
+  - value: 9.26200E-01
+    errors:
+    - {symerror: 7.34100E-02, label: 'stat.'}
+    - {symerror: 1.72400E-02, label: 'syst.'}

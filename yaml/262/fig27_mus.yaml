@@ -1,0 +1,136 @@
+independent_variables:
+- header: {name: 'Npart'}
+  values:
+  - {value: 337.4}
+  - {value: 290.4}
+  - {value: 226.2}
+  - {value: 160.2}
+  - {value: 109.9}
+  - {value: 58.4}
+  - {value: 20.2}
+dependent_variables:
+- header: {name: 'muS (MeV)'}
+  qualifiers:
+  - {name: 'Energy', value: '7.7 GeV'}
+  values:
+  - value: 90.2
+    errors:
+    - {symerror: 7.6, label: 'error'}
+  - value: 89.8
+    errors:
+    - {symerror: 7.5, label: 'error'}
+  - value: 87.1
+    errors:
+    - {symerror: 7, label: 'error'}
+  - value: 85.7
+    errors:
+    - {symerror: 7, label: 'error'}
+  - value: 87.6
+    errors:
+    - {symerror: 7.4, label: 'error'}
+  - value: 82.2
+    errors:
+    - {symerror: 7, label: 'error'}
+  - value: 79.5
+    errors:
+    - {symerror: 8, label: 'error'}
+- header: {name: 'muS (MeV)'}
+  qualifiers:
+  - {name: 'Energy', value: '11.5 GeV'}
+  values:
+  - value: 66
+    errors:
+    - {symerror: 7.6, label: 'error'}
+  - value: 70
+    errors:
+    - {symerror: 7.8, label: 'error'}
+  - value: 68.6
+    errors:
+    - {symerror: 7.7, label: 'error'}
+  - value: 65.6
+    errors:
+    - {symerror: 7.5, label: 'error'}
+  - value: 62.9
+    errors:
+    - {symerror: 7.6, label: 'error'}
+  - value: 62.5
+    errors:
+    - {symerror: 7.6, label: 'error'}
+  - value: 54.6
+    errors:
+    - {symerror: 7.6, label: 'error'}
+- header: {name: 'muS (MeV)'}
+  qualifiers:
+  - {name: 'Energy', value: '19.6 GeV'}
+  values:
+  - value: 45.3
+    errors:
+    - {symerror: 6.3, label: 'error'}
+  - value: 45.8
+    errors:
+    - {symerror: 6.3, label: 'error'}
+  - value: 48.1
+    errors:
+    - {symerror: 6.2, label: 'error'}
+  - value: 45.5
+    errors:
+    - {symerror: 5.6, label: 'error'}
+  - value: 42.4
+    errors:
+    - {symerror: 5.7, label: 'error'}
+  - value: 40.1
+    errors:
+    - {symerror: 6.3, label: 'error'}
+  - value: 32.9
+    errors:
+    - {symerror: 6.4, label: 'error'}
+- header: {name: 'muS (MeV)'}
+  qualifiers:
+  - {name: 'Energy', value: '27 GeV'}
+  values:
+  - value: 36.7
+    errors:
+    - {symerror: 6, label: 'error'}
+  - value: 37.6
+    errors:
+    - {symerror: 6, label: 'error'}
+  - value: 36.3
+    errors:
+    - {symerror: 5.8, label: 'error'}
+  - value: 35.8
+    errors:
+    - {symerror: 5.4, label: 'error'}
+  - value: 35.9
+    errors:
+    - {symerror: 5.6, label: 'error'}
+  - value: 34.9
+    errors:
+    - {symerror: 5.7, label: 'error'}
+  - value: 27.4
+    errors:
+    - {symerror: 5.9, label: 'error'}
+- header: {name: 'muS (MeV)'}
+  qualifiers:
+  - {name: 'Energy', value: '39 GeV'}
+  values:
+  - value: 23.8
+    errors:
+    - {symerror: 8.1, label: 'error'}
+  - value: 23.9
+    errors:
+    - {symerror: 7.8, label: 'error'}
+  - value: 25.3
+    errors:
+    - {symerror: 7.3, label: 'error'}
+  - value: 25.8
+    errors:
+    - {symerror: 6.5, label: 'error'}
+  - value: 24.7
+    errors:
+    - {symerror: 6.9, label: 'error'}
+  - value: 23.2
+    errors:
+    - {symerror: 6.7, label: 'error'}
+  - value: 20.3
+    errors:
+    - {symerror: 6.5, label: 'error'}

@@ -1,0 +1,133 @@
+independent_variables:
+- header: {name: 'Particle Type'}
+  values:
+  - {value: pi-/pi+}
+  - {value: ka-/ka+}
+  - {value: pbar/p}
+  - {value: lambdabar/lambda}
+  - {value: Xibar/Xi}
+  - {value: kam/pim}
+  - {value: pbar/pi-}
+  - {value: lambda/pi-}
+  - {value: Xibar/pi-}
+dependent_variables:
+- header: {name: 'dn/dy (data)'}
+  qualifiers:
+  - {name: 'Particle Type', value: 'GCER'}
+  - {name: 'Energy', value: '7.7 GeV'}
+  values:
+  - value: 1.07066
+    errors:
+    - {symerror: 0.06177, label: 'error'}
+  - value: 0.37019
+    errors:
+    - {symerror: 0.01656, label: 'error'}
+  - value: 0.00725
+    errors:
+    - {symerror: 0.00062, label: 'error'}
+  - value: 0.01322
+    errors:
+    - {symerror: 0.00163, label: 'error'}
+  - value: 0.05386
+    errors:
+    - {symerror: 0.00779, label: 'error'}
+  - value: 0.077
+    errors:
+    - {symerror: 0.00757, label: 'error'}
+  - value: 0.00399
+    errors:
+    - {symerror: 0.00057, label: 'error'}
+  - value: 0.14917
+    errors:
+    - {symerror: 0.01736, label: 'error'}
+  - value: 0.00067
+    errors:
+    - {symerror: 0.0001, label: 'error'}
+- header: {name: 'dn/dy (data)'}
+  qualifiers:
+  - {name: 'Particle Type', value: 'GCER'}
+  - {name: 'Energy', value: '39 GeV'}
+  values:
+  - value: 1.01914
+    errors:
+    - {symerror: 0.0587, label: 'error'}
+  - value: 0.78252
+    errors:
+    - {symerror: 0.03498, label: 'error'}
+  - value: 0.32044
+    errors:
+    - {symerror: 0.02745, label: 'error'}
+  - value: 0.35329
+    errors:
+    - {symerror: 0.04741, label: 'error'}
+  - value: 0.51756
+    errors:
+    - {symerror: 0.09269, label: 'error'}
+  - value: 0.13463
+    errors:
+    - {symerror: 0.01656, label: 'error'}
+  - value: 0.04571
+    errors:
+    - {symerror: 0.00673, label: 'error'}
+  - value: 0.05766
+    errors:
+    - {symerror: 0.0081, label: 'error'}
+  - value: 0.0043
+    errors:
+    - {symerror: 0.00073, label: 'error'}
+- header: {name: 'dn/dy (model)'}
+  qualifiers:
+  - {name: 'Particle Type', value: 'GCER'}
+  - {name: 'Energy', value: '7.7 GeV'}
+  values:
+  - value: 0.99879
+  - value: 0.36078
+  - value: 0.00686
+  - value: 0.01447
+  - value: 0.04789
+  - value: 0.08267
+  - value: 0.0048
+  - value: 0.15056
+  - value: 0.00057
+- header: {name: 'dn/dy (model)'}
+  qualifiers:
+  - {name: 'Particle Type', value: 'GCER'}
+  - {name: 'Energy', value: '39 GeV'}
+  values:
+  - value: 0.99966
+  - value: 0.76911
+  - value: 0.30656
+  - value: 0.37048
+  - value: 0.49984
+  - value: 0.15386
+  - value: 0.05347
+  - value: 0.0541
+  - value: 0.00354
+- header: {name: 'std. dev.'}
+  qualifiers:
+  - {name: 'Particle Type', value: 'GCER'}
+  - {name: 'Energy', value: '7.7 GeV'}
+  values:
+  - value: -1.16
+  - value: -0.57
+  - value: -0.63
+  - value: 0.77
+  - value: -0.77
+  - value: 0.75
+  - value: 1.42
+  - value: 0.08
+  - value: -1.03
+- header: {name: 'std. dev.'}
+  qualifiers:
+  - {name: 'Particle Type', value: 'GCER'}
+  - {name: 'Energy', value: '39 GeV'}
+  values:
+  - value: -0.33
+  - value: -0.38
+  - value: -0.51
+  - value: 0.36
+  - value: -0.19
+  - value: 1.16
+  - value: 1.15
+  - value: -0.44
+  - value: -1.05

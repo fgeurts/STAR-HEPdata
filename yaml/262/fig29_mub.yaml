@@ -1,0 +1,136 @@
+independent_variables:
+- header: {name: 'Npart'}
+  values:
+  - {value: 337.4}
+  - {value: 290.4}
+  - {value: 226.2}
+  - {value: 160.2}
+  - {value: 109.9}
+  - {value: 58.4}
+  - {value: 20.2}
+dependent_variables:
+- header: {name: 'muB (MeV)'}
+  qualifiers:
+  - {name: 'Energy', value: '7.7 GeV'}
+  values:
+  - value: 400.1
+    errors:
+    - {symerror: 13.2, label: 'error'}
+  - value: 395.9
+    errors:
+    - {symerror: 13.1, label: 'error'}
+  - value: 391.8
+    errors:
+    - {symerror: 12, label: 'error'}
+  - value: 383
+    errors:
+    - {symerror: 11.9, label: 'error'}
+  - value: 377.6
+    errors:
+    - {symerror: 13.1, label: 'error'}
+  - value: 361
+    errors:
+    - {symerror: 12.3, label: 'error'}
+  - value: 347.4
+    errors:
+    - {symerror: 12.3, label: 'error'}
+- header: {name: 'muB (MeV)'}
+  qualifiers:
+  - {name: 'Energy', value: '11.5 GeV'}
+  values:
+  - value: 291.7
+    errors:
+    - {symerror: 12.5, label: 'error'}
+  - value: 292.7
+    errors:
+    - {symerror: 13.1, label: 'error'}
+  - value: 290.6
+    errors:
+    - {symerror: 12.3, label: 'error'}
+  - value: 283.8
+    errors:
+    - {symerror: 12.1, label: 'error'}
+  - value: 274.6
+    errors:
+    - {symerror: 12.6, label: 'error'}
+  - value: 259.7
+    errors:
+    - {symerror: 12.8, label: 'error'}
+  - value: 233.2
+    errors:
+    - {symerror: 12.4, label: 'error'}
+- header: {name: 'muB (MeV)'}
+  qualifiers:
+  - {name: 'Energy', value: '19.6 GeV'}
+  values:
+  - value: 194.2
+    errors:
+    - {symerror: 8.4, label: 'error'}
+  - value: 191.7
+    errors:
+    - {symerror: 8.4, label: 'error'}
+  - value: 190.3
+    errors:
+    - {symerror: 8.7, label: 'error'}
+  - value: 181.8
+    errors:
+    - {symerror: 8.2, label: 'error'}
+  - value: 170.6
+    errors:
+    - {symerror: 8.4, label: 'error'}
+  - value: 155.1
+    errors:
+    - {symerror: 8.6, label: 'error'}
+  - value: 129.1
+    errors:
+    - {symerror: 8.7, label: 'error'}
+- header: {name: 'muB (MeV)'}
+  qualifiers:
+  - {name: 'Energy', value: '27 GeV'}
+  values:
+  - value: 149.1
+    errors:
+    - {symerror: 7.5, label: 'error'}
+  - value: 147.9
+    errors:
+    - {symerror: 7.7, label: 'error'}
+  - value: 142.5
+    errors:
+    - {symerror: 7.1, label: 'error'}
+  - value: 136.4
+    errors:
+    - {symerror: 6.8, label: 'error'}
+  - value: 132.8
+    errors:
+    - {symerror: 7.6, label: 'error'}
+  - value: 120.4
+    errors:
+    - {symerror: 7, label: 'error'}
+  - value: 99.5
+    errors:
+    - {symerror: 7.6, label: 'error'}
+- header: {name: 'muB (MeV)'}
+  qualifiers:
+  - {name: 'Energy', value: '39 GeV'}
+  values:
+  - value: 104
+    errors:
+    - {symerror: 9.6, label: 'error'}
+  - value: 102
+    errors:
+    - {symerror: 9, label: 'error'}
+  - value: 101.5
+    errors:
+    - {symerror: 8.4, label: 'error'}
+  - value: 96.4
+    errors:
+    - {symerror: 7.7, label: 'error'}
+  - value: 92.7
+    errors:
+    - {symerror: 7.9, label: 'error'}
+  - value: 82.3
+    errors:
+    - {symerror: 7.6, label: 'error'}
+  - value: 66.9
+    errors:
+    - {symerror: 7.9, label: 'error'}

@@ -1,0 +1,141 @@
+independent_variables:
+- header: {name: 'Npart'}
+  values:
+  - {value: 337.4}
+  - {value: 290.4}
+  - {value: 226.2}
+  - {value: 160.2}
+  - {value: 109.9}
+  - {value: 58.4}
+  - {value: 20.2}
+dependent_variables:
+- header: {name: 'Ratio'}
+  qualifiers:
+  - {name: 'Ratio', value: 'muB'}
+  - {name: 'Energy', value: '7.7 GeV'}
+  values:
+  - value: 1.006
+    errors:
+    - {symerror: 0.04, label: 'error'}
+  - value: 0.996
+    errors:
+    - {symerror: 0.04, label: 'error'}
+  - value: 1.003
+    errors:
+    - {symerror: 0.037, label: 'error'}
+  - value: 0.989
+    errors:
+    - {symerror: 0.037, label: 'error'}
+  - value: 0.986
+    errors:
+    - {symerror: 0.041, label: 'error'}
+  - value: 0.971
+    errors:
+    - {symerror: 0.04, label: 'error'}
+  - value: 0.923
+    errors:
+    - {symerror: 0.041, label: 'error'}
+- header: {name: 'Ratio'}
+  qualifiers:
+  - {name: 'Ratio', value: 'muB'}
+  - {name: 'Energy', value: '11.5 GeV'}
+  values:
+  - value: 0.99
+    errors:
+    - {symerror: 0.049, label: 'error'}
+  - value: 0.989
+    errors:
+    - {symerror: 0.054, label: 'error'}
+  - value: 1
+    errors:
+    - {symerror: 0.052, label: 'error'}
+  - value: 1.001
+    errors:
+    - {symerror: 0.053, label: 'error'}
+  - value: 0.997
+    errors:
+    - {symerror: 0.053, label: 'error'}
+  - value: 0.975
+    errors:
+    - {symerror: 0.059, label: 'error'}
+  - value: 0.917
+    errors:
+    - {symerror: 0.06, label: 'error'}
+- header: {name: 'Ratio'}
+  qualifiers:
+  - {name: 'Ratio', value: 'muB'}
+  - {name: 'Energy', value: '19.6 GeV'}
+  values:
+  - value: 1.007
+    errors:
+    - {symerror: 0.061, label: 'error'}
+  - value: 0.992
+    errors:
+    - {symerror: 0.061, label: 'error'}
+  - value: 0.995
+    errors:
+    - {symerror: 0.066, label: 'error'}
+  - value: 0.991
+    errors:
+    - {symerror: 0.063, label: 'error'}
+  - value: 0.987
+    errors:
+    - {symerror: 0.068, label: 'error'}
+  - value: 0.962
+    errors:
+    - {symerror: 0.073, label: 'error'}
+  - value: 0.905
+    errors:
+    - {symerror: 0.081, label: 'error'}
+- header: {name: 'Ratio'}
+  qualifiers:
+  - {name: 'Ratio', value: 'muB'}
+  - {name: 'Energy', value: '27 GeV'}
+  values:
+  - value: 1.017
+    errors:
+    - {symerror: 0.073, label: 'error'}
+  - value: 1.01
+    errors:
+    - {symerror: 0.074, label: 'error'}
+  - value: 1.021
+    errors:
+    - {symerror: 0.074, label: 'error'}
+  - value: 1.027
+    errors:
+    - {symerror: 0.076, label: 'error'}
+  - value: 0.996
+    errors:
+    - {symerror: 0.081, label: 'error'}
+  - value: 0.973
+    errors:
+    - {symerror: 0.083, label: 'error'}
+  - value: 0.905
+    errors:
+    - {symerror: 0.094, label: 'error'}
+- header: {name: 'Ratio'}
+  qualifiers:
+  - {name: 'Ratio', value: 'muB'}
+  - {name: 'Energy', value: '39 GeV'}
+  values:
+  - value: 0.994
+    errors:
+    - {symerror: 0.117, label: 'error'}
+  - value: 0.987
+    errors:
+    - {symerror: 0.113, label: 'error'}
+  - value: 0.986
+    errors:
+    - {symerror: 0.107, label: 'error'}
+  - value: 0.974
+    errors:
+    - {symerror: 0.105, label: 'error'}
+  - value: 0.975
+    errors:
+    - {symerror: 0.108, label: 'error'}
+  - value: 0.965
+    errors:
+    - {symerror: 0.116, label: 'error'}
+  - value: 0.896
+    errors:
+    - {symerror: 0.135, label: 'error'}

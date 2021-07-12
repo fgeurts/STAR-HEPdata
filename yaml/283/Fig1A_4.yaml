@@ -1,0 +1,88 @@
+independent_variables:
+- header: {name: '$M{ee} (GeV/c^2)$'}
+  values:
+  - {low: 0.3, high: 0.4}
+  - {low: 0.4, high: 0.52}
+  - {low: 0.52, high: 0.64}
+  - {low: 0.64, high: 0.76}
+  - {low: 0.76, high: 0.88}
+  - {low: 0.88, high: 1}
+  - {low: 1, high: 1.2}
+  - {low: 1.2, high: 1.6}
+  - {low: 1.6, high: 2.2}
+  - {low: 2.2, high: 2.6}
+  - {low: 2.6, high: 3}
+  - {low: 3, high: 3.08}
+  - {low: 3.08, high: 3.11}
+  - {low: 3.11, high: 3.15}
+  - {low: 3.15, high: 3.2}
+  - {low: 3.2, high: 4}
+dependent_variables:
+- header: {name: '$dN/dM_{ee}$'}
+  qualifiers:
+  - {name: '$M{ee} (GeV/c^2)$', value: 'Dielectron Invariant Mass Spectra (40-60% U+U collisions)'}
+  values:
+  - value: -1.13000E-05
+    errors:
+    - {symerror: 1.78000E-05, label: 'statErr'}
+    - {symerror: 2.46000E-06, label: 'sysErr'}
+  - value: 3.25000E-04
+    errors:
+    - {symerror: 1.72000E-04, label: 'statErr'}
+    - {symerror: 5.74000E-05, label: 'sysErr'}
+  - value: 7.33000E-04
+    errors:
+    - {symerror: 1.86000E-04, label: 'statErr'}
+    - {symerror: 8.70000E-05, label: 'sysErr'}
+  - value: 5.14000E-04
+    errors:
+    - {symerror: 1.28000E-04, label: 'statErr'}
+    - {symerror: 6.14000E-05, label: 'sysErr'}
+  - value: 2.58000E-04
+    errors:
+    - {symerror: 8.88000E-05, label: 'statErr'}
+    - {symerror: 2.90000E-05, label: 'sysErr'}
+  - value: 2.05000E-04
+    errors:
+    - {symerror: 6.42000E-05, label: 'statErr'}
+    - {symerror: 2.29000E-05, label: 'sysErr'}
+  - value: 1.37000E-04
+    errors:
+    - {symerror: 3.49000E-05, label: 'statErr'}
+    - {symerror: 1.48000E-05, label: 'sysErr'}
+  - value: 2.14000E-05
+    errors:
+    - {symerror: 1.39000E-05, label: 'statErr'}
+    - {symerror: 2.45000E-06, label: 'sysErr'}
+  - value: 7.42000E-06
+    errors:
+    - {symerror: 4.65000E-06, label: 'statErr'}
+    - {symerror: 8.81000E-07, label: 'sysErr'}
+  - value: 6.23000E-06
+    errors:
+    - {symerror: 2.11000E-06, label: 'statErr'}
+    - {symerror: 6.70000E-07, label: 'sysErr'}
+  - value: 1.60000E-06
+    errors:
+    - {symerror: 1.17000E-06, label: 'statErr'}
+    - {symerror: 2.86000E-07, label: 'sysErr'}
+  - value: 7.99000E-06
+    errors:
+    - {symerror: 3.45000E-06, label: 'statErr'}
+    - {symerror: 8.82000E-07, label: 'sysErr'}
+  - value: 2.66000E-05
+    errors:
+    - {symerror: 7.73000E-06, label: 'statErr'}
+    - {symerror: 2.86000E-06, label: 'sysErr'}
+  - value: 8.01000E-06
+    errors:
+    - {symerror: 3.59000E-06, label: 'statErr'}
+    - {symerror: 8.91000E-07, label: 'sysErr'}
+  - value: 2.59000E-06
+    errors:
+    - {symerror: 1.84000E-06, label: 'statErr'}
+    - {symerror: 2.80000E-07, label: 'sysErr'}
+  - value: 3.42000E-07
+    errors:
+    - {symerror: 2.46000E-07, label: 'statErr'}
+    - {symerror: 5.01000E-08, label: 'sysErr'}
