@@ -1,0 +1,12 @@
+independent_variables:
+- header: {name: '$\sqrt{s_{NN}}[GeV]$'}
+  values:
+  - {value: 4.80}
+dependent_variables:
+- header: {name: '$T_{kin}[MeV]$'}
+  qualifiers:
+  - {name: '$\sqrt{s_{NN}}[GeV]$', value: 'E866'}
+  values:
+  - value: 127.0
+    errors:
+    - {asymerror: {plus: 10.0, minus: -15.0}, label: 'total error'}

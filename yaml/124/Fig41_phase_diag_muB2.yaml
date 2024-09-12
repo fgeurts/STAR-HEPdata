@@ -1,0 +1,18 @@
+independent_variables: []
+dependent_variables:
+- header: {name: '$\mu_B[MeV]$'}
+  qualifiers:
+  - {name: 'none', value: 'SIS'}
+  values:
+  - value: 825.0
+    errors:
+    - {symerror: 8.0, label: 'error'}
+  - value: 720.0
+    errors:
+    - {symerror: 30.0, label: 'error'}
+  - value: 810.0
+    errors:
+    - {symerror: 12.0, label: 'error'}
+  - value: 808.0
+    errors:
+    - {symerror: 5.0, label: 'error'}

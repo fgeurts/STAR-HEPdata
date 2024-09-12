@@ -1,0 +1,28 @@
+independent_variables:
+- header: {name: '$(dN_{\pi}/dy)/S_{\prep}[fm^{-2}]$'}
+  values:
+  - {value: 1.1}
+  - {value: 1.3}
+  - {value: 1.5}
+  - {value: 2.0}
+  - {value: 2.5}
+dependent_variables:
+- header: {name: '$K^-/pi^-$'}
+  qualifiers:
+  - {name: '$(dN_{\pi}/dy)/S_{\prep}[fm^{-2}]$', value: 'SPS NA49 Pb+Pb energy scan'}
+  values:
+  - value: 0.0658
+    errors:
+    - {symerror: 0.0019, label: 'error'}
+  - value: 0.0808
+    errors:
+    - {symerror: 0.0027, label: 'error'}
+  - value: 0.0714
+    errors:
+    - {symerror: 0.0041, label: 'error'}
+  - value: 0.0833
+    errors:
+    - {symerror: 0.0045, label: 'error'}
+  - value: 0.0958
+    errors:
+    - {symerror: 0.0049, label: 'error'}

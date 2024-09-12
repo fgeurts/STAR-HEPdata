@@ -1,0 +1,32 @@
+independent_variables:
+- header: {name: '$N_{part}$'}
+  values:
+  - {value: 72.0}
+  - {value: 130.0}
+  - {value: 188.0}
+  - {value: 241.0}
+  - {value: 304.0}
+  - {value: 362.0}
+dependent_variables:
+- header: {name: '$K^-/pi^-$'}
+  qualifiers:
+  - {name: '$N_{part}$', value: 'SPS NA49 Pb+Pb 17.3 GeV'}
+  values:
+  - value: 0.0694
+    errors:
+    - {symerror: 0.0065, label: 'error'}
+  - value: 0.0864
+    errors:
+    - {symerror: 0.0052, label: 'error'}
+  - value: 0.0942
+    errors:
+    - {symerror: 0.0065, label: 'error'}
+  - value: 0.1021
+    errors:
+    - {symerror: 0.0065, label: 'error'}
+  - value: 0.1178
+    errors:
+    - {symerror: 0.0065, label: 'error'}
+  - value: 0.1152
+    errors:
+    - {symerror: 0.0105, label: 'error'}

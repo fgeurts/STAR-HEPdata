@@ -1,0 +1,32 @@
+independent_variables:
+- header: {name: '$(dN_{\pi}/dy)/S_{\prep}[fm^{-2}]$'}
+  values:
+  - {value: 1.5}
+  - {value: 1.9}
+  - {value: 2.1}
+  - {value: 2.3}
+  - {value: 2.5}
+  - {value: 2.6}
+dependent_variables:
+- header: {name: '$K^-/pi^-$'}
+  qualifiers:
+  - {name: '$(dN_{\pi}/dy)/S_{\prep}[fm^{-2}]$', value: 'SPS NA49 Pb+Pb 17.3 GeV'}
+  values:
+  - value: 0.0694
+    errors:
+    - {symerror: 0.0065, label: 'error'}
+  - value: 0.0864
+    errors:
+    - {symerror: 0.0052, label: 'error'}
+  - value: 0.0942
+    errors:
+    - {symerror: 0.0065, label: 'error'}
+  - value: 0.1021
+    errors:
+    - {symerror: 0.0065, label: 'error'}
+  - value: 0.1178
+    errors:
+    - {symerror: 0.0065, label: 'error'}
+  - value: 0.1152
+    errors:
+    - {symerror: 0.0105, label: 'error'}

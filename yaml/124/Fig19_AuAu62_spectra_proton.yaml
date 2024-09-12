@@ -1,0 +1,974 @@
+independent_variables:
+- header: {name: '$p_T$ bins'}
+  values:
+  - {low: 0.35, high: 0.4}
+  - {low: 0.4, high: 0.45}
+  - {low: 0.45, high: 0.5}
+  - {low: 0.5, high: 0.55}
+  - {low: 0.55, high: 0.6}
+  - {low: 0.6, high: 0.65}
+  - {low: 0.65, high: 0.7}
+  - {low: 0.7, high: 0.75}
+  - {low: 0.75, high: 0.8}
+  - {low: 0.8, high: 0.85}
+  - {low: 0.85, high: 0.9}
+  - {low: 0.9, high: 0.95}
+  - {low: 0.95, high: 1}
+  - {low: 1, high: 1.05}
+  - {low: 1.05, high: 1.1}
+  - {low: 1.1, high: 1.15}
+- header: {name: '$p_T$'}
+  values:
+  - {value: 0.375000}
+  - {value: 0.425000}
+  - {value: 0.475000}
+  - {value: 0.525000}
+  - {value: 0.575000}
+  - {value: 0.625000}
+  - {value: 0.675000}
+  - {value: 0.725000}
+  - {value: 0.775000}
+  - {value: 0.825000}
+  - {value: 0.875000}
+  - {value: 0.925000}
+  - {value: 0.975000}
+  - {value: 1.025000}
+  - {value: 1.075000}
+  - {value: 1.125000}
+dependent_variables:
+- header: {name: 'spectra $d^2N/(2\pi p_T dp_T dy)[(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au 62.4 GeV $\bar{p}$ $70-80\%$'}
+  values:
+  - value: 0.204821
+    errors:
+    - {symerror: 0.004043, label: 'stat error'}
+  - value: 0.184647
+    errors:
+    - {symerror: 0.003598, label: 'stat error'}
+  - value: 0.176108
+    errors:
+    - {symerror: 0.003352, label: 'stat error'}
+  - value: 0.153342
+    errors:
+    - {symerror: 0.002964, label: 'stat error'}
+  - value: 0.133990
+    errors:
+    - {symerror: 0.002632, label: 'stat error'}
+  - value: 0.120006
+    errors:
+    - {symerror: 0.003160, label: 'stat error'}
+  - value: 0.104699
+    errors:
+    - {symerror: 0.002794, label: 'stat error'}
+  - value: 0.088363
+    errors:
+    - {symerror: 0.002413, label: 'stat error'}
+  - value: 0.074928
+    errors:
+    - {symerror: 0.002096, label: 'stat error'}
+  - value: 0.068651
+    errors:
+    - {symerror: 0.001937, label: 'stat error'}
+  - value: 0.059854
+    errors:
+    - {symerror: 0.002181, label: 'stat error'}
+  - value: 0.049316
+    errors:
+    - {symerror: 0.001814, label: 'stat error'}
+  - value: 0.042118
+    errors:
+    - {symerror: 0.001613, label: 'stat error'}
+  - value: 0.035712
+    errors:
+    - {symerror: 0.001403, label: 'stat error'}
+  - value: 0.031492
+    errors:
+    - {symerror: 0.001521, label: 'stat error'}
+  - value: 0.026836
+    errors:
+    - {symerror: 0.001392, label: 'stat error'}
+- header: {name: 'spectra $d^2N/(2\pi p_T dp_T dy)[(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au 62.4 GeV $\bar{p}$ $60-70\%$'}
+  values:
+  - value: 0.387108
+    errors:
+    - {symerror: 0.006325, label: 'stat error'}
+  - value: 0.352540
+    errors:
+    - {symerror: 0.005628, label: 'stat error'}
+  - value: 0.337358
+    errors:
+    - {symerror: 0.005276, label: 'stat error'}
+  - value: 0.310779
+    errors:
+    - {symerror: 0.004841, label: 'stat error'}
+  - value: 0.281699
+    errors:
+    - {symerror: 0.004403, label: 'stat error'}
+  - value: 0.251236
+    errors:
+    - {symerror: 0.005890, label: 'stat error'}
+  - value: 0.224462
+    errors:
+    - {symerror: 0.005292, label: 'stat error'}
+  - value: 0.203645
+    errors:
+    - {symerror: 0.004822, label: 'stat error'}
+  - value: 0.170360
+    errors:
+    - {symerror: 0.004106, label: 'stat error'}
+  - value: 0.153398
+    errors:
+    - {symerror: 0.003727, label: 'stat error'}
+  - value: 0.141009
+    errors:
+    - {symerror: 0.004660, label: 'stat error'}
+  - value: 0.117716
+    errors:
+    - {symerror: 0.003946, label: 'stat error'}
+  - value: 0.101204
+    errors:
+    - {symerror: 0.003444, label: 'stat error'}
+  - value: 0.088987
+    errors:
+    - {symerror: 0.003116, label: 'stat error'}
+  - value: 0.074666
+    errors:
+    - {symerror: 0.003329, label: 'stat error'}
+  - value: 0.063094
+    errors:
+    - {symerror: 0.003109, label: 'stat error'}
+- header: {name: 'spectra $d^2N/(2\pi p_T dp_T dy)[(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au 62.4 GeV $\bar{p}$ $50-60\%$'}
+  values:
+  - value: 0.618514
+    errors:
+    - {symerror: 0.008875, label: 'stat error'}
+  - value: 0.592733
+    errors:
+    - {symerror: 0.008260, label: 'stat error'}
+  - value: 0.558726
+    errors:
+    - {symerror: 0.007691, label: 'stat error'}
+  - value: 0.518193
+    errors:
+    - {symerror: 0.007104, label: 'stat error'}
+  - value: 0.487081
+    errors:
+    - {symerror: 0.006644, label: 'stat error'}
+  - value: 0.437363
+    errors:
+    - {symerror: 0.009669, label: 'stat error'}
+  - value: 0.395661
+    errors:
+    - {symerror: 0.008769, label: 'stat error'}
+  - value: 0.353950
+    errors:
+    - {symerror: 0.007880, label: 'stat error'}
+  - value: 0.316423
+    errors:
+    - {symerror: 0.007079, label: 'stat error'}
+  - value: 0.291779
+    errors:
+    - {symerror: 0.006557, label: 'stat error'}
+  - value: 0.242149
+    errors:
+    - {symerror: 0.007749, label: 'stat error'}
+  - value: 0.215064
+    errors:
+    - {symerror: 0.006904, label: 'stat error'}
+  - value: 0.188355
+    errors:
+    - {symerror: 0.006099, label: 'stat error'}
+  - value: 0.162073
+    errors:
+    - {symerror: 0.005333, label: 'stat error'}
+  - value: 0.141270
+    errors:
+    - {symerror: 0.005974, label: 'stat error'}
+  - value: 0.120143
+    errors:
+    - {symerror: 0.005289, label: 'stat error'}
+- header: {name: 'spectra $d^2N/(2\pi p_T dp_T dy)[(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au 62.4 GeV $\bar{p}$ $40-50\%$'}
+  values:
+  - value: 0.911823
+    errors:
+    - {symerror: 0.012047, label: 'stat error'}
+  - value: 0.875253
+    errors:
+    - {symerror: 0.011281, label: 'stat error'}
+  - value: 0.831326
+    errors:
+    - {symerror: 0.010598, label: 'stat error'}
+  - value: 0.789108
+    errors:
+    - {symerror: 0.009991, label: 'stat error'}
+  - value: 0.728716
+    errors:
+    - {symerror: 0.009218, label: 'stat error'}
+  - value: 0.685362
+    errors:
+    - {symerror: 0.014686, label: 'stat error'}
+  - value: 0.624009
+    errors:
+    - {symerror: 0.013392, label: 'stat error'}
+  - value: 0.565314
+    errors:
+    - {symerror: 0.012160, label: 'stat error'}
+  - value: 0.511242
+    errors:
+    - {symerror: 0.011030, label: 'stat error'}
+  - value: 0.482606
+    errors:
+    - {symerror: 0.010425, label: 'stat error'}
+  - value: 0.406062
+    errors:
+    - {symerror: 0.012700, label: 'stat error'}
+  - value: 0.362658
+    errors:
+    - {symerror: 0.011367, label: 'stat error'}
+  - value: 0.324796
+    errors:
+    - {symerror: 0.010237, label: 'stat error'}
+  - value: 0.288532
+    errors:
+    - {symerror: 0.009104, label: 'stat error'}
+  - value: 0.247896
+    errors:
+    - {symerror: 0.010312, label: 'stat error'}
+  - value: 0.220673
+    errors:
+    - {symerror: 0.009706, label: 'stat error'}
+- header: {name: 'spectra $d^2N/(2\pi p_T dp_T dy)[(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au 62.4 GeV $\bar{p}$ $30-40\%$'}
+  values:
+  - value: 1.262960
+    errors:
+    - {symerror: 0.015619, label: 'stat error'}
+  - value: 1.186347
+    errors:
+    - {symerror: 0.014415, label: 'stat error'}
+  - value: 1.161087
+    errors:
+    - {symerror: 0.013911, label: 'stat error'}
+  - value: 1.113297
+    errors:
+    - {symerror: 0.013241, label: 'stat error'}
+  - value: 1.054527
+    errors:
+    - {symerror: 0.012496, label: 'stat error'}
+  - value: 0.978748
+    errors:
+    - {symerror: 0.020538, label: 'stat error'}
+  - value: 0.920017
+    errors:
+    - {symerror: 0.019301, label: 'stat error'}
+  - value: 0.835890
+    errors:
+    - {symerror: 0.017563, label: 'stat error'}
+  - value: 0.776884
+    errors:
+    - {symerror: 0.016337, label: 'stat error'}
+  - value: 0.712486
+    errors:
+    - {symerror: 0.015020, label: 'stat error'}
+  - value: 0.675746
+    errors:
+    - {symerror: 0.020798, label: 'stat error'}
+  - value: 0.597902
+    errors:
+    - {symerror: 0.018405, label: 'stat error'}
+  - value: 0.525018
+    errors:
+    - {symerror: 0.016240, label: 'stat error'}
+  - value: 0.468044
+    errors:
+    - {symerror: 0.014585, label: 'stat error'}
+  - value: 0.410843
+    errors:
+    - {symerror: 0.017113, label: 'stat error'}
+  - value: 0.370105
+    errors:
+    - {symerror: 0.014804, label: 'stat error'}
+- header: {name: 'spectra $d^2N/(2\pi p_T dp_T dy)[(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au 62.4 GeV $\bar{p}$ $20-30\%$'}
+  values:
+  - value: 1.704941
+    errors:
+    - {symerror: 0.020256, label: 'stat error'}
+  - value: 1.639684
+    errors:
+    - {symerror: 0.019117, label: 'stat error'}
+  - value: 1.568984
+    errors:
+    - {symerror: 0.018132, label: 'stat error'}
+  - value: 1.528981
+    errors:
+    - {symerror: 0.017528, label: 'stat error'}
+  - value: 1.448047
+    errors:
+    - {symerror: 0.016550, label: 'stat error'}
+  - value: 1.370045
+    errors:
+    - {symerror: 0.028411, label: 'stat error'}
+  - value: 1.288693
+    errors:
+    - {symerror: 0.026719, label: 'stat error'}
+  - value: 1.195588
+    errors:
+    - {symerror: 0.024801, label: 'stat error'}
+  - value: 1.102426
+    errors:
+    - {symerror: 0.022892, label: 'stat error'}
+  - value: 1.045283
+    errors:
+    - {symerror: 0.021720, label: 'stat error'}
+  - value: 0.989497
+    errors:
+    - {symerror: 0.030195, label: 'stat error'}
+  - value: 0.873824
+    errors:
+    - {symerror: 0.026727, label: 'stat error'}
+  - value: 0.785262
+    errors:
+    - {symerror: 0.024088, label: 'stat error'}
+  - value: 0.696612
+    errors:
+    - {symerror: 0.021657, label: 'stat error'}
+  - value: 0.631719
+    errors:
+    - {symerror: 0.025815, label: 'stat error'}
+  - value: 0.576784
+    errors:
+    - {symerror: 0.023667, label: 'stat error'}
+- header: {name: 'spectra $d^2N/(2\pi p_T dp_T dy)[(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au 62.4 GeV $\bar{p}$ $10-20\%$'}
+  values:
+  - value: 2.168728
+    errors:
+    - {symerror: 0.024942, label: 'stat error'}
+  - value: 2.120082
+    errors:
+    - {symerror: 0.024034, label: 'stat error'}
+  - value: 2.073167
+    errors:
+    - {symerror: 0.023294, label: 'stat error'}
+  - value: 2.053825
+    errors:
+    - {symerror: 0.022892, label: 'stat error'}
+  - value: 1.960454
+    errors:
+    - {symerror: 0.021781, label: 'stat error'}
+  - value: 1.857553
+    errors:
+    - {symerror: 0.038202, label: 'stat error'}
+  - value: 1.774864
+    errors:
+    - {symerror: 0.036483, label: 'stat error'}
+  - value: 1.647963
+    errors:
+    - {symerror: 0.033888, label: 'stat error'}
+  - value: 1.529301
+    errors:
+    - {symerror: 0.031474, label: 'stat error'}
+  - value: 1.449659
+    errors:
+    - {symerror: 0.029860, label: 'stat error'}
+  - value: 1.391762
+    errors:
+    - {symerror: 0.042258, label: 'stat error'}
+  - value: 1.239023
+    errors:
+    - {symerror: 0.037633, label: 'stat error'}
+  - value: 1.138883
+    errors:
+    - {symerror: 0.034751, label: 'stat error'}
+  - value: 0.997270
+    errors:
+    - {symerror: 0.030902, label: 'stat error'}
+  - value: 0.937242
+    errors:
+    - {symerror: 0.037968, label: 'stat error'}
+  - value: 0.861695
+    errors:
+    - {symerror: 0.035452, label: 'stat error'}
+- header: {name: 'spectra $d^2N/(2\pi p_T dp_T dy)[(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au 62.4 GeV $\bar{p}$ $5-10\%$'}
+  values:
+  - value: 2.719826
+    errors:
+    - {symerror: 0.033592, label: 'stat error'}
+  - value: 2.616125
+    errors:
+    - {symerror: 0.031680, label: 'stat error'}
+  - value: 2.596977
+    errors:
+    - {symerror: 0.030977, label: 'stat error'}
+  - value: 2.494532
+    errors:
+    - {symerror: 0.029546, label: 'stat error'}
+  - value: 2.431565
+    errors:
+    - {symerror: 0.028611, label: 'stat error'}
+  - value: 2.348423
+    errors:
+    - {symerror: 0.049092, label: 'stat error'}
+  - value: 2.227192
+    errors:
+    - {symerror: 0.046545, label: 'stat error'}
+  - value: 2.090287
+    errors:
+    - {symerror: 0.043699, label: 'stat error'}
+  - value: 1.963104
+    errors:
+    - {symerror: 0.041093, label: 'stat error'}
+  - value: 1.892300
+    errors:
+    - {symerror: 0.039651, label: 'stat error'}
+  - value: 1.801628
+    errors:
+    - {symerror: 0.055126, label: 'stat error'}
+  - value: 1.647451
+    errors:
+    - {symerror: 0.050656, label: 'stat error'}
+  - value: 1.467526
+    errors:
+    - {symerror: 0.045219, label: 'stat error'}
+  - value: 1.318143
+    errors:
+    - {symerror: 0.042014, label: 'stat error'}
+  - value: 1.234564
+    errors:
+    - {symerror: 0.050443, label: 'stat error'}
+  - value: 1.145718
+    errors:
+    - {symerror: 0.048206, label: 'stat error'}
+- header: {name: 'spectra $d^2N/(2\pi p_T dp_T dy)[(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au 62.4 GeV $\bar{p}$ $0-5\%$'}
+  values:
+  - value: 3.114443
+    errors:
+    - {symerror: 0.037525, label: 'stat error'}
+  - value: 3.038494
+    errors:
+    - {symerror: 0.035916, label: 'stat error'}
+  - value: 2.982067
+    errors:
+    - {symerror: 0.034843, label: 'stat error'}
+  - value: 2.916759
+    errors:
+    - {symerror: 0.033809, label: 'stat error'}
+  - value: 2.868871
+    errors:
+    - {symerror: 0.033024, label: 'stat error'}
+  - value: 2.748858
+    errors:
+    - {symerror: 0.057123, label: 'stat error'}
+  - value: 2.632764
+    errors:
+    - {symerror: 0.054684, label: 'stat error'}
+  - value: 2.501370
+    errors:
+    - {symerror: 0.051958, label: 'stat error'}
+  - value: 2.333333
+    errors:
+    - {symerror: 0.048555, label: 'stat error'}
+  - value: 2.312558
+    errors:
+    - {symerror: 0.047987, label: 'stat error'}
+  - value: 2.070218
+    errors:
+    - {symerror: 0.063344, label: 'stat error'}
+  - value: 1.893988
+    errors:
+    - {symerror: 0.058097, label: 'stat error'}
+  - value: 1.783642
+    errors:
+    - {symerror: 0.054567, label: 'stat error'}
+  - value: 1.620593
+    errors:
+    - {symerror: 0.051165, label: 'stat error'}
+  - value: 1.513502
+    errors:
+    - {symerror: 0.060540, label: 'stat error'}
+  - value: 1.361938
+    errors:
+    - {symerror: 0.054478, label: 'stat error'}
+- header: {name: 'spectra $d^2N/(2\pi p_T dp_T dy)[(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au 62.4 GeV $p$ $70-80\%$'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 0.266311
+    errors:
+    - {symerror: 0.003551, label: 'stat error'}
+  - value: 0.245345
+    errors:
+    - {symerror: 0.003461, label: 'stat error'}
+  - value: 0.220800
+    errors:
+    - {symerror: 0.003271, label: 'stat error'}
+  - value: 0.211805
+    errors:
+    - {symerror: 0.003145, label: 'stat error'}
+  - value: 0.192498
+    errors:
+    - {symerror: 0.004426, label: 'stat error'}
+  - value: 0.169829
+    errors:
+    - {symerror: 0.003955, label: 'stat error'}
+  - value: 0.155533
+    errors:
+    - {symerror: 0.003650, label: 'stat error'}
+  - value: 0.129772
+    errors:
+    - {symerror: 0.003119, label: 'stat error'}
+  - value: 0.115495
+    errors:
+    - {symerror: 0.002811, label: 'stat error'}
+  - value: 0.094817
+    errors:
+    - {symerror: 0.003198, label: 'stat error'}
+  - value: 0.081348
+    errors:
+    - {symerror: 0.002778, label: 'stat error'}
+  - value: 0.066707
+    errors:
+    - {symerror: 0.002320, label: 'stat error'}
+  - value: 0.061679
+    errors:
+    - {symerror: 0.002170, label: 'stat error'}
+  - value: 0.051129
+    errors:
+    - {symerror: 0.002308, label: 'stat error'}
+  - value: 0.042430
+    errors:
+    - {symerror: 0.002015, label: 'stat error'}
+- header: {name: 'spectra $d^2N/(2\pi p_T dp_T dy)[(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au 62.4 GeV $p$ $60-70\%$'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 0.527760
+    errors:
+    - {symerror: 0.006324, label: 'stat error'}
+  - value: 0.525223
+    errors:
+    - {symerror: 0.006371, label: 'stat error'}
+  - value: 0.495202
+    errors:
+    - {symerror: 0.006137, label: 'stat error'}
+  - value: 0.469031
+    errors:
+    - {symerror: 0.005884, label: 'stat error'}
+  - value: 0.417314
+    errors:
+    - {symerror: 0.009003, label: 'stat error'}
+  - value: 0.390420
+    errors:
+    - {symerror: 0.008449, label: 'stat error'}
+  - value: 0.339009
+    errors:
+    - {symerror: 0.007415, label: 'stat error'}
+  - value: 0.303338
+    errors:
+    - {symerror: 0.006682, label: 'stat error'}
+  - value: 0.271589
+    errors:
+    - {symerror: 0.006028, label: 'stat error'}
+  - value: 0.220896
+    errors:
+    - {symerror: 0.007037, label: 'stat error'}
+  - value: 0.194968
+    errors:
+    - {symerror: 0.006223, label: 'stat error'}
+  - value: 0.168736
+    errors:
+    - {symerror: 0.005456, label: 'stat error'}
+  - value: 0.146708
+    errors:
+    - {symerror: 0.004787, label: 'stat error'}
+  - value: 0.124196
+    errors:
+    - {symerror: 0.005315, label: 'stat error'}
+  - value: 0.104931
+    errors:
+    - {symerror: 0.004582, label: 'stat error'}
+- header: {name: 'spectra $d^2N/(2\pi p_T dp_T dy)[(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au 62.4 GeV $p$ $50-60\%$'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 0.921138
+    errors:
+    - {symerror: 0.010316, label: 'stat error'}
+  - value: 0.927372
+    errors:
+    - {symerror: 0.010506, label: 'stat error'}
+  - value: 0.886516
+    errors:
+    - {symerror: 0.010184, label: 'stat error'}
+  - value: 0.825958
+    errors:
+    - {symerror: 0.009626, label: 'stat error'}
+  - value: 0.788754
+    errors:
+    - {symerror: 0.016496, label: 'stat error'}
+  - value: 0.712736
+    errors:
+    - {symerror: 0.014960, label: 'stat error'}
+  - value: 0.644957
+    errors:
+    - {symerror: 0.013593, label: 'stat error'}
+  - value: 0.584800
+    errors:
+    - {symerror: 0.012376, label: 'stat error'}
+  - value: 0.513544
+    errors:
+    - {symerror: 0.010930, label: 'stat error'}
+  - value: 0.433421
+    errors:
+    - {symerror: 0.013448, label: 'stat error'}
+  - value: 0.383971
+    errors:
+    - {symerror: 0.011945, label: 'stat error'}
+  - value: 0.339196
+    errors:
+    - {symerror: 0.010594, label: 'stat error'}
+  - value: 0.296196
+    errors:
+    - {symerror: 0.009291, label: 'stat error'}
+  - value: 0.256909
+    errors:
+    - {symerror: 0.010720, label: 'stat error'}
+  - value: 0.225044
+    errors:
+    - {symerror: 0.009455, label: 'stat error'}
+- header: {name: 'spectra $d^2N/(2\pi p_T dp_T dy)[(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au 62.4 GeV $p$ $40-50\%$'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 1.434866
+    errors:
+    - {symerror: 0.015510, label: 'stat error'}
+  - value: 1.425992
+    errors:
+    - {symerror: 0.015547, label: 'stat error'}
+  - value: 1.382725
+    errors:
+    - {symerror: 0.015193, label: 'stat error'}
+  - value: 1.324891
+    errors:
+    - {symerror: 0.014652, label: 'stat error'}
+  - value: 1.258508
+    errors:
+    - {symerror: 0.025900, label: 'stat error'}
+  - value: 1.172059
+    errors:
+    - {symerror: 0.024163, label: 'stat error'}
+  - value: 1.066347
+    errors:
+    - {symerror: 0.022041, label: 'stat error'}
+  - value: 0.964920
+    errors:
+    - {symerror: 0.019998, label: 'stat error'}
+  - value: 0.871146
+    errors:
+    - {symerror: 0.018111, label: 'stat error'}
+  - value: 0.755033
+    errors:
+    - {symerror: 0.023111, label: 'stat error'}
+  - value: 0.671486
+    errors:
+    - {symerror: 0.020569, label: 'stat error'}
+  - value: 0.594242
+    errors:
+    - {symerror: 0.018281, label: 'stat error'}
+  - value: 0.523466
+    errors:
+    - {symerror: 0.016174, label: 'stat error'}
+  - value: 0.462228
+    errors:
+    - {symerror: 0.018839, label: 'stat error'}
+  - value: 0.404647
+    errors:
+    - {symerror: 0.016755, label: 'stat error'}
+- header: {name: 'spectra $d^2N/(2\pi p_T dp_T dy)[(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au 62.4 GeV $p$ $30-40\%$'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 2.136197
+    errors:
+    - {symerror: 0.022480, label: 'stat error'}
+  - value: 2.099859
+    errors:
+    - {symerror: 0.022256, label: 'stat error'}
+  - value: 2.073672
+    errors:
+    - {symerror: 0.022076, label: 'stat error'}
+  - value: 2.032354
+    errors:
+    - {symerror: 0.021702, label: 'stat error'}
+  - value: 1.901086
+    errors:
+    - {symerror: 0.038749, label: 'stat error'}
+  - value: 1.777311
+    errors:
+    - {symerror: 0.036273, label: 'stat error'}
+  - value: 1.662098
+    errors:
+    - {symerror: 0.033960, label: 'stat error'}
+  - value: 1.506088
+    errors:
+    - {symerror: 0.030831, label: 'stat error'}
+  - value: 1.367653
+    errors:
+    - {symerror: 0.028050, label: 'stat error'}
+  - value: 1.213930
+    errors:
+    - {symerror: 0.036881, label: 'stat error'}
+  - value: 1.085725
+    errors:
+    - {symerror: 0.033022, label: 'stat error'}
+  - value: 0.962877
+    errors:
+    - {symerror: 0.029336, label: 'stat error'}
+  - value: 0.862535
+    errors:
+    - {symerror: 0.026373, label: 'stat error'}
+  - value: 0.773262
+    errors:
+    - {symerror: 0.031310, label: 'stat error'}
+  - value: 0.684518
+    errors:
+    - {symerror: 0.027381, label: 'stat error'}
+- header: {name: 'spectra $d^2N/(2\pi p_T dp_T dy)[(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au 62.4 GeV $p$ $20-30\%$'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 2.978686
+    errors:
+    - {symerror: 0.030932, label: 'stat error'}
+  - value: 2.999714
+    errors:
+    - {symerror: 0.031302, label: 'stat error'}
+  - value: 2.985496
+    errors:
+    - {symerror: 0.031270, label: 'stat error'}
+  - value: 2.894431
+    errors:
+    - {symerror: 0.030417, label: 'stat error'}
+  - value: 2.778479
+    errors:
+    - {symerror: 0.056328, label: 'stat error'}
+  - value: 2.619074
+    errors:
+    - {symerror: 0.053138, label: 'stat error'}
+  - value: 2.440916
+    errors:
+    - {symerror: 0.049573, label: 'stat error'}
+  - value: 2.253429
+    errors:
+    - {symerror: 0.045811, label: 'stat error'}
+  - value: 1.922252
+    errors:
+    - {symerror: 0.039201, label: 'stat error'}
+  - value: 1.743131
+    errors:
+    - {symerror: 0.052810, label: 'stat error'}
+  - value: 1.590114
+    errors:
+    - {symerror: 0.048202, label: 'stat error'}
+  - value: 1.444143
+    errors:
+    - {symerror: 0.043849, label: 'stat error'}
+  - value: 1.322394
+    errors:
+    - {symerror: 0.040135, label: 'stat error'}
+  - value: 1.174102
+    errors:
+    - {symerror: 0.047392, label: 'stat error'}
+  - value: 1.068198
+    errors:
+    - {symerror: 0.042728, label: 'stat error'}
+- header: {name: 'spectra $d^2N/(2\pi p_T dp_T dy)[(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au 62.4 GeV $p$ $10-20\%$'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 4.222777
+    errors:
+    - {symerror: 0.043394, label: 'stat error'}
+  - value: 4.199121
+    errors:
+    - {symerror: 0.043347, label: 'stat error'}
+  - value: 4.158672
+    errors:
+    - {symerror: 0.043061, label: 'stat error'}
+  - value: 4.076289
+    errors:
+    - {symerror: 0.042295, label: 'stat error'}
+  - value: 3.932643
+    errors:
+    - {symerror: 0.079441, label: 'stat error'}
+  - value: 3.748193
+    errors:
+    - {symerror: 0.075752, label: 'stat error'}
+  - value: 3.491699
+    errors:
+    - {symerror: 0.070620, label: 'stat error'}
+  - value: 3.236063
+    errors:
+    - {symerror: 0.065501, label: 'stat error'}
+  - value: 3.012531
+    errors:
+    - {symerror: 0.061024, label: 'stat error'}
+  - value: 2.690369
+    errors:
+    - {symerror: 0.081213, label: 'stat error'}
+  - value: 2.433176
+    errors:
+    - {symerror: 0.073486, label: 'stat error'}
+  - value: 2.195803
+    errors:
+    - {symerror: 0.066416, label: 'stat error'}
+  - value: 1.978584
+    errors:
+    - {symerror: 0.060083, label: 'stat error'}
+  - value: 1.807464
+    errors:
+    - {symerror: 0.072691, label: 'stat error'}
+  - value: 1.631560
+    errors:
+    - {symerror: 0.065263, label: 'stat error'}
+- header: {name: 'spectra $d^2N/(2\pi p_T dp_T dy)[(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au 62.4 GeV $p$ $5-10\%$'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 5.346377
+    errors:
+    - {symerror: 0.055808, label: 'stat error'}
+  - value: 5.371730
+    errors:
+    - {symerror: 0.056436, label: 'stat error'}
+  - value: 5.377905
+    errors:
+    - {symerror: 0.056740, label: 'stat error'}
+  - value: 5.274526
+    errors:
+    - {symerror: 0.055880, label: 'stat error'}
+  - value: 5.046530
+    errors:
+    - {symerror: 0.102575, label: 'stat error'}
+  - value: 4.802540
+    errors:
+    - {symerror: 0.097706, label: 'stat error'}
+  - value: 4.518371
+    errors:
+    - {symerror: 0.092034, label: 'stat error'}
+  - value: 4.206477
+    errors:
+    - {symerror: 0.085780, label: 'stat error'}
+  - value: 3.898142
+    errors:
+    - {symerror: 0.079618, label: 'stat error'}
+  - value: 3.452999
+    errors:
+    - {symerror: 0.104642, label: 'stat error'}
+  - value: 3.182676
+    errors:
+    - {symerror: 0.096564, label: 'stat error'}
+  - value: 2.934894
+    errors:
+    - {symerror: 0.089218, label: 'stat error'}
+  - value: 2.657053
+    errors:
+    - {symerror: 0.081625, label: 'stat error'}
+  - value: 2.413469
+    errors:
+    - {symerror: 0.097209, label: 'stat error'}
+  - value: 2.176121
+    errors:
+    - {symerror: 0.088192, label: 'stat error'}
+- header: {name: 'spectra $d^2N/(2\pi p_T dp_T dy)[(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_T$', value: 'Au+Au 62.4 GeV $p$ $0-5\%$'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'stat error'}
+  - value: 6.473799
+    errors:
+    - {symerror: 0.067130, label: 'stat error'}
+  - value: 6.502940
+    errors:
+    - {symerror: 0.067780, label: 'stat error'}
+  - value: 6.442840
+    errors:
+    - {symerror: 0.067412, label: 'stat error'}
+  - value: 6.375838
+    errors:
+    - {symerror: 0.066868, label: 'stat error'}
+  - value: 6.089652
+    errors:
+    - {symerror: 0.123427, label: 'stat error'}
+  - value: 5.839943
+    errors:
+    - {symerror: 0.118450, label: 'stat error'}
+  - value: 5.485851
+    errors:
+    - {symerror: 0.111370, label: 'stat error'}
+  - value: 5.106960
+    errors:
+    - {symerror: 0.103811, label: 'stat error'}
+  - value: 4.804566
+    errors:
+    - {symerror: 0.097767, label: 'stat error'}
+  - value: 4.292276
+    errors:
+    - {symerror: 0.129780, label: 'stat error'}
+  - value: 3.904393
+    errors:
+    - {symerror: 0.118270, label: 'stat error'}
+  - value: 3.601454
+    errors:
+    - {symerror: 0.109409, label: 'stat error'}
+  - value: 3.274822
+    errors:
+    - {symerror: 0.099335, label: 'stat error'}
+  - value: 2.996380
+    errors:
+    - {symerror: 0.120663, label: 'stat error'}
+  - value: 2.693654
+    errors:
+    - {symerror: 0.109146, label: 'stat error'}

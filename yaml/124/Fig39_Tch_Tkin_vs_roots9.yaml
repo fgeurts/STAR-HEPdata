@@ -1,0 +1,32 @@
+independent_variables:
+- header: {name: '$\sqrt{s_{NN}}[GeV]$'}
+  values:
+  - {value: 1.98}
+  - {value: 2.05}
+  - {value: 2.14}
+  - {value: 2.23}
+  - {value: 2.31}
+  - {value: 2.37}
+dependent_variables:
+- header: {name: '$T_{kin}[MeV]$'}
+  qualifiers:
+  - {name: '$\sqrt{s_{NN}}[GeV]$', value: 'EOS'}
+  values:
+  - value: 31.0
+    errors:
+    - {symerror: 8.5, label: 'total error'}
+  - value: 55.0
+    errors:
+    - {symerror: 26.5, label: 'total error'}
+  - value: 59.0
+    errors:
+    - {symerror: 15.5, label: 'total error'}
+  - value: 69.0
+    errors:
+    - {symerror: 17.5, label: 'total error'}
+  - value: 83.0
+    errors:
+    - {symerror: 23.5, label: 'total error'}
+  - value: 94.0
+    errors:
+    - {symerror: 22.0, label: 'total error'}

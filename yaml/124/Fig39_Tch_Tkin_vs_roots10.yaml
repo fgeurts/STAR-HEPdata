@@ -1,0 +1,20 @@
+independent_variables:
+- header: {name: '$\sqrt{s_{NN}}[GeV]$'}
+  values:
+  - {value: 1.94}
+  - {value: 1.98}
+  - {value: 2.05}
+dependent_variables:
+- header: {name: '$T_{kin}[MeV]$'}
+  qualifiers:
+  - {name: '$\sqrt{s_{NN}}[GeV]$', value: 'FOPI'}
+  values:
+  - value: 17.2
+    errors:
+    - {symerror: 3.4, label: 'total error'}
+  - value: 26.2
+    errors:
+    - {symerror: 5.1, label: 'total error'}
+  - value: 36.7
+    errors:
+    - {symerror: 7.5, label: 'total error'}

@@ -1,0 +1,28 @@
+independent_variables:
+- header: {name: '$\sqrt{s_{NN}}[GeV]$'}
+  values:
+  - {value: 14.00}
+  - {value: 91.00}
+  - {value: 27.40}
+  - {value: 200.00}
+  - {value: 900.00}
+dependent_variables:
+- header: {name: '$T_{chem}[MeV]$'}
+  qualifiers:
+  - {name: '$\sqrt{s_{NN}}[GeV]$', value: 'Elementary collisions Becattini et al.'}
+  values:
+  - value: 167.4
+    errors:
+    - {symerror: 6.5, label: 'total error'}
+  - value: 159.2
+    errors:
+    - {symerror: 0.8, label: 'total error'}
+  - value: 162.4
+    errors:
+    - {symerror: 1.6, label: 'total error'}
+  - value: 175.0
+    errors:
+    - {symerror: 11.0, label: 'total error'}
+  - value: 167.0
+    errors:
+    - {symerror: 9.0, label: 'total error'}

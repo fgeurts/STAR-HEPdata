@@ -1,0 +1,16 @@
+independent_variables:
+- header: {name: '$\sqrt{s_{NN}}[GeV]$'}
+  values:
+  - {value: 4.80}
+  - {value: 4.80}
+dependent_variables:
+- header: {name: '$T_{chem}[MeV]$'}
+  qualifiers:
+  - {name: '$\sqrt{s_{NN}}[GeV]$', value: 'AGS'}
+  values:
+  - value: 125.0
+    errors:
+    - {asymerror: {plus: 3.0, minus: -6.0}, label: 'total error'}
+  - value: 120.0
+    errors:
+    - {asymerror: {plus: 5.0, minus: -5.0}, label: 'total error'}

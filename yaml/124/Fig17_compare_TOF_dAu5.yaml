@@ -1,0 +1,75 @@
+independent_variables:
+- header: {name: '$p_T[GeV/c]$ bins'}
+  values:
+  - {low: 0.95, high: 1.05}
+  - {low: 1.05, high: 1.1}
+  - {low: 1.1, high: 1.2}
+  - {low: 1.2, high: 1.4}
+  - {low: 1.4, high: 1.6}
+  - {low: 1.6, high: 1.8}
+  - {low: 1.8, high: 2}
+  - {low: 2, high: 2.5}
+  - {low: 2.5, high: 3}
+  - {low: 3, high: 3.5}
+  - {low: 3.5, high: 4}
+  - {low: 4, high: 4.5}
+  - {low: 4.5, high: 5}
+- header: {name: '$p_T[GeV/c]$'}
+  values:
+  - {value: 0.957}
+  - {value: 1.060}
+  - {value: 1.160}
+  - {value: 1.310}
+  - {value: 1.500}
+  - {value: 1.700}
+  - {value: 1.900}
+  - {value: 2.250}
+  - {value: 2.750}
+  - {value: 3.250}
+  - {value: 3.750}
+  - {value: 4.250}
+  - {value: 4.750}
+dependent_variables:
+- header: {name: '$d^2N/(2\pi p_T dp_T dy)[(GeV/c)^{-2}]$'}
+  qualifiers:
+  - {name: '$p_T[GeV/c]$', value: 'd+Au 200 GeV pbar spectra TOF data'}
+  values:
+  - value: 3.800e-002
+    errors:
+    - {symerror: 2.300e-003, label: 'error'}
+  - value: 3.270e-002
+    errors:
+    - {symerror: 1.410e-003, label: 'error'}
+  - value: 2.360e-002
+    errors:
+    - {symerror: 1.120e-003, label: 'error'}
+  - value: 1.550e-002
+    errors:
+    - {symerror: 6.160e-004, label: 'error'}
+  - value: 8.000e-003
+    errors:
+    - {symerror: 4.040e-004, label: 'error'}
+  - value: 4.780e-003
+    errors:
+    - {symerror: 2.970e-004, label: 'error'}
+  - value: 2.560e-003
+    errors:
+    - {symerror: 2.040e-004, label: 'error'}
+  - value: 1.060e-003
+    errors:
+    - {symerror: 7.970e-005, label: 'error'}
+  - value: 2.020e-004
+    errors:
+    - {symerror: 1.630e-006, label: 'error'}
+  - value: 7.030e-005
+    errors:
+    - {symerror: 8.760e-007, label: 'error'}
+  - value: 2.040e-005
+    errors:
+    - {symerror: 4.510e-007, label: 'error'}
+  - value: 8.610e-006
+    errors:
+    - {symerror: 2.620e-007, label: 'error'}
+  - value: 3.030e-006
+    errors:
+    - {symerror: 1.550e-007, label: 'error'}

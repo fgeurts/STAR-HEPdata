@@ -1,0 +1,15 @@
+independent_variables: []
+dependent_variables:
+- header: {name: '$T_{chem}[MeV]$'}
+  qualifiers:
+  - {name: 'none', value: 'STAR Au+Au'}
+  values:
+  - value: 154.4
+    errors:
+    - {asymerror: {plus: 9.9, minus: -6.6}, label: 'error'}
+  - value: 154.2
+    errors:
+    - {asymerror: {plus: 9.7, minus: -5.8}, label: 'error'}
+  - value: 159.3
+    errors:
+    - {asymerror: {plus: 5.8, minus: -5.8}, label: 'error'}

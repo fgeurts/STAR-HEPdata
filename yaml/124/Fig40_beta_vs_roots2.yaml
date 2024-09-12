@@ -1,0 +1,32 @@
+independent_variables:
+- header: {name: '$\sqrt{s_{NN}}[GeV]$'}
+  values:
+  - {value: 1.98}
+  - {value: 2.05}
+  - {value: 2.14}
+  - {value: 2.23}
+  - {value: 2.31}
+  - {value: 2.37}
+dependent_variables:
+- header: {name: '$<\beta>$'}
+  qualifiers:
+  - {name: '$\sqrt{s_{NN}}[GeV]$', value: 'EOS'}
+  values:
+  - value: 0.190
+    errors:
+    - {symerror: 0.030, label: 'total error'}
+  - value: 0.220
+    errors:
+    - {symerror: 0.070, label: 'total error'}
+  - value: 0.260
+    errors:
+    - {symerror: 0.040, label: 'total error'}
+  - value: 0.300
+    errors:
+    - {symerror: 0.040, label: 'total error'}
+  - value: 0.320
+    errors:
+    - {symerror: 0.050, label: 'total error'}
+  - value: 0.320
+    errors:
+    - {symerror: 0.040, label: 'total error'}

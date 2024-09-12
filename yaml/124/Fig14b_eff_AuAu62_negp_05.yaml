@@ -1,0 +1,260 @@
+independent_variables:
+- header: {name: '$p_T^{MC}$ bins'}
+  values:
+  - {low: 0, high: 0.04}
+  - {low: 0.04, high: 0.08}
+  - {low: 0.08, high: 0.12}
+  - {low: 0.12, high: 0.16}
+  - {low: 0.16, high: 0.2}
+  - {low: 0.2, high: 0.24}
+  - {low: 0.24, high: 0.28}
+  - {low: 0.28, high: 0.32}
+  - {low: 0.32, high: 0.36}
+  - {low: 0.36, high: 0.4}
+  - {low: 0.4, high: 0.44}
+  - {low: 0.44, high: 0.48}
+  - {low: 0.48, high: 0.52}
+  - {low: 0.52, high: 0.56}
+  - {low: 0.56, high: 0.6}
+  - {low: 0.6, high: 0.64}
+  - {low: 0.64, high: 0.68}
+  - {low: 0.68, high: 0.72}
+  - {low: 0.72, high: 0.76}
+  - {low: 0.76, high: 0.8}
+  - {low: 0.8, high: 0.84}
+  - {low: 0.84, high: 0.88}
+  - {low: 0.88, high: 0.92}
+  - {low: 0.92, high: 0.96}
+  - {low: 0.96, high: 1}
+  - {low: 1, high: 1.04}
+  - {low: 1.04, high: 1.08}
+  - {low: 1.08, high: 1.12}
+  - {low: 1.12, high: 1.16}
+  - {low: 1.16, high: 1.2}
+  - {low: 1.2, high: 1.24}
+  - {low: 1.24, high: 1.28}
+  - {low: 1.28, high: 1.32}
+  - {low: 1.32, high: 1.36}
+  - {low: 1.36, high: 1.4}
+  - {low: 1.4, high: 1.44}
+  - {low: 1.44, high: 1.48}
+  - {low: 1.48, high: 1.52}
+  - {low: 1.52, high: 1.56}
+  - {low: 1.56, high: 1.6}
+  - {low: 1.6, high: 1.64}
+  - {low: 1.64, high: 1.68}
+  - {low: 1.68, high: 1.72}
+  - {low: 1.72, high: 1.76}
+  - {low: 1.76, high: 1.8}
+  - {low: 1.8, high: 1.84}
+  - {low: 1.84, high: 1.88}
+  - {low: 1.88, high: 1.92}
+  - {low: 1.92, high: 1.96}
+  - {low: 1.96, high: 2}
+- header: {name: '$p_T^{MC}$'}
+  values:
+  - {value: 0.020000}
+  - {value: 0.060000}
+  - {value: 0.100000}
+  - {value: 0.140000}
+  - {value: 0.180000}
+  - {value: 0.220000}
+  - {value: 0.260000}
+  - {value: 0.300000}
+  - {value: 0.340000}
+  - {value: 0.380000}
+  - {value: 0.420000}
+  - {value: 0.460000}
+  - {value: 0.500000}
+  - {value: 0.540000}
+  - {value: 0.580000}
+  - {value: 0.620000}
+  - {value: 0.660000}
+  - {value: 0.700000}
+  - {value: 0.740000}
+  - {value: 0.780000}
+  - {value: 0.820000}
+  - {value: 0.860000}
+  - {value: 0.900000}
+  - {value: 0.940000}
+  - {value: 0.980000}
+  - {value: 1.020000}
+  - {value: 1.060000}
+  - {value: 1.100000}
+  - {value: 1.140000}
+  - {value: 1.180000}
+  - {value: 1.220000}
+  - {value: 1.260000}
+  - {value: 1.300000}
+  - {value: 1.340000}
+  - {value: 1.380000}
+  - {value: 1.420000}
+  - {value: 1.460000}
+  - {value: 1.500000}
+  - {value: 1.540000}
+  - {value: 1.580000}
+  - {value: 1.620000}
+  - {value: 1.660000}
+  - {value: 1.700000}
+  - {value: 1.740000}
+  - {value: 1.780000}
+  - {value: 1.820000}
+  - {value: 1.860000}
+  - {value: 1.900000}
+  - {value: 1.940000}
+  - {value: 1.980000}
+dependent_variables:
+- header: {name: 'efficiency'}
+  qualifiers:
+  - {name: '$p_T^{MC}$', value: 'Au+Au 200 GeV top $5\%$ $\bar{p}$'}
+  values:
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 1e-10
+    errors:
+    - {symerror: 1e-10, label: 'error'}
+  - value: 0.019615
+    errors:
+    - {symerror: 0.002760, label: 'error'}
+  - value: 0.270284
+    errors:
+    - {symerror: 0.008503, label: 'error'}
+  - value: 0.686379
+    errors:
+    - {symerror: 0.009518, label: 'error'}
+  - value: 0.762347
+    errors:
+    - {symerror: 0.008743, label: 'error'}
+  - value: 0.796483
+    errors:
+    - {symerror: 0.008435, label: 'error'}
+  - value: 0.798411
+    errors:
+    - {symerror: 0.008170, label: 'error'}
+  - value: 0.809769
+    errors:
+    - {symerror: 0.007947, label: 'error'}
+  - value: 0.807524
+    errors:
+    - {symerror: 0.008152, label: 'error'}
+  - value: 0.793918
+    errors:
+    - {symerror: 0.008290, label: 'error'}
+  - value: 0.772489
+    errors:
+    - {symerror: 0.008374, label: 'error'}
+  - value: 0.760891
+    errors:
+    - {symerror: 0.008688, label: 'error'}
+  - value: 0.768236
+    errors:
+    - {symerror: 0.008533, label: 'error'}
+  - value: 0.755871
+    errors:
+    - {symerror: 0.008737, label: 'error'}
+  - value: 0.764118
+    errors:
+    - {symerror: 0.008868, label: 'error'}
+  - value: 0.752395
+    errors:
+    - {symerror: 0.008713, label: 'error'}
+  - value: 0.751816
+    errors:
+    - {symerror: 0.008900, label: 'error'}
+  - value: 0.767694
+    errors:
+    - {symerror: 0.008603, label: 'error'}
+  - value: 0.767157
+    errors:
+    - {symerror: 0.008730, label: 'error'}
+  - value: 0.768135
+    errors:
+    - {symerror: 0.008593, label: 'error'}
+  - value: 0.770121
+    errors:
+    - {symerror: 0.008510, label: 'error'}
+  - value: 0.748541
+    errors:
+    - {symerror: 0.008812, label: 'error'}
+  - value: 0.770435
+    errors:
+    - {symerror: 0.008573, label: 'error'}
+  - value: 0.756727
+    errors:
+    - {symerror: 0.008901, label: 'error'}
+  - value: 0.763381
+    errors:
+    - {symerror: 0.008684, label: 'error'}
+  - value: 0.772824
+    errors:
+    - {symerror: 0.008563, label: 'error'}
+  - value: 0.760275
+    errors:
+    - {symerror: 0.008754, label: 'error'}
+  - value: 0.755499
+    errors:
+    - {symerror: 0.008794, label: 'error'}
+  - value: 0.758972
+    errors:
+    - {symerror: 0.008648, label: 'error'}
+  - value: 0.778064
+    errors:
+    - {symerror: 0.008657, label: 'error'}
+  - value: 0.777416
+    errors:
+    - {symerror: 0.008424, label: 'error'}
+  - value: 0.756035
+    errors:
+    - {symerror: 0.009004, label: 'error'}
+  - value: 0.765401
+    errors:
+    - {symerror: 0.008734, label: 'error'}
+  - value: 0.747075
+    errors:
+    - {symerror: 0.008827, label: 'error'}
+  - value: 0.758387
+    errors:
+    - {symerror: 0.008881, label: 'error'}
+  - value: 0.766469
+    errors:
+    - {symerror: 0.008651, label: 'error'}
+  - value: 0.766216
+    errors:
+    - {symerror: 0.008595, label: 'error'}
+  - value: 0.766396
+    errors:
+    - {symerror: 0.008719, label: 'error'}
+  - value: 0.769393
+    errors:
+    - {symerror: 0.008583, label: 'error'}
+  - value: 0.765519
+    errors:
+    - {symerror: 0.008734, label: 'error'}
+  - value: 0.764983
+    errors:
+    - {symerror: 0.008743, label: 'error'}
+  - value: 0.766247
+    errors:
+    - {symerror: 0.008569, label: 'error'}
+  - value: 0.780979
+    errors:
+    - {symerror: 0.008462, label: 'error'}
+  - value: 0.799006
+    errors:
+    - {symerror: 0.008247, label: 'error'}
+  - value: 0.779424
+    errors:
+    - {symerror: 0.008394, label: 'error'}

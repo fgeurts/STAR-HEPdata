@@ -1,0 +1,24 @@
+independent_variables:
+- header: {name: '$\sqrt{s_{NN}}[GeV]$'}
+  values:
+  - {value: 1.91}
+  - {value: 2.67}
+  - {value: 2.31}
+  - {value: 2.24}
+dependent_variables:
+- header: {name: '$\mu_B[MeV]$'}
+  qualifiers:
+  - {name: '$\sqrt{s_{NN}}[GeV]$', value: 'SIS'}
+  values:
+  - value: 825.0
+    errors:
+    - {symerror: 8.0, label: 'total error'}
+  - value: 720.0
+    errors:
+    - {symerror: 30.0, label: 'total error'}
+  - value: 810.0
+    errors:
+    - {symerror: 12.0, label: 'total error'}
+  - value: 808.0
+    errors:
+    - {symerror: 5.0, label: 'total error'}

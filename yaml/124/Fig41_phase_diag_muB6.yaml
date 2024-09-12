@@ -1,0 +1,9 @@
+independent_variables: []
+dependent_variables:
+- header: {name: '$\mu_B[MeV]$'}
+  qualifiers:
+  - {name: 'none', value: 'STAR pp 200 GeV'}
+  values:
+  - value: 8.9
+    errors:
+    - {symerror: 3.8, label: 'error'}

@@ -1,0 +1,58 @@
+independent_variables:
+- header: {name: '$\sqrt{s_{NN}}[GeV]$'}
+  values:
+  - {value: 2.70}
+  - {value: 3.32}
+  - {value: 3.84}
+  - {value: 4.30}
+  - {value: 4.85}
+  - {value: 8.76}
+  - {value: 12.30}
+  - {value: 17.30}
+  - {value: 130.00}
+  - {value: 200.00}
+dependent_variables:
+- header: {name: '$T_{chem}[MeV]$'}
+  qualifiers:
+  - {name: '$\sqrt{s_{NN}}[GeV]$', value: 'Andronic et al.'}
+  values:
+  - value: 64.0
+    errors:
+    - {symerror: 1.0, label: 'stat error'}
+    - {asymerror: {plus: 10.0, minus: -2.0}, label: 'syst error'}
+  - value: 78.0
+    errors:
+    - {symerror: 2.0, label: 'stat error'}
+    - {asymerror: {plus: 12.0, minus: -3.0}, label: 'syst error'}
+  - value: 86.0
+    errors:
+    - {symerror: 2.0, label: 'stat error'}
+    - {asymerror: {plus: 13.0, minus: -3.0}, label: 'syst error'}
+  - value: 93.0
+    errors:
+    - {symerror: 3.0, label: 'stat error'}
+    - {asymerror: {plus: 14.0, minus: -3.0}, label: 'syst error'}
+  - value: 124.0
+    errors:
+    - {symerror: 3.0, label: 'stat error'}
+    - {asymerror: {plus: 7.0, minus: -7.0}, label: 'syst error'}
+  - value: 156.0
+    errors:
+    - {symerror: 4.0, label: 'stat error'}
+    - {asymerror: {plus: 11.0, minus: -11.0}, label: 'syst error'}
+  - value: 154.0
+    errors:
+    - {symerror: 6.0, label: 'stat error'}
+    - {asymerror: {plus: 12.0, minus: -12.0}, label: 'syst error'}
+  - value: 160.0
+    errors:
+    - {symerror: 5.0, label: 'stat error'}
+    - {asymerror: {plus: 19.0, minus: -12.0}, label: 'syst error'}
+  - value: 165.5
+    errors:
+    - {symerror: 5.5, label: 'stat error'}
+    - {asymerror: {plus: 6.0, minus: -6.0}, label: 'syst error'}
+  - value: 160.5
+    errors:
+    - {symerror: 2.0, label: 'stat error'}
+    - {asymerror: {plus: 6.0, minus: -6.0}, label: 'syst error'}

@@ -1,0 +1,20 @@
+independent_variables:
+- header: {name: '$\sqrt{s_{NN}}[GeV]$'}
+  values:
+  - {value: 8.80}
+  - {value: 12.30}
+  - {value: 17.30}
+dependent_variables:
+- header: {name: '$T_{kin}[MeV]$'}
+  qualifiers:
+  - {name: '$\sqrt{s_{NN}}[GeV]$', value: 'NA49'}
+  values:
+  - value: 134.0
+    errors:
+    - {symerror: 5.0, label: 'total error'}
+  - value: 127.0
+    errors:
+    - {symerror: 7.0, label: 'total error'}
+  - value: 125.0
+    errors:
+    - {symerror: 5.0, label: 'total error'}

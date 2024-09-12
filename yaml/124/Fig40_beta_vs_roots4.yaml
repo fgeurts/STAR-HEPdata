@@ -1,0 +1,20 @@
+independent_variables:
+- header: {name: '$\sqrt{s_{NN}}[GeV]$'}
+  values:
+  - {value: 8.80}
+  - {value: 12.30}
+  - {value: 17.30}
+dependent_variables:
+- header: {name: '$<\beta>$'}
+  qualifiers:
+  - {name: '$\sqrt{s_{NN}}[GeV]$', value: 'NA49'}
+  values:
+  - value: 0.450
+    errors:
+    - {symerror: 0.020, label: 'total error'}
+  - value: 0.470
+    errors:
+    - {symerror: 0.020, label: 'total error'}
+  - value: 0.480
+    errors:
+    - {symerror: 0.020, label: 'total error'}

@@ -1,0 +1,46 @@
+independent_variables: []
+dependent_variables:
+- header: {name: '$\mu_B[MeV]$'}
+  qualifiers:
+  - {name: 'none', value: 'Andronic et al.'}
+  values:
+  - value: 760.0
+    errors:
+    - {symerror: 20.0, label: 'stat error'}
+    - {symerror: 23.0, label: 'syst error'}
+  - value: 670.0
+    errors:
+    - {symerror: 16.0, label: 'stat error'}
+    - {symerror: 20.0, label: 'syst error'}
+  - value: 615.0
+    errors:
+    - {symerror: 8.0, label: 'stat error'}
+    - {symerror: 19.0, label: 'syst error'}
+  - value: 580.0
+    errors:
+    - {symerror: 11.0, label: 'stat error'}
+    - {symerror: 17.0, label: 'syst error'}
+  - value: 537.0
+    errors:
+    - {symerror: 10.0, label: 'stat error'}
+    - {symerror: 12.0, label: 'syst error'}
+  - value: 403.0
+    errors:
+    - {symerror: 18.0, label: 'stat error'}
+    - {symerror: 32.0, label: 'syst error'}
+  - value: 298.0
+    errors:
+    - {symerror: 19.0, label: 'stat error'}
+    - {symerror: 33.0, label: 'syst error'}
+  - value: 240.0
+    errors:
+    - {symerror: 18.0, label: 'stat error'}
+    - {symerror: 24.0, label: 'syst error'}
+  - value: 38.0
+    errors:
+    - {symerror: 11.0, label: 'stat error'}
+    - {symerror: 11.0, label: 'syst error'}
+  - value: 20.0
+    errors:
+    - {symerror: 4.0, label: 'stat error'}
+    - {symerror: 7.0, label: 'syst error'}

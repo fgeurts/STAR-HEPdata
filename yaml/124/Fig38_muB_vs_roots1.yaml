@@ -1,0 +1,24 @@
+independent_variables:
+- header: {name: '$\sqrt{s_{NN}}[GeV]$'}
+  values:
+  - {value: 4.80}
+  - {value: 8.70}
+  - {value: 17.30}
+  - {value: 130.00}
+dependent_variables:
+- header: {name: '$\mu_B[MeV]$'}
+  qualifiers:
+  - {name: '$\sqrt{s_{NN}}[GeV]$', value: 'Becattini et al.'}
+  values:
+  - value: 559.0
+    errors:
+    - {symerror: 16.0, label: 'total error'}
+  - value: 393.7
+    errors:
+    - {symerror: 8.3, label: 'total error'}
+  - value: 238.0
+    errors:
+    - {symerror: 13.0, label: 'total error'}
+  - value: 45.8
+    errors:
+    - {symerror: 6.4, label: 'total error'}
